@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hot News Monitor - Complete UI Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #09090F;
+            --color-surface: #12121A;
+            --color-border: #1F1F2B;
+            --color-highlight: #262633;
+            --color-primary: #60A5FA;
+            --color-primary-light: #93C5FD;
+            --color-success: #22C55E;
+            --color-warning: #F59E0B;
+            --color-error: #EF4444;
+            --color-text-primary: #F9FAFB;
+            --color-text-secondary: #9CA3AF;
+            --color-text-muted: #4B5563;
+            --color-neon-blue: #38BDF8;
+            --color-neon-purple: #A78BFA;
+            --color-neon-cyan: #34D399;
+            --font-heading: 'Orbitron', system-ui, sans-serif;
+            --font-body: 'Exo 2', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 16px;
+            --radius-full: 9999px;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+            --glow-primary: 0 0 20px rgba(96, 165, 250, 0.4),
+                            0 0 40px rgba(96, 165, 250, 0.2);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--color-text-primary);
+            background: var(--color-bg);
+            background-image: radial-gradient(at 20% 20%, rgba(96, 165, 250, 0.08) 0px, transparent 50%),
+                              radial-gradient(at 80% 80%, rgba(167, 139, 250, 0.08) 0px, transparent 50%);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--space-lg) var(--space-xl);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .logo-icon {
+            font-size: 1.75rem;
+        }
+
+        .logo-text {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-neon-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: var(--space-sm);
+            background: var(--color-surface);
+            padding: var(--space-xs);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--color-border);
+        }
+
+        .nav-tab {
+            padding: var(--space-sm) var(--space-lg);
+            border: none;
+            background: transparent;
+            color: var(--color-text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        .nav-tab:hover {
+            color: var(--color-text-primary);
+            background: var(--color-highlight);
+        }
+
+        .nav-tab.active {
+            background: var(--color-primary);
+            color: white;
+            box-shadow: 0 0 15px rgba(96, 165, 250, 0.4);
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .last-update {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .refresh-btn {
+            padding: var(--space-sm) var(--space-md);
+            background: var(--color-highlight);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            color: var(--color-text-primary);
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        .refresh-btn:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: var(--space-xl);
+        }
+
+        .page {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Platform Tabs */
+        .platform-tabs {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-xl);
+            border-bottom: 1px solid var(--color-border);
+            flex-wrap: wrap;
+        }
+
+        .platform-tab {
+            padding: var(--space-sm) var(--space-lg);
+            border: none;
+            background: transparent;
+            color: var(--color-text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .platform-tab:hover {
+            color: var(--color-text-primary);
+            background: var(--color-highlight);
+        }
+
+        .platform-tab.active {
+            color: var(--color-primary);
+            border-bottom-color: var(--color-primary);
+            text-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+        }
+
+        .platform-tab .count {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 1.5rem;
+            height: 1.25rem;
+            padding: 0 var(--space-xs);
+            background: var(--color-highlight);
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: var(--space-xs);
+        }
+
+        .platform-tab.active .count {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        /* News List */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .news-card {
+            display: flex;
+            gap: var(--space-md);
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-md);
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .news-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-neon-purple) 100%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .news-card:hover {
+            border-color: var(--color-primary);
+            box-shadow: var(--glow-primary);
+            transform: translateX(4px);
+            background: var(--color-highlight);
+        }
+
+        .news-card:hover::before {
+            opacity: 1;
+        }
+
+        .news-cover {
+            width: 160px;
+            height: 90px;
+            border-radius: var(--radius-md);
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            overflow: hidden;
+        }
+
+        .news-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .news-content {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .news-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-xs);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-height: 1.4;
+        }
+
+        .news-card:hover .news-title {
+            color: var(--color-primary-light);
+        }
+
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-sm);
+        }
+
+        .platform-badge {
+            padding: 4px 10px;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .platform-weibo { background: linear-gradient(135deg, #E6162D, #C41230); }
+        .platform-bilibili { background: linear-gradient(135deg, #FB7299, #F45489); }
+        .platform-xiaohongshu { background: linear-gradient(135deg, #FE2C55, #E31B47); }
+        .platform-x { background: linear-gradient(135deg, #000000, #1A1A1A); }
+        .platform-facebook { background: linear-gradient(135deg, #1877F2, #0D47A1); }
+
+        .news-time {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .news-stats {
+            display: flex;
+            gap: var(--space-md);
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+        }
+
+        .news-stats span {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        .news-tags {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            background: var(--color-highlight);
+            color: var(--color-text-secondary);
+            font-size: 0.75rem;
+            border-radius: var(--radius-full);
+            border: 1px solid var(--color-border);
+            transition: all 0.2s ease;
+        }
+
+        .tag:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        .tag::before {
+            content: '#';
+            margin-right: 2px;
+            opacity: 0.7;
+        }
+
+        /* Monitor Page */
+        .monitor-header {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: var(--space-md);
+            margin-bottom: var(--space-xl);
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, var(--color-surface), var(--color-bg));
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .metric-card:hover {
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.1), transparent);
+            pointer-events: none;
+        }
+
+        .metric-value {
+            font-family: var(--font-mono);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            text-shadow: 0 0 10px rgba(96, 165, 250, 0.3);
+            position: relative;
+            z-index: 1;
+            margin-bottom: var(--space-xs);
+        }
+
+        .metric-value.success { color: var(--color-success); text-shadow: 0 0 10px rgba(34, 197, 94, 0.3); }
+        .metric-value.warning { color: var(--color-warning); text-shadow: 0 0 10px rgba(245, 158, 11, 0.3); }
+        .metric-value.danger { color: var(--color-error); text-shadow: 0 0 10px rgba(239, 68, 68, 0.3); }
+
+        .metric-label {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .metric-trend {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-xs);
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: var(--radius-full);
+            margin-top: var(--space-xs);
+        }
+
+        .metric-trend.up { background: rgba(34, 197, 94, 0.15); color: var(--color-success); }
+        .metric-trend.down { background: rgba(239, 68, 68, 0.15); color: var(--color-error); }
+
+        .monitor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: var(--space-xl);
+        }
+
+        .monitor-section {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-lg);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-md);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .section-icon {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-highlight);
+            border-radius: var(--radius-md);
+            font-size: 1rem;
+        }
+
+        /* Platform Status */
+        .platform-status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: var(--space-md);
+        }
+
+        .platform-status-card {
+            background: var(--color-highlight);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-md);
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .platform-status-card.online { border-color: var(--color-success); }
+        .platform-status-card.offline { border-color: var(--color-error); }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: var(--space-xs);
+        }
+
+        .status-dot.online { background: var(--color-success); box-shadow: 0 0 10px var(--color-success); animation: pulseDot 2s ease-in-out infinite; }
+        .status-dot.offline { background: var(--color-error); box-shadow: 0 0 10px var(--color-error); }
+
+        @keyframes pulseDot {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .platform-status-name {
+            font-weight: 600;
+            margin: var(--space-sm) 0;
+        }
+
+        .platform-status-meta {
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+        }
+
+        /* Failure Reasons */
+        .failure-reasons {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .failure-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .failure-label {
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .failure-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .failure-bar {
+            flex: 1;
+            height: 12px;
+            background: var(--color-highlight);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+        }
+
+        .failure-bar-fill {
+            height: 100%;
+            border-radius: var(--radius-full);
+            transition: width 0.5s ease;
+        }
+
+        .failure-count {
+            min-width: 50px;
+            text-align: right;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+        }
+
+        /* Execution Logs */
+        .record-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: var(--space-sm);
+        }
+
+        .record-list::-webkit-scrollbar { width: 6px; }
+        .record-list::-webkit-scrollbar-track { background: var(--color-highlight); border-radius: var(--radius-full); }
+        .record-list::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: var(--radius-full); }
+
+        .record-item {
+            display: flex;
+            gap: var(--space-md);
+            padding: var(--space-md);
+            background: var(--color-highlight);
+            border-radius: var(--radius-lg);
+            border: 1px solid transparent;
+            border-left-width: 3px;
+            transition: all 0.2s ease;
+        }
+
+        .record-item:hover {
+            border-color: var(--color-border);
+            border-left-width: 3px;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .record-item.success { border-left-color: var(--color-success); }
+        .record-item.error { border-left-color: var(--color-error); }
+
+        .record-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .record-item.success .record-icon {
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--color-success);
+        }
+
+        .record-item.error .record-icon {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--color-error);
+        }
+
+        .record-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .record-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .record-meta {
+            display: flex;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .record-time {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .record-detail {
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+        }
+
+        .record-detail.error-detail {
+            color: var(--color-error);
+            font-weight: 500;
+        }
+
+        /* Annotation Panel */
+        .annotation-toggle {
+            position: fixed;
+            right: var(--space-lg);
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+            padding: var(--space-md);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .annotation-toggle:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        .annotation-panel {
+            position: fixed;
+            right: -400px;
+            top: 0;
+            bottom: 0;
+            width: 400px;
+            background: var(--color-surface);
+            border-left: 1px solid var(--color-border);
+            z-index: 999;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+        }
+
+        .annotation-panel.open {
+            right: 0;
+        }
+
+        .annotation-header {
+            position: sticky;
+            top: 0;
+            background: var(--color-surface);
+            padding: var(--space-lg);
+            border-bottom: 1px solid var(--color-border);
+            z-index: 10;
+        }
+
+        .annotation-content {
+            padding: var(--space-lg);
+        }
+
+        .annotation-item {
+            background: var(--color-highlight);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+
+        .annotation-item.active {
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+        }
+
+        .annotation-target {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--color-primary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .annotation-title {
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .annotation-desc {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Annotations */
+        .annotated {
+            position: relative;
+        }
+
+        .annotation-mark {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            background: var(--color-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+            z-index: 10;
+            cursor: pointer;
+            box-shadow: var(--glow-primary);
+            animation: pulseMark 2s ease-in-out infinite;
+        }
+
+        @keyframes pulseMark {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .annotation-mark.mark-header { top: -12px; right: -12px; }
+        .annotation-mark.mark-nav { top: -12px; left: 50%; transform: translateX(-50%); }
+        .annotation-mark.mark-tab { top: -8px; right: -8px; width: 20px; height: 20px; font-size: 0.65rem; }
+        .annotation-mark.mark-card { top: -8px; right: -8px; width: 20px; height: 20px; font-size: 0.65rem; }
+        .annotation-mark.mark-metric { top: -8px; right: -8px; width: 20px; height: 20px; font-size: 0.65rem; }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .monitor-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .header { padding: var(--space-md); }
+            .header-content { flex-direction: column; gap: var(--space-md); }
+            .logo-text { font-size: 1rem; }
+            .main-content { padding: var(--space-md); }
+            .news-card { flex-direction: column; }
+            .news-cover { width: 100%; height: 180px; }
+            .monitor-header { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header annotated" id="header-section">
+        <div class="annotation-mark mark-header" data-anno="1">1</div>
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <span class="logo-text">AI Hot News Monitor</span>
+            </div>
+            
+            <nav class="nav-tabs annotated">
+                <div class="annotation-mark mark-nav" data-anno="2">2</div>
+                <button class="nav-tab active" data-page="news">
+                    <span>📰</span> 资讯看板
+                </button>
+                <button class="nav-tab" data-page="monitor">
+                    <span>📊</span> 运行监控
+                </button>
+            </nav>
+            
+            <div class="header-right">
+                <span class="last-update">更新于: 2026-05-07 14:30:00</span>
+                <button class="refresh-btn">
+                    <span>🔄</span> 刷新
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- News Page -->
+        <div class="page active" id="news-page">
+            <div class="platform-tabs annotated" id="platform-tabs">
+                <div class="annotation-mark mark-tab" data-anno="3" style="top: -12px; left: auto; right: auto; transform: none;">3</div>
+                <button class="platform-tab active" data-platform="all">
+                    全部 <span class="count">87</span>
+                </button>
+                <button class="platform-tab" data-platform="weibo">
+                    微博 <span class="count">32</span>
+                </button>
+                <button class="platform-tab" data-platform="bilibili">
+                    哔哩哔哩 <span class="count">25</span>
+                </button>
+                <button class="platform-tab" data-platform="xiaohongshu">
+                    小红书 <span class="count">18</span>
+                </button>
+                <button class="platform-tab" data-platform="x">
+                    X (Twitter) <span class="count">7</span>
+                </button>
+                <button class="platform-tab" data-platform="facebook">
+                    Facebook <span class="count">5</span>
+                </button>
+            </div>
+
+            <div class="news-list">
+                <a href="https://weibo.com" target="_blank" class="news-card annotated" data-platform="weibo">
+                    <div class="annotation-mark mark-card" data-anno="4">4</div>
+                    <div class="news-cover">🔥</div>
+                    <div class="news-content">
+                        <h3 class="news-title">OpenAI 发布 GPT-5 最新进展，多模态能力大幅提升</h3>
+                        <div class="news-meta">
+                            <span class="platform-badge platform-weibo">微博</span>
+                            <span class="news-time">2026-05-07 14:30:00</span>
+                            <div class="news-stats">
+                                <span>👁️ 125.6万</span>
+                                <span>💬 8.2万</span>
+                                <span>🔄 2.5万</span>
+                            </div>
+                        </div>
+                        <div class="news-tags">
+                            <span class="tag">LLM</span>
+                            <span class="tag">GPT-5</span>
+                            <span class="tag">多模态</span>
+                            <span class="tag">OpenAI</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://bilibili.com" target="_blank" class="news-card annotated" data-platform="bilibili">
+                    <div class="news-cover">🎬</div>
+                    <div class="news-content">
+                        <h3 class="news-title">【干货教程】从零构建 AI Agent 工作流完整实战</h3>
+                        <div class="news-meta">
+                            <span class="platform-badge platform-bilibili">哔哩哔哩</span>
+                            <span class="news-time">2026-05-07 12:15:00</span>
+                            <div class="news-stats">
+                                <span>▶️ 45.2万</span>
+                                <span>👍 3.8万</span>
+                                <span>💬 1.2万</span>
+                            </div>
+                        </div>
+                        <div class="news-tags">
+                            <span class="tag">Agent</span>
+                            <span class="tag">教程</span>
+                            <span class="tag">AutoGPT</span>
+                            <span class="tag">实战</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://xiaohongshu.com" target="_blank" class="news-card annotated" data-platform="xiaohongshu">
+                    <div class="news-cover">✨</div>
+                    <div class="news-content">
+                        <h3 class="news-title">2026年最值得尝试的10款AI生产力工具推荐</h3>
+                        <div class="news-meta">
+                            <span class="platform-badge platform-xiaohongshu">小红书</span>
+                            <span class="news-time">2026-05-07 09:20:00</span>
+                            <div class="news-stats">
+                                <span>❤️ 8.9万</span>
+                                <span>⭐ 5.2万</span>
+                                <span>💬 3567</span>
+                            </div>
+                        </div>
+                        <div class="news-tags">
+                            <span class="tag">AI工具</span>
+                            <span class="tag">效率</span>
+                            <span class="tag">推荐</span>
+                            <span class="tag">2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com" target="_blank" class="news-card annotated" data-platform="x">
+                    <div class="news-cover">🚀</div>
+                    <div class="news-content">
+                        <h3 class="news-title">Claude 3 Opus API 重大更新，支持更长上下文窗口</h3>
+                        <div class="news-meta">
+                            <span class="platform-badge platform-x">X (Twitter)</span>
+                            <span class="news-time">2026-05-07 07:10:00</span>
+                            <div class="news-stats">
+                                <span>🔄 28.5K</span>
+                                <span>❤️ 45.2K</span>
+                            </div>
+                        </div>
+                        <div class="news-tags">
+                            <span class="tag">Claude</span>
+                            <span class="tag">Anthropic</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://facebook.com" target="_blank" class="news-card annotated" data-platform="facebook">
+                    <div class="news-cover">📢</div>
+                    <div class="news-content">
+                        <h3 class="news-title">Meta AI 团队开源全新推理框架，性能提升300%</h3>
+                        <div class="news-meta">
+                            <span class="platform-badge platform-facebook">Facebook</span>
+                            <span class="news-time">2026-05-06 23:45:00</span>
+                            <div class="news-stats">
+                                <span>🔄 15.2K</span>
+                                <span>❤️ 22.8K</span>
+                            </div>
+                        </div>
+                        <div class="news-tags">
+                            <span class="tag">Meta</span>
+                            <span class="tag">开源</span>
+                            <span class="tag">推理优化</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Monitor Page -->
+        <div class="page" id="monitor-page">
+            <div class="monitor-header">
+                <div class="metric-card annotated">
+                    <div class="annotation-mark mark-metric" data-anno="5">5</div>
+                    <div class="metric-value success">98.5%</div>
+                    <div class="metric-label">采集成功率</div>
+                    <div class="metric-trend up">↑ 2.3% 较昨日</div>
+                </div>
+                <div class="metric-card annotated">
+                    <div class="metric-value danger">1.5%</div>
+                    <div class="metric-label">失败率</div>
+                    <div class="metric-trend down">↓ 0.8% 较昨日</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">2.1s</div>
+                    <div class="metric-label">平均响应时间</div>
+                    <div class="metric-trend up">↑ 0.3s 较昨日</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value success">87.2%</div>
+                    <div class="metric-label">封面获取率</div>
+                    <div class="metric-trend up">↑ 5.1% 较昨日</div>
+                </div>
+            </div>
+
+            <div class="monitor-grid">
+                <div class="monitor-section annotated">
+                    <div class="annotation-mark mark-metric" data-anno="6" style="top: 12px; right: 12px;">6</div>
+                    <div class="section-header">
+                        <h3 class="section-title">
+                            <span class="section-icon">🌐</span>
+                            平台状态监控
+                        </h3>
+                    </div>
+                    <div class="platform-status-grid">
+                        <div class="platform-status-card online">
+                            <span class="status-dot online"></span>
+                            <div class="platform-status-name">微博</div>
+                            <div class="platform-status-meta">正常 · 32条</div>
+                        </div>
+                        <div class="platform-status-card online">
+                            <span class="status-dot online"></span>
+                            <div class="platform-status-name">哔哩哔哩</div>
+                            <div class="platform-status-meta">正常 · 25条</div>
+                        </div>
+                        <div class="platform-status-card online">
+                            <span class="status-dot online"></span>
+                            <div class="platform-status-name">小红书</div>
+                            <div class="platform-status-meta">正常 · 18条</div>
+                        </div>
+                        <div class="platform-status-card offline">
+                            <span class="status-dot offline"></span>
+                            <div class="platform-status-name">X (Twitter)</div>
+                            <div class="platform-status-meta">异常 · 7条</div>
+                        </div>
+                        <div class="platform-status-card online">
+                            <span class="status-dot online"></span>
+                            <div class="platform-status-name">Facebook</div>
+                            <div class="platform-status-meta">正常 · 5条</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="monitor-section">
+                    <div class="section-header">
+                        <h3 class="section-title">
+                            <span class="section-icon">📊</span>
+                            失败原因统计
+                        </h3>
+                    </div>
+                    <div class="failure-reasons">
+                        <div class="failure-item annotated">
+                            <div class="annotation-mark mark-metric" data-anno="7" style="top: -4px; right: -4px; width: 18px; height: 18px; font-size: 0.6rem;">7</div>
+                            <div class="failure-label">
+                                <span class="failure-dot" style="background: var(--color-error);"></span>
+                                网络超时
+                            </div>
+                            <div class="failure-bar">
+                                <div class="failure-bar-fill" style="width: 45%; background: var(--color-error);"></div>
+                            </div>
+                            <span class="failure-count">12次</span>
+                        </div>
+                        <div class="failure-item">
+                            <div class="failure-label">
+                                <span class="failure-dot" style="background: var(--color-warning);"></span>
+                                Cookie过期
+                            </div>
+                            <div class="failure-bar">
+                                <div class="failure-bar-fill" style="width: 30%; background: var(--color-warning);"></div>
+                            </div>
+                            <span class="failure-count">8次</span>
+                        </div>
+                        <div class="failure-item">
+                            <div class="failure-label">
+                                <span class="failure-dot" style="background: var(--color-neon-purple);"></span>
+                                页面结构变化
+                            </div>
+                            <div class="failure-bar">
+                                <div class="failure-bar-fill" style="width: 15%; background: var(--color-neon-purple);"></div>
+                            </div>
+                            <span class="failure-count">4次</span>
+                        </div>
+                        <div class="failure-item">
+                            <div class="failure-label">
+                                <span class="failure-dot" style="background: var(--color-neon-blue);"></span>
+                                认证失败
+                            </div>
+                            <div class="failure-bar">
+                                <div class="failure-bar-fill" style="width: 7%; background: var(--color-neon-blue);"></div>
+                            </div>
+                            <span class="failure-count">2次</span>
+                        </div>
+                        <div class="failure-item">
+                            <div class="failure-label">
+                                <span class="failure-dot" style="background: var(--color-text-secondary);"></span>
+                                其他原因
+                            </div>
+                            <div class="failure-bar">
+                                <div class="failure-bar-fill" style="width: 3%; background: var(--color-text-secondary);"></div>
+                            </div>
+                            <span class="failure-count">1次</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="monitor-section" style="grid-column: 1 / -1;">
+                    <div class="section-header">
+                        <h3 class="section-title">
+                            <span class="section-icon">📝</span>
+                            最近采集记录
+                        </h3>
+                    </div>
+                    <div class="record-list">
+                        <div class="record-item success annotated">
+                            <div class="annotation-mark mark-metric" data-anno="8" style="top: 12px; right: 12px; width: 18px; height: 18px; font-size: 0.6rem;">8</div>
+                            <div class="record-icon">✓</div>
+                            <div class="record-content">
+                                <div class="record-title">微博热榜采集</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 14:30:00</span>
+                                    <span class="record-detail">成功获取 32 条资讯 · 耗时 2.1s</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="record-item success">
+                            <div class="record-icon">✓</div>
+                            <div class="record-content">
+                                <div class="record-title">哔哩哔哩热门采集</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 14:30:02</span>
+                                    <span class="record-detail">成功获取 25 条资讯 · 耗时 1.8s</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="record-item success">
+                            <div class="record-icon">✓</div>
+                            <div class="record-content">
+                                <div class="record-title">小红书热榜采集</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 14:30:04</span>
+                                    <span class="record-detail">成功获取 18 条资讯 · 耗时 2.5s</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="record-item error">
+                            <div class="record-icon">✕</div>
+                            <div class="record-content">
+                                <div class="record-title">X (Twitter) 趋势采集</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 14:30:07</span>
+                                    <span class="record-detail error-detail">失败: 网络超时，请检查网络连接或更新代理</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="record-item success">
+                            <div class="record-icon">✓</div>
+                            <div class="record-content">
+                                <div class="record-title">Facebook热门采集</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 14:30:09</span>
+                                    <span class="record-detail">成功获取 5 条资讯 · 耗时 1.9s</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="record-item success">
+                            <div class="record-icon">✓</div>
+                            <div class="record-content">
+                                <div class="record-title">微博热搜采集（上一轮）</div>
+                                <div class="record-meta">
+                                    <span class="record-time">2026-05-07 12:30:00</span>
+                                    <span class="record-detail">成功获取 30 条资讯 · 耗时 2.0s</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Annotation Toggle -->
+    <button class="annotation-toggle" id="anno-toggle" title="切换标注面板">
+        📌 标注
+    </button>
+
+    <!-- Annotation Panel -->
+    <div class="annotation-panel" id="anno-panel">
+        <div class="annotation-header">
+            <h2 style="font-family: var(--font-heading); font-size: 1.25rem;">📋 UI 设计说明</h2>
+            <p style="font-size: 0.85rem; color: var(--color-text-secondary); margin-top: var(--space-xs);">点击数字标记查看详情</p>
+        </div>
+        <div class="annotation-content">
+            <div class="annotation-item" data-anno-ref="1">
+                <div class="annotation-target">#header-section</div>
+                <div class="annotation-title">1. 顶部导航栏</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 采用深色渐变背景，营造科技感<br>
+                    - 左侧Logo：包含图标和品牌文字，使用Orbitron字体<br>
+                    - 中间导航：资讯看板/运行监控页面切换<br>
+                    - 右侧信息：最后更新时间 + 手动刷新按钮<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 导航Tab点击切换页面，带淡入动画<br>
+                    - 刷新按钮点击触发数据更新
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="2">
+                <div class="annotation-target">#nav-tabs</div>
+                <div class="annotation-title">2. 页面切换导航</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 采用胶囊式设计，置于半透明容器中<br>
+                    - 激活状态：霓虹蓝填充 + 发光效果<br>
+                    - 未激活状态：透明背景 + 灰色文字<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 悬停：背景变亮，文字变白<br>
+                    - 点击：切换页面，状态平滑过渡
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="3">
+                <div class="annotation-target">#platform-tabs</div>
+                <div class="annotation-title">3. 平台筛选Tab</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 下划线式Tab设计，简洁清晰<br>
+                    - 每个Tab显示平台名称 + 资讯数量徽章<br>
+                    - 激活状态：霓虹蓝文字 + 霓虹蓝底部边框<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 悬停：背景变亮<br>
+                    - 点击：筛选对应平台资讯<br>
+                    - 全部：显示所有平台内容
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="4">
+                <div class="annotation-target">.news-card</div>
+                <div class="annotation-title">4. 资讯卡片</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 左侧封面：16:9比例，占位或真实图片<br>
+                    - 平台徽章：渐变色设计，区分不同平台<br>
+                    - 标题：2行截断，避免过长<br>
+                    - 元数据：发布时间 + 平台专属指标（阅读/播放/点赞等）<br>
+                    - 标签：#号前缀，圆角设计<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 悬停：右侧发光，向左滑出4px，左侧渐变条出现<br>
+                    - 点击：新标签页跳转到原始链接
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="5">
+                <div class="annotation-target">.metric-card</div>
+                <div class="annotation-title">5. 指标卡片</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 渐变背景 + 半透明装饰效果<br>
+                    - 数值：等宽字体，大尺寸显示<br>
+                    - 趋势指示器：上下箭头 + 背景色<br><br>
+                    <strong>颜色规则：</strong><br>
+                    - 成功/上升：绿色 (#22C55E)<br>
+                    - 警告/中性：黄色 (#F59E0B)<br>
+                    - 错误/下降：红色 (#EF4444)
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="6">
+                <div class="annotation-target">.platform-status-card</div>
+                <div class="annotation-title">6. 平台状态卡片</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 状态圆点：在线绿色/离线红色，带霓虹发光效果<br>
+                    - 在线状态：绿色脉冲动画，呼吸效果<br>
+                    - 边框颜色与状态同步<br><br>
+                    <strong>动画说明：</strong><br>
+                    - 在线圆点：2秒循环呼吸动画
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="7">
+                <div class="annotation-target">.failure-item</div>
+                <div class="annotation-title">7. 失败原因统计</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 横向条形图，直观展示占比<br>
+                    - 不同失败原因对应不同颜色：<br>
+                    &nbsp;&nbsp;• 网络超时 → 红色<br>
+                    &nbsp;&nbsp;• Cookie过期 → 黄色<br>
+                    &nbsp;&nbsp;• 页面结构变化 → 紫色<br>
+                    &nbsp;&nbsp;• 认证失败 → 蓝色<br>
+                    &nbsp;&nbsp;• 其他 → 灰色<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 条形宽度带0.5秒加载动画
+                </div>
+            </div>
+
+            <div class="annotation-item" data-anno-ref="8">
+                <div class="annotation-target">.record-item</div>
+                <div class="annotation-title">8. 执行记录项</div>
+                <div class="annotation-desc">
+                    <strong>设计说明：</strong><br>
+                    - 左侧图标：✓成功(绿)/✕失败(红)，圆形背景<br>
+                    - 左侧边框：与状态同色<br>
+                    - 时间戳：等宽字体显示<br>
+                    - 错误信息：红色高亮<br><br>
+                    <strong>交互说明：</strong><br>
+                    - 悬停：背景变亮，展示详情
+                </div>
+            </div>
+
+            <div style="margin-top: var(--space-xl); padding-top: var(--space-lg); border-top: 1px solid var(--color-border);">
+                <h4 style="margin-bottom: var(--space-md); color: var(--color-primary);">📐 设计规范摘要</h4>
+                <div style="font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.8;">
+                    <strong>色彩系统：</strong><br>
+                    • 主色：#60A5FA（霓虹蓝）<br>
+                    • 背景：#09090F（深黑）<br>
+                    • 表面：#12121A（深灰）<br><br>
+                    <strong>字体系统：</strong><br>
+                    • 标题：Orbitron<br>
+                    • 正文：Exo 2<br>
+                    • 代码：JetBrains Mono<br><br>
+                    <strong>间距系统：</strong><br>
+                    • 4px基数递增<br>
+                    • 卡片内边距：16px<br>
+                    • 大区块间距：24-32px<br><br>
+                    <strong>圆角系统：</strong><br>
+                    • 小元素：4-8px<br>
+                    • 卡片：12px<br>
+                    • 大容器：16px
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page Navigation
+        document.querySelectorAll('.nav-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                const pageName = tab.dataset.page;
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(pageName + '-page').classList.add('active');
+            });
+        });
+
+        // Platform Tabs
+        document.querySelectorAll('.platform-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                const platform = tab.dataset.platform;
+                const cards = document.querySelectorAll('.news-card');
+                
+                cards.forEach(card => {
+                    if (platform === 'all' || card.dataset.platform === platform) {
+                        card.style.display = 'flex';
+                        card.style.animation = 'fadeIn 0.3s ease';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Annotation Panel
+        const annoToggle = document.getElementById('anno-toggle');
+        const annoPanel = document.getElementById('anno-panel');
+        const annoMarks = document.querySelectorAll('.annotation-mark');
+        const annoItems = document.querySelectorAll('.annotation-item');
+
+        annoToggle.addEventListener('click', () => {
+            annoPanel.classList.toggle('open');
+        });
+
+        annoMarks.forEach(mark => {
+            mark.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const annoId = mark.dataset.anno;
+                
+                annoItems.forEach(item => item.classList.remove('active'));
+                const targetItem = document.querySelector(`[data-anno-ref="${annoId}"]`);
+                if (targetItem) {
+                    targetItem.classList.add('active');
+                    targetItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    annoPanel.classList.add('open');
+                }
+            });
+        });
+
+        annoItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const annoId = item.dataset.annoRef;
+                const targetMark = document.querySelector(`[data-anno="${annoId}"]`);
+                if (targetMark) {
+                    targetMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    annoItems.forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Refresh button
+        document.querySelector('.refresh-btn').addEventListener('click', () => {
+            const btn = document.querySelector('.refresh-btn');
+            btn.innerHTML = '<span>⏳</span> 更新中...';
+            btn.style.opacity = '0.7';
+            btn.style.cursor = 'not-allowed';
+            
+            setTimeout(() => {
+                btn.innerHTML = '<span>🔄</span> 刷新';
+                btn.style.opacity = '1';
+                btn.style.cursor = 'pointer';
+                
+                const lastUpdate = document.querySelector('.last-update');
+                const now = new Date();
+                const timeStr = now.getFullYear() + '-' + 
+                    String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+                    String(now.getDate()).padStart(2, '0') + ' ' + 
+                    String(now.getHours()).padStart(2, '0') + ':' + 
+                    String(now.getMinutes()).padStart(2, '0') + ':' + 
+                    String(now.getSeconds()).padStart(2, '0');
+                lastUpdate.textContent = '更新于: ' + timeStr;
+            }, 1500);
+        });
+
+        console.log('🤖 AI Hot News Monitor - UI Design Loaded!');
+        console.log('📌 Click on annotation marks to see details');
+    </script>
+</body>
+</html>

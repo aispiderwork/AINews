@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI热点资讯监控系统 - 产品方案</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* === 设计系统 CSS Variables === */
+        :root {
+            --color-bg: #09090F;
+            --color-surface: #12121A;
+            --color-border: #1F1F2B;
+            --color-highlight: #262633;
+            --color-primary: #60A5FA;
+            --color-primary-light: #93C5FD;
+            --color-primary-dark: #3B82F6;
+            --color-success: #22C55E;
+            --color-warning: #F59E0B;
+            --color-error: #EF4444;
+            --color-text-primary: #F9FAFB;
+            --color-text-secondary: #9CA3AF;
+            --color-text-muted: #4B5563;
+            --color-neon-blue: #38BDF8;
+            --color-neon-purple: #A78BFA;
+            --color-neon-cyan: #34D399;
+            --font-heading: 'Orbitron', system-ui, sans-serif;
+            --font-body: 'Exo 2', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 16px;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+            --glow-primary: 0 0 20px rgba(96, 165, 250, 0.4),
+                            0 0 40px rgba(96, 165, 250, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--color-text-primary);
+            background: var(--color-bg);
+            min-height: 100vh;
+            padding: var(--space-lg);
+            background-image: 
+                radial-gradient(at 20% 20%, rgba(96, 165, 250, 0.08) 0px, transparent 50%),
+                radial-gradient(at 80% 80%, rgba(167, 139, 250, 0.08) 0px, transparent 50%);
+        }
+
+        /* === 容器 === */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        /* === 头部 === */
+        header {
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--space-2xl);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.1) 0%, transparent 70%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        header h1 {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            margin-bottom: var(--space-sm);
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--color-text-secondary);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* === 章节 === */
+        .section {
+            padding: var(--space-2xl);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            color: var(--color-primary);
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-sm);
+            border-bottom: 2px solid var(--color-primary);
+            display: inline-block;
+            text-shadow: 0 0 10px rgba(96, 165, 250, 0.3);
+        }
+
+        /* === 功能卡片 === */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+
+        .feature-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--color-primary), var(--color-neon-purple));
+        }
+
+        .feature-card:hover {
+            border-color: var(--color-primary);
+            box-shadow: var(--glow-primary);
+            transform: translateY(-2px);
+        }
+
+        .feature-card h3 {
+            color: var(--color-primary-light);
+            margin-bottom: var(--space-sm);
+            font-size: 1.25rem;
+        }
+
+        .feature-card p {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* === 技术栈 === */
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-md);
+            margin-top: var(--space-lg);
+        }
+
+        .tech-item {
+            background: var(--color-highlight);
+            border: 1px solid var(--color-border);
+            padding: var(--space-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .tech-item:hover {
+            border-color: var(--color-primary);
+            background: var(--color-surface);
+        }
+
+        .tech-item h4 {
+            color: var(--color-primary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .tech-item p {
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+        }
+
+        /* === 原型演示区 === */
+        .prototype-container {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            margin-top: var(--space-lg);
+        }
+
+        /* 页面切换 */
+        .page-switcher {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-lg);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .page-btn {
+            padding: var(--space-sm) var(--space-md);
+            background: transparent;
+            border: none;
+            color: var(--color-text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .page-btn:hover {
+            color: var(--color-text-primary);
+            background: var(--color-highlight);
+        }
+
+        .page-btn.active {
+            color: var(--color-primary);
+            border-bottom-color: var(--color-primary);
+            text-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+        }
+
+        .prototype-page {
+            display: none;
+        }
+
+        .prototype-page.active {
+            display: block;
+        }
+
+        /* Tab 栏 */
+        .tabs {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-lg);
+            border-bottom: 1px solid var(--color-border);
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: var(--space-sm) var(--space-lg);
+            background: transparent;
+            border: none;
+            color: var(--color-text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .tab:hover {
+            color: var(--color-text-primary);
+            background: var(--color-highlight);
+        }
+
+        .tab.active {
+            color: var(--color-primary);
+            border-bottom-color: var(--color-primary);
+            text-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+        }
+
+        /* 资讯列表 */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .news-card {
+            display: flex;
+            gap: var(--space-md);
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-md);
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .news-card:hover {
+            border-color: var(--color-primary);
+            box-shadow: var(--glow-primary);
+            transform: translateY(-2px);
+            background: var(--color-highlight);
+        }
+
+        .news-cover {
+            width: 140px;
+            height: 90px;
+            border-radius: var(--radius-md);
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .news-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .news-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-xs);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .news-meta {
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-sm);
+        }
+
+        .news-tags {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--color-highlight);
+            color: var(--color-text-secondary);
+            font-size: 0.75rem;
+            border-radius: 9999px;
+        }
+
+        /* 监控看板 */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-md);
+            margin-bottom: var(--space-lg);
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, var(--color-surface), var(--color-bg));
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(96, 165, 250, 0.1), transparent);
+            pointer-events: none;
+        }
+
+        .metric-value {
+            font-family: var(--font-mono);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            text-shadow: 0 0 10px rgba(96, 165, 250, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .metric-label {
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+            margin-top: var(--space-xs);
+            position: relative;
+            z-index: 1;
+        }
+
+        .metric-value.success {
+            color: var(--color-success);
+            text-shadow: 0 0 10px rgba(34, 197, 94, 0.3);
+        }
+
+        .metric-value.warning {
+            color: var(--color-warning);
+            text-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
+        }
+
+        .metric-value.danger {
+            color: var(--color-error);
+            text-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
+        }
+
+        .platform-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--space-md);
+            margin-top: var(--space-lg);
+        }
+
+        .platform-item {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            padding: var(--space-md);
+            text-align: center;
+        }
+
+        .platform-item.online {
+            border-color: var(--color-success);
+        }
+
+        .platform-item.offline {
+            border-color: var(--color-error);
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: var(--space-xs);
+        }
+
+        .status-dot.online {
+            background: var(--color-success);
+            box-shadow: 0 0 10px var(--color-success);
+        }
+
+        .status-dot.offline {
+            background: var(--color-error);
+            box-shadow: 0 0 10px var(--color-error);
+        }
+
+        /* 监控网格 */
+        .monitor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+
+        .monitor-section {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-md);
+        }
+
+        .monitor-section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        /* 失败原因统计 */
+        .failure-reasons {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .failure-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .failure-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .failure-label {
+            flex: 1;
+            min-width: 100px;
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .failure-bar {
+            flex: 1;
+            height: 8px;
+            background: var(--color-highlight);
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+
+        .failure-bar-fill {
+            height: 100%;
+            border-radius: 9999px;
+            transition: width 0.3s ease;
+        }
+
+        .failure-count {
+            min-width: 30px;
+            text-align: right;
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+        }
+
+        /* 最近采集记录 */
+        .record-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .record-item {
+            display: flex;
+            gap: var(--space-sm);
+            padding: var(--space-sm);
+            background: var(--color-highlight);
+            border-radius: var(--radius-md);
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .record-item:hover {
+            border-color: var(--color-border);
+        }
+
+        .record-item.success {
+            border-left: 3px solid var(--color-success);
+        }
+
+        .record-item.error {
+            border-left: 3px solid var(--color-error);
+        }
+
+        .record-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .record-item.success .record-icon {
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--color-success);
+        }
+
+        .record-item.error .record-icon {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--color-error);
+        }
+
+        .record-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .record-title {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--color-text-primary);
+            margin-bottom: 2px;
+        }
+
+        .record-meta {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+        }
+
+        .record-time {
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .record-detail {
+            font-size: 0.75rem;
+            color: var(--color-text-secondary);
+        }
+
+        .record-detail.error-detail {
+            color: var(--color-error);
+        }
+
+        /* 路线图 */
+        .timeline {
+            position: relative;
+            padding-left: var(--space-xl);
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--color-primary), var(--color-neon-purple));
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: var(--space-xl);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: calc(-1 * var(--space-xl) - 5px);
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            background: var(--color-primary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--color-primary);
+        }
+
+        .timeline-phase {
+            font-family: var(--font-mono);
+            color: var(--color-primary);
+            font-size: 0.875rem;
+            margin-bottom: var(--space-xs);
+        }
+
+        .timeline-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+
+        .timeline-desc {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* GitHub 部分 */
+        .github-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+
+        .github-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+        }
+
+        .github-card h4 {
+            color: var(--color-primary);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .github-card h4::before {
+            content: '✓';
+            display: inline-flex;
+            width: 20px;
+            height: 20px;
+            background: var(--color-success);
+            color: var(--color-bg);
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+        }
+
+        .github-card h4.manual::before {
+            content: '⚙';
+            background: var(--color-warning);
+        }
+
+        .check-list {
+            list-style: none;
+        }
+
+        .check-list li {
+            padding: var(--space-sm) 0;
+            color: var(--color-text-secondary);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .check-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            body {
+                padding: var(--space-sm);
+            }
+
+            header, .section {
+                padding: var(--space-lg);
+            }
+
+            header h1 {
+                font-size: 1.75rem;
+            }
+
+            .news-card {
+                flex-direction: column;
+            }
+
+            .news-cover {
+                width: 100%;
+                height: 180px;
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <h1>🤖 AI 热点资讯监控系统</h1>
+            <p>实时追踪各平台 AI 大模型、应用、Agent 工具最新动态</p>
+        </header>
+
+        <!-- 核心功能 -->
+        <section class="section">
+            <h2 class="section-title">✨ 核心功能</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🔥 热榜优先采集</h3>
+                    <p>优先抓取各平台热搜/热榜内容，确保获取最热门资讯。数据源优先级：微博热搜 → B站热门 → 小红书热榜 → X趋势 → Facebook热门</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎯 智能关键词过滤</h3>
+                    <p>AI大模型、LLM、GPT、Claude、Agent、AI应用、生成式AI等关键词精准匹配，只看你关心的内容</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📊 多平台整合</h3>
+                    <p>微博、B站、小红书、X(Twitter)、Facebook 五大平台，一站式查看，无需切换</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🖼️ 封面图片展示</h3>
+                    <p>自动获取各平台资讯封面，视觉化呈现，提升阅读体验</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📈 运行监控看板</h3>
+                    <p>实时监控爬虫成功率、响应延迟、采集数量等指标，7天历史数据回溯。包含失败原因统计（网络超时、Cookie过期、页面结构变化等）和最近采集记录列表</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ GitHub 自动部署</h3>
+                    <p>使用 GitHub Actions 每2小时自动执行，GitHub Pages 托管网页，零服务器成本</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技术架构 -->
+        <section class="section">
+            <h2 class="section-title">🏗️ 技术架构</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h4>后端</h4>
+                    <p>Python 3.x + BeautifulSoup4 + Requests + Selenium</p>
+                </div>
+                <div class="tech-item">
+                    <h4>数据存储</h4>
+                    <p>SQLite + JSON + GitHub Pages</p>
+                </div>
+                <div class="tech-item">
+                    <h4>前端</h4>
+                    <p>HTML5 + CSS3 + JavaScript + ECharts</p>
+                </div>
+                <div class="tech-item">
+                    <h4>部署调度</h4>
+                    <p>GitHub Actions (cron: 每2小时)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品原型 -->
+        <section class="section">
+            <h2 class="section-title">🎨 产品原型</h2>
+            <div class="prototype-container">
+                <div class="page-switcher">
+                    <button class="page-btn active" data-page="news">资讯看板</button>
+                    <button class="page-btn" data-page="monitor">运行监控</button>
+                </div>
+
+                <!-- 资讯看板页 -->
+                <div class="prototype-page active" id="news-page">
+                    <div class="tabs">
+                        <button class="tab active" data-platform="weibo">微博</button>
+                        <button class="tab" data-platform="bilibili">哔哩哔哩</button>
+                        <button class="tab" data-platform="xiaohongshu">小红书</button>
+                        <button class="tab" data-platform="x">X (Twitter)</button>
+                        <button class="tab" data-platform="facebook">Facebook</button>
+                    </div>
+
+                    <div class="news-list" id="news-list">
+                        <a href="https://weibo.com" target="_blank" class="news-card">
+                            <div class="news-cover">🔥</div>
+                            <div class="news-content">
+                                <div class="news-title">OpenAI 发布 GPT-5 最新进展，多模态能力大幅提升</div>
+                                <div class="news-meta">2026-05-07 14:30 · 阅读量 125.6万</div>
+                                <div class="news-tags">
+                                    <span class="tag">LLM</span>
+                                    <span class="tag">GPT-5</span>
+                                    <span class="tag">多模态</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://bilibili.com" target="_blank" class="news-card">
+                            <div class="news-cover">🎬</div>
+                            <div class="news-content">
+                                <div class="news-title">【干货】从零构建 AI Agent 工作流完整教程</div>
+                                <div class="news-meta">2026-05-07 12:15 · 播放量 45.2万</div>
+                                <div class="news-tags">
+                                    <span class="tag">Agent</span>
+                                    <span class="tag">教程</span>
+                                    <span class="tag">AutoGPT</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://xiaohongshu.com" target="_blank" class="news-card">
+                            <div class="news-cover">✨</div>
+                            <div class="news-content">
+                                <div class="news-title">2026 年最值得尝试的 10 款 AI 生产力工具</div>
+                                <div class="news-meta">2026-05-07 09:20 · 点赞量 8.9万</div>
+                                <div class="news-tags">
+                                    <span class="tag">AI工具</span>
+                                    <span class="tag">效率</span>
+                                    <span class="tag">推荐</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 运行监控页 -->
+                <div class="prototype-page" id="monitor-page">
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value success">98.5%</div>
+                            <div class="metric-label">今日成功率</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value danger">1.5%</div>
+                            <div class="metric-label">失败率</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">2.3s</div>
+                            <div class="metric-label">平均响应</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value success">87.2%</div>
+                            <div class="metric-label">封面获取率</div>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-bottom: var(--space-md); color: var(--color-text-primary);">各平台状态</h3>
+                    <div class="platform-status">
+                        <div class="platform-item online">
+                            <span class="status-dot online"></span>微博
+                        </div>
+                        <div class="platform-item online">
+                            <span class="status-dot online"></span>哔哩哔哩
+                        </div>
+                        <div class="platform-item online">
+                            <span class="status-dot online"></span>小红书
+                        </div>
+                        <div class="platform-item offline">
+                            <span class="status-dot offline"></span>X (Twitter)
+                        </div>
+                        <div class="platform-item online">
+                            <span class="status-dot online"></span>Facebook
+                        </div>
+                    </div>
+
+                    <div class="monitor-grid">
+                        <!-- 失败原因统计 -->
+                        <div class="monitor-section">
+                            <h4 class="monitor-section-title">📊 失败原因统计</h4>
+                            <div class="failure-reasons">
+                                <div class="failure-item">
+                                    <div class="failure-label">
+                                        <span class="failure-dot" style="background: var(--color-error);"></span>
+                                        网络超时
+                                    </div>
+                                    <div class="failure-bar">
+                                        <div class="failure-bar-fill" style="width: 45%; background: var(--color-error);"></div>
+                                    </div>
+                                    <span class="failure-count">12</span>
+                                </div>
+                                <div class="failure-item">
+                                    <div class="failure-label">
+                                        <span class="failure-dot" style="background: var(--color-warning);"></span>
+                                        Cookie 过期
+                                    </div>
+                                    <div class="failure-bar">
+                                        <div class="failure-bar-fill" style="width: 30%; background: var(--color-warning);"></div>
+                                    </div>
+                                    <span class="failure-count">8</span>
+                                </div>
+                                <div class="failure-item">
+                                    <div class="failure-label">
+                                        <span class="failure-dot" style="background: var(--color-neon-purple);"></span>
+                                        页面结构变化
+                                    </div>
+                                    <div class="failure-bar">
+                                        <div class="failure-bar-fill" style="width: 15%; background: var(--color-neon-purple);"></div>
+                                    </div>
+                                    <span class="failure-count">4</span>
+                                </div>
+                                <div class="failure-item">
+                                    <div class="failure-label">
+                                        <span class="failure-dot" style="background: var(--color-text-secondary);"></span>
+                                        其他原因
+                                    </div>
+                                    <div class="failure-bar">
+                                        <div class="failure-bar-fill" style="width: 10%; background: var(--color-text-secondary);"></div>
+                                    </div>
+                                    <span class="failure-count">3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 最近采集记录 -->
+                        <div class="monitor-section">
+                            <h4 class="monitor-section-title">📝 最近采集记录</h4>
+                            <div class="record-list">
+                                <div class="record-item success">
+                                    <div class="record-icon">✓</div>
+                                    <div class="record-content">
+                                        <div class="record-title">微博热榜采集</div>
+                                        <div class="record-meta">
+                                            <span class="record-time">2026-05-07 14:30:00</span>
+                                            <span class="record-detail">获取 45 条 · 耗时 2.1s</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="record-item success">
+                                    <div class="record-icon">✓</div>
+                                    <div class="record-content">
+                                        <div class="record-title">B站热门采集</div>
+                                        <div class="record-meta">
+                                            <span class="record-time">2026-05-07 14:30:02</span>
+                                            <span class="record-detail">获取 32 条 · 耗时 1.8s</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="record-item error">
+                                    <div class="record-icon">✕</div>
+                                    <div class="record-content">
+                                        <div class="record-title">X (Twitter) 趋势采集</div>
+                                        <div class="record-meta">
+                                            <span class="record-time">2026-05-07 14:30:04</span>
+                                            <span class="record-detail error-detail">失败: 网络超时</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="record-item success">
+                                    <div class="record-icon">✓</div>
+                                    <div class="record-content">
+                                        <div class="record-title">小红书热榜采集</div>
+                                        <div class="record-meta">
+                                            <span class="record-time">2026-05-07 14:30:06</span>
+                                            <span class="record-detail">获取 28 条 · 耗时 2.5s</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub 部署方案 -->
+        <section class="section">
+            <h2 class="section-title">🚀 GitHub 部署方案</h2>
+            <div class="github-section">
+                <div class="github-card">
+                    <h4>✅ GitHub 自动执行</h4>
+                    <ul class="check-list">
+                        <li>⏰ 每2小时自动触发 GitHub Actions</li>
+                        <li>🔍 执行各平台热榜爬虫</li>
+                        <li>🧹 关键词过滤、去重、热度排序</li>
+                        <li>📸 封面图片获取与处理</li>
+                        <li>📊 生成运行监控数据</li>
+                        <li>💾 导出 data.json</li>
+                        <li>📝 Git commit & push</li>
+                        <li>🌐 GitHub Pages 自动部署</li>
+                    </ul>
+                </div>
+
+                <div class="github-card">
+                    <h4 class="manual">⚙️ 需要人工配合</h4>
+                    <ul class="check-list">
+                        <li>1. 创建 GitHub 仓库</li>
+                        <li>2. 配置 Secrets（各平台 Cookie）</li>
+                        <li>3. 启用 GitHub Pages</li>
+                        <li>4. 本地开发环境搭建</li>
+                        <li>5. Cookie 更新（按需）</li>
+                        <li>6. 关键词调整（按需）</li>
+                        <li>7. 爬虫修复（页面结构变化时）</li>
+                        <li>8. 监控看板查看（日常运维）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 开发路线图 -->
+        <section class="section">
+            <h2 class="section-title">📅 开发路线图</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 1</div>
+                    <div class="timeline-title">基础架构搭建</div>
+                    <div class="timeline-desc">项目初始化、GitHub Actions 配置、基础爬虫框架</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 2</div>
+                    <div class="timeline-title">热榜爬虫实现</div>
+                    <div class="timeline-desc">微博热搜、B站热门、小红书热榜、X趋势、Facebook热门</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 3</div>
+                    <div class="timeline-title">数据处理层</div>
+                    <div class="timeline-desc">关键词过滤、去重、热度排序算法</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 4</div>
+                    <div class="timeline-title">封面获取功能</div>
+                    <div class="timeline-desc">各平台封面图片提取、图片压缩处理、占位图设计</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 5</div>
+                    <div class="timeline-title">前端界面开发</div>
+                    <div class="timeline-desc">科技风设计、平台Tab切换、资讯卡片展示</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 6</div>
+                    <div class="timeline-title">监控看板开发</div>
+                    <div class="timeline-desc">运行指标采集、KPI卡片展示、失败原因统计、最近采集记录、7天历史数据</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-phase">Phase 7</div>
+                    <div class="timeline-title">部署上线</div>
+                    <div class="timeline-desc">GitHub Pages 部署、文档完善</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // 页面切换
+        document.querySelectorAll('.page-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.page-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.prototype-page').forEach(p => p.classList.remove('active'));
+                
+                btn.classList.add('active');
+                const pageId = btn.dataset.page + '-page';
+                document.getElementById(pageId).classList.add('active');
+            });
+        });
+
+        // Tab 切换（仅演示效果）
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
