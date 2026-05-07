@@ -878,12 +878,14 @@
             const tabs = document.querySelectorAll('.platform-tab');
             const news = appData.news || {};
             
-            tabs.forEach(tab => {
+            tabs.forEach(function(tab) {
                 const platform = tab.dataset.platform;
                 let count = 0;
                 
                 if (platform === 'all') {
-                    count = Object.values(news).reduce((sum, arr) => sum + (arr ? arr.length : 0), 0);
+                    count = Object.values(news).reduce(function(sum, arr) {
+                        return sum + (arr ? arr.length : 0);
+                    }, 0);
                 } else {
                     count = (news[platform] || []).length;
                 }
@@ -899,7 +901,7 @@
             
             let items = [];
             if (currentPlatform === 'all') {
-                Object.values(news).forEach(arr => {
+                Object.values(news).forEach(function(arr) {
                     if (arr) items = items.concat(arr);
                 });
             } else {
@@ -912,7 +914,7 @@
             }
             
             let html = '';
-            items.forEach(item => {
+            items.forEach(function(item) {
                 const platform = item.platform || currentPlatform;
                 const emoji = platformEmojis[platform] || '📰';
                 
@@ -932,7 +934,7 @@
                 }
                 
                 let tagsHtml = '';
-                (item.tags || []).forEach(tag => {
+                (item.tags || []).forEach(function(tag) {
                     tagsHtml += '<span class="tag">' + tag + '</span>';
                 });
                 
@@ -971,36 +973,41 @@
             const monitor = appData.monitor || {};
             const summary = monitor.summary || {};
             
-            document.getElementById('metricCards').innerHTML = `
-                <div class="metric-card">
-                    <div class="metric-value success">${summary.total_success_rate || 0}%</div>
-                    <div class="metric-label">采集成功率</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-value danger">${summary.total_fail_rate || 0}%</div>
-                    <div class="metric-label">失败率</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-value">${summary.avg_response_time || 0}s</div>
-                    <div class="metric-label">平均响应时间</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-value success">${summary.cover_success_rate || 0}%</div>
-                    <div class="metric-label">封面获取率</div>
-                </div>
-            `;
+            let metricHtml = '';
+            metricHtml += '<div class="metric-card">' +
+                '<div class="metric-value success">' + (summary.total_success_rate || 0) + '%</div>' +
+                '<div class="metric-label">采集成功率</div>' +
+                '</div>';
+            metricHtml += '<div class="metric-card">' +
+                '<div class="metric-value danger">' + (summary.total_fail_rate || 0) + '%</div>' +
+                '<div class="metric-label">失败率</div>' +
+                '</div>';
+            metricHtml += '<div class="metric-card">' +
+                '<div class="metric-value">' + (summary.avg_response_time || 0) + 's</div>' +
+                '<div class="metric-label">平均响应时间</div>' +
+                '</div>';
+            metricHtml += '<div class="metric-card">' +
+                '<div class="metric-value success">' + (summary.cover_success_rate || 0) + '%</div>' +
+                '<div class="metric-label">封面获取率</div>' +
+                '</div>';
+            
+            document.getElementById('metricCards').innerHTML = metricHtml;
             
             const platforms = monitor.platforms || [];
-            document.getElementById('platformStatus').innerHTML = platforms.map(p => `
-                <div class="platform-status-card ${p.status}">
-                    <span class="status-dot ${p.status}"></span>
-                    <div class="platform-status-name">${p.name || p.platform}</div>
-                    <div class="platform-status-meta">${p.status === 'online' ? '正常' : '异常'} · ${p.item_count || 0}条</div>
-                </div>
-            `).join('');
+            let platformHtml = '';
+            platforms.forEach(function(p) {
+                const statusText = p.status === 'online' ? '正常' : '异常';
+                platformHtml += '<div class="platform-status-card ' + p.status + '">' +
+                    '<span class="status-dot ' + p.status + '"></span>' +
+                    '<div class="platform-status-name">' + (p.name || p.platform) + '</div>' +
+                    '<div class="platform-status-meta">' + statusText + ' · ' + (p.item_count || 0) + '条</div>' +
+                    '</div>';
+            });
+            
+            document.getElementById('platformStatus').innerHTML = platformHtml;
             
             const reasons = monitor.failure_reasons || {};
-            const total = Object.values(reasons).reduce((a, b) => a + b, 0) || 1;
+            const total = Object.values(reasons).reduce(function(a, b) { return a + b; }, 0) || 1;
             const reasonColors = {
                 network_timeout: 'var(--color-error)',
                 cookie_expired: 'var(--color-warning)',
@@ -1016,41 +1023,57 @@
                 other: '其他原因'
             };
             
-            document.getElementById('failureReasons').innerHTML = Object.entries(reasons).map(([key, count]) => `
-                <div class="failure-item">
-                    <div class="failure-label">
-                        <span class="failure-dot" style="background: ${reasonColors[key]}"></span>
-                        ${reasonLabels[key] || key}
-                    </div>
-                    <div class="failure-bar">
-                        <div class="failure-bar-fill" style="width: ${(count / total * 100)}%; background: ${reasonColors[key]}"></div>
-                    </div>
-                    <span class="failure-count">${count}次</span>
-                </div>
-            `).join('');
+            let reasonsHtml = '';
+            Object.entries(reasons).forEach(function(entry) {
+                const key = entry[0];
+                const count = entry[1];
+                const width = (count / total * 100);
+                reasonsHtml += '<div class="failure-item">' +
+                    '<div class="failure-label">' +
+                    '<span class="failure-dot" style="background: ' + reasonColors[key] + '"></span>' +
+                    (reasonLabels[key] || key) +
+                    '</div>' +
+                    '<div class="failure-bar">' +
+                    '<div class="failure-bar-fill" style="width: ' + width + '%; background: ' + reasonColors[key] + '"></div>' +
+                    '</div>' +
+                    '<span class="failure-count">' + count + '次</span>' +
+                    '</div>';
+            });
+            
+            document.getElementById('failureReasons').innerHTML = reasonsHtml;
             
             const executions = monitor.recent_executions || [];
-            document.getElementById('recentExecutions').innerHTML = executions.map(exec => `
-                <div class="record-item ${exec.status}">
-                    <div class="record-icon">${exec.status === 'success' ? '✓' : '✕'}</div>
-                    <div class="record-content">
-                        <div class="record-title">${platformNames[exec.platform] || exec.platform} 热榜采集</div>
-                        <div class="record-meta">
-                            <span class="record-time">${new Date(exec.timestamp).toLocaleString('zh-CN')}</span>
-                            ${exec.status === 'success' 
-                                ? `<span class="record-detail">成功获取 ${exec.items_collected || 0} 条 · 耗时 ${exec.latency || 0}s</span>`
-                                : `<span class="record-detail error-detail">失败: ${exec.error_message || '未知错误'}</span>`
-                            }
-                        </div>
-                    </div>
-                </div>
-            `).join('') || '<div class="empty">暂无记录</div>';
+            let executionsHtml = '';
+            executions.forEach(function(exec) {
+                const icon = exec.status === 'success' ? '✓' : '✕';
+                const title = (platformNames[exec.platform] || exec.platform) + ' 热榜采集';
+                const time = new Date(exec.timestamp).toLocaleString('zh-CN');
+                let detail = '';
+                if (exec.status === 'success') {
+                    detail = '<span class="record-detail">成功获取 ' + (exec.items_collected || 0) + ' 条 · 耗时 ' + (exec.latency || 0) + 's</span>';
+                } else {
+                    detail = '<span class="record-detail error-detail">失败: ' + (exec.error_message || '未知错误') + '</span>';
+                }
+                
+                executionsHtml += '<div class="record-item ' + exec.status + '">' +
+                    '<div class="record-icon">' + icon + '</div>' +
+                    '<div class="record-content">' +
+                    '<div class="record-title">' + title + '</div>' +
+                    '<div class="record-meta">' +
+                    '<span class="record-time">' + time + '</span>' +
+                    detail +
+                    '</div>' +
+                    '</div>' +
+                    '</div>';
+            });
+            
+            document.getElementById('recentExecutions').innerHTML = executionsHtml || '<div class="empty">暂无记录</div>';
         }
 
-        document.querySelectorAll('.nav-tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('.nav-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
+                document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
                 
                 tab.classList.add('active');
                 const pageId = tab.dataset.page + '-page';
@@ -1058,16 +1081,16 @@
             });
         });
 
-        document.querySelectorAll('.platform-tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.platform-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.platform-tab').forEach(function(t) { t.classList.remove('active'); });
                 tab.classList.add('active');
                 currentPlatform = tab.dataset.platform;
                 renderNewsList();
             });
         });
 
-        document.getElementById('refreshBtn').addEventListener('click', () => {
+        document.getElementById('refreshBtn').addEventListener('click', function() {
             loadData();
         });
 
