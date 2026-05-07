@@ -911,41 +911,60 @@
                 return;
             }
             
-            container.innerHTML = items.map(item => {
+            let html = '';
+            items.forEach(item => {
                 const platform = item.platform || currentPlatform;
                 const emoji = platformEmojis[platform] || '📰';
-                let cover;
+                
+                let coverHtml;
                 if (item.cover_url) {
-                    cover = `<img src="${item.cover_url}" alt="cover" onerror="this.parentElement.innerHTML='${emoji}'">`;
+                    coverHtml = '<img src="' + item.cover_url + '" alt="cover" onerror="this.parentElement.innerHTML=\'' + emoji + '\'">';
                 } else {
-                    cover = emoji;
+                    coverHtml = emoji;
                 }
                 
                 let statsHtml = '';
                 if (item.metrics) {
                     const metrics = item.metrics;
-                    if (metrics.search_count) statsHtml += `<span>👁️ ${metrics.search_count}</span>`;
-                    if (metrics.play_count) statsHtml += `<span>▶️ ${metrics.play_count}</span>`;
-                    if (metrics.like_count) statsHtml += `<span>❤️ ${metrics.like_count}</span>`;
+                    if (metrics.search_count) statsHtml += '<span>👁️ ' + metrics.search_count + '</span>';
+                    if (metrics.play_count) statsHtml += '<span>▶️ ' + metrics.play_count + '</span>';
+                    if (metrics.like_count) statsHtml += '<span>❤️ ' + metrics.like_count + '</span>';
                 }
                 
-                const tagsHtml = (item.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+                let tagsHtml = '';
+                (item.tags || []).forEach(tag => {
+                    tagsHtml += '<span class="tag">' + tag + '</span>';
+                });
                 
-                return `
-                    <a href="${item.url || '#'}" target="_blank" class="news-card" data-platform="${platform}">
-                        <div class="news-cover">${cover}</div>
-                        <div class="news-content">
-                            <h3 class="news-title">${item.title || '无标题'}</h3>
-                            <div class="news-meta">
-                                <span class="platform-badge platform-${platform}">${platformNames[platform] || platform}</span>
-                                ${item.crawl_time ? `<span class="news-time">${new Date(item.crawl_time).toLocaleString('zh-CN')}</span>` : ''}
-                                ${statsHtml ? `<div class="news-stats">${statsHtml}</div>` : ''}
-                            </div>
-                            ${tagsHtml ? `<div class="news-tags">${tagsHtml}</div>` : ''}
-                        </div>
-                    </a>
-                `;
-            }).join('');
+                let timeHtml = '';
+                if (item.crawl_time) {
+                    timeHtml = '<span class="news-time">' + new Date(item.crawl_time).toLocaleString('zh-CN') + '</span>';
+                }
+                
+                let statsDiv = '';
+                if (statsHtml) {
+                    statsDiv = '<div class="news-stats">' + statsHtml + '</div>';
+                }
+                
+                let tagsDiv = '';
+                if (tagsHtml) {
+                    tagsDiv = '<div class="news-tags">' + tagsHtml + '</div>';
+                }
+                
+                html += '<a href="' + (item.url || '#') + '" target="_blank" class="news-card" data-platform="' + platform + '">' +
+                    '<div class="news-cover">' + coverHtml + '</div>' +
+                    '<div class="news-content">' +
+                    '<h3 class="news-title">' + (item.title || '无标题') + '</h3>' +
+                    '<div class="news-meta">' +
+                    '<span class="platform-badge platform-' + platform + '">' + (platformNames[platform] || platform) + '</span>' +
+                    timeHtml + statsDiv +
+                    '</div>' +
+                    tagsDiv +
+                    '</div>' +
+                    '</a>';
+            });
+            
+            container.innerHTML = html;
         }
 
         function renderMonitorDashboard() {
