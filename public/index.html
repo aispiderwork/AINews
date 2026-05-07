@@ -913,9 +913,13 @@
             
             container.innerHTML = items.map(item => {
                 const platform = item.platform || currentPlatform;
-                const cover = item.cover_url 
-                    ? `<img src="${item.cover_url}" alt="cover" onerror="this.parentElement.innerHTML='${platformEmojis[platform] || '📰}'">`
-                    : (platformEmojis[platform] || '📰');
+                const emoji = platformEmojis[platform] || '📰';
+                let cover;
+                if (item.cover_url) {
+                    cover = `<img src="${item.cover_url}" alt="cover" onerror="this.parentElement.innerHTML='${emoji}'">`;
+                } else {
+                    cover = emoji;
+                }
                 
                 let statsHtml = '';
                 if (item.metrics) {
