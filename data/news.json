@@ -1,33 +1,23 @@
 {
-  "update_time": "2026-05-09T02:40:20.581820+00:00",
+  "update_time": "2026-05-09T03:18:07.507929+00:00",
   "news": {
     "hackernews": [
       {
         "title": "OpenAI's WebRTC problem",
         "url": "https://moq.dev/blog/webrtc-is-the-problem/",
         "discussion_url": "https://news.ycombinator.com/item?id=48051951",
-        "score": 133,
-        "comments_count": 30,
+        "score": 157,
+        "comments_count": 37,
         "publish_time": "2026-05-07T17:11:59+00:00",
         "platform": "hackernews",
         "id": "f9c2fb809b00"
       },
       {
-        "title": "People Hate AI Art",
-        "url": "https://mccue.dev/pages/5-8-26-ai-art",
-        "discussion_url": "https://news.ycombinator.com/item?id=48070548",
-        "score": 43,
-        "comments_count": 21,
-        "publish_time": "2026-05-09T00:39:58+00:00",
-        "platform": "hackernews",
-        "id": "1cbd861f0bf1"
-      },
-      {
         "title": "AI is breaking two vulnerability cultures",
         "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
         "discussion_url": "https://news.ycombinator.com/item?id=48066524",
-        "score": 256,
-        "comments_count": 110,
+        "score": 268,
+        "comments_count": 114,
         "publish_time": "2026-05-08T17:55:08+00:00",
         "platform": "hackernews",
         "id": "bb51d939377e"
@@ -36,7 +26,7 @@
         "title": "Can LLMs model real-world systems in TLA+?",
         "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
         "discussion_url": "https://news.ycombinator.com/item?id=48065254",
-        "score": 34,
+        "score": 38,
         "comments_count": 3,
         "publish_time": "2026-05-08T16:21:56+00:00",
         "platform": "hackernews",
@@ -46,8 +36,8 @@
         "title": "Teaching Claude Why",
         "url": "https://www.anthropic.com/research/teaching-claude-why",
         "discussion_url": "https://news.ycombinator.com/item?id=48066592",
-        "score": 99,
-        "comments_count": 30,
+        "score": 104,
+        "comments_count": 34,
         "publish_time": "2026-05-08T17:59:41+00:00",
         "platform": "hackernews",
         "id": "92b589dd9d55"
@@ -56,8 +46,8 @@
         "title": "Meta Shuts Down End-to-End Encryption for Instagram Messaging",
         "url": "https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging",
         "discussion_url": "https://news.ycombinator.com/item?id=48069192",
-        "score": 163,
-        "comments_count": 114,
+        "score": 174,
+        "comments_count": 119,
         "publish_time": "2026-05-08T21:47:47+00:00",
         "platform": "hackernews",
         "id": "7ab819c6c03f"
@@ -383,6 +373,27 @@
     ],
     "qbitai": [
       {
+        "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
+        "url": "https://www.qbitai.com/2026/05/414496.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/文.png",
+        "publish_time": null,
+        "tags": [
+          "文心5.1",
+          "百度"
+        ],
+        "platform": "qbitai",
+        "id": "41301331a6c7"
+      },
+      {
+        "title": "打破科技数据壁垒！智会心研官宣：高级检索+AI深度分析，面向个人免费开放！",
+        "url": "https://www.qbitai.com/2026/05/414445.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/068909cade38701f13e18ba1b849f8f5.png",
+        "publish_time": null,
+        "tags": [],
+        "platform": "qbitai",
+        "id": "f38a76456fc2"
+      },
+      {
         "title": "梁文锋出资200亿！DeepSeek首轮创纪录融资500亿，V4.1定档6月",
         "url": "https://www.qbitai.com/2026/05/414432.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/f2d77a91047066474c8cdd8c2091448b.webp",
@@ -585,28 +596,6 @@
         ],
         "platform": "qbitai",
         "id": "2fa7071489b3"
-      },
-      {
-        "title": "刚刚，ChatGPT免费模型升级了：幻觉砍半/记忆更强/回答更简洁",
-        "url": "https://www.qbitai.com/2026/05/412995.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/36bee4af7377f8309d41628a3d698e7e.webp",
-        "publish_time": null,
-        "tags": [
-          "OpenAI"
-        ],
-        "platform": "qbitai",
-        "id": "8eb3f33846d8"
-      },
-      {
-        "title": "“DeepSeek版Claude Code”，Github 2.3k星",
-        "url": "https://www.qbitai.com/2026/05/412914.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/组-1-e1777874947462.png",
-        "publish_time": null,
-        "tags": [
-          "Deepseek"
-        ],
-        "platform": "qbitai",
-        "id": "2574c67de662"
       }
     ],
     "aiera": [
@@ -1223,96 +1212,96 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 2.2,
-      "cover_success_rate": 74.0
+      "avg_response_time": 1.9,
+      "cover_success_rate": 74.7
     },
     "platforms": [
       {
         "platform": "hackernews",
         "name": "Hacker News",
         "status": "online",
-        "item_count": 6,
-        "last_crawl": "2026-05-09T02:40:10.467796+00:00"
+        "item_count": 5,
+        "last_crawl": "2026-05-09T03:17:58.991230+00:00"
       },
       {
         "platform": "techcrunch",
         "name": "TechCrunch",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-09T02:40:11.671115+00:00"
+        "last_crawl": "2026-05-09T03:17:59.931331+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-09T02:40:13.256454+00:00"
+        "last_crawl": "2026-05-09T03:18:01.546841+00:00"
       },
       {
         "platform": "aiera",
         "name": "新智元",
         "status": "online",
         "item_count": 14,
-        "last_crawl": "2026-05-09T02:40:15.998668+00:00"
+        "last_crawl": "2026-05-09T03:18:04.433917+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-09T02:40:18.946934+00:00"
+        "last_crawl": "2026-05-09T03:18:06.176783+00:00"
       },
       {
         "platform": "googleai",
         "name": "Google AI Blog",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-09T02:40:20.581533+00:00"
+        "last_crawl": "2026-05-09T03:18:07.507635+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-05-09T02:40:10.467804+00:00",
+        "timestamp": "2026-05-09T03:17:58.991235+00:00",
         "platform": "hackernews",
         "status": "success",
-        "items_collected": 6,
-        "latency": 3.28409
+        "items_collected": 5,
+        "latency": 2.838157
       },
       {
-        "timestamp": "2026-05-09T02:40:11.671125+00:00",
+        "timestamp": "2026-05-09T03:17:59.931345+00:00",
         "platform": "techcrunch",
         "status": "success",
         "items_collected": 20,
-        "latency": 1.203312
+        "latency": 0.940103
       },
       {
-        "timestamp": "2026-05-09T02:40:13.256467+00:00",
+        "timestamp": "2026-05-09T03:18:01.546857+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 20,
-        "latency": 1.585336
+        "latency": 1.615503
       },
       {
-        "timestamp": "2026-05-09T02:40:15.998675+00:00",
+        "timestamp": "2026-05-09T03:18:04.433925+00:00",
         "platform": "aiera",
         "status": "success",
         "items_collected": 14,
-        "latency": 2.742201
+        "latency": 2.887061
       },
       {
-        "timestamp": "2026-05-09T02:40:18.946940+00:00",
+        "timestamp": "2026-05-09T03:18:06.176790+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 20,
-        "latency": 2.948258
+        "latency": 1.742858
       },
       {
-        "timestamp": "2026-05-09T02:40:20.581545+00:00",
+        "timestamp": "2026-05-09T03:18:07.507648+00:00",
         "platform": "googleai",
         "status": "success",
         "items_collected": 20,
-        "latency": 1.634599
+        "latency": 1.330852
       }
     ]
   }
