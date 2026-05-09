@@ -2,7 +2,8 @@ name: AI News Crawler
 
 on:
   schedule:
-    - cron: '0 0,6,12 * * *'
+    # 北京时间 9:00 和 20:00 (UTC 01:00 和 12:00)
+    - cron: '0 1,12 * * *'
   workflow_dispatch:
     inputs:
       platform:
