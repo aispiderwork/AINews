@@ -14,7 +14,7 @@ from crawlers.aiera import crawl_aiera
 from crawlers.radarai import crawl_radarai
 from crawlers.googleai import crawl_googleai
 from crawlers.utils.merge import merge_and_deduplicate
-from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats, calculate_hot_score
+from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats, calc_hot_score
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
@@ -96,7 +96,7 @@ def filter_and_limit_by_platform(articles: list, days: int = DAYS_WINDOW, top_n:
         
         # 重新计算热度分（因为时间因子会变化）
         for article in recent_articles:
-            article['hot_score'] = calculate_hot_score(article)
+            article['hot_score'] = calc_hot_score(article)
         
         # 按热度排序，取TopN
         recent_articles.sort(key=lambda x: x.get('hot_score', 0), reverse=True)
