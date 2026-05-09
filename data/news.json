@@ -1,123 +1,153 @@
 {
-  "update_time": "2026-05-08T11:17:07.906102+00:00",
+  "update_time": "2026-05-09T02:40:20.581820+00:00",
   "news": {
     "hackernews": [
       {
-        "title": "Dirtyfrag: Universal Linux LPE",
-        "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
-        "discussion_url": "https://news.ycombinator.com/item?id=48053623",
-        "score": 665,
-        "comments_count": 272,
-        "publish_time": "2026-05-07T19:21:32+00:00",
+        "title": "OpenAI's WebRTC problem",
+        "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+        "discussion_url": "https://news.ycombinator.com/item?id=48051951",
+        "score": 133,
+        "comments_count": 30,
+        "publish_time": "2026-05-07T17:11:59+00:00",
         "platform": "hackernews",
-        "id": "49c46523748e"
+        "id": "f9c2fb809b00"
       },
       {
-        "title": "ClojureScript Gets Async/Await",
-        "url": "https://clojurescript.org/news/2026-05-07-release",
-        "discussion_url": "https://news.ycombinator.com/item?id=48059662",
-        "score": 78,
-        "comments_count": 22,
-        "publish_time": "2026-05-08T07:04:24+00:00",
+        "title": "People Hate AI Art",
+        "url": "https://mccue.dev/pages/5-8-26-ai-art",
+        "discussion_url": "https://news.ycombinator.com/item?id=48070548",
+        "score": 43,
+        "comments_count": 21,
+        "publish_time": "2026-05-09T00:39:58+00:00",
         "platform": "hackernews",
-        "id": "d509189d1b22"
+        "id": "1cbd861f0bf1"
       },
       {
-        "title": "A polynomial autoencoder beats PCA on transformer embeddings",
-        "url": "https://ivanpleshkov.dev/blog/polynomial-autoencoder/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48021023",
-        "score": 50,
-        "comments_count": 15,
-        "publish_time": "2026-05-05T11:31:12+00:00",
+        "title": "AI is breaking two vulnerability cultures",
+        "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+        "discussion_url": "https://news.ycombinator.com/item?id=48066524",
+        "score": 256,
+        "comments_count": 110,
+        "publish_time": "2026-05-08T17:55:08+00:00",
         "platform": "hackernews",
-        "id": "66eef70b0ee1"
+        "id": "bb51d939377e"
       },
       {
-        "title": "Agents need control flow, not more prompts",
-        "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48051562",
-        "score": 480,
-        "comments_count": 238,
-        "publish_time": "2026-05-07T16:43:35+00:00",
+        "title": "Can LLMs model real-world systems in TLA+?",
+        "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+        "discussion_url": "https://news.ycombinator.com/item?id=48065254",
+        "score": 34,
+        "comments_count": 3,
+        "publish_time": "2026-05-08T16:21:56+00:00",
         "platform": "hackernews",
-        "id": "2fd2ed6b4bf4"
+        "id": "59c618acbce5"
       },
       {
-        "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-        "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-        "discussion_url": "https://news.ycombinator.com/item?id=48052537",
-        "score": 292,
-        "comments_count": 98,
-        "publish_time": "2026-05-07T17:54:02+00:00",
+        "title": "Teaching Claude Why",
+        "url": "https://www.anthropic.com/research/teaching-claude-why",
+        "discussion_url": "https://news.ycombinator.com/item?id=48066592",
+        "score": 99,
+        "comments_count": 30,
+        "publish_time": "2026-05-08T17:59:41+00:00",
         "platform": "hackernews",
-        "id": "7b5554cd46c6"
+        "id": "92b589dd9d55"
       },
       {
-        "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
-        "url": "https://github.com/graemeg/blaise",
-        "discussion_url": "https://news.ycombinator.com/item?id=48058644",
-        "score": 53,
-        "comments_count": 19,
-        "publish_time": "2026-05-08T04:44:02+00:00",
+        "title": "Meta Shuts Down End-to-End Encryption for Instagram Messaging",
+        "url": "https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging",
+        "discussion_url": "https://news.ycombinator.com/item?id=48069192",
+        "score": 163,
+        "comments_count": 114,
+        "publish_time": "2026-05-08T21:47:47+00:00",
         "platform": "hackernews",
-        "id": "4c92c10553bd"
-      },
-      {
-        "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-        "url": "https://deepmind.google/blog/alphaevolve-impact/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48050278",
-        "score": 299,
-        "comments_count": 124,
-        "publish_time": "2026-05-07T15:02:20+00:00",
-        "platform": "hackernews",
-        "id": "7eeddb0eb109"
-      },
-      {
-        "title": "Hardening Firefox with Claude Mythos Preview",
-        "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48051079",
-        "score": 213,
-        "comments_count": 101,
-        "publish_time": "2026-05-07T16:05:33+00:00",
-        "platform": "hackernews",
-        "id": "e50efffa454f"
-      },
-      {
-        "title": "AI slop is killing online communities",
-        "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48053203",
-        "score": 684,
-        "comments_count": 589,
-        "publish_time": "2026-05-07T18:46:25+00:00",
-        "platform": "hackernews",
-        "id": "bc8b6d89757c"
-      },
-      {
-        "title": "Two Home Affairs officials suspended after AI 'hallucinations' found",
-        "url": "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48053842",
-        "score": 104,
-        "comments_count": 22,
-        "publish_time": "2026-05-07T19:38:36+00:00",
-        "platform": "hackernews",
-        "id": "a3b8dfef7c35"
-      },
-      {
-        "title": "GPT-5.5 Price Increase: What It Costs",
-        "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
-        "discussion_url": "https://news.ycombinator.com/item?id=48057209",
-        "score": 55,
-        "comments_count": 7,
-        "publish_time": "2026-05-08T01:02:28+00:00",
-        "platform": "hackernews",
-        "id": "2d41822a12f7"
+        "id": "7ab819c6c03f"
       }
     ],
     "techcrunch": [
       {
-        "title": "Why you can never get your doctor to call you back",
+        "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+        "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024",
+        "publish_time": "2026-05-08T22:59:05+00:00",
+        "tags": [
+          "AI",
+          "Enterprise",
+          "TC",
+          "Exclusive",
+          "Layoffs"
+        ],
+        "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+        "platform": "techcrunch",
+        "id": "a1dc673e67f8"
+      },
+      {
+        "title": "Intel’s comeback story is even wilder than it seems",
+        "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/04/HFTb6BbbcAANe5y-e1775584097859.jpeg?w=597",
+        "publish_time": "2026-05-08T20:02:52+00:00",
+        "tags": [
+          "AI",
+          "Enterprise",
+          "Hardware",
+          "TC",
+          "Apple"
+        ],
+        "summary": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+        "platform": "techcrunch",
+        "id": "8c0c97faab02"
+      },
+      {
+        "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+        "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2019/12/Matthew-Prince-CloudflareDSC00252.jpg?resize=1200,800",
+        "publish_time": "2026-05-08T18:33:21+00:00",
+        "tags": [
+          "AI",
+          "Enterprise",
+          "TC",
+          "cloudflare",
+          "Layoffs"
+        ],
+        "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+        "platform": "techcrunch",
+        "id": "2600d668aca7"
+      },
+      {
+        "title": "The “people’s airline” and the enterprise AI gold rush",
+        "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200",
+        "publish_time": "2026-05-08T15:46:17+00:00",
+        "tags": [
+          "AI",
+          "Startups",
+          "Anthropic",
+          "crypto",
+          "Enterprise AI"
+        ],
+        "summary": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217;s&#160;becoming clear that if&#160;you&#8217;re&#160;a startup building enterprise tools,&#160;you&#8217;re&#160;likely an&#160;acquisition target.&#160; On this episode of TechCrunch&#8217;s&#160;Eq",
+        "platform": "techcrunch",
+        "id": "df3d70855070"
+      },
+      {
+        "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2016/04/17205300128_99b3d607eb_o.jpg?resize=1200,800",
+        "publish_time": "2026-05-08T14:00:00+00:00",
+        "tags": [
+          "Startups",
+          "Hardware",
+          "Crypto",
+          "Climate",
+          "Fintech"
+        ],
+        "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+        "platform": "techcrunch",
+        "id": "805e4f466459"
+      },
+      {
+        "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
         "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.00.25-PM.png?resize=1200,711",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-10005136-e1667318874934.jpg?resize=1200,675",
         "publish_time": "2026-05-08T04:42:29+00:00",
         "tags": [
           "AI",
@@ -128,7 +158,7 @@
         ],
         "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried about drowning.",
         "platform": "techcrunch",
-        "id": "0d4ff7d27cb5"
+        "id": "34e61a2b0fdd"
       },
       {
         "title": "OpenAI launches new voice intelligence features in its API",
@@ -349,88 +379,33 @@
         "summary": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese.",
         "platform": "techcrunch",
         "id": "efb92aa85a4b"
-      },
-      {
-        "title": "Five architects of the AI economy explain where the wheels are coming off",
-        "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/55252231372_4afd845df5_o.jpg?resize=1200,800",
-        "publish_time": "2026-05-07T05:25:10+00:00",
-        "tags": [
-          "AI",
-          "TC",
-          "applied intuition",
-          "ASML",
-          "Christophe Fouquet"
-        ],
-        "summary": "Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Institute Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergirds the tech is wrong.",
-        "platform": "techcrunch",
-        "id": "5c33b526e0af"
-      },
-      {
-        "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
-        "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/barry-diller.jpg?resize=1200,679",
-        "publish_time": "2026-05-06T21:57:56+00:00",
-        "tags": [
-          "AI",
-          "Media & Entertainment",
-          "Barry Diller",
-          "sam altman"
-        ],
-        "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
-        "platform": "techcrunch",
-        "id": "e8a4998a7e7c"
-      },
-      {
-        "title": "Snap says its $400M deal with Perplexity ‘amicably ended’",
-        "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-647104884.jpg?resize=1200,800",
-        "publish_time": "2026-05-06T21:43:24+00:00",
-        "tags": [
-          "AI",
-          "Apps",
-          "Social",
-          "Perplexity",
-          "Snap"
-        ],
-        "summary": "The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
-        "platform": "techcrunch",
-        "id": "8c96c5f7cba0"
-      },
-      {
-        "title": "Is xAI a neocloud now?",
-        "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2256968212.jpg?w=1024",
-        "publish_time": "2026-05-06T21:32:55+00:00",
-        "tags": [
-          "AI",
-          "Anthropic",
-          "data center",
-          "Elon Musk",
-          "neocloud"
-        ],
-        "summary": "xAI's real business may be more about building data centers than training AI models.",
-        "platform": "techcrunch",
-        "id": "62333ff7a87b"
-      },
-      {
-        "title": "How Elon Musk left OpenAI, according to Greg Brockman",
-        "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273248471.jpg?resize=1200,800",
-        "publish_time": "2026-05-06T18:23:54+00:00",
-        "tags": [
-          "AI",
-          "Elon Musk",
-          "greg brockman",
-          "OpenAI",
-          "openai lawsuit"
-        ],
-        "summary": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
-        "platform": "techcrunch",
-        "id": "8380dc3772d7"
       }
     ],
     "qbitai": [
+      {
+        "title": "梁文锋出资200亿！DeepSeek首轮创纪录融资500亿，V4.1定档6月",
+        "url": "https://www.qbitai.com/2026/05/414432.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/f2d77a91047066474c8cdd8c2091448b.webp",
+        "publish_time": null,
+        "tags": [
+          "Deepseek"
+        ],
+        "platform": "qbitai",
+        "id": "836cf8da032d"
+      },
+      {
+        "title": "持续领跑！商汤大装置稳居中国MaaS市场第一梯队",
+        "url": "https://www.qbitai.com/2026/05/414428.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/bcc5f6f5d35d31db604d70600e9a4f24-e1778238540536.png",
+        "publish_time": null,
+        "tags": [
+          "IDC",
+          "商汤科技",
+          "大装置"
+        ],
+        "platform": "qbitai",
+        "id": "07c7e0bdf889"
+      },
       {
         "title": "Redis之父下场，给DeepSeek V4单独造了一台推理引擎",
         "url": "https://www.qbitai.com/2026/05/414316.html",
@@ -632,32 +607,90 @@
         ],
         "platform": "qbitai",
         "id": "2574c67de662"
-      },
-      {
-        "title": "太抓马了！马斯克OpenAI开庭，硅谷巨富互揭老底像极了村口吵架",
-        "url": "https://www.qbitai.com/2026/05/412080.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/d7e8aac72ab1abd0016c490e235c3baa.webp",
-        "publish_time": null,
-        "tags": [],
-        "platform": "qbitai",
-        "id": "815789b7f9b4"
-      },
-      {
-        "title": "不好！1930年的AI都来抢程序员饭碗了",
-        "url": "https://www.qbitai.com/2026/05/412896.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/05/e6effb68465cf5b7a03eee943a369338.jpeg",
-        "publish_time": null,
-        "tags": [
-          "GPT之父",
-          "talkie-1930-13b",
-          "微调",
-          "软件工程师"
-        ],
-        "platform": "qbitai",
-        "id": "f143ce9df986"
       }
     ],
     "aiera": [
+      {
+        "title": "18岁高中生用AI挖出150万未知天体，首批ChatGPT原住民毕业",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92648/18%e5%b2%81%e9%ab%98%e4%b8%ad%e7%94%9f%e7%94%a8ai%e6%8c%96%e5%87%ba150%e4%b8%87%e6%9c%aa%e7%9f%a5%e5%a4%a9%e4%bd%93%ef%bc%8c%e9%a6%96%e6%89%b9chatgpt%e5%8e%9f%e4%bd%8f%e6%b0%91%e6%af%95%e4%b8%9a/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_e38261da87-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "e70c3634f063"
+      },
+      {
+        "title": "token级，精准控制生成长度：3B模型击败GPT 5.4、Claude",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92637/token%e7%ba%a7%ef%bc%8c%e7%b2%be%e5%87%86%e6%8e%a7%e5%88%b6%e7%94%9f%e6%88%90%e9%95%bf%e5%ba%a6%ef%bc%9a3b%e6%a8%a1%e5%9e%8b%e5%87%bb%e8%b4%a5gpt-5-4%e3%80%81claude/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_84c2b3b738-768x329.png",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "f6db5f4d09ec"
+      },
+      {
+        "title": "快手首个打工人Agent来了！工作秒变桌面软件：零代码、不烧token",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92610/%e5%bf%ab%e6%89%8b%e9%a6%96%e4%b8%aa%e6%89%93%e5%b7%a5%e4%ba%baagent%e6%9d%a5%e4%ba%86%ef%bc%81%e5%b7%a5%e4%bd%9c%e7%a7%92%e5%8f%98%e6%a1%8c%e9%9d%a2%e8%bd%af%e4%bb%b6%ef%bc%9a%e9%9b%b6%e4%bb%a3/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_b387f8709a-768x327.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "8ece79e09a3a"
+      },
+      {
+        "title": "不用学AI了！圈内公开的秘密：顶级玩家已开始让AI用AI",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92586/%e4%b8%8d%e7%94%a8%e5%ad%a6ai%e4%ba%86%ef%bc%81%e5%9c%88%e5%86%85%e5%85%ac%e5%bc%80%e7%9a%84%e7%a7%98%e5%af%86%ef%bc%9a%e9%a1%b6%e7%ba%a7%e7%8e%a9%e5%ae%b6%e5%b7%b2%e5%bc%80%e5%a7%8b%e8%ae%a9ai/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_bdc5e92293-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "496bb5412b53"
+      },
+      {
+        "title": "Anthropic最危险路线图曝光: 无限记忆、多智能体! AI终局战仅剩双雄决顶",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92576/anthropic%e6%9c%80%e5%8d%b1%e9%99%a9%e8%b7%af%e7%ba%bf%e5%9b%be%e6%9b%9d%e5%85%89-%e6%97%a0%e9%99%90%e8%ae%b0%e5%bf%86%e3%80%81%e5%a4%9a%e6%99%ba%e8%83%bd%e4%bd%93-ai%e7%bb%88%e5%b1%80%e6%88%98/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_ed1249a8fc-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "f75fafcdeb7b"
+      },
+      {
+        "title": "估值3000亿！63家新实验室杀疯了，Murati、贝佐斯集体押注下一代AI",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92547/%e4%bc%b0%e5%80%bc3000%e4%ba%bf%ef%bc%8163%e5%ae%b6%e6%96%b0%e5%ae%9e%e9%aa%8c%e5%ae%a4%e6%9d%80%e7%96%af%e4%ba%86%ef%bc%8cmurati%e3%80%81%e8%b4%9d%e4%bd%90%e6%96%af%e9%9b%86%e4%bd%93%e6%8a%bc/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_9a35ba6c0b-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "b7e05b2040f9"
+      },
+      {
+        "title": "xAI解散，但Grok还没死！马斯克声称新模型正在训练",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92535/xai%e8%a7%a3%e6%95%a3%ef%bc%8c%e4%bd%86grok%e8%bf%98%e6%b2%a1%e6%ad%bb%ef%bc%81%e9%a9%ac%e6%96%af%e5%85%8b%e5%a3%b0%e7%a7%b0%e6%96%b0%e6%a8%a1%e5%9e%8b%e6%ad%a3%e5%9c%a8%e8%ae%ad%e7%bb%83/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_e863131e8f-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "db9c8ee4898f"
+      },
+      {
+        "title": "奥特曼最险一战：前女CTO当庭翻脸，OpenAI权斗彻底打到台前",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92516/%e5%a5%a5%e7%89%b9%e6%9b%bc%e6%9c%80%e9%99%a9%e4%b8%80%e6%88%98%ef%bc%9a%e5%89%8d%e5%a5%b3cto%e5%bd%93%e5%ba%ad%e7%bf%bb%e8%84%b8%ef%bc%8copenai%e6%9d%83%e6%96%97%e5%bd%bb%e5%ba%95%e6%89%93%e5%88%b0/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_69252559cf-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "97e126d59e0b"
+      },
+      {
+        "title": "AlphaEvolve交出一周年炸裂成绩单！AI自我改进不再科幻",
+        "url": "https://aiera.com.cn/2026/05/09/other/admin/92477/alphaevolve%e4%ba%a4%e5%87%ba%e4%b8%80%e5%91%a8%e5%b9%b4%e7%82%b8%e8%a3%82%e6%88%90%e7%bb%a9%e5%8d%95%ef%bc%81ai%e8%87%aa%e6%88%91%e6%94%b9%e8%bf%9b%e4%b8%8d%e5%86%8d%e7%a7%91%e5%b9%bb/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_14086f82e0-768x326.jpg",
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "d39f3efee0e0"
+      },
       {
         "title": "细思极恐！Agent暗藏风险，清华团队打出组合拳，全链路一网打尽",
         "url": "https://aiera.com.cn/2026/05/08/other/admin/92454/%e7%bb%86%e6%80%9d%e6%9e%81%e6%81%90%ef%bc%81agent%e6%9a%97%e8%97%8f%e9%a3%8e%e9%99%a9%ef%bc%8c%e6%b8%85%e5%8d%8e%e5%9b%a2%e9%98%9f%e6%89%93%e5%87%ba%e7%bb%84%e5%90%88%e6%8b%b3%ef%bc%8c%e5%85%a8/",
@@ -666,87 +699,6 @@
         "tags": [],
         "platform": "aiera",
         "id": "7bf94c5ea33d"
-      },
-      {
-        "title": "马斯克变身「算力包租公」！砸数万GPU疯狂喂养Cursor，联手反杀OpenAI",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92444/%e9%a9%ac%e6%96%af%e5%85%8b%e5%8f%98%e8%ba%ab%e3%80%8c%e7%ae%97%e5%8a%9b%e5%8c%85%e7%a7%9f%e5%85%ac%e3%80%8d%ef%bc%81%e7%a0%b8%e6%95%b0%e4%b8%87gpu%e7%96%af%e7%8b%82%e5%96%82%e5%85%bbcursor%ef%bc%8c/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_7046bf1341-768x365.jpg",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "0b05578d2019"
-      },
-      {
-        "title": "突发，马斯克xAI解散了！22万张GPU忍痛全给Claude",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92433/%e7%aa%81%e5%8f%91%ef%bc%8c%e9%a9%ac%e6%96%af%e5%85%8bxai%e8%a7%a3%e6%95%a3%e4%ba%86%ef%bc%8122%e4%b8%87%e5%bc%a0gpu%e5%bf%8d%e7%97%9b%e5%85%a8%e7%bb%99claude/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_033556f697-768x327.jpg",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "366a7854bc5e"
-      },
-      {
-        "title": "打破碎片化瓶颈！浙大&哈佛开源UniGeo，高保真相机可控编辑",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92414/%e6%89%93%e7%a0%b4%e7%a2%8e%e7%89%87%e5%8c%96%e7%93%b6%e9%a2%88%ef%bc%81%e6%b5%99%e5%a4%a7%e5%93%88%e4%bd%9b%e5%bc%80%e6%ba%90unigeo%ef%bc%8c%e9%ab%98%e4%bf%9d%e7%9c%9f%e7%9b%b8%e6%9c%ba%e5%8f%af/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_1d1b9b9769-768x329.png",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "ed98c0f75893"
-      },
-      {
-        "title": "嘘，Claude正在「做梦」！睡一觉疯狂进化，一夜暴涨6倍战力",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92404/%e5%98%98%ef%bc%8cclaude%e6%ad%a3%e5%9c%a8%e3%80%8c%e5%81%9a%e6%a2%a6%e3%80%8d%ef%bc%81%e7%9d%a1%e4%b8%80%e8%a7%89%e7%96%af%e7%8b%82%e8%bf%9b%e5%8c%96%ef%bc%8c%e4%b8%80%e5%a4%9c%e6%9a%b4%e6%b6%a86/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_0454f5c4ae-768x328.png",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "36c0cb89c220"
-      },
-      {
-        "title": "全球医疗榜第一，中国AI杀疯了！医疗AI迈入Harness时代",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92381/%e5%85%a8%e7%90%83%e5%8c%bb%e7%96%97%e6%a6%9c%e7%ac%ac%e4%b8%80%ef%bc%8c%e4%b8%ad%e5%9b%bdai%e6%9d%80%e7%96%af%e4%ba%86%ef%bc%81%e5%8c%bb%e7%96%97ai%e8%bf%88%e5%85%a5harness%e6%97%b6%e4%bb%a3/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_87f08cbd75-768x327.jpg",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "d55df6a94706"
-      },
-      {
-        "title": "5轴联动直插大脑！马斯克大招：90亿美元估值，20余人已植入",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92368/5%e8%bd%b4%e8%81%94%e5%8a%a8%e7%9b%b4%e6%8f%92%e5%a4%a7%e8%84%91%ef%bc%81%e9%a9%ac%e6%96%af%e5%85%8b%e5%a4%a7%e6%8b%9b%ef%bc%9a90%e4%ba%bf%e7%be%8e%e5%85%83%e4%bc%b0%e5%80%bc%ef%bc%8c20%e4%bd%99/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_2f2930c5a6-768x326.jpg",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "434cb57077f5"
-      },
-      {
-        "title": "全球AI新王诞生！Anthropic估值冲爆1.2万亿，首次反超OpenAI",
-        "url": "https://aiera.com.cn/2026/05/08/other/admin/92353/%e5%85%a8%e7%90%83ai%e6%96%b0%e7%8e%8b%e8%af%9e%e7%94%9f%ef%bc%81anthropic%e4%bc%b0%e5%80%bc%e5%86%b2%e7%88%861-2%e4%b8%87%e4%ba%bf%ef%bc%8c%e9%a6%96%e6%ac%a1%e5%8f%8d%e8%b6%85openai/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_d97d6f7ab5-768x326.jpg",
-        "publish_time": "2026-05-08T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "cfe903fb2e54"
-      },
-      {
-        "title": "12岁写代码，28岁撑起谷歌20亿业务！他却劝年轻人：别卷编程了",
-        "url": "https://aiera.com.cn/2026/05/07/other/admin/92328/12%e5%b2%81%e5%86%99%e4%bb%a3%e7%a0%81%ef%bc%8c28%e5%b2%81%e6%92%91%e8%b5%b7%e8%b0%b7%e6%ad%8c20%e4%ba%bf%e4%b8%9a%e5%8a%a1%ef%bc%81%e4%bb%96%e5%8d%b4%e5%8a%9d%e5%b9%b4%e8%bd%bb%e4%ba%ba%ef%bc%9a/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_abde3f792e-768x328.jpg",
-        "publish_time": "2026-05-07T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "6f93623bd6c1"
-      },
-      {
-        "title": "刚刚，GPT-5.5 Instant全员免费！数亿人的ChatGPT变了",
-        "url": "https://aiera.com.cn/2026/05/07/other/admin/92309/%e5%88%9a%e5%88%9a%ef%bc%8cgpt-5-5-instant%e5%85%a8%e5%91%98%e5%85%8d%e8%b4%b9%ef%bc%81%e6%95%b0%e4%ba%bf%e4%ba%ba%e7%9a%84chatgpt%e5%8f%98%e4%ba%86/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/05/aiera_img_6c68010839-768x327.jpg",
-        "publish_time": "2026-05-07T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "b7e70313d97f"
       },
       {
         "title": "20天狂更超10次，OpenClaw接入Gemini 3.1和Apple Watch",
@@ -786,6 +738,26 @@
       }
     ],
     "radarai": [
+      {
+        "title": "5月9日 AI 速报 · 第 277 期",
+        "url": "https://radarai.top/updates/brief-20260509-0800",
+        "cover_url": null,
+        "publish_time": "2026-05-09T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "39c6fedb4e23"
+      },
+      {
+        "title": "5月9日 AI 速报 · 第 276 期",
+        "url": "https://radarai.top/updates/brief-20260509-0000",
+        "cover_url": null,
+        "publish_time": "2026-05-09T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "1244d836c6ee"
+      },
       {
         "title": "5月8日 AI 速报 · 第 275 期",
         "url": "https://radarai.top/updates/brief-20260508-1600",
@@ -965,29 +937,21 @@
         "summary": "",
         "platform": "radarai",
         "id": "3f0f501d537a"
-      },
-      {
-        "title": "5月3日 AI 速报 · 第 258 期",
-        "url": "https://radarai.top/updates/brief-20260503-0000",
-        "cover_url": null,
-        "publish_time": "2026-05-03T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d294fc40abfa"
-      },
-      {
-        "title": "5月2日 AI 速报 · 第 257 期",
-        "url": "https://radarai.top/updates/brief-20260502-1600",
-        "cover_url": null,
-        "publish_time": "2026-05-02T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "7eb8ecae4f8c"
       }
     ],
     "googleai": [
+      {
+        "title": "See what happens when creative legends use AI to make ads for small businesses.",
+        "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+        "cover_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-1440x810.png",
+        "publish_time": "2026-05-08T15:00:00+00:00",
+        "tags": [
+          "AI"
+        ],
+        "summary": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe",
+        "platform": "googleai",
+        "id": "99cbd63e6842"
+      },
       {
         "title": "5 gardening tips you can try right in Search",
         "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
@@ -1227,19 +1191,6 @@
         "id": "5150551c6898"
       },
       {
-        "title": "New ways to balance cost and reliability in the Gemini API",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-        "cover_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_API_Dials_ss_1.width-1300.png",
-        "publish_time": "2026-04-02T16:00:00+00:00",
-        "tags": [
-          "Developer tools",
-          "AI"
-        ],
-        "summary": "Gemini API Dials",
-        "platform": "googleai",
-        "id": "91c80f8f85dd"
-      },
-      {
         "title": "Create, edit and share videos at no cost in Google Vids",
         "url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
         "cover_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Createeditandshare_Google_Vids_social.width-1300.png",
@@ -1254,18 +1205,17 @@
         "id": "856da005c53d"
       },
       {
-        "title": "We’re creating a new satellite imagery map to help protect Brazil’s forests.",
-        "url": "https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/",
-        "cover_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/bfc_keyword_before_after_white_bg_Sr6lc15.max-1440x810.png",
-        "publish_time": "2026-04-01T13:30:00+00:00",
+        "title": "New ways to balance cost and reliability in the Gemini API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+        "cover_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_API_Dials_ss_1.width-1300.png",
+        "publish_time": "2026-04-02T16:00:00+00:00",
         "tags": [
-          "Sustainability",
-          "Google Earth",
+          "Developer tools",
           "AI"
         ],
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/bfc_keyword_before_after_white_.max-600x600.format-webp_QNQ8psB.webp\" />Google partnered with the Brazilian government on a satellite imagery map to help protect the country’s forests.",
+        "summary": "Gemini API Dials",
         "platform": "googleai",
-        "id": "7347fdd50ec9"
+        "id": "91c80f8f85dd"
       }
     ]
   },
@@ -1273,96 +1223,96 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 4.2,
-      "cover_success_rate": 70.5
+      "avg_response_time": 2.2,
+      "cover_success_rate": 74.0
     },
     "platforms": [
       {
         "platform": "hackernews",
         "name": "Hacker News",
         "status": "online",
-        "item_count": 11,
-        "last_crawl": "2026-05-08T11:17:03.658308+00:00"
+        "item_count": 6,
+        "last_crawl": "2026-05-09T02:40:10.467796+00:00"
       },
       {
         "platform": "techcrunch",
         "name": "TechCrunch",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-08T11:17:04.607417+00:00"
+        "last_crawl": "2026-05-09T02:40:11.671115+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-08T11:17:04.880315+00:00"
+        "last_crawl": "2026-05-09T02:40:13.256454+00:00"
       },
       {
         "platform": "aiera",
         "name": "新智元",
         "status": "online",
         "item_count": 14,
-        "last_crawl": "2026-05-08T11:17:05.695743+00:00"
+        "last_crawl": "2026-05-09T02:40:15.998668+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-08T11:17:06.335706+00:00"
+        "last_crawl": "2026-05-09T02:40:18.946934+00:00"
       },
       {
         "platform": "googleai",
         "name": "Google AI Blog",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-05-08T11:17:07.905914+00:00"
+        "last_crawl": "2026-05-09T02:40:20.581533+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-05-08T11:17:03.658320+00:00",
+        "timestamp": "2026-05-09T02:40:10.467804+00:00",
         "platform": "hackernews",
         "status": "success",
-        "items_collected": 11,
-        "latency": 21.218325
+        "items_collected": 6,
+        "latency": 3.28409
       },
       {
-        "timestamp": "2026-05-08T11:17:04.607429+00:00",
+        "timestamp": "2026-05-09T02:40:11.671125+00:00",
         "platform": "techcrunch",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.9491
+        "latency": 1.203312
       },
       {
-        "timestamp": "2026-05-08T11:17:04.880325+00:00",
+        "timestamp": "2026-05-09T02:40:13.256467+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.272891
+        "latency": 1.585336
       },
       {
-        "timestamp": "2026-05-08T11:17:05.695751+00:00",
+        "timestamp": "2026-05-09T02:40:15.998675+00:00",
         "platform": "aiera",
         "status": "success",
         "items_collected": 14,
-        "latency": 0.815421
+        "latency": 2.742201
       },
       {
-        "timestamp": "2026-05-08T11:17:06.335711+00:00",
+        "timestamp": "2026-05-09T02:40:18.946940+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.639954
+        "latency": 2.948258
       },
       {
-        "timestamp": "2026-05-08T11:17:07.905923+00:00",
+        "timestamp": "2026-05-09T02:40:20.581545+00:00",
         "platform": "googleai",
         "status": "success",
         "items_collected": 20,
-        "latency": 1.570207
+        "latency": 1.634599
       }
     ]
   }
