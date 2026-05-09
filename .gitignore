@@ -1,0 +1,25 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+venv/
+.env
+
+# 日志
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
