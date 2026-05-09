@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
-"""TechCrunch 爬虫 - 使用 RSS Feed"""
+"""TechCrunch 爬虫 - 使用 RSS Feed
+
+策略：获取RSS文章，筛选近7天的文章，按发布时间取前10（TechCrunch无热度指标）
+"""
 
 import asyncio
 import feedparser
 import ssl
 from typing import List, Dict, Any, Optional
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 from crawlers.base import BaseCrawler
+
+# 7天前的时间戳
+def get_7days_ago() -> datetime:
+    return datetime.now(timezone.utc) - timedelta(days=7)
 
 
 class TechCrunchCrawler(BaseCrawler):
@@ -57,17 +64,37 @@ class TechCrunchCrawler(BaseCrawler):
             print(f"[{self.name}] 提取封面失败 ({url}): {str(e)[:50]}")
             return None
     
-    async def crawl(self, limit: int = 20) -> List[Dict[str, Any]]:
+    def is_within_7days(self, publish_time: str) -> bool:
+        """判断时间是否在7天内"""
+        if not publish_time:
+            return False
+        try:
+            # 处理ISO格式时间
+            if isinstance(publish_time, str):
+                if publish_time.endswith('Z'):
+                    publish_time = publish_time.replace('Z', '+00:00')
+                dt = datetime.fromisoformat(publish_time)
+            else:
+                dt = publish_time
+            
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            
+            return dt >= get_7days_ago()
+        except Exception:
+            return False
+    
+    async def crawl(self, top_n: int = 10) -> List[Dict[str, Any]]:
         """
-        执行爬虫
+        执行爬虫 - 获取近7天内最新的AI文章
         
         Args:
-            limit: 获取文章数量上限
+            top_n: 取前N篇文章（默认10）
             
         Returns:
-            文章列表
+            文章列表（按发布时间降序）
         """
-        print(f"[{self.name}] 开始获取 RSS Feed: {self.rss_url}")
+        print(f"[{self.name}] 开始获取 RSS Feed（筛选近7天）: {self.rss_url}")
         
         loop = asyncio.get_event_loop()
         feed = await loop.run_in_executor(None, self._fetch_rss, self.rss_url)
@@ -78,13 +105,14 @@ class TechCrunchCrawler(BaseCrawler):
         print(f"[{self.name}] RSS Feed 包含 {len(feed.entries)} 篇文章")
         
         articles = []
-        for entry in feed.entries[:limit]:
+        for entry in feed.entries:
             try:
                 title = entry.get('title', '')
                 link = entry.get('link', '')
                 published = entry.get('published', '')
                 summary = entry.get('summary', '')
                 
+                # 解析发布时间
                 publish_time = None
                 if published:
                     try:
@@ -96,6 +124,10 @@ class TechCrunchCrawler(BaseCrawler):
                             publish_time = dt.replace(tzinfo=timezone.utc).isoformat()
                         except ValueError:
                             publish_time = published
+                
+                # 筛选近7天的文章
+                if not self.is_within_7days(publish_time):
+                    continue
                 
                 cover_url = None
                 if hasattr(entry, 'media_content') and entry.media_content:
@@ -127,6 +159,13 @@ class TechCrunchCrawler(BaseCrawler):
                 print(f"[{self.name}] 解析文章失败: {str(e)}")
                 continue
         
+        print(f"[{self.name}] 近7天文章: {len(articles)} 篇")
+        
+        # 按发布时间降序排序，取前N（处理None值，None排到最后）
+        articles.sort(key=lambda x: x.get('publish_time') or '1970-01-01T00:00:00+00:00', reverse=True)
+        articles = articles[:top_n]
+        
+        # 补充封面
         covers_to_fetch = [a for a in articles if not a.get('cover_url')]
         if covers_to_fetch:
             print(f"[{self.name}] 正在从 {len(covers_to_fetch)} 个文章页面提取封面...")
@@ -138,7 +177,7 @@ class TechCrunchCrawler(BaseCrawler):
             fetched_count = sum(1 for a in covers_to_fetch if a.get('cover_url'))
             print(f"[{self.name}] 成功提取 {fetched_count}/{len(covers_to_fetch)} 个封面")
         
-        print(f"[{self.name}] 成功解析 {len(articles)} 篇文章")
+        print(f"[{self.name}] 最终获取最新Top{top_n}: {len(articles)} 篇")
         return articles
     
     async def _set_cover(self, article: Dict, cover_task):
@@ -148,14 +187,14 @@ class TechCrunchCrawler(BaseCrawler):
             article['cover_url'] = cover_url
 
 
-async def crawl_techcrunch(limit: int = 20) -> List[Dict[str, Any]]:
+async def crawl_techcrunch(top_n: int = 10) -> List[Dict[str, Any]]:
     """模块入口函数"""
     crawler = TechCrunchCrawler()
-    return await crawler.crawl(limit=limit)
+    return await crawler.crawl(top_n=top_n)
 
 
 if __name__ == '__main__':
-    articles = asyncio.run(crawl_techcrunch(limit=10))
+    articles = asyncio.run(crawl_techcrunch(top_n=10))
     print(f"\n获取到 {len(articles)} 篇文章:")
     for i, article in enumerate(articles, 1):
         print(f"{i}. {article['title']}")

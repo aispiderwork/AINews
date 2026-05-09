@@ -416,6 +416,77 @@
             font-size: 0.75rem;
         }
 
+        .hot-score-badge {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(245, 158, 11, 0.2));
+            color: #F59E0B;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .hot-score-badge::before {
+            content: '🔥';
+            font-size: 0.7rem;
+        }
+
+        .sort-tabs {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-lg);
+            padding: var(--space-xs);
+            background: var(--color-surface);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--color-border);
+            width: fit-content;
+        }
+
+        .sort-tab {
+            padding: var(--space-sm) var(--space-md);
+            border: none;
+            background: transparent;
+            color: var(--color-text-secondary);
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            cursor: pointer;
+            border-radius: var(--radius-md);
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+
+        .sort-tab:hover {
+            color: var(--color-text-primary);
+            background: var(--color-highlight);
+        }
+
+        .sort-tab.active {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .hot-rank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .hot-rank.top1 { background: linear-gradient(135deg, #FFD700, #FFA500); color: #000; }
+        .hot-rank.top2 { background: linear-gradient(135deg, #C0C0C0, #A0A0A0); color: #000; }
+        .hot-rank.top3 { background: linear-gradient(135deg, #CD7F32, #B87333); color: #fff; }
+        .hot-rank.normal { background: var(--color-highlight); color: var(--color-text-secondary); }
+
         .news-tags {
             display: flex;
             gap: 6px;
@@ -784,6 +855,12 @@
                 <span class="data-source-badge" id="totalBadge">📰 共 0 篇文章</span>
             </div>
 
+            <div class="sort-tabs" id="sortTabs">
+                <button class="sort-tab active" data-sort="hot">🔥 热度排序</button>
+                <button class="sort-tab" data-sort="time">🕐 时间排序</button>
+                <button class="sort-tab" data-sort="platform">📰 平台分组</button>
+            </div>
+
             <div class="platform-tabs" id="platformTabs">
                 <button class="platform-tab active" data-platform="all">全部 <span class="count">0</span></button>
                 <button class="platform-tab" data-platform="hackernews">💻 Hacker News <span class="count">0</span></button>
@@ -849,6 +926,7 @@
         let appData = null;
         let currentPlatform = 'all';
         let searchKeyword = '';
+        let currentSort = 'hot';
 
         const platformNames = {
             'hackernews': 'Hacker News',
@@ -931,18 +1009,51 @@
         function renderNewsList() {
             const container = document.getElementById('newsList');
             const news = appData.news || {};
+            const sortedAll = appData.sorted_all || [];
             
             let items = [];
-            if (currentPlatform === 'all') {
-                Object.keys(news).forEach(function(platform) {
-                    (news[platform] || []).forEach(function(article) {
-                        items.push(Object.assign({}, article, { platform: platform }));
+            
+            // 根据排序模式获取数据
+            if (currentSort === 'hot' && sortedAll.length > 0) {
+                // 热度排序模式 - 使用后端排序好的全部文章
+                if (currentPlatform === 'all') {
+                    items = sortedAll.map(function(article) {
+                        return Object.assign({}, article);
                     });
+                } else {
+                    items = sortedAll.filter(function(article) {
+                        return article.platform === currentPlatform;
+                    });
+                }
+            } else if (currentSort === 'time' && sortedAll.length > 0) {
+                // 时间排序模式
+                let timeItems = [];
+                if (currentPlatform === 'all') {
+                    timeItems = sortedAll.map(function(article) {
+                        return Object.assign({}, article);
+                    });
+                } else {
+                    timeItems = sortedAll.filter(function(article) {
+                        return article.platform === currentPlatform;
+                    });
+                }
+                // 按时间降序
+                items = timeItems.sort(function(a, b) {
+                    return new Date(b.publish_time || 0) - new Date(a.publish_time || 0);
                 });
             } else {
-                (news[currentPlatform] || []).forEach(function(article) {
-                    items.push(Object.assign({}, article, { platform: currentPlatform }));
-                });
+                // 平台分组模式（默认）
+                if (currentPlatform === 'all') {
+                    Object.keys(news).forEach(function(platform) {
+                        (news[platform] || []).forEach(function(article) {
+                            items.push(Object.assign({}, article, { platform: platform }));
+                        });
+                    });
+                } else {
+                    (news[currentPlatform] || []).forEach(function(article) {
+                        items.push(Object.assign({}, article, { platform: currentPlatform }));
+                    });
+                }
             }
 
             if (searchKeyword) {
@@ -958,10 +1069,17 @@
             }
             
             let html = '';
-            items.forEach(function(item) {
+            items.forEach(function(item, index) {
                 const platform = item.platform || currentPlatform;
                 const emoji = platformEmojis[platform] || '📰';
                 const platformLabel = platformNames[platform] || platform;
+                
+                // 热度排名（仅在热度排序模式下显示）
+                let rankHtml = '';
+                if (currentSort === 'hot') {
+                    const rankClass = index === 0 ? 'top1' : index === 1 ? 'top2' : index === 2 ? 'top3' : 'normal';
+                    rankHtml = '<div class="hot-rank ' + rankClass + '">' + (index + 1) + '</div>';
+                }
                 
                 let coverHtml = '';
                 if (item.cover_url) {
@@ -970,6 +1088,10 @@
                 
                 let metaHtml = '';
                 let metaParts = [];
+                
+                // 平台标签
+                metaParts.push('<span class="platform-badge platform-' + platform + '">' + emoji + ' ' + platformLabel + '</span>');
+                
                 if (item.publish_time) {
                     try {
                         const d = new Date(item.publish_time);
@@ -978,12 +1100,20 @@
                         metaParts.push(item.publish_time);
                     }
                 }
+                
+                // 热度分显示
+                if (item.hot_score !== undefined && item.hot_score !== null) {
+                    metaParts.push('<span class="hot-score-badge">' + item.hot_score.toFixed(3) + '</span>');
+                }
+                
+                // HN特有数据
                 if (item.score) {
-                    metaParts.push('<span class="score-badge">Score: ' + item.score + '</span>');
+                    metaParts.push('<span class="score-badge">↑ ' + item.score + '</span>');
                 }
                 if (item.comments_count) {
                     metaParts.push('💬 ' + item.comments_count);
                 }
+                
                 if (metaParts.length > 0) {
                     metaHtml = '<div class="news-meta">' + metaParts.join(' · ') + '</div>';
                 }
@@ -1013,6 +1143,9 @@
                 
                 let cardClass = 'news-card';
                 let cardHtml = '<div class="' + cardClass + '">';
+                if (rankHtml) {
+                    cardHtml += rankHtml;
+                }
                 if (coverHtml) {
                     cardHtml += coverHtml;
                 }
@@ -1110,6 +1243,15 @@
                 document.querySelectorAll('.platform-tab').forEach(function(t) { t.classList.remove('active'); });
                 tab.classList.add('active');
                 currentPlatform = tab.dataset.platform;
+                renderNewsList();
+            });
+        });
+
+        document.querySelectorAll('.sort-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.sort-tab').forEach(function(t) { t.classList.remove('active'); });
+                tab.classList.add('active');
+                currentSort = tab.dataset.sort;
                 renderNewsList();
             });
         });

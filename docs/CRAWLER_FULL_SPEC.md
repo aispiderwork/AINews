@@ -31,6 +31,20 @@
 | **作者** | `item.by` | 无 | 作者链接锚文本 | 无 | RadarAI 官方 | 无 |
 | **评论数** | `item.descendants` | 无 | 需进详情页 | 需进详情页 | 无 | 需进详情页 |
 | **得分** | `item.score` | 无 | 无 | 无 | 无 | 无 |
+| **热度分** | 自动计算 | 自动计算 | 自动计算 | 自动计算 | 自动计算 | 自动计算 |
+| **7天筛选** | ✅ 支持 | ✅ 支持 | ✅ 支持 | ✅ 支持 | ✅ 支持 | ✅ 支持 |
+| **平台Top10** | 按HN热度 | 按发布时间 | 按发布时间 | 按发布时间 | 按发布时间 | 按发布时间 |
+
+### 1.2a 热度计算字段说明
+
+| 字段名 | 类型 | 说明 | 计算来源 |
+|--------|------|------|---------|
+| `hot_score` | float | 综合热度分 (0-1) | 平台权重×30% + 时间因子×40% + HN热度分×30% |
+| `time_factor` | float | 时间衰减因子 (0.1-1.0) | 24h内=1.0, 每过1天-0.1, 10天后=0.1 |
+| `platform_weight` | float | 平台权重 | HN(1.0) > TC(0.9) > GoogleAI(0.85) > 量子位(0.8) > 新智元(0.75) > RadarAI(0.7) |
+| `hn_hot_score` | float | HN原始热度分 | score×0.7 + descendants×0.3 (仅HN有) |
+| `score` | int | HN投票得分 | Hacker News API 提供 |
+| `comments_count` | int | HN评论数 | Hacker News API 提供 |
 
 ### 1.3 封面展示策略
 
@@ -70,7 +84,27 @@
 
 ## 二、各平台爬虫详细方案
 
-### 2.1 Hacker News — 官方 Firebase API
+### 2.1 数据抓取策略
+
+| 平台 | 抓取方式 | 抓取范围 | 筛选条件 | 更新频率 |
+|------|---------|---------|---------|---------|
+| **Hacker News** | Firebase API | Top 100 | 近7天 + AI相关 + 热度Top10 | 每2小时 |
+| **TechCrunch** | RSS Feed | 全部文章 | 近7天 + 最新Top10 | 每2小时 |
+| **量子位** | 静态HTML | 首页文章 | 近7天 + 最新Top10 | 每2小时 |
+| **新智元** | 静态HTML | 首页文章 | 近7天 + 最新Top10 | 每2小时 |
+| **RadarAI** | 静态HTML | Updates页 | 近7天 + 最新Top10 | 每2小时 |
+| **Google AI** | RSS Feed | 全部文章 | 近7天 + 最新Top10 | 每2小时 |
+
+**抓取策略说明**：
+- **近7天筛选**：所有平台只保留7天内发布的文章（基于当前时间往前推7天）
+- **各平台Top10**：每个平台独立筛选，取该平台近7天内最热门的10篇文章
+- **Hacker News热度**：基于投票分(score)和评论数(descendants)计算
+- **其他平台热度**：基于发布时间排序（越新越热）
+- **总计文章数**：最多 6平台 × 10篇 = 60篇文章
+
+---
+
+### 2.2 Hacker News — 官方 Firebase API
 
 **数据源**：`https://hacker-news.firebaseio.com/v0/`
 
@@ -81,9 +115,11 @@ GET /v0/item/{id}.json      → 返回单篇文章详情
 ```
 
 **实现细节**：
-- 获取 top 30 热门ID
+- 获取 top 100 热门ID（扩大范围以支持近7天+AI筛选）
 - 并发请求每个 item 的详情
 - 用 AI 关键词列表过滤标题
+- 筛选近7天内发布的文章
+- 按热度分排序取Top10
 - 保留 `discussion_url` = `news.ycombinator.com/item?id={id}`
 
 **封面处理**：HN API 无封面信息，不提供封面
@@ -96,7 +132,7 @@ GET /v0/item/{id}.json      → 返回单篇文章详情
 
 ---
 
-### 2.2 TechCrunch — RSS Feed + og:image 二次抓取
+### 2.3 TechCrunch — RSS Feed + og:image 二次抓取
 
 **数据源**：`https://techcrunch.com/category/artificial-intelligence/feed/`
 
@@ -119,7 +155,7 @@ Step 2: 对缺少封面的文章，并发请求文章页面提取 og:image
 
 ---
 
-### 2.3 量子位 (qbitai.com) — WordPress 静态HTML
+### 2.4 量子位 (qbitai.com) — WordPress 静态HTML
 
 **数据源**：`https://www.qbitai.com/`
 
@@ -155,7 +191,7 @@ CSS选择器定位文章卡片、标题、封面、标签
 
 ---
 
-### 2.4 新智元 (aiera.com.cn) — WordPress 静态HTML
+### 2.5 新智元 (aiera.com.cn) — WordPress 静态HTML
 
 **数据源**：`https://www.aiera.com.cn/`
 
@@ -185,7 +221,7 @@ CSS选择器定位文章卡片、标题、封面、标签
 
 ---
 
-### 2.5 RadarAI (radarai.top) — 静态HTML
+### 2.6 RadarAI (radarai.top) — 静态HTML
 
 **数据源**：`https://radarai.top/updates/`
 
@@ -217,7 +253,7 @@ CSS选择器定位文章卡片、标题、封面、标签
 
 ---
 
-### 2.6 Google AI Blog — 静态 HTML
+### 2.7 Google AI Blog — 静态 HTML
 
 **数据源**：`https://blog.google/technology/ai/`
 
@@ -259,6 +295,8 @@ CSS选择器定位文章卡片、标题、封面、标签
 | **全局** | `total_fail_rate` | float | 失败平台占比 (%) |
 | **全局** | `avg_response_time` | float | 成功请求平均耗时 (秒) |
 | **全局** | `cover_success_rate` | float | 有封面的文章 / 总文章数 (%) |
+| **全局** | `hot_sort_enabled` | bool | 是否启用热度排序 |
+| **全局** | `platform_hot_stats` | dict | 各平台热度统计 |
 | **平台级** | `status` | string | online / error |
 | **平台级** | `item_count` | int | 本次抓取文章数 |
 | **平台级** | `last_crawl` | datetime | 上次成功抓取时间 |
@@ -268,6 +306,16 @@ CSS选择器定位文章卡片、标题、封面、标签
 | **执行历史** | `items_collected` | int | 本次收集文章数 |
 | **执行历史** | `latency` | float | 本次请求耗时 (秒) |
 | **错误统计** | `failure_reasons` | dict | 按错误类型计数 |
+
+### 3.1a 热度排序监控
+
+| 指标 | 类型 | 说明 |
+|------|------|------|
+| `hot_sort_enabled` | bool | 热度排序功能开关状态 |
+| `platform_hot_stats.{platform}.count` | int | 该平台文章数量 |
+| `platform_hot_stats.{platform}.avg_hot_score` | float | 该平台平均热度分 |
+| `platform_hot_stats.{platform}.max_hot_score` | float | 该平台最高热度分 |
+| `platform_hot_stats.{platform}.min_hot_score` | float | 该平台最低热度分 |
 
 ### 3.2 监控数据结构
 
@@ -354,6 +402,49 @@ def append_history(new_record: dict):
 }
 ```
 
+### 3.3a 热度排序数据输出
+
+**主数据文件 news.json 新增字段**：
+```json
+{
+  "update_time": "2026-05-09T12:00:00+00:00",
+  "news": {
+    "hackernews": [
+      {
+        "title": "...",
+        "url": "...",
+        "platform": "hackernews",
+        "hot_score": 0.8234,
+        "time_factor": 0.9167,
+        "platform_weight": 1.0,
+        "hn_hot_score": 205.9,
+        "score": 256,
+        "comments_count": 89
+      }
+    ]
+  },
+  "sorted_all": [
+    // 全部文章按 hot_score 降序排列
+    {"title": "...", "hot_score": 0.9123, ...},
+    {"title": "...", "hot_score": 0.8567, ...}
+  ],
+  "monitor": {
+    "summary": {
+      "hot_sort_enabled": true,
+      "platform_hot_stats": {
+        "hackernews": {
+          "count": 15,
+          "avg_hot_score": 0.7523,
+          "max_hot_score": 0.9123,
+          "min_hot_score": 0.5234
+        },
+        "techcrunch": {...}
+      }
+    }
+  }
+}
+```
+
 ### 3.4 监控数据是否需要部署到 GitHub Actions？
 
 **结论：需要。**
@@ -394,10 +485,16 @@ GitHub Actions 触发 → 执行爬虫 → 生成 news.json + history.json
 │   └── utils/
 │       ├── __init__.py
 │       ├── filter.py            # AI关键词过滤
-│       └── merge.py             # 数据合并去重
+│       ├── merge.py             # 数据合并去重
+│       └── hot_score.py         # 热度计算模块
 ├── data/
 │   ├── news.json                # 最新新闻数据
 │   └── history.json             # 历史执行记录
+├── docs/                        # 文档目录
+│   ├── CRAWLER_FULL_SPEC.md     # 爬虫完整方案
+│   ├── product_plan.html        # 产品方案
+│   ├── technical_architecture.md # 技术架构
+│   └── ui-design-specification.md # UI设计规范
 ├── verify-crawler.html          # 数据验证页面
 ├── index.html                   # 主页（可指向验证页面）
 ├── main.py                      # 主入口

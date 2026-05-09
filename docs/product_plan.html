@@ -785,16 +785,16 @@
             <h2 class="section-title">✨ 核心功能</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>🔥 热榜优先采集</h3>
-                    <p>优先抓取各平台热搜/热榜内容，确保获取最热门资讯。数据源优先级：微博热搜 → B站热门 → 小红书热榜 → X趋势 → Facebook热门</p>
+                    <h3>🔥 智能热度排序</h3>
+                    <p>基于多维度算法计算文章热度分：平台权重(30%) + 时间因子(40%) + HN投票分(30%)。支持热度排序、时间排序、平台分组三种视图模式</p>
                 </div>
                 <div class="feature-card">
-                    <h3>🎯 智能关键词过滤</h3>
-                    <p>AI大模型、LLM、GPT、Claude、Agent、AI应用、生成式AI等关键词精准匹配，只看你关心的内容</p>
+                    <h3>🎯 AI关键词过滤</h3>
+                    <p>AI大模型、LLM、GPT、Claude、Agent、生成式AI等50+关键词精准匹配，只看你关心的内容</p>
                 </div>
                 <div class="feature-card">
                     <h3>📊 多平台整合</h3>
-                    <p>微博、B站、小红书、X(Twitter)、Facebook 五大平台，一站式查看，无需切换</p>
+                    <p>Hacker News、TechCrunch、量子位、新智元、RadarAI、Google AI Blog 六大平台，一站式查看，无需切换</p>
                 </div>
                 <div class="feature-card">
                     <h3>🖼️ 封面图片展示</h3>
@@ -802,11 +802,11 @@
                 </div>
                 <div class="feature-card">
                     <h3>📈 运行监控看板</h3>
-                    <p>实时监控爬虫成功率、响应延迟、采集数量等指标，7天历史数据回溯。包含失败原因统计（网络超时、Cookie过期、页面结构变化等）和最近采集记录列表</p>
+                    <p>实时监控爬虫成功率、响应延迟、采集数量、封面获取率等指标。包含失败原因统计和最近采集记录列表</p>
                 </div>
                 <div class="feature-card">
                     <h3>⚡ GitHub 自动部署</h3>
-                    <p>使用 GitHub Actions 每2小时自动执行，GitHub Pages 托管网页，零服务器成本</p>
+                    <p>使用 GitHub Actions 北京时间9:00和20:00自动执行，GitHub Pages 托管网页，零服务器成本</p>
                 </div>
             </div>
         </section>
@@ -1068,6 +1068,35 @@
             </div>
         </section>
 
+        <!-- 热度排序算法说明 -->
+        <section class="section">
+            <h2 class="section-title">🔥 热度排序算法</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>📊 热度计算公式</h3>
+                    <p><strong>hot_score = 平台权重×30% + 时间因子×40% + HN热度分×30%</strong><br><br>
+                    平台权重：Hacker News(1.0) > TechCrunch(0.9) > Google AI(0.85) > 量子位(0.8) > 新智元(0.75) > RadarAI(0.7)</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⏰ 时间衰减因子</h3>
+                    <p>24小时内=1.0，每过一天衰减0.1，10天后降至0.1<br><br>
+                    确保新发布的内容获得更高的热度权重，避免旧内容长期占据榜首</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📈 Hacker News热度分</h3>
+                    <p><strong>HN热度 = 投票分×0.7 + 评论数×0.3</strong><br><br>
+                    Hacker News提供真实的投票和评论数据，是热度计算的重要参考指标</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔄 多维度排序</h3>
+                    <p>支持三种排序模式：<br>
+                    🔥 热度排序 - 基于综合热度分<br>
+                    🕐 时间排序 - 按发布时间倒序<br>
+                    📰 平台分组 - 按平台分类展示</p>
+                </div>
+            </div>
+        </section>
+
         <!-- 开发路线图 -->
         <section class="section">
             <h2 class="section-title">📅 开发路线图</h2>
@@ -1079,33 +1108,33 @@
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 2</div>
-                    <div class="timeline-title">热榜爬虫实现</div>
-                    <div class="timeline-desc">微博热搜、B站热门、小红书热榜、X趋势、Facebook热门</div>
+                    <div class="timeline-title">核心爬虫实现</div>
+                    <div class="timeline-desc">Hacker News、TechCrunch、量子位、新智元、RadarAI、Google AI Blog</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 3</div>
                     <div class="timeline-title">数据处理层</div>
-                    <div class="timeline-desc">关键词过滤、去重、热度排序算法</div>
+                    <div class="timeline-desc">关键词过滤、去重、热度排序算法实现</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 4</div>
                     <div class="timeline-title">封面获取功能</div>
-                    <div class="timeline-desc">各平台封面图片提取、图片压缩处理、占位图设计</div>
+                    <div class="timeline-desc">各平台封面图片提取、无封面适配处理</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 5</div>
                     <div class="timeline-title">前端界面开发</div>
-                    <div class="timeline-desc">科技风设计、平台Tab切换、资讯卡片展示</div>
+                    <div class="timeline-desc">科技风设计、平台Tab切换、热度排序UI、资讯卡片展示</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 6</div>
                     <div class="timeline-title">监控看板开发</div>
-                    <div class="timeline-desc">运行指标采集、KPI卡片展示、失败原因统计、最近采集记录、7天历史数据</div>
+                    <div class="timeline-desc">运行指标采集、KPI卡片展示、失败原因统计、最近采集记录</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 7</div>
                     <div class="timeline-title">部署上线</div>
-                    <div class="timeline-desc">GitHub Pages 部署、文档完善</div>
+                    <div class="timeline-desc">GitHub Pages 部署、热度算法优化、文档完善</div>
                 </div>
             </div>
         </section>

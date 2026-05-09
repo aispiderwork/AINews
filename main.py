@@ -14,6 +14,7 @@ from crawlers.aiera import crawl_aiera
 from crawlers.radarai import crawl_radarai
 from crawlers.googleai import crawl_googleai
 from crawlers.utils.merge import merge_and_deduplicate
+from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
@@ -129,9 +130,28 @@ async def main(target_platform=None):
     articles_with_cover = sum(1 for a in all_articles_list if a.get('cover_url'))
     cover_rate = round(articles_with_cover / total_articles * 100, 1) if total_articles > 0 else 0
 
+    # 按热度排序所有文章
+    print(f"\n  [排序] 按热度分排序 {total_articles} 篇文章...")
+    sorted_articles = sort_by_hot_score(all_articles_list)
+
+    # 生成按热度排序的平台数据
+    sorted_news = {}
+    for article in sorted_articles:
+        platform = article.get('platform', 'unknown')
+        if platform not in sorted_news:
+            sorted_news[platform] = []
+        sorted_news[platform].append(article)
+
+    # 获取热度统计
+    hot_stats = get_platform_hot_stats(sorted_articles)
+    print(f"  [热度] 各平台平均热度分:")
+    for platform, stats in hot_stats.items():
+        print(f"         - {platform}: {stats['avg_hot_score']:.4f}")
+
     output_data = {
         'update_time': datetime.now(timezone.utc).isoformat(),
-        'news': merged_news,
+        'news': sorted_news,
+        'sorted_all': sorted_articles,  # 全部文章按热度排序
         'monitor': {
             'summary': {
                 'total_success_rate': round(success_platforms / total_platforms * 100, 1) if total_platforms > 0 else 0,
@@ -140,6 +160,8 @@ async def main(target_platform=None):
                     e['latency'] for e in monitor_data['recent_executions'] if e['status'] == 'success'
                 ) / max(len([e for e in monitor_data['recent_executions'] if e['status'] == 'success']), 1), 1),
                 'cover_success_rate': cover_rate,
+                'hot_sort_enabled': True,
+                'platform_hot_stats': hot_stats,
             },
             'platforms': monitor_data['platforms'],
             'failure_reasons': monitor_data['failure_reasons'],

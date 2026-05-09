@@ -15,22 +15,26 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                      数据处理层 (Processing)                  │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │ 关键词过滤   │  │ 数据去重     │  │ 监控统计     │      │
+│  │ 关键词过滤   │  │ 数据去重     │  │ 热度计算     │      │
 │  └──────────────┘  └──────────────┘  └──────────────┘      │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                      数据采集层 (Crawling)                    │
 │  ┌────────┐ ┌────────┐ ┌────────┐ ┌─────┐ ┌──────────┐    │
-│  │ 微博爬虫│ │ B站爬虫│ │小红书  │ │ X   │ │ Facebook │    │
-│  │ (热搜榜)│ │(热门榜)│ │(热榜)  │ │(趋势)│ │(Trending)│    │
+│  │ Hacker │ │ Tech   │ │ 量子位 │ │ 新  │ │ RadarAI  │    │
+│  │ News   │ │ Crunch │ │        │ │ 智元│ │          │    │
 │  └────────┘ └────────┘ └────────┘ └─────┘ └──────────┘    │
+│  ┌────────┐                                                 │
+│  │ Google │                                                 │
+│  │ AI Blog│                                                 │
+│  └────────┘                                                 │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                      数据存储层 (Storage)                      │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │  SQLite DB   │  │  JSON文件    │  │ GitHub Pages│      │
+│  │  JSON文件    │  │ GitHub Pages │  │ 历史记录     │      │
 │  └──────────────┘  └──────────────┘  └──────────────┘      │
 └─────────────────────────────────────────────────────────────┘
                               ↓
@@ -46,12 +50,11 @@
 
 | 层次 | 技术选型 | 说明 |
 |------|---------|------|
-| 后端框架 | Python 3.x + Flask/FastAPI | 轻量级Web框架 |
-| 爬虫库 | Requests + BeautifulSoup4 | 静态页面爬取 |
-| 动态爬虫 | Selenium/Playwright | 处理JavaScript渲染 |
-| 数据存储 | SQLite | 本地关系型数据库 |
+| 后端框架 | Python 3.x | 异步爬虫框架 |
+| 爬虫库 | httpx + BeautifulSoup4 | 异步HTTP + HTML解析 |
+| RSS解析 | feedparser | RSS/Atom订阅解析 |
+| 数据存储 | JSON文件 | 轻量级数据存储 |
 | 前端 | HTML5 + CSS3 + JavaScript | 原生前端技术 |
-| 图表库 | ECharts/Chart.js | 数据可视化图表 |
 | 部署 | GitHub Actions + GitHub Pages | 免费CI/CD和托管 |
 | 任务调度 | cron (GitHub Actions) | 定时触发 |
 
@@ -59,557 +62,390 @@
 
 ### 3.1 数据采集模块
 
-#### 平台热榜爬取策略
+#### 平台爬取策略
 
 | 平台 | 主要数据源 | 优先级 | 爬取方式 | 热度指标 |
 |------|----------|--------|---------|---------|
-| **微博** | 热搜榜、实时热搜 | ⭐⭐⭐⭐⭐ | API/爬虫 | 搜索热度、讨论数 |
-| **哔哩哔哩** | 全站热门榜、全站热搜 | ⭐⭐⭐⭐⭐ | API + 爬虫 | 播放量、点赞数、弹幕数 |
-| **小红书** | 热搜榜、热门笔记 | ⭐⭐⭐⭐ | Selenium | 点赞数、收藏数、评论数 |
-| **X (Twitter)** | Trends趋势榜、热门推文 | ⭐⭐⭐ | 爬虫/API | 转发数、点赞数、引用数 |
-| **Facebook** | Trending话题、热门帖子 | ⭐⭐ | 爬虫/API | 分享数、点赞数、评论数 |
+| **Hacker News** | Top Stories API | ⭐⭐⭐⭐⭐ | API | score(投票), descendants(评论) |
+| **TechCrunch** | RSS Feed | ⭐⭐⭐⭐ | RSS | 无（按时间） |
+| **量子位** | 网站首页 | ⭐⭐⭐⭐ | 爬虫 | 无（按时间） |
+| **新智元** | 网站首页 | ⭐⭐⭐ | 爬虫 | 无（按时间） |
+| **RadarAI** | 网站首页 | ⭐⭐⭐ | 爬虫 | 无（按时间） |
+| **Google AI Blog** | RSS Feed | ⭐⭐⭐⭐ | RSS | 无（按时间） |
 
-#### 各平台热榜详细说明
-
-**微博**
-- 主要入口：https://s.weibo.com/top/summary
-- 备选：https://s.weibo.com/top/summary?cate=realtimehot（实时热搜）
-- 关键词搜索："GPT", "大模型", "AI", "Agent", "Claude", "Llama"等
-- 数据字段：排名、热搜词、搜索热度、讨论数、热度标识
-- 封面获取：热搜话题配图、相关新闻图片
-
-**哔哩哔哩**
-- 主要入口：https://www.bilibili.com/v/popular/rank/all
-- 备选：https://s.bilibili.com/hot（全站热搜）
-- 搜索关键词：科技区筛选 + AI相关关键词
-- 数据字段：视频标题、UP主、播放量、点赞数、弹幕数、收藏数、热度值
-- 封面获取：视频封面图（16:9比例）
-
-**小红书**
-- 主要入口：首页热榜、搜索热榜
-- 关键词标签：#AI #大模型 #GPT #Agent #Claude #ChatGPT
-- 数据字段：标题、作者、点赞数、收藏数、评论数、互动总量
-- 封面获取：笔记首图（正方形比例）
-
-**X (Twitter)**
-- 主要入口：https://twitter.com/i/trends
-- 话题搜索：#AI #LLM #GPT #Agent #Claude
-- 数据字段：推文内容、作者、转发数、点赞数、引用数、回复数
-- 封面获取：推文中的图片、视频缩略图
-
-**Facebook**
-- 主要入口：Trending Topics
-- 相关页面：AI领域官方账号、科技媒体账号
-- 数据字段：帖子标题、作者、分享数、点赞数、评论数
-- 封面获取：帖子配图、缩略图
-
-#### 封面处理策略
-
-```python
-# 封面获取流程
-def fetch_cover(item: NewsItem, platform: str) -> str:
-    """获取并处理封面图片"""
-    # 1. 尝试从源平台获取封面
-    cover_url = extract_cover_from_page(item.url, platform)
-    
-    if not cover_url:
-        # 2. 无封面时使用平台默认占位图
-        return get_default_cover(platform)
-    
-    # 3. 下载并压缩封面（如需本地存储）
-    if NEED_LOCAL_STORAGE:
-        local_path = download_and_resize_cover(cover_url, item.id)
-        item.cover_local = local_path
-    
-    item.cover_url = cover_url
-    return cover_url
-
-# 封面尺寸规范
-COVER_SPECS = {
-    'weibo': (400, 225),   # 16:9
-    'bilibili': (400, 225),
-    'xiaohongshu': (400, 400),  # 1:1
-    'x': (400, 225),
-    'facebook': (400, 225)
-}
-```
-
-#### 爬虫执行策略
-
-```python
-# 爬虫优先级
-CRAWL_PRIORITY = {
-    'weibo': 1,      # 最高优先级：微博热搜实时性最强
-    'bilibili': 2,   # B站热门视频更新频繁
-    'xiaohongshu': 3,
-    'x': 4,
-    'facebook': 5
-}
-
-# 爬取流程
-def crawl_pipeline():
-    # 1. 优先爬取各平台热榜
-    hot_items = []
-    for platform in sorted_by_priority(PLATFORMS):
-        items = crawl_hot_list(platform)
-        hot_items.extend(items)
-    
-    # 2. 从热榜中筛选AI相关内容
-    ai_related_items = filter_by_keywords(hot_items, KEYWORDS)
-    
-    # 3. 如果热榜中AI内容不足，补充搜索结果
-    if len(ai_related_items) < MIN_ITEMS:
-        search_items = search_ai_keywords(PLATFORMS)
-        ai_related_items.extend(search_items)
-    
-    # 4. 去重、排序、存储
-    return process_and_save(ai_related_items)
-```
-
-**数据结构设计：**
+#### 数据结构设计
 
 ```python
 class NewsItem:
-    id: str                    # 唯一标识
+    # 基础字段
+    id: str                    # 唯一标识 (MD5 of URL)
     platform: str              # 平台名称
-    source: str                # 数据来源（热榜/搜索）
     title: str                 # 标题
     url: str                   # 原始链接
-    cover_url: str             # 封面图片链接
-    cover_local: str           # 本地封面路径（如适用）
-    content: str               # 摘要内容
-    hot_value: int             # 热度值（各平台原生指标）
-    hot_rank: int              # 热榜排名（如有）
-    publish_time: datetime     # 发布时间
-    author: str                # 作者/发布者
-    tags: List[str]            # 标签
-    crawl_time: datetime       # 爬取时间
-    metrics: dict              # 详细指标（播放、点赞等）
+    cover_url: Optional[str]   # 封面图片链接
+    publish_time: str          # 发布时间 (ISO格式)
+    
+    # Hacker News特有字段
+    score: Optional[int]       # HN投票得分
+    comments_count: Optional[int]  # HN评论数
+    discussion_url: Optional[str]  # HN讨论页URL
+    
+    # 热度计算字段
+    hot_score: float           # 综合热度分
+    time_factor: float         # 时间衰减因子
+    platform_weight: float     # 平台权重
+    hn_hot_score: Optional[float]  # HN热度分
 ```
 
-### 3.2 数据处理模块
+### 3.2 热度计算模块
 
-**关键词过滤策略：**
+#### 热度计算公式
+
+```
+hot_score = platform_weight × 30% + time_factor × 40% + hn_hot_score_normalized × 30%
+```
+
+#### 平台权重配置
 
 ```python
-KEYWORDS = {
-    'llm': ['GPT', 'Claude', 'Llama', '大模型', '语言模型', 'Gemini', 'DeepSeek'],
-    'ai_application': ['AI应用', 'AI工具', 'ChatGPT', 'Copilot', 'Midjourney', 'Sora'],
-    'agent': ['Agent', 'AutoGPT', '智能体', '多Agent', 'LangChain'],
-    'generative': ['Sora', 'Midjourney', '生成式AI', 'AIGC', '文生图', '文生视频'],
-    'trending': ['AI', '人工智能', 'OpenAI', 'Anthropic', 'Google AI', 'Meta AI']
+PLATFORM_WEIGHTS = {
+    'hackernews': 1.0,      # 国际技术社区，权重最高
+    'techcrunch': 0.9,      # 国际科技媒体
+    'googleai': 0.85,       # 官方博客
+    'qbitai': 0.8,          # 国内头部AI媒体
+    'aiera': 0.75,          # 国内AI媒体
+    'radarai': 0.7,         # 新兴AI平台
 }
 ```
 
-**热榜内容评分策略：**
+#### 时间衰减因子
 
 ```python
-def calculate_score(item: NewsItem) -> float:
-    base_score = 0
+def calc_time_factor(publish_time: str) -> float:
+    """
+    时间衰减因子计算
     
-    # 1. 热榜排名加分（排名越靠前分数越高）
-    if item.hot_rank:
-        base_score += (100 - item.hot_rank) * 10
-    
-    # 2. 热度指标加分
-    hot_factor = min(item.hot_value / 10000, 50)  # 封顶50分
-    base_score += hot_factor
-    
-    # 3. 关键词匹配加分
-    keyword_matches = count_keywords(item.title + item.content)
-    base_score += keyword_matches * 20
-    
-    # 4. 时效性加分（最近发布的内容）
-    time_factor = calculate_time_factor(item.publish_time)
-    base_score *= time_factor
-    
-    return base_score
+    规则：
+    - 24小时内 = 1.0
+    - 每过一天衰减 0.1
+    - 10天后降至最低 0.1
+    """
+    hours_ago = (now - publish_time).total_seconds() / 3600
+    factor = 1.0 - (hours_ago / 240)  # 240小时 = 10天
+    return max(0.1, min(1.0, factor))
 ```
 
-**去重算法：**
-- 基于URL去重（优先）
-- 基于标题相似度去重（使用Levenshtein距离）
-- 基于内容指纹去重
+#### Hacker News热度分
 
-**热度排序：**
-- 按热榜排名优先
-- 其次按各平台原生热度指标降序
-- 支持跨平台热度归一化（可选）
+```python
+def calc_hn_hot_score(score: int, descendants: int) -> float:
+    """
+    HN热度分 = 投票分 × 0.7 + 评论数 × 0.3
+    """
+    return score * 0.7 + descendants * 0.3
 
-### 3.3 数据存储模块
-
-**SQLite数据库 schema：**
-
-```sql
-CREATE TABLE news (
-    id TEXT PRIMARY KEY,
-    platform TEXT NOT NULL,
-    source TEXT DEFAULT 'hotlist',  -- 数据来源：hotlist/search
-    title TEXT NOT NULL,
-    url TEXT NOT NULL,
-    cover_url TEXT,                -- 封面图片链接
-    cover_local TEXT,              -- 本地封面路径
-    content TEXT,
-    hot_value INTEGER DEFAULT 0,
-    hot_rank INTEGER,              -- 热榜排名
-    publish_time TEXT,
-    author TEXT,
-    tags TEXT,                    -- JSON格式
-    crawl_time TEXT,
-    metrics TEXT,                 -- JSON格式，详细指标
-    UNIQUE(url)
-);
-
-CREATE TABLE crawl_metrics (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    platform TEXT NOT NULL,
-    start_time TEXT NOT NULL,
-    end_time TEXT,
-    success_count INTEGER DEFAULT 0,
-    fail_count INTEGER DEFAULT 0,
-    avg_latency REAL,             -- 平均响应时间（秒）
-    error_message TEXT,
-    items_collected INTEGER DEFAULT 0,
-    hotlist_items INTEGER DEFAULT 0,  -- 从热榜获取的条目数
-    covers_collected INTEGER DEFAULT 0  -- 成功获取封面数
-);
-
-CREATE INDEX idx_platform ON news(platform);
-CREATE INDEX idx_publish_time ON news(publish_time);
-CREATE INDEX idx_crawl_time ON crawl_metrics(start_time);
-CREATE INDEX idx_source ON news(source);
+# 归一化到0-1范围（假设最高500分）
+hn_hot_score_normalized = min(1.0, hn_raw_score / 500)
 ```
 
-**JSON文件输出格式：**
+### 3.3 数据处理模块
+
+#### 关键词过滤策略
+
+```python
+AI_KEYWORDS = [
+    'ai', 'llm', 'gpt', 'claude', 'openai', 'anthropic', 'google ai', 'deepmind',
+    'machine learning', '机器学习', 'deep learning', '深度学习', 'neural network',
+    'transformer', 'bert', 'llama', 'mistral', 'agent', '智能体', 'copilot',
+    '大模型', 'foundation model', 'agi', 'artificial general intelligence',
+    'computer vision', 'nlp', 'natural language processing', 'rag',
+    'retrieval augmented generation', 'fine-tuning', 'prompt', '多模态',
+    'multimodal', 'gemini', 'palm', 'bard', 'midjourney', 'stable diffusion',
+    'dall-e', 'ai safety', 'ai regulation', 'llm', 'chatbot', 'generative ai',
+]
+```
+
+#### 去重算法
+
+```python
+def generate_id(url: str) -> str:
+    """基于URL生成唯一ID"""
+    import hashlib
+    return hashlib.md5(url.encode()).hexdigest()[:16]
+
+# 去重策略：基于URL的MD5值
+```
+
+#### 数据合并流程
+
+```python
+def merge_and_deduplicate(all_news: dict) -> dict:
+    """
+    合并各平台数据并去重
+    
+    Args:
+        all_news: {platform: [articles]}
+        
+    Returns:
+        去重后的数据
+    """
+    seen_urls = set()
+    merged = {}
+    
+    for platform, articles in all_news.items():
+        merged[platform] = []
+        for article in articles:
+            if article['url'] not in seen_urls:
+                seen_urls.add(article['url'])
+                merged[platform].append(article)
+    
+    return merged
+```
+
+### 3.4 数据存储模块
+
+#### JSON文件输出格式
+
 ```json
 {
+  "update_time": "2026-05-09T12:00:00+00:00",
   "news": {
-    "weibo": [
-      {
-        "title": "OpenAI发布GPT-5最新进展",
-        "url": "https://...",
-        "cover_url": "https://.../cover.jpg",
-        "source": "hotlist",
-        "hot_rank": 3,
-        "hot_value": 1250000,
-        "metrics": {
-          "search_count": "125万",
-          "discussion_count": "5.2万"
-        }
-      }
-    ],
-    "bilibili": [...],
-    "xiaohongshu": [...],
-    "x": [...],
-    "facebook": [...]
-  },
-  "monitor": {
-    "summary": {
-      "total_success_rate": 0.968,
-      "total_fail_rate": 0.032,
-      "avg_latency": 1.2,
-      "total_items": 2847,
-      "hotlist_ratio": 0.85,
-      "cover_success_rate": 0.92
-    },
-    "platforms": [
-      {"platform": "weibo", "status": "online", "success_rate": 0.98},
-      {"platform": "bilibili", "status": "online", "success_rate": 0.95},
-      {"platform": "x", "status": "offline", "success_rate": 0.2}
-    ],
-    "failure_reasons": {
-      "network_timeout": 12,
-      "cookie_expired": 8,
-      "page_changed": 4,
-      "other": 3
-    },
-    "recent_executions": [
+    "hackernews": [
       {
         "id": "abc123",
-        "timestamp": "2026-05-07T14:30:00Z",
-        "platform": "weibo",
-        "status": "success",
-        "items_collected": 45,
-        "latency": 2.1
-      },
-      {
-        "id": "def456",
-        "timestamp": "2026-05-07T14:30:02Z",
-        "platform": "x",
-        "status": "error",
-        "error_message": "网络超时",
-        "failure_reason": "network_timeout"
+        "title": "OpenAI发布GPT-5最新进展",
+        "url": "https://example.com/article",
+        "platform": "hackernews",
+        "publish_time": "2026-05-09T10:00:00+00:00",
+        "cover_url": "https://example.com/cover.jpg",
+        "score": 256,
+        "comments_count": 89,
+        "discussion_url": "https://news.ycombinator.com/item?id=12345",
+        "hot_score": 0.8234,
+        "time_factor": 0.9167,
+        "platform_weight": 1.0,
+        "hn_hot_score": 205.9
       }
-    ]
+    ],
+    "techcrunch": [...],
+    "qbitai": [...],
+    "aiera": [...],
+    "radarai": [...],
+    "googleai": [...]
+  },
+  "sorted_all": [...],  // 全部文章按热度排序
+  "monitor": {
+    "summary": {
+      "total_success_rate": 98.5,
+      "total_fail_rate": 1.5,
+      "avg_response_time": 2.3,
+      "cover_success_rate": 87.2,
+      "hot_sort_enabled": true,
+      "platform_hot_stats": {
+        "hackernews": {
+          "count": 15,
+          "avg_hot_score": 0.7523,
+          "max_hot_score": 0.9123,
+          "min_hot_score": 0.5234
+        }
+      }
+    },
+    "platforms": [...],
+    "recent_executions": [...]
   }
 }
 ```
 
-### 3.4 前端展示模块
+### 3.5 前端展示模块
 
-**页面结构：**
+#### 页面结构
+
 ```
 index.html
-├── 头部导航（资讯看板/运行监控切换）
+├── 头部导航
+│   ├── Logo
+│   ├── 页面切换（资讯看板/运行监控）
+│   ├── 最后更新时间
+│   └── 操作按钮（刷新/导出）
 ├── 资讯看板页面
+│   ├── 搜索栏
+│   ├── 排序切换（热度/时间/平台）
 │   ├── 平台Tab栏
 │   └── 资讯列表区
 │       └── 资讯卡片
-│           ├── 标题（热榜排名标识）
-│           ├── 元信息（热度指标）
-│           └── 标签
+│           ├── 热度排名（Top3特殊样式）
+│           ├── 封面图片（可选）
+│           ├── 平台标签
+│           ├── 标题
+│           ├── 元信息（时间/热度分/HN数据）
+│           └── 操作链接
 └── 运行监控页面
-    ├── 时间范围选择
     ├── KPI指标卡片
-    │   ├── 成功率
-    │   ├── 失败率
-    │   ├── 平均响应
-    │   └── 封面获取率
-    ├── 平台状态列表
-    ├── 失败原因统计（横向柱状图）
-    │   ├── 网络超时
-    │   ├── Cookie过期
-    │   ├── 页面结构变化
-    │   └── 其他原因
+    ├── 平台状态网格
     └── 最近采集记录
-        ├── 状态标识（成功/失败）
-        ├── 平台名称
-        ├── 执行时间
-        ├── 采集数量/耗时
-        └── 失败原因（如有）
 ```
 
-**交互功能：**
-- 页面切换（资讯/监控）
-- Tab切换平台
-- 时间范围筛选
-- 卡片点击跳转
-- 响应式布局（移动端适配）
+#### 排序模式
 
-### 3.5 监控统计模块
+| 模式 | 说明 | 数据来源 |
+|------|------|---------|
+| 🔥 热度排序 | 按hot_score降序 | sorted_all字段 |
+| 🕐 时间排序 | 按publish_time降序 | sorted_all字段 |
+| 📰 平台分组 | 按platform分组 | news字段 |
 
-**监控指标定义：**
+#### 热度排名样式
+
+- Top 1: 金色背景 🔥
+- Top 2: 银色背景
+- Top 3: 铜色背景
+- 其他: 默认样式
+
+### 3.6 监控统计模块
+
+#### 监控指标定义
 
 ```python
-from enum import Enum
-
-class FailureReason(Enum):
-    NETWORK_TIMEOUT = "network_timeout"      # 网络超时
-    COOKIE_EXPIRED = "cookie_expired"        # Cookie过期
-    PAGE_STRUCTURE_CHANGED = "page_changed"  # 页面结构变化
-    AUTHENTICATION_FAILED = "auth_failed"    # 认证失败
-    RATE_LIMITED = "rate_limited"            # 限流
-    NO_DATA = "no_data"                      # 无数据
-    OTHER = "other"                          # 其他原因
-
-class CrawlMetrics:
-    platform: str
-    success_count: int
-    fail_count: int
-    success_rate: float
-    avg_latency: float
-    items_collected: int
-    hotlist_items: int          # 热榜获取的条目数
-    hotlist_ratio: float        # 热榜内容占比
-    covers_collected: int       # 成功获取封面数
-    cover_success_rate: float   # 封面获取成功率
-    failure_reasons: Dict[FailureReason, int]  # 失败原因统计
-
-class ExecutionLog:
-    id: str
-    timestamp: datetime
-    platform: str
-    status: str  # "success" / "error"
-    items_collected: int
-    latency: float
-    error_message: Optional[str]
-    failure_reason: Optional[FailureReason]
-
-class MonitorDashboard:
-    total_success_rate: float
-    total_fail_rate: float
-    avg_response_time: float
-    total_items: int
-    hotlist_total_ratio: float  # 总体热榜内容占比
-    cover_success_rate: float    # 总封面获取成功率
-    platform_status: Dict[str, PlatformStatus]
-    recent_executions: List[ExecutionLog]  # 最近采集记录（最近20条）
-    failure_reason_stats: Dict[FailureReason, int]  # 失败原因统计（近7天）
+class MonitorMetrics:
+    # 汇总指标
+    total_success_rate: float      # 总体成功率
+    total_fail_rate: float         # 总体失败率
+    avg_response_time: float       # 平均响应时间
+    cover_success_rate: float      # 封面获取成功率
+    hot_sort_enabled: bool         # 是否启用热度排序
+    platform_hot_stats: dict       # 各平台热度统计
+    
+    # 平台状态
+    platforms: List[{
+        "platform": str,
+        "name": str,
+        "status": "online" | "error",
+        "item_count": int,
+        "last_crawl": str
+    }]
+    
+    # 最近执行记录
+    recent_executions: List[{
+        "timestamp": str,
+        "platform": str,
+        "status": "success" | "error",
+        "items_collected": int,
+        "latency": float,
+        "error_message": Optional[str]
+    }]
 ```
-
-**时间范围支持：**
-- 实时数据（最新一次执行）
-- 近1天
-- 近3天
-- 近7天
 
 ## 四、GitHub部署方案
 
 ### 4.1 项目目录结构
 
 ```
-ai-hotspot-monitor/
+AINewsCrawl/
 ├── .github/
 │   └── workflows/
-│       └── crawl.yml          # GitHub Actions工作流
-├── src/
-│   ├── crawlers/              # 爬虫模块
-│   │   ├── base_crawler.py    # 基础爬虫类
-│   │   ├── weibo_crawler.py   # 微博热搜爬虫
-│   │   ├── bilibili_crawler.py # B站热榜爬虫
-│   │   ├── xiaohongshu_crawler.py # 小红书热榜爬虫
-│   │   ├── x_crawler.py       # X趋势爬虫
-│   │   └── facebook_crawler.py # Facebook热榜爬虫
-│   ├── processors/            # 数据处理模块
-│   │   ├── filter.py          # 关键词过滤
-│   │   ├── dedup.py           # 去重
-│   │   └── monitor.py         # 监控统计模块
-│   ├── storage/               # 存储模块
-│   │   ├── database.py
-│   │   └── json_exporter.py
-│   └── main.py                # 主程序入口
-├── data/                      # 数据目录（git忽略）
-│   └── news.db
-├── public/                    # 前端文件
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── app.js
-├── config/                    # 配置文件
-│   └── settings.py
-├── requirements.txt           # Python依赖
-└── README.md
+│       └── crawl-news.yml      # GitHub Actions工作流
+├── crawlers/
+│   ├── __init__.py
+│   ├── base.py                 # 基础爬虫类
+│   ├── hackernews.py           # Hacker News爬虫
+│   ├── techcrunch.py           # TechCrunch爬虫
+│   ├── qbitai.py               # 量子位爬虫
+│   ├── aiera.py                # 新智元爬虫
+│   ├── radarai.py              # RadarAI爬虫
+│   ├── googleai.py             # Google AI Blog爬虫
+│   └── utils/
+│       ├── __init__.py
+│       ├── filter.py           # 关键词过滤
+│       ├── merge.py            # 数据合并去重
+│       └── hot_score.py        # 热度计算
+├── data/                       # 数据目录（git忽略）
+│   ├── news.json               # 主数据文件
+│   └── history.json            # 执行历史
+├── docs/                       # 文档目录
+│   ├── product_plan.html       # 产品方案
+│   ├── technical_architecture.md  # 技术架构
+│   ├── CRAWLER_FULL_SPEC.md    # 爬虫规范
+│   └── ui-design-specification.md  # UI设计规范
+├── index.html                  # 前端主页面
+├── main.py                     # 主程序入口
+├── requirements.txt            # Python依赖
+└── README.md                   # 项目说明
 ```
 
 ### 4.2 GitHub Actions工作流配置
 
 ```yaml
-name: AI Hotspot Monitor
+name: Crawl AI News
+
 on:
   schedule:
-    - cron: '0 */2 * * *'  # 每2小时执行一次（热榜更新快，提高频率）
-  workflow_dispatch:       # 手动触发
+    # 北京时间 9:00 和 20:00 (UTC 01:00 和 12:00)
+    - cron: '0 1,12 * * *'
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: '指定平台 (留空=全部)'
+        required: false
+        type: string
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run crawler (hotlist priority)
-        env:
-          # 需要人工配置的Secrets
-          WEIBO_COOKIE: ${{ secrets.WEIBO_COOKIE }}
-          XIAOHONGSHU_COOKIE: ${{ secrets.XIAOHONGSHU_COOKIE }}
+      - name: Run crawler
         run: |
-          python src/main.py
+          python main.py ${{ inputs.platform || '' }}
       
       - name: Commit and push
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add public/data/
-          git commit -m "Update news data (hotlist priority) $(date)" || echo "No changes"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update news data [$(date +%Y-%m-%d\ %H:%M)]"
           git push
-
-  deploy-pages:
-    needs: crawl
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-      
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 ```
 
 ### 4.3 requirements.txt
 
 ```
-requests>=2.31.0
+httpx>=0.27.0
 beautifulsoup4>=4.12.0
-selenium>=4.15.0
+feedparser>=6.0.0
 ```
 
 ## 五、自动化 vs 人工配合
 
-### 5.1 ✅ 可完全自动化的部分（GitHub执行）
+### 5.1 ✅ 可完全自动化的部分
 
 | 模块 | 说明 |
 |------|------|
-| 定时任务调度 | GitHub Actions cron自动触发（每2小时） |
-| 热榜爬取执行 | 优先爬取各平台热榜内容 |
-| 关键词筛选 | 自动从热榜中筛选AI相关内容 |
-| 数据处理 | 关键词过滤、去重、排序全自动化 |
-| 监控统计 | 自动采集运行指标、计算KPI |
+| 定时任务调度 | GitHub Actions cron自动触发 |
+| 数据采集执行 | 各平台爬虫自动执行 |
+| 关键词筛选 | AI关键词自动过滤 |
+| 热度计算 | 自动计算hot_score |
+| 数据排序 | 自动按热度/时间排序 |
+| 监控统计 | 自动采集运行指标 |
 | 数据导出 | 自动生成JSON文件 |
 | Git提交推送 | 自动commit和push |
-| GitHub Pages部署 | 自动构建和部署前端 |
+| GitHub Pages部署 | 自动部署前端 |
 
-### 5.2 ⚙️ 需要人工配置/配合的部分
-
-#### 5.2.1 一次性配置
-
-| 配置项 | 说明 | 操作步骤 |
-|--------|------|---------|
-| GitHub仓库创建 | 创建public/private仓库 | 手动在GitHub创建 |
-| Secrets配置 | 存储敏感信息（Cookies等） | Settings → Secrets and variables → Actions → New repository secret |
-| GitHub Pages开启 | 启用Pages服务 | Settings → Pages → Source选择GitHub Actions |
-| 依赖安装 | 本地开发环境配置 | pip install -r requirements.txt |
-
-#### 5.2.2 周期性维护
+### 5.2 ⚙️ 需要人工配合的部分
 
 | 维护项 | 频率 | 说明 |
 |--------|------|------|
-| Cookie更新 | 按需 | 反爬严格的平台需要定期更新Cookie |
+| 爬虫修复 | 按需 | 平台页面结构变化时修复 |
 | 关键词调整 | 按需 | 根据热点变化调整过滤关键词 |
-| 爬虫修复 | 按需 | 平台热榜页面结构变化时修复爬虫 |
-| 依赖更新 | 每月 | 更新Python包以修复安全问题 |
-| 监控看板查看 | 按需 | 检查运行状态、热榜内容占比 |
-
-#### 5.2.3 需要登录的平台处理
-
-| 平台 | 是否需要登录 | Cookie处理方式 | 热榜入口 |
-|------|------------|--------------|---------|
-| 微博 | 推荐 | 提取Cookie存入Secrets | https://s.weibo.com/top/summary |
-| B站 | 可选 | 公开内容无需登录 | https://www.bilibili.com/v/popular/rank/all |
-| 小红书 | 需要 | 必须配置Cookie | 首页热榜 |
-| X | 困难 | 建议使用第三方API替代 | https://twitter.com/i/trends |
-| Facebook | 困难 | 建议使用公开RSS或页面 | Trending Topics |
-
-**Cookie获取方法：**
-1. 浏览器登录对应平台
-2. F12打开开发者工具
-3. Network标签页刷新页面
-4. 复制Request Headers中的Cookie
-5. 存入GitHub Secrets
+| 热度算法调优 | 按需 | 根据效果调整权重参数 |
+| 监控查看 | 日常 | 检查运行状态和数据质量 |
 
 ## 六、部署步骤指南
 
@@ -619,44 +455,37 @@ selenium>=4.15.0
 3. [ ] 安装Python 3.11+
 
 ### 步骤2：代码开发
-1. [ ] 实现各平台热榜爬虫（优先）
-2. [ ] 实现数据处理逻辑
-3. [ ] 实现监控统计模块
-4. [ ] 开发前端页面（含监控看板）
+1. [ ] 实现各平台爬虫
+2. [ ] 实现热度计算模块
+3. [ ] 实现数据处理逻辑
+4. [ ] 开发前端页面
 5. [ ] 本地测试完整流程
 
 ### 步骤3：GitHub配置
-1. [ ] 配置仓库Secrets
-2. [ ] 开启GitHub Pages
-3. [ ] 配置Actions工作流（每2小时执行）
+1. [ ] 开启GitHub Pages
+2. [ ] 配置Actions工作流
 
 ### 步骤4：启动自动化
 1. [ ] Push代码到GitHub
 2. [ ] 手动触发一次workflow测试
 3. [ ] 验证Pages部署成功
 4. [ ] 确认定时任务正常执行
-5. [ ] 检查监控看板数据和热榜内容占比
 
 ## 七、风险与应对
 
 | 风险 | 影响 | 应对方案 |
 |------|------|---------|
-| 热榜页面改版 | 爬虫失效 | 定期检查页面结构，及时修复爬虫 |
-| 平台反爬加强 | 无法获取热榜 | 使用代理池、增加间隔、模拟真实用户 |
-| Cookie过期 | 部分平台无法爬取 | 监控告警、及时更新Cookie |
-| 热榜中AI内容少 | 数据不足 | 启用关键词搜索作为补充源 |
-| GitHub限流 | Actions无法执行 | 合理设置执行频率、错开高峰期 |
-| 数据量过大 | 存储压力 | 定期清理旧数据、只保留最近7天 |
-| 监控数据缺失 | 无法查看运行状态 | 数据冗余存储、本地备份 |
+| 页面改版 | 爬虫失效 | 监控告警、及时修复 |
+| 平台反爬 | 无法获取数据 | 使用RSS/API替代 |
+| 数据量过大 | 存储压力 | 只保留最近数据 |
+| 热度算法不准 | 排序效果差 | 持续调优权重参数 |
 
 ## 八、扩展方向
 
-- [x] 优先从热榜爬取内容
-- [x] 增加运行监控看板
-- [ ] 增加更多平台热榜（知乎热榜、抖音热榜等）
-- [ ] 热榜数据历史趋势分析
-- [ ] 添加AI摘要功能（使用LLM总结内容）
-- [ ] 实现邮件/IM推送通知（异常告警）
-- [ ] 添加用户自定义关键词配置
-- [ ] 实现更丰富的数据可视化图表
-- [ ] 支持多语言内容
+- [x] 多平台数据采集
+- [x] 热度排序算法
+- [x] 运行监控看板
+- [ ] 更多平台接入（知乎、Medium等）
+- [ ] 热度趋势分析
+- [ ] AI内容摘要
+- [ ] 邮件/IM推送通知
