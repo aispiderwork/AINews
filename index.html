@@ -434,40 +434,27 @@
             font-size: 0.7rem;
         }
 
-        .sort-tabs {
+        .sort-info {
             display: flex;
-            gap: var(--space-sm);
+            align-items: center;
+            gap: var(--space-md);
             margin-bottom: var(--space-lg);
-            padding: var(--space-xs);
-            background: var(--color-surface);
+            padding: var(--space-sm) var(--space-md);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1), rgba(167, 139, 250, 0.1));
             border-radius: var(--radius-lg);
             border: 1px solid var(--color-border);
             width: fit-content;
         }
 
-        .sort-tab {
-            padding: var(--space-sm) var(--space-md);
-            border: none;
-            background: transparent;
-            color: var(--color-text-secondary);
-            font-family: var(--font-body);
-            font-size: 0.85rem;
-            cursor: pointer;
-            border-radius: var(--radius-md);
-            transition: all 0.2s ease;
-            display: flex;
-            align-items: center;
-            gap: var(--space-xs);
+        .sort-label {
+            font-weight: 600;
+            color: var(--color-primary);
+            font-size: 0.95rem;
         }
 
-        .sort-tab:hover {
-            color: var(--color-text-primary);
-            background: var(--color-highlight);
-        }
-
-        .sort-tab.active {
-            background: var(--color-primary);
-            color: white;
+        .sort-desc {
+            color: var(--color-text-muted);
+            font-size: 0.8rem;
         }
 
         .hot-rank {
@@ -855,10 +842,9 @@
                 <span class="data-source-badge" id="totalBadge">📰 共 0 篇文章</span>
             </div>
 
-            <div class="sort-tabs" id="sortTabs">
-                <button class="sort-tab active" data-sort="hot">🔥 热度排序</button>
-                <button class="sort-tab" data-sort="time">🕐 时间排序</button>
-                <button class="sort-tab" data-sort="platform">📰 平台分组</button>
+            <div class="sort-info" id="sortInfo">
+                <span class="sort-label">🔥 按热度排序</span>
+                <span class="sort-desc">综合热度 = 平台权重×30% + 时间因子×40% + HN热度×30%</span>
             </div>
 
             <div class="platform-tabs" id="platformTabs">
@@ -926,7 +912,6 @@
         let appData = null;
         let currentPlatform = 'all';
         let searchKeyword = '';
-        let currentSort = 'hot';
 
         const platformNames = {
             'hackernews': 'Hacker News',
@@ -1008,52 +993,19 @@
 
         function renderNewsList() {
             const container = document.getElementById('newsList');
-            const news = appData.news || {};
             const sortedAll = appData.sorted_all || [];
             
             let items = [];
             
-            // 根据排序模式获取数据
-            if (currentSort === 'hot' && sortedAll.length > 0) {
-                // 热度排序模式 - 使用后端排序好的全部文章
-                if (currentPlatform === 'all') {
-                    items = sortedAll.map(function(article) {
-                        return Object.assign({}, article);
-                    });
-                } else {
-                    items = sortedAll.filter(function(article) {
-                        return article.platform === currentPlatform;
-                    });
-                }
-            } else if (currentSort === 'time' && sortedAll.length > 0) {
-                // 时间排序模式
-                let timeItems = [];
-                if (currentPlatform === 'all') {
-                    timeItems = sortedAll.map(function(article) {
-                        return Object.assign({}, article);
-                    });
-                } else {
-                    timeItems = sortedAll.filter(function(article) {
-                        return article.platform === currentPlatform;
-                    });
-                }
-                // 按时间降序
-                items = timeItems.sort(function(a, b) {
-                    return new Date(b.publish_time || 0) - new Date(a.publish_time || 0);
+            // 使用后端排序好的热度数据
+            if (currentPlatform === 'all') {
+                items = sortedAll.map(function(article) {
+                    return Object.assign({}, article);
                 });
             } else {
-                // 平台分组模式（默认）
-                if (currentPlatform === 'all') {
-                    Object.keys(news).forEach(function(platform) {
-                        (news[platform] || []).forEach(function(article) {
-                            items.push(Object.assign({}, article, { platform: platform }));
-                        });
-                    });
-                } else {
-                    (news[currentPlatform] || []).forEach(function(article) {
-                        items.push(Object.assign({}, article, { platform: currentPlatform }));
-                    });
-                }
+                items = sortedAll.filter(function(article) {
+                    return article.platform === currentPlatform;
+                });
             }
 
             if (searchKeyword) {
@@ -1074,12 +1026,9 @@
                 const emoji = platformEmojis[platform] || '📰';
                 const platformLabel = platformNames[platform] || platform;
                 
-                // 热度排名（仅在热度排序模式下显示）
-                let rankHtml = '';
-                if (currentSort === 'hot') {
-                    const rankClass = index === 0 ? 'top1' : index === 1 ? 'top2' : index === 2 ? 'top3' : 'normal';
-                    rankHtml = '<div class="hot-rank ' + rankClass + '">' + (index + 1) + '</div>';
-                }
+                // 热度排名（Top3特殊样式）
+                const rankClass = index === 0 ? 'top1' : index === 1 ? 'top2' : index === 2 ? 'top3' : 'normal';
+                const rankHtml = '<div class="hot-rank ' + rankClass + '">' + (index + 1) + '</div>';
                 
                 let coverHtml = '';
                 if (item.cover_url) {
@@ -1101,7 +1050,7 @@
                     }
                 }
                 
-                // 热度分显示
+                // 热度分显示（所有文章都显示）
                 if (item.hot_score !== undefined && item.hot_score !== null) {
                     metaParts.push('<span class="hot-score-badge">' + item.hot_score.toFixed(3) + '</span>');
                 }
@@ -1143,9 +1092,7 @@
                 
                 let cardClass = 'news-card';
                 let cardHtml = '<div class="' + cardClass + '">';
-                if (rankHtml) {
-                    cardHtml += rankHtml;
-                }
+                cardHtml += rankHtml;
                 if (coverHtml) {
                     cardHtml += coverHtml;
                 }
@@ -1247,14 +1194,7 @@
             });
         });
 
-        document.querySelectorAll('.sort-tab').forEach(function(tab) {
-            tab.addEventListener('click', function() {
-                document.querySelectorAll('.sort-tab').forEach(function(t) { t.classList.remove('active'); });
-                tab.classList.add('active');
-                currentSort = tab.dataset.sort;
-                renderNewsList();
-            });
-        });
+
 
         document.getElementById('searchInput').addEventListener('input', function(e) {
             searchKeyword = e.target.value.trim();
