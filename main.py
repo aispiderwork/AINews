@@ -4,7 +4,7 @@
 import json
 import asyncio
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from crawlers.hackernews import crawl_hackernews
@@ -14,7 +14,7 @@ from crawlers.aiera import crawl_aiera
 from crawlers.radarai import crawl_radarai
 from crawlers.googleai import crawl_googleai
 from crawlers.utils.merge import merge_and_deduplicate
-from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats
+from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats, calculate_hot_score
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
@@ -29,6 +29,83 @@ OUTPUT_DIR = Path('data')
 OUTPUT_FILE = OUTPUT_DIR / 'news.json'
 HISTORY_FILE = OUTPUT_DIR / 'history.json'
 MAX_HISTORY = 100
+DAYS_WINDOW = 7  # 保留7天内的数据
+TOP_N_PER_PLATFORM = 10  # 每平台保留热度Top10
+
+
+def load_existing_data() -> dict:
+    """加载现有数据（用于累积）"""
+    if OUTPUT_FILE.exists():
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"  [警告] 读取现有数据失败: {e}")
+    return {'sorted_all': []}
+
+
+def is_within_days(publish_time: str, days: int = DAYS_WINDOW) -> bool:
+    """检查文章是否在指定天数内"""
+    if not publish_time:
+        return False
+    try:
+        pub_time = datetime.fromisoformat(publish_time.replace('Z', '+00:00'))
+        cutoff_time = datetime.now(timezone.utc) - timedelta(days=days)
+        return pub_time >= cutoff_time
+    except Exception:
+        return False
+
+
+def merge_with_existing(new_articles: list, existing_articles: list) -> list:
+    """合并新旧数据并去重（基于URL）"""
+    # 使用URL作为唯一标识
+    seen_urls = set()
+    merged = []
+    
+    # 先添加新数据（优先级更高，可以覆盖旧数据）
+    for article in new_articles:
+        url = article.get('url', '')
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            merged.append(article)
+    
+    # 再添加旧数据中不存在的
+    for article in existing_articles:
+        url = article.get('url', '')
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            merged.append(article)
+    
+    return merged
+
+
+def filter_and_limit_by_platform(articles: list, days: int = DAYS_WINDOW, top_n: int = TOP_N_PER_PLATFORM) -> list:
+    """按平台分组，过滤7天内数据，取每平台热度TopN"""
+    # 按平台分组
+    by_platform = {}
+    for article in articles:
+        platform = article.get('platform', 'unknown')
+        if platform not in by_platform:
+            by_platform[platform] = []
+        by_platform[platform].append(article)
+    
+    result = []
+    for platform, platform_articles in by_platform.items():
+        # 过滤7天内
+        recent_articles = [a for a in platform_articles if is_within_days(a.get('publish_time'), days)]
+        
+        # 重新计算热度分（因为时间因子会变化）
+        for article in recent_articles:
+            article['hot_score'] = calculate_hot_score(article)
+        
+        # 按热度排序，取TopN
+        recent_articles.sort(key=lambda x: x.get('hot_score', 0), reverse=True)
+        top_articles = recent_articles[:top_n]
+        
+        result.extend(top_articles)
+        print(f"  [{platform}] 保留 {len(top_articles)}/{len(recent_articles)} 篇 (7天内热度Top{top_n})")
+    
+    return result
 
 
 def load_history() -> dict:
@@ -117,22 +194,38 @@ async def main(target_platform=None):
                 'latency': (datetime.now(timezone.utc) - exec_start).total_seconds()
             })
 
+    # 合并本次抓取的数据
     merged_news = merge_and_deduplicate(all_news)
+    
+    # 提取本次抓取的所有文章
+    new_articles_list = []
+    for articles in merged_news.values():
+        new_articles_list.extend(articles)
+    
+    print(f"\n  [本次抓取] 共 {len(new_articles_list)} 条新数据")
+    
+    # 加载现有数据并合并（累积模式）
+    print(f"  [数据累积] 加载历史数据...")
+    existing_data = load_existing_data()
+    existing_articles = existing_data.get('sorted_all', [])
+    print(f"  [历史数据] 现有 {len(existing_articles)} 条")
+    
+    # 合并新旧数据（去重）
+    all_articles_list = merge_with_existing(new_articles_list, existing_articles)
+    print(f"  [合并后] 共 {len(all_articles_list)} 条（去重后）")
+    
+    # 按平台过滤7天内数据并取TopN
+    print(f"\n  [筛选] 保留{DAYS_WINDOW}天内各平台热度Top{TOP_N_PER_PLATFORM}...")
+    filtered_articles = filter_and_limit_by_platform(all_articles_list, DAYS_WINDOW, TOP_N_PER_PLATFORM)
+    print(f"  [筛选后] 最终保留 {len(filtered_articles)} 条")
+    
+    # 按热度排序
+    sorted_articles = sort_by_hot_score(filtered_articles)
 
-    total_items = sum(len(v) for v in merged_news.values())
     success_platforms = sum(1 for p in monitor_data['platforms'] if p['status'] == 'online')
     total_platforms = len(monitor_data['platforms'])
-
-    all_articles_list = []
-    for articles in merged_news.values():
-        all_articles_list.extend(articles)
-    total_articles = len(all_articles_list)
-    articles_with_cover = sum(1 for a in all_articles_list if a.get('cover_url'))
-    cover_rate = round(articles_with_cover / total_articles * 100, 1) if total_articles > 0 else 0
-
-    # 按热度排序所有文章
-    print(f"\n  [排序] 按热度分排序 {total_articles} 篇文章...")
-    sorted_articles = sort_by_hot_score(all_articles_list)
+    articles_with_cover = sum(1 for a in sorted_articles if a.get('cover_url'))
+    cover_rate = round(articles_with_cover / len(sorted_articles) * 100, 1) if sorted_articles else 0
 
     # 生成按热度排序的平台数据
     sorted_news = {}
@@ -144,7 +237,7 @@ async def main(target_platform=None):
 
     # 获取热度统计
     hot_stats = get_platform_hot_stats(sorted_articles)
-    print(f"  [热度] 各平台平均热度分:")
+    print(f"\n  [热度] 各平台平均热度分:")
     for platform, stats in hot_stats.items():
         print(f"         - {platform}: {stats['avg_hot_score']:.4f}")
 
@@ -180,7 +273,8 @@ async def main(target_platform=None):
         'run_id': start_time.strftime('%Y%m%d-%H%M%S'),
         'timestamp': start_time.isoformat(),
         'trigger': trigger,
-        'total_items': total_items,
+        'total_items': len(sorted_articles),
+        'new_items': len(new_articles_list),
         'platforms': {
             p['platform']: {
                 'status': p['status'],
@@ -199,7 +293,8 @@ async def main(target_platform=None):
 
     print(f"\n{'='*60}")
     print(f"全部完成! 总耗时: {elapsed:.1f}秒")
-    print(f"共获取 {total_items} 条新闻")
+    print(f"本次新增: {len(new_articles_list)} 条")
+    print(f"累积保留: {len(sorted_articles)} 条")
     print(f"封面获取率: {cover_rate}%")
     print(f"数据已保存到: {OUTPUT_FILE}")
     print(f"历史记录已保存到: {HISTORY_FILE}")

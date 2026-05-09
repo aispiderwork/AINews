@@ -847,16 +847,6 @@
                 <span class="sort-desc">综合热度 = 平台权重×30% + 时间因子×40% + HN热度×30%</span>
             </div>
 
-            <div class="platform-tabs" id="platformTabs">
-                <button class="platform-tab active" data-platform="all">全部 <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="hackernews">💻 Hacker News <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="techcrunch">🌍 TechCrunch <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="qbitai">🤖 量子位 <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="aiera">✨ 新智元 <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="radarai">📡 RadarAI <span class="count">0</span></button>
-                <button class="platform-tab" data-platform="googleai">🔬 Google AI <span class="count">0</span></button>
-            </div>
-
             <div class="news-list" id="newsList">
                 <div class="loading">加载数据中...</div>
             </div>
@@ -910,7 +900,6 @@
 
     <script>
         let appData = null;
-        let currentPlatform = 'all';
         let searchKeyword = '';
 
         const platformNames = {
@@ -947,7 +936,6 @@
         function renderAll() {
             if (!appData) return;
             renderUpdateTime();
-            renderPlatformCounts();
             renderTotalCount();
             renderNewsList();
             renderMonitorDashboard();
@@ -962,51 +950,17 @@
         }
 
         function renderTotalCount() {
-            const news = appData.news || {};
-            let total = 0;
-            Object.values(news).forEach(function(arr) {
-                total += (arr ? arr.length : 0);
-            });
-            document.getElementById('totalBadge').textContent = '📰 共 ' + total + ' 篇文章';
-        }
-
-        function renderPlatformCounts() {
-            const tabs = document.querySelectorAll('.platform-tab');
-            const news = appData.news || {};
-            
-            tabs.forEach(function(tab) {
-                const platform = tab.dataset.platform;
-                let count = 0;
-                
-                if (platform === 'all') {
-                    count = Object.values(news).reduce(function(sum, arr) {
-                        return sum + (arr ? arr.length : 0);
-                    }, 0);
-                } else {
-                    count = (news[platform] || []).length;
-                }
-                
-                const countEl = tab.querySelector('.count');
-                if (countEl) countEl.textContent = count;
-            });
+            const sortedAll = appData.sorted_all || [];
+            document.getElementById('totalBadge').textContent = '📰 共 ' + sortedAll.length + ' 篇文章';
         }
 
         function renderNewsList() {
             const container = document.getElementById('newsList');
             const sortedAll = appData.sorted_all || [];
             
-            let items = [];
-            
-            // 使用后端排序好的热度数据
-            if (currentPlatform === 'all') {
-                items = sortedAll.map(function(article) {
-                    return Object.assign({}, article);
-                });
-            } else {
-                items = sortedAll.filter(function(article) {
-                    return article.platform === currentPlatform;
-                });
-            }
+            let items = sortedAll.map(function(article) {
+                return Object.assign({}, article);
+            });
 
             if (searchKeyword) {
                 const kw = searchKeyword.toLowerCase();
@@ -1184,17 +1138,6 @@
                 document.getElementById(pageId).classList.add('active');
             });
         });
-
-        document.querySelectorAll('.platform-tab').forEach(function(tab) {
-            tab.addEventListener('click', function() {
-                document.querySelectorAll('.platform-tab').forEach(function(t) { t.classList.remove('active'); });
-                tab.classList.add('active');
-                currentPlatform = tab.dataset.platform;
-                renderNewsList();
-            });
-        });
-
-
 
         document.getElementById('searchInput').addEventListener('input', function(e) {
             searchKeyword = e.target.value.trim();
