@@ -134,6 +134,11 @@ class QbitaiCrawler(BaseCrawler):
                                 publish_time = dt.isoformat()
                             break
                 
+                # 如果时间解析失败，使用当前时间（首页文章默认是新的）
+                if not publish_time:
+                    publish_time = datetime.now(timezone.utc).isoformat()
+                    print(f"[{self.name}] 时间解析失败，使用当前时间: {title[:30]}...")
+                
                 # 筛选近7天的文章
                 if not self.is_within_7days(publish_time):
                     continue

@@ -327,6 +327,10 @@
             opacity: 1;
         }
 
+        .news-card.clickable {
+            cursor: pointer;
+        }
+
         .news-cover {
             width: 160px;
             height: 90px;
@@ -434,30 +438,7 @@
             font-size: 0.7rem;
         }
 
-        .sort-info {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-            margin-bottom: var(--space-lg);
-            padding: var(--space-sm) var(--space-md);
-            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1), rgba(167, 139, 250, 0.1));
-            border-radius: var(--radius-lg);
-            border: 1px solid var(--color-border);
-            width: fit-content;
-        }
-
-        .sort-label {
-            font-weight: 600;
-            color: var(--color-primary);
-            font-size: 0.95rem;
-        }
-
-        .sort-desc {
-            color: var(--color-text-muted);
-            font-size: 0.8rem;
-        }
-
-        .hot-rank {
+        .platform-tabs {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -492,33 +473,6 @@
             border: 1px solid var(--color-border);
             transition: all 0.2s ease;
             white-space: nowrap;
-        }
-
-        .news-links {
-            display: flex;
-            gap: var(--space-sm);
-            margin-top: var(--space-sm);
-        }
-
-        .news-link {
-            padding: 2px 10px;
-            font-size: 0.78rem;
-            color: var(--color-primary);
-            text-decoration: none;
-            border: 1px solid var(--color-border);
-            border-radius: 6px;
-            transition: all 0.2s ease;
-        }
-
-        .news-link:hover {
-            background: var(--color-primary);
-            color: white;
-            border-color: var(--color-primary);
-        }
-
-        .news-link.primary {
-            background: rgba(96, 165, 250, 0.1);
-            border-color: var(--color-primary);
         }
 
         .monitor-header {
@@ -842,9 +796,14 @@
                 <span class="data-source-badge" id="totalBadge">📰 共 0 篇文章</span>
             </div>
 
-            <div class="sort-info" id="sortInfo">
-                <span class="sort-label">🔥 按热度排序</span>
-                <span class="sort-desc">综合热度 = 平台权重×30% + 时间因子×40% + HN热度×30%</span>
+            <div class="platform-tabs" id="platformTabs">
+                <button class="platform-tab active" data-platform="all">全部 <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="hackernews">💻 Hacker News <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="techcrunch">🌍 TechCrunch <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="qbitai">🤖 量子位 <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="aiera">✨ 新智元 <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="radarai">📡 RadarAI <span class="count">0</span></button>
+                <button class="platform-tab" data-platform="googleai">🔬 Google AI <span class="count">0</span></button>
             </div>
 
             <div class="news-list" id="newsList">
@@ -900,6 +859,7 @@
 
     <script>
         let appData = null;
+        let currentPlatform = 'all';
         let searchKeyword = '';
 
         const platformNames = {
@@ -936,6 +896,7 @@
         function renderAll() {
             if (!appData) return;
             renderUpdateTime();
+            renderPlatformCounts();
             renderTotalCount();
             renderNewsList();
             renderMonitorDashboard();
@@ -950,17 +911,51 @@
         }
 
         function renderTotalCount() {
-            const sortedAll = appData.sorted_all || [];
-            document.getElementById('totalBadge').textContent = '📰 共 ' + sortedAll.length + ' 篇文章';
+            const news = appData.news || {};
+            let total = 0;
+            Object.values(news).forEach(function(arr) {
+                total += (arr ? arr.length : 0);
+            });
+            document.getElementById('totalBadge').textContent = '📰 共 ' + total + ' 篇文章';
+        }
+
+        function renderPlatformCounts() {
+            const tabs = document.querySelectorAll('.platform-tab');
+            const news = appData.news || {};
+            
+            tabs.forEach(function(tab) {
+                const platform = tab.dataset.platform;
+                let count = 0;
+                
+                if (platform === 'all') {
+                    count = Object.values(news).reduce(function(sum, arr) {
+                        return sum + (arr ? arr.length : 0);
+                    }, 0);
+                } else {
+                    count = (news[platform] || []).length;
+                }
+                
+                const countEl = tab.querySelector('.count');
+                if (countEl) countEl.textContent = count;
+            });
         }
 
         function renderNewsList() {
             const container = document.getElementById('newsList');
             const sortedAll = appData.sorted_all || [];
             
-            let items = sortedAll.map(function(article) {
-                return Object.assign({}, article);
-            });
+            let items = [];
+            
+            // 使用后端排序好的热度数据
+            if (currentPlatform === 'all') {
+                items = sortedAll.map(function(article) {
+                    return Object.assign({}, article);
+                });
+            } else {
+                items = sortedAll.filter(function(article) {
+                    return article.platform === currentPlatform;
+                });
+            }
 
             if (searchKeyword) {
                 const kw = searchKeyword.toLowerCase();
@@ -1030,22 +1025,15 @@
                     tagsHtml += '</div>';
                 }
                 
-                let linksHtml = '';
-                if (platform === 'hackernews') {
-                    linksHtml = '<div class="news-links">';
-                    if (item.url && !item.url.includes('news.ycombinator.com')) {
-                        linksHtml += '<a href="' + item.url + '" target="_blank" class="news-link primary">阅读原文</a>';
-                    }
-                    if (item.discussion_url) {
-                        linksHtml += '<a href="' + item.discussion_url + '" target="_blank" class="news-link">HN 讨论</a>';
-                    }
-                    linksHtml += '</div>';
-                } else {
-                    linksHtml = '<div class="news-links"><a href="' + (item.url || '#') + '" target="_blank" class="news-link primary">阅读原文</a></div>';
+                // 获取跳转URL
+                let jumpUrl = item.url || '#';
+                if (platform === 'hackernews' && !item.url.includes('news.ycombinator.com')) {
+                    // HN文章跳转到原文
+                    jumpUrl = item.url;
                 }
                 
-                let cardClass = 'news-card';
-                let cardHtml = '<div class="' + cardClass + '">';
+                let cardClass = 'news-card clickable';
+                let cardHtml = '<div class="' + cardClass + '" onclick="window.open(\'' + jumpUrl + '\', \'_blank\')">';
                 cardHtml += rankHtml;
                 if (coverHtml) {
                     cardHtml += coverHtml;
@@ -1053,7 +1041,6 @@
                 cardHtml += '<div class="news-content">' +
                     '<h3 class="news-title">' + (item.title || '无标题') + '</h3>' +
                     metaHtml +
-                    linksHtml +
                     tagsHtml +
                     '</div>' +
                     '</div>';
@@ -1138,6 +1125,17 @@
                 document.getElementById(pageId).classList.add('active');
             });
         });
+
+        document.querySelectorAll('.platform-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.platform-tab').forEach(function(t) { t.classList.remove('active'); });
+                tab.classList.add('active');
+                currentPlatform = tab.dataset.platform;
+                renderNewsList();
+            });
+        });
+
+
 
         document.getElementById('searchInput').addEventListener('input', function(e) {
             searchKeyword = e.target.value.trim();
