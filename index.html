@@ -438,7 +438,7 @@
             font-size: 0.7rem;
         }
 
-        .platform-tabs {
+        .hot-rank {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -940,6 +940,12 @@
             });
         }
 
+        function escapeHtml(text) {
+            var div = document.createElement('div');
+            div.appendChild(document.createTextNode(text));
+            return div.innerHTML;
+        }
+
         function renderNewsList() {
             const container = document.getElementById('newsList');
             const sortedAll = appData.sorted_all || [];
@@ -1025,12 +1031,12 @@
                     tagsHtml += '</div>';
                 }
                 
-                // 获取跳转URL
-                let jumpUrl = item.url || '#';
-                if (platform === 'hackernews' && !item.url.includes('news.ycombinator.com')) {
-                    // HN文章跳转到原文
-                    jumpUrl = item.url;
+                // 获取跳转URL（转义单引号和双引号防止JS语法错误）
+                let rawUrl = item.url || '#';
+                if (platform === 'hackernews' && item.url && !item.url.includes('news.ycombinator.com')) {
+                    rawUrl = item.url;
                 }
+                let jumpUrl = rawUrl.replace(/'/g, "\\'").replace(/"/g, '&quot;');
                 
                 let cardClass = 'news-card clickable';
                 let cardHtml = '<div class="' + cardClass + '" onclick="window.open(\'' + jumpUrl + '\', \'_blank\')">';
@@ -1039,7 +1045,7 @@
                     cardHtml += coverHtml;
                 }
                 cardHtml += '<div class="news-content">' +
-                    '<h3 class="news-title">' + (item.title || '无标题') + '</h3>' +
+                    '<h3 class="news-title">' + escapeHtml(item.title || '无标题') + '</h3>' +
                     metaHtml +
                     tagsHtml +
                     '</div>' +
