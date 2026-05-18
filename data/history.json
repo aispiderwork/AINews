@@ -1312,6 +1312,45 @@
         }
       },
       "duration_seconds": 14.4
+    },
+    {
+      "run_id": "20260518-152858",
+      "timestamp": "2026-05-18T15:28:58.622200+00:00",
+      "trigger": "manual",
+      "total_items": 50,
+      "platforms": {
+        "hackernews": {
+          "status": "online",
+          "items": 10,
+          "latency": 12.469904
+        },
+        "techcrunch": {
+          "status": "online",
+          "items": 10,
+          "latency": 0.676206
+        },
+        "qbitai": {
+          "status": "online",
+          "items": 10,
+          "latency": 2.178175
+        },
+        "aiera": {
+          "status": "online",
+          "items": 10,
+          "latency": 2.624274
+        },
+        "radarai": {
+          "status": "online",
+          "items": 10,
+          "latency": 1.528309
+        },
+        "googleai": {
+          "status": "online",
+          "items": 0,
+          "latency": 0.265834
+        }
+      },
+      "duration_seconds": 19.7
     }
   ]
 }
