@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-23T14:44:23.897155+00:00",
+  "update_time": "2026-06-24T05:01:29.480809+00:00",
   "news": {
     "hackernews": [
       {
@@ -12,8 +12,8 @@
         "platform": "hackernews",
         "hn_hot_score": 491.1,
         "id": "6d06a81d8425",
-        "hot_score": 0.9619,
-        "time_factor": 0.9182223415428241,
+        "hot_score": 0.9381,
+        "time_factor": 0.8587019900729167,
         "platform_weight": 1.0
       },
       {
@@ -26,8 +26,22 @@
         "platform": "hackernews",
         "hn_hot_score": 805.0,
         "id": "33c24e033241",
-        "hot_score": 0.9167,
-        "time_factor": 0.7916540545,
+        "hot_score": 0.8929,
+        "time_factor": 0.7321337030300926,
+        "platform_weight": 1.0
+      },
+      {
+        "title": "Mistral OCR 4",
+        "url": "https://mistral.ai/news/ocr-4/",
+        "discussion_url": "https://news.ycombinator.com/item?id=48645152",
+        "score": 445,
+        "comments_count": 114,
+        "publish_time": "2026-06-23T14:03:19+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 345.7,
+        "id": "58111e2cf5aa",
+        "hot_score": 0.8825,
+        "time_factor": 0.9376267585810185,
         "platform_weight": 1.0
       },
       {
@@ -40,8 +54,8 @@
         "platform": "hackernews",
         "hn_hot_score": 414.6,
         "id": "e8c5c313c6f0",
-        "hot_score": 0.8923,
-        "time_factor": 0.858752434125,
+        "hot_score": 0.8685,
+        "time_factor": 0.799232082650463,
         "platform_weight": 1.0
       },
       {
@@ -54,8 +68,22 @@
         "platform": "hackernews",
         "hn_hot_score": 422.5,
         "id": "f4adcea9895e",
-        "hot_score": 0.8848,
-        "time_factor": 0.8281471100462963,
+        "hot_score": 0.861,
+        "time_factor": 0.7686267585717592,
+        "platform_weight": 1.0
+      },
+      {
+        "title": "AI's Affordability Crisis",
+        "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+        "discussion_url": "https://news.ycombinator.com/item?id=48646276",
+        "score": 269,
+        "comments_count": 355,
+        "publish_time": "2026-06-23T15:11:17+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 294.79999999999995,
+        "id": "7d9dedc02463",
+        "hot_score": 0.8538,
+        "time_factor": 0.9423466659756945,
         "platform_weight": 1.0
       },
       {
@@ -68,8 +96,8 @@
         "platform": "hackernews",
         "hn_hot_score": 402.79999999999995,
         "id": "15723ebd3a4b",
-        "hot_score": 0.8438,
-        "time_factor": 0.755398267449074,
+        "hot_score": 0.82,
+        "time_factor": 0.6958779159710649,
         "platform_weight": 1.0
       },
       {
@@ -82,8 +110,8 @@
         "platform": "hackernews",
         "hn_hot_score": 779.4,
         "id": "4dfdceac9b11",
-        "hot_score": 0.8429,
-        "time_factor": 0.6072177118877315,
+        "hot_score": 0.8191,
+        "time_factor": 0.5476973604108797,
         "platform_weight": 1.0
       },
       {
@@ -96,8 +124,8 @@
         "platform": "hackernews",
         "hn_hot_score": 725.0999999999999,
         "id": "2496c09fb9cf",
-        "hot_score": 0.8422,
-        "time_factor": 0.6054758137361111,
+        "hot_score": 0.8184,
+        "time_factor": 0.5459554622581019,
         "platform_weight": 1.0
       },
       {
@@ -110,57 +138,69 @@
         "platform": "hackernews",
         "hn_hot_score": 442.79999999999995,
         "id": "cf33534712bd",
-        "hot_score": 0.8413,
-        "time_factor": 0.6891656285462964,
-        "platform_weight": 1.0
-      },
-      {
-        "title": "Polymarket has flooded social media with deceptive videos by paid creators",
-        "url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
-        "discussion_url": "https://news.ycombinator.com/item?id=48614715",
-        "score": 435,
-        "comments_count": 322,
-        "publish_time": "2026-06-21T01:12:21+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 401.1,
-        "id": "f77b621b7c21",
-        "hot_score": 0.8381,
-        "time_factor": 0.7436077581712963,
-        "platform_weight": 1.0
-      },
-      {
-        "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-        "url": "https://arrowtsx.dev/bigger-models/",
-        "discussion_url": "https://news.ycombinator.com/item?id=48600167",
-        "score": 570,
-        "comments_count": 288,
-        "publish_time": "2026-06-19T16:11:25+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 485.4,
-        "id": "cb1b920249fc",
-        "hot_score": 0.8337,
-        "time_factor": 0.6060429433506944,
+        "hot_score": 0.8175,
+        "time_factor": 0.629645277068287,
         "platform_weight": 1.0
       }
     ],
     "techcrunch": [
+      {
+        "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+        "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/03/ai-bots-agents-GettyImages-2230799616.jpg?resize=1200,800",
+        "publish_time": "2026-06-23T23:30:00+00:00",
+        "tags": [
+          "AI",
+          "Enterprise",
+          "Aampe",
+          "ai agent",
+          "MoEngage"
+        ],
+        "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+        "platform": "techcrunch",
+        "id": "77926f2d4198",
+        "hot_score": 0.6608,
+        "time_factor": 0.9769797678043981,
+        "platform_weight": 0.9,
+        "hn_hot_score": null
+      },
+      {
+        "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+        "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-Tag.png?resize=1200,687",
+        "publish_time": "2026-06-23T17:00:00+00:00",
+        "tags": [
+          "AI",
+          "Enterprise",
+          "Anthropic",
+          "Claude",
+          "claude tag"
+        ],
+        "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+        "platform": "techcrunch",
+        "id": "9c22ab06e799",
+        "hot_score": 0.65,
+        "time_factor": 0.9498964344675926,
+        "platform_weight": 0.9,
+        "hn_hot_score": null
+      },
       {
         "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
         "url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
         "cover_url": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
         "publish_time": "2026-06-23T14:00:00+00:00",
         "tags": [
-          "TC",
-          "Startups",
-          "Crypto",
+          "AI",
+          "Biotech & Health",
           "Climate",
+          "Crypto",
           "Fintech"
         ],
-        "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 - the ultimate founder bootcamp - before Early Bird rates end on June 26 at 11:59 p.m. PT. Register here.",
+        "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
         "platform": "techcrunch",
         "id": "d750fe7f98dd",
-        "hot_score": 0.6688,
-        "time_factor": 0.9969167859398148,
+        "hot_score": 0.645,
+        "time_factor": 0.9373964344641204,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -179,8 +219,8 @@
         "summary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
         "platform": "techcrunch",
         "id": "825bf8f3dc78",
-        "hot_score": 0.6671,
-        "time_factor": 0.9927501192685185,
+        "hot_score": 0.6433,
+        "time_factor": 0.9332297677939815,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -197,8 +237,8 @@
         "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
         "platform": "techcrunch",
         "id": "73e9e23395a9",
-        "hot_score": 0.6479,
-        "time_factor": 0.9446887766724537,
+        "hot_score": 0.6241,
+        "time_factor": 0.8851684251967593,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -216,8 +256,8 @@
         "summary": "OpenAI is using AI to help the open source community better protect itself.",
         "platform": "techcrunch",
         "id": "33e8c0b348e2",
-        "hot_score": 0.6458,
-        "time_factor": 0.9393832211122686,
+        "hot_score": 0.6219,
+        "time_factor": 0.8798628696377315,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -234,8 +274,8 @@
         "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
         "platform": "techcrunch",
         "id": "1109e97a2e5b",
-        "hot_score": 0.6402,
-        "time_factor": 0.9256100729594907,
+        "hot_score": 0.6164,
+        "time_factor": 0.8660897214861111,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -254,8 +294,8 @@
         "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
         "platform": "techcrunch",
         "id": "9bffd715b5be",
-        "hot_score": 0.6392,
-        "time_factor": 0.9228866933252315,
+        "hot_score": 0.6153,
+        "time_factor": 0.8633663418530093,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -274,8 +314,8 @@
         "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
         "platform": "techcrunch",
         "id": "c8e342bfb08c",
-        "hot_score": 0.639,
-        "time_factor": 0.9224897025810185,
+        "hot_score": 0.6152,
+        "time_factor": 0.8629693511076388,
         "platform_weight": 0.9,
         "hn_hot_score": null
       },
@@ -294,143 +334,25 @@
         "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
         "platform": "techcrunch",
         "id": "d29b9a554943",
-        "hot_score": 0.6368,
-        "time_factor": 0.9170371562800925,
-        "platform_weight": 0.9,
-        "hn_hot_score": null
-      },
-      {
-        "title": "Amazon is testing Alexa+ in India with Hindi support",
-        "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2025/08/alexa-plus-event.png?resize=1200,675",
-        "publish_time": "2026-06-22T17:31:29+00:00",
-        "tags": [
-          "AI",
-          "Apps",
-          "alexa+",
-          "Amazon",
-          "Exclusive"
-        ],
-        "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
-        "platform": "techcrunch",
-        "id": "cebcbe249e9a",
-        "hot_score": 0.6346,
-        "time_factor": 0.9116031284988426,
-        "platform_weight": 0.9,
-        "hn_hot_score": null
-      },
-      {
-        "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-        "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg?w=1024",
-        "publish_time": "2026-06-22T16:51:29+00:00",
-        "tags": [
-          "AI",
-          "TC",
-          "reflection ai",
-          "SpaceX"
-        ],
-        "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
-        "platform": "techcrunch",
-        "id": "a24a3385e484",
-        "hot_score": 0.6335,
-        "time_factor": 0.9088253507164352,
+        "hot_score": 0.613,
+        "time_factor": 0.8575168048078704,
         "platform_weight": 0.9,
         "hn_hot_score": null
       }
     ],
     "qbitai": [
       {
-        "title": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
-        "url": "https://www.qbitai.com/2026/06/436758.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/831fbf76385b89dae34b941b58a22f84.jpeg",
-        "publish_time": "2026-06-23T14:44:17.908131+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "119a09105617",
-        "hot_score": 0.64,
-        "time_factor": 0.999993068457176,
-        "platform_weight": 0.8,
-        "hn_hot_score": null
-      },
-      {
-        "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
-        "url": "https://www.qbitai.com/2026/06/436813.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/70fec0f6dfa2ea8a00bd6ab4141a66d9.webp",
-        "publish_time": "2026-06-23T14:44:17.907043+00:00",
-        "tags": [
-          "GPT时刻",
-          "人形机器人通用小脑",
-          "人类数据",
-          "银河通用"
-        ],
-        "platform": "qbitai",
-        "id": "d1fd3dc06012",
-        "hot_score": 0.64,
-        "time_factor": 0.9999930671944445,
-        "platform_weight": 0.8,
-        "hn_hot_score": null
-      },
-      {
-        "title": "GPT发AI原创新成果了",
-        "url": "https://www.qbitai.com/2026/06/436842.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/e92b7a7d688253f92b2582f4b7bc377a.webp",
-        "publish_time": "2026-06-23T14:44:17.905467+00:00",
-        "tags": [
-          "AI药物研发",
-          "GPT5.4"
-        ],
-        "platform": "qbitai",
-        "id": "a8793e34639d",
-        "hot_score": 0.64,
-        "time_factor": 0.9999930653657407,
-        "platform_weight": 0.8,
-        "hn_hot_score": null
-      },
-      {
-        "title": "我把昨晚的梦输入AI，它居然直接把我拉进去玩儿了一把？！",
-        "url": "https://www.qbitai.com/2026/06/436864.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/d0f8300f7d1291a53a128504de8e8902.webp",
-        "publish_time": "2026-06-23T14:44:17.904022+00:00",
-        "tags": [
-          "开放式世界模型",
-          "快乐生蚝",
-          "阿里云"
-        ],
-        "platform": "qbitai",
-        "id": "88d5516dea4e",
-        "hot_score": 0.64,
-        "time_factor": 0.9999930636898148,
-        "platform_weight": 0.8,
-        "hn_hot_score": null
-      },
-      {
-        "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-        "url": "https://www.qbitai.com/2026/06/436966.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/6ba3448f10075db61e217fc504129d79.webp",
-        "publish_time": "2026-06-23T14:44:17.902940+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "db398b79720c",
-        "hot_score": 0.64,
-        "time_factor": 0.9999930624340277,
-        "platform_weight": 0.8,
-        "hn_hot_score": null
-      },
-      {
         "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
         "url": "https://www.qbitai.com/2026/06/436980.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/4e544afcc5a09b31e23222411afbe199.webp",
-        "publish_time": "2026-06-23T14:44:17.901638+00:00",
+        "publish_time": "2026-06-24T05:01:25.409630+00:00",
         "tags": [
           "AI"
         ],
         "platform": "qbitai",
         "id": "1505bfd2434b",
         "hot_score": 0.64,
-        "time_factor": 0.9999930609224537,
+        "time_factor": 0.9999952881724538,
         "platform_weight": 0.8,
         "hn_hot_score": null
       },
@@ -438,14 +360,14 @@
         "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
         "url": "https://www.qbitai.com/2026/06/436996.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/80b2c2fff0da97f7f55a407864dae0fb.jpeg",
-        "publish_time": "2026-06-23T14:44:17.900787+00:00",
+        "publish_time": "2026-06-24T05:01:25.408943+00:00",
         "tags": [
           "AI"
         ],
         "platform": "qbitai",
         "id": "4fda3aa59cbb",
         "hot_score": 0.64,
-        "time_factor": 0.9999930599340278,
+        "time_factor": 0.9999952873738426,
         "platform_weight": 0.8,
         "hn_hot_score": null
       },
@@ -453,7 +375,7 @@
         "title": "英伟达开始搞机器人自己研究机器人那套了…",
         "url": "https://www.qbitai.com/2026/06/437041.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/截屏2026-06-20-20.06.08.png",
-        "publish_time": "2026-06-23T14:44:17.899969+00:00",
+        "publish_time": "2026-06-24T05:01:25.408169+00:00",
         "tags": [
           "机器人",
           "英伟达"
@@ -461,7 +383,7 @@
         "platform": "qbitai",
         "id": "736fbbe0f4b8",
         "hot_score": 0.64,
-        "time_factor": 0.9999930589837963,
+        "time_factor": 0.9999952864745371,
         "platform_weight": 0.8,
         "hn_hot_score": null
       },
@@ -469,7 +391,7 @@
         "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
         "url": "https://www.qbitai.com/2026/06/437141.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/8b6c28651482bafde6cd225e9aea5091.png",
-        "publish_time": "2026-06-23T14:44:17.899130+00:00",
+        "publish_time": "2026-06-24T05:01:25.407375+00:00",
         "tags": [
           "Deepseek",
           "魔兽世界"
@@ -477,7 +399,7 @@
         "platform": "qbitai",
         "id": "eab2f98a0e72",
         "hot_score": 0.64,
-        "time_factor": 0.9999930580092593,
+        "time_factor": 0.9999952855509259,
         "platform_weight": 0.8,
         "hn_hot_score": null
       },
@@ -485,7 +407,7 @@
         "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
         "url": "https://www.qbitai.com/2026/06/437235.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/7d25468fcadad35f6db5be786a924d53.webp",
-        "publish_time": "2026-06-23T14:44:17.898085+00:00",
+        "publish_time": "2026-06-24T05:01:25.406410+00:00",
         "tags": [
           "开源",
           "清华",
@@ -495,12 +417,245 @@
         "platform": "qbitai",
         "id": "e2b4397c7a89",
         "hot_score": 0.64,
-        "time_factor": 0.9999930567962962,
+        "time_factor": 0.9999952844305555,
+        "platform_weight": 0.8,
+        "hn_hot_score": null
+      },
+      {
+        "title": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+        "url": "https://www.qbitai.com/2026/06/437249.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/95404d5aa696b1575127b8bb2fa06412.png",
+        "publish_time": "2026-06-24T05:01:25.405796+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "552da2b76a37",
+        "hot_score": 0.64,
+        "time_factor": 0.9999952837164352,
+        "platform_weight": 0.8,
+        "hn_hot_score": null
+      },
+      {
+        "title": "AI硬件席卷618，钉钉A1包揽天猫、抖音、京东销量冠军",
+        "url": "https://www.qbitai.com/2026/06/437308.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/Xnip2026-06-22_14-18-02.jpg",
+        "publish_time": "2026-06-24T05:01:25.405137+00:00",
+        "tags": [
+          "钉钉"
+        ],
+        "platform": "qbitai",
+        "id": "0cfd443ec1be",
+        "hot_score": 0.64,
+        "time_factor": 0.9999952829502314,
+        "platform_weight": 0.8,
+        "hn_hot_score": null
+      },
+      {
+        "title": "阿里发布视频生成模型HappyHorse 1.1：五大维度全面升级",
+        "url": "https://www.qbitai.com/2026/06/437317.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/ce61f2d04dac1e169a0b660f218b0199.png",
+        "publish_time": "2026-06-24T05:01:25.404456+00:00",
+        "tags": [
+          "HappyHorse"
+        ],
+        "platform": "qbitai",
+        "id": "a15275dc47d7",
+        "hot_score": 0.64,
+        "time_factor": 0.9999952821585648,
+        "platform_weight": 0.8,
+        "hn_hot_score": null
+      },
+      {
+        "title": "小扎「蒸馏员工」计划紧急喊停！私聊数据都泄露了…",
+        "url": "https://www.qbitai.com/2026/06/437330.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/0.png",
+        "publish_time": "2026-06-24T05:01:25.403776+00:00",
+        "tags": [
+          "Meta"
+        ],
+        "platform": "qbitai",
+        "id": "7e5753627cf1",
+        "hot_score": 0.64,
+        "time_factor": 0.9999952813680556,
+        "platform_weight": 0.8,
+        "hn_hot_score": null
+      },
+      {
+        "title": "雷鸟创新 2026 上半年成绩单：618 销量五连冠、三大机构认证第一",
+        "url": "https://www.qbitai.com/2026/06/437489.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/4bad2936ad15a97c5233ca0f71fe5bdf-e1782211624727.png",
+        "publish_time": "2026-06-24T05:01:25.403095+00:00",
+        "tags": [
+          "AR 眼镜"
+        ],
+        "platform": "qbitai",
+        "id": "490b204f4287",
+        "hot_score": 0.64,
+        "time_factor": 0.9999952805763889,
         "platform_weight": 0.8,
         "hn_hot_score": null
       }
     ],
+    "aiera": [
+      {
+        "title": "龚虹嘉、陆奇、海外机构齐押注：这支北大团队，要用神经信号赋能具身训练与人机交互",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100684/%e9%be%9a%e8%99%b9%e5%98%89%e3%80%81%e9%99%86%e5%a5%87%e3%80%81%e6%b5%b7%e5%a4%96%e6%9c%ba%e6%9e%84%e9%bd%90%e6%8a%bc%e6%b3%a8%ef%bc%9a%e8%bf%99%e6%94%af%e5%8c%97%e5%a4%a7%e5%9b%a2%e9%98%9f%ef%bc%8c/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/img_8b08a887-768x432.png",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "d40233a07807",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010277778,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "「AI几小时攻破NSA」刷屏，真相竟是一场红队演习？",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100677/%e3%80%8cai%e5%87%a0%e5%b0%8f%e6%97%b6%e6%94%bb%e7%a0%b4nsa%e3%80%8d%e5%88%b7%e5%b1%8f%ef%bc%8c%e7%9c%9f%e7%9b%b8%e7%ab%9f%e6%98%af%e4%b8%80%e5%9c%ba%e7%ba%a2%e9%98%9f%e6%bc%94%e4%b9%a0%ef%bc%9f/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_1fa284bcfa-768x327.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "e4addc7140e9",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010231482,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "AI如何「读懂」全球气候系统？清华提出统一气候模态预测模型UniCM",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100661/ai%e5%a6%82%e4%bd%95%e3%80%8c%e8%af%bb%e6%87%82%e3%80%8d%e5%85%a8%e7%90%83%e6%b0%94%e5%80%99%e7%b3%bb%e7%bb%9f%ef%bc%9f%e6%b8%85%e5%8d%8e%e6%8f%90%e5%87%ba%e7%bb%9f%e4%b8%80%e6%b0%94%e5%80%99%e6%a8%a1/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_5ad902b886-768x329.png",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "1b6923a162d2",
+        "hot_score": 0.6166,
+        "time_factor": 0.979063101019676,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "超越Claude Mythos的AI模型，诞生了？",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100649/%e8%b6%85%e8%b6%8aclaude-mythos%e7%9a%84ai%e6%a8%a1%e5%9e%8b%ef%bc%8c%e8%af%9e%e7%94%9f%e4%ba%86%ef%bc%9f/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7d08206076-768x326.png",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "aa5d4d005cd5",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010162038,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "200块薅出1.4万算力！OpenAI被薅秃了？",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100626/200%e5%9d%97%e8%96%85%e5%87%ba1-4%e4%b8%87%e7%ae%97%e5%8a%9b%ef%bc%81openai%e8%a2%ab%e8%96%85%e7%a7%83%e4%ba%86%ef%bc%9f/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_50b302f95e-768x327.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "c3ff66246645",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010127315,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "尴尬了！OpenAI刚派GPT-5.5-Cyber修补地球，Codex却爆出致命bug",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100611/%e5%b0%b4%e5%b0%ac%e4%ba%86%ef%bc%81openai%e5%88%9a%e6%b4%begpt-5-5-cyber%e4%bf%ae%e8%a1%a5%e5%9c%b0%e7%90%83%ef%bc%8ccodex%e5%8d%b4%e7%88%86%e5%87%ba%e8%87%b4%e5%91%bdbug/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7980dc65b5-768x328.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "84c1f50d2f77",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010092593,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "94毫秒延迟、监控胜率100%！国产视频模型干翻Gemini",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100584/94%e6%af%ab%e7%a7%92%e5%bb%b6%e8%bf%9f%e3%80%81%e7%9b%91%e6%8e%a7%e8%83%9c%e7%8e%87100%ef%bc%81%e5%9b%bd%e4%ba%a7%e8%a7%86%e9%a2%91%e6%a8%a1%e5%9e%8b%e5%b9%b2%e7%bf%bbgemini/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_b34610cab3-768x327.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "4198a429e110",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010057871,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "新智元ALL in ASI英雄帖",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100575/%e6%96%b0%e6%99%ba%e5%85%83all-in-asi%e8%8b%b1%e9%9b%84%e5%b8%96-23/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_1a0a0a4bd8-18-768x327.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "f3d21d64b1d9",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631010023149,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "GPT-5.6大量实测流出：本周四或登场",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100564/gpt-5-6%e5%a4%a7%e9%87%8f%e5%ae%9e%e6%b5%8b%e6%b5%81%e5%87%ba%ef%bc%9a%e6%9c%ac%e5%91%a8%e5%9b%9b%e6%88%96%e7%99%bb%e5%9c%ba/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_2d6dbcd9fb-768x327.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "b65caca155ac",
+        "hot_score": 0.6166,
+        "time_factor": 0.9790631009976852,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      },
+      {
+        "title": "刚刚，物理世界的Anthropic现身！团队来自中国",
+        "url": "https://aiera.com.cn/2026/06/24/other/admin/100545/%e5%88%9a%e5%88%9a%ef%bc%8c%e7%89%a9%e7%90%86%e4%b8%96%e7%95%8c%e7%9a%84anthropic%e7%8e%b0%e8%ba%ab%ef%bc%81%e5%9b%a2%e9%98%9f%e6%9d%a5%e8%87%aa%e4%b8%ad%e5%9b%bd/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_490969f303-768x328.jpg",
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "platform": "aiera",
+        "id": "ce150ac063f8",
+        "hot_score": 0.6166,
+        "time_factor": 0.979063100994213,
+        "platform_weight": 0.75,
+        "hn_hot_score": null
+      }
+    ],
     "radarai": [
+      {
+        "title": "6月24日 AI 速报 · 第 415 期",
+        "url": "https://radarai.top/updates/brief-20260624-0800",
+        "cover_url": null,
+        "publish_time": "2026-06-24T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "237f3a876bed",
+        "hot_score": 0.61,
+        "time_factor": 1.0,
+        "platform_weight": 0.7,
+        "hn_hot_score": null
+      },
+      {
+        "title": "6月24日 AI 速报 · 第 414 期",
+        "url": "https://radarai.top/updates/brief-20260624-0000",
+        "cover_url": null,
+        "publish_time": "2026-06-24T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "9707969e3382",
+        "hot_score": 0.6016,
+        "time_factor": 0.9790631010601852,
+        "platform_weight": 0.7,
+        "hn_hot_score": null
+      },
       {
         "title": "6月23日 AI 速报 · 第 413 期",
         "url": "https://radarai.top/updates/brief-20260623-1600",
@@ -510,8 +665,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "a17cf58c2505",
-        "hot_score": 0.61,
-        "time_factor": 1.0,
+        "hot_score": 0.5883,
+        "time_factor": 0.9457297677233796,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -524,8 +679,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "abe27c7db519",
-        "hot_score": 0.5988,
-        "time_factor": 0.971916785818287,
+        "hot_score": 0.575,
+        "time_factor": 0.9123964343854166,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -538,8 +693,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "4756ee4de159",
-        "hot_score": 0.5854,
-        "time_factor": 0.9385834524814815,
+        "hot_score": 0.5616,
+        "time_factor": 0.8790631010486111,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -552,8 +707,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "5686554e06a0",
-        "hot_score": 0.5721,
-        "time_factor": 0.9052501191435185,
+        "hot_score": 0.5483,
+        "time_factor": 0.8457297677118056,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -566,8 +721,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "9ccc6d80e2fc",
-        "hot_score": 0.5588,
-        "time_factor": 0.871916785806713,
+        "hot_score": 0.535,
+        "time_factor": 0.8123964343750001,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -580,8 +735,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "88a21c3d3d18",
-        "hot_score": 0.5454,
-        "time_factor": 0.83858345246875,
+        "hot_score": 0.5216,
+        "time_factor": 0.7790631010381944,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -594,8 +749,8 @@
         "summary": "",
         "platform": "radarai",
         "id": "7adb7b7862e9",
-        "hot_score": 0.5321,
-        "time_factor": 0.8052501191319444,
+        "hot_score": 0.5083,
+        "time_factor": 0.7457297677013889,
         "platform_weight": 0.7,
         "hn_hot_score": null
       },
@@ -608,169 +763,9 @@
         "summary": "",
         "platform": "radarai",
         "id": "352969b1858f",
-        "hot_score": 0.5188,
-        "time_factor": 0.7719167857951389,
+        "hot_score": 0.495,
+        "time_factor": 0.7123964343645833,
         "platform_weight": 0.7,
-        "hn_hot_score": null
-      },
-      {
-        "title": "6月21日 AI 速报 · 第 405 期",
-        "url": "https://radarai.top/updates/brief-20260621-0000",
-        "cover_url": null,
-        "publish_time": "2026-06-21T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "9e46430186d3",
-        "hot_score": 0.5054,
-        "time_factor": 0.7385834524583333,
-        "platform_weight": 0.7,
-        "hn_hot_score": null
-      },
-      {
-        "title": "6月20日 AI 速报 · 第 404 期",
-        "url": "https://radarai.top/updates/brief-20260620-1600",
-        "cover_url": null,
-        "publish_time": "2026-06-20T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e2db26a55792",
-        "hot_score": 0.4921,
-        "time_factor": 0.7052501191203704,
-        "platform_weight": 0.7,
-        "hn_hot_score": null
-      }
-    ],
-    "aiera": [
-      {
-        "title": "Claude下一代神级模型秘密出炉！Sonnet-5被曝下周上线",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100519/claude%e4%b8%8b%e4%b8%80%e4%bb%a3%e7%a5%9e%e7%ba%a7%e6%a8%a1%e5%9e%8b%e7%a7%98%e5%af%86%e5%87%ba%e7%82%89%ef%bc%81sonnet-5%e8%a2%ab%e6%9b%9d%e4%b8%8b%e5%91%a8%e4%b8%8a%e7%ba%bf/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_2b98511d35-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "ea4622091469",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525277778,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "清华NANO滤波器：非线性贝叶斯状态估计迈入优化迭代计算的新范式",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100493/%e6%b8%85%e5%8d%8enano%e6%bb%a4%e6%b3%a2%e5%99%a8%ef%bc%9a%e9%9d%9e%e7%ba%bf%e6%80%a7%e8%b4%9d%e5%8f%b6%e6%96%af%e7%8a%b6%e6%80%81%e4%bc%b0%e8%ae%a1%e8%bf%88%e5%85%a5%e4%bc%98%e5%8c%96%e8%bf%ad/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_520ea369c2-768x329.png",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "ea51c779602c",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525231481,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "美国新提案：「国有化」AI巨头，「全民持股」50%",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100462/%e7%be%8e%e5%9b%bd%e6%96%b0%e6%8f%90%e6%a1%88%ef%bc%9a%e3%80%8c%e5%9b%bd%e6%9c%89%e5%8c%96%e3%80%8dai%e5%b7%a8%e5%a4%b4%ef%bc%8c%e3%80%8c%e5%85%a8%e6%b0%91%e6%8c%81%e8%82%a1%e3%80%8d50/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_4cbcfc507d-768x327.png",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "09884555825f",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525196759,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "在清华，我拍到了物理AGI第一幕！",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100451/%e5%9c%a8%e6%b8%85%e5%8d%8e%ef%bc%8c%e6%88%91%e6%8b%8d%e5%88%b0%e4%ba%86%e7%89%a9%e7%90%86agi%e7%ac%ac%e4%b8%80%e5%b9%95%ef%bc%81/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_4bfff93b47-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "29363713a95d",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525162037,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "4个MIT辍学生，缔造最快破亿神话！马斯克买单",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100444/4%e4%b8%aamit%e8%be%8d%e5%ad%a6%e7%94%9f%ef%bc%8c%e7%bc%94%e9%80%a0%e6%9c%80%e5%bf%ab%e7%a0%b4%e4%ba%bf%e7%a5%9e%e8%af%9d%ef%bc%81%e9%a9%ac%e6%96%af%e5%85%8b%e4%b9%b0%e5%8d%95/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_5eb0993443-768x328.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "c8d403bf6274",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525127315,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "谁说锯木头没前途？这个大爷锯着锯着，就把SpaceX发动机搞出来了",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100424/%e8%b0%81%e8%af%b4%e9%94%af%e6%9c%a8%e5%a4%b4%e6%b2%a1%e5%89%8d%e9%80%94%ef%bc%9f%e8%bf%99%e4%b8%aa%e5%a4%a7%e7%88%b7%e9%94%af%e7%9d%80%e9%94%af%e7%9d%80%ef%bc%8c%e5%b0%b1%e6%8a%8aspacex%e5%8f%91/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_c1d2246c81-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "6b5ee39620ed",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525081018,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "AI奇观：我在主会场卷，Agent在20余个分会场替我听会",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100405/ai%e5%a5%87%e8%a7%82%ef%bc%9a%e6%88%91%e5%9c%a8%e4%b8%bb%e4%bc%9a%e5%9c%ba%e5%8d%b7%ef%bc%8cagent%e5%9c%a820%e4%bd%99%e4%b8%aa%e5%88%86%e4%bc%9a%e5%9c%ba%e6%9b%bf%e6%88%91%e5%90%ac%e4%bc%9a/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7a24295439-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "6718ff759450",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525046296,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "马斯克前联创洽谈10亿美元巨融，要造一个真正归你的AI",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100391/%e9%a9%ac%e6%96%af%e5%85%8b%e5%89%8d%e8%81%94%e5%88%9b%e6%b4%bd%e8%b0%8810%e4%ba%bf%e7%be%8e%e5%85%83%e5%b7%a8%e8%9e%8d%ef%bc%8c%e8%a6%81%e9%80%a0%e4%b8%80%e4%b8%aa%e7%9c%9f%e6%ad%a3%e5%bd%92%e4%bd%a0/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_f3970d5863-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "807725b57eeb",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834525011574,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "Claude Code破解3500年前死语言！74年来最大考古语言学突破",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100375/claude-code%e7%a0%b4%e8%a7%a33500%e5%b9%b4%e5%89%8d%e6%ad%bb%e8%af%ad%e8%a8%80%ef%bc%8174%e5%b9%b4%e6%9d%a5%e6%9c%80%e5%a4%a7%e8%80%83%e5%8f%a4%e8%af%ad%e8%a8%80%e5%ad%a6%e7%aa%81%e7%a0%b4/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_b05576ed94-768x327.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "192eb9a6eb40",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834524976852,
-        "platform_weight": 0.75,
-        "hn_hot_score": null
-      },
-      {
-        "title": "刚刚，百度开源拿下全球第一！作者疑似DeepSeek出走大神",
-        "url": "https://aiera.com.cn/2026/06/23/other/admin/100358/%e5%88%9a%e5%88%9a%ef%bc%8c%e7%99%be%e5%ba%a6%e5%bc%80%e6%ba%90%e6%8b%bf%e4%b8%8b%e5%85%a8%e7%90%83%e7%ac%ac%e4%b8%80%ef%bc%81%e4%bd%9c%e8%80%85%e7%96%91%e4%bc%bcdeepseek%e5%87%ba%e8%b5%b0%e5%a4%a7/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_c7b037c12d-768x328.jpg",
-        "publish_time": "2026-06-23T00:00:00+00:00",
-        "tags": [],
-        "platform": "aiera",
-        "id": "ebbe6c4e3c36",
-        "hot_score": 0.6004,
-        "time_factor": 0.9385834524930555,
-        "platform_weight": 0.75,
         "hn_hot_score": null
       }
     ],
@@ -789,8 +784,8 @@
         "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
         "platform": "googleai",
         "id": "758bf3520fc2",
-        "hot_score": 0.4154,
-        "time_factor": 0.40108345245023147,
+        "hot_score": 0.3916,
+        "time_factor": 0.3415631009907407,
         "platform_weight": 0.85,
         "hn_hot_score": null
       }
@@ -807,8 +802,8 @@
       "platform": "hackernews",
       "hn_hot_score": 491.1,
       "id": "6d06a81d8425",
-      "hot_score": 0.9619,
-      "time_factor": 0.9182223415428241,
+      "hot_score": 0.9381,
+      "time_factor": 0.8587019900729167,
       "platform_weight": 1.0
     },
     {
@@ -821,8 +816,22 @@
       "platform": "hackernews",
       "hn_hot_score": 805.0,
       "id": "33c24e033241",
-      "hot_score": 0.9167,
-      "time_factor": 0.7916540545,
+      "hot_score": 0.8929,
+      "time_factor": 0.7321337030300926,
+      "platform_weight": 1.0
+    },
+    {
+      "title": "Mistral OCR 4",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "discussion_url": "https://news.ycombinator.com/item?id=48645152",
+      "score": 445,
+      "comments_count": 114,
+      "publish_time": "2026-06-23T14:03:19+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 345.7,
+      "id": "58111e2cf5aa",
+      "hot_score": 0.8825,
+      "time_factor": 0.9376267585810185,
       "platform_weight": 1.0
     },
     {
@@ -835,8 +844,8 @@
       "platform": "hackernews",
       "hn_hot_score": 414.6,
       "id": "e8c5c313c6f0",
-      "hot_score": 0.8923,
-      "time_factor": 0.858752434125,
+      "hot_score": 0.8685,
+      "time_factor": 0.799232082650463,
       "platform_weight": 1.0
     },
     {
@@ -849,8 +858,22 @@
       "platform": "hackernews",
       "hn_hot_score": 422.5,
       "id": "f4adcea9895e",
-      "hot_score": 0.8848,
-      "time_factor": 0.8281471100462963,
+      "hot_score": 0.861,
+      "time_factor": 0.7686267585717592,
+      "platform_weight": 1.0
+    },
+    {
+      "title": "AI's Affordability Crisis",
+      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "discussion_url": "https://news.ycombinator.com/item?id=48646276",
+      "score": 269,
+      "comments_count": 355,
+      "publish_time": "2026-06-23T15:11:17+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 294.79999999999995,
+      "id": "7d9dedc02463",
+      "hot_score": 0.8538,
+      "time_factor": 0.9423466659756945,
       "platform_weight": 1.0
     },
     {
@@ -863,8 +886,8 @@
       "platform": "hackernews",
       "hn_hot_score": 402.79999999999995,
       "id": "15723ebd3a4b",
-      "hot_score": 0.8438,
-      "time_factor": 0.755398267449074,
+      "hot_score": 0.82,
+      "time_factor": 0.6958779159710649,
       "platform_weight": 1.0
     },
     {
@@ -877,8 +900,8 @@
       "platform": "hackernews",
       "hn_hot_score": 779.4,
       "id": "4dfdceac9b11",
-      "hot_score": 0.8429,
-      "time_factor": 0.6072177118877315,
+      "hot_score": 0.8191,
+      "time_factor": 0.5476973604108797,
       "platform_weight": 1.0
     },
     {
@@ -891,8 +914,8 @@
       "platform": "hackernews",
       "hn_hot_score": 725.0999999999999,
       "id": "2496c09fb9cf",
-      "hot_score": 0.8422,
-      "time_factor": 0.6054758137361111,
+      "hot_score": 0.8184,
+      "time_factor": 0.5459554622581019,
       "platform_weight": 1.0
     },
     {
@@ -905,37 +928,49 @@
       "platform": "hackernews",
       "hn_hot_score": 442.79999999999995,
       "id": "cf33534712bd",
-      "hot_score": 0.8413,
-      "time_factor": 0.6891656285462964,
+      "hot_score": 0.8175,
+      "time_factor": 0.629645277068287,
       "platform_weight": 1.0
     },
     {
-      "title": "Polymarket has flooded social media with deceptive videos by paid creators",
-      "url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
-      "discussion_url": "https://news.ycombinator.com/item?id=48614715",
-      "score": 435,
-      "comments_count": 322,
-      "publish_time": "2026-06-21T01:12:21+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 401.1,
-      "id": "f77b621b7c21",
-      "hot_score": 0.8381,
-      "time_factor": 0.7436077581712963,
-      "platform_weight": 1.0
+      "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "cover_url": "https://techcrunch.com/wp-content/uploads/2026/03/ai-bots-agents-GettyImages-2230799616.jpg?resize=1200,800",
+      "publish_time": "2026-06-23T23:30:00+00:00",
+      "tags": [
+        "AI",
+        "Enterprise",
+        "Aampe",
+        "ai agent",
+        "MoEngage"
+      ],
+      "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+      "platform": "techcrunch",
+      "id": "77926f2d4198",
+      "hot_score": 0.6608,
+      "time_factor": 0.9769797678043981,
+      "platform_weight": 0.9,
+      "hn_hot_score": null
     },
     {
-      "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-      "url": "https://arrowtsx.dev/bigger-models/",
-      "discussion_url": "https://news.ycombinator.com/item?id=48600167",
-      "score": 570,
-      "comments_count": 288,
-      "publish_time": "2026-06-19T16:11:25+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 485.4,
-      "id": "cb1b920249fc",
-      "hot_score": 0.8337,
-      "time_factor": 0.6060429433506944,
-      "platform_weight": 1.0
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "cover_url": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-Tag.png?resize=1200,687",
+      "publish_time": "2026-06-23T17:00:00+00:00",
+      "tags": [
+        "AI",
+        "Enterprise",
+        "Anthropic",
+        "Claude",
+        "claude tag"
+      ],
+      "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "platform": "techcrunch",
+      "id": "9c22ab06e799",
+      "hot_score": 0.65,
+      "time_factor": 0.9498964344675926,
+      "platform_weight": 0.9,
+      "hn_hot_score": null
     },
     {
       "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
@@ -943,17 +978,17 @@
       "cover_url": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800",
       "publish_time": "2026-06-23T14:00:00+00:00",
       "tags": [
-        "TC",
-        "Startups",
-        "Crypto",
+        "AI",
+        "Biotech & Health",
         "Climate",
+        "Crypto",
         "Fintech"
       ],
-      "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 - the ultimate founder bootcamp - before Early Bird rates end on June 26 at 11:59 p.m. PT. Register here.",
+      "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
       "platform": "techcrunch",
       "id": "d750fe7f98dd",
-      "hot_score": 0.6688,
-      "time_factor": 0.9969167859398148,
+      "hot_score": 0.645,
+      "time_factor": 0.9373964344641204,
       "platform_weight": 0.9,
       "hn_hot_score": null
     },
@@ -972,9 +1007,162 @@
       "summary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
       "platform": "techcrunch",
       "id": "825bf8f3dc78",
-      "hot_score": 0.6671,
-      "time_factor": 0.9927501192685185,
+      "hot_score": 0.6433,
+      "time_factor": 0.9332297677939815,
       "platform_weight": 0.9,
+      "hn_hot_score": null
+    },
+    {
+      "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
+      "url": "https://www.qbitai.com/2026/06/436980.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/4e544afcc5a09b31e23222411afbe199.webp",
+      "publish_time": "2026-06-24T05:01:25.409630+00:00",
+      "tags": [
+        "AI"
+      ],
+      "platform": "qbitai",
+      "id": "1505bfd2434b",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952881724538,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
+      "url": "https://www.qbitai.com/2026/06/436996.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/80b2c2fff0da97f7f55a407864dae0fb.jpeg",
+      "publish_time": "2026-06-24T05:01:25.408943+00:00",
+      "tags": [
+        "AI"
+      ],
+      "platform": "qbitai",
+      "id": "4fda3aa59cbb",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952873738426,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "英伟达开始搞机器人自己研究机器人那套了…",
+      "url": "https://www.qbitai.com/2026/06/437041.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/截屏2026-06-20-20.06.08.png",
+      "publish_time": "2026-06-24T05:01:25.408169+00:00",
+      "tags": [
+        "机器人",
+        "英伟达"
+      ],
+      "platform": "qbitai",
+      "id": "736fbbe0f4b8",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952864745371,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
+      "url": "https://www.qbitai.com/2026/06/437141.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/8b6c28651482bafde6cd225e9aea5091.png",
+      "publish_time": "2026-06-24T05:01:25.407375+00:00",
+      "tags": [
+        "Deepseek",
+        "魔兽世界"
+      ],
+      "platform": "qbitai",
+      "id": "eab2f98a0e72",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952855509259,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
+      "url": "https://www.qbitai.com/2026/06/437235.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/7d25468fcadad35f6db5be786a924d53.webp",
+      "publish_time": "2026-06-24T05:01:25.406410+00:00",
+      "tags": [
+        "开源",
+        "清华",
+        "空间智能",
+        "空间模型"
+      ],
+      "platform": "qbitai",
+      "id": "e2b4397c7a89",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952844305555,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+      "url": "https://www.qbitai.com/2026/06/437249.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/95404d5aa696b1575127b8bb2fa06412.png",
+      "publish_time": "2026-06-24T05:01:25.405796+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "552da2b76a37",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952837164352,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "AI硬件席卷618，钉钉A1包揽天猫、抖音、京东销量冠军",
+      "url": "https://www.qbitai.com/2026/06/437308.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/Xnip2026-06-22_14-18-02.jpg",
+      "publish_time": "2026-06-24T05:01:25.405137+00:00",
+      "tags": [
+        "钉钉"
+      ],
+      "platform": "qbitai",
+      "id": "0cfd443ec1be",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952829502314,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "阿里发布视频生成模型HappyHorse 1.1：五大维度全面升级",
+      "url": "https://www.qbitai.com/2026/06/437317.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/ce61f2d04dac1e169a0b660f218b0199.png",
+      "publish_time": "2026-06-24T05:01:25.404456+00:00",
+      "tags": [
+        "HappyHorse"
+      ],
+      "platform": "qbitai",
+      "id": "a15275dc47d7",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952821585648,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "小扎「蒸馏员工」计划紧急喊停！私聊数据都泄露了…",
+      "url": "https://www.qbitai.com/2026/06/437330.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/0.png",
+      "publish_time": "2026-06-24T05:01:25.403776+00:00",
+      "tags": [
+        "Meta"
+      ],
+      "platform": "qbitai",
+      "id": "7e5753627cf1",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952813680556,
+      "platform_weight": 0.8,
+      "hn_hot_score": null
+    },
+    {
+      "title": "雷鸟创新 2026 上半年成绩单：618 销量五连冠、三大机构认证第一",
+      "url": "https://www.qbitai.com/2026/06/437489.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/4bad2936ad15a97c5233ca0f71fe5bdf-e1782211624727.png",
+      "publish_time": "2026-06-24T05:01:25.403095+00:00",
+      "tags": [
+        "AR 眼镜"
+      ],
+      "platform": "qbitai",
+      "id": "490b204f4287",
+      "hot_score": 0.64,
+      "time_factor": 0.9999952805763889,
+      "platform_weight": 0.8,
       "hn_hot_score": null
     },
     {
@@ -990,8 +1178,8 @@
       "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
       "platform": "techcrunch",
       "id": "73e9e23395a9",
-      "hot_score": 0.6479,
-      "time_factor": 0.9446887766724537,
+      "hot_score": 0.6241,
+      "time_factor": 0.8851684251967593,
       "platform_weight": 0.9,
       "hn_hot_score": null
     },
@@ -1009,9 +1197,139 @@
       "summary": "OpenAI is using AI to help the open source community better protect itself.",
       "platform": "techcrunch",
       "id": "33e8c0b348e2",
-      "hot_score": 0.6458,
-      "time_factor": 0.9393832211122686,
+      "hot_score": 0.6219,
+      "time_factor": 0.8798628696377315,
       "platform_weight": 0.9,
+      "hn_hot_score": null
+    },
+    {
+      "title": "龚虹嘉、陆奇、海外机构齐押注：这支北大团队，要用神经信号赋能具身训练与人机交互",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100684/%e9%be%9a%e8%99%b9%e5%98%89%e3%80%81%e9%99%86%e5%a5%87%e3%80%81%e6%b5%b7%e5%a4%96%e6%9c%ba%e6%9e%84%e9%bd%90%e6%8a%bc%e6%b3%a8%ef%bc%9a%e8%bf%99%e6%94%af%e5%8c%97%e5%a4%a7%e5%9b%a2%e9%98%9f%ef%bc%8c/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/img_8b08a887-768x432.png",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "d40233a07807",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010277778,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "「AI几小时攻破NSA」刷屏，真相竟是一场红队演习？",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100677/%e3%80%8cai%e5%87%a0%e5%b0%8f%e6%97%b6%e6%94%bb%e7%a0%b4nsa%e3%80%8d%e5%88%b7%e5%b1%8f%ef%bc%8c%e7%9c%9f%e7%9b%b8%e7%ab%9f%e6%98%af%e4%b8%80%e5%9c%ba%e7%ba%a2%e9%98%9f%e6%bc%94%e4%b9%a0%ef%bc%9f/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_1fa284bcfa-768x327.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "e4addc7140e9",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010231482,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "AI如何「读懂」全球气候系统？清华提出统一气候模态预测模型UniCM",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100661/ai%e5%a6%82%e4%bd%95%e3%80%8c%e8%af%bb%e6%87%82%e3%80%8d%e5%85%a8%e7%90%83%e6%b0%94%e5%80%99%e7%b3%bb%e7%bb%9f%ef%bc%9f%e6%b8%85%e5%8d%8e%e6%8f%90%e5%87%ba%e7%bb%9f%e4%b8%80%e6%b0%94%e5%80%99%e6%a8%a1/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_5ad902b886-768x329.png",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "1b6923a162d2",
+      "hot_score": 0.6166,
+      "time_factor": 0.979063101019676,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "超越Claude Mythos的AI模型，诞生了？",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100649/%e8%b6%85%e8%b6%8aclaude-mythos%e7%9a%84ai%e6%a8%a1%e5%9e%8b%ef%bc%8c%e8%af%9e%e7%94%9f%e4%ba%86%ef%bc%9f/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7d08206076-768x326.png",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "aa5d4d005cd5",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010162038,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "200块薅出1.4万算力！OpenAI被薅秃了？",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100626/200%e5%9d%97%e8%96%85%e5%87%ba1-4%e4%b8%87%e7%ae%97%e5%8a%9b%ef%bc%81openai%e8%a2%ab%e8%96%85%e7%a7%83%e4%ba%86%ef%bc%9f/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_50b302f95e-768x327.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "c3ff66246645",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010127315,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "尴尬了！OpenAI刚派GPT-5.5-Cyber修补地球，Codex却爆出致命bug",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100611/%e5%b0%b4%e5%b0%ac%e4%ba%86%ef%bc%81openai%e5%88%9a%e6%b4%begpt-5-5-cyber%e4%bf%ae%e8%a1%a5%e5%9c%b0%e7%90%83%ef%bc%8ccodex%e5%8d%b4%e7%88%86%e5%87%ba%e8%87%b4%e5%91%bdbug/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7980dc65b5-768x328.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "84c1f50d2f77",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010092593,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "94毫秒延迟、监控胜率100%！国产视频模型干翻Gemini",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100584/94%e6%af%ab%e7%a7%92%e5%bb%b6%e8%bf%9f%e3%80%81%e7%9b%91%e6%8e%a7%e8%83%9c%e7%8e%87100%ef%bc%81%e5%9b%bd%e4%ba%a7%e8%a7%86%e9%a2%91%e6%a8%a1%e5%9e%8b%e5%b9%b2%e7%bf%bbgemini/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_b34610cab3-768x327.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "4198a429e110",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010057871,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100575/%e6%96%b0%e6%99%ba%e5%85%83all-in-asi%e8%8b%b1%e9%9b%84%e5%b8%96-23/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_1a0a0a4bd8-18-768x327.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "f3d21d64b1d9",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631010023149,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "GPT-5.6大量实测流出：本周四或登场",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100564/gpt-5-6%e5%a4%a7%e9%87%8f%e5%ae%9e%e6%b5%8b%e6%b5%81%e5%87%ba%ef%bc%9a%e6%9c%ac%e5%91%a8%e5%9b%9b%e6%88%96%e7%99%bb%e5%9c%ba/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_2d6dbcd9fb-768x327.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "b65caca155ac",
+      "hot_score": 0.6166,
+      "time_factor": 0.9790631009976852,
+      "platform_weight": 0.75,
+      "hn_hot_score": null
+    },
+    {
+      "title": "刚刚，物理世界的Anthropic现身！团队来自中国",
+      "url": "https://aiera.com.cn/2026/06/24/other/admin/100545/%e5%88%9a%e5%88%9a%ef%bc%8c%e7%89%a9%e7%90%86%e4%b8%96%e7%95%8c%e7%9a%84anthropic%e7%8e%b0%e8%ba%ab%ef%bc%81%e5%9b%a2%e9%98%9f%e6%9d%a5%e8%87%aa%e4%b8%ad%e5%9b%bd/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_490969f303-768x328.jpg",
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "ce150ac063f8",
+      "hot_score": 0.6166,
+      "time_factor": 0.979063100994213,
+      "platform_weight": 0.75,
       "hn_hot_score": null
     },
     {
@@ -1027,168 +1345,9 @@
       "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
       "platform": "techcrunch",
       "id": "1109e97a2e5b",
-      "hot_score": 0.6402,
-      "time_factor": 0.9256100729594907,
+      "hot_score": 0.6164,
+      "time_factor": 0.8660897214861111,
       "platform_weight": 0.9,
-      "hn_hot_score": null
-    },
-    {
-      "title": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
-      "url": "https://www.qbitai.com/2026/06/436758.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/831fbf76385b89dae34b941b58a22f84.jpeg",
-      "publish_time": "2026-06-23T14:44:17.908131+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "119a09105617",
-      "hot_score": 0.64,
-      "time_factor": 0.999993068457176,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
-      "url": "https://www.qbitai.com/2026/06/436813.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/70fec0f6dfa2ea8a00bd6ab4141a66d9.webp",
-      "publish_time": "2026-06-23T14:44:17.907043+00:00",
-      "tags": [
-        "GPT时刻",
-        "人形机器人通用小脑",
-        "人类数据",
-        "银河通用"
-      ],
-      "platform": "qbitai",
-      "id": "d1fd3dc06012",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930671944445,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "GPT发AI原创新成果了",
-      "url": "https://www.qbitai.com/2026/06/436842.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/e92b7a7d688253f92b2582f4b7bc377a.webp",
-      "publish_time": "2026-06-23T14:44:17.905467+00:00",
-      "tags": [
-        "AI药物研发",
-        "GPT5.4"
-      ],
-      "platform": "qbitai",
-      "id": "a8793e34639d",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930653657407,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "我把昨晚的梦输入AI，它居然直接把我拉进去玩儿了一把？！",
-      "url": "https://www.qbitai.com/2026/06/436864.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/d0f8300f7d1291a53a128504de8e8902.webp",
-      "publish_time": "2026-06-23T14:44:17.904022+00:00",
-      "tags": [
-        "开放式世界模型",
-        "快乐生蚝",
-        "阿里云"
-      ],
-      "platform": "qbitai",
-      "id": "88d5516dea4e",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930636898148,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-      "url": "https://www.qbitai.com/2026/06/436966.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/6ba3448f10075db61e217fc504129d79.webp",
-      "publish_time": "2026-06-23T14:44:17.902940+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "db398b79720c",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930624340277,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
-      "url": "https://www.qbitai.com/2026/06/436980.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/4e544afcc5a09b31e23222411afbe199.webp",
-      "publish_time": "2026-06-23T14:44:17.901638+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "1505bfd2434b",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930609224537,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
-      "url": "https://www.qbitai.com/2026/06/436996.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/80b2c2fff0da97f7f55a407864dae0fb.jpeg",
-      "publish_time": "2026-06-23T14:44:17.900787+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "4fda3aa59cbb",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930599340278,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "英伟达开始搞机器人自己研究机器人那套了…",
-      "url": "https://www.qbitai.com/2026/06/437041.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/截屏2026-06-20-20.06.08.png",
-      "publish_time": "2026-06-23T14:44:17.899969+00:00",
-      "tags": [
-        "机器人",
-        "英伟达"
-      ],
-      "platform": "qbitai",
-      "id": "736fbbe0f4b8",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930589837963,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
-      "url": "https://www.qbitai.com/2026/06/437141.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/8b6c28651482bafde6cd225e9aea5091.png",
-      "publish_time": "2026-06-23T14:44:17.899130+00:00",
-      "tags": [
-        "Deepseek",
-        "魔兽世界"
-      ],
-      "platform": "qbitai",
-      "id": "eab2f98a0e72",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930580092593,
-      "platform_weight": 0.8,
-      "hn_hot_score": null
-    },
-    {
-      "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
-      "url": "https://www.qbitai.com/2026/06/437235.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/06/7d25468fcadad35f6db5be786a924d53.webp",
-      "publish_time": "2026-06-23T14:44:17.898085+00:00",
-      "tags": [
-        "开源",
-        "清华",
-        "空间智能",
-        "空间模型"
-      ],
-      "platform": "qbitai",
-      "id": "e2b4397c7a89",
-      "hot_score": 0.64,
-      "time_factor": 0.9999930567962962,
-      "platform_weight": 0.8,
       "hn_hot_score": null
     },
     {
@@ -1206,8 +1365,8 @@
       "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
       "platform": "techcrunch",
       "id": "9bffd715b5be",
-      "hot_score": 0.6392,
-      "time_factor": 0.9228866933252315,
+      "hot_score": 0.6153,
+      "time_factor": 0.8633663418530093,
       "platform_weight": 0.9,
       "hn_hot_score": null
     },
@@ -1226,8 +1385,8 @@
       "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
       "platform": "techcrunch",
       "id": "c8e342bfb08c",
-      "hot_score": 0.639,
-      "time_factor": 0.9224897025810185,
+      "hot_score": 0.6152,
+      "time_factor": 0.8629693511076388,
       "platform_weight": 0.9,
       "hn_hot_score": null
     },
@@ -1246,48 +1405,37 @@
       "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
       "platform": "techcrunch",
       "id": "d29b9a554943",
-      "hot_score": 0.6368,
-      "time_factor": 0.9170371562800925,
+      "hot_score": 0.613,
+      "time_factor": 0.8575168048078704,
       "platform_weight": 0.9,
       "hn_hot_score": null
     },
     {
-      "title": "Amazon is testing Alexa+ in India with Hindi support",
-      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-      "cover_url": "https://techcrunch.com/wp-content/uploads/2025/08/alexa-plus-event.png?resize=1200,675",
-      "publish_time": "2026-06-22T17:31:29+00:00",
-      "tags": [
-        "AI",
-        "Apps",
-        "alexa+",
-        "Amazon",
-        "Exclusive"
-      ],
-      "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
-      "platform": "techcrunch",
-      "id": "cebcbe249e9a",
-      "hot_score": 0.6346,
-      "time_factor": 0.9116031284988426,
-      "platform_weight": 0.9,
+      "title": "6月24日 AI 速报 · 第 415 期",
+      "url": "https://radarai.top/updates/brief-20260624-0800",
+      "cover_url": null,
+      "publish_time": "2026-06-24T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "237f3a876bed",
+      "hot_score": 0.61,
+      "time_factor": 1.0,
+      "platform_weight": 0.7,
       "hn_hot_score": null
     },
     {
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-      "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg?w=1024",
-      "publish_time": "2026-06-22T16:51:29+00:00",
-      "tags": [
-        "AI",
-        "TC",
-        "reflection ai",
-        "SpaceX"
-      ],
-      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
-      "platform": "techcrunch",
-      "id": "a24a3385e484",
-      "hot_score": 0.6335,
-      "time_factor": 0.9088253507164352,
-      "platform_weight": 0.9,
+      "title": "6月24日 AI 速报 · 第 414 期",
+      "url": "https://radarai.top/updates/brief-20260624-0000",
+      "cover_url": null,
+      "publish_time": "2026-06-24T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "9707969e3382",
+      "hot_score": 0.6016,
+      "time_factor": 0.9790631010601852,
+      "platform_weight": 0.7,
       "hn_hot_score": null
     },
     {
@@ -1299,139 +1447,9 @@
       "summary": "",
       "platform": "radarai",
       "id": "a17cf58c2505",
-      "hot_score": 0.61,
-      "time_factor": 1.0,
+      "hot_score": 0.5883,
+      "time_factor": 0.9457297677233796,
       "platform_weight": 0.7,
-      "hn_hot_score": null
-    },
-    {
-      "title": "Claude下一代神级模型秘密出炉！Sonnet-5被曝下周上线",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100519/claude%e4%b8%8b%e4%b8%80%e4%bb%a3%e7%a5%9e%e7%ba%a7%e6%a8%a1%e5%9e%8b%e7%a7%98%e5%af%86%e5%87%ba%e7%82%89%ef%bc%81sonnet-5%e8%a2%ab%e6%9b%9d%e4%b8%8b%e5%91%a8%e4%b8%8a%e7%ba%bf/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_2b98511d35-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "ea4622091469",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525277778,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "清华NANO滤波器：非线性贝叶斯状态估计迈入优化迭代计算的新范式",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100493/%e6%b8%85%e5%8d%8enano%e6%bb%a4%e6%b3%a2%e5%99%a8%ef%bc%9a%e9%9d%9e%e7%ba%bf%e6%80%a7%e8%b4%9d%e5%8f%b6%e6%96%af%e7%8a%b6%e6%80%81%e4%bc%b0%e8%ae%a1%e8%bf%88%e5%85%a5%e4%bc%98%e5%8c%96%e8%bf%ad/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_520ea369c2-768x329.png",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "ea51c779602c",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525231481,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "美国新提案：「国有化」AI巨头，「全民持股」50%",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100462/%e7%be%8e%e5%9b%bd%e6%96%b0%e6%8f%90%e6%a1%88%ef%bc%9a%e3%80%8c%e5%9b%bd%e6%9c%89%e5%8c%96%e3%80%8dai%e5%b7%a8%e5%a4%b4%ef%bc%8c%e3%80%8c%e5%85%a8%e6%b0%91%e6%8c%81%e8%82%a1%e3%80%8d50/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_4cbcfc507d-768x327.png",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "09884555825f",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525196759,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "在清华，我拍到了物理AGI第一幕！",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100451/%e5%9c%a8%e6%b8%85%e5%8d%8e%ef%bc%8c%e6%88%91%e6%8b%8d%e5%88%b0%e4%ba%86%e7%89%a9%e7%90%86agi%e7%ac%ac%e4%b8%80%e5%b9%95%ef%bc%81/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_4bfff93b47-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "29363713a95d",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525162037,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "4个MIT辍学生，缔造最快破亿神话！马斯克买单",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100444/4%e4%b8%aamit%e8%be%8d%e5%ad%a6%e7%94%9f%ef%bc%8c%e7%bc%94%e9%80%a0%e6%9c%80%e5%bf%ab%e7%a0%b4%e4%ba%bf%e7%a5%9e%e8%af%9d%ef%bc%81%e9%a9%ac%e6%96%af%e5%85%8b%e4%b9%b0%e5%8d%95/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_5eb0993443-768x328.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "c8d403bf6274",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525127315,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "谁说锯木头没前途？这个大爷锯着锯着，就把SpaceX发动机搞出来了",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100424/%e8%b0%81%e8%af%b4%e9%94%af%e6%9c%a8%e5%a4%b4%e6%b2%a1%e5%89%8d%e9%80%94%ef%bc%9f%e8%bf%99%e4%b8%aa%e5%a4%a7%e7%88%b7%e9%94%af%e7%9d%80%e9%94%af%e7%9d%80%ef%bc%8c%e5%b0%b1%e6%8a%8aspacex%e5%8f%91/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_c1d2246c81-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "6b5ee39620ed",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525081018,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "AI奇观：我在主会场卷，Agent在20余个分会场替我听会",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100405/ai%e5%a5%87%e8%a7%82%ef%bc%9a%e6%88%91%e5%9c%a8%e4%b8%bb%e4%bc%9a%e5%9c%ba%e5%8d%b7%ef%bc%8cagent%e5%9c%a820%e4%bd%99%e4%b8%aa%e5%88%86%e4%bc%9a%e5%9c%ba%e6%9b%bf%e6%88%91%e5%90%ac%e4%bc%9a/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_7a24295439-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "6718ff759450",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525046296,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "马斯克前联创洽谈10亿美元巨融，要造一个真正归你的AI",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100391/%e9%a9%ac%e6%96%af%e5%85%8b%e5%89%8d%e8%81%94%e5%88%9b%e6%b4%bd%e8%b0%8810%e4%ba%bf%e7%be%8e%e5%85%83%e5%b7%a8%e8%9e%8d%ef%bc%8c%e8%a6%81%e9%80%a0%e4%b8%80%e4%b8%aa%e7%9c%9f%e6%ad%a3%e5%bd%92%e4%bd%a0/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_f3970d5863-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "807725b57eeb",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834525011574,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "Claude Code破解3500年前死语言！74年来最大考古语言学突破",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100375/claude-code%e7%a0%b4%e8%a7%a33500%e5%b9%b4%e5%89%8d%e6%ad%bb%e8%af%ad%e8%a8%80%ef%bc%8174%e5%b9%b4%e6%9d%a5%e6%9c%80%e5%a4%a7%e8%80%83%e5%8f%a4%e8%af%ad%e8%a8%80%e5%ad%a6%e7%aa%81%e7%a0%b4/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_b05576ed94-768x327.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "192eb9a6eb40",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834524976852,
-      "platform_weight": 0.75,
-      "hn_hot_score": null
-    },
-    {
-      "title": "刚刚，百度开源拿下全球第一！作者疑似DeepSeek出走大神",
-      "url": "https://aiera.com.cn/2026/06/23/other/admin/100358/%e5%88%9a%e5%88%9a%ef%bc%8c%e7%99%be%e5%ba%a6%e5%bc%80%e6%ba%90%e6%8b%bf%e4%b8%8b%e5%85%a8%e7%90%83%e7%ac%ac%e4%b8%80%ef%bc%81%e4%bd%9c%e8%80%85%e7%96%91%e4%bc%bcdeepseek%e5%87%ba%e8%b5%b0%e5%a4%a7/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/06/aiera_img_c7b037c12d-768x328.jpg",
-      "publish_time": "2026-06-23T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "ebbe6c4e3c36",
-      "hot_score": 0.6004,
-      "time_factor": 0.9385834524930555,
-      "platform_weight": 0.75,
       "hn_hot_score": null
     },
     {
@@ -1443,8 +1461,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "abe27c7db519",
-      "hot_score": 0.5988,
-      "time_factor": 0.971916785818287,
+      "hot_score": 0.575,
+      "time_factor": 0.9123964343854166,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1457,8 +1475,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "4756ee4de159",
-      "hot_score": 0.5854,
-      "time_factor": 0.9385834524814815,
+      "hot_score": 0.5616,
+      "time_factor": 0.8790631010486111,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1471,8 +1489,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "5686554e06a0",
-      "hot_score": 0.5721,
-      "time_factor": 0.9052501191435185,
+      "hot_score": 0.5483,
+      "time_factor": 0.8457297677118056,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1485,8 +1503,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "9ccc6d80e2fc",
-      "hot_score": 0.5588,
-      "time_factor": 0.871916785806713,
+      "hot_score": 0.535,
+      "time_factor": 0.8123964343750001,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1499,8 +1517,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "88a21c3d3d18",
-      "hot_score": 0.5454,
-      "time_factor": 0.83858345246875,
+      "hot_score": 0.5216,
+      "time_factor": 0.7790631010381944,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1513,8 +1531,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "7adb7b7862e9",
-      "hot_score": 0.5321,
-      "time_factor": 0.8052501191319444,
+      "hot_score": 0.5083,
+      "time_factor": 0.7457297677013889,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1527,36 +1545,8 @@
       "summary": "",
       "platform": "radarai",
       "id": "352969b1858f",
-      "hot_score": 0.5188,
-      "time_factor": 0.7719167857951389,
-      "platform_weight": 0.7,
-      "hn_hot_score": null
-    },
-    {
-      "title": "6月21日 AI 速报 · 第 405 期",
-      "url": "https://radarai.top/updates/brief-20260621-0000",
-      "cover_url": null,
-      "publish_time": "2026-06-21T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "9e46430186d3",
-      "hot_score": 0.5054,
-      "time_factor": 0.7385834524583333,
-      "platform_weight": 0.7,
-      "hn_hot_score": null
-    },
-    {
-      "title": "6月20日 AI 速报 · 第 404 期",
-      "url": "https://radarai.top/updates/brief-20260620-1600",
-      "cover_url": null,
-      "publish_time": "2026-06-20T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e2db26a55792",
-      "hot_score": 0.4921,
-      "time_factor": 0.7052501191203704,
+      "hot_score": 0.495,
+      "time_factor": 0.7123964343645833,
       "platform_weight": 0.7,
       "hn_hot_score": null
     },
@@ -1574,8 +1564,8 @@
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
       "platform": "googleai",
       "id": "758bf3520fc2",
-      "hot_score": 0.4154,
-      "time_factor": 0.40108345245023147,
+      "hot_score": 0.3916,
+      "time_factor": 0.3415631009907407,
       "platform_weight": 0.85,
       "hn_hot_score": null
     }
@@ -1584,27 +1574,27 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 3.2,
+      "avg_response_time": 3.6,
       "cover_success_rate": 60.8,
       "hot_sort_enabled": true,
       "platform_hot_stats": {
         "hackernews": {
           "count": 10,
-          "avg_hot_score": 0.8698,
-          "max_hot_score": 0.9619,
-          "min_hot_score": 0.8337
+          "avg_hot_score": 0.8572,
+          "max_hot_score": 0.9381,
+          "min_hot_score": 0.8175
         },
         "techcrunch": {
           "count": 10,
-          "avg_hot_score": 0.6453,
-          "max_hot_score": 0.6688,
-          "min_hot_score": 0.6335
+          "avg_hot_score": 0.6305,
+          "max_hot_score": 0.6608,
+          "min_hot_score": 0.613
         },
         "googleai": {
           "count": 1,
-          "avg_hot_score": 0.4154,
-          "max_hot_score": 0.4154,
-          "min_hot_score": 0.4154
+          "avg_hot_score": 0.3916,
+          "max_hot_score": 0.3916,
+          "min_hot_score": 0.3916
         },
         "qbitai": {
           "count": 10,
@@ -1614,15 +1604,15 @@
         },
         "aiera": {
           "count": 10,
-          "avg_hot_score": 0.6004,
-          "max_hot_score": 0.6004,
-          "min_hot_score": 0.6004
+          "avg_hot_score": 0.6166,
+          "max_hot_score": 0.6166,
+          "min_hot_score": 0.6166
         },
         "radarai": {
           "count": 10,
-          "avg_hot_score": 0.5519,
+          "avg_hot_score": 0.5545,
           "max_hot_score": 0.61,
-          "min_hot_score": 0.4921
+          "min_hot_score": 0.495
         }
       }
     },
@@ -1632,87 +1622,87 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-06-23T14:44:15.211969+00:00"
+        "last_crawl": "2026-06-24T05:01:23.536467+00:00"
       },
       {
         "platform": "techcrunch",
         "name": "TechCrunch",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-06-23T14:44:15.893999+00:00"
+        "last_crawl": "2026-06-24T05:01:24.200507+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-06-23T14:44:17.908674+00:00"
+        "last_crawl": "2026-06-24T05:01:25.410269+00:00"
       },
       {
         "platform": "aiera",
         "name": "新智元",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-06-23T14:44:21.879371+00:00"
+        "last_crawl": "2026-06-24T05:01:27.466799+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-06-23T14:44:23.469022+00:00"
+        "last_crawl": "2026-06-24T05:01:28.905825+00:00"
       },
       {
         "platform": "googleai",
         "name": "Google AI Blog",
         "status": "online",
         "item_count": 1,
-        "last_crawl": "2026-06-23T14:44:23.895327+00:00"
+        "last_crawl": "2026-06-24T05:01:29.479059+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-06-23T14:44:15.211974+00:00",
+        "timestamp": "2026-06-24T05:01:23.536472+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.561974
+        "latency": 15.541027
       },
       {
-        "timestamp": "2026-06-23T14:44:15.894013+00:00",
+        "timestamp": "2026-06-24T05:01:24.200520+00:00",
         "platform": "techcrunch",
         "status": "success",
         "items_collected": 10,
-        "latency": 0.682032
+        "latency": 0.664042
       },
       {
-        "timestamp": "2026-06-23T14:44:17.908678+00:00",
+        "timestamp": "2026-06-24T05:01:25.410273+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 2.014657
+        "latency": 1.209746
       },
       {
-        "timestamp": "2026-06-23T14:44:21.879375+00:00",
+        "timestamp": "2026-06-24T05:01:27.466806+00:00",
         "platform": "aiera",
         "status": "success",
         "items_collected": 10,
-        "latency": 3.970692
+        "latency": 2.056526
       },
       {
-        "timestamp": "2026-06-23T14:44:23.469027+00:00",
+        "timestamp": "2026-06-24T05:01:28.905830+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.589644
+        "latency": 1.439016
       },
       {
-        "timestamp": "2026-06-23T14:44:23.895342+00:00",
+        "timestamp": "2026-06-24T05:01:29.479074+00:00",
         "platform": "googleai",
         "status": "success",
         "items_collected": 1,
-        "latency": 0.426308
+        "latency": 0.573236
       }
     ]
   }
