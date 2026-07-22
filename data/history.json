@@ -1,45 +1,6 @@
 {
   "executions": [
     {
-      "run_id": "20260602-162048",
-      "timestamp": "2026-06-02T16:20:48.535926+00:00",
-      "trigger": "manual",
-      "total_items": 55,
-      "platforms": {
-        "hackernews": {
-          "status": "online",
-          "items": 10,
-          "latency": 13.983859
-        },
-        "techcrunch": {
-          "status": "online",
-          "items": 10,
-          "latency": 0.638186
-        },
-        "qbitai": {
-          "status": "online",
-          "items": 10,
-          "latency": 1.547472
-        },
-        "aiera": {
-          "status": "online",
-          "items": 10,
-          "latency": 2.85819
-        },
-        "radarai": {
-          "status": "online",
-          "items": 10,
-          "latency": 1.398831
-        },
-        "googleai": {
-          "status": "online",
-          "items": 5,
-          "latency": 0.737713
-        }
-      },
-      "duration_seconds": 21.2
-    },
-    {
       "run_id": "20260603-060226",
       "timestamp": "2026-06-03T06:02:26.562373+00:00",
       "trigger": "manual",
@@ -3899,6 +3860,45 @@
         }
       },
       "duration_seconds": 22.7
+    },
+    {
+      "run_id": "20260722-134648",
+      "timestamp": "2026-07-22T13:46:48.820686+00:00",
+      "trigger": "manual",
+      "total_items": 53,
+      "platforms": {
+        "hackernews": {
+          "status": "online",
+          "items": 10,
+          "latency": 9.885905
+        },
+        "techcrunch": {
+          "status": "online",
+          "items": 10,
+          "latency": 0.568141
+        },
+        "qbitai": {
+          "status": "online",
+          "items": 10,
+          "latency": 1.648815
+        },
+        "aiera": {
+          "status": "online",
+          "items": 10,
+          "latency": 8.260904
+        },
+        "radarai": {
+          "status": "online",
+          "items": 10,
+          "latency": 1.983316
+        },
+        "googleai": {
+          "status": "online",
+          "items": 3,
+          "latency": 0.433275
+        }
+      },
+      "duration_seconds": 22.8
     }
   ]
 }
