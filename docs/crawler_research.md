@@ -1,5 +1,7 @@
 # AI资讯平台爬虫方案 (GitHub Actions 部署版)
 
+> ⚠️ **历史文档说明（2026-07-28）**：本文为早期调研快照，其中 Google AI Blog 平台（含 `crawl_googleai` 示例代码、`PLATFORMS` 注册片段）已下线，相关章节仅作历史记录。热度排序已由「按发布时间倒序」取代，现行规范以 `docs/CRAWLER_FULL_SPEC.md` 文首变更说明与 `docs/项目概要.md` 为准。
+
 ## 一、GitHub Actions 限制分析
 
 ### 关键限制

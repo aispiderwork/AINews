@@ -2,6 +2,11 @@
 
 > 基于 Phase 1 实践经验，涵盖所有「最简单」和「简单」难度平台，以及完整的监控部署方案。
 
+> ⚠️ **变更说明（2026-07-28）**：
+> 1. **Google AI Blog 平台已下线**（资讯量过少），`crawlers/googleai.py` 已删除。本文中所有 Google AI 相关行（1.1 难度表、1.2 字段映射表末列、1.3 封面策略、目录结构等）仅为历史记录，不再生效；`merge.py` 的 `REMOVED_PLATFORMS` 会跳过其旧数据。
+> 2. **`hot_score` 综合热度分已移除**。除 HN 外各平台无真实互动数据，旧公式（平台权重×0.3 + 时间因子×0.4 + HN热度×0.3）为主观合成值。当前排序统一为**按发布时间倒序**，平台内取近 7 天最新 Top10。本文 1.2a 节、示例 JSON 中的 `hot_score` / `time_factor` / `platform_weight` / `hn_hot_score` 字段及 `platform_hot_stats` 监控字段均已废弃；HN 的 `score` / `comments_count` 真实字段保留。
+> 3. HuggingFace（每日论文榜 + Trending 模型榜）已调研通过并将接入，见 `docs/x-huggingface-crawler-research.md`。
+
 ---
 
 ## 一、平台难度分级与技术方案总览
@@ -37,14 +42,16 @@
 
 ### 1.2a 热度计算字段说明
 
+### 1.2a 互动数据字段说明（2026-07-28 修订）
+
+> `hot_score` / `time_factor` / `platform_weight` / `hn_hot_score` 已废弃（见文首变更说明）。当前仅保留 HN 的真实互动字段：
+
 | 字段名 | 类型 | 说明 | 计算来源 |
 |--------|------|------|---------|
-| `hot_score` | float | 综合热度分 (0-1) | 平台权重×30% + 时间因子×40% + HN热度分×30% |
-| `time_factor` | float | 时间衰减因子 (0.1-1.0) | 24h内=1.0, 每过1天-0.1, 10天后=0.1 |
-| `platform_weight` | float | 平台权重 | HN(1.0) > TC(0.9) > GoogleAI(0.85) > 量子位(0.8) > 新智元(0.75) > RadarAI(0.7) |
-| `hn_hot_score` | float | HN原始热度分 | score×0.7 + descendants×0.3 (仅HN有) |
-| `score` | int | HN投票得分 | Hacker News API 提供 |
-| `comments_count` | int | HN评论数 | Hacker News API 提供 |
+| `score` | int | HN投票得分（真实数据） | Hacker News API 提供 |
+| `comments_count` | int | HN评论数（真实数据） | Hacker News API 提供 |
+
+排序规则：全局 `sorted_all` 与各平台列表均按 `publish_time` 倒序，平台内取近 7 天 Top10。
 
 ### 1.3 封面展示策略
 
@@ -55,7 +62,8 @@
 | 量子位 | **展示封面** | 左图右文布局 | 列表页直接有 `<img>` 标签，直接提取 |
 | 新智元 | **有则展示，无则隐藏封面区域** | 动态布局 | 部分文章有封面，部分无 |
 | RadarAI | **不展示封面区域** | 纯文本卡片，无封面占位 | 纯文字摘要，无图片 |
-| Google AI Blog | **展示封面** | 左图右文布局 | 列表页直接有 `<img>` 标签 |
+
+> 注：前端已统一为「有封面则左图右文、无封面则文字通栏」的动态布局（2026-07-28 报纸风格改版），各平台不再需要单独的封面策略。Google AI Blog 行已随平台下线移除。
 
 ### 1.4 技术选型总结
 
@@ -307,15 +315,9 @@ CSS选择器定位文章卡片、标题、封面、标签
 | **执行历史** | `latency` | float | 本次请求耗时 (秒) |
 | **错误统计** | `failure_reasons` | dict | 按错误类型计数 |
 
-### 3.1a 热度排序监控
+### 3.1a 排序监控（2026-07-28 修订）
 
-| 指标 | 类型 | 说明 |
-|------|------|------|
-| `hot_sort_enabled` | bool | 热度排序功能开关状态 |
-| `platform_hot_stats.{platform}.count` | int | 该平台文章数量 |
-| `platform_hot_stats.{platform}.avg_hot_score` | float | 该平台平均热度分 |
-| `platform_hot_stats.{platform}.max_hot_score` | float | 该平台最高热度分 |
-| `platform_hot_stats.{platform}.min_hot_score` | float | 该平台最低热度分 |
+> `hot_sort_enabled` 与 `platform_hot_stats.*` 监控字段已随 `hot_score` 一并移除（见文首变更说明）。当前 `monitor.summary` 仅保留：`total_success_rate`、`total_fail_rate`、`avg_response_time`、`cover_success_rate`。
 
 ### 3.2 监控数据结构
 
@@ -402,44 +404,34 @@ def append_history(new_record: dict):
 }
 ```
 
-### 3.3a 热度排序数据输出
+### 3.3a 排序数据输出（2026-07-28 修订）
 
-**主数据文件 news.json 新增字段**：
+**主数据文件 news.json 当前结构**（热度字段已移除，`sorted_all` 按发布时间倒序）：
 ```json
 {
-  "update_time": "2026-05-09T12:00:00+00:00",
+  "update_time": "2026-07-28T12:00:00+00:00",
   "news": {
     "hackernews": [
       {
         "title": "...",
         "url": "...",
         "platform": "hackernews",
-        "hot_score": 0.8234,
-        "time_factor": 0.9167,
-        "platform_weight": 1.0,
-        "hn_hot_score": 205.9,
+        "publish_time": "2026-07-28T08:00:00+00:00",
         "score": 256,
         "comments_count": 89
       }
     ]
   },
   "sorted_all": [
-    // 全部文章按 hot_score 降序排列
-    {"title": "...", "hot_score": 0.9123, ...},
-    {"title": "...", "hot_score": 0.8567, ...}
+    {"title": "...", "publish_time": "2026-07-28T08:00:00+00:00", ...},
+    {"title": "...", "publish_time": "2026-07-28T06:48:00+00:00", ...}
   ],
   "monitor": {
     "summary": {
-      "hot_sort_enabled": true,
-      "platform_hot_stats": {
-        "hackernews": {
-          "count": 15,
-          "avg_hot_score": 0.7523,
-          "max_hot_score": 0.9123,
-          "min_hot_score": 0.5234
-        },
-        "techcrunch": {...}
-      }
+      "total_success_rate": 100.0,
+      "total_fail_rate": 0.0,
+      "avg_response_time": 18.8,
+      "cover_success_rate": 60.0
     }
   }
 }
@@ -481,12 +473,10 @@ GitHub Actions 触发 → 执行爬虫 → 生成 news.json + history.json
 │   ├── qbitai.py                # 量子位爬虫
 │   ├── aiera.py                 # 新智元爬虫
 │   ├── radarai.py               # RadarAI 爬虫
-│   ├── googleai.py              # Google AI Blog 爬虫
 │   └── utils/
 │       ├── __init__.py
-│       ├── filter.py            # AI关键词过滤
-│       ├── merge.py             # 数据合并去重
-│       └── hot_score.py         # 热度计算模块
+│       ├── filter.py            # AI关键词过滤（死代码，未被引用）
+│       └── merge.py             # 数据合并去重（含已下线平台过滤）
 ├── data/
 │   ├── news.json                # 最新新闻数据
 │   └── history.json             # 历史执行记录

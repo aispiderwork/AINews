@@ -785,8 +785,8 @@
             <h2 class="section-title">✨ 核心功能</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>🔥 智能热度排序</h3>
-                    <p>基于多维度算法计算文章热度分：平台权重(30%) + 时间因子(40%) + HN投票分(30%)。支持热度排序、时间排序、平台分组三种视图模式</p>
+                    <h3>🕐 最新优先排序</h3>
+                    <p>全部文章按发布时间倒序，平台内保留近 7 天 Top 10；HN 展示真实投票/评论数（2026-07 已移除合成的热度分）</p>
                 </div>
                 <div class="feature-card">
                     <h3>🎯 AI关键词过滤</h3>
@@ -794,7 +794,7 @@
                 </div>
                 <div class="feature-card">
                     <h3>📊 多平台整合</h3>
-                    <p>Hacker News、TechCrunch、量子位、新智元、RadarAI、Google AI Blog 六大平台，一站式查看，无需切换</p>
+                    <p>Hacker News、TechCrunch、量子位、新智元、RadarAI 五大平台，一站式查看，无需切换</p>
                 </div>
                 <div class="feature-card">
                     <h3>🖼️ 封面图片展示</h3>
@@ -1068,30 +1068,28 @@
             </div>
         </section>
 
-        <!-- 热度排序算法说明 -->
+        <!-- 排序机制说明（2026-07-28 修订：热度分已移除） -->
         <section class="section">
-            <h2 class="section-title">🔥 热度排序算法</h2>
+            <h2 class="section-title">🕐 排序机制</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>📊 热度计算公式</h3>
-                    <p><strong>hot_score = 平台权重×30% + 时间因子×40% + HN热度分×30%</strong><br><br>
-                    平台权重：Hacker News(1.0) > TechCrunch(0.9) > Google AI(0.85) > 量子位(0.8) > 新智元(0.75) > RadarAI(0.7)</p>
+                    <h3>📉 为什么移除热度分</h3>
+                    <p>原公式 <strong>hot_score = 平台权重×30% + 时间因子×40% + HN热度×30%</strong> 已于 2026-07-28 废弃：平台权重是主观设定、时间因子只反映新旧，除 Hacker News 外各平台没有真实互动数据，展示的"热度"会误导读者。</p>
                 </div>
                 <div class="feature-card">
-                    <h3>⏰ 时间衰减因子</h3>
-                    <p>24小时内=1.0，每过一天衰减0.1，10天后降至0.1<br><br>
-                    确保新发布的内容获得更高的热度权重，避免旧内容长期占据榜首</p>
+                    <h3>🕐 当前排序规则</h3>
+                    <p>全局与平台内列表统一<strong>按发布时间倒序</strong>，每个平台保留近 7 天最新 Top 10。<br><br>
+                    诚实可解释：读者看到的就是"最新"，不伪装成"最热"。</p>
                 </div>
                 <div class="feature-card">
-                    <h3>📈 Hacker News热度分</h3>
-                    <p><strong>HN热度 = 投票分×0.7 + 评论数×0.3</strong><br><br>
-                    Hacker News提供真实的投票和评论数据，是热度计算的重要参考指标</p>
+                    <h3>📈 保留的真实热度指标</h3>
+                    <p><strong>Hacker News：投票分（↑）与评论数</strong>——API 提供的真实互动数据，在文章元信息行直接展示。<br><br>
+                    HuggingFace 接入后将新增真实的 upvotes / likes / trendingScore。</p>
                 </div>
                 <div class="feature-card">
-                    <h3>🔄 多维度排序</h3>
-                    <p>支持三种排序模式：<br>
-                    🔥 热度排序 - 基于综合热度分<br>
-                    🕐 时间排序 - 按发布时间倒序<br>
+                    <h3>🔄 排序模式</h3>
+                    <p>当前支持两种模式：<br>
+                    🕐 时间排序 - 按发布时间倒序（默认）<br>
                     📰 平台分组 - 按平台分类展示</p>
                 </div>
             </div>
@@ -1109,7 +1107,7 @@
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 2</div>
                     <div class="timeline-title">核心爬虫实现</div>
-                    <div class="timeline-desc">Hacker News、TechCrunch、量子位、新智元、RadarAI、Google AI Blog</div>
+                    <div class="timeline-desc">Hacker News、TechCrunch、量子位、新智元、RadarAI（Google AI Blog 已于 2026-07 下线）</div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-phase">Phase 3</div>

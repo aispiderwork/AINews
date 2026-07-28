@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News - 你的AI资讯管家 | 小红书专属</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #09090F;
+            --color-surface: #12121A;
+            --color-surface-light: #1A1A25;
+            --color-border: #1F1F2B;
+            --color-highlight: #262633;
+            --color-primary: #60A5FA;
+            --color-primary-light: #93C5FD;
+            --color-neon-blue: #38BDF8;
+            --color-neon-purple: #A78BFA;
+            --color-neon-cyan: #22D3EE;
+            --color-success: #22C55E;
+            --color-warning: #F59E0B;
+            --color-text-primary: #F9FAFB;
+            --color-text-secondary: #9CA3AF;
+            --color-text-muted: #4B5563;
+            --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+            --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 16px;
+            --radius-full: 9999px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--color-text-primary);
+            background: var(--color-bg);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(96, 165, 250, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(34, 211, 238, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(167, 139, 250, 0.1) 0px, transparent 50%);
+            min-height: 100vh;
+        }
+
+        /* 小红书风格顶部导航 */
+        .xhs-header {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--space-md) var(--space-xl);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .xhs-header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .xhs-logo {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .xhs-logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--color-neon-cyan) 0%, var(--color-neon-purple) 100%);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+        }
+
+        .xhs-logo-text {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--color-neon-cyan) 0%, var(--color-neon-purple) 50%, var(--color-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .xhs-tag {
+            background: linear-gradient(135deg, rgba(34, 211, 238, 0.2), rgba(167, 139, 250, 0.2));
+            border: 1px solid rgba(34, 211, 238, 0.3);
+            color: var(--color-neon-cyan);
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        /* Hero Section - 小红书风格 */
+        .xhs-hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-xl);
+            text-align: center;
+        }
+
+        .xhs-hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.15), rgba(167, 139, 250, 0.15));
+            border: 1px solid rgba(96, 165, 250, 0.3);
+            padding: var(--space-sm) var(--space-lg);
+            border-radius: var(--radius-full);
+            margin-bottom: var(--space-lg);
+            font-size: 0.9rem;
+            color: var(--color-primary-light);
+        }
+
+        .xhs-hero-badge::before {
+            content: '✨';
+        }
+
+        .xhs-hero-title {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: var(--space-lg);
+            background: linear-gradient(135deg, #fff 0%, var(--color-primary-light) 50%, var(--color-neon-cyan) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .xhs-hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--color-text-secondary);
+            max-width: 600px;
+            margin: 0 auto var(--space-xl);
+        }
+
+        .xhs-hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-2xl);
+            margin-bottom: var(--space-xl);
+            flex-wrap: wrap;
+        }
+
+        .xhs-stat-item {
+            text-align: center;
+        }
+
+        .xhs-stat-value {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-neon-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .xhs-stat-label {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            margin-top: var(--space-xs);
+        }
+
+        .xhs-cta-group {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .xhs-btn {
+            padding: var(--space-md) var(--space-xl);
+            border-radius: var(--radius-full);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .xhs-btn-primary {
+            background: linear-gradient(135deg, var(--color-neon-cyan) 0%, var(--color-neon-purple) 100%);
+            border: none;
+            color: white;
+            box-shadow: 0 4px 20px rgba(34, 211, 238, 0.4);
+        }
+
+        .xhs-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(34, 211, 238, 0.5);
+        }
+
+        .xhs-btn-secondary {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            color: var(--color-text-primary);
+        }
+
+        .xhs-btn-secondary:hover {
+            border-color: var(--color-primary);
+            background: var(--color-highlight);
+        }
+
+        /* 核心卖点卡片 - 小红书风格 */
+        .xhs-features {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-xl);
+        }
+
+        .xhs-section-title {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: var(--space-xs);
+            background: linear-gradient(135deg, #fff 0%, var(--color-primary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .xhs-section-subtitle {
+            text-align: center;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-2xl);
+        }
+
+        .xhs-features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .xhs-feature-card {
+            background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-light) 100%);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .xhs-feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-neon-cyan), var(--color-neon-purple), var(--color-primary));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .xhs-feature-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--color-primary);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .xhs-feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .xhs-feature-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.2), rgba(167, 139, 250, 0.2));
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .xhs-feature-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+            color: var(--color-text-primary);
+        }
+
+        .xhs-feature-desc {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* 使用场景 - 小红书风格 */
+        .xhs-scenes {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-xl);
+        }
+
+        .xhs-scenes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .xhs-scene-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .xhs-scene-card:hover {
+            border-color: var(--color-neon-cyan);
+            transform: scale(1.02);
+        }
+
+        .xhs-scene-image {
+            height: 180px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .xhs-scene-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 0%, var(--color-surface) 100%);
+        }
+
+        .xhs-scene-content {
+            padding: var(--space-lg);
+        }
+
+        .xhs-scene-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, rgba(34, 211, 238, 0.2), rgba(167, 139, 250, 0.2));
+            color: var(--color-neon-cyan);
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+
+        .xhs-scene-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .xhs-scene-desc {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* 真实用户反馈 - 小红书风格 */
+        .xhs-testimonials {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-xl);
+        }
+
+        .xhs-testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .xhs-testimonial-card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-lg);
+            position: relative;
+        }
+
+        .xhs-testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: var(--space-md);
+            right: var(--space-lg);
+            font-size: 4rem;
+            color: var(--color-highlight);
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .xhs-testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+
+        .xhs-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-full);
+            background: linear-gradient(135deg, var(--color-neon-cyan), var(--color-neon-purple));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .xhs-testimonial-info {
+            flex: 1;
+        }
+
+        .xhs-testimonial-name {
+            font-weight: 600;
+            color: var(--color-text-primary);
+        }
+
+        .xhs-testimonial-role {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        .xhs-testimonial-content {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .xhs-testimonial-tags {
+            display: flex;
+            gap: var(--space-xs);
+            margin-top: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .xhs-testimonial-tag {
+            background: var(--color-highlight);
+            color: var(--color-text-secondary);
+            padding: 2px 10px;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+        }
+
+        /* 底部CTA */
+        .xhs-footer-cta {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-xl);
+            text-align: center;
+        }
+
+        .xhs-footer-card {
+            background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-light) 100%);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .xhs-footer-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(34, 211, 238, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .xhs-footer-title {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: var(--space-md);
+            position: relative;
+            z-index: 1;
+        }
+
+        .xhs-footer-desc {
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-xl);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* 页脚 */
+        .xhs-footer {
+            border-top: 1px solid var(--color-border);
+            padding: var(--space-xl);
+            text-align: center;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        .xhs-footer-links {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-lg);
+            margin-bottom: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .xhs-footer-link {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .xhs-footer-link:hover {
+            color: var(--color-primary);
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .xhs-hero-title {
+                font-size: 2rem;
+            }
+
+            .xhs-hero-stats {
+                gap: var(--space-xl);
+            }
+
+            .xhs-stat-value {
+                font-size: 1.75rem;
+            }
+
+            .xhs-scenes-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .xhs-header-content {
+                flex-direction: column;
+                gap: var(--space-md);
+            }
+        }
+
+        /* 动画效果 */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .xhs-float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(34, 211, 238, 0.4); }
+            50% { box-shadow: 0 0 40px rgba(34, 211, 238, 0.6); }
+        }
+
+        .xhs-pulse {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="xhs-header">
+        <div class="xhs-header-content">
+            <div class="xhs-logo">
+                <div class="xhs-logo-icon">🤖</div>
+                <span class="xhs-logo-text">AI News</span>
+                <span class="xhs-tag">小红书专属</span>
+            </div>
+            <div class="xhs-cta-group">
+                <a href="https://aispiderwork.github.io/AINews/" target="_blank" class="xhs-btn xhs-btn-primary">
+                    🚀 立即体验
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero区域 -->
+    <section class="xhs-hero">
+        <div class="xhs-hero-badge">
+            每天5分钟，AI资讯全掌握
+        </div>
+        <h1 class="xhs-hero-title">
+            你的AI资讯管家<br>
+            让科技资讯更懂你
+        </h1>
+        <p class="xhs-hero-subtitle">
+            聚合全球顶尖AI资讯源，智能筛选热点内容，<br>
+            为科技爱好者、从业者打造的专属资讯平台
+        </p>
+        <div class="xhs-hero-stats">
+            <div class="xhs-stat-item">
+                <div class="xhs-stat-value">6+</div>
+                <div class="xhs-stat-label">顶级信源</div>
+            </div>
+            <div class="xhs-stat-item">
+                <div class="xhs-stat-value">24h</div>
+                <div class="xhs-stat-label">实时更新</div>
+            </div>
+            <div class="xhs-stat-item">
+                <div class="xhs-stat-value">100%</div>
+                <div class="xhs-stat-label">免费使用</div>
+            </div>
+        </div>
+        <div class="xhs-cta-group">
+            <a href="https://aispiderwork.github.io/AINews/" target="_blank" class="xhs-btn xhs-btn-primary xhs-pulse">
+                🔥 免费开启AI资讯之旅
+            </a>
+            <a href="#features" class="xhs-btn xhs-btn-secondary">
+                📖 了解更多
+            </a>
+        </div>
+    </section>
+
+    <!-- 核心卖点 -->
+    <section class="xhs-features" id="features">
+        <h2 class="xhs-section-title">为什么选择 AI News？</h2>
+        <p class="xhs-section-subtitle">解决资讯获取痛点，让信息筛选更高效</p>
+        <div class="xhs-features-grid">
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">🔍</div>
+                <h3 class="xhs-feature-title">智能聚合</h3>
+                <p class="xhs-feature-desc">自动抓取Hacker News、TechCrunch、量子位等6大顶级AI资讯源，无需切换多个平台，一站掌握全球AI动态。</p>
+            </div>
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">⚡</div>
+                <h3 class="xhs-feature-title">实时更新</h3>
+                <p class="xhs-feature-desc">7×24小时不间断监控，新资讯第一时间推送。告别信息滞后，永远站在AI资讯最前沿。</p>
+            </div>
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">🎯</div>
+                <h3 class="xhs-feature-title">热度排序</h3>
+                <p class="xhs-feature-desc">基于多维度算法计算内容热度，帮你快速筛选真正值得关注的重要资讯，节省阅读时间。</p>
+            </div>
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">📱</div>
+                <h3 class="xhs-feature-title">极简体验</h3>
+                <p class="xhs-feature-desc">清爽无广告的阅读界面，支持多平台切换、关键词搜索，随时随地高效获取资讯。</p>
+            </div>
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">🔒</div>
+                <h3 class="xhs-feature-title">完全免费</h3>
+                <p class="xhs-feature-desc">零门槛使用，无需注册登录，没有付费墙。我们相信优质的信息应该人人可及。</p>
+            </div>
+            <div class="xhs-feature-card">
+                <div class="xhs-feature-icon">🌐</div>
+                <h3 class="xhs-feature-title">双语支持</h3>
+                <p class="xhs-feature-desc">中英文资讯全覆盖，既不错过国际前沿动态，也关注国内AI产业发展，视野更全面。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 使用场景 -->
+    <section class="xhs-scenes">
+        <h2 class="xhs-section-title">适合这样的你</h2>
+        <p class="xhs-section-subtitle">无论你是AI从业者还是科技爱好者，都能找到价值</p>
+        <div class="xhs-scenes-grid">
+            <div class="xhs-scene-card">
+                <div class="xhs-scene-image">👨‍💻</div>
+                <div class="xhs-scene-content">
+                    <span class="xhs-scene-tag">AI从业者</span>
+                    <h3 class="xhs-scene-title">追踪行业动态</h3>
+                    <p class="xhs-scene-desc">产品经理、开发者、研究员必备，第一时间了解技术突破、产品发布、行业趋势</p>
+                </div>
+            </div>
+            <div class="xhs-scene-card">
+                <div class="xhs-scene-image">📚</div>
+                <div class="xhs-scene-content">
+                    <span class="xhs-scene-tag">学习者</span>
+                    <h3 class="xhs-scene-title">拓展知识视野</h3>
+                    <p class="xhs-scene-desc">关注AI发展的学生、自学者，通过优质资讯构建知识体系，把握技术脉搏</p>
+                </div>
+            </div>
+            <div class="xhs-scene-card">
+                <div class="xhs-scene-image">💼</div>
+                <div class="xhs-scene-content">
+                    <span class="xhs-scene-tag">创业者</span>
+                    <h3 class="xhs-scene-title">洞察商业机会</h3>
+                    <p class="xhs-scene-desc">寻找AI赛道创业机会，了解投融资动态、新兴应用场景、市场变化趋势</p>
+                </div>
+            </div>
+            <div class="xhs-scene-card">
+                <div class="xhs-scene-image">✍️</div>
+                <div class="xhs-scene-content">
+                    <span class="xhs-scene-tag">内容创作者</span>
+                    <h3 class="xhs-scene-title">获取创作灵感</h3>
+                    <p class="xhs-scene-desc">科技博主、自媒体人的选题宝库，发现热点话题，产出深度内容</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 用户反馈 -->
+    <section class="xhs-testimonials">
+        <h2 class="xhs-section-title">他们都在用</h2>
+        <p class="xhs-section-subtitle">真实用户的使用反馈</p>
+        <div class="xhs-testimonials-grid">
+            <div class="xhs-testimonial-card">
+                <div class="xhs-testimonial-header">
+                    <div class="xhs-avatar">👨‍💻</div>
+                    <div class="xhs-testimonial-info">
+                        <div class="xhs-testimonial-name">程序员小李</div>
+                        <div class="xhs-testimonial-role">AI应用开发者</div>
+                    </div>
+                </div>
+                <p class="xhs-testimonial-content">
+                    "以前每天要打开十几个网站看AI资讯，现在一个页面全搞定。热度排序功能太实用了，帮我快速找到值得深入阅读的内容。"
+                </p>
+                <div class="xhs-testimonial-tags">
+                    <span class="xhs-testimonial-tag">省时高效</span>
+                    <span class="xhs-testimonial-tag">界面清爽</span>
+                </div>
+            </div>
+            <div class="xhs-testimonial-card">
+                <div class="xhs-testimonial-header">
+                    <div class="xhs-avatar">👩‍🎓</div>
+                    <div class="xhs-testimonial-info">
+                        <div class="xhs-testimonial-name">研究生小王</div>
+                        <div class="xhs-testimonial-role">计算机专业</div>
+                    </div>
+                </div>
+                <p class="xhs-testimonial-content">
+                    "写论文需要跟踪最新研究进展，AI News帮我节省了大量找资料的时间。中英文资讯都有，对做研究特别有帮助。"
+                </p>
+                <div class="xhs-testimonial-tags">
+                    <span class="xhs-testimonial-tag">学术必备</span>
+                    <span class="xhs-testimonial-tag">资讯全面</span>
+                </div>
+            </div>
+            <div class="xhs-testimonial-card">
+                <div class="xhs-testimonial-header">
+                    <div class="xhs-avatar">👨‍💼</div>
+                    <div class="xhs-testimonial-info">
+                        <div class="xhs-testimonial-name">产品经理老张</div>
+                        <div class="xhs-testimonial-role">互联网大厂</div>
+                    </div>
+                </div>
+                <p class="xhs-testimonial-content">
+                    "作为PM需要时刻关注行业动态，这个工具成了我每天早上的必读。多平台聚合+热度排序，信息获取效率提升10倍。"
+                </p>
+                <div class="xhs-testimonial-tags">
+                    <span class="xhs-testimonial-tag">产品经理推荐</span>
+                    <span class="xhs-testimonial-tag">每日必读</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部CTA -->
+    <section class="xhs-footer-cta">
+        <div class="xhs-footer-card">
+            <h2 class="xhs-footer-title">准备好升级你的资讯获取方式了吗？</h2>
+            <p class="xhs-footer-desc">
+                加入数千名AI从业者和科技爱好者，开启高效资讯获取新体验<br>
+                完全免费，无需注册，打开即用
+            </p>
+            <div class="xhs-cta-group">
+                <a href="https://aispiderwork.github.io/AINews/" target="_blank" class="xhs-btn xhs-btn-primary xhs-float">
+                    🚀 立即访问 AI News
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="xhs-footer">
+        <div class="xhs-footer-links">
+            <a href="https://aispiderwork.github.io/AINews/" target="_blank" class="xhs-footer-link">访问网站</a>
+            <a href="https://github.com/aispiderwork/AINews" target="_blank" class="xhs-footer-link">GitHub</a>
+            <span class="xhs-footer-link">免费开源</span>
+        </div>
+        <p>© 2025 AI News | 为AI爱好者打造的资讯聚合平台</p>
+    </footer>
+</body>
+</html>

@@ -4,7 +4,7 @@ AI 热点资讯爬虫系统，自动采集多个平台的 AI 相关新闻。
 
 ## 功能特性
 
-- 多平台新闻采集（量子位、Hacker News、TechCrunch、RadarAI、Google AI、新智元）
+- 多平台新闻采集（量子位、Hacker News、TechCrunch、RadarAI、HuggingFace、新智元）
 - 定时自动爬取（每6小时）
 - 数据去重与合并
 - 前端可视化展示
@@ -50,7 +50,7 @@ python -m http.server 8082
 - Hacker News
 - TechCrunch
 - RadarAI
-- Google AI Blog
+- HuggingFace
 - 新智元
 
 ## License

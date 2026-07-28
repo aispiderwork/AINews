@@ -12,9 +12,8 @@ from crawlers.techcrunch import crawl_techcrunch
 from crawlers.qbitai import crawl_qbitai
 from crawlers.aiera import crawl_aiera
 from crawlers.radarai import crawl_radarai
-from crawlers.googleai import crawl_googleai
+from crawlers.huggingface import crawl_huggingface
 from crawlers.utils.merge import merge_and_deduplicate
-from crawlers.utils.hot_score import sort_by_hot_score, get_platform_hot_stats
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
@@ -22,7 +21,7 @@ PLATFORMS = {
     'qbitai': {'name': '量子位', 'func': crawl_qbitai, 'priority': 3},
     'aiera': {'name': '新智元', 'func': crawl_aiera, 'priority': 4},
     'radarai': {'name': 'RadarAI', 'func': crawl_radarai, 'priority': 5},
-    'googleai': {'name': 'Google AI Blog', 'func': crawl_googleai, 'priority': 6},
+    'huggingface': {'name': 'HuggingFace', 'func': crawl_huggingface, 'priority': 6},
 }
 
 OUTPUT_DIR = Path('data')
@@ -130,11 +129,22 @@ async def main(target_platform=None):
     articles_with_cover = sum(1 for a in all_articles_list if a.get('cover_url'))
     cover_rate = round(articles_with_cover / total_articles * 100, 1) if total_articles > 0 else 0
 
-    # 按热度排序所有文章
-    print(f"\n  [排序] 按热度分排序 {total_articles} 篇文章...")
-    sorted_articles = sort_by_hot_score(all_articles_list)
+    # 按发布时间倒序排列
+    # 说明：原 hot_score 已移除——除 Hacker News 有真实 score/comments 外，
+    # 其余平台的"热度分"为主观平台权重 + 时间衰减的合成值，不代表真实热度。
+    print(f"\n  [排序] 按发布时间排序 {total_articles} 篇文章...")
 
-    # 生成按热度排序的平台数据
+    def _parse_time(article):
+        try:
+            t = (article.get('publish_time') or '').replace('Z', '+00:00')
+            dt = datetime.fromisoformat(t)
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+    sorted_articles = sorted(all_articles_list, key=_parse_time, reverse=True)
+
+    # 生成按时间排序的平台数据
     sorted_news = {}
     for article in sorted_articles:
         platform = article.get('platform', 'unknown')
@@ -142,16 +152,10 @@ async def main(target_platform=None):
             sorted_news[platform] = []
         sorted_news[platform].append(article)
 
-    # 获取热度统计
-    hot_stats = get_platform_hot_stats(sorted_articles)
-    print(f"  [热度] 各平台平均热度分:")
-    for platform, stats in hot_stats.items():
-        print(f"         - {platform}: {stats['avg_hot_score']:.4f}")
-
     output_data = {
         'update_time': datetime.now(timezone.utc).isoformat(),
         'news': sorted_news,
-        'sorted_all': sorted_articles,  # 全部文章按热度排序
+        'sorted_all': sorted_articles,  # 全部文章按发布时间倒序
         'monitor': {
             'summary': {
                 'total_success_rate': round(success_platforms / total_platforms * 100, 1) if total_platforms > 0 else 0,
@@ -160,8 +164,6 @@ async def main(target_platform=None):
                     e['latency'] for e in monitor_data['recent_executions'] if e['status'] == 'success'
                 ) / max(len([e for e in monitor_data['recent_executions'] if e['status'] == 'success']), 1), 1),
                 'cover_success_rate': cover_rate,
-                'hot_sort_enabled': True,
-                'platform_hot_stats': hot_stats,
             },
             'platforms': monitor_data['platforms'],
             'failure_reasons': monitor_data['failure_reasons'],

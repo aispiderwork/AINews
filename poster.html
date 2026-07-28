@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News 宣传海报</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #0a0a0f;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            padding: 40px;
+            min-height: 100vh;
+        }
+
+        /* 海报1: 主视觉海报 */
+        .poster-main {
+            width: 1080px;
+            height: 1440px;
+            background: linear-gradient(135deg, #09090f 0%, #12121a 50%, #0f172a 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px;
+        }
+
+        .poster-main::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(96, 165, 250, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(167, 139, 250, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(34, 211, 238, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .poster-main::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .poster-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .poster-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, rgba(34, 211, 238, 0.15), rgba(167, 139, 250, 0.15));
+            border: 1px solid rgba(34, 211, 238, 0.3);
+            padding: 12px 24px;
+            border-radius: 9999px;
+            font-size: 18px;
+            color: #22d3ee;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .poster-logo {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #22d3ee 0%, #a78bfa 100%);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            margin: 0 auto 40px;
+            box-shadow: 0 0 60px rgba(34, 211, 238, 0.4);
+        }
+
+        .poster-title {
+            font-size: 80px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #ffffff 0%, #93c5fd 50%, #22d3ee 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .poster-subtitle {
+            font-size: 36px;
+            color: #9ca3af;
+            margin-bottom: 60px;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        .poster-features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .poster-feature {
+            text-align: center;
+        }
+
+        .poster-feature-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.2), rgba(167, 139, 250, 0.2));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto 16px;
+        }
+
+        .poster-feature-text {
+            font-size: 20px;
+            color: #e5e7eb;
+            font-weight: 600;
+        }
+
+        .poster-feature-sub {
+            font-size: 16px;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+
+        .poster-url {
+            font-size: 24px;
+            color: #22d3ee;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-top: 40px;
+        }
+
+        .poster-qr-placeholder {
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b7280;
+            font-size: 16px;
+            margin: 40px auto 0;
+        }
+
+        /* 海报2: 小红书风格卡片 */
+        .poster-xhs {
+            width: 1080px;
+            height: 1440px;
+            background: linear-gradient(180deg, #09090f 0%, #12121a 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+        }
+
+        .poster-xhs::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 400px;
+            background: linear-gradient(180deg, rgba(34, 211, 238, 0.1) 0%, transparent 100%);
+            pointer-events: none;
+        }
+
+        .xhs-header-poster {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .xhs-avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #22d3ee, #a78bfa);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        .xhs-user-info {
+            flex: 1;
+        }
+
+        .xhs-username {
+            font-size: 32px;
+            font-weight: 700;
+            color: #f9fafb;
+            margin-bottom: 8px;
+        }
+
+        .xhs-meta {
+            font-size: 20px;
+            color: #6b7280;
+        }
+
+        .xhs-follow-btn {
+            background: linear-gradient(135deg, #22d3ee, #a78bfa);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 9999px;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+        }
+
+        .xhs-content {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+        }
+
+        .xhs-title {
+            font-size: 48px;
+            font-weight: 800;
+            color: #f9fafb;
+            line-height: 1.3;
+            margin-bottom: 24px;
+        }
+
+        .xhs-body {
+            font-size: 28px;
+            color: #d1d5db;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .xhs-tags {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .xhs-tag-poster {
+            background: rgba(34, 211, 238, 0.15);
+            color: #22d3ee;
+            padding: 8px 20px;
+            border-radius: 9999px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .xhs-screenshot {
+            background: linear-gradient(135deg, #1a1a25, #12121a);
+            border: 1px solid #1f1f2b;
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        .xhs-screen-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .xhs-screen-logo {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #22d3ee, #a78bfa);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .xhs-screen-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #f9fafb;
+        }
+
+        .xhs-news-item {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+
+        .xhs-news-thumb {
+            width: 80px;
+            height: 60px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .xhs-news-text {
+            flex: 1;
+        }
+
+        .xhs-news-title {
+            font-size: 18px;
+            color: #e5e7eb;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .xhs-news-meta {
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        .xhs-actions {
+            display: flex;
+            gap: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #1f1f2b;
+        }
+
+        .xhs-action {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 24px;
+            color: #6b7280;
+        }
+
+        /* 海报3: 功能亮点 */
+        .poster-features-main {
+            width: 1080px;
+            height: 1440px;
+            background: #09090f;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 80px;
+        }
+
+        .poster-features-main::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 30% 20%, rgba(96, 165, 250, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(167, 139, 250, 0.1) 0%, transparent 50%);
+        }
+
+        .features-title {
+            font-size: 56px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            z-index: 1;
+        }
+
+        .features-subtitle {
+            text-align: center;
+            font-size: 24px;
+            color: #6b7280;
+            margin-bottom: 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-card-poster {
+            background: linear-gradient(135deg, #12121a, #1a1a25);
+            border: 1px solid #1f1f2b;
+            border-radius: 20px;
+            padding: 32px;
+            transition: all 0.3s;
+        }
+
+        .feature-card-poster:hover {
+            border-color: #22d3ee;
+        }
+
+        .feature-icon-poster {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, rgba(34, 211, 238, 0.2), rgba(167, 139, 250, 0.2));
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+
+        .feature-title-poster {
+            font-size: 24px;
+            font-weight: 700;
+            color: #f9fafb;
+            margin-bottom: 8px;
+        }
+
+        .feature-desc-poster {
+            font-size: 18px;
+            color: #9ca3af;
+            line-height: 1.6;
+        }
+
+        .features-footer {
+            text-align: center;
+            margin-top: 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .features-url {
+            font-size: 28px;
+            color: #22d3ee;
+            font-weight: 700;
+        }
+
+        .features-cta {
+            display: inline-block;
+            margin-top: 24px;
+            background: linear-gradient(135deg, #22d3ee, #a78bfa);
+            color: white;
+            padding: 16px 48px;
+            border-radius: 9999px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        /* 导出提示 */
+        .export-tip {
+            color: #6b7280;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* 小红书封面图 */
+        .poster-cover {
+            width: 1080px;
+            height: 1080px;
+            background: linear-gradient(135deg, #09090f 0%, #12121a 50%, #0f172a 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+        }
+
+        .poster-cover::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 50% 30%, rgba(34, 211, 238, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 20% 70%, rgba(96, 165, 250, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(167, 139, 250, 0.1) 0%, transparent 40%);
+        }
+
+        .cover-logo {
+            width: 160px;
+            height: 160px;
+            background: linear-gradient(135deg, #22d3ee, #a78bfa);
+            border-radius: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 80px rgba(34, 211, 238, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-title {
+            font-size: 72px;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-subtitle {
+            font-size: 32px;
+            color: #9ca3af;
+            margin-bottom: 48px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-features {
+            display: flex;
+            gap: 32px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-feature {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 32px;
+            border-radius: 16px;
+            font-size: 24px;
+            color: #d1d5db;
+        }
+
+        .cover-url {
+            position: absolute;
+            bottom: 40px;
+            font-size: 20px;
+            color: #22d3ee;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- 海报1: 主视觉海报 -->
+    <div class="poster-main">
+        <div class="poster-content">
+            <div class="poster-badge">✨ 每天5分钟，AI资讯全掌握</div>
+            <div class="poster-logo">🤖</div>
+            <h1 class="poster-title">AI News</h1>
+            <p class="poster-subtitle">聚合全球顶尖AI资讯源<br>智能筛选热点内容</p>
+            <div class="poster-features">
+                <div class="poster-feature">
+                    <div class="poster-feature-icon">🔍</div>
+                    <div class="poster-feature-text">6+ 顶级信源</div>
+                    <div class="poster-feature-sub">一站聚合</div>
+                </div>
+                <div class="poster-feature">
+                    <div class="poster-feature-icon">⚡</div>
+                    <div class="poster-feature-text">24h 实时更新</div>
+                    <div class="poster-feature-sub">永不错过</div>
+                </div>
+                <div class="poster-feature">
+                    <div class="poster-feature-icon">🎯</div>
+                    <div class="poster-feature-text">智能热度排序</div>
+                    <div class="poster-feature-sub">精准筛选</div>
+                </div>
+                <div class="poster-feature">
+                    <div class="poster-feature-icon">💎</div>
+                    <div class="poster-feature-text">完全免费</div>
+                    <div class="poster-feature-sub">零门槛使用</div>
+                </div>
+            </div>
+            <div class="poster-url">aispiderwork.github.io/AINews</div>
+            <div class="poster-qr-placeholder">扫码访问</div>
+        </div>
+    </div>
+
+    <!-- 海报2: 小红书风格笔记 -->
+    <div class="poster-xhs">
+        <div class="xhs-header-poster">
+            <div class="xhs-avatar">🤖</div>
+            <div class="xhs-user-info">
+                <div class="xhs-username">AI News 资讯</div>
+                <div class="xhs-meta">科技资讯 · 每天更新</div>
+            </div>
+            <div class="xhs-follow-btn">关注</div>
+        </div>
+        <div class="xhs-content">
+            <h2 class="xhs-title">发现了一个超实用的AI资讯聚合站！</h2>
+            <p class="xhs-body">
+                再也不用每天打开十几个网站看AI新闻了！<br><br>
+                这个网站自动抓取 Hacker News、TechCrunch、量子位等6大顶级信源，
+                还能按热度排序，帮你快速找到真正值得看的内容。<br><br>
+                最重要的是完全免费，打开就能用！
+            </p>
+            <div class="xhs-tags">
+                <span class="xhs-tag-poster">#AI资讯</span>
+                <span class="xhs-tag-poster">#科技新闻</span>
+                <span class="xhs-tag-poster">#效率工具</span>
+                <span class="xhs-tag-poster">#免费工具</span>
+            </div>
+            <div class="xhs-screenshot">
+                <div class="xhs-screen-header">
+                    <div class="xhs-screen-logo">🤖</div>
+                    <div class="xhs-screen-title">AI News - 热点资讯</div>
+                </div>
+                <div class="xhs-news-item">
+                    <div class="xhs-news-thumb">📰</div>
+                    <div class="xhs-news-text">
+                        <div class="xhs-news-title">OpenAI 发布 GPT-5 预览版，性能提升显著</div>
+                        <div class="xhs-news-meta">TechCrunch · 2小时前 · 🔥 9.8</div>
+                    </div>
+                </div>
+                <div class="xhs-news-item">
+                    <div class="xhs-news-thumb">🤖</div>
+                    <div class="xhs-news-text">
+                        <div class="xhs-news-title">谷歌 DeepMind 新突破：AI 自主发现数学定理</div>
+                        <div class="xhs-news-meta">量子位 · 5小时前 · 🔥 9.5</div>
+                    </div>
+                </div>
+                <div class="xhs-news-item">
+                    <div class="xhs-news-thumb">💻</div>
+                    <div class="xhs-news-text">
+                        <div class="xhs-news-title">开源大模型 Llama 4 正式发布</div>
+                        <div class="xhs-news-meta">Hacker News · 8小时前 · 🔥 9.2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="xhs-actions">
+                <div class="xhs-action">❤️ 2.4k</div>
+                <div class="xhs-action">⭐ 856</div>
+                <div class="xhs-action">💬 234</div>
+                <div class="xhs-action">↗️ 分享</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 海报3: 功能亮点 -->
+    <div class="poster-features-main">
+        <h2 class="features-title">为什么选择 AI News？</h2>
+        <p class="features-subtitle">解决资讯获取痛点，让信息筛选更高效</p>
+        <div class="features-grid">
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">🔍</div>
+                <h3 class="feature-title-poster">智能聚合</h3>
+                <p class="feature-desc-poster">自动抓取6大顶级AI资讯源，一站掌握全球AI动态</p>
+            </div>
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">⚡</div>
+                <h3 class="feature-title-poster">实时更新</h3>
+                <p class="feature-desc-poster">7×24小时不间断监控，新资讯第一时间推送</p>
+            </div>
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">🎯</div>
+                <h3 class="feature-title-poster">热度排序</h3>
+                <p class="feature-desc-poster">多维度算法计算热度，快速筛选重要资讯</p>
+            </div>
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">📱</div>
+                <h3 class="feature-title-poster">极简体验</h3>
+                <p class="feature-desc-poster">清爽无广告，支持多平台切换和关键词搜索</p>
+            </div>
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">🔒</div>
+                <h3 class="feature-title-poster">完全免费</h3>
+                <p class="feature-desc-poster">零门槛使用，无需注册登录，没有付费墙</p>
+            </div>
+            <div class="feature-card-poster">
+                <div class="feature-icon-poster">🌐</div>
+                <h3 class="feature-title-poster">双语支持</h3>
+                <p class="feature-desc-poster">中英文资讯全覆盖，国际前沿与国内动态兼顾</p>
+            </div>
+        </div>
+        <div class="features-footer">
+            <div class="features-url">aispiderwork.github.io/AINews</div>
+            <div class="features-cta">🚀 立即免费体验</div>
+        </div>
+    </div>
+
+    <!-- 海报4: 小红书封面图 -->
+    <div class="poster-cover">
+        <div class="cover-logo">🤖</div>
+        <h1 class="cover-title">AI News</h1>
+        <p class="cover-subtitle">你的AI资讯管家</p>
+        <div class="cover-features">
+            <div class="cover-feature">🔍 智能聚合</div>
+            <div class="cover-feature">⚡ 实时更新</div>
+            <div class="cover-feature">🎯 热度排序</div>
+        </div>
+        <div class="cover-url">aispiderwork.github.io/AINews</div>
+    </div>
+
+    <p class="export-tip">提示：在浏览器中打开此文件，使用截图工具或浏览器打印功能导出为图片（建议尺寸 1080×1440 或 1080×1080）</p>
+</body>
+</html>

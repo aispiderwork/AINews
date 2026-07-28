@@ -1,5 +1,10 @@
 # AI热点资讯监控系统 - 技术架构
 
+> ⚠️ **变更说明（2026-07-28）**：
+> 1. **Google AI Blog 平台已下线**（`crawlers/googleai.py` 已删除），本文架构图与示例中的 Google AI 部分仅为历史记录。
+> 2. **`hot_score` 热度计算已移除**（除 HN 外无真实互动数据，旧分数为主观合成值）。当前排序统一为**按发布时间倒序**，平台内取近 7 天 Top10；数据处理层的「热度计算」模块已删除，HN 的 `score` / `comments_count` 真实字段保留。
+> 3. 前端已改为报纸风格设计，见 `docs/newspaper-style-redesign-plan.md`；HuggingFace 已接入（`crawlers/huggingface.py`），真实热度字段（`upvotes` / `likes` / `downloads` / `trendingScore`）已输出。
+
 ## 一、整体架构设计
 
 ### 1.1 架构分层
@@ -15,7 +20,7 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                      数据处理层 (Processing)                  │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │ 关键词过滤   │  │ 数据去重     │  │ 热度计算     │      │
+│  │ 关键词过滤   │  │ 数据去重     │  │ 时间排序     │      │
 │  └──────────────┘  └──────────────┘  └──────────────┘      │
 └─────────────────────────────────────────────────────────────┘
                               ↓
@@ -25,10 +30,9 @@
 │  │ Hacker │ │ Tech   │ │ 量子位 │ │ 新  │ │ RadarAI  │    │
 │  │ News   │ │ Crunch │ │        │ │ 智元│ │          │    │
 │  └────────┘ └────────┘ └────────┘ └─────┘ └──────────┘    │
-│  ┌────────┐                                                 │
-│  │ Google │                                                 │
-│  │ AI Blog│                                                 │
-│  └────────┘                                                 │
+│                    ┌─────────────┐                          │
+│                    │ HuggingFace │                          │
+│                    └─────────────┘                          │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
@@ -71,7 +75,9 @@
 | **量子位** | 网站首页 | ⭐⭐⭐⭐ | 爬虫 | 无（按时间） |
 | **新智元** | 网站首页 | ⭐⭐⭐ | 爬虫 | 无（按时间） |
 | **RadarAI** | 网站首页 | ⭐⭐⭐ | 爬虫 | 无（按时间） |
-| **Google AI Blog** | RSS Feed | ⭐⭐⭐⭐ | RSS | 无（按时间） |
+| **HuggingFace** | 官方公开 API | ⭐⭐⭐⭐ | API | upvotes(论文), likes/downloads/trendingScore(模型) |
+
+> Google AI Blog 已下线；HuggingFace 已接入。前端按「全部 / 论文 / 模型」子标签展示；`merge.py` 对 HuggingFace 保留最多 20 条，其中 Trending 模型代表当前热度，不受 7 天创建时间限制。
 
 #### 数据结构设计
 
@@ -85,67 +91,26 @@ class NewsItem:
     cover_url: Optional[str]   # 封面图片链接
     publish_time: str          # 发布时间 (ISO格式)
     
-    # Hacker News特有字段
+    # Hacker News特有字段（真实互动数据）
     score: Optional[int]       # HN投票得分
     comments_count: Optional[int]  # HN评论数
     discussion_url: Optional[str]  # HN讨论页URL
-    
-    # 热度计算字段
-    hot_score: float           # 综合热度分
-    time_factor: float         # 时间衰减因子
-    platform_weight: float     # 平台权重
-    hn_hot_score: Optional[float]  # HN热度分
 ```
 
-### 3.2 热度计算模块
+### 3.2 排序模块（2026-07-28 修订）
 
-#### 热度计算公式
+> 原热度计算模块（`crawlers/utils/hot_score.py`）已删除。旧公式 `hot_score = 平台权重×30% + 时间因子×40% + HN热度×30%` 中，平台权重是主观设定、时间因子只反映新旧，除 HN 外不构成真实热度，故废弃。
 
-```
-hot_score = platform_weight × 30% + time_factor × 40% + hn_hot_score_normalized × 30%
-```
-
-#### 平台权重配置
+当前排序规则：
 
 ```python
-PLATFORM_WEIGHTS = {
-    'hackernews': 1.0,      # 国际技术社区，权重最高
-    'techcrunch': 0.9,      # 国际科技媒体
-    'googleai': 0.85,       # 官方博客
-    'qbitai': 0.8,          # 国内头部AI媒体
-    'aiera': 0.75,          # 国内AI媒体
-    'radarai': 0.7,         # 新兴AI平台
-}
-```
+def _parse_time(article):
+    """解析 publish_time，失败返回最小时间（排最后）"""
+    dt = datetime.fromisoformat(article['publish_time'].replace('Z', '+00:00'))
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
-#### 时间衰减因子
-
-```python
-def calc_time_factor(publish_time: str) -> float:
-    """
-    时间衰减因子计算
-    
-    规则：
-    - 24小时内 = 1.0
-    - 每过一天衰减 0.1
-    - 10天后降至最低 0.1
-    """
-    hours_ago = (now - publish_time).total_seconds() / 3600
-    factor = 1.0 - (hours_ago / 240)  # 240小时 = 10天
-    return max(0.1, min(1.0, factor))
-```
-
-#### Hacker News热度分
-
-```python
-def calc_hn_hot_score(score: int, descendants: int) -> float:
-    """
-    HN热度分 = 投票分 × 0.7 + 评论数 × 0.3
-    """
-    return score * 0.7 + descendants * 0.3
-
-# 归一化到0-1范围（假设最高500分）
-hn_hot_score_normalized = min(1.0, hn_raw_score / 500)
+# 全局 sorted_all 与平台内 Top10：均按发布时间倒序
+sorted_articles = sorted(articles, key=_parse_time, reverse=True)
 ```
 
 ### 3.3 数据处理模块
@@ -220,35 +185,21 @@ def merge_and_deduplicate(all_news: dict) -> dict:
         "cover_url": "https://example.com/cover.jpg",
         "score": 256,
         "comments_count": 89,
-        "discussion_url": "https://news.ycombinator.com/item?id=12345",
-        "hot_score": 0.8234,
-        "time_factor": 0.9167,
-        "platform_weight": 1.0,
-        "hn_hot_score": 205.9
+        "discussion_url": "https://news.ycombinator.com/item?id=12345"
       }
     ],
     "techcrunch": [...],
     "qbitai": [...],
     "aiera": [...],
-    "radarai": [...],
-    "googleai": [...]
+    "radarai": [...]
   },
-  "sorted_all": [...],  // 全部文章按热度排序
+  "sorted_all": [...],  // 全部文章按发布时间倒序
   "monitor": {
     "summary": {
       "total_success_rate": 98.5,
       "total_fail_rate": 1.5,
       "avg_response_time": 2.3,
-      "cover_success_rate": 87.2,
-      "hot_sort_enabled": true,
-      "platform_hot_stats": {
-        "hackernews": {
-          "count": 15,
-          "avg_hot_score": 0.7523,
-          "max_hot_score": 0.9123,
-          "min_hot_score": 0.5234
-        }
-      }
+      "cover_success_rate": 87.2
     },
     "platforms": [...],
     "recent_executions": [...]
@@ -256,32 +207,28 @@ def merge_and_deduplicate(all_news: dict) -> dict:
 }
 ```
 
-### 3.5 前端展示模块
+### 3.5 前端展示模块（2026-07-28 报纸风格改版后）
 
 #### 页面结构
 
 ```
 index.html
-├── 头部导航
-│   ├── Logo
+├── 报头（Masthead）
+│   ├── 报眉（日期 · 期号 · 更新时间）
+│   ├── 报名
 │   ├── 页面切换（资讯看板/运行监控）
-│   ├── 最后更新时间
 │   └── 操作按钮（刷新/导出）
 ├── 资讯看板页面
+│   ├── 平台栏目 Tab（头版=全部 / 分平台）
 │   ├── 搜索栏
-│   ├── 排序切换（热度/时间/平台）
-│   ├── 平台Tab栏
-│   └── 资讯列表区
-│       └── 资讯卡片
-│           ├── 热度排名（Top3特殊样式）
-│           ├── 封面图片（可选）
-│           ├── 平台标签
-│           ├── 标题
-│           ├── 元信息（时间/热度分/HN数据）
-│           └── 操作链接
+│   └── 文章列表（左封面 + 右文字，无封面则文字通栏）
+│       └── 文章条目
+│           ├── 封面图片（有 cover_url 才渲染）
+│           ├── 标题（最多两行截断）
+│           └── 元信息（mono 排名 / 来源 / 时间 / HN 真实互动数据）
 └── 运行监控页面
-    ├── KPI指标卡片
-    ├── 平台状态网格
+    ├── 统计栏（成功率/失败率/响应时间/封面获取率）
+    ├── 平台状态列表
     └── 最近采集记录
 ```
 
@@ -289,16 +236,10 @@ index.html
 
 | 模式 | 说明 | 数据来源 |
 |------|------|---------|
-| 🔥 热度排序 | 按hot_score降序 | sorted_all字段 |
-| 🕐 时间排序 | 按publish_time降序 | sorted_all字段 |
-| 📰 平台分组 | 按platform分组 | news字段 |
+| 🕐 时间排序 | 按 publish_time 降序（唯一排序方式） | sorted_all 字段 |
+| 📰 平台分组 | 按 platform 分组 | news 字段 |
 
-#### 热度排名样式
-
-- Top 1: 金色背景 🔥
-- Top 2: 银色背景
-- Top 3: 铜色背景
-- 其他: 默认样式
+> 原「热度排序」模式与 Top3 金银铜样式已随 hot_score 一并移除；热度排名改为元信息行内的 mono 编号。
 
 ### 3.6 监控统计模块
 
@@ -311,8 +252,6 @@ class MonitorMetrics:
     total_fail_rate: float         # 总体失败率
     avg_response_time: float       # 平均响应时间
     cover_success_rate: float      # 封面获取成功率
-    hot_sort_enabled: bool         # 是否启用热度排序
-    platform_hot_stats: dict       # 各平台热度统计
     
     # 平台状态
     platforms: List[{
@@ -351,12 +290,11 @@ AINewsCrawl/
 │   ├── qbitai.py               # 量子位爬虫
 │   ├── aiera.py                # 新智元爬虫
 │   ├── radarai.py              # RadarAI爬虫
-│   ├── googleai.py             # Google AI Blog爬虫
+│   ├── huggingface.py          # HuggingFace爬虫
 │   └── utils/
 │       ├── __init__.py
-│       ├── filter.py           # 关键词过滤
-│       ├── merge.py            # 数据合并去重
-│       └── hot_score.py        # 热度计算
+│       ├── filter.py           # 关键词过滤（死代码，未被引用）
+│       └── merge.py            # 数据合并去重（含已下线平台过滤）
 ├── data/                       # 数据目录（git忽略）
 │   ├── news.json               # 主数据文件
 │   └── history.json            # 执行历史
@@ -431,8 +369,7 @@ feedparser>=6.0.0
 | 定时任务调度 | GitHub Actions cron自动触发 |
 | 数据采集执行 | 各平台爬虫自动执行 |
 | 关键词筛选 | AI关键词自动过滤 |
-| 热度计算 | 自动计算hot_score |
-| 数据排序 | 自动按热度/时间排序 |
+| 数据排序 | 自动按发布时间倒序 |
 | 监控统计 | 自动采集运行指标 |
 | 数据导出 | 自动生成JSON文件 |
 | Git提交推送 | 自动commit和push |
@@ -444,7 +381,6 @@ feedparser>=6.0.0
 |--------|------|------|
 | 爬虫修复 | 按需 | 平台页面结构变化时修复 |
 | 关键词调整 | 按需 | 根据热点变化调整过滤关键词 |
-| 热度算法调优 | 按需 | 根据效果调整权重参数 |
 | 监控查看 | 日常 | 检查运行状态和数据质量 |
 
 ## 六、部署步骤指南
@@ -456,10 +392,9 @@ feedparser>=6.0.0
 
 ### 步骤2：代码开发
 1. [ ] 实现各平台爬虫
-2. [ ] 实现热度计算模块
-3. [ ] 实现数据处理逻辑
-4. [ ] 开发前端页面
-5. [ ] 本地测试完整流程
+2. [ ] 实现数据处理逻辑（合并去重、时间排序）
+3. [ ] 开发前端页面
+4. [ ] 本地测试完整流程
 
 ### 步骤3：GitHub配置
 1. [ ] 开启GitHub Pages
@@ -478,12 +413,11 @@ feedparser>=6.0.0
 | 页面改版 | 爬虫失效 | 监控告警、及时修复 |
 | 平台反爬 | 无法获取数据 | 使用RSS/API替代 |
 | 数据量过大 | 存储压力 | 只保留最近数据 |
-| 热度算法不准 | 排序效果差 | 持续调优权重参数 |
 
 ## 八、扩展方向
 
 - [x] 多平台数据采集
-- [x] 热度排序算法
+- [x] 按发布时间排序（2026-07 替代原热度排序）
 - [x] 运行监控看板
 - [ ] 更多平台接入（知乎、Medium等）
 - [ ] 热度趋势分析
