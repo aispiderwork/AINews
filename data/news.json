@@ -1,7 +1,17 @@
 {
-  "update_time": "2026-08-02T04:21:42.704712+00:00",
+  "update_time": "2026-08-02T13:15:45.288129+00:00",
   "news": {
     "radarai": [
+      {
+        "title": "8月2日 AI 速报 · 第 533 期",
+        "url": "https://radarai.top/updates/brief-20260802-1600",
+        "cover_url": null,
+        "publish_time": "2026-08-02T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "5ff63d94406a"
+      },
       {
         "title": "8月2日 AI 速报 · 第 532 期",
         "url": "https://radarai.top/updates/brief-20260802-0800",
@@ -91,16 +101,118 @@
         "summary": "",
         "platform": "radarai",
         "id": "77718655753e"
+      }
+    ],
+    "hackernews": [
+      {
+        "title": "I don't recommend Tailwind CSS",
+        "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49141891",
+        "score": 124,
+        "comments_count": 134,
+        "publish_time": "2026-08-02T07:09:38+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 127.0,
+        "id": "8deed20dadcc"
       },
       {
-        "title": "7月30日 AI 速报 · 第 524 期",
-        "url": "https://radarai.top/updates/brief-20260730-1600",
-        "cover_url": null,
-        "publish_time": "2026-07-30T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "0b4bb8cab001"
+        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+        "discussion_url": "https://news.ycombinator.com/item?id=49139102",
+        "score": 313,
+        "comments_count": 332,
+        "publish_time": "2026-08-01T22:25:12+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 318.7,
+        "id": "5f3a2c46a3fa"
+      },
+      {
+        "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
+        "url": "https://kaisel.dev/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49135985",
+        "score": 56,
+        "comments_count": 9,
+        "publish_time": "2026-08-01T16:45:40+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 41.9,
+        "id": "5a4732d5d111"
+      },
+      {
+        "title": "Explorative modeling: Train on the best of K guesses",
+        "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49135245",
+        "score": 107,
+        "comments_count": 26,
+        "publish_time": "2026-08-01T15:23:15+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 82.69999999999999,
+        "id": "e49e4851f09e"
+      },
+      {
+        "title": "AI doesn't generate working products, that's still your job",
+        "url": "https://weeraman.com/the-prototype-isnt-the-product/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49132130",
+        "score": 209,
+        "comments_count": 190,
+        "publish_time": "2026-08-01T07:52:10+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 203.29999999999998,
+        "id": "c5cec5c80472"
+      },
+      {
+        "title": "Flint: A Visualization Language for the AI Era",
+        "url": "https://microsoft.github.io/flint-chart/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49130604",
+        "score": 265,
+        "comments_count": 68,
+        "publish_time": "2026-08-01T02:45:09+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 205.9,
+        "id": "dadd3755bb01"
+      },
+      {
+        "title": "Tailscale didn't stop the Hugging Face intrusion",
+        "url": "https://tailscale.com/blog/hugging-face-intrusion",
+        "discussion_url": "https://news.ycombinator.com/item?id=49127306",
+        "score": 563,
+        "comments_count": 211,
+        "publish_time": "2026-07-31T19:03:45+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 457.4,
+        "id": "b324eb81562e"
+      },
+      {
+        "title": "Golang proposal: container/: generic collection types",
+        "url": "https://github.com/golang/go/issues/80590",
+        "discussion_url": "https://news.ycombinator.com/item?id=49127031",
+        "score": 184,
+        "comments_count": 186,
+        "publish_time": "2026-07-31T18:39:47+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 184.59999999999997,
+        "id": "e5bf9ea0949b"
+      },
+      {
+        "title": "qm – Multiplayer agent harness for work",
+        "url": "https://github.com/yc-software/qm",
+        "discussion_url": "https://news.ycombinator.com/item?id=49126604",
+        "score": 657,
+        "comments_count": 155,
+        "publish_time": "2026-07-31T18:04:58+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 506.4,
+        "id": "e232a00d2fb8"
+      },
+      {
+        "title": "Is AI reasoning right for the wrong reasons?",
+        "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49124358",
+        "score": 208,
+        "comments_count": 235,
+        "publish_time": "2026-07-31T15:29:39+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 216.1,
+        "id": "7fc79f301aa4"
       }
     ],
     "qbitai": [
@@ -316,118 +428,6 @@
         "id": "7137fd3ddeac"
       }
     ],
-    "hackernews": [
-      {
-        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-        "discussion_url": "https://news.ycombinator.com/item?id=49139102",
-        "score": 220,
-        "comments_count": 195,
-        "publish_time": "2026-08-01T22:25:12+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 212.5,
-        "id": "5f3a2c46a3fa"
-      },
-      {
-        "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
-        "url": "https://kaisel.dev/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49135985",
-        "score": 54,
-        "comments_count": 8,
-        "publish_time": "2026-08-01T16:45:40+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 40.199999999999996,
-        "id": "5a4732d5d111"
-      },
-      {
-        "title": "Explorative modeling: Train on the best of K guesses",
-        "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49135245",
-        "score": 86,
-        "comments_count": 24,
-        "publish_time": "2026-08-01T15:23:15+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 67.39999999999999,
-        "id": "e49e4851f09e"
-      },
-      {
-        "title": "AI doesn't generate working products, that's still your job",
-        "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49132130",
-        "score": 209,
-        "comments_count": 190,
-        "publish_time": "2026-08-01T07:52:10+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 203.29999999999998,
-        "id": "c5cec5c80472"
-      },
-      {
-        "title": "Flint: A Visualization Language for the AI Era",
-        "url": "https://microsoft.github.io/flint-chart/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49130604",
-        "score": 257,
-        "comments_count": 67,
-        "publish_time": "2026-08-01T02:45:09+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 199.99999999999997,
-        "id": "dadd3755bb01"
-      },
-      {
-        "title": "Tailscale didn't stop the Hugging Face intrusion",
-        "url": "https://tailscale.com/blog/hugging-face-intrusion",
-        "discussion_url": "https://news.ycombinator.com/item?id=49127306",
-        "score": 563,
-        "comments_count": 211,
-        "publish_time": "2026-07-31T19:03:45+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 457.4,
-        "id": "b324eb81562e"
-      },
-      {
-        "title": "Golang proposal: container/: generic collection types",
-        "url": "https://github.com/golang/go/issues/80590",
-        "discussion_url": "https://news.ycombinator.com/item?id=49127031",
-        "score": 181,
-        "comments_count": 176,
-        "publish_time": "2026-07-31T18:39:47+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 179.5,
-        "id": "e5bf9ea0949b"
-      },
-      {
-        "title": "qm – Multiplayer agent harness for work",
-        "url": "https://github.com/yc-software/qm",
-        "discussion_url": "https://news.ycombinator.com/item?id=49126604",
-        "score": 650,
-        "comments_count": 152,
-        "publish_time": "2026-07-31T18:04:58+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 500.59999999999997,
-        "id": "e232a00d2fb8"
-      },
-      {
-        "title": "Is AI reasoning right for the wrong reasons?",
-        "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49124358",
-        "score": 201,
-        "comments_count": 230,
-        "publish_time": "2026-07-31T15:29:39+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 209.7,
-        "id": "7fc79f301aa4"
-      },
-      {
-        "title": "Situational Awareness down 67% in July in AI stock rout",
-        "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-        "discussion_url": "https://news.ycombinator.com/item?id=49122994",
-        "score": 143,
-        "comments_count": 149,
-        "publish_time": "2026-07-31T13:37:36+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 144.79999999999998,
-        "id": "9df5ac288472"
-      }
-    ],
     "techcrunch": [
       {
         "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
@@ -590,11 +590,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 1360 · 下载 15,366",
+        "summary": "TrendingScore 1463 · 下载 156,173",
         "platform": "huggingface",
-        "score": 1460,
-        "trending_score": 1360,
-        "downloads": 15366,
+        "score": 1580,
+        "trending_score": 1463,
+        "downloads": 156173,
         "id": "7028fa4189ae"
       },
       {
@@ -607,7 +607,7 @@
         ],
         "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
         "platform": "huggingface",
-        "score": 290,
+        "score": 291,
         "comments_count": 2,
         "id": "b60a71051d8c"
       },
@@ -621,7 +621,7 @@
         ],
         "summary": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the",
         "platform": "huggingface",
-        "score": 156,
+        "score": 157,
         "comments_count": 3,
         "id": "420e8d7dfe3b"
       },
@@ -635,7 +635,7 @@
         ],
         "summary": "GUI agents have the potential to become a general purpose executor over existing digital devices. To advance them toward real-world use, we envision agents that operate reliably on real devices, execute workflows across platforms, combine GUI interaction with CLI execution, complete long-horizon tasks, proactively initiate useful services, and autonomously improve their capabilities with minimal human effort. Guided by this vision, we present Qwen-UI-Agent, a real-world centric foundation GUI ag",
         "platform": "huggingface",
-        "score": 278,
+        "score": 279,
         "comments_count": 7,
         "id": "4640a79342c8"
       },
@@ -649,7 +649,7 @@
         ],
         "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifiable task environments with execution feedback (OpenMLE-Gym), operator learning (OpenMLE-RL), and long-horizon search (OpenMLE-Evo). On this stack we post-train Frontis-MA1 (35B) as a meta-evolution ag",
         "platform": "huggingface",
-        "score": 165,
+        "score": 166,
         "comments_count": 2,
         "id": "67cfbac2a85a"
       },
@@ -663,7 +663,7 @@
         ],
         "summary": "Decoder-only language models entangle long-term memory and reasoning in a single parameter set, making it difficult to scale memory capacity independently. Memory Decoder introduces a parametric long-term memory module but only studies it at a relatively small scale. In this work, we present Memory Decoder at Scale, scaling memory models up to 6.9B parameters and pretraining them on 300B tokens. At this data scale, the combined cost of indexing and search makes a standard Faiss pipeline infeasib",
         "platform": "huggingface",
-        "score": 48,
+        "score": 49,
         "comments_count": 2,
         "id": "713e455c3a19"
       },
@@ -680,6 +680,20 @@
         "score": 46,
         "comments_count": 2,
         "id": "2aacf256616b"
+      },
+      {
+        "title": "BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms",
+        "url": "https://huggingface.co/papers/2607.26497",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.26497.png",
+        "publish_time": "2026-07-29T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Retrieval-augmented generation (RAG) spans lexical and dense retrieval, graph-based indexing, and agentic search, but these paradigms are usually evaluated on different benchmarks at one corpus size, leaving their accuracy-cost scaling unclear. To bridge this gap, we present a controlled study that varies corpus size along 28 strictly nested tiers spanning roughly 450-fold, while holding questions and a fixed bedrock of relevant and adversarial documents unchanged. Under one reader model and one",
+        "platform": "huggingface",
+        "score": 44,
+        "comments_count": 4,
+        "id": "5c0665a97bee"
       },
       {
         "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
@@ -719,7 +733,7 @@
         ],
         "summary": "Recent advances in AI agents have increasingly internalized native capabilities into their underlying foundation models, giving rise to multimodal foundation models and large reasoning models. However, agent memory is still primarily implemented through external modules, leaving the native memory capability largely unexplored. In this paper, we take a first step toward this direction by introducing memory foundation models, which empower foundation models with native memory capabilities. We form",
         "platform": "huggingface",
-        "score": 255,
+        "score": 256,
         "comments_count": 3,
         "id": "c75312f08bd1"
       },
@@ -733,7 +747,7 @@
         ],
         "summary": "Existing autoregressive video distillation methods commonly adopt a Distribution Matching Distillation (DMD)-based multi-stage pipeline. However, they typically decouple the initialization and DMD stages -- which then pursue different target distributions -- and judge the intermediate student mainly by visual scores such as VBench. In this paper, we revisit this design from a distributional perspective. Given the mode-seeking nature of the distribution matching loss, a good initialization should",
         "platform": "huggingface",
-        "score": 88,
+        "score": 89,
         "comments_count": 2,
         "id": "a23dc44ec377"
       },
@@ -848,24 +862,20 @@
         "score": 44,
         "comments_count": 2,
         "id": "cc5cb3816870"
-      },
-      {
-        "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
-        "url": "https://huggingface.co/papers/2607.25308",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25308.png",
-        "publish_time": "2026-07-27T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that reveal little about which decisions determine success. Denser process signals could supply this missing turn-level credit, but existing sources are hard to keep both cheap and accurate. We observe that changes in a game solver's state value reveal whether an action advances the state",
-        "platform": "huggingface",
-        "score": 31,
-        "comments_count": 1,
-        "id": "3a748ff03616"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "8月2日 AI 速报 · 第 533 期",
+      "url": "https://radarai.top/updates/brief-20260802-1600",
+      "cover_url": null,
+      "publish_time": "2026-08-02T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "5ff63d94406a"
+    },
     {
       "title": "8月2日 AI 速报 · 第 532 期",
       "url": "https://radarai.top/updates/brief-20260802-0800",
@@ -875,6 +885,17 @@
       "summary": "",
       "platform": "radarai",
       "id": "c026b963ec73"
+    },
+    {
+      "title": "I don't recommend Tailwind CSS",
+      "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49141891",
+      "score": 124,
+      "comments_count": 134,
+      "publish_time": "2026-08-02T07:09:38+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 127.0,
+      "id": "8deed20dadcc"
     },
     {
       "title": "这这这…翁荔光速回OpenAI上班了",
@@ -1090,11 +1111,11 @@
       "title": "AI financial advice is surprisingly good, especially if you ask right questions",
       "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
       "discussion_url": "https://news.ycombinator.com/item?id=49139102",
-      "score": 220,
-      "comments_count": 195,
+      "score": 313,
+      "comments_count": 332,
       "publish_time": "2026-08-01T22:25:12+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 212.5,
+      "hn_hot_score": 318.7,
       "id": "5f3a2c46a3fa"
     },
     {
@@ -1144,11 +1165,11 @@
       "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
       "url": "https://kaisel.dev/",
       "discussion_url": "https://news.ycombinator.com/item?id=49135985",
-      "score": 54,
-      "comments_count": 8,
+      "score": 56,
+      "comments_count": 9,
       "publish_time": "2026-08-01T16:45:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 40.199999999999996,
+      "hn_hot_score": 41.9,
       "id": "5a4732d5d111"
     },
     {
@@ -1180,11 +1201,11 @@
       "title": "Explorative modeling: Train on the best of K guesses",
       "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
       "discussion_url": "https://news.ycombinator.com/item?id=49135245",
-      "score": 86,
-      "comments_count": 24,
+      "score": 107,
+      "comments_count": 26,
       "publish_time": "2026-08-01T15:23:15+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 67.39999999999999,
+      "hn_hot_score": 82.69999999999999,
       "id": "e49e4851f09e"
     },
     {
@@ -1212,11 +1233,11 @@
       "title": "Flint: A Visualization Language for the AI Era",
       "url": "https://microsoft.github.io/flint-chart/",
       "discussion_url": "https://news.ycombinator.com/item?id=49130604",
-      "score": 257,
-      "comments_count": 67,
+      "score": 265,
+      "comments_count": 68,
       "publish_time": "2026-08-01T02:45:09+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 199.99999999999997,
+      "hn_hot_score": 205.9,
       "id": "dadd3755bb01"
     },
     {
@@ -1299,22 +1320,22 @@
       "title": "Golang proposal: container/: generic collection types",
       "url": "https://github.com/golang/go/issues/80590",
       "discussion_url": "https://news.ycombinator.com/item?id=49127031",
-      "score": 181,
-      "comments_count": 176,
+      "score": 184,
+      "comments_count": 186,
       "publish_time": "2026-07-31T18:39:47+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 179.5,
+      "hn_hot_score": 184.59999999999997,
       "id": "e5bf9ea0949b"
     },
     {
       "title": "qm – Multiplayer agent harness for work",
       "url": "https://github.com/yc-software/qm",
       "discussion_url": "https://news.ycombinator.com/item?id=49126604",
-      "score": 650,
-      "comments_count": 152,
+      "score": 657,
+      "comments_count": 155,
       "publish_time": "2026-07-31T18:04:58+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 500.59999999999997,
+      "hn_hot_score": 506.4,
       "id": "e232a00d2fb8"
     },
     {
@@ -1377,23 +1398,12 @@
       "title": "Is AI reasoning right for the wrong reasons?",
       "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
       "discussion_url": "https://news.ycombinator.com/item?id=49124358",
-      "score": 201,
-      "comments_count": 230,
+      "score": 208,
+      "comments_count": 235,
       "publish_time": "2026-07-31T15:29:39+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 209.7,
+      "hn_hot_score": 216.1,
       "id": "7fc79f301aa4"
-    },
-    {
-      "title": "Situational Awareness down 67% in July in AI stock rout",
-      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "discussion_url": "https://news.ycombinator.com/item?id=49122994",
-      "score": 143,
-      "comments_count": 149,
-      "publish_time": "2026-07-31T13:37:36+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 144.79999999999998,
-      "id": "9df5ac288472"
     },
     {
       "title": "每周 AI 热点 · 2026-07-31",
@@ -1424,11 +1434,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 1360 · 下载 15,366",
+      "summary": "TrendingScore 1463 · 下载 156,173",
       "platform": "huggingface",
-      "score": 1460,
-      "trending_score": 1360,
-      "downloads": 15366,
+      "score": 1580,
+      "trending_score": 1463,
+      "downloads": 156173,
       "id": "7028fa4189ae"
     },
     {
@@ -1442,16 +1452,6 @@
       "id": "77718655753e"
     },
     {
-      "title": "7月30日 AI 速报 · 第 524 期",
-      "url": "https://radarai.top/updates/brief-20260730-1600",
-      "cover_url": null,
-      "publish_time": "2026-07-30T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "0b4bb8cab001"
-    },
-    {
       "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
       "url": "https://huggingface.co/papers/2607.28618",
       "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28618.png",
@@ -1461,7 +1461,7 @@
       ],
       "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
       "platform": "huggingface",
-      "score": 290,
+      "score": 291,
       "comments_count": 2,
       "id": "b60a71051d8c"
     },
@@ -1475,7 +1475,7 @@
       ],
       "summary": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the",
       "platform": "huggingface",
-      "score": 156,
+      "score": 157,
       "comments_count": 3,
       "id": "420e8d7dfe3b"
     },
@@ -1489,7 +1489,7 @@
       ],
       "summary": "GUI agents have the potential to become a general purpose executor over existing digital devices. To advance them toward real-world use, we envision agents that operate reliably on real devices, execute workflows across platforms, combine GUI interaction with CLI execution, complete long-horizon tasks, proactively initiate useful services, and autonomously improve their capabilities with minimal human effort. Guided by this vision, we present Qwen-UI-Agent, a real-world centric foundation GUI ag",
       "platform": "huggingface",
-      "score": 278,
+      "score": 279,
       "comments_count": 7,
       "id": "4640a79342c8"
     },
@@ -1503,7 +1503,7 @@
       ],
       "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifiable task environments with execution feedback (OpenMLE-Gym), operator learning (OpenMLE-RL), and long-horizon search (OpenMLE-Evo). On this stack we post-train Frontis-MA1 (35B) as a meta-evolution ag",
       "platform": "huggingface",
-      "score": 165,
+      "score": 166,
       "comments_count": 2,
       "id": "67cfbac2a85a"
     },
@@ -1517,7 +1517,7 @@
       ],
       "summary": "Decoder-only language models entangle long-term memory and reasoning in a single parameter set, making it difficult to scale memory capacity independently. Memory Decoder introduces a parametric long-term memory module but only studies it at a relatively small scale. In this work, we present Memory Decoder at Scale, scaling memory models up to 6.9B parameters and pretraining them on 300B tokens. At this data scale, the combined cost of indexing and search makes a standard Faiss pipeline infeasib",
       "platform": "huggingface",
-      "score": 48,
+      "score": 49,
       "comments_count": 2,
       "id": "713e455c3a19"
     },
@@ -1534,6 +1534,20 @@
       "score": 46,
       "comments_count": 2,
       "id": "2aacf256616b"
+    },
+    {
+      "title": "BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms",
+      "url": "https://huggingface.co/papers/2607.26497",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.26497.png",
+      "publish_time": "2026-07-29T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Retrieval-augmented generation (RAG) spans lexical and dense retrieval, graph-based indexing, and agentic search, but these paradigms are usually evaluated on different benchmarks at one corpus size, leaving their accuracy-cost scaling unclear. To bridge this gap, we present a controlled study that varies corpus size along 28 strictly nested tiers spanning roughly 450-fold, while holding questions and a fixed bedrock of relevant and adversarial documents unchanged. Under one reader model and one",
+      "platform": "huggingface",
+      "score": 44,
+      "comments_count": 4,
+      "id": "5c0665a97bee"
     },
     {
       "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
@@ -1573,7 +1587,7 @@
       ],
       "summary": "Recent advances in AI agents have increasingly internalized native capabilities into their underlying foundation models, giving rise to multimodal foundation models and large reasoning models. However, agent memory is still primarily implemented through external modules, leaving the native memory capability largely unexplored. In this paper, we take a first step toward this direction by introducing memory foundation models, which empower foundation models with native memory capabilities. We form",
       "platform": "huggingface",
-      "score": 255,
+      "score": 256,
       "comments_count": 3,
       "id": "c75312f08bd1"
     },
@@ -1587,7 +1601,7 @@
       ],
       "summary": "Existing autoregressive video distillation methods commonly adopt a Distribution Matching Distillation (DMD)-based multi-stage pipeline. However, they typically decouple the initialization and DMD stages -- which then pursue different target distributions -- and judge the intermediate student mainly by visual scores such as VBench. In this paper, we revisit this design from a distributional perspective. Given the mode-seeking nature of the distribution matching loss, a good initialization should",
       "platform": "huggingface",
-      "score": 88,
+      "score": 89,
       "comments_count": 2,
       "id": "a23dc44ec377"
     },
@@ -1702,27 +1716,13 @@
       "score": 44,
       "comments_count": 2,
       "id": "cc5cb3816870"
-    },
-    {
-      "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
-      "url": "https://huggingface.co/papers/2607.25308",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25308.png",
-      "publish_time": "2026-07-27T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that reveal little about which decisions determine success. Denser process signals could supply this missing turn-level credit, but existing sources are hard to keep both cheap and accurate. We observe that changes in a game solver's state value reveal whether an action advances the state",
-      "platform": "huggingface",
-      "score": 31,
-      "comments_count": 1,
-      "id": "3a748ff03616"
     }
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 100.0,
-      "total_fail_rate": 0.0,
-      "avg_response_time": 2.7,
+      "total_success_rate": 83.3,
+      "total_fail_rate": 16.7,
+      "avg_response_time": 2.4,
       "cover_success_rate": 70.0
     },
     "platforms": [
@@ -1731,87 +1731,87 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T04:21:35.109137+00:00"
+        "last_crawl": "2026-08-02T13:15:28.340986+00:00"
       },
       {
         "platform": "techcrunch",
         "name": "TechCrunch",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T04:21:35.660071+00:00"
+        "last_crawl": "2026-08-02T13:15:29.017593+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
-        "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-08-02T04:21:38.348304+00:00"
+        "status": "error",
+        "item_count": 0,
+        "last_crawl": "2026-08-02T13:15:40.885726+00:00"
       },
       {
         "platform": "aiera",
         "name": "新智元",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T04:21:40.827884+00:00"
+        "last_crawl": "2026-08-02T13:15:43.605615+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T04:21:42.531783+00:00"
+        "last_crawl": "2026-08-02T13:15:45.127822+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-02T04:21:42.703409+00:00"
+        "last_crawl": "2026-08-02T13:15:45.286810+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-02T04:21:35.109143+00:00",
+        "timestamp": "2026-08-02T13:15:28.340991+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 8.339434
+        "latency": 7.023646
       },
       {
-        "timestamp": "2026-08-02T04:21:35.660085+00:00",
+        "timestamp": "2026-08-02T13:15:29.017607+00:00",
         "platform": "techcrunch",
         "status": "success",
         "items_collected": 10,
-        "latency": 0.550933
+        "latency": 0.676607
       },
       {
-        "timestamp": "2026-08-02T04:21:38.348308+00:00",
+        "timestamp": "2026-08-02T13:15:40.885741+00:00",
         "platform": "qbitai",
-        "status": "success",
-        "items_collected": 10,
-        "latency": 2.688216
+        "status": "error",
+        "error_message": "",
+        "latency": 11.868127
       },
       {
-        "timestamp": "2026-08-02T04:21:40.827888+00:00",
+        "timestamp": "2026-08-02T13:15:43.605621+00:00",
         "platform": "aiera",
         "status": "success",
         "items_collected": 10,
-        "latency": 2.479574
+        "latency": 2.718984
       },
       {
-        "timestamp": "2026-08-02T04:21:42.531788+00:00",
+        "timestamp": "2026-08-02T13:15:45.127826+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.703892
+        "latency": 1.522198
       },
       {
-        "timestamp": "2026-08-02T04:21:42.703423+00:00",
+        "timestamp": "2026-08-02T13:15:45.286821+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.171627
+        "latency": 0.158988
       }
     ]
   }
