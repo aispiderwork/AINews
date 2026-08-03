@@ -1,7 +1,27 @@
 {
-  "update_time": "2026-08-02T13:15:45.288129+00:00",
+  "update_time": "2026-08-03T04:28:17.474274+00:00",
   "news": {
     "radarai": [
+      {
+        "title": "8月3日 AI 速报 · 第 535 期",
+        "url": "https://radarai.top/updates/brief-20260803-0800",
+        "cover_url": null,
+        "publish_time": "2026-08-03T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "f065911c3436"
+      },
+      {
+        "title": "8月3日 AI 速报 · 第 534 期",
+        "url": "https://radarai.top/updates/brief-20260803-0000",
+        "cover_url": null,
+        "publish_time": "2026-08-03T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "061b3cc466a7"
+      },
       {
         "title": "8月2日 AI 速报 · 第 533 期",
         "url": "https://radarai.top/updates/brief-20260802-1600",
@@ -81,157 +101,14 @@
         "summary": "",
         "platform": "radarai",
         "id": "f93e3fab9c47"
-      },
-      {
-        "title": "7月31日 AI 速报 · 第 526 期",
-        "url": "https://radarai.top/updates/brief-20260731-0800",
-        "cover_url": null,
-        "publish_time": "2026-07-31T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "c622911d8c21"
-      },
-      {
-        "title": "7月31日 AI 速报 · 第 525 期",
-        "url": "https://radarai.top/updates/brief-20260731-0000",
-        "cover_url": null,
-        "publish_time": "2026-07-31T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "77718655753e"
-      }
-    ],
-    "hackernews": [
-      {
-        "title": "I don't recommend Tailwind CSS",
-        "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49141891",
-        "score": 124,
-        "comments_count": 134,
-        "publish_time": "2026-08-02T07:09:38+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 127.0,
-        "id": "8deed20dadcc"
-      },
-      {
-        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-        "discussion_url": "https://news.ycombinator.com/item?id=49139102",
-        "score": 313,
-        "comments_count": 332,
-        "publish_time": "2026-08-01T22:25:12+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 318.7,
-        "id": "5f3a2c46a3fa"
-      },
-      {
-        "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
-        "url": "https://kaisel.dev/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49135985",
-        "score": 56,
-        "comments_count": 9,
-        "publish_time": "2026-08-01T16:45:40+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 41.9,
-        "id": "5a4732d5d111"
-      },
-      {
-        "title": "Explorative modeling: Train on the best of K guesses",
-        "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49135245",
-        "score": 107,
-        "comments_count": 26,
-        "publish_time": "2026-08-01T15:23:15+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 82.69999999999999,
-        "id": "e49e4851f09e"
-      },
-      {
-        "title": "AI doesn't generate working products, that's still your job",
-        "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49132130",
-        "score": 209,
-        "comments_count": 190,
-        "publish_time": "2026-08-01T07:52:10+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 203.29999999999998,
-        "id": "c5cec5c80472"
-      },
-      {
-        "title": "Flint: A Visualization Language for the AI Era",
-        "url": "https://microsoft.github.io/flint-chart/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49130604",
-        "score": 265,
-        "comments_count": 68,
-        "publish_time": "2026-08-01T02:45:09+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 205.9,
-        "id": "dadd3755bb01"
-      },
-      {
-        "title": "Tailscale didn't stop the Hugging Face intrusion",
-        "url": "https://tailscale.com/blog/hugging-face-intrusion",
-        "discussion_url": "https://news.ycombinator.com/item?id=49127306",
-        "score": 563,
-        "comments_count": 211,
-        "publish_time": "2026-07-31T19:03:45+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 457.4,
-        "id": "b324eb81562e"
-      },
-      {
-        "title": "Golang proposal: container/: generic collection types",
-        "url": "https://github.com/golang/go/issues/80590",
-        "discussion_url": "https://news.ycombinator.com/item?id=49127031",
-        "score": 184,
-        "comments_count": 186,
-        "publish_time": "2026-07-31T18:39:47+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 184.59999999999997,
-        "id": "e5bf9ea0949b"
-      },
-      {
-        "title": "qm – Multiplayer agent harness for work",
-        "url": "https://github.com/yc-software/qm",
-        "discussion_url": "https://news.ycombinator.com/item?id=49126604",
-        "score": 657,
-        "comments_count": 155,
-        "publish_time": "2026-07-31T18:04:58+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 506.4,
-        "id": "e232a00d2fb8"
-      },
-      {
-        "title": "Is AI reasoning right for the wrong reasons?",
-        "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-        "discussion_url": "https://news.ycombinator.com/item?id=49124358",
-        "score": 208,
-        "comments_count": 235,
-        "publish_time": "2026-07-31T15:29:39+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 216.1,
-        "id": "7fc79f301aa4"
       }
     ],
     "qbitai": [
       {
-        "title": "这这这…翁荔光速回OpenAI上班了",
-        "url": "https://www.qbitai.com/2026/07/462947.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/a85fd1c36967ea2e6f8fb265583020e8.jpeg",
-        "publish_time": "2026-08-02T04:21:38.347690+00:00",
-        "tags": [
-          "翁荔"
-        ],
-        "platform": "qbitai",
-        "id": "f62b2e775e30"
-      },
-      {
         "title": "WorkBuddy重大升级，AI时代的Office来了",
         "url": "https://www.qbitai.com/2026/07/462979.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/0-1.png",
-        "publish_time": "2026-08-02T04:21:38.347011+00:00",
+        "publish_time": "2026-08-03T04:28:13.338146+00:00",
         "tags": [
           "WorkBuddy"
         ],
@@ -242,7 +119,7 @@
         "title": "一年连融三轮数亿元！字节+清华姚班，重构企业软件工程",
         "url": "https://www.qbitai.com/2026/07/463013.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/3b4236b73f53f1f1041aa70659b89400.webp",
-        "publish_time": "2026-08-02T04:21:38.346358+00:00",
+        "publish_time": "2026-08-03T04:28:13.337512+00:00",
         "tags": [
           "AI"
         ],
@@ -253,7 +130,7 @@
         "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
         "url": "https://www.qbitai.com/2026/07/463123.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/5c37f4b1eb629bb26589154b23b2bf21.webp",
-        "publish_time": "2026-08-02T04:21:38.345697+00:00",
+        "publish_time": "2026-08-03T04:28:13.336864+00:00",
         "tags": [
           "AI"
         ],
@@ -264,7 +141,7 @@
         "title": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
         "url": "https://www.qbitai.com/2026/07/463012.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/3c86e144f152a61b02b51648a0bcb7cc.webp",
-        "publish_time": "2026-08-02T04:21:38.344857+00:00",
+        "publish_time": "2026-08-03T04:28:13.336063+00:00",
         "tags": [
           "无问芯穹",
           "模型即服务",
@@ -277,7 +154,7 @@
         "title": "李飞飞的世界模型，终于开始训练机器人了",
         "url": "https://www.qbitai.com/2026/07/463217.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/4d3b6d680784ae92143b0f2c26b15b8b.webp",
-        "publish_time": "2026-08-02T04:21:38.343997+00:00",
+        "publish_time": "2026-08-03T04:28:13.335230+00:00",
         "tags": [
           "世界模型",
           "具身智能",
@@ -290,7 +167,7 @@
         "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
         "url": "https://www.qbitai.com/2026/07/463297.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/c6aeafed805b1c8d6b33588b2662a415.png",
-        "publish_time": "2026-08-02T04:21:38.343239+00:00",
+        "publish_time": "2026-08-03T04:28:13.334495+00:00",
         "tags": [
           "GPT",
           "RSI"
@@ -302,7 +179,7 @@
         "title": "终端市场的下一个增长点，高通押在了“个人AI”上",
         "url": "https://www.qbitai.com/2026/07/463204.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/图层-18-e1785398056372.png",
-        "publish_time": "2026-08-02T04:21:38.342581+00:00",
+        "publish_time": "2026-08-03T04:28:13.333844+00:00",
         "tags": [
           "高通"
         ],
@@ -313,7 +190,7 @@
         "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
         "url": "https://www.qbitai.com/2026/07/463433.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/5c99d48a9673d5ee0de1eab882eecfe2.webp",
-        "publish_time": "2026-08-02T04:21:38.341748+00:00",
+        "publish_time": "2026-08-03T04:28:13.333042+00:00",
         "tags": [
           "Claude Code",
           "Harness",
@@ -326,7 +203,7 @@
         "title": "GPT-5.6今起大降价，最大幅度80%！",
         "url": "https://www.qbitai.com/2026/07/463640.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/68ba288569f1a15b7906bfd919327404.webp",
-        "publish_time": "2026-08-02T04:21:38.340885+00:00",
+        "publish_time": "2026-08-03T04:28:13.332228+00:00",
         "tags": [
           "AI",
           "ChatGPT",
@@ -334,101 +211,239 @@
         ],
         "platform": "qbitai",
         "id": "b4cbc6af7305"
+      },
+      {
+        "title": "学习强国做了个AI社区，两周铺进68座城市",
+        "url": "https://www.qbitai.com/2026/07/463727.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/a79f39967d93ce2b870a950308250263.jpeg",
+        "publish_time": "2026-08-03T04:28:13.331577+00:00",
+        "tags": [
+          "学习强国"
+        ],
+        "platform": "qbitai",
+        "id": "171dd1abf8d5"
+      }
+    ],
+    "hackernews": [
+      {
+        "title": "Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App",
+        "url": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+        "discussion_url": "https://news.ycombinator.com/item?id=49149800",
+        "score": 37,
+        "comments_count": 9,
+        "publish_time": "2026-08-03T00:22:55+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 28.599999999999998,
+        "id": "f4470056639c"
+      },
+      {
+        "title": "The diabolical world of convincing AI thirst traps",
+        "url": "https://www.vox.com/culture/492604/ai-deepfake-gay-influencers-tiktok-thirst-traps",
+        "discussion_url": "https://news.ycombinator.com/item?id=49149429",
+        "score": 14,
+        "comments_count": 4,
+        "publish_time": "2026-08-02T23:24:09+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 10.999999999999998,
+        "id": "887f66af643e"
+      },
+      {
+        "title": "AI poster wins Ohio State Fair contest",
+        "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+        "discussion_url": "https://news.ycombinator.com/item?id=49149188",
+        "score": 124,
+        "comments_count": 147,
+        "publish_time": "2026-08-02T22:43:47+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 130.9,
+        "id": "c40c16feb6ee"
+      },
+      {
+        "title": "OpenAI’s amazing — but vastly oversold — new model Astra",
+        "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+        "discussion_url": "https://news.ycombinator.com/item?id=49148959",
+        "score": 23,
+        "comments_count": 8,
+        "publish_time": "2026-08-02T22:13:30+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 18.499999999999996,
+        "id": "707d9f21773c"
+      },
+      {
+        "title": "Show HN: Mu – Tools for Agents",
+        "url": "https://github.com/micro/mu",
+        "discussion_url": "https://news.ycombinator.com/item?id=49148899",
+        "score": 47,
+        "comments_count": 12,
+        "publish_time": "2026-08-02T22:06:34+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 36.5,
+        "id": "760fd88ff5ee"
+      },
+      {
+        "title": "Flock – Chilling Effects: Long Island's Emerging Open-Air Prison",
+        "url": "https://www.11971.com/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49148541",
+        "score": 47,
+        "comments_count": 17,
+        "publish_time": "2026-08-02T21:30:04+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 38.0,
+        "id": "daeb0808a667"
+      },
+      {
+        "title": "Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
+        "url": "https://github.com/paoloanzn/microcodex",
+        "discussion_url": "https://news.ycombinator.com/item?id=49147842",
+        "score": 17,
+        "comments_count": 8,
+        "publish_time": "2026-08-02T20:11:35+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 14.299999999999999,
+        "id": "e6e2b1e6141b"
+      },
+      {
+        "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+        "url": "https://frogs.vaguespac.es/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49147622",
+        "score": 122,
+        "comments_count": 56,
+        "publish_time": "2026-08-02T19:42:08+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 102.19999999999999,
+        "id": "b3f83f76f0ce"
+      },
+      {
+        "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+        "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+        "discussion_url": "https://news.ycombinator.com/item?id=49147435",
+        "score": 208,
+        "comments_count": 102,
+        "publish_time": "2026-08-02T19:19:24+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 176.2,
+        "id": "7898ead68ee0"
+      },
+      {
+        "title": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI",
+        "url": "https://flashblaze.xyz/posts/having-fun-with-omp-deepseek-luna-and-agy/",
+        "discussion_url": "https://news.ycombinator.com/item?id=49145463",
+        "score": 15,
+        "comments_count": 7,
+        "publish_time": "2026-08-02T15:23:59+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 12.6,
+        "id": "51cb680080e3"
       }
     ],
     "aiera": [
       {
-        "title": "Claude黑进三家真公司！Anthropic吓坏了",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106930/claude%e9%bb%91%e8%bf%9b%e4%b8%89%e5%ae%b6%e7%9c%9f%e5%85%ac%e5%8f%b8%ef%bc%81anthropic%e5%90%93%e5%9d%8f%e4%ba%86/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_4b458a65ff-768x328.jpg",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "全球首个单张消费级显卡实现“天级”长时推理，高德ABot-World-0登顶Hugging Face",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107077/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%e5%8d%95%e5%bc%a0%e6%b6%88%e8%b4%b9%e7%ba%a7%e6%98%be%e5%8d%a1%e5%ae%9e%e7%8e%b0%e5%a4%a9%e7%ba%a7%e9%95%bf%e6%97%b6%e6%8e%a8%e7%90%86%ef%bc%8c/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/img_f39a6ea1-768x1365.jpeg",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "19de0490acaa"
+        "id": "e081abc45a61"
       },
       {
-        "title": "突发，谷歌地球紧急撤回Nano Banana 2生图功能！",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106913/%e7%aa%81%e5%8f%91%ef%bc%8c%e8%b0%b7%e6%ad%8c%e5%9c%b0%e7%90%83%e7%b4%a7%e6%80%a5%e6%92%a4%e5%9b%9enano-banana-2%e7%94%9f%e5%9b%be%e5%8a%9f%e8%83%bd%ef%bc%81/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9652d1dbdf-768x327.jpg",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "车企工厂已用上！智澄AI机器人开启人形机器人真实打工时代",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107063/%e8%bd%a6%e4%bc%81%e5%b7%a5%e5%8e%82%e5%b7%b2%e7%94%a8%e4%b8%8a%ef%bc%81%e6%99%ba%e6%be%84ai%e6%9c%ba%e5%99%a8%e4%ba%ba%e5%bc%80%e5%90%af%e4%ba%ba%e5%bd%a2%e6%9c%ba%e5%99%a8%e4%ba%ba%e7%9c%9f%e5%ae%9e/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/image-768x513.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "0a4993f8b3fc"
+        "id": "fb24e275a29b"
       },
       {
-        "title": "奥特曼承认：高估了AI抢饭碗！黄仁勋：失业论完全搞反了",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106893/%e5%a5%a5%e7%89%b9%e6%9b%bc%e6%89%bf%e8%ae%a4%ef%bc%9a%e9%ab%98%e4%bc%b0%e4%ba%86ai%e6%8a%a2%e9%a5%ad%e7%a2%97%ef%bc%81%e9%bb%84%e4%bb%81%e5%8b%8b%ef%bc%9a%e5%a4%b1%e4%b8%9a%e8%ae%ba%e5%ae%8c%e5%85%a8/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_ad9fbdf45d-768x328.png",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "小扎炮轰AI末日论！超级智能要人人可用，少数人控制才危险",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107057/%e5%b0%8f%e6%89%8e%e7%82%ae%e8%bd%b0ai%e6%9c%ab%e6%97%a5%e8%ae%ba%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e8%a6%81%e4%ba%ba%e4%ba%ba%e5%8f%af%e7%94%a8%ef%bc%8c%e5%b0%91%e6%95%b0%e4%ba%ba%e6%8e%a7/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f6898d1f82-768x328.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "36681ad6bb25"
+        "id": "5e5bbe1d9a86"
       },
       {
-        "title": "硅谷百亿美金押注「AI造AI」，清华系创业团队反手把模型开源了！",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106883/%e7%a1%85%e8%b0%b7%e7%99%be%e4%ba%bf%e7%be%8e%e9%87%91%e6%8a%bc%e6%b3%a8%e3%80%8cai%e9%80%a0ai%e3%80%8d%ef%bc%8c%e6%b8%85%e5%8d%8e%e7%b3%bb%e5%88%9b%e4%b8%9a%e5%9b%a2%e9%98%9f%e5%8f%8d%e6%89%8b/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_c6d553efc6-768x327.jpg",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "突发！OpenAI下一代AI攻克10项菲尔兹奖级难题",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107046/%e7%aa%81%e5%8f%91%ef%bc%81openai%e4%b8%8b%e4%b8%80%e4%bb%a3ai%e6%94%bb%e5%85%8b10%e9%a1%b9%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e7%ba%a7%e9%9a%be%e9%a2%98/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_ab72373fd7-768x328.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "5c7d6deea2e3"
+        "id": "076506321e18"
       },
       {
-        "title": "OpenAI全球用户破10亿！全新模型Astra曝光，疑似GPT-6",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106867/openai%e5%85%a8%e7%90%83%e7%94%a8%e6%88%b7%e7%a0%b410%e4%ba%bf%ef%bc%81%e5%85%a8%e6%96%b0%e6%a8%a1%e5%9e%8bastra%e6%9b%9d%e5%85%89%ef%bc%8c%e7%96%91%e4%bc%bcgpt-6/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_e1e04d7655-768x327.jpg",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "从11.9%飙到95.95%！微软屠榜网安基准，真正王牌不是大模型",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107013/%e4%bb%8e11-9%e9%a3%99%e5%88%b095-95%ef%bc%81%e5%be%ae%e8%bd%af%e5%b1%a0%e6%a6%9c%e7%bd%91%e5%ae%89%e5%9f%ba%e5%87%86%ef%bc%8c%e7%9c%9f%e6%ad%a3%e7%8e%8b%e7%89%8c%e4%b8%8d%e6%98%af%e5%a4%a7%e6%a8%a1/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f2bb77fc01-768x328.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "cef553102577"
+        "id": "7a7249d69c1b"
       },
       {
-        "title": "超过1B参数都是浪费？多模态情感模型进入「小」时代 | ACM MM’26",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106846/%e8%b6%85%e8%bf%871b%e5%8f%82%e6%95%b0%e9%83%bd%e6%98%af%e6%b5%aa%e8%b4%b9%ef%bc%9f%e5%a4%9a%e6%a8%a1%e6%80%81%e6%83%85%e6%84%9f%e6%a8%a1%e5%9e%8b%e8%bf%9b%e5%85%a5%e3%80%8c%e5%b0%8f%e3%80%8d%e6%97%b6/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9700face94-768x329.png",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "￼Opus 5一夜手搓3A级游戏，狂烧6.9亿Token！",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/107001/opus-5%e4%b8%80%e5%a4%9c%e6%89%8b%e6%90%933a%e7%ba%a7%e6%b8%b8%e6%88%8f%ef%bc%8c%e7%8b%82%e7%83%a76-9%e4%ba%bftoken%ef%bc%81/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_a15a40e5fb-768x329.jpg",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "c3297adf6004"
+        "id": "ec461ccce768"
       },
       {
-        "title": "哈佛华人教授尹希，首谈GPT-5.6",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106835/%e5%93%88%e4%bd%9b%e5%8d%8e%e4%ba%ba%e6%95%99%e6%8e%88%e5%b0%b9%e5%b8%8c%ef%bc%8c%e9%a6%96%e8%b0%88gpt-5-6/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f9f70e0994-768x328.jpg",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "Opus 5黑化成最狠资本家！11次撕毁协议，暴赚1.1万美元",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/106984/opus-5%e9%bb%91%e5%8c%96%e6%88%90%e6%9c%80%e7%8b%a0%e8%b5%84%e6%9c%ac%e5%ae%b6%ef%bc%8111%e6%ac%a1%e6%92%95%e6%af%81%e5%8d%8f%e8%ae%ae%ef%bc%8c%e6%9a%b4%e8%b5%9a1-1%e4%b8%87%e7%be%8e%e5%85%83/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_728355f8cd-768x327.jpg",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "9c31d0e235e2"
+        "id": "58f3611b6d3a"
       },
       {
-        "title": "成为父亲后，奥特曼不再害怕AGI毁灭世界",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106814/%e6%88%90%e4%b8%ba%e7%88%b6%e4%ba%b2%e5%90%8e%ef%bc%8c%e5%a5%a5%e7%89%b9%e6%9b%bc%e4%b8%8d%e5%86%8d%e5%ae%b3%e6%80%95agi%e6%af%81%e7%81%ad%e4%b8%96%e7%95%8c/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_4addb7b32a-768x328.png",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "害怕AI灭绝人类，菲尔兹奖得主请假去了OpenAI！要用数学驯服AI",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/106974/%e5%ae%b3%e6%80%95ai%e7%81%ad%e7%bb%9d%e4%ba%ba%e7%b1%bb%ef%bc%8c%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e5%be%97%e4%b8%bb%e8%af%b7%e5%81%87%e5%8e%bb%e4%ba%86openai%ef%bc%81%e8%a6%81%e7%94%a8%e6%95%b0/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9c7cee302f-768x326.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "53203e3bd321"
+        "id": "fccd0dd9e710"
       },
       {
-        "title": "一夜之间，Anthropic内部都在搞「智能体图」！",
-        "url": "https://aiera.com.cn/2026/08/02/other/admin/106789/%e4%b8%80%e5%a4%9c%e4%b9%8b%e9%97%b4%ef%bc%8canthropic%e5%86%85%e9%83%a8%e9%83%bd%e5%9c%a8%e6%90%9e%e3%80%8c%e6%99%ba%e8%83%bd%e4%bd%93%e5%9b%be%e3%80%8d%ef%bc%81/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_bae3010a21-768x329.png",
-        "publish_time": "2026-08-02T00:00:00+00:00",
+        "title": "80亿参数记性不如U盘：他算出了大模型记忆天花板",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/106963/80%e4%ba%bf%e5%8f%82%e6%95%b0%e8%ae%b0%e6%80%a7%e4%b8%8d%e5%a6%82u%e7%9b%98%ef%bc%9a%e4%bb%96%e7%ae%97%e5%87%ba%e4%ba%86%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%ae%b0%e5%bf%86%e5%a4%a9%e8%8a%b1%e6%9d%bf/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_93da7e520d-768x329.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "1f5d37edec03"
+        "id": "e93f25a4706d"
       },
       {
-        "title": "ChatGPT突发封杀令！全球AI写手一夜断粮",
-        "url": "https://aiera.com.cn/2026/08/01/other/admin/106776/chatgpt%e7%aa%81%e5%8f%91%e5%b0%81%e6%9d%80%e4%bb%a4%ef%bc%81%e5%85%a8%e7%90%83ai%e5%86%99%e6%89%8b%e4%b8%80%e5%a4%9c%e6%96%ad%e7%b2%ae/",
-        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_b797df2c16-768x328.jpg",
-        "publish_time": "2026-08-01T00:00:00+00:00",
+        "title": "我们，已在奇点之中！",
+        "url": "https://aiera.com.cn/2026/08/03/other/admin/106948/%e6%88%91%e4%bb%ac%ef%bc%8c%e5%b7%b2%e5%9c%a8%e5%a5%87%e7%82%b9%e4%b9%8b%e4%b8%ad%ef%bc%81/",
+        "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_478e1d81bf-768x329.png",
+        "publish_time": "2026-08-03T00:00:00+00:00",
         "tags": [],
         "platform": "aiera",
-        "id": "7137fd3ddeac"
+        "id": "524ef1c4b9cd"
       }
     ],
     "techcrunch": [
+      {
+        "title": "Sam Altman and AI’s decel debate",
+        "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+        "publish_time": "2026-08-02T20:54:22+00:00",
+        "tags": [
+          "AI",
+          "Hugging Face",
+          "OpenAI",
+          "sam altman"
+        ],
+        "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+        "platform": "techcrunch",
+        "id": "f3e61abf3a2d"
+      },
       {
         "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
         "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
@@ -564,20 +579,6 @@
         "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
         "platform": "techcrunch",
         "id": "602ccf2fa545"
-      },
-      {
-        "title": "Siri AI could come with a paywall for power users",
-        "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-        "cover_url": "https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-1.42.13-PM.png?w=808",
-        "publish_time": "2026-07-31T16:08:18+00:00",
-        "tags": [
-          "AI",
-          "Apple",
-          "siri ai"
-        ],
-        "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-        "platform": "techcrunch",
-        "id": "707733d4fd38"
       }
     ],
     "huggingface": [
@@ -590,10 +591,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 1463 · 下载 156,173",
+        "summary": "TrendingScore 1658 · 下载 156,173",
         "platform": "huggingface",
-        "score": 1580,
-        "trending_score": 1463,
+        "score": 1809,
+        "trending_score": 1658,
         "downloads": 156173,
         "id": "7028fa4189ae"
       },
@@ -607,7 +608,7 @@
         ],
         "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
         "platform": "huggingface",
-        "score": 291,
+        "score": 293,
         "comments_count": 2,
         "id": "b60a71051d8c"
       },
@@ -621,7 +622,7 @@
         ],
         "summary": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the",
         "platform": "huggingface",
-        "score": 157,
+        "score": 160,
         "comments_count": 3,
         "id": "420e8d7dfe3b"
       },
@@ -635,7 +636,7 @@
         ],
         "summary": "GUI agents have the potential to become a general purpose executor over existing digital devices. To advance them toward real-world use, we envision agents that operate reliably on real devices, execute workflows across platforms, combine GUI interaction with CLI execution, complete long-horizon tasks, proactively initiate useful services, and autonomously improve their capabilities with minimal human effort. Guided by this vision, we present Qwen-UI-Agent, a real-world centric foundation GUI ag",
         "platform": "huggingface",
-        "score": 279,
+        "score": 288,
         "comments_count": 7,
         "id": "4640a79342c8"
       },
@@ -649,7 +650,7 @@
         ],
         "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifiable task environments with execution feedback (OpenMLE-Gym), operator learning (OpenMLE-RL), and long-horizon search (OpenMLE-Evo). On this stack we post-train Frontis-MA1 (35B) as a meta-evolution ag",
         "platform": "huggingface",
-        "score": 166,
+        "score": 168,
         "comments_count": 2,
         "id": "67cfbac2a85a"
       },
@@ -677,7 +678,7 @@
         ],
         "summary": "The fundamental goal of agentic visual reasoning is to improve the success rate of multimodal large language models (MLLMs) on complex tasks, rather than merely equipping them with a sophisticated yet inefficient reasoning paradigm. In this work, we rethink agentic visual reasoning through two key dimensions of tool use: Mode Adaptiveness (MA) and Tool Effect (TE). Mode Adaptiveness characterizes whether an MLLM can recognize when tools are truly necessary and invoke them accordingly, thereby av",
         "platform": "huggingface",
-        "score": 46,
+        "score": 48,
         "comments_count": 2,
         "id": "2aacf256616b"
       },
@@ -691,9 +692,23 @@
         ],
         "summary": "Retrieval-augmented generation (RAG) spans lexical and dense retrieval, graph-based indexing, and agentic search, but these paradigms are usually evaluated on different benchmarks at one corpus size, leaving their accuracy-cost scaling unclear. To bridge this gap, we present a controlled study that varies corpus size along 28 strictly nested tiers spanning roughly 450-fold, while holding questions and a fixed bedrock of relevant and adversarial documents unchanged. Under one reader model and one",
         "platform": "huggingface",
-        "score": 44,
+        "score": 46,
         "comments_count": 4,
         "id": "5c0665a97bee"
+      },
+      {
+        "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+        "url": "https://huggingface.co/papers/2607.28022",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28022.png",
+        "publish_time": "2026-07-29T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Large language model training in open-ended domains lacks verifiable rewards, making task preferences difficult to formalize as effective supervision. Contexts can convey such preferences, yet provide little additional supervision once distilled into the student, motivating contexts that evolve with student performance. However, directly using evolving contexts as in-training supervision results in an unstable distillation target and conflicting distributions, requiring mechanisms to stabilize t",
+        "platform": "huggingface",
+        "score": 41,
+        "comments_count": 2,
+        "id": "61fef13430fc"
       },
       {
         "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
@@ -733,7 +748,7 @@
         ],
         "summary": "Recent advances in AI agents have increasingly internalized native capabilities into their underlying foundation models, giving rise to multimodal foundation models and large reasoning models. However, agent memory is still primarily implemented through external modules, leaving the native memory capability largely unexplored. In this paper, we take a first step toward this direction by introducing memory foundation models, which empower foundation models with native memory capabilities. We form",
         "platform": "huggingface",
-        "score": 256,
+        "score": 259,
         "comments_count": 3,
         "id": "c75312f08bd1"
       },
@@ -761,7 +776,7 @@
         ],
         "summary": "Text-to-video models have achieved remarkable visual quality, yet they still struggle to generate physically consistent dynamics because the temporal evolution of a scene must be inferred implicitly from a highly compressed text prompt. Existing chain-of-thought approaches introduce intermediate plans or visual states, but these representations are typically non-executable or temporally sparse, limiting their ability to instantiate and control the complete spatiotemporal process. To address this",
         "platform": "huggingface",
-        "score": 64,
+        "score": 65,
         "comments_count": 2,
         "id": "e2f993d8e34f"
       },
@@ -848,71 +863,25 @@
         "score": 78,
         "comments_count": 3,
         "id": "43e0e5005ae5"
-      },
-      {
-        "title": "CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition",
-        "url": "https://huggingface.co/papers/2607.25294",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25294.png",
-        "publish_time": "2026-07-27T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Real-world tasks often require models to learn from task-specific context rather than relying only on pre-trained knowledge. While recent work has highlighted this capability as context learning, existing evaluations mainly focus on textual contexts. In many practical settings, however, the context to be learned from is multimodal: scientific findings are conveyed through figures and tables, financial indicators are scattered across converted reports, and spatial decisions depend on maps, scenes",
-        "platform": "huggingface",
-        "score": 44,
-        "comments_count": 2,
-        "id": "cc5cb3816870"
       }
     ]
   },
   "sorted_all": [
     {
-      "title": "8月2日 AI 速报 · 第 533 期",
-      "url": "https://radarai.top/updates/brief-20260802-1600",
+      "title": "8月3日 AI 速报 · 第 535 期",
+      "url": "https://radarai.top/updates/brief-20260803-0800",
       "cover_url": null,
-      "publish_time": "2026-08-02T16:00:00+00:00",
+      "publish_time": "2026-08-03T08:00:00+00:00",
       "tags": [],
       "summary": "",
       "platform": "radarai",
-      "id": "5ff63d94406a"
-    },
-    {
-      "title": "8月2日 AI 速报 · 第 532 期",
-      "url": "https://radarai.top/updates/brief-20260802-0800",
-      "cover_url": null,
-      "publish_time": "2026-08-02T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "c026b963ec73"
-    },
-    {
-      "title": "I don't recommend Tailwind CSS",
-      "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49141891",
-      "score": 124,
-      "comments_count": 134,
-      "publish_time": "2026-08-02T07:09:38+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 127.0,
-      "id": "8deed20dadcc"
-    },
-    {
-      "title": "这这这…翁荔光速回OpenAI上班了",
-      "url": "https://www.qbitai.com/2026/07/462947.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/a85fd1c36967ea2e6f8fb265583020e8.jpeg",
-      "publish_time": "2026-08-02T04:21:38.347690+00:00",
-      "tags": [
-        "翁荔"
-      ],
-      "platform": "qbitai",
-      "id": "f62b2e775e30"
+      "id": "f065911c3436"
     },
     {
       "title": "WorkBuddy重大升级，AI时代的Office来了",
       "url": "https://www.qbitai.com/2026/07/462979.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/0-1.png",
-      "publish_time": "2026-08-02T04:21:38.347011+00:00",
+      "publish_time": "2026-08-03T04:28:13.338146+00:00",
       "tags": [
         "WorkBuddy"
       ],
@@ -923,7 +892,7 @@
       "title": "一年连融三轮数亿元！字节+清华姚班，重构企业软件工程",
       "url": "https://www.qbitai.com/2026/07/463013.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/3b4236b73f53f1f1041aa70659b89400.webp",
-      "publish_time": "2026-08-02T04:21:38.346358+00:00",
+      "publish_time": "2026-08-03T04:28:13.337512+00:00",
       "tags": [
         "AI"
       ],
@@ -934,7 +903,7 @@
       "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
       "url": "https://www.qbitai.com/2026/07/463123.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/5c37f4b1eb629bb26589154b23b2bf21.webp",
-      "publish_time": "2026-08-02T04:21:38.345697+00:00",
+      "publish_time": "2026-08-03T04:28:13.336864+00:00",
       "tags": [
         "AI"
       ],
@@ -945,7 +914,7 @@
       "title": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
       "url": "https://www.qbitai.com/2026/07/463012.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/3c86e144f152a61b02b51648a0bcb7cc.webp",
-      "publish_time": "2026-08-02T04:21:38.344857+00:00",
+      "publish_time": "2026-08-03T04:28:13.336063+00:00",
       "tags": [
         "无问芯穹",
         "模型即服务",
@@ -958,7 +927,7 @@
       "title": "李飞飞的世界模型，终于开始训练机器人了",
       "url": "https://www.qbitai.com/2026/07/463217.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/4d3b6d680784ae92143b0f2c26b15b8b.webp",
-      "publish_time": "2026-08-02T04:21:38.343997+00:00",
+      "publish_time": "2026-08-03T04:28:13.335230+00:00",
       "tags": [
         "世界模型",
         "具身智能",
@@ -971,7 +940,7 @@
       "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
       "url": "https://www.qbitai.com/2026/07/463297.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/c6aeafed805b1c8d6b33588b2662a415.png",
-      "publish_time": "2026-08-02T04:21:38.343239+00:00",
+      "publish_time": "2026-08-03T04:28:13.334495+00:00",
       "tags": [
         "GPT",
         "RSI"
@@ -983,7 +952,7 @@
       "title": "终端市场的下一个增长点，高通押在了“个人AI”上",
       "url": "https://www.qbitai.com/2026/07/463204.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/图层-18-e1785398056372.png",
-      "publish_time": "2026-08-02T04:21:38.342581+00:00",
+      "publish_time": "2026-08-03T04:28:13.333844+00:00",
       "tags": [
         "高通"
       ],
@@ -994,7 +963,7 @@
       "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
       "url": "https://www.qbitai.com/2026/07/463433.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/5c99d48a9673d5ee0de1eab882eecfe2.webp",
-      "publish_time": "2026-08-02T04:21:38.341748+00:00",
+      "publish_time": "2026-08-03T04:28:13.333042+00:00",
       "tags": [
         "Claude Code",
         "Harness",
@@ -1007,7 +976,7 @@
       "title": "GPT-5.6今起大降价，最大幅度80%！",
       "url": "https://www.qbitai.com/2026/07/463640.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/68ba288569f1a15b7906bfd919327404.webp",
-      "publish_time": "2026-08-02T04:21:38.340885+00:00",
+      "publish_time": "2026-08-03T04:28:13.332228+00:00",
       "tags": [
         "AI",
         "ChatGPT",
@@ -1015,6 +984,262 @@
       ],
       "platform": "qbitai",
       "id": "b4cbc6af7305"
+    },
+    {
+      "title": "学习强国做了个AI社区，两周铺进68座城市",
+      "url": "https://www.qbitai.com/2026/07/463727.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/07/a79f39967d93ce2b870a950308250263.jpeg",
+      "publish_time": "2026-08-03T04:28:13.331577+00:00",
+      "tags": [
+        "学习强国"
+      ],
+      "platform": "qbitai",
+      "id": "171dd1abf8d5"
+    },
+    {
+      "title": "Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App",
+      "url": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+      "discussion_url": "https://news.ycombinator.com/item?id=49149800",
+      "score": 37,
+      "comments_count": 9,
+      "publish_time": "2026-08-03T00:22:55+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 28.599999999999998,
+      "id": "f4470056639c"
+    },
+    {
+      "title": "8月3日 AI 速报 · 第 534 期",
+      "url": "https://radarai.top/updates/brief-20260803-0000",
+      "cover_url": null,
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "061b3cc466a7"
+    },
+    {
+      "title": "全球首个单张消费级显卡实现“天级”长时推理，高德ABot-World-0登顶Hugging Face",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107077/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%e5%8d%95%e5%bc%a0%e6%b6%88%e8%b4%b9%e7%ba%a7%e6%98%be%e5%8d%a1%e5%ae%9e%e7%8e%b0%e5%a4%a9%e7%ba%a7%e9%95%bf%e6%97%b6%e6%8e%a8%e7%90%86%ef%bc%8c/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/img_f39a6ea1-768x1365.jpeg",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "e081abc45a61"
+    },
+    {
+      "title": "车企工厂已用上！智澄AI机器人开启人形机器人真实打工时代",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107063/%e8%bd%a6%e4%bc%81%e5%b7%a5%e5%8e%82%e5%b7%b2%e7%94%a8%e4%b8%8a%ef%bc%81%e6%99%ba%e6%be%84ai%e6%9c%ba%e5%99%a8%e4%ba%ba%e5%bc%80%e5%90%af%e4%ba%ba%e5%bd%a2%e6%9c%ba%e5%99%a8%e4%ba%ba%e7%9c%9f%e5%ae%9e/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/image-768x513.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "fb24e275a29b"
+    },
+    {
+      "title": "小扎炮轰AI末日论！超级智能要人人可用，少数人控制才危险",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107057/%e5%b0%8f%e6%89%8e%e7%82%ae%e8%bd%b0ai%e6%9c%ab%e6%97%a5%e8%ae%ba%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e8%a6%81%e4%ba%ba%e4%ba%ba%e5%8f%af%e7%94%a8%ef%bc%8c%e5%b0%91%e6%95%b0%e4%ba%ba%e6%8e%a7/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f6898d1f82-768x328.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "5e5bbe1d9a86"
+    },
+    {
+      "title": "突发！OpenAI下一代AI攻克10项菲尔兹奖级难题",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107046/%e7%aa%81%e5%8f%91%ef%bc%81openai%e4%b8%8b%e4%b8%80%e4%bb%a3ai%e6%94%bb%e5%85%8b10%e9%a1%b9%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e7%ba%a7%e9%9a%be%e9%a2%98/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_ab72373fd7-768x328.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "076506321e18"
+    },
+    {
+      "title": "从11.9%飙到95.95%！微软屠榜网安基准，真正王牌不是大模型",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107013/%e4%bb%8e11-9%e9%a3%99%e5%88%b095-95%ef%bc%81%e5%be%ae%e8%bd%af%e5%b1%a0%e6%a6%9c%e7%bd%91%e5%ae%89%e5%9f%ba%e5%87%86%ef%bc%8c%e7%9c%9f%e6%ad%a3%e7%8e%8b%e7%89%8c%e4%b8%8d%e6%98%af%e5%a4%a7%e6%a8%a1/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f2bb77fc01-768x328.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "7a7249d69c1b"
+    },
+    {
+      "title": "￼Opus 5一夜手搓3A级游戏，狂烧6.9亿Token！",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/107001/opus-5%e4%b8%80%e5%a4%9c%e6%89%8b%e6%90%933a%e7%ba%a7%e6%b8%b8%e6%88%8f%ef%bc%8c%e7%8b%82%e7%83%a76-9%e4%ba%bftoken%ef%bc%81/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_a15a40e5fb-768x329.jpg",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "ec461ccce768"
+    },
+    {
+      "title": "Opus 5黑化成最狠资本家！11次撕毁协议，暴赚1.1万美元",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/106984/opus-5%e9%bb%91%e5%8c%96%e6%88%90%e6%9c%80%e7%8b%a0%e8%b5%84%e6%9c%ac%e5%ae%b6%ef%bc%8111%e6%ac%a1%e6%92%95%e6%af%81%e5%8d%8f%e8%ae%ae%ef%bc%8c%e6%9a%b4%e8%b5%9a1-1%e4%b8%87%e7%be%8e%e5%85%83/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_728355f8cd-768x327.jpg",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "58f3611b6d3a"
+    },
+    {
+      "title": "害怕AI灭绝人类，菲尔兹奖得主请假去了OpenAI！要用数学驯服AI",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/106974/%e5%ae%b3%e6%80%95ai%e7%81%ad%e7%bb%9d%e4%ba%ba%e7%b1%bb%ef%bc%8c%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e5%be%97%e4%b8%bb%e8%af%b7%e5%81%87%e5%8e%bb%e4%ba%86openai%ef%bc%81%e8%a6%81%e7%94%a8%e6%95%b0/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9c7cee302f-768x326.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "fccd0dd9e710"
+    },
+    {
+      "title": "80亿参数记性不如U盘：他算出了大模型记忆天花板",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/106963/80%e4%ba%bf%e5%8f%82%e6%95%b0%e8%ae%b0%e6%80%a7%e4%b8%8d%e5%a6%82u%e7%9b%98%ef%bc%9a%e4%bb%96%e7%ae%97%e5%87%ba%e4%ba%86%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%ae%b0%e5%bf%86%e5%a4%a9%e8%8a%b1%e6%9d%bf/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_93da7e520d-768x329.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "e93f25a4706d"
+    },
+    {
+      "title": "我们，已在奇点之中！",
+      "url": "https://aiera.com.cn/2026/08/03/other/admin/106948/%e6%88%91%e4%bb%ac%ef%bc%8c%e5%b7%b2%e5%9c%a8%e5%a5%87%e7%82%b9%e4%b9%8b%e4%b8%ad%ef%bc%81/",
+      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_478e1d81bf-768x329.png",
+      "publish_time": "2026-08-03T00:00:00+00:00",
+      "tags": [],
+      "platform": "aiera",
+      "id": "524ef1c4b9cd"
+    },
+    {
+      "title": "The diabolical world of convincing AI thirst traps",
+      "url": "https://www.vox.com/culture/492604/ai-deepfake-gay-influencers-tiktok-thirst-traps",
+      "discussion_url": "https://news.ycombinator.com/item?id=49149429",
+      "score": 14,
+      "comments_count": 4,
+      "publish_time": "2026-08-02T23:24:09+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 10.999999999999998,
+      "id": "887f66af643e"
+    },
+    {
+      "title": "AI poster wins Ohio State Fair contest",
+      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "discussion_url": "https://news.ycombinator.com/item?id=49149188",
+      "score": 124,
+      "comments_count": 147,
+      "publish_time": "2026-08-02T22:43:47+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 130.9,
+      "id": "c40c16feb6ee"
+    },
+    {
+      "title": "OpenAI’s amazing — but vastly oversold — new model Astra",
+      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+      "discussion_url": "https://news.ycombinator.com/item?id=49148959",
+      "score": 23,
+      "comments_count": 8,
+      "publish_time": "2026-08-02T22:13:30+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 18.499999999999996,
+      "id": "707d9f21773c"
+    },
+    {
+      "title": "Show HN: Mu – Tools for Agents",
+      "url": "https://github.com/micro/mu",
+      "discussion_url": "https://news.ycombinator.com/item?id=49148899",
+      "score": 47,
+      "comments_count": 12,
+      "publish_time": "2026-08-02T22:06:34+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 36.5,
+      "id": "760fd88ff5ee"
+    },
+    {
+      "title": "Flock – Chilling Effects: Long Island's Emerging Open-Air Prison",
+      "url": "https://www.11971.com/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49148541",
+      "score": 47,
+      "comments_count": 17,
+      "publish_time": "2026-08-02T21:30:04+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 38.0,
+      "id": "daeb0808a667"
+    },
+    {
+      "title": "Sam Altman and AI’s decel debate",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "cover_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+      "publish_time": "2026-08-02T20:54:22+00:00",
+      "tags": [
+        "AI",
+        "Hugging Face",
+        "OpenAI",
+        "sam altman"
+      ],
+      "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "platform": "techcrunch",
+      "id": "f3e61abf3a2d"
+    },
+    {
+      "title": "Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
+      "url": "https://github.com/paoloanzn/microcodex",
+      "discussion_url": "https://news.ycombinator.com/item?id=49147842",
+      "score": 17,
+      "comments_count": 8,
+      "publish_time": "2026-08-02T20:11:35+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 14.299999999999999,
+      "id": "e6e2b1e6141b"
+    },
+    {
+      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
+      "url": "https://frogs.vaguespac.es/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49147622",
+      "score": 122,
+      "comments_count": 56,
+      "publish_time": "2026-08-02T19:42:08+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 102.19999999999999,
+      "id": "b3f83f76f0ce"
+    },
+    {
+      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "discussion_url": "https://news.ycombinator.com/item?id=49147435",
+      "score": 208,
+      "comments_count": 102,
+      "publish_time": "2026-08-02T19:19:24+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 176.2,
+      "id": "7898ead68ee0"
+    },
+    {
+      "title": "8月2日 AI 速报 · 第 533 期",
+      "url": "https://radarai.top/updates/brief-20260802-1600",
+      "cover_url": null,
+      "publish_time": "2026-08-02T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "5ff63d94406a"
+    },
+    {
+      "title": "Having fun with oh my pi, DeepSeek-V4-Flash, GPT-5.6 Luna and Antigravity CLI",
+      "url": "https://flashblaze.xyz/posts/having-fun-with-omp-deepseek-luna-and-agy/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49145463",
+      "score": 15,
+      "comments_count": 7,
+      "publish_time": "2026-08-02T15:23:59+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 12.6,
+      "id": "51cb680080e3"
+    },
+    {
+      "title": "8月2日 AI 速报 · 第 532 期",
+      "url": "https://radarai.top/updates/brief-20260802-0800",
+      "cover_url": null,
+      "publish_time": "2026-08-02T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "c026b963ec73"
     },
     {
       "title": "8月2日 AI 速报 · 第 531 期",
@@ -1025,98 +1250,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "ce4f20fee561"
-    },
-    {
-      "title": "Claude黑进三家真公司！Anthropic吓坏了",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106930/claude%e9%bb%91%e8%bf%9b%e4%b8%89%e5%ae%b6%e7%9c%9f%e5%85%ac%e5%8f%b8%ef%bc%81anthropic%e5%90%93%e5%9d%8f%e4%ba%86/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_4b458a65ff-768x328.jpg",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "19de0490acaa"
-    },
-    {
-      "title": "突发，谷歌地球紧急撤回Nano Banana 2生图功能！",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106913/%e7%aa%81%e5%8f%91%ef%bc%8c%e8%b0%b7%e6%ad%8c%e5%9c%b0%e7%90%83%e7%b4%a7%e6%80%a5%e6%92%a4%e5%9b%9enano-banana-2%e7%94%9f%e5%9b%be%e5%8a%9f%e8%83%bd%ef%bc%81/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9652d1dbdf-768x327.jpg",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "0a4993f8b3fc"
-    },
-    {
-      "title": "奥特曼承认：高估了AI抢饭碗！黄仁勋：失业论完全搞反了",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106893/%e5%a5%a5%e7%89%b9%e6%9b%bc%e6%89%bf%e8%ae%a4%ef%bc%9a%e9%ab%98%e4%bc%b0%e4%ba%86ai%e6%8a%a2%e9%a5%ad%e7%a2%97%ef%bc%81%e9%bb%84%e4%bb%81%e5%8b%8b%ef%bc%9a%e5%a4%b1%e4%b8%9a%e8%ae%ba%e5%ae%8c%e5%85%a8/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_ad9fbdf45d-768x328.png",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "36681ad6bb25"
-    },
-    {
-      "title": "硅谷百亿美金押注「AI造AI」，清华系创业团队反手把模型开源了！",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106883/%e7%a1%85%e8%b0%b7%e7%99%be%e4%ba%bf%e7%be%8e%e9%87%91%e6%8a%bc%e6%b3%a8%e3%80%8cai%e9%80%a0ai%e3%80%8d%ef%bc%8c%e6%b8%85%e5%8d%8e%e7%b3%bb%e5%88%9b%e4%b8%9a%e5%9b%a2%e9%98%9f%e5%8f%8d%e6%89%8b/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_c6d553efc6-768x327.jpg",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "5c7d6deea2e3"
-    },
-    {
-      "title": "OpenAI全球用户破10亿！全新模型Astra曝光，疑似GPT-6",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106867/openai%e5%85%a8%e7%90%83%e7%94%a8%e6%88%b7%e7%a0%b410%e4%ba%bf%ef%bc%81%e5%85%a8%e6%96%b0%e6%a8%a1%e5%9e%8bastra%e6%9b%9d%e5%85%89%ef%bc%8c%e7%96%91%e4%bc%bcgpt-6/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_e1e04d7655-768x327.jpg",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "cef553102577"
-    },
-    {
-      "title": "超过1B参数都是浪费？多模态情感模型进入「小」时代 | ACM MM’26",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106846/%e8%b6%85%e8%bf%871b%e5%8f%82%e6%95%b0%e9%83%bd%e6%98%af%e6%b5%aa%e8%b4%b9%ef%bc%9f%e5%a4%9a%e6%a8%a1%e6%80%81%e6%83%85%e6%84%9f%e6%a8%a1%e5%9e%8b%e8%bf%9b%e5%85%a5%e3%80%8c%e5%b0%8f%e3%80%8d%e6%97%b6/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_9700face94-768x329.png",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "c3297adf6004"
-    },
-    {
-      "title": "哈佛华人教授尹希，首谈GPT-5.6",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106835/%e5%93%88%e4%bd%9b%e5%8d%8e%e4%ba%ba%e6%95%99%e6%8e%88%e5%b0%b9%e5%b8%8c%ef%bc%8c%e9%a6%96%e8%b0%88gpt-5-6/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_f9f70e0994-768x328.jpg",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "9c31d0e235e2"
-    },
-    {
-      "title": "成为父亲后，奥特曼不再害怕AGI毁灭世界",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106814/%e6%88%90%e4%b8%ba%e7%88%b6%e4%ba%b2%e5%90%8e%ef%bc%8c%e5%a5%a5%e7%89%b9%e6%9b%bc%e4%b8%8d%e5%86%8d%e5%ae%b3%e6%80%95agi%e6%af%81%e7%81%ad%e4%b8%96%e7%95%8c/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_4addb7b32a-768x328.png",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "53203e3bd321"
-    },
-    {
-      "title": "一夜之间，Anthropic内部都在搞「智能体图」！",
-      "url": "https://aiera.com.cn/2026/08/02/other/admin/106789/%e4%b8%80%e5%a4%9c%e4%b9%8b%e9%97%b4%ef%bc%8canthropic%e5%86%85%e9%83%a8%e9%83%bd%e5%9c%a8%e6%90%9e%e3%80%8c%e6%99%ba%e8%83%bd%e4%bd%93%e5%9b%be%e3%80%8d%ef%bc%81/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_bae3010a21-768x329.png",
-      "publish_time": "2026-08-02T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "1f5d37edec03"
-    },
-    {
-      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-      "discussion_url": "https://news.ycombinator.com/item?id=49139102",
-      "score": 313,
-      "comments_count": 332,
-      "publish_time": "2026-08-01T22:25:12+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 318.7,
-      "id": "5f3a2c46a3fa"
     },
     {
       "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
@@ -1162,17 +1295,6 @@
       "id": "4594122eb0f6"
     },
     {
-      "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
-      "url": "https://kaisel.dev/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49135985",
-      "score": 56,
-      "comments_count": 9,
-      "publish_time": "2026-08-01T16:45:40+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 41.9,
-      "id": "5a4732d5d111"
-    },
-    {
       "title": "8月1日 AI 速报 · 第 530 期",
       "url": "https://radarai.top/updates/brief-20260801-1600",
       "cover_url": null,
@@ -1198,17 +1320,6 @@
       "id": "27c448778b82"
     },
     {
-      "title": "Explorative modeling: Train on the best of K guesses",
-      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49135245",
-      "score": 107,
-      "comments_count": 26,
-      "publish_time": "2026-08-01T15:23:15+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 82.69999999999999,
-      "id": "e49e4851f09e"
-    },
-    {
       "title": "8月1日 AI 速报 · 第 529 期",
       "url": "https://radarai.top/updates/brief-20260801-0800",
       "cover_url": null,
@@ -1219,28 +1330,6 @@
       "id": "d295c5b0a16a"
     },
     {
-      "title": "AI doesn't generate working products, that's still your job",
-      "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49132130",
-      "score": 209,
-      "comments_count": 190,
-      "publish_time": "2026-08-01T07:52:10+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 203.29999999999998,
-      "id": "c5cec5c80472"
-    },
-    {
-      "title": "Flint: A Visualization Language for the AI Era",
-      "url": "https://microsoft.github.io/flint-chart/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49130604",
-      "score": 265,
-      "comments_count": 68,
-      "publish_time": "2026-08-01T02:45:09+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 205.9,
-      "id": "dadd3755bb01"
-    },
-    {
       "title": "8月1日 AI 速报 · 第 528 期",
       "url": "https://radarai.top/updates/brief-20260801-0000",
       "cover_url": null,
@@ -1249,15 +1338,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "593fd3fc3c81"
-    },
-    {
-      "title": "ChatGPT突发封杀令！全球AI写手一夜断粮",
-      "url": "https://aiera.com.cn/2026/08/01/other/admin/106776/chatgpt%e7%aa%81%e5%8f%91%e5%b0%81%e6%9d%80%e4%bb%a4%ef%bc%81%e5%85%a8%e7%90%83ai%e5%86%99%e6%89%8b%e4%b8%80%e5%a4%9c%e6%96%ad%e7%b2%ae/",
-      "cover_url": "https://aiera.com.cn/wp-content/uploads/2026/08/aiera_img_b797df2c16-768x328.jpg",
-      "publish_time": "2026-08-01T00:00:00+00:00",
-      "tags": [],
-      "platform": "aiera",
-      "id": "7137fd3ddeac"
     },
     {
       "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -1306,39 +1386,6 @@
       "id": "30df5dd4a976"
     },
     {
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "discussion_url": "https://news.ycombinator.com/item?id=49127306",
-      "score": 563,
-      "comments_count": 211,
-      "publish_time": "2026-07-31T19:03:45+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 457.4,
-      "id": "b324eb81562e"
-    },
-    {
-      "title": "Golang proposal: container/: generic collection types",
-      "url": "https://github.com/golang/go/issues/80590",
-      "discussion_url": "https://news.ycombinator.com/item?id=49127031",
-      "score": 184,
-      "comments_count": 186,
-      "publish_time": "2026-07-31T18:39:47+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 184.59999999999997,
-      "id": "e5bf9ea0949b"
-    },
-    {
-      "title": "qm – Multiplayer agent harness for work",
-      "url": "https://github.com/yc-software/qm",
-      "discussion_url": "https://news.ycombinator.com/item?id=49126604",
-      "score": 657,
-      "comments_count": 155,
-      "publish_time": "2026-07-31T18:04:58+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 506.4,
-      "id": "e232a00d2fb8"
-    },
-    {
       "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
       "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
       "cover_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
@@ -1371,20 +1418,6 @@
       "id": "602ccf2fa545"
     },
     {
-      "title": "Siri AI could come with a paywall for power users",
-      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-      "cover_url": "https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-1.42.13-PM.png?w=808",
-      "publish_time": "2026-07-31T16:08:18+00:00",
-      "tags": [
-        "AI",
-        "Apple",
-        "siri ai"
-      ],
-      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-      "platform": "techcrunch",
-      "id": "707733d4fd38"
-    },
-    {
       "title": "7月31日 AI 速报 · 第 527 期",
       "url": "https://radarai.top/updates/brief-20260731-1600",
       "cover_url": null,
@@ -1393,17 +1426,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "47c62b7c0b58"
-    },
-    {
-      "title": "Is AI reasoning right for the wrong reasons?",
-      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
-      "discussion_url": "https://news.ycombinator.com/item?id=49124358",
-      "score": 208,
-      "comments_count": 235,
-      "publish_time": "2026-07-31T15:29:39+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 216.1,
-      "id": "7fc79f301aa4"
     },
     {
       "title": "每周 AI 热点 · 2026-07-31",
@@ -1416,16 +1438,6 @@
       "id": "f93e3fab9c47"
     },
     {
-      "title": "7月31日 AI 速报 · 第 526 期",
-      "url": "https://radarai.top/updates/brief-20260731-0800",
-      "cover_url": null,
-      "publish_time": "2026-07-31T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "c622911d8c21"
-    },
-    {
       "title": "[模型] deepseek-ai/DeepSeek-V4-Flash-0731",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "cover_url": null,
@@ -1434,22 +1446,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 1463 · 下载 156,173",
+      "summary": "TrendingScore 1658 · 下载 156,173",
       "platform": "huggingface",
-      "score": 1580,
-      "trending_score": 1463,
+      "score": 1809,
+      "trending_score": 1658,
       "downloads": 156173,
       "id": "7028fa4189ae"
-    },
-    {
-      "title": "7月31日 AI 速报 · 第 525 期",
-      "url": "https://radarai.top/updates/brief-20260731-0000",
-      "cover_url": null,
-      "publish_time": "2026-07-31T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "77718655753e"
     },
     {
       "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
@@ -1461,7 +1463,7 @@
       ],
       "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
       "platform": "huggingface",
-      "score": 291,
+      "score": 293,
       "comments_count": 2,
       "id": "b60a71051d8c"
     },
@@ -1475,7 +1477,7 @@
       ],
       "summary": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the",
       "platform": "huggingface",
-      "score": 157,
+      "score": 160,
       "comments_count": 3,
       "id": "420e8d7dfe3b"
     },
@@ -1489,7 +1491,7 @@
       ],
       "summary": "GUI agents have the potential to become a general purpose executor over existing digital devices. To advance them toward real-world use, we envision agents that operate reliably on real devices, execute workflows across platforms, combine GUI interaction with CLI execution, complete long-horizon tasks, proactively initiate useful services, and autonomously improve their capabilities with minimal human effort. Guided by this vision, we present Qwen-UI-Agent, a real-world centric foundation GUI ag",
       "platform": "huggingface",
-      "score": 279,
+      "score": 288,
       "comments_count": 7,
       "id": "4640a79342c8"
     },
@@ -1503,7 +1505,7 @@
       ],
       "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifiable task environments with execution feedback (OpenMLE-Gym), operator learning (OpenMLE-RL), and long-horizon search (OpenMLE-Evo). On this stack we post-train Frontis-MA1 (35B) as a meta-evolution ag",
       "platform": "huggingface",
-      "score": 166,
+      "score": 168,
       "comments_count": 2,
       "id": "67cfbac2a85a"
     },
@@ -1531,7 +1533,7 @@
       ],
       "summary": "The fundamental goal of agentic visual reasoning is to improve the success rate of multimodal large language models (MLLMs) on complex tasks, rather than merely equipping them with a sophisticated yet inefficient reasoning paradigm. In this work, we rethink agentic visual reasoning through two key dimensions of tool use: Mode Adaptiveness (MA) and Tool Effect (TE). Mode Adaptiveness characterizes whether an MLLM can recognize when tools are truly necessary and invoke them accordingly, thereby av",
       "platform": "huggingface",
-      "score": 46,
+      "score": 48,
       "comments_count": 2,
       "id": "2aacf256616b"
     },
@@ -1545,9 +1547,23 @@
       ],
       "summary": "Retrieval-augmented generation (RAG) spans lexical and dense retrieval, graph-based indexing, and agentic search, but these paradigms are usually evaluated on different benchmarks at one corpus size, leaving their accuracy-cost scaling unclear. To bridge this gap, we present a controlled study that varies corpus size along 28 strictly nested tiers spanning roughly 450-fold, while holding questions and a fixed bedrock of relevant and adversarial documents unchanged. Under one reader model and one",
       "platform": "huggingface",
-      "score": 44,
+      "score": 46,
       "comments_count": 4,
       "id": "5c0665a97bee"
+    },
+    {
+      "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+      "url": "https://huggingface.co/papers/2607.28022",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.28022.png",
+      "publish_time": "2026-07-29T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Large language model training in open-ended domains lacks verifiable rewards, making task preferences difficult to formalize as effective supervision. Contexts can convey such preferences, yet provide little additional supervision once distilled into the student, motivating contexts that evolve with student performance. However, directly using evolving contexts as in-training supervision results in an unstable distillation target and conflicting distributions, requiring mechanisms to stabilize t",
+      "platform": "huggingface",
+      "score": 41,
+      "comments_count": 2,
+      "id": "61fef13430fc"
     },
     {
       "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
@@ -1587,7 +1603,7 @@
       ],
       "summary": "Recent advances in AI agents have increasingly internalized native capabilities into their underlying foundation models, giving rise to multimodal foundation models and large reasoning models. However, agent memory is still primarily implemented through external modules, leaving the native memory capability largely unexplored. In this paper, we take a first step toward this direction by introducing memory foundation models, which empower foundation models with native memory capabilities. We form",
       "platform": "huggingface",
-      "score": 256,
+      "score": 259,
       "comments_count": 3,
       "id": "c75312f08bd1"
     },
@@ -1615,7 +1631,7 @@
       ],
       "summary": "Text-to-video models have achieved remarkable visual quality, yet they still struggle to generate physically consistent dynamics because the temporal evolution of a scene must be inferred implicitly from a highly compressed text prompt. Existing chain-of-thought approaches introduce intermediate plans or visual states, but these representations are typically non-executable or temporally sparse, limiting their ability to instantiate and control the complete spatiotemporal process. To address this",
       "platform": "huggingface",
-      "score": 64,
+      "score": 65,
       "comments_count": 2,
       "id": "e2f993d8e34f"
     },
@@ -1702,27 +1718,13 @@
       "score": 78,
       "comments_count": 3,
       "id": "43e0e5005ae5"
-    },
-    {
-      "title": "CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition",
-      "url": "https://huggingface.co/papers/2607.25294",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.25294.png",
-      "publish_time": "2026-07-27T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Real-world tasks often require models to learn from task-specific context rather than relying only on pre-trained knowledge. While recent work has highlighted this capability as context learning, existing evaluations mainly focus on textual contexts. In many practical settings, however, the context to be learned from is multimodal: scientific findings are conveyed through figures and tables, financial indicators are scattered across converted reports, and spatial decisions depend on maps, scenes",
-      "platform": "huggingface",
-      "score": 44,
-      "comments_count": 2,
-      "id": "cc5cb3816870"
     }
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 83.3,
-      "total_fail_rate": 16.7,
-      "avg_response_time": 2.4,
+      "total_success_rate": 100.0,
+      "total_fail_rate": 0.0,
+      "avg_response_time": 3.2,
       "cover_success_rate": 70.0
     },
     "platforms": [
@@ -1731,87 +1733,87 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T13:15:28.340986+00:00"
+        "last_crawl": "2026-08-03T04:28:11.359582+00:00"
       },
       {
         "platform": "techcrunch",
         "name": "TechCrunch",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T13:15:29.017593+00:00"
+        "last_crawl": "2026-08-03T04:28:11.954624+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
-        "status": "error",
-        "item_count": 0,
-        "last_crawl": "2026-08-02T13:15:40.885726+00:00"
+        "status": "online",
+        "item_count": 10,
+        "last_crawl": "2026-08-03T04:28:13.338731+00:00"
       },
       {
         "platform": "aiera",
         "name": "新智元",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T13:15:43.605615+00:00"
+        "last_crawl": "2026-08-03T04:28:15.895674+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-02T13:15:45.127822+00:00"
+        "last_crawl": "2026-08-03T04:28:17.274006+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-02T13:15:45.286810+00:00"
+        "last_crawl": "2026-08-03T04:28:17.472930+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-02T13:15:28.340991+00:00",
+        "timestamp": "2026-08-03T04:28:11.359588+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 7.023646
+        "latency": 12.842154
       },
       {
-        "timestamp": "2026-08-02T13:15:29.017607+00:00",
+        "timestamp": "2026-08-03T04:28:11.954641+00:00",
         "platform": "techcrunch",
         "status": "success",
         "items_collected": 10,
-        "latency": 0.676607
+        "latency": 0.595045
       },
       {
-        "timestamp": "2026-08-02T13:15:40.885741+00:00",
+        "timestamp": "2026-08-03T04:28:13.338734+00:00",
         "platform": "qbitai",
-        "status": "error",
-        "error_message": "",
-        "latency": 11.868127
+        "status": "success",
+        "items_collected": 10,
+        "latency": 1.384084
       },
       {
-        "timestamp": "2026-08-02T13:15:43.605621+00:00",
+        "timestamp": "2026-08-03T04:28:15.895679+00:00",
         "platform": "aiera",
         "status": "success",
         "items_collected": 10,
-        "latency": 2.718984
+        "latency": 2.556938
       },
       {
-        "timestamp": "2026-08-02T13:15:45.127826+00:00",
+        "timestamp": "2026-08-03T04:28:17.274012+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.522198
+        "latency": 1.378325
       },
       {
-        "timestamp": "2026-08-02T13:15:45.286821+00:00",
+        "timestamp": "2026-08-03T04:28:17.472945+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.158988
+        "latency": 0.198923
       }
     ]
   }
