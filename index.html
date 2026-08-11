@@ -177,6 +177,7 @@
         /* ============ 栏目 Tab（下划线式文本 Tab） ============ */
         .section-tabs {
             display: flex;
+            align-items: center;
             gap: var(--sp-5);
             overflow-x: auto;
             scrollbar-width: none;
@@ -184,6 +185,12 @@
             margin-bottom: var(--sp-6);
         }
         .section-tabs::-webkit-scrollbar { display: none; }
+
+        .section-tab-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
 
         .section-tab {
             padding: var(--sp-2) 0;
@@ -207,6 +214,25 @@
             margin-left: var(--sp-1);
         }
         .section-tab.active .count { color: var(--accent); }
+
+        .tab-external-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            border-radius: var(--r-sm);
+            color: var(--ink-quaternary);
+            font-size: 12px;
+            line-height: 1;
+            text-decoration: none;
+            transition: background-color 150ms ease, color 150ms ease;
+            flex-shrink: 0;
+        }
+        .tab-external-link:hover {
+            background: var(--fill-hover);
+            color: var(--ink-secondary);
+        }
 
         /* HuggingFace 子标签 */
         .sub-tabs {
@@ -486,12 +512,30 @@
         <div class="page active" id="news-page">
             <nav class="section-tabs" id="platformTabs" aria-label="平台栏目">
                 <button class="section-tab active" data-platform="all">头版<span class="count">0</span></button>
-                <button class="section-tab" data-platform="hackernews">Hacker News<span class="count">0</span></button>
-                <button class="section-tab" data-platform="techcrunch">TechCrunch<span class="count">0</span></button>
-                <button class="section-tab" data-platform="qbitai">量子位<span class="count">0</span></button>
-                <button class="section-tab" data-platform="aiera">新智元<span class="count">0</span></button>
-                <button class="section-tab" data-platform="radarai">RadarAI<span class="count">0</span></button>
-                <button class="section-tab" data-platform="huggingface">HuggingFace<span class="count">0</span></button>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="radarai">RadarAI<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://radarai.top/updates/" target="_blank" rel="noopener" title="访问 RadarAI 官网">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="hackernews">Hacker News<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://news.ycombinator.com/" target="_blank" rel="noopener" title="访问 Hacker News 官网">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="techcrunch">TechCrunch<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://techcrunch.com/category/artificial-intelligence/" target="_blank" rel="noopener" title="访问 TechCrunch AI 分类">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="qbitai">量子位<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://www.qbitai.com/" target="_blank" rel="noopener" title="访问量子位官网">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="aiera">新智元<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://www.aiera.com.cn/" target="_blank" rel="noopener" title="访问新智元官网">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="huggingface">HuggingFace<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://huggingface.co/" target="_blank" rel="noopener" title="访问 HuggingFace 官网">🔗</a>
+                </div>
             </nav>
 
             <nav class="sub-tabs" id="huggingfaceSubTabs" aria-label="HuggingFace 子栏目">
