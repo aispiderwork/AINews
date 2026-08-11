@@ -8,20 +8,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from crawlers.hackernews import crawl_hackernews
-from crawlers.techcrunch import crawl_techcrunch
 from crawlers.qbitai import crawl_qbitai
-from crawlers.aiera import crawl_aiera
 from crawlers.radarai import crawl_radarai
 from crawlers.huggingface import crawl_huggingface
+from crawlers.bestblogs import crawl_bestblogs
 from crawlers.utils.merge import merge_and_deduplicate
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
-    'techcrunch': {'name': 'TechCrunch', 'func': crawl_techcrunch, 'priority': 2},
-    'qbitai': {'name': '量子位', 'func': crawl_qbitai, 'priority': 3},
-    'aiera': {'name': '新智元', 'func': crawl_aiera, 'priority': 4},
-    'radarai': {'name': 'RadarAI', 'func': crawl_radarai, 'priority': 5},
-    'huggingface': {'name': 'HuggingFace', 'func': crawl_huggingface, 'priority': 6},
+    'qbitai': {'name': '量子位', 'func': crawl_qbitai, 'priority': 2},
+    'radarai': {'name': 'RadarAI', 'func': crawl_radarai, 'priority': 3},
+    'bestblogs': {'name': 'BestBlogs', 'func': crawl_bestblogs, 'priority': 4},
+    'huggingface': {'name': 'HuggingFace', 'func': crawl_huggingface, 'priority': 5},
 }
 
 OUTPUT_DIR = Path('data')

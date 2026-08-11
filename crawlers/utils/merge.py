@@ -13,8 +13,9 @@ TOP_N = 10  # 每个平台保留Top10
 # 部分平台聚合多个数据源，允许保留更多条数
 PLATFORM_TOP_N = {
     'huggingface': 20,  # 每日论文 10 + Trending 模型 10
+    'bestblogs': 20,    # 早报 + 精选两个来源合并后保留最多 20
 }
-REMOVED_PLATFORMS = {'googleai'}  # 已下线的平台，旧数据不再合并
+REMOVED_PLATFORMS = {'googleai', 'techcrunch', 'aiera'}  # 已下线的平台，旧数据不再合并
 
 
 def _parse_time(article: Dict) -> datetime:
@@ -79,6 +80,12 @@ def _is_hf_model(article: Dict) -> bool:
     return '模型' in tags
 
 
+def _is_bb_featured(article: Dict) -> bool:
+    """判断是否为 BestBlogs 精选内容（按热度/质量推荐，不受 7 天时间窗限制）"""
+    tags = article.get('tags') or []
+    return '精选' in tags
+
+
 def filter_by_time_and_topn(articles: List[Dict], top_n: int = TOP_N, platform: str = '') -> List[Dict]:
     """
     筛选7天内的文章，并按发布时间保留Top N
@@ -93,10 +100,11 @@ def filter_by_time_and_topn(articles: List[Dict], top_n: int = TOP_N, platform: 
     Returns:
         筛选后的文章列表
     """
-    # 筛选7天内的文章；HuggingFace 模型跳过时间窗
+    # 筛选7天内的文章；HuggingFace 模型 / BestBlogs 精选跳过时间窗
     recent_articles = [
         article for article in articles
         if (platform == 'huggingface' and _is_hf_model(article))
+        or (platform == 'bestblogs' and _is_bb_featured(article))
         or is_within_days(article.get('publish_time', ''))
     ]
     
@@ -144,6 +152,7 @@ def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dic
             )
             url_key = article.get('url', '')
             if url_key:
+                # 同一 URL 若已存在，保留较新的一条（旧数据倒序遍历，后覆盖前）
                 seen_urls[url_key] = (platform, len(merged[platform]))
             merged[platform].append(article)
     
@@ -169,14 +178,19 @@ def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dic
                 if old_platform == platform:
                     merged[platform][old_index] = article
                 else:
-                    # URL相同但平台不同，保留新数据
-                    merged[old_platform].pop(old_index)
+                    # URL相同但平台不同，保留新数据，将旧条目置空标记删除
+                    # （不用 pop，避免后续索引错位）
+                    merged[old_platform][old_index] = {}
                     merged[platform].append(article)
                     seen_urls[url_key] = (platform, len(merged[platform]) - 1)
             else:
                 # 新数据
                 seen_urls[url_key] = (platform, len(merged[platform]))
                 merged[platform].append(article)
+    
+    # 过滤被标记删除的空条目
+    for platform in merged:
+        merged[platform] = [a for a in merged[platform] if a]
     
     total_before_filter = sum(len(v) for v in merged.values())
     print(f"[Merge] 合并后共 {total_before_filter} 条（去重后）")

@@ -517,20 +517,16 @@
                     <a class="tab-external-link" href="https://radarai.top/updates/" target="_blank" rel="noopener" title="访问 RadarAI 官网">🔗</a>
                 </div>
                 <div class="section-tab-wrapper">
+                    <button class="section-tab" data-platform="bestblogs">BestBlogs<span class="count">0</span></button>
+                    <a class="tab-external-link" href="https://www.bestblogs.dev/reading/brief" target="_blank" rel="noopener" title="访问 BestBlogs 官网">🔗</a>
+                </div>
+                <div class="section-tab-wrapper">
                     <button class="section-tab" data-platform="hackernews">Hacker News<span class="count">0</span></button>
                     <a class="tab-external-link" href="https://news.ycombinator.com/" target="_blank" rel="noopener" title="访问 Hacker News 官网">🔗</a>
                 </div>
                 <div class="section-tab-wrapper">
-                    <button class="section-tab" data-platform="techcrunch">TechCrunch<span class="count">0</span></button>
-                    <a class="tab-external-link" href="https://techcrunch.com/category/artificial-intelligence/" target="_blank" rel="noopener" title="访问 TechCrunch AI 分类">🔗</a>
-                </div>
-                <div class="section-tab-wrapper">
                     <button class="section-tab" data-platform="qbitai">量子位<span class="count">0</span></button>
                     <a class="tab-external-link" href="https://www.qbitai.com/" target="_blank" rel="noopener" title="访问量子位官网">🔗</a>
-                </div>
-                <div class="section-tab-wrapper">
-                    <button class="section-tab" data-platform="aiera">新智元<span class="count">0</span></button>
-                    <a class="tab-external-link" href="https://www.aiera.com.cn/" target="_blank" rel="noopener" title="访问新智元官网">🔗</a>
                 </div>
                 <div class="section-tab-wrapper">
                     <button class="section-tab" data-platform="huggingface">HuggingFace<span class="count">0</span></button>
@@ -542,6 +538,12 @@
                 <button class="sub-tab active" data-hf-tab="all">全部<span class="count">0</span></button>
                 <button class="sub-tab" data-hf-tab="papers">论文<span class="count">0</span></button>
                 <button class="sub-tab" data-hf-tab="models">模型<span class="count">0</span></button>
+            </nav>
+
+            <nav class="sub-tabs" id="bestblogsSubTabs" aria-label="BestBlogs 子栏目">
+                <button class="sub-tab active" data-bb-tab="all">全部<span class="count">0</span></button>
+                <button class="sub-tab" data-bb-tab="brief">早报<span class="count">0</span></button>
+                <button class="sub-tab" data-bb-tab="featured">精选<span class="count">0</span></button>
             </nav>
 
             <div class="search-bar">
@@ -584,11 +586,15 @@
 
         const platformNames = {
             'hackernews': 'Hacker News',
-            'techcrunch': 'TechCrunch',
             'qbitai': '量子位',
-            'aiera': '新智元',
             'radarai': 'RadarAI',
+            'bestblogs': 'BestBlogs',
             'huggingface': 'HuggingFace'
+        };
+
+        const subTabState = {
+            huggingface: 'all',
+            bestblogs: 'all'
         };
 
         async function loadData() {
@@ -652,15 +658,28 @@
 
             // HuggingFace 子标签计数
             const hfArticles = news['huggingface'] || [];
-            const subTabCounts = {
+            const hfSubTabCounts = {
                 all: hfArticles.length,
                 papers: hfArticles.filter(function(a) { return (a.tags || []).indexOf('论文') !== -1; }).length,
                 models: hfArticles.filter(function(a) { return (a.tags || []).indexOf('模型') !== -1; }).length
             };
-            document.querySelectorAll('.sub-tab').forEach(function(tab) {
+            document.querySelectorAll('#huggingfaceSubTabs .sub-tab').forEach(function(tab) {
                 const key = tab.dataset.hfTab;
                 const countEl = tab.querySelector('.count');
-                if (countEl) countEl.textContent = subTabCounts[key] || 0;
+                if (countEl) countEl.textContent = hfSubTabCounts[key] || 0;
+            });
+
+            // BestBlogs 子标签计数
+            const bbArticles = news['bestblogs'] || [];
+            const bbSubTabCounts = {
+                all: bbArticles.length,
+                brief: bbArticles.filter(function(a) { return (a.tags || []).indexOf('早报') !== -1; }).length,
+                featured: bbArticles.filter(function(a) { return (a.tags || []).indexOf('精选') !== -1; }).length
+            };
+            document.querySelectorAll('#bestblogsSubTabs .sub-tab').forEach(function(tab) {
+                const key = tab.dataset.bbTab;
+                const countEl = tab.querySelector('.count');
+                if (countEl) countEl.textContent = bbSubTabCounts[key] || 0;
             });
         }
 
@@ -683,6 +702,13 @@
                 else if (tags.indexOf('模型') !== -1) parts.push('模型');
             }
 
+            // BestBlogs 早报/精选类型标记
+            if (platform === 'bestblogs') {
+                var tags = item.tags || [];
+                if (tags.indexOf('早报') !== -1) parts.push('早报');
+                else if (tags.indexOf('精选') !== -1) parts.push('精选');
+            }
+
             if (item.publish_time) {
                 try {
                     parts.push(new Date(item.publish_time).toLocaleString('zh-CN',
@@ -700,10 +726,18 @@
         }
 
         function matchesHfSubTab(item) {
-            if (huggingfaceSubTab === 'all') return true;
+            if (subTabState.huggingface === 'all') return true;
             const tags = item.tags || [];
-            if (huggingfaceSubTab === 'papers') return tags.indexOf('论文') !== -1;
-            if (huggingfaceSubTab === 'models') return tags.indexOf('模型') !== -1;
+            if (subTabState.huggingface === 'papers') return tags.indexOf('论文') !== -1;
+            if (subTabState.huggingface === 'models') return tags.indexOf('模型') !== -1;
+            return true;
+        }
+
+        function matchesBestblogsSubTab(item) {
+            if (subTabState.bestblogs === 'all') return true;
+            const tags = item.tags || [];
+            if (subTabState.bestblogs === 'brief') return tags.indexOf('早报') !== -1;
+            if (subTabState.bestblogs === 'featured') return tags.indexOf('精选') !== -1;
             return true;
         }
 
@@ -718,6 +752,10 @@
 
             if (currentPlatform === 'huggingface') {
                 items = items.filter(matchesHfSubTab);
+            }
+
+            if (currentPlatform === 'bestblogs') {
+                items = items.filter(matchesBestblogsSubTab);
             }
 
             if (searchKeyword) {
@@ -812,15 +850,26 @@
                 tab.classList.add('active');
                 currentPlatform = tab.dataset.platform;
 
-                // HuggingFace 子标签显隐与重置
-                const subTabs = document.getElementById('huggingfaceSubTabs');
+                // 子标签显隐与重置
+                const hfSubTabs = document.getElementById('huggingfaceSubTabs');
+                const bbSubTabs = document.getElementById('bestblogsSubTabs');
+
                 if (currentPlatform === 'huggingface') {
-                    subTabs.classList.add('visible');
+                    hfSubTabs.classList.add('visible');
                 } else {
-                    subTabs.classList.remove('visible');
-                    huggingfaceSubTab = 'all';
-                    document.querySelectorAll('.sub-tab').forEach(function(t) { t.classList.remove('active'); });
-                    document.querySelector('.sub-tab[data-hf-tab="all"]').classList.add('active');
+                    hfSubTabs.classList.remove('visible');
+                    subTabState.huggingface = 'all';
+                    document.querySelectorAll('#huggingfaceSubTabs .sub-tab').forEach(function(t) { t.classList.remove('active'); });
+                    document.querySelector('#huggingfaceSubTabs .sub-tab[data-hf-tab="all"]').classList.add('active');
+                }
+
+                if (currentPlatform === 'bestblogs') {
+                    bbSubTabs.classList.add('visible');
+                } else {
+                    bbSubTabs.classList.remove('visible');
+                    subTabState.bestblogs = 'all';
+                    document.querySelectorAll('#bestblogsSubTabs .sub-tab').forEach(function(t) { t.classList.remove('active'); });
+                    document.querySelector('#bestblogsSubTabs .sub-tab[data-bb-tab="all"]').classList.add('active');
                 }
                 renderFrontPage();
             });
@@ -828,9 +877,17 @@
 
         document.querySelectorAll('.sub-tab').forEach(function(tab) {
             tab.addEventListener('click', function() {
-                document.querySelectorAll('.sub-tab').forEach(function(t) { t.classList.remove('active'); });
+                // 只切换同组子标签，避免跨组干扰
+                const parent = tab.parentElement;
+                if (!parent) return;
+                parent.querySelectorAll('.sub-tab').forEach(function(t) { t.classList.remove('active'); });
                 tab.classList.add('active');
-                huggingfaceSubTab = tab.dataset.hfTab;
+
+                if (tab.dataset.hfTab) {
+                    subTabState.huggingface = tab.dataset.hfTab;
+                } else if (tab.dataset.bbTab) {
+                    subTabState.bestblogs = tab.dataset.bbTab;
+                }
                 renderFrontPage();
             });
         });
