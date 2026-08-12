@@ -7,8 +7,12 @@
 import asyncio
 from typing import List, Dict, Any
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from crawlers.base import BaseCrawler
+
+# RadarAI 页面时间为北京时间（东八区）
+CHINA_TZ = ZoneInfo('Asia/Shanghai')
 
 # 7天前的时间戳
 def get_7days_ago() -> datetime:
@@ -82,8 +86,10 @@ class RadaraiCrawler(BaseCrawler):
                         if '-' in time_str and ':' in time_str:
                             parts = time_str.split()
                             if len(parts) >= 2:
+                                # 页面时间为北京时间，先按 Asia/Shanghai 解析再转 UTC
                                 dt = datetime.strptime(parts[0] + ' ' + parts[-1], '%Y-%m-%d %H:%M')
-                                publish_time = dt.replace(tzinfo=timezone.utc).isoformat()
+                                dt = dt.replace(tzinfo=CHINA_TZ)
+                                publish_time = dt.astimezone(timezone.utc).isoformat()
                     except Exception:
                         pass
                 

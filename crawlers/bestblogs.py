@@ -14,8 +14,16 @@ import asyncio
 import httpx
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 API_BASE = 'https://api.bestblogs.dev/openapi/v2'
+
+# BestBlogs 接口中的字符串日期/时间为北京时间
+CHINA_TZ = ZoneInfo('Asia/Shanghai')
+
+# 429 / 限流时最多重试次数与退避参数
+MAX_RETRIES = 3
+BASE_BACKOFF = 2.0  # 秒
 
 
 class BestBlogsCrawler:
@@ -34,13 +42,27 @@ class BestBlogsCrawler:
         }
 
     async def fetch_json(self, client: httpx.AsyncClient, url: str) -> Any:
-        """调用 BestBlogs API 并返回 data 字段"""
-        response = await client.get(url, headers=self.get_headers(), timeout=self.timeout)
-        response.raise_for_status()
-        payload = response.json()
-        if not payload.get('success'):
-            raise Exception(payload.get('message') or 'BestBlogs API request failed')
-        return payload.get('data')
+        """调用 BestBlogs API 并返回 data 字段；对 429 等限流错误做指数退避重试"""
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            try:
+                response = await client.get(url, headers=self.get_headers(), timeout=self.timeout)
+                response.raise_for_status()
+                payload = response.json()
+                if not payload.get('success'):
+                    raise Exception(payload.get('message') or 'BestBlogs API request failed')
+                return payload.get('data')
+            except httpx.HTTPStatusError as e:
+                last_error = e
+                status_code = e.response.status_code
+                # 仅对限流 / 服务端错误重试；4xx 客户端错误直接抛出
+                if status_code in (429, 500, 502, 503, 504) and attempt < MAX_RETRIES:
+                    wait = BASE_BACKOFF * (2 ** attempt)
+                    print(f'[{self.name}] API {status_code}，{wait:.1f}s 后重试 ({attempt + 1}/{MAX_RETRIES})...')
+                    await asyncio.sleep(wait)
+                    continue
+                raise
+        raise last_error or Exception('BestBlogs API request failed after retries')
 
     async def fetch_resource_detail(
         self, client: httpx.AsyncClient, resource_id: str
@@ -56,28 +78,30 @@ class BestBlogsCrawler:
             return None
 
     def _parse_publish_time(self, item: Dict[str, Any]) -> Optional[str]:
-        """从多种可能字段解析发布时间"""
+        """从多种可能字段解析发布时间（统一转为 UTC ISO 格式）"""
+        # Unix 时间戳为 UTC
         ts = item.get('publishTimeStamp')
         if isinstance(ts, (int, float)) and ts > 0:
             return datetime.fromtimestamp(ts / 1000, tz=timezone.utc).isoformat()
 
+        # 字符串日期/时间按北京时间解析后转 UTC
         dt_str = item.get('publishDateTimeStr')
         if dt_str:
             for fmt in ('%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M'):
                 try:
-                    dt = datetime.strptime(dt_str, fmt)
-                    return dt.replace(tzinfo=timezone.utc).isoformat()
+                    dt = datetime.strptime(dt_str, fmt).replace(tzinfo=CHINA_TZ)
+                    return dt.astimezone(timezone.utc).isoformat()
                 except ValueError:
                     continue
 
         date_str = item.get('publishDateStr')
         if date_str == '今天':
-            return datetime.now(timezone.utc).isoformat()
+            return datetime.now(CHINA_TZ).astimezone(timezone.utc).isoformat()
         if date_str:
             for fmt in ('%Y-%m-%d',):
                 try:
-                    dt = datetime.strptime(date_str, fmt)
-                    return dt.replace(tzinfo=timezone.utc).isoformat()
+                    dt = datetime.strptime(date_str, fmt).replace(tzinfo=CHINA_TZ)
+                    return dt.astimezone(timezone.utc).isoformat()
                 except ValueError:
                     continue
 

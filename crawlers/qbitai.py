@@ -5,10 +5,21 @@
 """
 
 import asyncio
+import re
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from crawlers.base import BaseCrawler
+
+# 量子位页面时间为北京时间（东八区）
+CHINA_TZ = ZoneInfo('Asia/Shanghai')
+
+# 从可能包含标签等杂文的 meta 文本中提取时间片段
+QBITAI_TIME_RE = re.compile(
+    r'(\d{4}-\d{2}-\d{2}|\d+\s*分钟前|\d+\s*小时前|昨天\s*\d{1,2}:\d{2}|前天\s*\d{1,2}:\d{2}|昨天|前天)',
+    re.UNICODE
+)
 
 # 7天前的时间戳
 def get_7days_ago() -> datetime:
@@ -24,43 +35,48 @@ class QbitaiCrawler(BaseCrawler):
     
     @staticmethod
     def parse_relative_time(time_str: str) -> Optional[datetime]:
-        """将相对时间转换为datetime对象"""
-        now = datetime.now()
-        time_str = time_str.strip()
-        
+        """将相对时间转换为datetime对象（按北京时间解析，返回 UTC）"""
+        # 从 meta 文本中提取时间片段（可能夹杂标签等字符）
+        match = QBITAI_TIME_RE.search(time_str.strip())
+        if not match:
+            return None
+        time_str = match.group(1).strip()
+
+        # 以北京时间为基准计算“现在”
+        now = datetime.now(CHINA_TZ)
+
         try:
             if '分钟前' in time_str:
                 minutes = int(time_str.replace('分钟前', '').strip())
                 dt = now - timedelta(minutes=minutes)
-                return dt.replace(tzinfo=timezone.utc)
-            
+                return dt.astimezone(timezone.utc)
+
             elif '小时前' in time_str:
                 hours = int(time_str.replace('小时前', '').strip())
                 dt = now - timedelta(hours=hours)
-                return dt.replace(tzinfo=timezone.utc)
-            
+                return dt.astimezone(timezone.utc)
+
             elif '昨天' in time_str:
                 parts = time_str.replace('昨天', '').strip().split()
                 dt = now.replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
                 if parts and ':' in parts[0]:
                     h, m = parts[0].split(':')
                     dt = dt.replace(hour=int(h), minute=int(m))
-                return dt.replace(tzinfo=timezone.utc)
-            
+                return dt.astimezone(timezone.utc)
+
             elif '前天' in time_str:
                 parts = time_str.replace('前天', '').strip().split()
                 dt = now.replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=2)
                 if parts and ':' in parts[0]:
                     h, m = parts[0].split(':')
                     dt = dt.replace(hour=int(h), minute=int(m))
-                return dt.replace(tzinfo=timezone.utc)
-            
+                return dt.astimezone(timezone.utc)
+
             elif '-' in time_str:
-                parts = time_str.split()
-                date_str = parts[0]
-                dt = datetime.strptime(date_str, '%Y-%m-%d')
-                return dt.replace(tzinfo=timezone.utc)
-            
+                dt = datetime.strptime(time_str, '%Y-%m-%d')
+                dt = dt.replace(tzinfo=CHINA_TZ)
+                return dt.astimezone(timezone.utc)
+
             return None
         except Exception:
             return None
@@ -122,17 +138,15 @@ class QbitaiCrawler(BaseCrawler):
                     if cover_url and cover_url.startswith('/'):
                         cover_url = 'https://i.qbitai.com' + cover_url
                 
-                meta_text = pt.select_one('.text_info, .post-meta, .entry-meta')
+                # 量子位时间位于 .info .time，旧选择器已失效
+                time_el = pt.select_one('.info .time, .time')
                 time_str = ''
                 publish_time = None
-                if meta_text:
-                    time_str = meta_text.get_text(strip=True)
-                    for pattern in ['分钟前', '小时前', '昨天', '前天', '-']:
-                        if pattern in time_str:
-                            dt = self.parse_relative_time(time_str)
-                            if dt:
-                                publish_time = dt.isoformat()
-                            break
+                if time_el:
+                    time_str = time_el.get_text(strip=True)
+                    dt = self.parse_relative_time(time_str)
+                    if dt:
+                        publish_time = dt.isoformat()
                 
                 # 如果时间解析失败，使用当前时间（首页文章默认是新的）
                 if not publish_time:
