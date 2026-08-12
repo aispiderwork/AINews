@@ -22,8 +22,10 @@ API_BASE = 'https://api.bestblogs.dev/openapi/v2'
 CHINA_TZ = ZoneInfo('Asia/Shanghai')
 
 # 429 / 限流时最多重试次数与退避参数
-MAX_RETRIES = 3
-BASE_BACKOFF = 2.0  # 秒
+MAX_RETRIES = 4
+BASE_BACKOFF = 3.0  # 秒
+# 连续请求间默认间隔，降低并发触发的限流概率
+REQUEST_DELAY = 1.5  # 秒
 
 
 class BestBlogsCrawler:
@@ -160,7 +162,7 @@ class BestBlogsCrawler:
 
         articles = []
         seen_ids = set()
-        for item in items:
+        for i, item in enumerate(items):
             resource_id = item.get('resourceId')
             if not resource_id or resource_id in seen_ids:
                 continue
@@ -176,6 +178,10 @@ class BestBlogsCrawler:
             article = self._article_from_resource(merged, '早报')
             if article:
                 articles.append(article)
+
+            # 连续详情请求之间做短暂退让，降低限流概率
+            if i < len(items) - 1:
+                await asyncio.sleep(0.3)
 
         return articles
 
@@ -200,10 +206,10 @@ class BestBlogsCrawler:
             raise Exception('BESTBLOGS_API_KEY environment variable is not set')
 
         async with httpx.AsyncClient() as client:
-            briefs, trending = await asyncio.gather(
-                self.crawl_briefs(client),
-                self.crawl_trending(client),
-            )
+            # 为避免触发 BestBlogs 限流，简报与热门精选改为串行，并在中间休眠
+            briefs = await self.crawl_briefs(client)
+            await asyncio.sleep(REQUEST_DELAY)
+            trending = await self.crawl_trending(client)
 
         # 按 URL 去重：简报优先；如果 URL 重复保留先出现的（简报在前）
         seen_urls = {}
