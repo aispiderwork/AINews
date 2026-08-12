@@ -441,16 +441,17 @@
             const timeStr = article.publish_time ? new Date(article.publish_time).toLocaleString('zh-CN') : '未知时间';
             
             let linksHtml = '';
-            const articleUrl = article.url || '';
+            const articleUrl = article.platform_url || article.url || '';
+            const originalUrl = article.url || '';
             const discussionUrl = article.discussion_url || '';
             
             if (platform === 'hackernews') {
                 linksHtml = `<div class="article-links">`;
-                if (articleUrl && !articleUrl.includes('news.ycombinator.com')) {
-                    linksHtml += `<a href="${articleUrl}" target="_blank" class="primary">阅读原文</a>`;
-                }
                 if (discussionUrl) {
-                    linksHtml += `<a href="${discussionUrl}" target="_blank">HN 讨论页</a>`;
+                    linksHtml += `<a href="${discussionUrl}" target="_blank" class="primary">HN 讨论页</a>`;
+                }
+                if (originalUrl && !originalUrl.includes('news.ycombinator.com')) {
+                    linksHtml += `<a href="${originalUrl}" target="_blank">原文链接</a>`;
                 }
                 linksHtml += `</div>`;
             } else {

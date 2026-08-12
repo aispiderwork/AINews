@@ -152,6 +152,7 @@ class QbitaiCrawler(BaseCrawler):
                 article = {
                     'title': title,
                     'url': url,
+                    'platform_url': url,
                     'cover_url': cover_url or None,
                     'publish_time': publish_time,
                     'tags': tags[:5],
@@ -190,6 +191,7 @@ class QbitaiCrawler(BaseCrawler):
                     article = {
                         'title': title,
                         'url': url,
+                        'platform_url': url,
                         'cover_url': cover_url or None,
                         'publish_time': None,
                         'tags': [],

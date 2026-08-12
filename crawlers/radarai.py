@@ -103,6 +103,7 @@ class RadaraiCrawler(BaseCrawler):
                 article = {
                     'title': title,
                     'url': url,
+                    'platform_url': url,
                     'cover_url': None,
                     'publish_time': publish_time,
                     'tags': tags[:5],

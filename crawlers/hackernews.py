@@ -103,6 +103,7 @@ class HackerNewsCrawler(BaseCrawler):
                 article = {
                     'title': title,
                     'url': source_url if source_url else hn_url,
+                    'platform_url': hn_url,
                     'discussion_url': hn_url,
                     'score': score,
                     'comments_count': descendants,

@@ -90,9 +90,12 @@ class BestBlogsCrawler:
         if not title:
             return None
 
-        url = item.get('url')
-        if not url:
-            url = item.get('readUrl') or f'https://www.bestblogs.dev/read/{resource_id}'
+        original_url = item.get('url') or item.get('readUrl') or ''
+        platform_url = f'https://www.bestblogs.dev/article/{resource_id}' if resource_id else ''
+        # url 保持为原始文章地址，用于 merge 去重；前端展示优先使用 platform_url
+        url = original_url or platform_url
+        if not platform_url and original_url:
+            platform_url = original_url
 
         publish_time = self._parse_publish_time(item)
         if not publish_time:
@@ -112,6 +115,9 @@ class BestBlogsCrawler:
         return {
             'title': title,
             'url': url,
+            'platform_url': platform_url,
+            'original_url': original_url,
+            'resource_id': resource_id,
             'cover_url': item.get('cover') or None,
             'publish_time': publish_time,
             'tags': tags,
@@ -207,6 +213,6 @@ if __name__ == '__main__':
     print(f'\n获取到 {len(articles)} 篇文章:')
     for i, article in enumerate(articles, 1):
         print(f"{i}. [{article.get('tags')[0] if article.get('tags') else '?'}] {article['title']}")
-        print(f"   链接: {article['url']}")
+        print(f"   链接: {article.get('platform_url') or article['url']}")
         if article.get('cover_url'):
             print(f"   封面: {article['cover_url']}")

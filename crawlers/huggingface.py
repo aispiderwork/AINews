@@ -49,6 +49,7 @@ class HuggingFaceCrawler(BaseCrawler):
                 articles.append({
                     'title': title,
                     'url': f'https://huggingface.co/papers/{paper_id}',
+                    'platform_url': f'https://huggingface.co/papers/{paper_id}',
                     'cover_url': entry.get('thumbnail') or None,
                     'publish_time': entry.get('publishedAt'),
                     'tags': ['论文'] + [t for t in (paper.get('keywords') or [])][:3],
@@ -85,6 +86,7 @@ class HuggingFaceCrawler(BaseCrawler):
                 articles.append({
                     'title': f"[模型] {model_id}",
                     'url': f'https://huggingface.co/{model_id}',
+                    'platform_url': f'https://huggingface.co/{model_id}',
                     'cover_url': None,
                     'publish_time': model.get('createdAt'),
                     'tags': ['模型', model.get('pipeline_tag') or 'text-generation'],

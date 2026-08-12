@@ -745,7 +745,7 @@
         }
 
         function safeUrl(item) {
-            var url = item.url || '#';
+            var url = item.platform_url || item.url || '#';
             return url.replace(/"/g, '&quot;');
         }
 
