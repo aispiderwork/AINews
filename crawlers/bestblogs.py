@@ -23,9 +23,9 @@ CHINA_TZ = ZoneInfo('Asia/Shanghai')
 
 # 429 / 限流时最多重试次数与退避参数
 MAX_RETRIES = 4
-BASE_BACKOFF = 3.0  # 秒
+BASE_BACKOFF = 5.0  # 秒，API 限流较严，退避更保守
 # 连续请求间默认间隔，降低并发触发的限流概率
-REQUEST_DELAY = 1.5  # 秒
+REQUEST_DELAY = 3.0  # 秒
 
 
 class BestBlogsCrawler:
@@ -183,9 +183,9 @@ class BestBlogsCrawler:
         }
 
     async def crawl_briefs(self, client: httpx.AsyncClient) -> List[Dict[str, Any]]:
-        """抓取最新每日简报"""
+        """抓取每日公开简报（使用 CDN 缓存接口，降低 429 概率）"""
         print(f'[{self.name}] 获取每日简报...')
-        data = await self.fetch_json(client, f'{API_BASE}/briefs/latest')
+        data = await self.fetch_json(client, f'{API_BASE}/briefs/public/today')
         items = data.get('contentItems', []) if isinstance(data, dict) else []
         print(f'[{self.name}] 简报条目: {len(items)} 篇')
 
@@ -225,10 +225,21 @@ class BestBlogsCrawler:
             raise Exception('BESTBLOGS_API_KEY environment variable is not set')
 
         async with httpx.AsyncClient() as client:
-            # 为避免触发 BestBlogs 限流，简报与热门精选改为串行，并在中间休眠
-            briefs = await self.crawl_briefs(client)
-            await asyncio.sleep(REQUEST_DELAY)
-            trending = await self.crawl_trending(client)
+            # 分别捕获异常，避免一个接口失败导致整个平台无数据
+            briefs = []
+            try:
+                briefs = await self.crawl_briefs(client)
+            except Exception as e:
+                print(f'[{self.name}] 简报抓取失败: {str(e)}')
+
+            if briefs:
+                await asyncio.sleep(REQUEST_DELAY)
+
+            trending = []
+            try:
+                trending = await self.crawl_trending(client)
+            except Exception as e:
+                print(f'[{self.name}] 热门精选抓取失败: {str(e)}')
 
         # 按 URL 去重：简报优先；如果 URL 重复保留先出现的（简报在前）
         seen_urls = {}
