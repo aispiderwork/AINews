@@ -84,6 +84,9 @@ def send_digest(html: str, subject: str, subscribers: list) -> bool:
                     "to": [email],
                     "subject": subject,
                     "html": html,
+                    # 关闭打开/点击追踪，避免链接被包成 awstrack.me 重定向
+                    "track_opens": False,
+                    "track_links": "None",
                 }
             )
             ok += 1
