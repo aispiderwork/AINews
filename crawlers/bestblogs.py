@@ -109,19 +109,48 @@ class BestBlogsCrawler:
 
         return None
 
+    @staticmethod
+    def _extract_resource_id(url: str) -> Optional[str]:
+        """从 BestBlogs 站内链接中提取资源 ID"""
+        if not url:
+            return None
+        url = url.rstrip('/')
+        for prefix in ('https://www.bestblogs.dev/read/', 'https://bestblogs.dev/read/',
+                       'https://www.bestblogs.dev/article/', 'https://bestblogs.dev/article/'):
+            if url.startswith(prefix):
+                return url[len(prefix):]
+        return None
+
     def _article_from_resource(self, item: Dict[str, Any], tag: str) -> Optional[Dict[str, Any]]:
         """将 BestBlogs 资源对象转换为统一文章格式"""
-        resource_id = item.get('id') or item.get('resourceId')
         title = item.get('title') or item.get('originalTitle')
         if not title:
             return None
 
-        original_url = item.get('url') or item.get('readUrl') or ''
-        platform_url = f'https://www.bestblogs.dev/article/{resource_id}' if resource_id else ''
-        # url 保持为原始文章地址，用于 merge 去重；前端展示优先使用 platform_url
-        url = original_url or platform_url
-        if not platform_url and original_url:
+        original_url = item.get('url') or ''
+        read_url = item.get('readUrl') or ''
+        # 尝试多种字段名获取资源 ID，兼容简报(resourceId)与热门(id)等不同接口
+        resource_id = (
+            item.get('id')
+            or item.get('resourceId')
+            or self._extract_resource_id(read_url)
+            or self._extract_resource_id(original_url)
+        )
+
+        # platform_url 必须指向 BestBlogs 站内页面（阅读页 / 讨论页），优先使用接口返回的 readUrl
+        if read_url:
+            platform_url = read_url
+        elif original_url and self._extract_resource_id(original_url):
             platform_url = original_url
+        elif resource_id:
+            platform_url = f'https://www.bestblogs.dev/article/{resource_id}'
+        else:
+            platform_url = ''
+
+        # url 用于 merge 去重：优先保留原文链接；没有原文链接时回退到 BestBlogs 站内链接
+        url = original_url or platform_url
+        if not platform_url and url:
+            platform_url = url
 
         publish_time = self._parse_publish_time(item)
         if not publish_time:

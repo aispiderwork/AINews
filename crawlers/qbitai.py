@@ -80,7 +80,32 @@ class QbitaiCrawler(BaseCrawler):
             return None
         except Exception:
             return None
-    
+
+    @staticmethod
+    def parse_exact_time(soup: BeautifulSoup) -> Optional[datetime]:
+        """从文章详情页解析平台原始 date/time 字段（北京时间 -> UTC）"""
+        date_el = soup.select_one('span.date')
+        time_el = soup.select_one('span.time')
+        if not date_el or not time_el:
+            return None
+        date_str = date_el.get_text(strip=True)
+        time_str = time_el.get_text(strip=True)
+        try:
+            dt = datetime.strptime(f'{date_str} {time_str}', '%Y-%m-%d %H:%M:%S')
+            dt = dt.replace(tzinfo=CHINA_TZ)
+            return dt.astimezone(timezone.utc)
+        except Exception:
+            return None
+
+    async def fetch_article_time(self, url: str) -> Optional[datetime]:
+        """进入文章详情页读取平台原始发布时间"""
+        try:
+            html = await self.fetch(url)
+            soup = BeautifulSoup(html, 'lxml')
+            return self.parse_exact_time(soup)
+        except Exception:
+            return None
+
     def is_within_7days(self, publish_time: str) -> bool:
         """判断时间是否在7天内"""
         if not publish_time:
@@ -138,15 +163,19 @@ class QbitaiCrawler(BaseCrawler):
                     if cover_url and cover_url.startswith('/'):
                         cover_url = 'https://i.qbitai.com' + cover_url
                 
-                # 量子位时间位于 .info .time，旧选择器已失效
-                time_el = pt.select_one('.info .time, .time')
-                time_str = ''
+                # 量子位时间：优先进入详情页读取平台原始 date/time 字段
                 publish_time = None
-                if time_el:
-                    time_str = time_el.get_text(strip=True)
-                    dt = self.parse_relative_time(time_str)
-                    if dt:
-                        publish_time = dt.isoformat()
+                dt = await self.fetch_article_time(url)
+                if dt:
+                    publish_time = dt.isoformat()
+                else:
+                    # 降级：从列表页 .time 文本解析相对时间
+                    time_el = pt.select_one('.info .time, .time')
+                    if time_el:
+                        time_str = time_el.get_text(strip=True)
+                        dt = self.parse_relative_time(time_str)
+                        if dt:
+                            publish_time = dt.isoformat()
                 
                 # 如果时间解析失败，使用当前时间（首页文章默认是新的）
                 if not publish_time:
