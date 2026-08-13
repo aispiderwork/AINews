@@ -84,9 +84,13 @@ def send_digest(html: str, subject: str, subscribers: list) -> bool:
                     "to": [email],
                     "subject": subject,
                     "html": html,
-                    # 关闭打开/点击追踪，避免链接被包成 awstrack.me 重定向
-                    "track_opens": False,
-                    "track_links": "None",
+                    # 关闭打开/点击追踪，避免链接被包成 awstrack.me 重定向（国内网络不可达）
+                    # 使用 Resend v2 规范的 track 对象
+                    "track": {
+                        "opens": False,
+                        "links": "none",
+                        "messages": False,
+                    },
                 }
             )
             ok += 1
