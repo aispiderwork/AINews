@@ -3,7 +3,6 @@
 
 import httpx
 import random
-import time
 from typing import Dict, Any, Optional
 
 USER_AGENTS = [
@@ -54,8 +53,3 @@ class BaseCrawler:
             response = await client.get(url)
             response.raise_for_status()
             return response.json()
-    
-    @staticmethod
-    def delay(min_sec: float = 1.0, max_sec: float = 2.0):
-        """随机延迟"""
-        time.sleep(random.uniform(min_sec, max_sec))

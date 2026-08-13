@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AINews 每日速报</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f5f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Microsoft YaHei',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f5f7;padding:24px 12px;">
+    <tr>
+      <td align="center">
+        <!-- 主卡片 -->
+        <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+          <!-- 深色头栏 -->
+          <tr>
+            <td style="background-color:#1a1d23;padding:20px 24px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="color:#ffffff;font-size:18px;font-weight:700;letter-spacing:0.5px;">AINews 每日速报</td>
+                  <td align="right" style="color:#9ca3af;font-size:14px;white-space:nowrap;">{{date}}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- 内容区 -->
+          <tr>
+            <td style="padding:24px;">
+              <table width="100%" cellpadding="0" cellspacing="0" style="border-left:4px solid #2563eb;">
+                <tr>
+                  <td style="padding-left:16px;">
+                    <div style="color:#2563eb;font-size:15px;font-weight:700;margin-bottom:14px;">今日速览</div>
+                    <!-- ARTICLES -->
+{{articles}}
+                    <!-- /ARTICLES -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- CTA 按钮 -->
+          <tr>
+            <td style="padding:4px 24px 28px;text-align:center;">
+              <a href="{{site_url}}" style="display:inline-block;background-color:#2563eb;color:#ffffff;text-decoration:none;font-size:15px;font-weight:600;padding:12px 30px;border-radius:6px;">查看今日完整内容 →</a>
+            </td>
+          </tr>
+          <!-- 页脚 -->
+          <tr>
+            <td style="background-color:#f9fafb;padding:16px 24px;border-top:1px solid #eceef1;">
+              <div style="color:#9ca3af;font-size:12px;line-height:1.7;">
+                你收到此邮件是因为订阅了 AINews 每日速报。<br>
+                <a href="{{unsubscribe_url}}" style="color:#9ca3af;text-decoration:underline;">退订</a> · <a href="{{site_url}}" style="color:#9ca3af;text-decoration:underline;">在网页查看</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <!-- 底部版权 -->
+        <div style="color:#b8bdc7;font-size:11px;text-align:center;margin-top:14px;">AINews · 聚合 Hacker News / 量子位 / HuggingFace / BestBlogs / RadarAI</div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

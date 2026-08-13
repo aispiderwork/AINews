@@ -2,8 +2,10 @@ name: AI News Crawler
 
 on:
   schedule:
-    # 北京时间 9:00 和 20:00 (UTC 01:00 和 12:00)
-    - cron: '0 1,12 * * *'
+    # 北京时间 9:00 (UTC 01:00) —— 早报，爬取后发送邮件
+    - cron: '0 1 * * *'
+    # 北京时间 20:00 (UTC 12:00) —— 晚报，仅更新不发送
+    - cron: '0 12 * * *'
   workflow_dispatch:
     inputs:
       platform:
@@ -53,3 +55,40 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+  send-digest:
+    needs: crawl
+    runs-on: ubuntu-latest
+    # 仅早班 (UTC 01:00) 触发发送；手动运行 / 晚报不发送
+    if: github.event.schedule == '0 1 * * *'
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # 拉取分支最新 HEAD（含 crawl job 刚 push 的 news.json）
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build & send daily digest email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          SUBSCRIBER_EMAILS: ${{ secrets.SUBSCRIBER_EMAILS }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          UNSUBSCRIBE_URL: ${{ secrets.UNSUBSCRIBE_URL }}
+        run: python -m mail.send_digest

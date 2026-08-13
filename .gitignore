@@ -27,3 +27,12 @@ venv/
 # 数据目录（可选，如果不想提交数据）
 # data/
 .venv/
+
+# 订阅者邮箱名单（含隐私，禁止提交到公开仓库）
+data/subscribers.json
+
+# 本地记忆/隐私目录（含 agent 记忆，禁止提交）
+.workbuddy/
+
+# macOS 残留
+.DS_Store

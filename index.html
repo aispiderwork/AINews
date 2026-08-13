@@ -374,6 +374,22 @@
             margin-right: var(--sp-2);
         }
 
+        /* 跨源报道标识：同一事件被多个来源报道时，在条目下方展示 */
+        .cross-source-badge {
+            display: flex;
+            align-items: center;
+            gap: var(--sp-1);
+            margin-top: 2px;
+            font: var(--t-caption);
+            color: var(--ink-tertiary);
+        }
+        .cross-source-badge svg {
+            width: 13px;
+            height: 13px;
+            flex: none;
+            color: var(--accent);
+        }
+
         /* ============ 空态 / 加载态 ============ */
         .state-note {
             text-align: center;
@@ -661,9 +677,8 @@
                 const platform = tab.dataset.platform;
                 let count = 0;
                 if (platform === 'all') {
-                    count = Object.values(news).reduce(function(sum, arr) {
-                        return sum + (arr ? arr.length : 0);
-                    }, 0);
+                    // 与头版(sorted_all，已跨源去重)保持一致
+                    count = (appData.sorted_all || []).length;
                 } else {
                     count = (news[platform] || []).length;
                 }
@@ -770,9 +785,14 @@
             const container = document.getElementById('newsContent');
             const sortedAll = appData.sorted_all || [];
 
-            let items = currentPlatform === 'all'
-                ? sortedAll.slice()
-                : sortedAll.filter(function(a) { return a.platform === currentPlatform; });
+            // 头版(all)用聚类去重后的 sorted_all；各平台分栏直接用原始 news[platform]，
+            // 避免被并入其他平台代表条目的文章从本平台分栏消失。
+            let items;
+            if (currentPlatform === 'all') {
+                items = sortedAll.slice();
+            } else {
+                items = (appData.news[currentPlatform] || []).slice();
+            }
 
             if (currentPlatform === 'huggingface') {
                 items = items.filter(matchesHfSubTab);
@@ -808,8 +828,22 @@
                 html += '<div class="article-body">' +
                         '<div class="article-title">' + escapeHtml(item.title || '无标题') + '</div>' +
                         '<div class="article-meta"><span class="meta-rank">' + rank + '</span>' +
-                        buildMeta(item) + '</div>' +
-                        '</div></a>';
+                        buildMeta(item) + '</div>';
+
+                // 跨源报道标识：同一事件被多个来源报道时，在条目下方展示其他来源
+                // （外层条目本身是 <a>，为避免嵌套 <a>，这里用纯文字列出其他来源名）
+                if (item.also_covered_by && item.also_covered_by.length) {
+                    var others = item.also_covered_by;
+                    var names = others.map(function(o) {
+                        return platformNames[o.platform] || o.platform || '未知';
+                    });
+                    html += '<div class="cross-source-badge">' +
+                            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>' +
+                            '同时被 ' + others.length + ' 个来源报道：' + escapeHtml(names.join('、')) +
+                            '</div>';
+                }
+
+                html += '</div></a>';
             });
             html += '</div>';
 

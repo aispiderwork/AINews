@@ -13,6 +13,7 @@ from crawlers.radarai import crawl_radarai
 from crawlers.huggingface import crawl_huggingface
 from crawlers.bestblogs import crawl_bestblogs
 from crawlers.utils.merge import merge_and_deduplicate
+from crawlers.utils.cluster import cluster_articles
 
 PLATFORMS = {
     'hackernews': {'name': 'Hacker News', 'func': crawl_hackernews, 'priority': 1},
@@ -127,11 +128,14 @@ async def main(target_platform=None):
     articles_with_cover = sum(1 for a in all_articles_list if a.get('cover_url'))
     cover_rate = round(articles_with_cover / total_articles * 100, 1) if total_articles > 0 else 0
 
-    # 按发布时间倒序排列
-    # 说明：原 hot_score 已移除——除 Hacker News 有真实 score/comments 外，
-    # 其余平台的"热度分"为主观平台权重 + 时间衰减的合成值，不代表真实热度。
-    print(f"\n  [排序] 按发布时间排序 {total_articles} 篇文章...")
+    # 跨平台事件聚类：把不同来源报道的同一事件归并为一个条目
+    print(f"\n  [聚类] 跨源事件归并（{total_articles} 篇 -> ", end='')
+    clustered_articles = cluster_articles(all_articles_list)
+    print(f"{len(clustered_articles)} 条）")
 
+    # 排序：被 N 个来源报道（source_count 降序）优先；同档按发布时间倒序。
+    # 说明：除 HN/HF 外无真实互动数据，合成 hot_score 已移除；
+    # 「跨源报道数」是事件重要性的真实代理信号，比纯时间序更贴近用户价值。
     def _parse_time(article):
         try:
             t = (article.get('publish_time') or '').replace('Z', '+00:00')
@@ -140,20 +144,16 @@ async def main(target_platform=None):
         except Exception:
             return datetime.min.replace(tzinfo=timezone.utc)
 
-    sorted_articles = sorted(all_articles_list, key=_parse_time, reverse=True)
-
-    # 生成按时间排序的平台数据
-    sorted_news = {}
-    for article in sorted_articles:
-        platform = article.get('platform', 'unknown')
-        if platform not in sorted_news:
-            sorted_news[platform] = []
-        sorted_news[platform].append(article)
+    sorted_articles = sorted(
+        clustered_articles,
+        key=lambda a: (a.get('source_count', 1), _parse_time(a)),
+        reverse=True,
+    )
 
     output_data = {
         'update_time': datetime.now(timezone.utc).isoformat(),
-        'news': sorted_news,
-        'sorted_all': sorted_articles,  # 全部文章按发布时间倒序
+        'news': merged_news,            # 各平台保持时间序（平台分栏用原始数据）
+        'sorted_all': sorted_articles,  # 头版：聚类后按跨源报道数 + 时间排序
         'monitor': {
             'summary': {
                 'total_success_rate': round(success_platforms / total_platforms * 100, 1) if total_platforms > 0 else 0,
