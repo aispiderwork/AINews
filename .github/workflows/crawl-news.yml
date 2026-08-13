@@ -59,8 +59,8 @@ jobs:
   send-digest:
     needs: crawl
     runs-on: ubuntu-latest
-    # 仅早班 (UTC 01:00) 触发发送；手动运行 / 晚报不发送
-    if: github.event.schedule == '0 1 * * *'
+    # 早班 (UTC 01:00) 自动发送；手动 Run workflow 也发送（便于测试）；晚报不发送
+    if: github.event.schedule == '0 1 * * *' || github.event_name == 'workflow_dispatch'
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
