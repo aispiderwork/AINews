@@ -48,6 +48,9 @@ jobs:
       - run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          # 先拉取远端最新（含订阅 Worker 经 API 写入的 data/subscribers.json），
+          # 否则远端分支前进后 git push 会被拒
+          git pull --rebase origin ${{ github.ref_name }}
           git add data/news.json data/history.json
           if ! git diff --staged --quiet; then
             git commit -m "Update news data - $(date '+%Y-%m-%d %H:%M:%S')"

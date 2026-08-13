@@ -1,0 +1,12 @@
+name = "ainews-subscribe"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# 非敏感配置（公开可读，无妨）
+[vars]
+REPO = "aispiderwork/AINews"          # 你的 用户名/仓库
+PATH = "data/subscribers.json"        # 订阅名单存放路径
+
+# 敏感信息请务必用 secret，不要写进本文件：
+#   wrangler secret put GH_TOKEN
+# GH_TOKEN = GitHub Personal Access Token，需 public_repo（公开仓库）或 repo（私有仓库）权限

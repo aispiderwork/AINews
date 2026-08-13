@@ -5,30 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AINews 每日速报</title>
 </head>
-<body style="margin:0;padding:0;background-color:#f4f5f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Microsoft YaHei',sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f5f7;padding:24px 12px;">
+<body style="margin:0;padding:0;background-color:#f3f1ec;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Microsoft YaHei','Noto Serif SC',serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f3f1ec;padding:24px 12px;">
     <tr>
       <td align="center">
-        <!-- 主卡片 -->
-        <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
-          <!-- 深色头栏 -->
+        <!-- 主卡片：白底（正文区域） -->
+        <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#ffffff;border-radius:2px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);border:1px solid #e6e0d2;">
+          <!-- 羊皮纸黄头栏（原黑色头栏替换） -->
           <tr>
-            <td style="background-color:#1a1d23;padding:20px 24px;">
+            <td style="background-color:#eae2c8;padding:20px 24px;border-bottom:2px solid #c9b896;">
               <table width="100%" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td style="color:#ffffff;font-size:18px;font-weight:700;letter-spacing:0.5px;">AINews 每日速报</td>
-                  <td align="right" style="color:#9ca3af;font-size:14px;white-space:nowrap;">{{date}}</td>
+                  <td style="color:#2c2418;font-size:18px;font-weight:700;letter-spacing:1px;font-family:'Noto Serif SC','SimSun',serif;">AINews 每日速报</td>
+                  <td align="right" style="color:#6b5c3a;font-size:14px;white-space:nowrap;">{{date}}</td>
                 </tr>
               </table>
             </td>
           </tr>
-          <!-- 内容区 -->
+          <!-- 内容区（白底） -->
           <tr>
             <td style="padding:24px;">
-              <table width="100%" cellpadding="0" cellspacing="0" style="border-left:4px solid #2563eb;">
+              <table width="100%" cellpadding="0" cellspacing="0" style="border-left:4px solid #8B6914;">
                 <tr>
-                  <td style="padding-left:16px;">
-                    <div style="color:#2563eb;font-size:15px;font-weight:700;margin-bottom:14px;">今日速览</div>
+                  <td style="padding-left:20px;">
+                    <div style="color:#8B6914;font-size:15px;font-weight:700;margin-bottom:18px;font-family:'Noto Serif SC','SimSun',serif;letter-spacing:0.5px;">今日速览</div>
                     <!-- ARTICLES -->
 {{articles}}
                     <!-- /ARTICLES -->
@@ -37,24 +37,27 @@
               </table>
             </td>
           </tr>
-          <!-- CTA 按钮 -->
+          <!-- 末尾固定内容：纯文本链接（替代原 CTA 按钮） -->
           <tr>
-            <td style="padding:4px 24px 28px;text-align:center;">
-              <a href="{{site_url}}" style="display:inline-block;background-color:#2563eb;color:#ffffff;text-decoration:none;font-size:15px;font-weight:600;padding:12px 30px;border-radius:6px;">查看今日完整内容 →</a>
+            <td style="padding:2px 24px 22px;padding-left:44px;">
+              <div style="font-size:13px;line-height:1.9;color:#6b5c3a;">
+                <span style="font-weight:700;color:#8B6914;">&gt;&gt;</span> 点击查看今日完整内容：
+                <a href="{{site_url}}" style="color:#8B6914;text-decoration:none;font-weight:600;border-bottom:1px solid #c9b896;">{{site_url}}</a>
+              </div>
             </td>
           </tr>
           <!-- 页脚 -->
           <tr>
-            <td style="background-color:#f9fafb;padding:16px 24px;border-top:1px solid #eceef1;">
-              <div style="color:#9ca3af;font-size:12px;line-height:1.7;">
+            <td style="background-color:#f7f3e8;padding:14px 24px;border-top:1px solid #e6e0d2;">
+              <div style="color:#9a8b70;font-size:11px;line-height:1.7;">
                 你收到此邮件是因为订阅了 AINews 每日速报。<br>
-                <a href="{{unsubscribe_url}}" style="color:#9ca3af;text-decoration:underline;">退订</a> · <a href="{{site_url}}" style="color:#9ca3af;text-decoration:underline;">在网页查看</a>
+                <a href="{{unsubscribe_url}}" style="color:#8B6914;text-decoration:none;border-bottom:1px dotted #c9b896;">退订</a>
+                &nbsp;·&nbsp;
+                <span style="color:#b5a882;">聚合 Hacker News / 量子位 / HuggingFace / BestBlogs / RadarAI</span>
               </div>
             </td>
           </tr>
         </table>
-        <!-- 底部版权 -->
-        <div style="color:#b8bdc7;font-size:11px;text-align:center;margin-top:14px;">AINews · 聚合 Hacker News / 量子位 / HuggingFace / BestBlogs / RadarAI</div>
       </td>
     </tr>
   </table>

@@ -1,6 +1,7 @@
 """邮件摘要渲染：读取 news.json -> 生成内联 CSS 的 HTML 邮件正文。
 
-参考 RadarAI 每日速报样式：深色头栏 + 左蓝竖线 + 今日速览列表 + CTA 按钮。
+配色：白底正文 + 羊皮纸黄(#eae2c8)头栏 + 报纸金(#8B6914)强调；
+末尾纯文本链接（无 CTA 按钮）。
 """
 import os
 from datetime import datetime, timezone
@@ -62,18 +63,23 @@ def render_article(a: dict) -> str:
     extra = ""
     sc = a.get("source_count", 1)
     if sc and sc > 1:
-        extra = f' <span style="color:#2563eb;font-size:12px;">· 同时被{sc}个来源报道</span>'
+        extra = f' <span style="color:#8B6914;font-size:12px;font-weight:600;">· 同时被{sc}个来源报道</span>'
 
     title_html = _esc(title)
     url_html = _esc(url)
 
+    # 用表格布局拉开「•」与文字的间距（约 2 个英文空格宽）
     return (
-        '<div style="margin-bottom:14px;padding-left:18px;position:relative;'
-        'font-size:15px;line-height:1.6;color:#1f2937;">'
-        '<span style="position:absolute;left:2px;color:#2563eb;font-weight:700;">•</span>'
-        f'<a href="{url_html}" style="color:#1f2937;text-decoration:none;">{title_html}</a>'
-        f'<span style="color:#9ca3af;font-size:12px;"> · {label}</span>{extra}'
-        "</div>"
+        '<table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:18px;">'
+        '<tr>'
+        f'<td width="24" valign="top" style="color:#8B6914;font-size:16px;'
+        f'line-height:1.65;font-weight:700;">•</td>'
+        '<td valign="top" style="font-size:15px;line-height:1.65;color:#2c2418;">'
+        f'<a href="{url_html}" style="color:#2c2418;text-decoration:none;">{title_html}</a>'
+        f'<span style="color:#9a8b70;font-size:12px;margin-left:6px;">· {label}</span>{extra}'
+        '</td>'
+        '</tr>'
+        '</table>'
     )
 
 
