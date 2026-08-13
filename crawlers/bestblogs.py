@@ -191,26 +191,16 @@ class BestBlogsCrawler:
 
         articles = []
         seen_ids = set()
-        for i, item in enumerate(items):
+        for item in items:
             resource_id = item.get('resourceId')
             if not resource_id or resource_id in seen_ids:
                 continue
             seen_ids.add(resource_id)
 
-            # 简报条目缺少 url/cover，调用详情接口补全
-            detail = await self.fetch_resource_detail(client, resource_id)
-            if detail and isinstance(detail, dict):
-                merged = {**item, **detail}
-            else:
-                merged = item
-
-            article = self._article_from_resource(merged, '早报')
+            # 简报接口已包含 url / readUrl / cover / score 等字段，无需额外调用详情接口
+            article = self._article_from_resource(item, '早报')
             if article:
                 articles.append(article)
-
-            # 连续详情请求之间做短暂退让，降低限流概率
-            if i < len(items) - 1:
-                await asyncio.sleep(0.3)
 
         return articles
 

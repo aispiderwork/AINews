@@ -137,7 +137,27 @@ def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dic
     # 合并新旧数据（新数据覆盖旧数据）
     merged = {}
     seen_urls = {}
-    
+    seen_resource_ids = {}
+
+    def _add_index(platform: str, index: int, article: Dict):
+        """维护 url 与 resource_id 的索引映射"""
+        url_key = article.get('url', '')
+        if url_key:
+            seen_urls[url_key] = (platform, index)
+        rid = article.get('resource_id')
+        if rid:
+            seen_resource_ids[(platform, rid)] = (platform, index)
+
+    def _replace_article(old_platform: str, old_index: int, new_platform: str, article: Dict):
+        """用新文章替换旧文章，并更新索引"""
+        if old_platform == new_platform:
+            merged[new_platform][old_index] = article
+            _add_index(new_platform, old_index, article)
+        else:
+            merged[old_platform][old_index] = {}
+            merged[new_platform].append(article)
+            _add_index(new_platform, len(merged[new_platform]) - 1, article)
+
     # 先处理旧数据（跳过已下线平台）
     for platform, articles in existing_news.items():
         if platform in REMOVED_PLATFORMS:
@@ -150,43 +170,37 @@ def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dic
                 article.get('title', ''),
                 article.get('url', '')
             )
-            url_key = article.get('url', '')
-            if url_key:
-                # 同一 URL 若已存在，保留较新的一条（旧数据倒序遍历，后覆盖前）
-                seen_urls[url_key] = (platform, len(merged[platform]))
+            _add_index(platform, len(merged[platform]), article)
             merged[platform].append(article)
-    
+
     # 再处理新数据（覆盖旧数据）
     for platform, articles in all_news.items():
         if platform not in merged:
             merged[platform] = []
-        
+
         for article in articles:
             article['id'] = generate_id(
                 platform,
                 article.get('title', ''),
                 article.get('url', '')
             )
-            
+
             url_key = article.get('url', '')
-            if not url_key:
-                continue
-            
-            if url_key in seen_urls:
-                # 已存在，替换旧数据
+            rid = article.get('resource_id')
+            rid_key = (platform, rid) if rid else None
+
+            if rid_key and rid_key in seen_resource_ids:
+                # 同一平台同一 resource_id 优先去重（适用于 BestBlogs 等 url 不稳定的场景）
+                old_platform, old_index = seen_resource_ids[rid_key]
+                _replace_article(old_platform, old_index, platform, article)
+            elif url_key and url_key in seen_urls:
+                # 按 URL 去重
                 old_platform, old_index = seen_urls[url_key]
-                if old_platform == platform:
-                    merged[platform][old_index] = article
-                else:
-                    # URL相同但平台不同，保留新数据，将旧条目置空标记删除
-                    # （不用 pop，避免后续索引错位）
-                    merged[old_platform][old_index] = {}
-                    merged[platform].append(article)
-                    seen_urls[url_key] = (platform, len(merged[platform]) - 1)
-            else:
-                # 新数据
-                seen_urls[url_key] = (platform, len(merged[platform]))
+                _replace_article(old_platform, old_index, platform, article)
+            elif url_key or rid:
+                # 新数据：至少要有 url 或 resource_id 才保留
                 merged[platform].append(article)
+                _add_index(platform, len(merged[platform]) - 1, article)
     
     # 过滤被标记删除的空条目
     for platform in merged:
