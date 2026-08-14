@@ -94,4 +94,6 @@ jobs:
           SUBSCRIBER_EMAILS: ${{ secrets.SUBSCRIBER_EMAILS }}
           SITE_URL: ${{ secrets.SITE_URL }}
           UNSUBSCRIBE_URL: ${{ secrets.UNSUBSCRIBE_URL }}
+          # 用于解密 Worker 写入的订阅密文（与 worker/worker.js 的 EMAIL_KEY 一致）
+          EMAIL_KEY: ${{ secrets.EMAIL_KEY }}
         run: python -m mail.send_digest

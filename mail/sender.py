@@ -26,8 +26,39 @@ def load_subscribers_from_env() -> list:
     return [e.strip() for e in raw.split(",") if e.strip()]
 
 
+def _decrypt_email(cipher_b64: str) -> str | None:
+    """用 EMAIL_KEY 解密 Worker 写入的 e 字段（AES-256-GCM，base64(iv+ct+tag)）。
+
+    与 worker/worker.js 的加密严格对应：密钥为 32 字节（base64），
+    iv 12 字节在前，认证 tag 16 字节在尾部。无 EMAIL_KEY 时返回 None。
+    """
+    import base64
+
+    key_b64 = os.environ.get("EMAIL_KEY", "").strip()
+    if not key_b64 or not cipher_b64:
+        return None
+    try:
+        from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+        key = base64.b64decode(key_b64)
+        raw = base64.b64decode(cipher_b64)
+        iv = raw[:12]
+        tag = raw[-16:]
+        ct = raw[12:-16]
+        decryptor = Cipher(algorithms.AES(key), modes.GCM(iv, tag)).decryptor()
+        return decryptor.update(ct).decode("utf-8").strip()
+    except Exception as e:  # 解密失败（密钥不匹配/数据损坏）不应中断整批
+        print(f"[sender] 解密订阅邮箱失败：{e}")
+        return None
+
+
 def load_subscribers_from_json(path: str) -> list:
-    """从本地 data/subscribers.json 读取 active 状态的邮箱（本地调试用）。"""
+    """从 data/subscribers.json 读取 active 状态的邮箱。
+
+    兼容两种存储：
+    - 新格式：e 字段为密文，用 EMAIL_KEY 解密（推荐，公开仓库不暴露明文）
+    - 旧格式：email 字段为明文（本地调试 / 历史数据）
+    """
     import json
 
     try:
@@ -37,8 +68,15 @@ def load_subscribers_from_json(path: str) -> list:
         return []
     result = []
     for s in data.get("subscribers", []):
-        if s.get("status") == "active" and s.get("email"):
-            result.append(s["email"].strip())
+        if s.get("status") != "active":
+            continue
+        email = None
+        if s.get("e"):
+            email = _decrypt_email(s["e"])
+        elif s.get("email"):
+            email = s["email"].strip()  # 旧明文格式兼容
+        if email:
+            result.append(email)
     return result
 
 
