@@ -1070,7 +1070,7 @@
         /* ============ 订阅功能（Cloudflare Worker 直连） ============ */
         // TODO: 部署 Worker 后，把下面换成你的 Worker 地址
         //       部署步骤见 docs/订阅部署说明.md
-        const SUB_WORKER_URL = 'https://ainews-subscribe.<你的子域>.workers.dev';
+        const SUB_WORKER_URL = 'https://spidernews.workers.dev';
 
         function openSubModal() {
             document.getElementById('subOverlay').style.display = 'flex';
@@ -1091,7 +1091,7 @@
         function validEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
 
         function workerConfigured() {
-            return SUB_WORKER_URL && SUB_WORKER_URL.indexOf('<你的子域>') === -1;
+            return SUB_WORKER_URL && SUB_WORKER_URL.indexOf('spidernews') !== -1;
         }
 
         // 调用 Worker：/subscribe 或 /unsubscribe
