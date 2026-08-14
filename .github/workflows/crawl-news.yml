@@ -41,7 +41,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - run: python main.py ${{ inputs.platform || '' }} schedule
+      - name: Determine run mode (morning/evening)
+        id: mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 1 * * *" ]; then
+            echo "mode=morning" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 12 * * *" ]; then
+            echo "mode=evening" >> "$GITHUB_OUTPUT"
+          else
+            # workflow_dispatch（手动触发）默认按早班处理（含 BestBlogs）
+            echo "mode=morning" >> "$GITHUB_OUTPUT"
+          fi
+
+      - run: python main.py ${{ inputs.platform || '' }} schedule ${{ steps.mode.outputs.mode }}
         env:
           BESTBLOGS_API_KEY: ${{ secrets.BESTBLOGS_API_KEY }}
 

@@ -6,6 +6,7 @@ import asyncio
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 from crawlers.hackernews import crawl_hackernews
 from crawlers.qbitai import crawl_qbitai
@@ -45,6 +46,20 @@ def save_history(history: dict):
         json.dump(history, f, ensure_ascii=False, indent=2)
 
 
+def load_existing_bestblogs() -> Optional[list]:
+    """晚报模式：从现有 news.json 读回早班已抓取的 BestBlogs，避免被晚报覆盖清空"""
+    try:
+        if OUTPUT_FILE.exists():
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            bb = (data.get('news') or {}).get('bestblogs')
+            if isinstance(bb, list):
+                return bb
+    except Exception:
+        pass
+    return None
+
+
 def append_history_record(record: dict):
     """追加单次执行记录"""
     history = load_history()
@@ -61,6 +76,13 @@ async def main(target_platform=None):
         platforms_to_crawl = {target_platform: PLATFORMS[target_platform]}
     else:
         platforms_to_crawl = PLATFORMS
+
+    # 晚报模式跳过 BestBlogs：简报每天仅一篇，晚班不更新且会浪费日配额；
+    # 但需保留早班已抓取的 BestBlogs 数据，避免晚报覆盖清空（见下方回填）。
+    run_mode = sys.argv[3] if len(sys.argv) > 3 else 'morning'
+    skip_bestblogs_evening = (run_mode == 'evening' and 'bestblogs' in platforms_to_crawl)
+    if skip_bestblogs_evening:
+        platforms_to_crawl = {k: v for k, v in platforms_to_crawl.items() if k != 'bestblogs'}
 
     all_news = {}
     monitor_data = {
@@ -114,6 +136,27 @@ async def main(target_platform=None):
                 'error_message': str(e),
                 'latency': (datetime.now(timezone.utc) - exec_start).total_seconds()
             })
+
+    # 晚报模式：回填早班已抓取的 BestBlogs（不重新消耗 API 配额）
+    if skip_bestblogs_evening:
+        existing_bb = load_existing_bestblogs()
+        if existing_bb is not None:
+            all_news['bestblogs'] = existing_bb
+            monitor_data['platforms'].append({
+                'platform': 'bestblogs',
+                'name': PLATFORMS['bestblogs']['name'],
+                'status': 'online',
+                'item_count': len(existing_bb),
+                'last_crawl': datetime.now(timezone.utc).isoformat(),
+            })
+            monitor_data['recent_executions'].append({
+                'timestamp': datetime.now(timezone.utc).isoformat(),
+                'platform': 'bestblogs',
+                'status': 'success',
+                'items_collected': len(existing_bb),
+                'latency': 0,
+            })
+            print(f"\n  [晚报] 保留早班 BestBlogs {len(existing_bb)} 条（不重复抓取）")
 
     merged_news = merge_and_deduplicate(all_news)
 

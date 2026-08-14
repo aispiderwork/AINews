@@ -3,7 +3,7 @@
 
 抓取：
 1. 每日公开简报（/briefs/latest）→ 标记为「早报」
-2. 今日热门精选（/resources/trending?period=today）→ 标记为「精选」
+2. 近 7 天热门精选（/resources/trending?period=week）→ 标记为「精选」
 
 环境变量：
     BESTBLOGS_API_KEY: BestBlogs OpenAPI Key（前缀 bb_）
@@ -22,10 +22,27 @@ API_BASE = 'https://api.bestblogs.dev/openapi/v2'
 CHINA_TZ = ZoneInfo('Asia/Shanghai')
 
 # 429 / 限流时最多重试次数与退避参数
-MAX_RETRIES = 4
-BASE_BACKOFF = 5.0  # 秒，API 限流较严，退避更保守
+# 注意：BestBlogs 日配额（Free 仅 50 次/天，业务码 160003）耗尽时不可重试，
+# 仅对秒级限流 / 服务端错误做有限退避重试，避免把剩余额度一次烧光。
+MAX_RETRIES = 2
+BASE_BACKOFF = 5.0  # 秒
 # 连续请求间默认间隔，降低并发触发的限流概率
 REQUEST_DELAY = 3.0  # 秒
+
+# BestBlogs 业务码：日配额耗尽，不可重试
+QUOTA_EXCEEDED_CODES = {160003}
+
+
+class DailyQuotaExceeded(Exception):
+    """BestBlogs 日调用配额已耗尽，不可重试"""
+    pass
+
+
+def _safe_json(response) -> Optional[Dict[str, Any]]:
+    try:
+        return response.json()
+    except Exception:
+        return None
 
 
 class BestBlogsCrawler:
@@ -44,16 +61,32 @@ class BestBlogsCrawler:
         }
 
     async def fetch_json(self, client: httpx.AsyncClient, url: str) -> Any:
-        """调用 BestBlogs API 并返回 data 字段；对 429 等限流错误做指数退避重试"""
+        """调用 BestBlogs API 并返回 data 字段。
+
+        限流策略：
+        - 业务码 160003（日配额耗尽）→ 抛 DailyQuotaExceeded，不重试
+        - 其他 429 / 5xx → 指数退避重试（最多 MAX_RETRIES 次）
+        - 4xx 客户端错误（401/403/404 等）→ 直接抛出，不重试
+        """
         last_error = None
         for attempt in range(MAX_RETRIES + 1):
             try:
                 response = await client.get(url, headers=self.get_headers(), timeout=self.timeout)
-                response.raise_for_status()
+                # 优先识别日配额耗尽：429 body 内业务码 160003
+                if response.status_code == 429:
+                    payload = _safe_json(response)
+                    code = (payload or {}).get('code')
+                    if code in QUOTA_EXCEEDED_CODES:
+                        raise DailyQuotaExceeded((payload or {}).get('message') or 'BestBlogs 日配额已耗尽')
+                    response.raise_for_status()
+                else:
+                    response.raise_for_status()
                 payload = response.json()
                 if not payload.get('success'):
                     raise Exception(payload.get('message') or 'BestBlogs API request failed')
                 return payload.get('data')
+            except DailyQuotaExceeded:
+                raise
             except httpx.HTTPStatusError as e:
                 last_error = e
                 status_code = e.response.status_code
@@ -63,6 +96,8 @@ class BestBlogsCrawler:
                     print(f'[{self.name}] API {status_code}，{wait:.1f}s 后重试 ({attempt + 1}/{MAX_RETRIES})...')
                     await asyncio.sleep(wait)
                     continue
+                raise
+            except Exception:
                 raise
         raise last_error or Exception('BestBlogs API request failed after retries')
 
@@ -183,9 +218,9 @@ class BestBlogsCrawler:
         }
 
     async def crawl_briefs(self, client: httpx.AsyncClient) -> List[Dict[str, Any]]:
-        """抓取每日公开简报（使用 CDN 缓存接口，降低 429 概率）"""
+        """抓取每日公开简报（/briefs/latest 自动取最新一期，规避当日未发布/周日无版的空窗）"""
         print(f'[{self.name}] 获取每日简报...')
-        data = await self.fetch_json(client, f'{API_BASE}/briefs/public/today')
+        data = await self.fetch_json(client, f'{API_BASE}/briefs/latest')
         items = data.get('contentItems', []) if isinstance(data, dict) else []
         print(f'[{self.name}] 简报条目: {len(items)} 篇')
 
@@ -205,9 +240,9 @@ class BestBlogsCrawler:
         return articles
 
     async def crawl_trending(self, client: httpx.AsyncClient) -> List[Dict[str, Any]]:
-        """抓取今日热门精选"""
+        """抓取近 7 天热门精选（period=week 比 period=today 稳定，避免早晨「今日热门」尚未积累的空结果）"""
         print(f'[{self.name}] 获取热门精选...')
-        data = await self.fetch_json(client, f'{API_BASE}/resources/trending?period=today&limit=10')
+        data = await self.fetch_json(client, f'{API_BASE}/resources/trending?period=week&limit=10')
         items = data if isinstance(data, list) else data.get('dataList', [])
         print(f'[{self.name}] 热门条目: {len(items)} 篇')
 
@@ -227,19 +262,27 @@ class BestBlogsCrawler:
         async with httpx.AsyncClient() as client:
             # 分别捕获异常，避免一个接口失败导致整个平台无数据
             briefs = []
+            quota_exhausted = False
             try:
                 briefs = await self.crawl_briefs(client)
+            except DailyQuotaExceeded as e:
+                print(f'[{self.name}] 日配额耗尽，跳过本平台后续调用: {str(e)}')
+                quota_exhausted = True
             except Exception as e:
                 print(f'[{self.name}] 简报抓取失败: {str(e)}')
 
-            if briefs:
+            if not quota_exhausted and briefs:
                 await asyncio.sleep(REQUEST_DELAY)
 
             trending = []
-            try:
-                trending = await self.crawl_trending(client)
-            except Exception as e:
-                print(f'[{self.name}] 热门精选抓取失败: {str(e)}')
+            # 简报已命中日配额则跳过热门，省下最后一次调用额度
+            if not quota_exhausted:
+                try:
+                    trending = await self.crawl_trending(client)
+                except DailyQuotaExceeded as e:
+                    print(f'[{self.name}] 日配额耗尽，跳过热门: {str(e)}')
+                except Exception as e:
+                    print(f'[{self.name}] 热门精选抓取失败: {str(e)}')
 
         # 按 URL 去重：简报优先；如果 URL 重复保留先出现的（简报在前）
         seen_urls = {}
