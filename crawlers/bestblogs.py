@@ -38,6 +38,14 @@ class DailyQuotaExceeded(Exception):
     pass
 
 
+class BestBlogsUnavailable(Exception):
+    """BestBlogs 平台本次抓取整体失败。
+
+    应被上层标记为「暂不可用」，而非静默沿用旧数据。
+    """
+    pass
+
+
 def _safe_json(response) -> Optional[Dict[str, Any]]:
     try:
         return response.json()
@@ -255,34 +263,54 @@ class BestBlogsCrawler:
         return articles
 
     async def crawl(self, top_n: int = 10) -> List[Dict[str, Any]]:
-        """执行爬虫：简报 + 热门精选，按 URL 去重后返回"""
+        """执行爬虫：简报 + 热门精选，按 URL 去重后返回
+
+        健壮性：分别捕获两个接口异常，避免一个失败导致整个平台无数据。
+        但当「日配额耗尽」或「简报与热门均失败」时，视为平台整体不可用，
+        抛 BestBlogsUnavailable 让上层标记为「暂不可用」、不静默沿用旧数据。
+        """
         if not self.api_key:
             raise Exception('BESTBLOGS_API_KEY environment variable is not set')
 
         async with httpx.AsyncClient() as client:
             # 分别捕获异常，避免一个接口失败导致整个平台无数据
             briefs = []
+            briefs_failed = False
             quota_exhausted = False
             try:
                 briefs = await self.crawl_briefs(client)
             except DailyQuotaExceeded as e:
                 print(f'[{self.name}] 日配额耗尽，跳过本平台后续调用: {str(e)}')
                 quota_exhausted = True
+                briefs_failed = True
             except Exception as e:
                 print(f'[{self.name}] 简报抓取失败: {str(e)}')
+                briefs_failed = True
 
             if not quota_exhausted and briefs:
                 await asyncio.sleep(REQUEST_DELAY)
 
             trending = []
+            trending_failed = False
             # 简报已命中日配额则跳过热门，省下最后一次调用额度
             if not quota_exhausted:
                 try:
                     trending = await self.crawl_trending(client)
                 except DailyQuotaExceeded as e:
                     print(f'[{self.name}] 日配额耗尽，跳过热门: {str(e)}')
+                    quota_exhausted = True
+                    trending_failed = True
                 except Exception as e:
                     print(f'[{self.name}] 热门精选抓取失败: {str(e)}')
+                    trending_failed = True
+
+        # 平台整体不可用：日配额耗尽，或简报与热门均抓取失败
+        # （仅单接口失败、另一接口成功时仍返回部分数据，不算不可用）
+        if quota_exhausted or (briefs_failed and trending_failed):
+            reason = '日配额已耗尽' if quota_exhausted else '接口调用异常'
+            raise BestBlogsUnavailable(
+                f'BestBlogs 暂不可用（{reason}），本期不含该来源内容'
+            )
 
         # 按 URL 去重：简报优先；如果 URL 重复保留先出现的（简报在前）
         seen_urls = {}

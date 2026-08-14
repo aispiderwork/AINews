@@ -402,6 +402,16 @@
             color: var(--ink-tertiary);
         }
 
+        /* 来源抓取暂不可用提示（如 BestBlogs 接口异常） */
+        .state-note.warn {
+            color: #a33;
+            background: #fdf3f2;
+            border: 1px solid #f0c9c4;
+            border-radius: 2px;
+            text-align: left;
+            padding: var(--sp-4);
+        }
+
         .state-note .btn { margin-top: var(--sp-3); }
 
         /* ============ 运行监控页 ·「印刷房」 ============ */
@@ -904,8 +914,17 @@
                 items = items.filter(function(it) { return it.title.toLowerCase().includes(kw); });
             }
 
+            const isUnavailable = appData.platform_unavailable &&
+                appData.platform_unavailable.indexOf(currentPlatform) !== -1;
+
             if (items.length === 0) {
-                container.innerHTML = '<div class="state-note">本版暂无内容</div>';
+                if (isUnavailable) {
+                    const pname = platformNames[currentPlatform] || currentPlatform;
+                    container.innerHTML = '<div class="state-note warn">⚠️ ' + pname +
+                        ' 抓取暂不可用，本期不含该来源内容。</div>';
+                } else {
+                    container.innerHTML = '<div class="state-note">本版暂无内容</div>';
+                }
                 return;
             }
 

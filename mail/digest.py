@@ -102,11 +102,26 @@ def render_digest(news_json_path: str, top_n: int = TOP_N) -> str:
 
     unsubscribe_url = os.environ.get("UNSUBSCRIBE_URL", SITE_URL + "#unsubscribe")
 
+    # 来源暂不可用提示：被标记为抓取失败的平台，邮件顶部明确告知，而非静默缺内容
+    unavailable = data.get("platform_unavailable") or []
+    if unavailable:
+        names = [_esc(PLATFORM_LABELS.get(p, p)) for p in unavailable]
+        notice_html = (
+            '<div style="margin-bottom:18px;padding:12px 16px;'
+            'border-left:4px solid #c0392b;background-color:#fdf3f2;'
+            'color:#a33;font-size:13px;line-height:1.6;">'
+            '⚠️ 本期以下来源抓取失败，暂不可用：' + '、'.join(names) +
+            '。邮件未含该来源内容。</div>'
+        )
+    else:
+        notice_html = ""
+
     html = (
         _load_template()
         .replace("{{date}}", date_str)
         .replace("{{site_url}}", SITE_URL)
         .replace("{{unsubscribe_url}}", unsubscribe_url)
+        .replace("{{unavailable_notice}}", notice_html)
         .replace("{{articles}}", articles_html)
     )
     return html

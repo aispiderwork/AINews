@@ -85,6 +85,7 @@ async def main(target_platform=None):
         platforms_to_crawl = {k: v for k, v in platforms_to_crawl.items() if k != 'bestblogs'}
 
     all_news = {}
+    failed_platforms = set()  # 本次抓取整体失败的来源，不沿用旧数据、标记为暂不可用
     monitor_data = {
         'platforms': [],
         'failure_reasons': {},
@@ -122,6 +123,7 @@ async def main(target_platform=None):
 
         except Exception as e:
             print(f"\n  [失败] {str(e)}")
+            failed_platforms.add(platform_key)
             monitor_data['platforms'].append({
                 'platform': platform_key,
                 'name': config['name'],
@@ -158,7 +160,7 @@ async def main(target_platform=None):
             })
             print(f"\n  [晚报] 保留早班 BestBlogs {len(existing_bb)} 条（不重复抓取）")
 
-    merged_news = merge_and_deduplicate(all_news)
+    merged_news = merge_and_deduplicate(all_news, exclude_old_platforms=failed_platforms)
 
     total_items = sum(len(v) for v in merged_news.values())
     success_platforms = sum(1 for p in monitor_data['platforms'] if p['status'] == 'online')
@@ -195,6 +197,7 @@ async def main(target_platform=None):
 
     output_data = {
         'update_time': datetime.now(timezone.utc).isoformat(),
+        'platform_unavailable': sorted(failed_platforms),  # 本次抓取失败的来源，前端/邮件据此标注「暂不可用」
         'news': merged_news,            # 各平台保持时间序（平台分栏用原始数据）
         'sorted_all': sorted_articles,  # 头版：聚类后按跨源报道数 + 时间排序
         'monitor': {

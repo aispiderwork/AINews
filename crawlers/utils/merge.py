@@ -5,7 +5,7 @@ import hashlib
 import json
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 OUTPUT_FILE = Path('data/news.json')
 DAYS_LIMIT = 7  # 只保留7天内的文章
@@ -113,27 +113,32 @@ def filter_by_time_and_topn(articles: List[Dict], top_n: int = TOP_N, platform: 
     return sorted_articles[:top_n]
 
 
-def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dict]]:
+def merge_and_deduplicate(
+    all_news: Dict[str, List[Dict]],
+    exclude_old_platforms: Optional[set] = None,
+) -> Dict[str, List[Dict]]:
     """
     合并新旧数据并去重，保留7天内最新 Top10
 
     流程：
-    1. 加载旧数据（跳过已下线平台）
+    1. 加载旧数据（跳过已下线平台 / 跳过本次抓取失败的来源）
     2. 新旧数据合并
     3. 按URL去重（新数据覆盖旧数据）
     4. 筛选7天内文章
     5. 按时间保留最新Top10
-    
+
     Args:
         all_news: 新抓取的平台数据 {platform: [articles]}
-        
+        exclude_old_platforms: 本次抓取失败的来源集合；命中则不沿用旧数据，
+            避免静默展示过期内容（由 main.py 传入 failed_platforms）
+
     Returns:
         合并去重筛选后的数据 {platform: [articles]}
     """
     # 加载旧数据
     existing_news = load_existing_data()
     print(f"[Merge] 加载旧数据: {sum(len(v) for v in existing_news.values())} 条")
-    
+
     # 合并新旧数据（新数据覆盖旧数据）
     merged = {}
     seen_urls = {}
@@ -158,10 +163,13 @@ def merge_and_deduplicate(all_news: Dict[str, List[Dict]]) -> Dict[str, List[Dic
             merged[new_platform].append(article)
             _add_index(new_platform, len(merged[new_platform]) - 1, article)
 
-    # 先处理旧数据（跳过已下线平台）
+    # 先处理旧数据（跳过已下线平台；跳过本次抓取失败的来源，避免静默展示过期内容）
     for platform, articles in existing_news.items():
         if platform in REMOVED_PLATFORMS:
             print(f"[Merge] 跳过已下线平台: {platform}（{len(articles)} 条旧数据）")
+            continue
+        if exclude_old_platforms and platform in exclude_old_platforms:
+            print(f"[Merge] 跳过 {platform} 旧数据（本次抓取失败，标记为暂不可用）")
             continue
         merged[platform] = []
         for article in articles:
