@@ -1164,7 +1164,7 @@
                     if (resp.status >= 400) {
                         try {
                             var errBody = await resp.json();
-                            return { ok: false, code: errBody.code || 'client_error', message: errBody.message || ('请求失败（HTTP ' + resp.status + ')' };
+                            return { ok: false, code: errBody.code || 'client_error', message: errBody.message || ('请求失败（HTTP ' + resp.status + ')') };
                         } catch (_) {
                             return { ok: false, code: 'client_error', message: '请求失败（HTTP ' + resp.status + '），请检查输入后重试' };
                         }
