@@ -587,6 +587,21 @@
         .msg.ok { display: block; background: #eef7ee; border: 1px solid #bfe0bf; color: #2e7d32; }
         .msg.warn2 { display: block; background: #fdf6e3; border: 1px solid #ecd9a0; color: #9a6b00; }
         .msg.err { display: block; background: #fdeeee; border: 1px solid #f0c4c4; color: #b3261e; }
+
+        /* Toast：悬浮提示，比内联 msg 更醒目 */
+        .toast {
+            position: fixed; top: 24px; left: 50%; transform: translateX(-50%) translateY(-20px);
+            z-index: 9999; min-width: 280px; max-width: 480px;
+            padding: 12px 20px; border-radius: 8px;
+            font-size: 14px; font-weight: 500; text-align: center;
+            box-shadow: 0 8px 24px rgba(0,0,0,.18);
+            opacity: 0; transition: opacity .25s ease, transform .25s ease;
+            pointer-events: none;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+        .toast.ok { background: #2e7d32; color: #fff; }
+        .toast.warn { background: #9a6b00; color: #fff; }
+        .toast.err { background: #b3261e; color: #fff; }
         .modal-foot { display: flex; justify-content: flex-end; padding: 0 20px 16px; }
         .link-btn { background: none; border: none; color: var(--ink-secondary); font-size: 12px; cursor: pointer; text-decoration: underline; }
 
@@ -715,6 +730,9 @@
             </div>
         </div>
     </div>
+
+    <!-- 全局 Toast -->
+    <div class="toast" id="toast"></div>
 
     <script>
         let appData = null;
@@ -1087,9 +1105,20 @@
         });
 
         /* ============ 订阅功能（Cloudflare Worker 直连） ============ */
-        // TODO: 部署 Worker 后，把下面换成你的 Worker 地址
-        //       部署步骤见 docs/订阅部署说明.md
         const SUB_WORKER_URL = 'https://ainews.spidernews.workers.dev';
+
+        /* ---- Toast（全局悬浮提示） ---- */
+        let toastTimer = null;
+        function showToast(type, text, duration) {
+            duration = duration || 3500;
+            var el = document.getElementById('toast');
+            el.className = 'toast ' + type; el.textContent = text;
+            // 强制 reflow 以重置动画
+            void el.offsetWidth;
+            el.classList.add('show');
+            if (toastTimer) clearTimeout(toastTimer);
+            toastTimer = setTimeout(function() { el.classList.remove('show'); }, duration);
+        }
 
         function openSubModal() {
             document.getElementById('subOverlay').style.display = 'flex';
@@ -1113,40 +1142,116 @@
             return SUB_WORKER_URL && SUB_WORKER_URL.indexOf('spidernews') !== -1;
         }
 
-        // 调用 Worker：/subscribe 或 /unsubscribe
+        /**
+         * 调用 Worker：/subscribe 或 /unsubscribe
+         * 返回 { ok, code, message } —— 任何异常路径都保证返回此结构，不会抛出。
+         */
         async function subRequest(action, email) {
-            const resp = await fetch(SUB_WORKER_URL + '/' + action, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email: email })
-            });
             try {
-                return await resp.json();
+                var resp = await fetch(SUB_WORKER_URL + '/' + action, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email: email })
+                });
+
+                // 网络层成功但 HTTP 状态码异常
+                if (!resp.ok && resp.status !== 409) {
+                    // 5xx 服务端错误
+                    if (resp.status >= 500) {
+                        return { ok: false, code: 'server_error', message: '服务暂时不可用，请稍后重试（HTTP ' + resp.status + ')' };
+                    }
+                    // 4xx 客户端错误（非 409）
+                    if (resp.status >= 400) {
+                        try {
+                            var errBody = await resp.json();
+                            return { ok: false, code: errBody.code || 'client_error', message: errBody.message || ('请求失败（HTTP ' + resp.status + ')' };
+                        } catch (_) {
+                            return { ok: false, code: 'client_error', message: '请求失败（HTTP ' + resp.status + '），请检查输入后重试' };
+                        }
+                    }
+                }
+
+                // 正常响应 或 409（已订阅/未订阅的业务冲突）
+                try {
+                    return await resp.json();
+                } catch (e) {
+                    return { ok: false, code: 'error', message: '服务返回了无效数据，请稍后重试' };
+                }
             } catch (e) {
-                return { ok: false, code: 'error', message: '服务无响应，请稍后重试' };
+                // fetch 本身抛出：网络断开 / 超时 / CORS / DNS 解析失败
+                var msg = e.message || String(e);
+                if (msg.indexOf('Failed to fetch') !== -1 || msg.indexOf('NetworkError') !== -1 || msg.indexOf('fetch failed') !== -1) {
+                    return { ok: false, code: 'network_error', message: '网络连接失败，请检查网络后重试' };
+                }
+                if (msg.indexOf('timed out') !== -1 || msg.indexOf('Timeout') !== -1 || msg.indexOf('TIMEOUT') !== -1) {
+                    return { ok: false, code: 'timeout', message: '请求超时，服务器响应较慢，请稍后重试' };
+                }
+                if (msg.indexOf('CORS') !== -1 || msg.indexOf('cross-origin') !== -1) {
+                    return { ok: false, code: 'cors_error', message: '跨域请求被拒绝，请联系站长检查 Worker 配置' };
+                }
+                return { ok: false, code: 'error', message: '请求异常：' + msg.slice(0, 80) };
             }
         }
 
         async function subSubscribe() {
-            const e = (document.getElementById('subEmail').value || '').trim().toLowerCase();
-            if (!validEmail(e)) { showSubMsg('err', '请输入有效的邮箱地址'); return; }
-            if (!workerConfigured()) { showSubMsg('err', '订阅服务未配置（请联系站长设置 Worker 地址）'); return; }
-            showSubMsg('warn2', '提交中…');
-            const data = await subRequest('subscribe', e);
-            if (data.code === 'already_subscribed') showSubMsg('warn2', '该邮箱已订阅，无需重复订阅');
-            else if (data.ok) showSubMsg('ok', data.message || ('订阅成功！每日早报将发送至 ' + e));
-            else showSubMsg('err', data.message || '订阅失败，请稍后重试');
+            var btn = document.getElementById('subBtn');
+            var e = (document.getElementById('subEmail').value || '').trim().toLowerCase();
+            if (!validEmail(e)) { showSubMsg('err', '请输入有效的邮箱地址'); showToast('err', '请输入有效的邮箱地址'); return; }
+            if (!workerConfigured()) { showSubMsg('err', '订阅服务未配置（请联系站长设置 Worker 地址）'); showToast('err', '订阅服务暂不可用'); return; }
+
+            btn.disabled = true; btn.textContent = '提交中…';
+            clearSubMsg();
+
+            try {
+                var data = await subRequest('subscribe', e);
+                if (data.code === 'already_subscribed') {
+                    showSubMsg('warn2', '该邮箱已订阅，无需重复订阅');
+                    showToast('warn', '该邮箱已订阅，无需重复订阅 ✉️');
+                } else if (data.ok) {
+                    showSubMsg('ok', data.message || ('订阅成功！每日早报将发送至 ' + e));
+                    showToast('ok', '订阅成功！每日早报将发送至 ' + e + ' 🎉');
+                } else {
+                    showSubMsg('err', data.message || '订阅失败，请稍后重试');
+                    showToast('err', data.message || '订阅失败，请稍后重试');
+                }
+            } catch (unexpectedErr) {
+                // 兜底：理论上 subRequest 已吞掉所有异常，此处仅防遗漏
+                var errMsg = unexpectedErr.message || String(unexpectedErr);
+                showSubMsg('err', '发生未知错误：' + errMsg.slice(0, 60));
+                showToast('err', '订阅请求异常，请稍后重试');
+            } finally {
+                btn.disabled = false; btn.textContent = '订阅';
+            }
         }
 
         async function subUnsubscribe() {
-            const e = (document.getElementById('subEmail').value || '').trim().toLowerCase();
-            if (!validEmail(e)) { showSubMsg('err', '请输入有效的邮箱地址'); return; }
-            if (!workerConfigured()) { showSubMsg('err', '订阅服务未配置（请联系站长设置 Worker 地址）'); return; }
-            showSubMsg('warn2', '提交中…');
-            const data = await subRequest('unsubscribe', e);
-            if (data.code === 'not_subscribed') showSubMsg('warn2', '该邮箱尚未订阅，无需退订');
-            else if (data.ok) showSubMsg('ok', data.message || ('已退订，后续将不再向 ' + e + ' 发送邮件'));
-            else showSubMsg('err', data.message || '退订失败，请稍后重试');
+            var btn = document.getElementById('unsubBtn');
+            var e = (document.getElementById('subEmail').value || '').trim().toLowerCase();
+            if (!validEmail(e)) { showSubMsg('err', '请输入有效的邮箱地址'); showToast('err', '请输入有效的邮箱地址'); return; }
+            if (!workerConfigured()) { showSubMsg('err', '订阅服务未配置（请联系站长设置 Worker 地址）'); showToast('err', '订阅服务暂不可用'); return; }
+
+            btn.disabled = true; btn.textContent = '提交中…';
+            clearSubMsg();
+
+            try {
+                var data = await subRequest('unsubscribe', e);
+                if (data.code === 'not_subscribed') {
+                    showSubMsg('warn2', '该邮箱尚未订阅，无需退订');
+                    showToast('warn', '该邮箱尚未订阅，无需退订');
+                } else if (data.ok) {
+                    showSubMsg('ok', data.message || ('已退订，后续将不再向 ' + e + ' 发送邮件'));
+                    showToast('ok', '已成功退订 👋');
+                } else {
+                    showSubMsg('err', data.message || '退订失败，请稍后重试');
+                    showToast('err', data.message || '退订失败，请稍后重试');
+                }
+            } catch (unexpectedErr) {
+                var errMsg = unexpectedErr.message || String(unexpectedErr);
+                showSubMsg('err', '发生未知错误：' + errMsg.slice(0, 60));
+                showToast('err', '退订请求异常，请稍后重试');
+            } finally {
+                btn.disabled = false; btn.textContent = '退订';
+            }
         }
 
         document.getElementById('subscribeBtn').addEventListener('click', openSubModal);
