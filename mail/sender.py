@@ -144,7 +144,14 @@ def send_digest(html: str, subject: str, subscribers: list) -> bool:
             ok += 1
             print(f"[sender] 已发送 -> {email}")
         except Exception as e:  # Resend 单封失败不应中断整批
-            print(f"[sender] 发送失败 {email}: {e}")
+            msg = str(e)
+            hint = ""
+            # Resend 免费版未验证发信域名时的典型报错，给出可操作指引
+            if "testing emails" in msg or "verify a domain" in msg:
+                hint = ("（Resend 免费版未验证发信域名，只能发给自己账号邮箱。"
+                        "需在 resend.com/domains 验证一个域名，并把 Secrets 里的 RESEND_FROM "
+                        "改为该域名下的邮箱，如 AINews <noreply@你的域名>）")
+            print(f"[sender] 发送失败 {email}: {msg}{hint}")
 
     print(f"[sender] 完成：成功 {ok}/{len(subscribers)}")
     return ok > 0
