@@ -67,9 +67,11 @@ def load_subscribers_from_json(path: str) -> list:
     except (FileNotFoundError, json.JSONDecodeError):
         return []
     result = []
+    active_total = 0
     for s in data.get("subscribers", []):
         if s.get("status") != "active":
             continue
+        active_total += 1
         email = None
         if s.get("e"):
             email = _decrypt_email(s["e"])
@@ -77,6 +79,14 @@ def load_subscribers_from_json(path: str) -> list:
             email = s["email"].strip()  # 旧明文格式兼容
         if email:
             result.append(email)
+    # 防御性告警：有 active 订阅却全部解密失败 → 多为 EMAIL_KEY 不匹配/缺失，
+    # 此时系统会"静默"跳过发送，订阅者永远收不到邮件。显式报警便于在 Actions 日志发现。
+    if active_total > 0 and len(result) == 0:
+        print(
+            "[sender] ⚠️ 严重：subscribers.json 有 %d 个 active 订阅，但解密出 0 个有效邮箱。"
+            "通常是 GitHub Actions 的 EMAIL_KEY 与 Cloudflare Worker 的 EMAIL_KEY 不一致或缺失导致。"
+            % active_total
+        )
     return result
 
 
