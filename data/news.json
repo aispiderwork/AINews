@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-21T12:56:52.506918+00:00",
+  "update_time": "2026-08-22T02:07:18.054160+00:00",
   "platform_unavailable": [],
   "news": {
     "qbitai": [
@@ -126,6 +126,28 @@
     ],
     "radarai": [
       {
+        "title": "DeepSeek-v4-flash-vision-exp上线 · 0822-592期",
+        "url": "https://radarai.top/updates/brief-20260822-0800",
+        "platform_url": "https://radarai.top/updates/brief-20260822-0800",
+        "cover_url": null,
+        "publish_time": "2026-08-22T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "1d41c0ccb6b9"
+      },
+      {
+        "title": "DeepSeek-v4-flash-vision-exp上线 · 0822-591期",
+        "url": "https://radarai.top/updates/brief-20260822-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260822-0000",
+        "cover_url": null,
+        "publish_time": "2026-08-21T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "a5e0fd21f75a"
+      },
+      {
         "title": "苹果转向AI眼镜战略，OpenAI借macOS API抢操作系统级入口 · 0821-590期",
         "url": "https://radarai.top/updates/brief-20260821-1600",
         "platform_url": "https://radarai.top/updates/brief-20260821-1600",
@@ -212,31 +234,81 @@
         "summary": "",
         "platform": "radarai",
         "id": "9490e105a6ac"
-      },
-      {
-        "title": "普冉股份净利润暴增1929%：AI硬件引爆存储芯片需求 · 0819-583期",
-        "url": "https://radarai.top/updates/brief-20260819-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260819-0800",
-        "cover_url": null,
-        "publish_time": "2026-08-19T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d63b23f0d1e8"
-      },
-      {
-        "title": "百度AI收入破125亿占半壁江山，支付宝推AHA跨端协议 · 0819-582期",
-        "url": "https://radarai.top/updates/brief-20260819-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260819-0000",
-        "cover_url": null,
-        "publish_time": "2026-08-18T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d37b5cb3f176"
       }
     ],
     "hackernews": [
+      {
+        "title": "Quick impressions: A week of using Codex more than Claude",
+        "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+        "platform_url": "https://news.ycombinator.com/item?id=49393051",
+        "discussion_url": "https://news.ycombinator.com/item?id=49393051",
+        "score": 81,
+        "comments_count": 86,
+        "publish_time": "2026-08-21T19:51:48+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 82.5,
+        "id": "65097bd67f99"
+      },
+      {
+        "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+        "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+        "platform_url": "https://news.ycombinator.com/item?id=49392331",
+        "discussion_url": "https://news.ycombinator.com/item?id=49392331",
+        "score": 44,
+        "comments_count": 49,
+        "publish_time": "2026-08-21T18:48:28+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 45.5,
+        "id": "c7352bcbb084"
+      },
+      {
+        "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+        "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+        "platform_url": "https://news.ycombinator.com/item?id=49390463",
+        "discussion_url": "https://news.ycombinator.com/item?id=49390463",
+        "score": 87,
+        "comments_count": 51,
+        "publish_time": "2026-08-21T16:27:52+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 76.2,
+        "id": "1373c46c0b68"
+      },
+      {
+        "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+        "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+        "platform_url": "https://news.ycombinator.com/item?id=49388752",
+        "discussion_url": "https://news.ycombinator.com/item?id=49388752",
+        "score": 204,
+        "comments_count": 144,
+        "publish_time": "2026-08-21T14:31:52+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 185.99999999999997,
+        "id": "61c2b69ced02"
+      },
+      {
+        "title": "Kagi added a setting for removing paywalled links from search results",
+        "url": "https://kagi.com/changelog#11296",
+        "platform_url": "https://news.ycombinator.com/item?id=49388154",
+        "discussion_url": "https://news.ycombinator.com/item?id=49388154",
+        "score": 1019,
+        "comments_count": 344,
+        "publish_time": "2026-08-21T13:56:37+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 816.5,
+        "id": "fae7f3e93f42"
+      },
+      {
+        "title": "I'm becoming AI-blind",
+        "url": "https://cymerys.com/w/im-becoming-ai-blind",
+        "platform_url": "https://news.ycombinator.com/item?id=49386699",
+        "discussion_url": "https://news.ycombinator.com/item?id=49386699",
+        "score": 276,
+        "comments_count": 283,
+        "publish_time": "2026-08-21T11:48:05+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 278.09999999999997,
+        "id": "fbfeb7564d81"
+      },
       {
         "title": "AI companies destroy physical books – let's scan rare books before it's too late",
         "url": "https://annas-archive.pk/blog/physical-destruction.html",
@@ -254,11 +326,11 @@
         "url": "https://annas-archive.gl/blog/physical-destruction.html",
         "platform_url": "https://news.ycombinator.com/item?id=49383026",
         "discussion_url": "https://news.ycombinator.com/item?id=49383026",
-        "score": 367,
-        "comments_count": 276,
+        "score": 535,
+        "comments_count": 839,
         "publish_time": "2026-08-21T02:37:47+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 339.7,
+        "hn_hot_score": 626.2,
         "id": "7dbcf58d2356"
       },
       {
@@ -284,81 +356,179 @@
         "platform": "hackernews",
         "hn_hot_score": 292.29999999999995,
         "id": "9a1fbd43e182"
-      },
-      {
-        "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-        "url": "https://github.com/zachahn/vomit",
-        "platform_url": "https://news.ycombinator.com/item?id=49375996",
-        "discussion_url": "https://news.ycombinator.com/item?id=49375996",
-        "score": 269,
-        "comments_count": 264,
-        "publish_time": "2026-08-20T15:26:02+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 267.5,
-        "id": "0f8a87249a75"
-      },
-      {
-        "title": "Anti-AI fonts are useless and harmful",
-        "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-        "platform_url": "https://news.ycombinator.com/item?id=49375719",
-        "discussion_url": "https://news.ycombinator.com/item?id=49375719",
-        "score": 183,
-        "comments_count": 137,
-        "publish_time": "2026-08-20T15:06:53+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 169.2,
-        "id": "abb937b2eda9"
-      },
-      {
-        "title": "Hacking with Claude on a $27 smart watch",
-        "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-        "platform_url": "https://news.ycombinator.com/item?id=49374772",
-        "discussion_url": "https://news.ycombinator.com/item?id=49374772",
-        "score": 86,
-        "comments_count": 47,
-        "publish_time": "2026-08-20T14:08:09+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 74.3,
-        "id": "ae0cebe699a3"
-      },
-      {
-        "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-        "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-        "platform_url": "https://news.ycombinator.com/item?id=49373456",
-        "discussion_url": "https://news.ycombinator.com/item?id=49373456",
-        "score": 560,
-        "comments_count": 113,
-        "publish_time": "2026-08-20T12:04:38+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 425.9,
-        "id": "0f5325f5fc85"
-      },
-      {
-        "title": "AI didn't erase the junior engineer's value, it increased it it",
-        "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-        "platform_url": "https://news.ycombinator.com/item?id=49373269",
-        "discussion_url": "https://news.ycombinator.com/item?id=49373269",
-        "score": 78,
-        "comments_count": 137,
-        "publish_time": "2026-08-20T11:42:20+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 95.69999999999999,
-        "id": "dc2059c6bc02"
-      },
-      {
-        "title": "Don't paste the AI, please",
-        "url": "https://dontpastetheai.com/",
-        "platform_url": "https://news.ycombinator.com/item?id=49371857",
-        "discussion_url": "https://news.ycombinator.com/item?id=49371857",
-        "score": 990,
-        "comments_count": 541,
-        "publish_time": "2026-08-20T08:20:44+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 855.3,
-        "id": "1a5832a617aa"
       }
     ],
     "bestblogs": [
+      {
+        "title": "Claude 平台：Computer Use、浏览器工具、Skills API 与 Files API 现已正式发布",
+        "url": "https://www.bestblogs.dev/article/RAW_2090540270219567575",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2090540270219567575",
+        "original_url": "",
+        "resource_id": "RAW_2090540270219567575",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204822+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "ClaudeDevs(@ClaudeDevs)",
+        "id": "11c382733463"
+      },
+      {
+        "title": "人的判断并未离开软件工厂，它只是转移了位置。",
+        "url": "https://www.bestblogs.dev/article/RAW_caae1bb9df",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_caae1bb9df",
+        "original_url": "",
+        "resource_id": "RAW_caae1bb9df",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204818+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 92,
+        "source_name": "Elevate",
+        "id": "e7d2d15908e7"
+      },
+      {
+        "title": "如何触及创造力：Rick Rubin 谈注意力、探索与完成",
+        "url": "https://www.bestblogs.dev/article/RAW_cbf3440fb",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_cbf3440fb",
+        "original_url": "",
+        "resource_id": "RAW_cbf3440fb",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204815+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "Andrew Huberman",
+        "id": "9217e2197adb"
+      },
+      {
+        "title": "都 Agent 时代了，我还是想分享给你这 12 个我最常用的 Prompt。",
+        "url": "https://www.bestblogs.dev/article/RAW_de953dbd85",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_de953dbd85",
+        "original_url": "",
+        "resource_id": "RAW_de953dbd85",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204795+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "数字生命卡兹克",
+        "id": "baea61cbbc12"
+      },
+      {
+        "title": "从表中检索一行，而非整张表：面向 RAG 的行级分块",
+        "url": "https://www.bestblogs.dev/article/RAW_a51fecdc1d",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_a51fecdc1d",
+        "original_url": "",
+        "resource_id": "RAW_a51fecdc1d",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204765+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "Towards Data Science",
+        "id": "bec282c06c69"
+      },
+      {
+        "title": "Agent 终章（Harness 成本篇）：一次百炼账单降低 88% 实战",
+        "url": "https://www.bestblogs.dev/article/RAW_a101b129cd",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_a101b129cd",
+        "original_url": "",
+        "resource_id": "RAW_a101b129cd",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204741+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "阿里技术",
+        "id": "8cf716fcb807"
+      },
+      {
+        "title": "如何使用 Python 和 Neo4j 构建知识图谱 [完整手册]",
+        "url": "https://www.bestblogs.dev/article/RAW_af438d325d",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_af438d325d",
+        "original_url": "",
+        "resource_id": "RAW_af438d325d",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204731+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "freeCodeCamp",
+        "id": "53d472e5bfbf"
+      },
+      {
+        "title": "AI 智能体工程师指南：构建自主系统的 60 种模式 [完整版]",
+        "url": "https://www.bestblogs.dev/article/RAW_2cd7482683",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2cd7482683",
+        "original_url": "",
+        "resource_id": "RAW_2cd7482683",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204727+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "freeCodeCamp",
+        "id": "39dff06fd34b"
+      },
+      {
+        "title": "V4-Flash-Vision-Exp 上线，开启多模态 API 服务",
+        "url": "https://www.bestblogs.dev/article/RAW_905d38414d",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_905d38414d",
+        "original_url": "",
+        "resource_id": "RAW_905d38414d",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204624+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 93,
+        "source_name": "DeepSeek",
+        "id": "9244eb4e0f8c"
+      },
+      {
+        "title": "Anthropic AI 原生软件交付生命周期手册",
+        "url": "https://www.bestblogs.dev/article/RAW_8d3675ff87",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_8d3675ff87",
+        "original_url": "",
+        "resource_id": "RAW_8d3675ff87",
+        "cover_url": null,
+        "publish_time": "2026-08-22T02:07:09.204605+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 94,
+        "source_name": "Claude Blog",
+        "id": "5a43106695a4"
+      },
       {
         "title": "#683.Rich Sutton：大语言模型不是真正的智能，我们卡在了一个局部最优里",
         "url": "https://www.bestblogs.dev/article/RAW_d3aa19395",
@@ -528,176 +698,6 @@
         "score": 92,
         "source_name": "美团 · 技术团队",
         "id": "68cc9b9f9846"
-      },
-      {
-        "title": "软件的目的是什么",
-        "url": "https://www.bestblogs.dev/article/RAW_d54b8725fd",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_d54b8725fd",
-        "original_url": "",
-        "resource_id": "RAW_d54b8725fd",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.545106+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "UX Collective",
-        "id": "8d80624cd43c"
-      },
-      {
-        "title": "高级前端开发职业规划（2026—2035）",
-        "url": "https://www.bestblogs.dev/article/RAW_c892517b67",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c892517b67",
-        "original_url": "",
-        "resource_id": "RAW_c892517b67",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.545103+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "掘金本周最热",
-        "id": "4a8f783f5ded"
-      },
-      {
-        "title": "Whatnot 的直播电商押注：用社交发现重塑线上购物",
-        "url": "https://www.bestblogs.dev/article/RAW_2df6c9b41",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_2df6c9b41",
-        "original_url": "",
-        "resource_id": "RAW_2df6c9b41",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.545100+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "a16z",
-        "id": "59da394fb67e"
-      },
-      {
-        "title": "AI 理解、引擎驱动：零代码搭建实时数据链路",
-        "url": "https://www.bestblogs.dev/article/RAW_a6a36fe7af",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_a6a36fe7af",
-        "original_url": "",
-        "resource_id": "RAW_a6a36fe7af",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544987+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "大淘宝技术",
-        "id": "fddd9da08322"
-      },
-      {
-        "title": "个人 AI 代理舰队的书面宪法：七个月零事故",
-        "url": "https://www.bestblogs.dev/article/RAW_4869318f42",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_4869318f42",
-        "original_url": "",
-        "resource_id": "RAW_4869318f42",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544967+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Hacker News - Newest: \"AI Agent\"",
-        "id": "af935977e23c"
-      },
-      {
-        "title": "实践者之声",
-        "url": "https://www.bestblogs.dev/article/RAW_1766b084ba",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_1766b084ba",
-        "original_url": "",
-        "resource_id": "RAW_1766b084ba",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544959+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Martin Fowler",
-        "id": "8aa6b1c0d65f"
-      },
-      {
-        "title": "The Pulse：Grok 的 CLI 被曝将所有本地文件上传到云端",
-        "url": "https://www.bestblogs.dev/article/RAW_bfb49d5a52",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_bfb49d5a52",
-        "original_url": "",
-        "resource_id": "RAW_bfb49d5a52",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544955+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "The Pragmatic Engineer",
-        "id": "16ba8fa240f0"
-      },
-      {
-        "title": "151. 17 岁被 2026 年 ICML 收录论文的小少年：我 bet 开心！开心！开心！",
-        "url": "https://www.bestblogs.dev/article/RAW_fcb39979f",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_fcb39979f",
-        "original_url": "",
-        "resource_id": "RAW_fcb39979f",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544942+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "张小珺Jùn｜商业访谈录",
-        "id": "30796007cc12"
-      },
-      {
-        "title": "公民构建，智能体执行，专家治理",
-        "url": "https://www.bestblogs.dev/article/RAW_c3e687a68b",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c3e687a68b",
-        "original_url": "",
-        "resource_id": "RAW_c3e687a68b",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544937+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "Martin Fowler",
-        "id": "cdde276d26ef"
-      },
-      {
-        "title": "从 Chrome 调试工具到 AI 工程：与 Addy Osmani 对谈",
-        "url": "https://www.bestblogs.dev/article/RAW_6b0292dc9",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_6b0292dc9",
-        "original_url": "",
-        "resource_id": "RAW_6b0292dc9",
-        "cover_url": null,
-        "publish_time": "2026-08-20T12:57:52.544923+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "The Pragmatic Engineer",
-        "id": "67f9b2cf6a60"
       }
     ],
     "huggingface": [
@@ -712,8 +712,8 @@
         ],
         "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable",
         "platform": "huggingface",
-        "score": 214,
-        "comments_count": 1,
+        "score": 236,
+        "comments_count": 2,
         "id": "7bb30d20963a"
       },
       {
@@ -727,8 +727,8 @@
         ],
         "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task success, providing limited insight into why agents fail when repairing scientific software. We introduce SWE-bench Science, a repository-level benchmark for scientific software engineering comprising 119 ta",
         "platform": "huggingface",
-        "score": 46,
-        "comments_count": 2,
+        "score": 57,
+        "comments_count": 4,
         "id": "de0c54b5b314"
       },
       {
@@ -742,8 +742,8 @@
         ],
         "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed ",
         "platform": "huggingface",
-        "score": 43,
-        "comments_count": 3,
+        "score": 58,
+        "comments_count": 7,
         "id": "35a7c1bb3f65"
       },
       {
@@ -756,10 +756,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 347 · 下载 123,956",
+        "summary": "TrendingScore 407 · 下载 123,956",
         "platform": "huggingface",
-        "score": 374,
-        "trending_score": 347,
+        "score": 444,
+        "trending_score": 407,
         "downloads": 123956,
         "id": "0424eb8eec9b"
       },
@@ -774,7 +774,7 @@
         ],
         "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output ade",
         "platform": "huggingface",
-        "score": 113,
+        "score": 115,
         "comments_count": 2,
         "id": "6774521725c3"
       },
@@ -789,7 +789,7 @@
         ],
         "summary": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, t",
         "platform": "huggingface",
-        "score": 86,
+        "score": 91,
         "comments_count": 2,
         "id": "36517eb23a58"
       },
@@ -804,7 +804,7 @@
         ],
         "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a",
         "platform": "huggingface",
-        "score": 42,
+        "score": 45,
         "comments_count": 2,
         "id": "3613e7a20f5a"
       },
@@ -834,8 +834,8 @@
         ],
         "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in t",
         "platform": "huggingface",
-        "score": 81,
-        "comments_count": 2,
+        "score": 108,
+        "comments_count": 3,
         "id": "d0b471f4384b"
       },
       {
@@ -848,10 +848,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 176 · 下载 123,237",
+        "summary": "TrendingScore 198 · 下载 123,237",
         "platform": "huggingface",
-        "score": 185,
-        "trending_score": 176,
+        "score": 207,
+        "trending_score": 198,
         "downloads": 123237,
         "id": "4aaff03f6ea2"
       },
@@ -865,10 +865,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 254 · 下载 9,165",
+        "summary": "TrendingScore 287 · 下载 9,165",
         "platform": "huggingface",
-        "score": 257,
-        "trending_score": 254,
+        "score": 291,
+        "trending_score": 287,
         "downloads": 9165,
         "id": "67905e919614"
       },
@@ -928,7 +928,7 @@
         ],
         "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generated outcome in terms of high-level semantics relevant to the task. Evaluation focuses on the generated outcome and requires neither the presentation of a complete sequence of intermediate task steps no",
         "platform": "huggingface",
-        "score": 154,
+        "score": 155,
         "comments_count": 6,
         "id": "2d8842e04ff8"
       },
@@ -1010,6 +1010,258 @@
     ]
   },
   "sorted_all": [
+    {
+      "title": "Claude 平台：Computer Use、浏览器工具、Skills API 与 Files API 现已正式发布",
+      "url": "https://www.bestblogs.dev/article/RAW_2090540270219567575",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2090540270219567575",
+      "original_url": "",
+      "resource_id": "RAW_2090540270219567575",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204822+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "ClaudeDevs(@ClaudeDevs)",
+      "id": "11c382733463"
+    },
+    {
+      "title": "人的判断并未离开软件工厂，它只是转移了位置。",
+      "url": "https://www.bestblogs.dev/article/RAW_caae1bb9df",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_caae1bb9df",
+      "original_url": "",
+      "resource_id": "RAW_caae1bb9df",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204818+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 92,
+      "source_name": "Elevate",
+      "id": "e7d2d15908e7"
+    },
+    {
+      "title": "如何触及创造力：Rick Rubin 谈注意力、探索与完成",
+      "url": "https://www.bestblogs.dev/article/RAW_cbf3440fb",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_cbf3440fb",
+      "original_url": "",
+      "resource_id": "RAW_cbf3440fb",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204815+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "Andrew Huberman",
+      "id": "9217e2197adb"
+    },
+    {
+      "title": "都 Agent 时代了，我还是想分享给你这 12 个我最常用的 Prompt。",
+      "url": "https://www.bestblogs.dev/article/RAW_de953dbd85",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_de953dbd85",
+      "original_url": "",
+      "resource_id": "RAW_de953dbd85",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204795+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "数字生命卡兹克",
+      "id": "baea61cbbc12"
+    },
+    {
+      "title": "从表中检索一行，而非整张表：面向 RAG 的行级分块",
+      "url": "https://www.bestblogs.dev/article/RAW_a51fecdc1d",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_a51fecdc1d",
+      "original_url": "",
+      "resource_id": "RAW_a51fecdc1d",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204765+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "Towards Data Science",
+      "id": "bec282c06c69"
+    },
+    {
+      "title": "Agent 终章（Harness 成本篇）：一次百炼账单降低 88% 实战",
+      "url": "https://www.bestblogs.dev/article/RAW_a101b129cd",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_a101b129cd",
+      "original_url": "",
+      "resource_id": "RAW_a101b129cd",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204741+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "阿里技术",
+      "id": "8cf716fcb807"
+    },
+    {
+      "title": "如何使用 Python 和 Neo4j 构建知识图谱 [完整手册]",
+      "url": "https://www.bestblogs.dev/article/RAW_af438d325d",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_af438d325d",
+      "original_url": "",
+      "resource_id": "RAW_af438d325d",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204731+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "freeCodeCamp",
+      "id": "53d472e5bfbf"
+    },
+    {
+      "title": "AI 智能体工程师指南：构建自主系统的 60 种模式 [完整版]",
+      "url": "https://www.bestblogs.dev/article/RAW_2cd7482683",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2cd7482683",
+      "original_url": "",
+      "resource_id": "RAW_2cd7482683",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204727+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "freeCodeCamp",
+      "id": "39dff06fd34b"
+    },
+    {
+      "title": "V4-Flash-Vision-Exp 上线，开启多模态 API 服务",
+      "url": "https://www.bestblogs.dev/article/RAW_905d38414d",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_905d38414d",
+      "original_url": "",
+      "resource_id": "RAW_905d38414d",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204624+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 93,
+      "source_name": "DeepSeek",
+      "id": "9244eb4e0f8c"
+    },
+    {
+      "title": "Anthropic AI 原生软件交付生命周期手册",
+      "url": "https://www.bestblogs.dev/article/RAW_8d3675ff87",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_8d3675ff87",
+      "original_url": "",
+      "resource_id": "RAW_8d3675ff87",
+      "cover_url": null,
+      "publish_time": "2026-08-22T02:07:09.204605+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 94,
+      "source_name": "Claude Blog",
+      "id": "5a43106695a4"
+    },
+    {
+      "title": "DeepSeek-v4-flash-vision-exp上线 · 0822-592期",
+      "url": "https://radarai.top/updates/brief-20260822-0800",
+      "platform_url": "https://radarai.top/updates/brief-20260822-0800",
+      "cover_url": null,
+      "publish_time": "2026-08-22T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "1d41c0ccb6b9"
+    },
+    {
+      "title": "Quick impressions: A week of using Codex more than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "platform_url": "https://news.ycombinator.com/item?id=49393051",
+      "discussion_url": "https://news.ycombinator.com/item?id=49393051",
+      "score": 81,
+      "comments_count": 86,
+      "publish_time": "2026-08-21T19:51:48+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 82.5,
+      "id": "65097bd67f99"
+    },
+    {
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "platform_url": "https://news.ycombinator.com/item?id=49392331",
+      "discussion_url": "https://news.ycombinator.com/item?id=49392331",
+      "score": 44,
+      "comments_count": 49,
+      "publish_time": "2026-08-21T18:48:28+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 45.5,
+      "id": "c7352bcbb084"
+    },
+    {
+      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "platform_url": "https://news.ycombinator.com/item?id=49390463",
+      "discussion_url": "https://news.ycombinator.com/item?id=49390463",
+      "score": 87,
+      "comments_count": 51,
+      "publish_time": "2026-08-21T16:27:52+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 76.2,
+      "id": "1373c46c0b68"
+    },
+    {
+      "title": "DeepSeek-v4-flash-vision-exp上线 · 0822-591期",
+      "url": "https://radarai.top/updates/brief-20260822-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260822-0000",
+      "cover_url": null,
+      "publish_time": "2026-08-21T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "a5e0fd21f75a"
+    },
+    {
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "platform_url": "https://news.ycombinator.com/item?id=49388752",
+      "discussion_url": "https://news.ycombinator.com/item?id=49388752",
+      "score": 204,
+      "comments_count": 144,
+      "publish_time": "2026-08-21T14:31:52+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 185.99999999999997,
+      "id": "61c2b69ced02"
+    },
+    {
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "url": "https://kagi.com/changelog#11296",
+      "platform_url": "https://news.ycombinator.com/item?id=49388154",
+      "discussion_url": "https://news.ycombinator.com/item?id=49388154",
+      "score": 1019,
+      "comments_count": 344,
+      "publish_time": "2026-08-21T13:56:37+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 816.5,
+      "id": "fae7f3e93f42"
+    },
     {
       "title": "#683.Rich Sutton：大语言模型不是真正的智能，我们卡在了一个局部最优里",
       "url": "https://www.bestblogs.dev/article/RAW_d3aa19395",
@@ -1181,6 +1433,18 @@
       "id": "68cc9b9f9846"
     },
     {
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "platform_url": "https://news.ycombinator.com/item?id=49386699",
+      "discussion_url": "https://news.ycombinator.com/item?id=49386699",
+      "score": 276,
+      "comments_count": 283,
+      "publish_time": "2026-08-21T11:48:05+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 278.09999999999997,
+      "id": "fbfeb7564d81"
+    },
+    {
       "title": "最大运力自动驾驶轻卡落地，来自无人车巨头",
       "url": "https://www.qbitai.com/2026/08/476778.html",
       "platform_url": "https://www.qbitai.com/2026/08/476778.html",
@@ -1316,11 +1580,11 @@
       "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "platform_url": "https://news.ycombinator.com/item?id=49383026",
       "discussion_url": "https://news.ycombinator.com/item?id=49383026",
-      "score": 367,
-      "comments_count": 276,
+      "score": 535,
+      "comments_count": 839,
       "publish_time": "2026-08-21T02:37:47+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 339.7,
+      "hn_hot_score": 626.2,
       "id": "7dbcf58d2356"
     },
     {
@@ -1393,248 +1657,6 @@
       "id": "0cdd49168088"
     },
     {
-      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-      "url": "https://github.com/zachahn/vomit",
-      "platform_url": "https://news.ycombinator.com/item?id=49375996",
-      "discussion_url": "https://news.ycombinator.com/item?id=49375996",
-      "score": 269,
-      "comments_count": 264,
-      "publish_time": "2026-08-20T15:26:02+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 267.5,
-      "id": "0f8a87249a75"
-    },
-    {
-      "title": "Anti-AI fonts are useless and harmful",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "platform_url": "https://news.ycombinator.com/item?id=49375719",
-      "discussion_url": "https://news.ycombinator.com/item?id=49375719",
-      "score": 183,
-      "comments_count": 137,
-      "publish_time": "2026-08-20T15:06:53+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 169.2,
-      "id": "abb937b2eda9"
-    },
-    {
-      "title": "Hacking with Claude on a $27 smart watch",
-      "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-      "platform_url": "https://news.ycombinator.com/item?id=49374772",
-      "discussion_url": "https://news.ycombinator.com/item?id=49374772",
-      "score": 86,
-      "comments_count": 47,
-      "publish_time": "2026-08-20T14:08:09+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 74.3,
-      "id": "ae0cebe699a3"
-    },
-    {
-      "title": "软件的目的是什么",
-      "url": "https://www.bestblogs.dev/article/RAW_d54b8725fd",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_d54b8725fd",
-      "original_url": "",
-      "resource_id": "RAW_d54b8725fd",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.545106+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "UX Collective",
-      "id": "8d80624cd43c"
-    },
-    {
-      "title": "高级前端开发职业规划（2026—2035）",
-      "url": "https://www.bestblogs.dev/article/RAW_c892517b67",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c892517b67",
-      "original_url": "",
-      "resource_id": "RAW_c892517b67",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.545103+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "掘金本周最热",
-      "id": "4a8f783f5ded"
-    },
-    {
-      "title": "Whatnot 的直播电商押注：用社交发现重塑线上购物",
-      "url": "https://www.bestblogs.dev/article/RAW_2df6c9b41",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_2df6c9b41",
-      "original_url": "",
-      "resource_id": "RAW_2df6c9b41",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.545100+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "a16z",
-      "id": "59da394fb67e"
-    },
-    {
-      "title": "AI 理解、引擎驱动：零代码搭建实时数据链路",
-      "url": "https://www.bestblogs.dev/article/RAW_a6a36fe7af",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_a6a36fe7af",
-      "original_url": "",
-      "resource_id": "RAW_a6a36fe7af",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544987+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "大淘宝技术",
-      "id": "fddd9da08322"
-    },
-    {
-      "title": "个人 AI 代理舰队的书面宪法：七个月零事故",
-      "url": "https://www.bestblogs.dev/article/RAW_4869318f42",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_4869318f42",
-      "original_url": "",
-      "resource_id": "RAW_4869318f42",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544967+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Hacker News - Newest: \"AI Agent\"",
-      "id": "af935977e23c"
-    },
-    {
-      "title": "实践者之声",
-      "url": "https://www.bestblogs.dev/article/RAW_1766b084ba",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_1766b084ba",
-      "original_url": "",
-      "resource_id": "RAW_1766b084ba",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544959+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Martin Fowler",
-      "id": "8aa6b1c0d65f"
-    },
-    {
-      "title": "The Pulse：Grok 的 CLI 被曝将所有本地文件上传到云端",
-      "url": "https://www.bestblogs.dev/article/RAW_bfb49d5a52",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_bfb49d5a52",
-      "original_url": "",
-      "resource_id": "RAW_bfb49d5a52",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544955+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "The Pragmatic Engineer",
-      "id": "16ba8fa240f0"
-    },
-    {
-      "title": "151. 17 岁被 2026 年 ICML 收录论文的小少年：我 bet 开心！开心！开心！",
-      "url": "https://www.bestblogs.dev/article/RAW_fcb39979f",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_fcb39979f",
-      "original_url": "",
-      "resource_id": "RAW_fcb39979f",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544942+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "张小珺Jùn｜商业访谈录",
-      "id": "30796007cc12"
-    },
-    {
-      "title": "公民构建，智能体执行，专家治理",
-      "url": "https://www.bestblogs.dev/article/RAW_c3e687a68b",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c3e687a68b",
-      "original_url": "",
-      "resource_id": "RAW_c3e687a68b",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544937+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "Martin Fowler",
-      "id": "cdde276d26ef"
-    },
-    {
-      "title": "从 Chrome 调试工具到 AI 工程：与 Addy Osmani 对谈",
-      "url": "https://www.bestblogs.dev/article/RAW_6b0292dc9",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_6b0292dc9",
-      "original_url": "",
-      "resource_id": "RAW_6b0292dc9",
-      "cover_url": null,
-      "publish_time": "2026-08-20T12:57:52.544923+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "The Pragmatic Engineer",
-      "id": "67f9b2cf6a60"
-    },
-    {
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "platform_url": "https://news.ycombinator.com/item?id=49373456",
-      "discussion_url": "https://news.ycombinator.com/item?id=49373456",
-      "score": 560,
-      "comments_count": 113,
-      "publish_time": "2026-08-20T12:04:38+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 425.9,
-      "id": "0f5325f5fc85"
-    },
-    {
-      "title": "AI didn't erase the junior engineer's value, it increased it it",
-      "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-      "platform_url": "https://news.ycombinator.com/item?id=49373269",
-      "discussion_url": "https://news.ycombinator.com/item?id=49373269",
-      "score": 78,
-      "comments_count": 137,
-      "publish_time": "2026-08-20T11:42:20+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 95.69999999999999,
-      "id": "dc2059c6bc02"
-    },
-    {
-      "title": "Don't paste the AI, please",
-      "url": "https://dontpastetheai.com/",
-      "platform_url": "https://news.ycombinator.com/item?id=49371857",
-      "discussion_url": "https://news.ycombinator.com/item?id=49371857",
-      "score": 990,
-      "comments_count": 541,
-      "publish_time": "2026-08-20T08:20:44+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 855.3,
-      "id": "1a5832a617aa"
-    },
-    {
       "title": "Stripe 80 亿美元收购 OpenRouter，AI 模型路由成产业新焦点 · 0820-587期",
       "url": "https://radarai.top/updates/brief-20260820-1600",
       "platform_url": "https://radarai.top/updates/brief-20260820-1600",
@@ -1667,8 +1689,8 @@
       ],
       "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable",
       "platform": "huggingface",
-      "score": 214,
-      "comments_count": 1,
+      "score": 236,
+      "comments_count": 2,
       "id": "7bb30d20963a"
     },
     {
@@ -1682,8 +1704,8 @@
       ],
       "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task success, providing limited insight into why agents fail when repairing scientific software. We introduce SWE-bench Science, a repository-level benchmark for scientific software engineering comprising 119 ta",
       "platform": "huggingface",
-      "score": 46,
-      "comments_count": 2,
+      "score": 57,
+      "comments_count": 4,
       "id": "de0c54b5b314"
     },
     {
@@ -1697,8 +1719,8 @@
       ],
       "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed ",
       "platform": "huggingface",
-      "score": 43,
-      "comments_count": 3,
+      "score": 58,
+      "comments_count": 7,
       "id": "35a7c1bb3f65"
     },
     {
@@ -1722,10 +1744,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 347 · 下载 123,956",
+      "summary": "TrendingScore 407 · 下载 123,956",
       "platform": "huggingface",
-      "score": 374,
-      "trending_score": 347,
+      "score": 444,
+      "trending_score": 407,
       "downloads": 123956,
       "id": "0424eb8eec9b"
     },
@@ -1741,17 +1763,6 @@
       "id": "9490e105a6ac"
     },
     {
-      "title": "普冉股份净利润暴增1929%：AI硬件引爆存储芯片需求 · 0819-583期",
-      "url": "https://radarai.top/updates/brief-20260819-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260819-0800",
-      "cover_url": null,
-      "publish_time": "2026-08-19T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d63b23f0d1e8"
-    },
-    {
       "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
       "url": "https://huggingface.co/papers/2608.18565",
       "platform_url": "https://huggingface.co/papers/2608.18565",
@@ -1762,7 +1773,7 @@
       ],
       "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output ade",
       "platform": "huggingface",
-      "score": 113,
+      "score": 115,
       "comments_count": 2,
       "id": "6774521725c3"
     },
@@ -1777,7 +1788,7 @@
       ],
       "summary": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, t",
       "platform": "huggingface",
-      "score": 86,
+      "score": 91,
       "comments_count": 2,
       "id": "36517eb23a58"
     },
@@ -1792,7 +1803,7 @@
       ],
       "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a",
       "platform": "huggingface",
-      "score": 42,
+      "score": 45,
       "comments_count": 2,
       "id": "3613e7a20f5a"
     },
@@ -1822,20 +1833,9 @@
       ],
       "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in t",
       "platform": "huggingface",
-      "score": 81,
-      "comments_count": 2,
+      "score": 108,
+      "comments_count": 3,
       "id": "d0b471f4384b"
-    },
-    {
-      "title": "百度AI收入破125亿占半壁江山，支付宝推AHA跨端协议 · 0819-582期",
-      "url": "https://radarai.top/updates/brief-20260819-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260819-0000",
-      "cover_url": null,
-      "publish_time": "2026-08-18T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d37b5cb3f176"
     },
     {
       "title": "[模型] ornith-ai/Ornith-1.5-35B-A3B-GGUF",
@@ -1847,10 +1847,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 176 · 下载 123,237",
+      "summary": "TrendingScore 198 · 下载 123,237",
       "platform": "huggingface",
-      "score": 185,
-      "trending_score": 176,
+      "score": 207,
+      "trending_score": 198,
       "downloads": 123237,
       "id": "4aaff03f6ea2"
     },
@@ -1864,10 +1864,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 254 · 下载 9,165",
+      "summary": "TrendingScore 287 · 下载 9,165",
       "platform": "huggingface",
-      "score": 257,
-      "trending_score": 254,
+      "score": 291,
+      "trending_score": 287,
       "downloads": 9165,
       "id": "67905e919614"
     },
@@ -1927,7 +1927,7 @@
       ],
       "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generated outcome in terms of high-level semantics relevant to the task. Evaluation focuses on the generated outcome and requires neither the presentation of a complete sequence of intermediate task steps no",
       "platform": "huggingface",
-      "score": 154,
+      "score": 155,
       "comments_count": 6,
       "id": "2d8842e04ff8"
     },
@@ -2011,7 +2011,7 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 11.3,
+      "avg_response_time": 9.3,
       "cover_success_rate": 38.6
     },
     "platforms": [
@@ -2020,73 +2020,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-21T12:56:11.298933+00:00"
+        "last_crawl": "2026-08-22T02:06:46.415935+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-21T12:56:42.492816+00:00"
+        "last_crawl": "2026-08-22T02:07:06.349150+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-21T12:56:44.241237+00:00"
+        "last_crawl": "2026-08-22T02:07:08.179177+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-21T12:56:52.267717+00:00"
+        "last_crawl": "2026-08-22T02:07:17.762902+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-21T12:56:52.455002+00:00"
+        "last_crawl": "2026-08-22T02:07:18.000996+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-21T12:56:11.298938+00:00",
+        "timestamp": "2026-08-22T02:06:46.415942+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.48825
+        "latency": 15.151688
       },
       {
-        "timestamp": "2026-08-21T12:56:42.492822+00:00",
+        "timestamp": "2026-08-22T02:07:06.349156+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 31.193878
+        "latency": 19.933207
       },
       {
-        "timestamp": "2026-08-21T12:56:44.241242+00:00",
+        "timestamp": "2026-08-22T02:07:08.179182+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.748412
+        "latency": 1.830018
       },
       {
-        "timestamp": "2026-08-21T12:56:52.267723+00:00",
+        "timestamp": "2026-08-22T02:07:17.762909+00:00",
         "platform": "bestblogs",
         "status": "success",
         "items_collected": 20,
-        "latency": 8.026475
+        "latency": 9.583719
       },
       {
-        "timestamp": "2026-08-21T12:56:52.455013+00:00",
+        "timestamp": "2026-08-22T02:07:18.001007+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.187285
+        "latency": 0.238093
       }
     ]
   }
