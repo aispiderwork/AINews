@@ -2119,6 +2119,40 @@
         }
       },
       "duration_seconds": 46.8
+    },
+    {
+      "run_id": "20260822-124746",
+      "timestamp": "2026-08-22T12:47:46.688587+00:00",
+      "trigger": "evening",
+      "total_items": 50,
+      "platforms": {
+        "hackernews": {
+          "status": "online",
+          "items": 10,
+          "latency": 15.064404
+        },
+        "qbitai": {
+          "status": "online",
+          "items": 10,
+          "latency": 20.007516
+        },
+        "radarai": {
+          "status": "online",
+          "items": 10,
+          "latency": 1.649532
+        },
+        "bestblogs": {
+          "status": "error",
+          "items": 0,
+          "latency": 0
+        },
+        "huggingface": {
+          "status": "online",
+          "items": 20,
+          "latency": 0.181901
+        }
+      },
+      "duration_seconds": 109.2
     }
   ]
 }
