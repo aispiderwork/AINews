@@ -1,10 +1,19 @@
 {
-  "update_time": "2026-08-24T02:14:28.902571+00:00",
-  "platform_unavailable": [
-    "qbitai"
-  ],
+  "update_time": "2026-08-24T13:01:43.173182+00:00",
+  "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "Hugging Face估值逼近130亿美元，中立模型平台价值凸显 · 0824-599期",
+        "url": "https://radarai.top/updates/brief-20260824-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260824-1600",
+        "cover_url": null,
+        "publish_time": "2026-08-24T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "b2a9d5b373d8"
+      },
       {
         "title": "Φ-Bench 揭示大模型工程能力短板，800亿港元AI投入重塑竞争格局 · 0824-598期",
         "url": "https://radarai.top/updates/brief-20260824-0800",
@@ -103,30 +112,43 @@
         "summary": "",
         "platform": "radarai",
         "id": "eea5fc3eb8fb"
-      },
-      {
-        "title": "每周 AI 热点 · 2026-08-21",
-        "url": "https://radarai.top/updates/weekly-2026-08-21",
-        "platform_url": "https://radarai.top/updates/weekly-2026-08-21",
-        "cover_url": null,
-        "publish_time": "2026-08-21T01:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "1afb9293724e"
       }
     ],
     "hackernews": [
+      {
+        "title": "I built a low-latency AI companion that plays Skyrim with me",
+        "url": "https://pantel.is/projects/ai-gaming-companion/",
+        "platform_url": "https://news.ycombinator.com/item?id=49413561",
+        "discussion_url": "https://news.ycombinator.com/item?id=49413561",
+        "score": 216,
+        "comments_count": 41,
+        "publish_time": "2026-08-23T23:18:17+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 163.5,
+        "id": "eb3d5dfffb19"
+      },
+      {
+        "title": "I were 17, I'd learn how to build LLMs from scratch",
+        "url": "https://twitter.com/paulg/status/2091544343589060625",
+        "platform_url": "https://news.ycombinator.com/item?id=49412396",
+        "discussion_url": "https://news.ycombinator.com/item?id=49412396",
+        "score": 245,
+        "comments_count": 356,
+        "publish_time": "2026-08-23T20:38:09+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 278.3,
+        "id": "8f873aba52fd"
+      },
       {
         "title": "Google Workspace thinks my domain is an email provider (2025)",
         "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
         "platform_url": "https://news.ycombinator.com/item?id=49411717",
         "discussion_url": "https://news.ycombinator.com/item?id=49411717",
-        "score": 189,
-        "comments_count": 47,
+        "score": 336,
+        "comments_count": 114,
         "publish_time": "2026-08-23T19:29:32+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 146.39999999999998,
+        "hn_hot_score": 269.4,
         "id": "eb7881f3fc4c"
       },
       {
@@ -134,11 +156,11 @@
         "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
         "platform_url": "https://news.ycombinator.com/item?id=49411102",
         "discussion_url": "https://news.ycombinator.com/item?id=49411102",
-        "score": 238,
-        "comments_count": 203,
+        "score": 599,
+        "comments_count": 534,
         "publish_time": "2026-08-23T18:16:37+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 227.5,
+        "hn_hot_score": 579.5,
         "id": "fed3034c0661"
       },
       {
@@ -146,11 +168,11 @@
         "url": "https://fabiensanglard.net/agent.md/index.html",
         "platform_url": "https://news.ycombinator.com/item?id=49410932",
         "discussion_url": "https://news.ycombinator.com/item?id=49410932",
-        "score": 171,
-        "comments_count": 82,
+        "score": 333,
+        "comments_count": 144,
         "publish_time": "2026-08-23T17:59:52+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 144.29999999999998,
+        "hn_hot_score": 276.3,
         "id": "3760b11a0da9"
       },
       {
@@ -158,11 +180,11 @@
         "url": "https://how.complexsystems.fail/",
         "platform_url": "https://news.ycombinator.com/item?id=49409473",
         "discussion_url": "https://news.ycombinator.com/item?id=49409473",
-        "score": 244,
-        "comments_count": 62,
+        "score": 337,
+        "comments_count": 72,
         "publish_time": "2026-08-23T15:13:31+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 189.39999999999998,
+        "hn_hot_score": 257.5,
         "id": "b945696aea66"
       },
       {
@@ -170,11 +192,11 @@
         "url": "https://ericpardee.github.io/fire-hd-ownership/",
         "platform_url": "https://news.ycombinator.com/item?id=49409073",
         "discussion_url": "https://news.ycombinator.com/item?id=49409073",
-        "score": 621,
-        "comments_count": 268,
+        "score": 662,
+        "comments_count": 281,
         "publish_time": "2026-08-23T14:23:09+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 515.1,
+        "hn_hot_score": 547.6999999999999,
         "id": "2027b5f7235b"
       },
       {
@@ -182,11 +204,11 @@
         "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
         "platform_url": "https://news.ycombinator.com/item?id=49402232",
         "discussion_url": "https://news.ycombinator.com/item?id=49402232",
-        "score": 475,
-        "comments_count": 197,
+        "score": 493,
+        "comments_count": 201,
         "publish_time": "2026-08-22T18:14:16+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 391.6,
+        "hn_hot_score": 405.4,
         "id": "126e2c75c897"
       },
       {
@@ -212,33 +234,39 @@
         "platform": "hackernews",
         "hn_hot_score": 190.89999999999998,
         "id": "9fc325987ebb"
-      },
-      {
-        "title": "Munder Difflin – Agent harness to run an office of your clones",
-        "url": "https://munderdiffl.in/",
-        "platform_url": "https://news.ycombinator.com/item?id=49398152",
-        "discussion_url": "https://news.ycombinator.com/item?id=49398152",
-        "score": 290,
-        "comments_count": 125,
-        "publish_time": "2026-08-22T09:49:14+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 240.5,
-        "id": "3e8d1447ba0a"
-      },
-      {
-        "title": "A week of using Codex more than Claude",
-        "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-        "platform_url": "https://news.ycombinator.com/item?id=49393051",
-        "discussion_url": "https://news.ycombinator.com/item?id=49393051",
-        "score": 235,
-        "comments_count": 271,
-        "publish_time": "2026-08-21T19:51:48+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 245.8,
-        "id": "3ffe54fc12d3"
       }
     ],
     "huggingface": [
+      {
+        "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+        "url": "https://huggingface.co/papers/2608.21156",
+        "platform_url": "https://huggingface.co/papers/2608.21156",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.21156.png",
+        "publish_time": "2026-08-20T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize external tools and resources, and Loop Engineering to support continual reflection and self-improvement. Yet as tasks grow more complex, individual intelligence faces a fundamental limit: many tasks require heterogene",
+        "platform": "huggingface",
+        "score": 24,
+        "comments_count": 1,
+        "id": "4c5c5a8036c7"
+      },
+      {
+        "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+        "url": "https://huggingface.co/papers/2608.20061",
+        "platform_url": "https://huggingface.co/papers/2608.20061",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20061.png",
+        "publish_time": "2026-08-20T09:57:43.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally prohibitive. In this paper, we propose a compute-efficient, two-step hyperparameter transfer framework that estimates optimal learning rates for training large MoE models by transferring them across sca",
+        "platform": "huggingface",
+        "score": 25,
+        "comments_count": 1,
+        "id": "f8a0a027e8b9"
+      },
       {
         "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
         "url": "https://huggingface.co/papers/2608.19880",
@@ -250,7 +278,7 @@
         ],
         "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable",
         "platform": "huggingface",
-        "score": 254,
+        "score": 257,
         "comments_count": 2,
         "id": "7bb30d20963a"
       },
@@ -280,9 +308,39 @@
         ],
         "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed ",
         "platform": "huggingface",
-        "score": 69,
+        "score": 72,
         "comments_count": 7,
         "id": "35a7c1bb3f65"
+      },
+      {
+        "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+        "url": "https://huggingface.co/papers/2608.20336",
+        "platform_url": "https://huggingface.co/papers/2608.20336",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20336.png",
+        "publish_time": "2026-08-19T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, pr",
+        "platform": "huggingface",
+        "score": 39,
+        "comments_count": 2,
+        "id": "f2de6707ec2b"
+      },
+      {
+        "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+        "url": "https://huggingface.co/papers/2608.20202",
+        "platform_url": "https://huggingface.co/papers/2608.20202",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20202.png",
+        "publish_time": "2026-08-19T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memories reshape model reasoning and affect performance on the current task. We identify memory-induced cognitive traps: even faithfully recorded and semantically relevant memories can distort model reasoni",
+        "platform": "huggingface",
+        "score": 31,
+        "comments_count": 2,
+        "id": "2a49e502de87"
       },
       {
         "title": "[模型] OBLITERATUS/Qwen3.8-27B-OBLITERATED",
@@ -294,11 +352,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 566 · 下载 244,834",
+        "summary": "TrendingScore 596 · 下载 312,627",
         "platform": "huggingface",
-        "score": 637,
-        "trending_score": 566,
-        "downloads": 244834,
+        "score": 670,
+        "trending_score": 596,
+        "downloads": 312627,
         "id": "0424eb8eec9b"
       },
       {
@@ -311,11 +369,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 162 · 下载 359,078",
+        "summary": "TrendingScore 167 · 下载 971,104",
         "platform": "huggingface",
-        "score": 176,
-        "trending_score": 162,
-        "downloads": 359078,
+        "score": 182,
+        "trending_score": 167,
+        "downloads": 971104,
         "id": "c49df7376979"
       },
       {
@@ -389,7 +447,7 @@
         ],
         "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in t",
         "platform": "huggingface",
-        "score": 114,
+        "score": 115,
         "comments_count": 3,
         "id": "d0b471f4384b"
       },
@@ -403,11 +461,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 241 · 下载 369,478",
+        "summary": "TrendingScore 251 · 下载 988,170",
         "platform": "huggingface",
-        "score": 253,
-        "trending_score": 241,
-        "downloads": 369478,
+        "score": 263,
+        "trending_score": 251,
+        "downloads": 988170,
         "id": "4aaff03f6ea2"
       },
       {
@@ -420,11 +478,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 360 · 下载 23,516",
+        "summary": "TrendingScore 369 · 下载 60,294",
         "platform": "huggingface",
-        "score": 367,
-        "trending_score": 360,
-        "downloads": 23516,
+        "score": 377,
+        "trending_score": 369,
+        "downloads": 60294,
         "id": "67905e919614"
       },
       {
@@ -437,11 +495,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 179 · 下载 31,496",
+        "summary": "TrendingScore 184 · 下载 83,192",
         "platform": "huggingface",
-        "score": 185,
-        "trending_score": 179,
-        "downloads": 31496,
+        "score": 190,
+        "trending_score": 184,
+        "downloads": 83192,
         "id": "b64507e1c1aa"
       },
       {
@@ -454,11 +512,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 162 · 下载 69,783",
+        "summary": "TrendingScore 167 · 下载 85,034",
         "platform": "huggingface",
-        "score": 164,
-        "trending_score": 162,
-        "downloads": 69783,
+        "score": 169,
+        "trending_score": 167,
+        "downloads": 85034,
         "id": "78ee1557525f"
       },
       {
@@ -490,70 +548,6 @@
         "score": 46,
         "comments_count": 2,
         "id": "a3a5fbbd4f83"
-      },
-      {
-        "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-        "url": "https://huggingface.co/papers/2608.17310",
-        "platform_url": "https://huggingface.co/papers/2608.17310",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.17310.png",
-        "publish_time": "2026-08-17T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning introduces increasingly branching interactions and sparse rewards, exposing several limitations of RL: its heavyweight backpropagation-based training stack makes it impractical to fine-tune larger LLMs, and longer-horizon trajectories make credit assignment in RL substantially harder. This paper argues that evolution strategies (ES) can be a better choice for fine-tuning long-ho",
-        "platform": "huggingface",
-        "score": 96,
-        "comments_count": 2,
-        "id": "a2ea4ad1f7c3"
-      },
-      {
-        "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
-        "url": "https://huggingface.co/papers/2608.17426",
-        "platform_url": "https://huggingface.co/papers/2608.17426",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.17426.png",
-        "publish_time": "2026-08-17T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generated outcome in terms of high-level semantics relevant to the task. Evaluation focuses on the generated outcome and requires neither the presentation of a complete sequence of intermediate task steps no",
-        "platform": "huggingface",
-        "score": 155,
-        "comments_count": 6,
-        "id": "2d8842e04ff8"
-      },
-      {
-        "title": "[模型] z-lab/Qwen3.8-27B-DFlash2",
-        "url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
-        "platform_url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
-        "cover_url": null,
-        "publish_time": "2026-08-15T21:26:10.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 200 · 下载 36,234",
-        "platform": "huggingface",
-        "score": 204,
-        "trending_score": 200,
-        "downloads": 36234,
-        "id": "bf0beff09f7f"
-      },
-      {
-        "title": "[模型] JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "platform_url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "cover_url": null,
-        "publish_time": "2026-08-14T03:43:36.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 371 · 下载 1,334,820",
-        "platform": "huggingface",
-        "score": 651,
-        "trending_score": 371,
-        "downloads": 1334820,
-        "id": "0d17304cc8f1"
       }
     ],
     "bestblogs": [
@@ -564,7 +558,7 @@
         "original_url": "",
         "resource_id": "RAW_bda4779f1",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.928117+00:00",
+        "publish_time": "2026-08-24T13:01:34.190378+00:00",
         "tags": [
           "早报"
         ],
@@ -581,7 +575,7 @@
         "original_url": "",
         "resource_id": "RAW_bf70c1ddef",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.928020+00:00",
+        "publish_time": "2026-08-24T13:01:34.190287+00:00",
         "tags": [
           "早报"
         ],
@@ -598,7 +592,7 @@
         "original_url": "",
         "resource_id": "RAW_7bab069352",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.928015+00:00",
+        "publish_time": "2026-08-24T13:01:34.190282+00:00",
         "tags": [
           "早报"
         ],
@@ -615,7 +609,7 @@
         "original_url": "",
         "resource_id": "RAW_85efce309",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.928011+00:00",
+        "publish_time": "2026-08-24T13:01:34.190279+00:00",
         "tags": [
           "早报"
         ],
@@ -632,7 +626,7 @@
         "original_url": "",
         "resource_id": "RAW_4b3c69a2e",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927973+00:00",
+        "publish_time": "2026-08-24T13:01:34.190244+00:00",
         "tags": [
           "早报"
         ],
@@ -649,7 +643,7 @@
         "original_url": "",
         "resource_id": "RAW_112a0d1783",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927969+00:00",
+        "publish_time": "2026-08-24T13:01:34.190237+00:00",
         "tags": [
           "早报"
         ],
@@ -666,7 +660,7 @@
         "original_url": "",
         "resource_id": "RAW_e1ec50fb95",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927956+00:00",
+        "publish_time": "2026-08-24T13:01:34.190227+00:00",
         "tags": [
           "早报"
         ],
@@ -683,7 +677,7 @@
         "original_url": "",
         "resource_id": "RAW_e7019d9daf",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927937+00:00",
+        "publish_time": "2026-08-24T13:01:34.190211+00:00",
         "tags": [
           "早报"
         ],
@@ -700,7 +694,7 @@
         "original_url": "",
         "resource_id": "RAW_a6015d9e0",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927923+00:00",
+        "publish_time": "2026-08-24T13:01:34.190194+00:00",
         "tags": [
           "早报"
         ],
@@ -717,7 +711,7 @@
         "original_url": "",
         "resource_id": "RAW_d283b567d",
         "cover_url": null,
-        "publish_time": "2026-08-24T02:14:21.927904+00:00",
+        "publish_time": "2026-08-24T13:01:34.190178+00:00",
         "tags": [
           "早报"
         ],
@@ -927,6 +921,128 @@
         "source_name": "InfoQ 中文",
         "id": "effc06defaf5"
       }
+    ],
+    "qbitai": [
+      {
+        "title": "阿里达摩院推出肝癌AI模型，精准识别1厘米微小肿瘤",
+        "url": "https://www.qbitai.com/2026/08/478473.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478473.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/22101f780b6e5e2b570f9e224f65182c.png",
+        "publish_time": "2026-08-24T08:07:59+00:00",
+        "tags": [
+          "阿里"
+        ],
+        "platform": "qbitai",
+        "id": "775db166a612"
+      },
+      {
+        "title": "单芯片到万卡集群体系化突破 中诚华隆HL200推理芯片及超节点集群重磅发布",
+        "url": "https://www.qbitai.com/2026/08/478469.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478469.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/caa7be6d050ecb06f608a37cba1d8464.jpeg",
+        "publish_time": "2026-08-24T07:59:09.026256+00:00",
+        "tags": [
+          "中诚华隆"
+        ],
+        "platform": "qbitai",
+        "id": "edecd3bffad5"
+      },
+      {
+        "title": "8月25日直播预告 | AFAC2026金融智能创新大赛，总决赛路演倒计时来啦！",
+        "url": "https://www.qbitai.com/2026/08/478447.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478447.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/6a440676d4973eb44229bc2ba3e8847b.jpeg",
+        "publish_time": "2026-08-24T06:59:39.484018+00:00",
+        "tags": [
+          "蚂蚁"
+        ],
+        "platform": "qbitai",
+        "id": "b591cb02539e"
+      },
+      {
+        "title": "阿里视频大模型Wan3.0正式上线，行业评价“稳定、真实、有质感”",
+        "url": "https://www.qbitai.com/2026/08/478427.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478427.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/c430a9eb53dcac4597fdc3568d49f5b4.png",
+        "publish_time": "2026-08-24T06:00:14.458413+00:00",
+        "tags": [
+          "阿里"
+        ],
+        "platform": "qbitai",
+        "id": "2209347a0afa"
+      },
+      {
+        "title": "WRC 2026｜原生全模态世界模型：从模拟世界到交互世界",
+        "url": "https://www.qbitai.com/2026/08/478421.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478421.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/dbc941248cb0a1338743ad5706a966b6.jpeg",
+        "publish_time": "2026-08-24T05:04:52+00:00",
+        "tags": [
+          "智象未来"
+        ],
+        "platform": "qbitai",
+        "id": "94e6b6deba00"
+      },
+      {
+        "title": "前保安杀进了AI决赛，高中生拿走25万！这AI比赛办得有点绝",
+        "url": "https://www.qbitai.com/2026/08/478358.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478358.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/f6b58304ba12f3216741cd51c3345e7e.jpeg",
+        "publish_time": "2026-08-24T00:00:45.633054+00:00",
+        "tags": [
+          "TRAE AI创造力大赛"
+        ],
+        "platform": "qbitai",
+        "id": "519a79c351ea"
+      },
+      {
+        "title": "具身创业里的香港教授们",
+        "url": "https://www.qbitai.com/2026/08/478289.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478289.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/28934d381825ccb47d68b57d48d91fae.png",
+        "publish_time": "2026-08-23T11:20:00+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "fc1cb3a467a9"
+      },
+      {
+        "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+        "url": "https://www.qbitai.com/2026/08/478234.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478234.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/456e4a7c8a437340229b2f7087fa1f4a.png",
+        "publish_time": "2026-08-23T11:17:22+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "6e4e0024d4e5"
+      },
+      {
+        "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+        "url": "https://www.qbitai.com/2026/08/478191.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478191.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/db75474b9d3ee9b7e274c45cf3d4d686.jpeg",
+        "publish_time": "2026-08-23T09:56:12+00:00",
+        "tags": [
+          "多模态",
+          "牛来大模型",
+          "超长上下文"
+        ],
+        "platform": "qbitai",
+        "id": "60f13c761556"
+      },
+      {
+        "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+        "url": "https://www.qbitai.com/2026/08/478164.html",
+        "platform_url": "https://www.qbitai.com/2026/08/478164.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/c5a2cd00fa8f5a9a017625ff744dea22.webp",
+        "publish_time": "2026-08-23T09:51:49+00:00",
+        "tags": [
+          "AI服务器",
+          "内存",
+          "英伟达"
+        ],
+        "platform": "qbitai",
+        "id": "cb08b7ab3f13"
+      }
     ]
   },
   "sorted_all": [
@@ -937,7 +1053,7 @@
       "original_url": "",
       "resource_id": "RAW_bda4779f1",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.928117+00:00",
+      "publish_time": "2026-08-24T13:01:34.190378+00:00",
       "tags": [
         "早报"
       ],
@@ -954,7 +1070,7 @@
       "original_url": "",
       "resource_id": "RAW_bf70c1ddef",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.928020+00:00",
+      "publish_time": "2026-08-24T13:01:34.190287+00:00",
       "tags": [
         "早报"
       ],
@@ -971,7 +1087,7 @@
       "original_url": "",
       "resource_id": "RAW_7bab069352",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.928015+00:00",
+      "publish_time": "2026-08-24T13:01:34.190282+00:00",
       "tags": [
         "早报"
       ],
@@ -988,7 +1104,7 @@
       "original_url": "",
       "resource_id": "RAW_85efce309",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.928011+00:00",
+      "publish_time": "2026-08-24T13:01:34.190279+00:00",
       "tags": [
         "早报"
       ],
@@ -1005,7 +1121,7 @@
       "original_url": "",
       "resource_id": "RAW_4b3c69a2e",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927973+00:00",
+      "publish_time": "2026-08-24T13:01:34.190244+00:00",
       "tags": [
         "早报"
       ],
@@ -1022,7 +1138,7 @@
       "original_url": "",
       "resource_id": "RAW_112a0d1783",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927969+00:00",
+      "publish_time": "2026-08-24T13:01:34.190237+00:00",
       "tags": [
         "早报"
       ],
@@ -1039,7 +1155,7 @@
       "original_url": "",
       "resource_id": "RAW_e1ec50fb95",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927956+00:00",
+      "publish_time": "2026-08-24T13:01:34.190227+00:00",
       "tags": [
         "早报"
       ],
@@ -1056,7 +1172,7 @@
       "original_url": "",
       "resource_id": "RAW_e7019d9daf",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927937+00:00",
+      "publish_time": "2026-08-24T13:01:34.190211+00:00",
       "tags": [
         "早报"
       ],
@@ -1073,7 +1189,7 @@
       "original_url": "",
       "resource_id": "RAW_a6015d9e0",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927923+00:00",
+      "publish_time": "2026-08-24T13:01:34.190194+00:00",
       "tags": [
         "早报"
       ],
@@ -1090,7 +1206,7 @@
       "original_url": "",
       "resource_id": "RAW_d283b567d",
       "cover_url": null,
-      "publish_time": "2026-08-24T02:14:21.927904+00:00",
+      "publish_time": "2026-08-24T13:01:34.190178+00:00",
       "tags": [
         "早报"
       ],
@@ -1099,6 +1215,89 @@
       "score": 92,
       "source_name": "David Senra",
       "id": "e1ff0a04bc5f"
+    },
+    {
+      "title": "阿里达摩院推出肝癌AI模型，精准识别1厘米微小肿瘤",
+      "url": "https://www.qbitai.com/2026/08/478473.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478473.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/22101f780b6e5e2b570f9e224f65182c.png",
+      "publish_time": "2026-08-24T08:07:59+00:00",
+      "tags": [
+        "阿里"
+      ],
+      "platform": "qbitai",
+      "id": "775db166a612"
+    },
+    {
+      "title": "Hugging Face估值逼近130亿美元，中立模型平台价值凸显 · 0824-599期",
+      "url": "https://radarai.top/updates/brief-20260824-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260824-1600",
+      "cover_url": null,
+      "publish_time": "2026-08-24T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "b2a9d5b373d8"
+    },
+    {
+      "title": "单芯片到万卡集群体系化突破 中诚华隆HL200推理芯片及超节点集群重磅发布",
+      "url": "https://www.qbitai.com/2026/08/478469.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478469.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/caa7be6d050ecb06f608a37cba1d8464.jpeg",
+      "publish_time": "2026-08-24T07:59:09.026256+00:00",
+      "tags": [
+        "中诚华隆"
+      ],
+      "platform": "qbitai",
+      "id": "edecd3bffad5"
+    },
+    {
+      "title": "8月25日直播预告 | AFAC2026金融智能创新大赛，总决赛路演倒计时来啦！",
+      "url": "https://www.qbitai.com/2026/08/478447.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478447.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/6a440676d4973eb44229bc2ba3e8847b.jpeg",
+      "publish_time": "2026-08-24T06:59:39.484018+00:00",
+      "tags": [
+        "蚂蚁"
+      ],
+      "platform": "qbitai",
+      "id": "b591cb02539e"
+    },
+    {
+      "title": "阿里视频大模型Wan3.0正式上线，行业评价“稳定、真实、有质感”",
+      "url": "https://www.qbitai.com/2026/08/478427.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478427.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/c430a9eb53dcac4597fdc3568d49f5b4.png",
+      "publish_time": "2026-08-24T06:00:14.458413+00:00",
+      "tags": [
+        "阿里"
+      ],
+      "platform": "qbitai",
+      "id": "2209347a0afa"
+    },
+    {
+      "title": "WRC 2026｜原生全模态世界模型：从模拟世界到交互世界",
+      "url": "https://www.qbitai.com/2026/08/478421.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478421.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/dbc941248cb0a1338743ad5706a966b6.jpeg",
+      "publish_time": "2026-08-24T05:04:52+00:00",
+      "tags": [
+        "智象未来"
+      ],
+      "platform": "qbitai",
+      "id": "94e6b6deba00"
+    },
+    {
+      "title": "前保安杀进了AI决赛，高中生拿走25万！这AI比赛办得有点绝",
+      "url": "https://www.qbitai.com/2026/08/478358.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478358.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/f6b58304ba12f3216741cd51c3345e7e.jpeg",
+      "publish_time": "2026-08-24T00:00:45.633054+00:00",
+      "tags": [
+        "TRAE AI创造力大赛"
+      ],
+      "platform": "qbitai",
+      "id": "519a79c351ea"
     },
     {
       "title": "Φ-Bench 揭示大模型工程能力短板，800亿港元AI投入重塑竞争格局 · 0824-598期",
@@ -1112,15 +1311,39 @@
       "id": "206c5f1d0820"
     },
     {
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "url": "https://pantel.is/projects/ai-gaming-companion/",
+      "platform_url": "https://news.ycombinator.com/item?id=49413561",
+      "discussion_url": "https://news.ycombinator.com/item?id=49413561",
+      "score": 216,
+      "comments_count": 41,
+      "publish_time": "2026-08-23T23:18:17+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 163.5,
+      "id": "eb3d5dfffb19"
+    },
+    {
+      "title": "I were 17, I'd learn how to build LLMs from scratch",
+      "url": "https://twitter.com/paulg/status/2091544343589060625",
+      "platform_url": "https://news.ycombinator.com/item?id=49412396",
+      "discussion_url": "https://news.ycombinator.com/item?id=49412396",
+      "score": 245,
+      "comments_count": 356,
+      "publish_time": "2026-08-23T20:38:09+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 278.3,
+      "id": "8f873aba52fd"
+    },
+    {
       "title": "Google Workspace thinks my domain is an email provider (2025)",
       "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
       "platform_url": "https://news.ycombinator.com/item?id=49411717",
       "discussion_url": "https://news.ycombinator.com/item?id=49411717",
-      "score": 189,
-      "comments_count": 47,
+      "score": 336,
+      "comments_count": 114,
       "publish_time": "2026-08-23T19:29:32+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 146.39999999999998,
+      "hn_hot_score": 269.4,
       "id": "eb7881f3fc4c"
     },
     {
@@ -1128,11 +1351,11 @@
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "platform_url": "https://news.ycombinator.com/item?id=49411102",
       "discussion_url": "https://news.ycombinator.com/item?id=49411102",
-      "score": 238,
-      "comments_count": 203,
+      "score": 599,
+      "comments_count": 534,
       "publish_time": "2026-08-23T18:16:37+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 227.5,
+      "hn_hot_score": 579.5,
       "id": "fed3034c0661"
     },
     {
@@ -1140,11 +1363,11 @@
       "url": "https://fabiensanglard.net/agent.md/index.html",
       "platform_url": "https://news.ycombinator.com/item?id=49410932",
       "discussion_url": "https://news.ycombinator.com/item?id=49410932",
-      "score": 171,
-      "comments_count": 82,
+      "score": 333,
+      "comments_count": 144,
       "publish_time": "2026-08-23T17:59:52+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 144.29999999999998,
+      "hn_hot_score": 276.3,
       "id": "3760b11a0da9"
     },
     {
@@ -1163,11 +1386,11 @@
       "url": "https://how.complexsystems.fail/",
       "platform_url": "https://news.ycombinator.com/item?id=49409473",
       "discussion_url": "https://news.ycombinator.com/item?id=49409473",
-      "score": 244,
-      "comments_count": 62,
+      "score": 337,
+      "comments_count": 72,
       "publish_time": "2026-08-23T15:13:31+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 189.39999999999998,
+      "hn_hot_score": 257.5,
       "id": "b945696aea66"
     },
     {
@@ -1175,12 +1398,60 @@
       "url": "https://ericpardee.github.io/fire-hd-ownership/",
       "platform_url": "https://news.ycombinator.com/item?id=49409073",
       "discussion_url": "https://news.ycombinator.com/item?id=49409073",
-      "score": 621,
-      "comments_count": 268,
+      "score": 662,
+      "comments_count": 281,
       "publish_time": "2026-08-23T14:23:09+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 515.1,
+      "hn_hot_score": 547.6999999999999,
       "id": "2027b5f7235b"
+    },
+    {
+      "title": "具身创业里的香港教授们",
+      "url": "https://www.qbitai.com/2026/08/478289.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478289.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/28934d381825ccb47d68b57d48d91fae.png",
+      "publish_time": "2026-08-23T11:20:00+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "fc1cb3a467a9"
+    },
+    {
+      "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+      "url": "https://www.qbitai.com/2026/08/478234.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478234.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/456e4a7c8a437340229b2f7087fa1f4a.png",
+      "publish_time": "2026-08-23T11:17:22+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "6e4e0024d4e5"
+    },
+    {
+      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+      "url": "https://www.qbitai.com/2026/08/478191.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478191.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/db75474b9d3ee9b7e274c45cf3d4d686.jpeg",
+      "publish_time": "2026-08-23T09:56:12+00:00",
+      "tags": [
+        "多模态",
+        "牛来大模型",
+        "超长上下文"
+      ],
+      "platform": "qbitai",
+      "id": "60f13c761556"
+    },
+    {
+      "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+      "url": "https://www.qbitai.com/2026/08/478164.html",
+      "platform_url": "https://www.qbitai.com/2026/08/478164.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/c5a2cd00fa8f5a9a017625ff744dea22.webp",
+      "publish_time": "2026-08-23T09:51:49+00:00",
+      "tags": [
+        "AI服务器",
+        "内存",
+        "英伟达"
+      ],
+      "platform": "qbitai",
+      "id": "cb08b7ab3f13"
     },
     {
       "title": "AI Agent成流量新入口，广告主跨层卡位；明星数字分身入局短剧引肖像权争议 · 0823-596期",
@@ -1209,11 +1480,11 @@
       "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
       "platform_url": "https://news.ycombinator.com/item?id=49402232",
       "discussion_url": "https://news.ycombinator.com/item?id=49402232",
-      "score": 475,
-      "comments_count": 197,
+      "score": 493,
+      "comments_count": 201,
       "publish_time": "2026-08-22T18:14:16+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 391.6,
+      "hn_hot_score": 405.4,
       "id": "126e2c75c897"
     },
     {
@@ -1252,18 +1523,6 @@
       "id": "9fc325987ebb"
     },
     {
-      "title": "Munder Difflin – Agent harness to run an office of your clones",
-      "url": "https://munderdiffl.in/",
-      "platform_url": "https://news.ycombinator.com/item?id=49398152",
-      "discussion_url": "https://news.ycombinator.com/item?id=49398152",
-      "score": 290,
-      "comments_count": 125,
-      "publish_time": "2026-08-22T09:49:14+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 240.5,
-      "id": "3e8d1447ba0a"
-    },
-    {
       "title": "长飞光纤净利暴增888.88%、中兴通讯营收破780亿 · 0822-593期",
       "url": "https://radarai.top/updates/brief-20260822-1600",
       "platform_url": "https://radarai.top/updates/brief-20260822-1600",
@@ -1284,18 +1543,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "1d41c0ccb6b9"
-    },
-    {
-      "title": "A week of using Codex more than Claude",
-      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-      "platform_url": "https://news.ycombinator.com/item?id=49393051",
-      "discussion_url": "https://news.ycombinator.com/item?id=49393051",
-      "score": 235,
-      "comments_count": 271,
-      "publish_time": "2026-08-21T19:51:48+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 245.8,
-      "id": "3ffe54fc12d3"
     },
     {
       "title": "DeepSeek-v4-flash-vision-exp上线 · 0822-591期",
@@ -1320,15 +1567,34 @@
       "id": "eea5fc3eb8fb"
     },
     {
-      "title": "每周 AI 热点 · 2026-08-21",
-      "url": "https://radarai.top/updates/weekly-2026-08-21",
-      "platform_url": "https://radarai.top/updates/weekly-2026-08-21",
-      "cover_url": null,
-      "publish_time": "2026-08-21T01:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "1afb9293724e"
+      "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+      "url": "https://huggingface.co/papers/2608.21156",
+      "platform_url": "https://huggingface.co/papers/2608.21156",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.21156.png",
+      "publish_time": "2026-08-20T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize external tools and resources, and Loop Engineering to support continual reflection and self-improvement. Yet as tasks grow more complex, individual intelligence faces a fundamental limit: many tasks require heterogene",
+      "platform": "huggingface",
+      "score": 24,
+      "comments_count": 1,
+      "id": "4c5c5a8036c7"
+    },
+    {
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2608.20061",
+      "platform_url": "https://huggingface.co/papers/2608.20061",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20061.png",
+      "publish_time": "2026-08-20T09:57:43.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally prohibitive. In this paper, we propose a compute-efficient, two-step hyperparameter transfer framework that estimates optimal learning rates for training large MoE models by transferring them across sca",
+      "platform": "huggingface",
+      "score": 25,
+      "comments_count": 1,
+      "id": "f8a0a027e8b9"
     },
     {
       "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
@@ -1341,7 +1607,7 @@
       ],
       "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable",
       "platform": "huggingface",
-      "score": 254,
+      "score": 257,
       "comments_count": 2,
       "id": "7bb30d20963a"
     },
@@ -1371,9 +1637,39 @@
       ],
       "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed ",
       "platform": "huggingface",
-      "score": 69,
+      "score": 72,
       "comments_count": 7,
       "id": "35a7c1bb3f65"
+    },
+    {
+      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "url": "https://huggingface.co/papers/2608.20336",
+      "platform_url": "https://huggingface.co/papers/2608.20336",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20336.png",
+      "publish_time": "2026-08-19T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, pr",
+      "platform": "huggingface",
+      "score": 39,
+      "comments_count": 2,
+      "id": "f2de6707ec2b"
+    },
+    {
+      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "url": "https://huggingface.co/papers/2608.20202",
+      "platform_url": "https://huggingface.co/papers/2608.20202",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20202.png",
+      "publish_time": "2026-08-19T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memories reshape model reasoning and affect performance on the current task. We identify memory-induced cognitive traps: even faithfully recorded and semantically relevant memories can distort model reasoni",
+      "platform": "huggingface",
+      "score": 31,
+      "comments_count": 2,
+      "id": "2a49e502de87"
     },
     {
       "title": "[模型] OBLITERATUS/Qwen3.8-27B-OBLITERATED",
@@ -1385,11 +1681,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 566 · 下载 244,834",
+      "summary": "TrendingScore 596 · 下载 312,627",
       "platform": "huggingface",
-      "score": 637,
-      "trending_score": 566,
-      "downloads": 244834,
+      "score": 670,
+      "trending_score": 596,
+      "downloads": 312627,
       "id": "0424eb8eec9b"
     },
     {
@@ -1402,11 +1698,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 162 · 下载 359,078",
+      "summary": "TrendingScore 167 · 下载 971,104",
       "platform": "huggingface",
-      "score": 176,
-      "trending_score": 162,
-      "downloads": 359078,
+      "score": 182,
+      "trending_score": 167,
+      "downloads": 971104,
       "id": "c49df7376979"
     },
     {
@@ -1480,7 +1776,7 @@
       ],
       "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in t",
       "platform": "huggingface",
-      "score": 114,
+      "score": 115,
       "comments_count": 3,
       "id": "d0b471f4384b"
     },
@@ -1494,11 +1790,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 241 · 下载 369,478",
+      "summary": "TrendingScore 251 · 下载 988,170",
       "platform": "huggingface",
-      "score": 253,
-      "trending_score": 241,
-      "downloads": 369478,
+      "score": 263,
+      "trending_score": 251,
+      "downloads": 988170,
       "id": "4aaff03f6ea2"
     },
     {
@@ -1511,11 +1807,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 360 · 下载 23,516",
+      "summary": "TrendingScore 369 · 下载 60,294",
       "platform": "huggingface",
-      "score": 367,
-      "trending_score": 360,
-      "downloads": 23516,
+      "score": 377,
+      "trending_score": 369,
+      "downloads": 60294,
       "id": "67905e919614"
     },
     {
@@ -1528,11 +1824,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 179 · 下载 31,496",
+      "summary": "TrendingScore 184 · 下载 83,192",
       "platform": "huggingface",
-      "score": 185,
-      "trending_score": 179,
-      "downloads": 31496,
+      "score": 190,
+      "trending_score": 184,
+      "downloads": 83192,
       "id": "b64507e1c1aa"
     },
     {
@@ -1545,11 +1841,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 162 · 下载 69,783",
+      "summary": "TrendingScore 167 · 下载 85,034",
       "platform": "huggingface",
-      "score": 164,
-      "trending_score": 162,
-      "downloads": 69783,
+      "score": 169,
+      "trending_score": 167,
+      "downloads": 85034,
       "id": "78ee1557525f"
     },
     {
@@ -1581,70 +1877,6 @@
       "score": 46,
       "comments_count": 2,
       "id": "a3a5fbbd4f83"
-    },
-    {
-      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-      "url": "https://huggingface.co/papers/2608.17310",
-      "platform_url": "https://huggingface.co/papers/2608.17310",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.17310.png",
-      "publish_time": "2026-08-17T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning introduces increasingly branching interactions and sparse rewards, exposing several limitations of RL: its heavyweight backpropagation-based training stack makes it impractical to fine-tune larger LLMs, and longer-horizon trajectories make credit assignment in RL substantially harder. This paper argues that evolution strategies (ES) can be a better choice for fine-tuning long-ho",
-      "platform": "huggingface",
-      "score": 96,
-      "comments_count": 2,
-      "id": "a2ea4ad1f7c3"
-    },
-    {
-      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
-      "url": "https://huggingface.co/papers/2608.17426",
-      "platform_url": "https://huggingface.co/papers/2608.17426",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.17426.png",
-      "publish_time": "2026-08-17T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generated outcome in terms of high-level semantics relevant to the task. Evaluation focuses on the generated outcome and requires neither the presentation of a complete sequence of intermediate task steps no",
-      "platform": "huggingface",
-      "score": 155,
-      "comments_count": 6,
-      "id": "2d8842e04ff8"
-    },
-    {
-      "title": "[模型] z-lab/Qwen3.8-27B-DFlash2",
-      "url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
-      "platform_url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
-      "cover_url": null,
-      "publish_time": "2026-08-15T21:26:10.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 200 · 下载 36,234",
-      "platform": "huggingface",
-      "score": 204,
-      "trending_score": 200,
-      "downloads": 36234,
-      "id": "bf0beff09f7f"
-    },
-    {
-      "title": "[模型] JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "platform_url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "cover_url": null,
-      "publish_time": "2026-08-14T03:43:36.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 371 · 下载 1,334,820",
-      "platform": "huggingface",
-      "score": 651,
-      "trending_score": 371,
-      "downloads": 1334820,
-      "id": "0d17304cc8f1"
     },
     {
       "title": "Claude Opus 5 发布",
@@ -1849,10 +2081,10 @@
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 80.0,
-      "total_fail_rate": 20.0,
-      "avg_response_time": 5.7,
-      "cover_success_rate": 36.7
+      "total_success_rate": 100.0,
+      "total_fail_rate": 0.0,
+      "avg_response_time": 40.3,
+      "cover_success_rate": 48.6
     },
     "platforms": [
       {
@@ -1860,73 +2092,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-24T02:14:06.668758+00:00"
+        "last_crawl": "2026-08-24T12:58:36.278831+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
-        "status": "error",
-        "item_count": 0,
-        "last_crawl": "2026-08-24T02:14:18.093852+00:00"
+        "status": "online",
+        "item_count": 10,
+        "last_crawl": "2026-08-24T13:01:30.999026+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-24T02:14:19.735891+00:00"
+        "last_crawl": "2026-08-24T13:01:32.583943+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-24T02:14:28.632550+00:00"
+        "last_crawl": "2026-08-24T13:01:42.950231+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-24T02:14:28.867750+00:00"
+        "last_crawl": "2026-08-24T13:01:43.120972+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-24T02:14:06.668765+00:00",
+        "timestamp": "2026-08-24T12:58:36.278837+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 11.966376
+        "latency": 14.497503
       },
       {
-        "timestamp": "2026-08-24T02:14:18.093867+00:00",
+        "timestamp": "2026-08-24T13:01:30.999031+00:00",
         "platform": "qbitai",
-        "status": "error",
-        "error_message": "",
-        "latency": 11.425094
+        "status": "success",
+        "items_collected": 10,
+        "latency": 174.720186
       },
       {
-        "timestamp": "2026-08-24T02:14:19.735896+00:00",
+        "timestamp": "2026-08-24T13:01:32.583947+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.641364
+        "latency": 1.584909
       },
       {
-        "timestamp": "2026-08-24T02:14:28.632556+00:00",
+        "timestamp": "2026-08-24T13:01:42.950237+00:00",
         "platform": "bestblogs",
         "status": "success",
         "items_collected": 20,
-        "latency": 8.896654
+        "latency": 10.366283
       },
       {
-        "timestamp": "2026-08-24T02:14:28.867761+00:00",
+        "timestamp": "2026-08-24T13:01:43.120981+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.235197
+        "latency": 0.170737
       }
     ]
   }
