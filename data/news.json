@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-26T02:17:12.988444+00:00",
+  "update_time": "2026-08-26T13:00:59.653089+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
@@ -116,6 +116,30 @@
     ],
     "hackernews": [
       {
+        "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+        "platform_url": "https://news.ycombinator.com/item?id=49446422",
+        "discussion_url": "https://news.ycombinator.com/item?id=49446422",
+        "score": 206,
+        "comments_count": 89,
+        "publish_time": "2026-08-26T10:04:55+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 170.89999999999998,
+        "id": "fef6b86a3283"
+      },
+      {
+        "title": "RAG Is Simpler Than You Think",
+        "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+        "platform_url": "https://news.ycombinator.com/item?id=49445727",
+        "discussion_url": "https://news.ycombinator.com/item?id=49445727",
+        "score": 171,
+        "comments_count": 84,
+        "publish_time": "2026-08-26T08:39:17+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 144.89999999999998,
+        "id": "ba249d406b06"
+      },
+      {
         "title": "How much of HN is AI?",
         "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
         "platform_url": "https://news.ycombinator.com/item?id=49435728",
@@ -132,11 +156,11 @@
         "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
         "platform_url": "https://news.ycombinator.com/item?id=49434378",
         "discussion_url": "https://news.ycombinator.com/item?id=49434378",
-        "score": 337,
-        "comments_count": 235,
+        "score": 526,
+        "comments_count": 334,
         "publish_time": "2026-08-25T14:06:02+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 306.4,
+        "hn_hot_score": 468.4,
         "id": "e6f2e9c4aaec"
       },
       {
@@ -156,11 +180,11 @@
         "url": "https://developer.apple.com/news/?id=1ptvdtcm",
         "platform_url": "https://news.ycombinator.com/item?id=49426564",
         "discussion_url": "https://news.ycombinator.com/item?id=49426564",
-        "score": 593,
-        "comments_count": 197,
+        "score": 597,
+        "comments_count": 204,
         "publish_time": "2026-08-24T22:13:40+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 474.19999999999993,
+        "hn_hot_score": 479.09999999999997,
         "id": "1e97e07aa3c5"
       },
       {
@@ -168,11 +192,11 @@
         "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
         "platform_url": "https://news.ycombinator.com/item?id=49424387",
         "discussion_url": "https://news.ycombinator.com/item?id=49424387",
-        "score": 188,
-        "comments_count": 96,
+        "score": 189,
+        "comments_count": 98,
         "publish_time": "2026-08-24T19:03:06+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 160.39999999999998,
+        "hn_hot_score": 161.7,
         "id": "38fa66af01cf"
       },
       {
@@ -204,39 +228,45 @@
         "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
         "platform_url": "https://news.ycombinator.com/item?id=49421158",
         "discussion_url": "https://news.ycombinator.com/item?id=49421158",
-        "score": 840,
-        "comments_count": 424,
+        "score": 848,
+        "comments_count": 429,
         "publish_time": "2026-08-24T15:28:04+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 715.2,
+        "hn_hot_score": 722.3,
         "id": "f617d5487281"
-      },
-      {
-        "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "platform_url": "https://news.ycombinator.com/item?id=49421074",
-        "discussion_url": "https://news.ycombinator.com/item?id=49421074",
-        "score": 328,
-        "comments_count": 321,
-        "publish_time": "2026-08-24T15:22:43+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 325.9,
-        "id": "c1b7c04b00c3"
-      },
-      {
-        "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
-        "url": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
-        "platform_url": "https://news.ycombinator.com/item?id=49420902",
-        "discussion_url": "https://news.ycombinator.com/item?id=49420902",
-        "score": 277,
-        "comments_count": 179,
-        "publish_time": "2026-08-24T15:10:25+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 247.59999999999997,
-        "id": "2752919d6c8d"
       }
     ],
     "huggingface": [
+      {
+        "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+        "url": "https://huggingface.co/papers/2608.24053",
+        "platform_url": "https://huggingface.co/papers/2608.24053",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24053.png",
+        "publish_time": "2026-08-24T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of universal multimodal embedding models supporting text, images, videos, visual documents, and arbitrarily interleaved multimodal inputs with flexible output dimensions. The family comprises 2B, 4B, and 9B v",
+        "platform": "huggingface",
+        "score": 52,
+        "comments_count": 1,
+        "id": "60c8c21687cc"
+      },
+      {
+        "title": "On-Policy Self-Distillation in Diffusion Models",
+        "url": "https://huggingface.co/papers/2608.24646",
+        "platform_url": "https://huggingface.co/papers/2608.24646",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24646.png",
+        "publish_time": "2026-08-24T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change. We introduce DiffusionOPSD as an on-policy self-distillation framework that converts image-level reward guidance into explicit targets for clean-output predictions at sampled queries. At each outer iteration, a frozen behavior policy generates trajectories and supplies query states and anchors. Reward gr",
+        "platform": "huggingface",
+        "score": 44,
+        "comments_count": 1,
+        "id": "e3cc50a45e67"
+      },
       {
         "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
         "url": "https://huggingface.co/papers/2608.23283",
@@ -263,7 +293,7 @@
         ],
         "summary": "We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controllers. Discrete commands and continuous poses are mapped to a shared metric-scale relative 6-DoF trajec",
         "platform": "huggingface",
-        "score": 64,
+        "score": 69,
         "comments_count": 3,
         "id": "40838c480ae4"
       },
@@ -278,7 +308,7 @@
         ],
         "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. Yet existing benchmarks fall into two camps, each with a critical blind spot: GUI-centric benchmarks test surface-level screen manipulation while overlooking background tool use and long-horizon planning, whereas static function-calling benchmarks rely on offline API matching that is detached from real runtime constraints.",
         "platform": "huggingface",
-        "score": 34,
+        "score": 37,
         "comments_count": 2,
         "id": "fa8894cfccd3"
       },
@@ -293,7 +323,7 @@
         ],
         "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectorie",
         "platform": "huggingface",
-        "score": 32,
+        "score": 37,
         "comments_count": 2,
         "id": "94d1b46df054"
       },
@@ -311,6 +341,21 @@
         "score": 29,
         "comments_count": 2,
         "id": "ec593e708488"
+      },
+      {
+        "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+        "url": "https://huggingface.co/papers/2608.23041",
+        "platform_url": "https://huggingface.co/papers/2608.23041",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.23041.png",
+        "publish_time": "2026-08-23T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions and lead to overall task failure. Although external harnesses can substantially improve robustness, harness design remains a manual and expensive process that requires searching over a large space of prompts, tool configurations, and control logic. We propose AutoSaddler, an automatic harness optimization framework that formulates harness improvement as an offline learning probl",
+        "platform": "huggingface",
+        "score": 47,
+        "comments_count": 1,
+        "id": "d9b72bf9f1dd"
       },
       {
         "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
@@ -386,6 +431,23 @@
         "score": 38,
         "comments_count": 2,
         "id": "f8a0a027e8b9"
+      },
+      {
+        "title": "[模型] EschaLabs/Qwen3.8-27B-Escha-W2",
+        "url": "https://huggingface.co/EschaLabs/Qwen3.8-27B-Escha-W2",
+        "platform_url": "https://huggingface.co/EschaLabs/Qwen3.8-27B-Escha-W2",
+        "cover_url": null,
+        "publish_time": "2026-08-20T07:50:16.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 129 · 下载 2,481",
+        "platform": "huggingface",
+        "score": 129,
+        "trending_score": 129,
+        "downloads": 2481,
+        "id": "ed5d7f5d8200"
       },
       {
         "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
@@ -476,72 +538,6 @@
         "score": 27,
         "comments_count": 2,
         "id": "265621a8872d"
-      },
-      {
-        "title": "RISE: Adaptive Imagination for World Action Models",
-        "url": "https://huggingface.co/papers/2608.20430",
-        "platform_url": "https://huggingface.co/papers/2608.20430",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20430.png",
-        "publish_time": "2026-08-19T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existing methods allocate a fixed imagination budget to every scene. We propose RISE (Refining Imagination through SElective Rollout), a system-level adaptive imagination framework that makes sequential Roll/Stop decisions according to the expected planning benefit of continued rollout. At each step, a Latent Evaluator estimates the risk revealed by the current prefix and how much plan",
-        "platform": "huggingface",
-        "score": 24,
-        "comments_count": 3,
-        "id": "aab34d1a3892"
-      },
-      {
-        "title": "[模型] OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-        "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-        "platform_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-        "cover_url": null,
-        "publish_time": "2026-08-19T14:53:08.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 662 · 下载 389,747",
-        "platform": "huggingface",
-        "score": 752,
-        "trending_score": 662,
-        "downloads": 389747,
-        "id": "0424eb8eec9b"
-      },
-      {
-        "title": "[模型] ornith-ai/Ornith-1.5-9B-GGUF",
-        "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
-        "platform_url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
-        "cover_url": null,
-        "publish_time": "2026-08-19T00:02:44.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 184 · 下载 1,144,037",
-        "platform": "huggingface",
-        "score": 201,
-        "trending_score": 184,
-        "downloads": 1144037,
-        "id": "c49df7376979"
-      },
-      {
-        "title": "[模型] ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-        "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-        "platform_url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-        "cover_url": null,
-        "publish_time": "2026-08-18T06:38:41.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 284 · 下载 1,156,903",
-        "platform": "huggingface",
-        "score": 297,
-        "trending_score": 284,
-        "downloads": 1156903,
-        "id": "4aaff03f6ea2"
       }
     ],
     "bestblogs": [
@@ -552,7 +548,7 @@
         "original_url": "",
         "resource_id": "RAW_73c6773090",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833501+00:00",
+        "publish_time": "2026-08-26T13:00:52.131717+00:00",
         "tags": [
           "早报"
         ],
@@ -569,7 +565,7 @@
         "original_url": "",
         "resource_id": "RAW_e59261298b",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833494+00:00",
+        "publish_time": "2026-08-26T13:00:52.131711+00:00",
         "tags": [
           "早报"
         ],
@@ -586,7 +582,7 @@
         "original_url": "",
         "resource_id": "RAW_0ee8ad61ab",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833491+00:00",
+        "publish_time": "2026-08-26T13:00:52.131709+00:00",
         "tags": [
           "早报"
         ],
@@ -603,7 +599,7 @@
         "original_url": "",
         "resource_id": "RAW_fce41caff3",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833481+00:00",
+        "publish_time": "2026-08-26T13:00:52.131700+00:00",
         "tags": [
           "早报"
         ],
@@ -620,7 +616,7 @@
         "original_url": "",
         "resource_id": "RAW_86661fa9e",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833388+00:00",
+        "publish_time": "2026-08-26T13:00:52.131607+00:00",
         "tags": [
           "早报"
         ],
@@ -637,7 +633,7 @@
         "original_url": "",
         "resource_id": "RAW_a0399e27ed",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833381+00:00",
+        "publish_time": "2026-08-26T13:00:52.131602+00:00",
         "tags": [
           "早报"
         ],
@@ -654,7 +650,7 @@
         "original_url": "",
         "resource_id": "RAW_d00d95873d",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833378+00:00",
+        "publish_time": "2026-08-26T13:00:52.131598+00:00",
         "tags": [
           "早报"
         ],
@@ -671,7 +667,7 @@
         "original_url": "",
         "resource_id": "RAW_d73fccff6",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833335+00:00",
+        "publish_time": "2026-08-26T13:00:52.131563+00:00",
         "tags": [
           "早报"
         ],
@@ -688,7 +684,7 @@
         "original_url": "",
         "resource_id": "RAW_66323035b8",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833322+00:00",
+        "publish_time": "2026-08-26T13:00:52.131553+00:00",
         "tags": [
           "早报"
         ],
@@ -705,7 +701,7 @@
         "original_url": "",
         "resource_id": "RAW_9597fb19a2",
         "cover_url": null,
-        "publish_time": "2026-08-26T02:16:58.833316+00:00",
+        "publish_time": "2026-08-26T13:00:52.131549+00:00",
         "tags": [
           "早报"
         ],
@@ -888,6 +884,83 @@
     ],
     "qbitai": [
       {
+        "title": "AI视频应用井喷，美图打开新的增长空间",
+        "url": "https://www.qbitai.com/2026/08/479895.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479895.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/微信图片_20260826182734_116_291.png",
+        "publish_time": "2026-08-26T10:18:10+00:00",
+        "tags": [
+          "美图"
+        ],
+        "platform": "qbitai",
+        "id": "5dc3e0d598bb"
+      },
+      {
+        "title": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
+        "url": "https://www.qbitai.com/2026/08/479811.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479811.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/62cdf0d15e5bce549acf2099f2803673.jpeg",
+        "publish_time": "2026-08-26T10:17:15+00:00",
+        "tags": [
+          "AI",
+          "小宇宙"
+        ],
+        "platform": "qbitai",
+        "id": "edad51de13b4"
+      },
+      {
+        "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
+        "url": "https://www.qbitai.com/2026/08/479834.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479834.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/5b08d75edd1515a1b5410cafe4e60bc6.webp",
+        "publish_time": "2026-08-26T10:07:09+00:00",
+        "tags": [
+          "Skild AI",
+          "具身智能"
+        ],
+        "platform": "qbitai",
+        "id": "1cd9c981443e"
+      },
+      {
+        "title": "达卯科技与福建智算方舟达成合作，全栈式算电协同服务在闽落子",
+        "url": "https://www.qbitai.com/2026/08/479808.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479808.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/1b070b4f3dd0b2225c169b6fcdfe2e46.png",
+        "publish_time": "2026-08-26T09:17:08+00:00",
+        "tags": [
+          "福建智算方舟",
+          "达卯科技"
+        ],
+        "platform": "qbitai",
+        "id": "f06d82695854"
+      },
+      {
+        "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+        "url": "https://www.qbitai.com/2026/08/479634.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479634.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/cd1210b18490d76e34e3d77787d330d7.webp",
+        "publish_time": "2026-08-26T05:52:06+00:00",
+        "tags": [
+          "具身大脑",
+          "具身智能",
+          "具身模型"
+        ],
+        "platform": "qbitai",
+        "id": "881e0ed5ba7c"
+      },
+      {
+        "title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
+        "url": "https://www.qbitai.com/2026/08/479631.html",
+        "platform_url": "https://www.qbitai.com/2026/08/479631.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/图虫创意-2276685335249420301-e1787714678435.jpeg",
+        "publish_time": "2026-08-26T03:25:00+00:00",
+        "tags": [
+          "蚂蚁国际"
+        ],
+        "platform": "qbitai",
+        "id": "2d5cf82d9ad7"
+      },
+      {
         "title": "OpenAI「辣椒芯」干翻英伟达！老黄股价不跌反涨",
         "url": "https://www.qbitai.com/2026/08/479320.html",
         "platform_url": "https://www.qbitai.com/2026/08/479320.html",
@@ -936,83 +1009,6 @@
         ],
         "platform": "qbitai",
         "id": "6b013b86d1d9"
-      },
-      {
-        "title": "赛博义父Tibo最新访谈：专门实体按钮搞重置，“我想重置就重置”",
-        "url": "https://www.qbitai.com/2026/08/478996.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478996.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/5814de2fef6f8baadc958b6a4918ed81.webp",
-        "publish_time": "2026-08-25T05:20:50+00:00",
-        "tags": [
-          "Codex",
-          "GPT",
-          "OpenAI"
-        ],
-        "platform": "qbitai",
-        "id": "82444af96d85"
-      },
-      {
-        "title": "王虹合作者获奖！科学探索奖2026年度获奖名单公布",
-        "url": "https://www.qbitai.com/2026/08/478912.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478912.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/23b7a06f3f56ad7a8859482adb73cb6b.webp",
-        "publish_time": "2026-08-25T05:15:23+00:00",
-        "tags": [
-          "AI",
-          "基础科学"
-        ],
-        "platform": "qbitai",
-        "id": "13095da53e51"
-      },
-      {
-        "title": "人民教育音像数字出版社与小猿达成合作 “中小学课本学习智能体”首落小猿AI学习机",
-        "url": "https://www.qbitai.com/2026/08/478839.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478839.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/b5e6292a4d692df541105983b0d05827.jpeg",
-        "publish_time": "2026-08-25T04:08:21+00:00",
-        "tags": [
-          "小猿学习机"
-        ],
-        "platform": "qbitai",
-        "id": "7857e58d9ce7"
-      },
-      {
-        "title": "WAIC CONNECT | AI出海，不聊虚的！CONNECT带你拿下马来西亚真正的AI采购需求",
-        "url": "https://www.qbitai.com/2026/08/478479.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478479.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/b30d8b63a4b10b8b31bca7617ed4f5ba.jpeg",
-        "publish_time": "2026-08-25T04:06:18+00:00",
-        "tags": [
-          "WAIC"
-        ],
-        "platform": "qbitai",
-        "id": "74e66543989f"
-      },
-      {
-        "title": "具身大满贯还全开源！原力灵机DM0.5登顶RoboDojo，且clone且珍惜",
-        "url": "https://www.qbitai.com/2026/08/478791.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478791.html",
-        "cover_url": null,
-        "publish_time": "2026-08-25T02:22:01+00:00",
-        "tags": [
-          "原力灵机"
-        ],
-        "platform": "qbitai",
-        "id": "cf7863d18141"
-      },
-      {
-        "title": "VC开始靠AI预测未来了",
-        "url": "https://www.qbitai.com/2026/08/478774.html",
-        "platform_url": "https://www.qbitai.com/2026/08/478774.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/0db4bc830700bfd31da39a2ea61d54c0.webp",
-        "publish_time": "2026-08-25T02:16:43+00:00",
-        "tags": [
-          "DigClaw",
-          "Newborn Ventures",
-          "预测"
-        ],
-        "platform": "qbitai",
-        "id": "fa496ddebc57"
       }
     ]
   },
@@ -1024,7 +1020,7 @@
       "original_url": "",
       "resource_id": "RAW_73c6773090",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833501+00:00",
+      "publish_time": "2026-08-26T13:00:52.131717+00:00",
       "tags": [
         "早报"
       ],
@@ -1041,7 +1037,7 @@
       "original_url": "",
       "resource_id": "RAW_e59261298b",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833494+00:00",
+      "publish_time": "2026-08-26T13:00:52.131711+00:00",
       "tags": [
         "早报"
       ],
@@ -1058,7 +1054,7 @@
       "original_url": "",
       "resource_id": "RAW_0ee8ad61ab",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833491+00:00",
+      "publish_time": "2026-08-26T13:00:52.131709+00:00",
       "tags": [
         "早报"
       ],
@@ -1075,7 +1071,7 @@
       "original_url": "",
       "resource_id": "RAW_fce41caff3",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833481+00:00",
+      "publish_time": "2026-08-26T13:00:52.131700+00:00",
       "tags": [
         "早报"
       ],
@@ -1092,7 +1088,7 @@
       "original_url": "",
       "resource_id": "RAW_86661fa9e",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833388+00:00",
+      "publish_time": "2026-08-26T13:00:52.131607+00:00",
       "tags": [
         "早报"
       ],
@@ -1109,7 +1105,7 @@
       "original_url": "",
       "resource_id": "RAW_a0399e27ed",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833381+00:00",
+      "publish_time": "2026-08-26T13:00:52.131602+00:00",
       "tags": [
         "早报"
       ],
@@ -1126,7 +1122,7 @@
       "original_url": "",
       "resource_id": "RAW_d00d95873d",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833378+00:00",
+      "publish_time": "2026-08-26T13:00:52.131598+00:00",
       "tags": [
         "早报"
       ],
@@ -1143,7 +1139,7 @@
       "original_url": "",
       "resource_id": "RAW_d73fccff6",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833335+00:00",
+      "publish_time": "2026-08-26T13:00:52.131563+00:00",
       "tags": [
         "早报"
       ],
@@ -1160,7 +1156,7 @@
       "original_url": "",
       "resource_id": "RAW_66323035b8",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833322+00:00",
+      "publish_time": "2026-08-26T13:00:52.131553+00:00",
       "tags": [
         "早报"
       ],
@@ -1177,7 +1173,7 @@
       "original_url": "",
       "resource_id": "RAW_9597fb19a2",
       "cover_url": null,
-      "publish_time": "2026-08-26T02:16:58.833316+00:00",
+      "publish_time": "2026-08-26T13:00:52.131549+00:00",
       "tags": [
         "早报"
       ],
@@ -1186,6 +1182,107 @@
       "score": 91,
       "source_name": "Claude Blog",
       "id": "58e334002a70"
+    },
+    {
+      "title": "AI视频应用井喷，美图打开新的增长空间",
+      "url": "https://www.qbitai.com/2026/08/479895.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479895.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/微信图片_20260826182734_116_291.png",
+      "publish_time": "2026-08-26T10:18:10+00:00",
+      "tags": [
+        "美图"
+      ],
+      "platform": "qbitai",
+      "id": "5dc3e0d598bb"
+    },
+    {
+      "title": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
+      "url": "https://www.qbitai.com/2026/08/479811.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479811.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/62cdf0d15e5bce549acf2099f2803673.jpeg",
+      "publish_time": "2026-08-26T10:17:15+00:00",
+      "tags": [
+        "AI",
+        "小宇宙"
+      ],
+      "platform": "qbitai",
+      "id": "edad51de13b4"
+    },
+    {
+      "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
+      "url": "https://www.qbitai.com/2026/08/479834.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479834.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/5b08d75edd1515a1b5410cafe4e60bc6.webp",
+      "publish_time": "2026-08-26T10:07:09+00:00",
+      "tags": [
+        "Skild AI",
+        "具身智能"
+      ],
+      "platform": "qbitai",
+      "id": "1cd9c981443e"
+    },
+    {
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "platform_url": "https://news.ycombinator.com/item?id=49446422",
+      "discussion_url": "https://news.ycombinator.com/item?id=49446422",
+      "score": 206,
+      "comments_count": 89,
+      "publish_time": "2026-08-26T10:04:55+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 170.89999999999998,
+      "id": "fef6b86a3283"
+    },
+    {
+      "title": "达卯科技与福建智算方舟达成合作，全栈式算电协同服务在闽落子",
+      "url": "https://www.qbitai.com/2026/08/479808.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479808.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/1b070b4f3dd0b2225c169b6fcdfe2e46.png",
+      "publish_time": "2026-08-26T09:17:08+00:00",
+      "tags": [
+        "福建智算方舟",
+        "达卯科技"
+      ],
+      "platform": "qbitai",
+      "id": "f06d82695854"
+    },
+    {
+      "title": "RAG Is Simpler Than You Think",
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "platform_url": "https://news.ycombinator.com/item?id=49445727",
+      "discussion_url": "https://news.ycombinator.com/item?id=49445727",
+      "score": 171,
+      "comments_count": 84,
+      "publish_time": "2026-08-26T08:39:17+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 144.89999999999998,
+      "id": "ba249d406b06"
+    },
+    {
+      "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+      "url": "https://www.qbitai.com/2026/08/479634.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479634.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/cd1210b18490d76e34e3d77787d330d7.webp",
+      "publish_time": "2026-08-26T05:52:06+00:00",
+      "tags": [
+        "具身大脑",
+        "具身智能",
+        "具身模型"
+      ],
+      "platform": "qbitai",
+      "id": "881e0ed5ba7c"
+    },
+    {
+      "title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
+      "url": "https://www.qbitai.com/2026/08/479631.html",
+      "platform_url": "https://www.qbitai.com/2026/08/479631.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/图虫创意-2276685335249420301-e1787714678435.jpeg",
+      "publish_time": "2026-08-26T03:25:00+00:00",
+      "tags": [
+        "蚂蚁国际"
+      ],
+      "platform": "qbitai",
+      "id": "2d5cf82d9ad7"
     },
     {
       "title": "OpenAI「辣椒芯」干翻英伟达！老黄股价不跌反涨",
@@ -1238,11 +1335,11 @@
       "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
       "platform_url": "https://news.ycombinator.com/item?id=49434378",
       "discussion_url": "https://news.ycombinator.com/item?id=49434378",
-      "score": 337,
-      "comments_count": 235,
+      "score": 526,
+      "comments_count": 334,
       "publish_time": "2026-08-25T14:06:02+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 306.4,
+      "hn_hot_score": 468.4,
       "id": "e6f2e9c4aaec"
     },
     {
@@ -1465,83 +1562,6 @@
       "id": "6b013b86d1d9"
     },
     {
-      "title": "赛博义父Tibo最新访谈：专门实体按钮搞重置，“我想重置就重置”",
-      "url": "https://www.qbitai.com/2026/08/478996.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478996.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/5814de2fef6f8baadc958b6a4918ed81.webp",
-      "publish_time": "2026-08-25T05:20:50+00:00",
-      "tags": [
-        "Codex",
-        "GPT",
-        "OpenAI"
-      ],
-      "platform": "qbitai",
-      "id": "82444af96d85"
-    },
-    {
-      "title": "王虹合作者获奖！科学探索奖2026年度获奖名单公布",
-      "url": "https://www.qbitai.com/2026/08/478912.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478912.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/23b7a06f3f56ad7a8859482adb73cb6b.webp",
-      "publish_time": "2026-08-25T05:15:23+00:00",
-      "tags": [
-        "AI",
-        "基础科学"
-      ],
-      "platform": "qbitai",
-      "id": "13095da53e51"
-    },
-    {
-      "title": "人民教育音像数字出版社与小猿达成合作 “中小学课本学习智能体”首落小猿AI学习机",
-      "url": "https://www.qbitai.com/2026/08/478839.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478839.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/b5e6292a4d692df541105983b0d05827.jpeg",
-      "publish_time": "2026-08-25T04:08:21+00:00",
-      "tags": [
-        "小猿学习机"
-      ],
-      "platform": "qbitai",
-      "id": "7857e58d9ce7"
-    },
-    {
-      "title": "WAIC CONNECT | AI出海，不聊虚的！CONNECT带你拿下马来西亚真正的AI采购需求",
-      "url": "https://www.qbitai.com/2026/08/478479.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478479.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/b30d8b63a4b10b8b31bca7617ed4f5ba.jpeg",
-      "publish_time": "2026-08-25T04:06:18+00:00",
-      "tags": [
-        "WAIC"
-      ],
-      "platform": "qbitai",
-      "id": "74e66543989f"
-    },
-    {
-      "title": "具身大满贯还全开源！原力灵机DM0.5登顶RoboDojo，且clone且珍惜",
-      "url": "https://www.qbitai.com/2026/08/478791.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478791.html",
-      "cover_url": null,
-      "publish_time": "2026-08-25T02:22:01+00:00",
-      "tags": [
-        "原力灵机"
-      ],
-      "platform": "qbitai",
-      "id": "cf7863d18141"
-    },
-    {
-      "title": "VC开始靠AI预测未来了",
-      "url": "https://www.qbitai.com/2026/08/478774.html",
-      "platform_url": "https://www.qbitai.com/2026/08/478774.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/0db4bc830700bfd31da39a2ea61d54c0.webp",
-      "publish_time": "2026-08-25T02:16:43+00:00",
-      "tags": [
-        "DigClaw",
-        "Newborn Ventures",
-        "预测"
-      ],
-      "platform": "qbitai",
-      "id": "fa496ddebc57"
-    },
-    {
       "title": "小米发布玄戒O100芯片、阿里800亿港元All-in AI · 0825-601期",
       "url": "https://radarai.top/updates/brief-20260825-0800",
       "platform_url": "https://radarai.top/updates/brief-20260825-0800",
@@ -1569,23 +1589,53 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "platform_url": "https://news.ycombinator.com/item?id=49426564",
       "discussion_url": "https://news.ycombinator.com/item?id=49426564",
-      "score": 593,
-      "comments_count": 197,
+      "score": 597,
+      "comments_count": 204,
       "publish_time": "2026-08-24T22:13:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 474.19999999999993,
+      "hn_hot_score": 479.09999999999997,
       "id": "1e97e07aa3c5"
+    },
+    {
+      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+      "url": "https://huggingface.co/papers/2608.24053",
+      "platform_url": "https://huggingface.co/papers/2608.24053",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24053.png",
+      "publish_time": "2026-08-24T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of universal multimodal embedding models supporting text, images, videos, visual documents, and arbitrarily interleaved multimodal inputs with flexible output dimensions. The family comprises 2B, 4B, and 9B v",
+      "platform": "huggingface",
+      "score": 52,
+      "comments_count": 1,
+      "id": "60c8c21687cc"
+    },
+    {
+      "title": "On-Policy Self-Distillation in Diffusion Models",
+      "url": "https://huggingface.co/papers/2608.24646",
+      "platform_url": "https://huggingface.co/papers/2608.24646",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24646.png",
+      "publish_time": "2026-08-24T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change. We introduce DiffusionOPSD as an on-policy self-distillation framework that converts image-level reward guidance into explicit targets for clean-output predictions at sampled queries. At each outer iteration, a frozen behavior policy generates trajectories and supplies query states and anchors. Reward gr",
+      "platform": "huggingface",
+      "score": 44,
+      "comments_count": 1,
+      "id": "e3cc50a45e67"
     },
     {
       "title": "LLMs could control their host machines by exploiting inference engines",
       "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
       "platform_url": "https://news.ycombinator.com/item?id=49424387",
       "discussion_url": "https://news.ycombinator.com/item?id=49424387",
-      "score": 188,
-      "comments_count": 96,
+      "score": 189,
+      "comments_count": 98,
       "publish_time": "2026-08-24T19:03:06+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 160.39999999999998,
+      "hn_hot_score": 161.7,
       "id": "38fa66af01cf"
     },
     {
@@ -1628,36 +1678,12 @@
       "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
       "platform_url": "https://news.ycombinator.com/item?id=49421158",
       "discussion_url": "https://news.ycombinator.com/item?id=49421158",
-      "score": 840,
-      "comments_count": 424,
+      "score": 848,
+      "comments_count": 429,
       "publish_time": "2026-08-24T15:28:04+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 715.2,
+      "hn_hot_score": 722.3,
       "id": "f617d5487281"
-    },
-    {
-      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
-      "url": "https://developers.openai.com/api/docs/pricing",
-      "platform_url": "https://news.ycombinator.com/item?id=49421074",
-      "discussion_url": "https://news.ycombinator.com/item?id=49421074",
-      "score": 328,
-      "comments_count": 321,
-      "publish_time": "2026-08-24T15:22:43+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 325.9,
-      "id": "c1b7c04b00c3"
-    },
-    {
-      "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
-      "url": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
-      "platform_url": "https://news.ycombinator.com/item?id=49420902",
-      "discussion_url": "https://news.ycombinator.com/item?id=49420902",
-      "score": 277,
-      "comments_count": 179,
-      "publish_time": "2026-08-24T15:10:25+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 247.59999999999997,
-      "id": "2752919d6c8d"
     },
     {
       "title": "Hugging Face估值逼近130亿美元，中立模型平台价值凸显 · 0824-599期",
@@ -1707,7 +1733,7 @@
       ],
       "summary": "We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controllers. Discrete commands and continuous poses are mapped to a shared metric-scale relative 6-DoF trajec",
       "platform": "huggingface",
-      "score": 64,
+      "score": 69,
       "comments_count": 3,
       "id": "40838c480ae4"
     },
@@ -1722,7 +1748,7 @@
       ],
       "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. Yet existing benchmarks fall into two camps, each with a critical blind spot: GUI-centric benchmarks test surface-level screen manipulation while overlooking background tool use and long-horizon planning, whereas static function-calling benchmarks rely on offline API matching that is detached from real runtime constraints.",
       "platform": "huggingface",
-      "score": 34,
+      "score": 37,
       "comments_count": 2,
       "id": "fa8894cfccd3"
     },
@@ -1737,7 +1763,7 @@
       ],
       "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectorie",
       "platform": "huggingface",
-      "score": 32,
+      "score": 37,
       "comments_count": 2,
       "id": "94d1b46df054"
     },
@@ -1755,6 +1781,21 @@
       "score": 29,
       "comments_count": 2,
       "id": "ec593e708488"
+    },
+    {
+      "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+      "url": "https://huggingface.co/papers/2608.23041",
+      "platform_url": "https://huggingface.co/papers/2608.23041",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.23041.png",
+      "publish_time": "2026-08-23T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions and lead to overall task failure. Although external harnesses can substantially improve robustness, harness design remains a manual and expensive process that requires searching over a large space of prompts, tool configurations, and control logic. We propose AutoSaddler, an automatic harness optimization framework that formulates harness improvement as an offline learning probl",
+      "platform": "huggingface",
+      "score": 47,
+      "comments_count": 1,
+      "id": "d9b72bf9f1dd"
     },
     {
       "title": "中国人形机器人上半年出货超4万台占全球97%，英伟达AI服务器明年初涨价超15% · 0824-597期",
@@ -1865,6 +1906,23 @@
       "id": "f8a0a027e8b9"
     },
     {
+      "title": "[模型] EschaLabs/Qwen3.8-27B-Escha-W2",
+      "url": "https://huggingface.co/EschaLabs/Qwen3.8-27B-Escha-W2",
+      "platform_url": "https://huggingface.co/EschaLabs/Qwen3.8-27B-Escha-W2",
+      "cover_url": null,
+      "publish_time": "2026-08-20T07:50:16.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 129 · 下载 2,481",
+      "platform": "huggingface",
+      "score": 129,
+      "trending_score": 129,
+      "downloads": 2481,
+      "id": "ed5d7f5d8200"
+    },
+    {
       "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
       "url": "https://huggingface.co/papers/2608.19880",
       "platform_url": "https://huggingface.co/papers/2608.19880",
@@ -1953,80 +2011,14 @@
       "score": 27,
       "comments_count": 2,
       "id": "265621a8872d"
-    },
-    {
-      "title": "RISE: Adaptive Imagination for World Action Models",
-      "url": "https://huggingface.co/papers/2608.20430",
-      "platform_url": "https://huggingface.co/papers/2608.20430",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.20430.png",
-      "publish_time": "2026-08-19T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existing methods allocate a fixed imagination budget to every scene. We propose RISE (Refining Imagination through SElective Rollout), a system-level adaptive imagination framework that makes sequential Roll/Stop decisions according to the expected planning benefit of continued rollout. At each step, a Latent Evaluator estimates the risk revealed by the current prefix and how much plan",
-      "platform": "huggingface",
-      "score": 24,
-      "comments_count": 3,
-      "id": "aab34d1a3892"
-    },
-    {
-      "title": "[模型] OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "platform_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "cover_url": null,
-      "publish_time": "2026-08-19T14:53:08.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 662 · 下载 389,747",
-      "platform": "huggingface",
-      "score": 752,
-      "trending_score": 662,
-      "downloads": 389747,
-      "id": "0424eb8eec9b"
-    },
-    {
-      "title": "[模型] ornith-ai/Ornith-1.5-9B-GGUF",
-      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
-      "platform_url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
-      "cover_url": null,
-      "publish_time": "2026-08-19T00:02:44.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 184 · 下载 1,144,037",
-      "platform": "huggingface",
-      "score": 201,
-      "trending_score": 184,
-      "downloads": 1144037,
-      "id": "c49df7376979"
-    },
-    {
-      "title": "[模型] ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-      "platform_url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-      "cover_url": null,
-      "publish_time": "2026-08-18T06:38:41.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 284 · 下载 1,156,903",
-      "platform": "huggingface",
-      "score": 297,
-      "trending_score": 284,
-      "downloads": 1156903,
-      "id": "4aaff03f6ea2"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 12.1,
-      "cover_success_rate": 37.1
+      "avg_response_time": 9.2,
+      "cover_success_rate": 41.4
     },
     "platforms": [
       {
@@ -2034,73 +2026,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-26T02:16:22.970301+00:00"
+        "last_crawl": "2026-08-26T13:00:26.120156+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-26T02:16:54.852253+00:00"
+        "last_crawl": "2026-08-26T13:00:50.225437+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-26T02:16:57.016762+00:00"
+        "last_crawl": "2026-08-26T13:00:51.488467+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-26T02:17:07.952454+00:00"
+        "last_crawl": "2026-08-26T13:00:59.392043+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-26T02:17:12.933492+00:00"
+        "last_crawl": "2026-08-26T13:00:59.603618+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-26T02:16:22.970306+00:00",
+        "timestamp": "2026-08-26T13:00:26.120161+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.331581
+        "latency": 12.431173
       },
       {
-        "timestamp": "2026-08-26T02:16:54.852259+00:00",
+        "timestamp": "2026-08-26T13:00:50.225442+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 31.881945
+        "latency": 24.105273
       },
       {
-        "timestamp": "2026-08-26T02:16:57.016765+00:00",
+        "timestamp": "2026-08-26T13:00:51.488471+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 2.164499
+        "latency": 1.263022
       },
       {
-        "timestamp": "2026-08-26T02:17:07.952459+00:00",
+        "timestamp": "2026-08-26T13:00:59.392047+00:00",
         "platform": "bestblogs",
         "status": "success",
         "items_collected": 20,
-        "latency": 10.935686
+        "latency": 7.903566
       },
       {
-        "timestamp": "2026-08-26T02:17:12.933507+00:00",
+        "timestamp": "2026-08-26T13:00:59.603633+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 4.981042
+        "latency": 0.21158
       }
     ]
   }
