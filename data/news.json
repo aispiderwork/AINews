@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-08-31T06:19:10.795901+00:00",
+  "update_time": "2026-08-31T18:59:23.583915+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "AI 正从“生成内容”迈向“实时互动”与“物理世界落地”的双重突破：In · 0901-609期",
+        "url": "https://radarai.top/updates/brief-20260901-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260901-0000",
+        "cover_url": null,
+        "publish_time": "2026-08-31T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "eacd1d6b27ea"
+      },
+      {
+        "title": "NVIDIA收购Hugging Face · 0831-608期",
+        "url": "https://radarai.top/updates/brief-20260831-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260831-1600",
+        "cover_url": null,
+        "publish_time": "2026-08-31T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "fc1791add8cd"
+      },
       {
         "title": "AI编码落地转向可靠工程，Pyromind押注AutoRL · 0831-607期",
         "url": "https://radarai.top/updates/brief-20260831-0800",
@@ -79,41 +101,103 @@
         "summary": "",
         "platform": "radarai",
         "id": "822f85516167"
-      },
-      {
-        "title": "苹果推书本式折叠iPhone，小米发布O100大模型芯片，梅卡曼德冲刺港交所 · 0825-600期",
-        "url": "https://radarai.top/updates/brief-20260825-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260825-0000",
-        "cover_url": null,
-        "publish_time": "2026-08-24T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "f60c2c26f79f"
-      },
-      {
-        "title": "Hugging Face估值逼近130亿美元，中立模型平台价值凸显 · 0824-599期",
-        "url": "https://radarai.top/updates/brief-20260824-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260824-1600",
-        "cover_url": null,
-        "publish_time": "2026-08-24T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "b2a9d5b373d8"
       }
     ],
     "hackernews": [
+      {
+        "title": "Rakuten Kobo returns to U.S. retail as sales double",
+        "url": "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/101053-rakuten-kobo-re-enters-u-s-retail-as-sales-double.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49510532",
+        "discussion_url": "https://news.ycombinator.com/item?id=49510532",
+        "score": 87,
+        "comments_count": 80,
+        "publish_time": "2026-08-31T14:53:34+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 84.9,
+        "id": "d779e7a3e494"
+      },
+      {
+        "title": "ChatGPT Work Tool and Skill Reference",
+        "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+        "platform_url": "https://news.ycombinator.com/item?id=49510000",
+        "discussion_url": "https://news.ycombinator.com/item?id=49510000",
+        "score": 122,
+        "comments_count": 45,
+        "publish_time": "2026-08-31T14:07:15+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 98.89999999999999,
+        "id": "f89ad1ef13ed"
+      },
+      {
+        "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+        "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+        "platform_url": "https://news.ycombinator.com/item?id=49508982",
+        "discussion_url": "https://news.ycombinator.com/item?id=49508982",
+        "score": 119,
+        "comments_count": 135,
+        "publish_time": "2026-08-31T12:41:22+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 123.8,
+        "id": "5753a816c526"
+      },
+      {
+        "title": "Agent memory as a file format",
+        "url": "https://calpaterson.com/memoryfields.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49508317",
+        "discussion_url": "https://news.ycombinator.com/item?id=49508317",
+        "score": 131,
+        "comments_count": 66,
+        "publish_time": "2026-08-31T11:17:25+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 111.49999999999999,
+        "id": "1ae83844859e"
+      },
+      {
+        "title": "Study: Blue light impairs the eye's ability to distinguish fine detail most",
+        "url": "https://research.uga.edu/news/blue-light-has-a-surprising-effect-on-your-eyes-study-finds/",
+        "platform_url": "https://news.ycombinator.com/item?id=49507121",
+        "discussion_url": "https://news.ycombinator.com/item?id=49507121",
+        "score": 84,
+        "comments_count": 48,
+        "publish_time": "2026-08-31T08:33:01+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 73.19999999999999,
+        "id": "cf43fa0f0b1b"
+      },
+      {
+        "title": "Breaking Claude Code Opus 5 Auto Mode",
+        "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+        "platform_url": "https://news.ycombinator.com/item?id=49506819",
+        "discussion_url": "https://news.ycombinator.com/item?id=49506819",
+        "score": 303,
+        "comments_count": 101,
+        "publish_time": "2026-08-31T07:49:18+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 242.39999999999998,
+        "id": "3a75eb6a0ff8"
+      },
+      {
+        "title": "P99 0 ms* autocomplete for 240M domain names",
+        "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+        "platform_url": "https://news.ycombinator.com/item?id=49505219",
+        "discussion_url": "https://news.ycombinator.com/item?id=49505219",
+        "score": 208,
+        "comments_count": 77,
+        "publish_time": "2026-08-31T03:20:33+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 168.7,
+        "id": "a0db0d0b56f4"
+      },
       {
         "title": "Understanding ChatGPT Work",
         "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
         "platform_url": "https://news.ycombinator.com/item?id=49504625",
         "discussion_url": "https://news.ycombinator.com/item?id=49504625",
-        "score": 120,
-        "comments_count": 44,
+        "score": 302,
+        "comments_count": 170,
         "publish_time": "2026-08-31T01:28:22+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 97.2,
+        "hn_hot_score": 262.4,
         "id": "8db00f26673c"
       },
       {
@@ -121,11 +205,11 @@
         "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
         "platform_url": "https://news.ycombinator.com/item?id=49499867",
         "discussion_url": "https://news.ycombinator.com/item?id=49499867",
-        "score": 288,
-        "comments_count": 85,
+        "score": 354,
+        "comments_count": 95,
         "publish_time": "2026-08-30T16:01:10+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 227.1,
+        "hn_hot_score": 276.29999999999995,
         "id": "c49267adf2e4"
       },
       {
@@ -139,90 +223,6 @@
         "platform": "hackernews",
         "hn_hot_score": 196.3,
         "id": "b384f212456b"
-      },
-      {
-        "title": "No AI Fridays",
-        "url": "https://noaifridays.com/",
-        "platform_url": "https://news.ycombinator.com/item?id=49498095",
-        "discussion_url": "https://news.ycombinator.com/item?id=49498095",
-        "score": 220,
-        "comments_count": 118,
-        "publish_time": "2026-08-30T12:31:05+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 189.4,
-        "id": "f802a8388ccb"
-      },
-      {
-        "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-        "url": "https://arxiv.org/abs/1804.07389",
-        "platform_url": "https://news.ycombinator.com/item?id=49496782",
-        "discussion_url": "https://news.ycombinator.com/item?id=49496782",
-        "score": 201,
-        "comments_count": 58,
-        "publish_time": "2026-08-30T08:23:26+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 158.1,
-        "id": "c4fe789ae9ce"
-      },
-      {
-        "title": "The Rise and Fall of Agent Civilizations",
-        "url": "https://www.dwarkesh.com/p/openai-huggingface",
-        "platform_url": "https://news.ycombinator.com/item?id=49494301",
-        "discussion_url": "https://news.ycombinator.com/item?id=49494301",
-        "score": 234,
-        "comments_count": 145,
-        "publish_time": "2026-08-29T23:43:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 207.29999999999998,
-        "id": "c61c1f34e593"
-      },
-      {
-        "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
-        "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
-        "platform_url": "https://news.ycombinator.com/item?id=49494182",
-        "discussion_url": "https://news.ycombinator.com/item?id=49494182",
-        "score": 418,
-        "comments_count": 322,
-        "publish_time": "2026-08-29T23:17:17+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 389.19999999999993,
-        "id": "4512e1188d36"
-      },
-      {
-        "title": "Defrag98: Windows 98 Disk Defragmenter Simulator Online",
-        "url": "https://defrag98.com",
-        "platform_url": "https://news.ycombinator.com/item?id=49494036",
-        "discussion_url": "https://news.ycombinator.com/item?id=49494036",
-        "score": 108,
-        "comments_count": 64,
-        "publish_time": "2026-08-29T22:51:17+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 94.8,
-        "id": "a5a9ea369baa"
-      },
-      {
-        "title": "Domain-Driven Agents",
-        "url": "https://coldtake.dev/blog/domain-driven-agents",
-        "platform_url": "https://news.ycombinator.com/item?id=49492584",
-        "discussion_url": "https://news.ycombinator.com/item?id=49492584",
-        "score": 89,
-        "comments_count": 20,
-        "publish_time": "2026-08-29T19:28:28+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 68.3,
-        "id": "6ed4a91f4ef5"
-      },
-      {
-        "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-        "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-        "platform_url": "https://news.ycombinator.com/item?id=49491568",
-        "discussion_url": "https://news.ycombinator.com/item?id=49491568",
-        "score": 456,
-        "comments_count": 114,
-        "publish_time": "2026-08-29T17:19:47+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 353.4,
-        "id": "db18d122834c"
       }
     ],
     "huggingface": [
@@ -236,12 +236,42 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 102 · 下载 684",
+        "summary": "TrendingScore 115 · 下载 1,541",
         "platform": "huggingface",
-        "score": 109,
-        "trending_score": 102,
-        "downloads": 684,
+        "score": 125,
+        "trending_score": 115,
+        "downloads": 1541,
         "id": "e8b41cc5bd36"
+      },
+      {
+        "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+        "url": "https://huggingface.co/papers/2608.28281",
+        "platform_url": "https://huggingface.co/papers/2608.28281",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.28281.png",
+        "publish_time": "2026-08-27T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing each prompt by hand, practitioners design loops that monitor progress, assign work, run checks, and decide what the agent should do next. Even with a capable coding agent, a loop may trust a stale progress note, skip needed verification, spend its budget in the wrong direction, or stop before the task is safe to submit. Yet the final outcome of one end-to-end run cannot tell whethe",
+        "platform": "huggingface",
+        "score": 82,
+        "comments_count": 2,
+        "id": "226b51277a9b"
+      },
+      {
+        "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+        "url": "https://huggingface.co/papers/2608.28122",
+        "platform_url": "https://huggingface.co/papers/2608.28122",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.28122.png",
+        "publish_time": "2026-08-27T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of producing drafts and components. Their practical impact increasingly depends on whether those pieces can become complete, dependable deliverables. This survey examines agentic artifact creation, which we define as stateful construction in which an AI system materially constructs or revises a deliverable and intermediate observations redirect later work. Functionally, the process l",
+        "platform": "huggingface",
+        "score": 50,
+        "comments_count": 1,
+        "id": "0cc1f014054c"
       },
       {
         "title": "[模型] tencent/Hy4-preview",
@@ -253,11 +283,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 320 · 下载 2,123",
+        "summary": "TrendingScore 341 · 下载 2,589",
         "platform": "huggingface",
-        "score": 324,
-        "trending_score": 320,
-        "downloads": 2123,
+        "score": 346,
+        "trending_score": 341,
+        "downloads": 2589,
         "id": "ab2c3c0f7d11"
       },
       {
@@ -271,7 +301,7 @@
         ],
         "summary": "Recent video generation models are increasingly framed as world models. Many physical processes can unfold in more than one valid way. Therefore, a world model should reproduce not only a plausible trajectory, but also the distribution of possible behaviors under the same initial observation and action. We call this distribution-level requirement probabilistic alignment. However, existing evaluations largely assess individual-video plausibility and do not test whether repeated generations recove",
         "platform": "huggingface",
-        "score": 137,
+        "score": 138,
         "comments_count": 2,
         "id": "f7731b7a29f9"
       },
@@ -301,7 +331,7 @@
         ],
         "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT). Replacing ground truth with majority-vote pseudo-labels is a natural alternative, yet it is fragile: an incorrect vote corrupts the teacher and misleads every token. We observe that this failure mode is asymmetric: rollouts th",
         "platform": "huggingface",
-        "score": 73,
+        "score": 72,
         "comments_count": 2,
         "id": "e24554b152bf"
       },
@@ -316,7 +346,7 @@
         ],
         "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated real-scale city. We propose UrbanGround, the first sandbox to make this question testable in a physically constrained replica of Hong Kong built from territory-wide 3D geospatial data. UrbanGround su",
         "platform": "huggingface",
-        "score": 105,
+        "score": 106,
         "comments_count": 3,
         "id": "bf87b301147a"
       },
@@ -366,6 +396,21 @@
         "id": "aee786c3ac23"
       },
       {
+        "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2608.27550",
+        "platform_url": "https://huggingface.co/papers/2608.27550",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.27550.png",
+        "publish_time": "2026-08-26T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM bac",
+        "platform": "huggingface",
+        "score": 55,
+        "comments_count": 1,
+        "id": "7798e34d6c72"
+      },
+      {
         "title": "[模型] unsloth/GLM-5.3-Flash-GGUF",
         "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
         "platform_url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
@@ -375,11 +420,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 288 · 下载 45,936",
+        "summary": "TrendingScore 301 · 下载 53,350",
         "platform": "huggingface",
-        "score": 293,
-        "trending_score": 288,
-        "downloads": 45936,
+        "score": 308,
+        "trending_score": 301,
+        "downloads": 53350,
         "id": "d4f862db8d14"
       },
       {
@@ -453,7 +498,7 @@
         ],
         "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this strategy is inefficient: scaling world models also requires a recursive data engine that offers grounded reward signals. The success of code agents illustrates why this matters. As code is executable, compilers and runtimes can provide high-quality rewards for Reinforcement Learning (RL) post-training of LLMs. By contrast, spatial generation still relies largely on fuzzy proxies suc",
         "platform": "huggingface",
-        "score": 182,
+        "score": 185,
         "comments_count": 4,
         "id": "6340c96d9510"
       },
@@ -484,57 +529,12 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 1310 · 下载 50,116",
+        "summary": "TrendingScore 1348 · 下载 66,195",
         "platform": "huggingface",
-        "score": 1363,
-        "trending_score": 1310,
-        "downloads": 50116,
+        "score": 1408,
+        "trending_score": 1348,
+        "downloads": 66195,
         "id": "fe18284cc651"
-      },
-      {
-        "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
-        "url": "https://huggingface.co/papers/2608.24053",
-        "platform_url": "https://huggingface.co/papers/2608.24053",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24053.png",
-        "publish_time": "2026-08-24T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of universal multimodal embedding models supporting text, images, videos, visual documents, and arbitrarily interleaved multimodal inputs with flexible output dimensions. The family comprises 2B, 4B, and 9B v",
-        "platform": "huggingface",
-        "score": 61,
-        "comments_count": 2,
-        "id": "60c8c21687cc"
-      },
-      {
-        "title": "On-Policy Self-Distillation in Diffusion Models",
-        "url": "https://huggingface.co/papers/2608.24646",
-        "platform_url": "https://huggingface.co/papers/2608.24646",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24646.png",
-        "publish_time": "2026-08-24T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change. We introduce DiffusionOPSD as an on-policy self-distillation framework that converts image-level reward guidance into explicit targets for clean-output predictions at sampled queries. At each outer iteration, a frozen behavior policy generates trajectories and supplies query states and anchors. Reward gr",
-        "platform": "huggingface",
-        "score": 44,
-        "comments_count": 1,
-        "id": "e3cc50a45e67"
-      },
-      {
-        "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
-        "url": "https://huggingface.co/papers/2608.24979",
-        "platform_url": "https://huggingface.co/papers/2608.24979",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24979.png",
-        "publish_time": "2026-08-24T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated programs, or a single domain. We introduce FrontierChallenge, a cross-domain benchmark comprising 300 end-to-end scientific workflows. In this paper, we release and evaluate 97 of these tasks, spanning quantum chemistry, molecular dynamics, materials characterization, analytical chemistry, life science, and electrochemistry/environment. Each task provid",
-        "platform": "huggingface",
-        "score": 138,
-        "comments_count": 2,
-        "id": "734eea2bceae"
       }
     ],
     "bestblogs": [
@@ -881,6 +881,40 @@
     ],
     "qbitai": [
       {
+        "title": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
+        "url": "https://www.qbitai.com/2026/08/481928.html",
+        "platform_url": "https://www.qbitai.com/2026/08/481928.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/4d3ae33c3ecd2e4adebc1a395e9700b0.jpeg",
+        "publish_time": "2026-08-31T13:20:29+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "cc61f73debe3"
+      },
+      {
+        "title": "滴滴自动驾驶新一代车型开启载客测试服务",
+        "url": "https://www.qbitai.com/2026/08/481923.html",
+        "platform_url": "https://www.qbitai.com/2026/08/481923.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/aa4db6de6291733fac2b511f6df6e496.jpeg",
+        "publish_time": "2026-08-31T07:53:12+00:00",
+        "tags": [
+          "滴滴"
+        ],
+        "platform": "qbitai",
+        "id": "dcf09e5687ac"
+      },
+      {
+        "title": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+        "url": "https://www.qbitai.com/2026/08/481919.html",
+        "platform_url": "https://www.qbitai.com/2026/08/481919.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/594d32ccb23431332e3062b006d3bb3b.png",
+        "publish_time": "2026-08-31T07:34:02+00:00",
+        "tags": [
+          "范式"
+        ],
+        "platform": "qbitai",
+        "id": "9b1c057db162"
+      },
+      {
         "title": "「GPT-6」灰测demo刷屏！周四发布在即",
         "url": "https://www.qbitai.com/2026/08/481893.html",
         "platform_url": "https://www.qbitai.com/2026/08/481893.html",
@@ -959,44 +993,6 @@
         "tags": [],
         "platform": "qbitai",
         "id": "f78b2b80da6e"
-      },
-      {
-        "title": "OpenClaw：红过，爱过，散了",
-        "url": "https://www.qbitai.com/2026/08/480855.html",
-        "platform_url": "https://www.qbitai.com/2026/08/480855.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/截屏2026-08-29-19.58.45.png",
-        "publish_time": "2026-08-29T12:00:51+00:00",
-        "tags": [
-          "OpenClaw"
-        ],
-        "platform": "qbitai",
-        "id": "32bdad06a1db"
-      },
-      {
-        "title": "32GB大显存加持，英特尔锐炫Pro B70搞定AI漫剧创作",
-        "url": "https://www.qbitai.com/2026/08/480787.html",
-        "platform_url": "https://www.qbitai.com/2026/08/480787.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/15fc8f0e1687f59b21656e308ebf7d4a.jpeg",
-        "publish_time": "2026-08-29T11:35:57+00:00",
-        "tags": [
-          "GPU",
-          "英特尔",
-          "锐炫Pro B70"
-        ],
-        "platform": "qbitai",
-        "id": "49d9a68b1f60"
-      },
-      {
-        "title": "e生涯斩获浙江一等奖，同蚂蚁、浙大一道晋级数据要素国赛",
-        "url": "https://www.qbitai.com/2026/08/480591.html",
-        "platform_url": "https://www.qbitai.com/2026/08/480591.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/65097216c31c9cd37c01165a5719ffc4.jpeg",
-        "publish_time": "2026-08-28T07:20:14+00:00",
-        "tags": [
-          "海亮科服"
-        ],
-        "platform": "qbitai",
-        "id": "74cf975db166"
       }
     ]
   },
@@ -1026,6 +1022,134 @@
           "platform_url": "https://huggingface.co/tencent/Hy4-preview"
         }
       ]
+    },
+    {
+      "title": "AI 正从“生成内容”迈向“实时互动”与“物理世界落地”的双重突破：In · 0901-609期",
+      "url": "https://radarai.top/updates/brief-20260901-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260901-0000",
+      "cover_url": null,
+      "publish_time": "2026-08-31T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "eacd1d6b27ea"
+    },
+    {
+      "title": "Rakuten Kobo returns to U.S. retail as sales double",
+      "url": "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/101053-rakuten-kobo-re-enters-u-s-retail-as-sales-double.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49510532",
+      "discussion_url": "https://news.ycombinator.com/item?id=49510532",
+      "score": 87,
+      "comments_count": 80,
+      "publish_time": "2026-08-31T14:53:34+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 84.9,
+      "id": "d779e7a3e494"
+    },
+    {
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+      "platform_url": "https://news.ycombinator.com/item?id=49510000",
+      "discussion_url": "https://news.ycombinator.com/item?id=49510000",
+      "score": 122,
+      "comments_count": 45,
+      "publish_time": "2026-08-31T14:07:15+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 98.89999999999999,
+      "id": "f89ad1ef13ed"
+    },
+    {
+      "title": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
+      "url": "https://www.qbitai.com/2026/08/481928.html",
+      "platform_url": "https://www.qbitai.com/2026/08/481928.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/4d3ae33c3ecd2e4adebc1a395e9700b0.jpeg",
+      "publish_time": "2026-08-31T13:20:29+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "cc61f73debe3"
+    },
+    {
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "platform_url": "https://news.ycombinator.com/item?id=49508982",
+      "discussion_url": "https://news.ycombinator.com/item?id=49508982",
+      "score": 119,
+      "comments_count": 135,
+      "publish_time": "2026-08-31T12:41:22+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 123.8,
+      "id": "5753a816c526"
+    },
+    {
+      "title": "Agent memory as a file format",
+      "url": "https://calpaterson.com/memoryfields.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49508317",
+      "discussion_url": "https://news.ycombinator.com/item?id=49508317",
+      "score": 131,
+      "comments_count": 66,
+      "publish_time": "2026-08-31T11:17:25+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 111.49999999999999,
+      "id": "1ae83844859e"
+    },
+    {
+      "title": "Study: Blue light impairs the eye's ability to distinguish fine detail most",
+      "url": "https://research.uga.edu/news/blue-light-has-a-surprising-effect-on-your-eyes-study-finds/",
+      "platform_url": "https://news.ycombinator.com/item?id=49507121",
+      "discussion_url": "https://news.ycombinator.com/item?id=49507121",
+      "score": 84,
+      "comments_count": 48,
+      "publish_time": "2026-08-31T08:33:01+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 73.19999999999999,
+      "id": "cf43fa0f0b1b"
+    },
+    {
+      "title": "NVIDIA收购Hugging Face · 0831-608期",
+      "url": "https://radarai.top/updates/brief-20260831-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260831-1600",
+      "cover_url": null,
+      "publish_time": "2026-08-31T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "fc1791add8cd"
+    },
+    {
+      "title": "滴滴自动驾驶新一代车型开启载客测试服务",
+      "url": "https://www.qbitai.com/2026/08/481923.html",
+      "platform_url": "https://www.qbitai.com/2026/08/481923.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/aa4db6de6291733fac2b511f6df6e496.jpeg",
+      "publish_time": "2026-08-31T07:53:12+00:00",
+      "tags": [
+        "滴滴"
+      ],
+      "platform": "qbitai",
+      "id": "dcf09e5687ac"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "platform_url": "https://news.ycombinator.com/item?id=49506819",
+      "discussion_url": "https://news.ycombinator.com/item?id=49506819",
+      "score": 303,
+      "comments_count": 101,
+      "publish_time": "2026-08-31T07:49:18+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 242.39999999999998,
+      "id": "3a75eb6a0ff8"
+    },
+    {
+      "title": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+      "url": "https://www.qbitai.com/2026/08/481919.html",
+      "platform_url": "https://www.qbitai.com/2026/08/481919.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/594d32ccb23431332e3062b006d3bb3b.png",
+      "publish_time": "2026-08-31T07:34:02+00:00",
+      "tags": [
+        "范式"
+      ],
+      "platform": "qbitai",
+      "id": "9b1c057db162"
     },
     {
       "title": "Devlog ⚡ Zig 编程语言",
@@ -1220,6 +1344,18 @@
       "id": "06fdcf660e29"
     },
     {
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "platform_url": "https://news.ycombinator.com/item?id=49505219",
+      "discussion_url": "https://news.ycombinator.com/item?id=49505219",
+      "score": 208,
+      "comments_count": 77,
+      "publish_time": "2026-08-31T03:20:33+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 168.7,
+      "id": "a0db0d0b56f4"
+    },
+    {
       "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
       "url": "https://www.qbitai.com/2026/08/481750.html",
       "platform_url": "https://www.qbitai.com/2026/08/481750.html",
@@ -1248,11 +1384,11 @@
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
       "platform_url": "https://news.ycombinator.com/item?id=49504625",
       "discussion_url": "https://news.ycombinator.com/item?id=49504625",
-      "score": 120,
-      "comments_count": 44,
+      "score": 302,
+      "comments_count": 170,
       "publish_time": "2026-08-31T01:28:22+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 97.2,
+      "hn_hot_score": 262.4,
       "id": "8db00f26673c"
     },
     {
@@ -1271,11 +1407,11 @@
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "platform_url": "https://news.ycombinator.com/item?id=49499867",
       "discussion_url": "https://news.ycombinator.com/item?id=49499867",
-      "score": 288,
-      "comments_count": 85,
+      "score": 354,
+      "comments_count": 95,
       "publish_time": "2026-08-30T16:01:10+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 227.1,
+      "hn_hot_score": 276.29999999999995,
       "id": "c49267adf2e4"
     },
     {
@@ -1302,18 +1438,6 @@
       "id": "b384f212456b"
     },
     {
-      "title": "No AI Fridays",
-      "url": "https://noaifridays.com/",
-      "platform_url": "https://news.ycombinator.com/item?id=49498095",
-      "discussion_url": "https://news.ycombinator.com/item?id=49498095",
-      "score": 220,
-      "comments_count": 118,
-      "publish_time": "2026-08-30T12:31:05+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 189.4,
-      "id": "f802a8388ccb"
-    },
-    {
       "title": "NVIDIA收购Hugging Face，小鹏VLA大模型将L4智驾下放量产车 · 0830-605期",
       "url": "https://radarai.top/updates/brief-20260830-2009",
       "platform_url": "https://radarai.top/updates/brief-20260830-2009",
@@ -1323,18 +1447,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "a00cf9c2a84f"
-    },
-    {
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "platform_url": "https://news.ycombinator.com/item?id=49496782",
-      "discussion_url": "https://news.ycombinator.com/item?id=49496782",
-      "score": 201,
-      "comments_count": 58,
-      "publish_time": "2026-08-30T08:23:26+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 158.1,
-      "id": "c4fe789ae9ce"
     },
     {
       "title": "Philip Riecks：拆解 Spring Boot 应用测试",
@@ -1490,66 +1602,6 @@
       "id": "080e2260bb4f"
     },
     {
-      "title": "The Rise and Fall of Agent Civilizations",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "platform_url": "https://news.ycombinator.com/item?id=49494301",
-      "discussion_url": "https://news.ycombinator.com/item?id=49494301",
-      "score": 234,
-      "comments_count": 145,
-      "publish_time": "2026-08-29T23:43:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 207.29999999999998,
-      "id": "c61c1f34e593"
-    },
-    {
-      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
-      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
-      "platform_url": "https://news.ycombinator.com/item?id=49494182",
-      "discussion_url": "https://news.ycombinator.com/item?id=49494182",
-      "score": 418,
-      "comments_count": 322,
-      "publish_time": "2026-08-29T23:17:17+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 389.19999999999993,
-      "id": "4512e1188d36"
-    },
-    {
-      "title": "Defrag98: Windows 98 Disk Defragmenter Simulator Online",
-      "url": "https://defrag98.com",
-      "platform_url": "https://news.ycombinator.com/item?id=49494036",
-      "discussion_url": "https://news.ycombinator.com/item?id=49494036",
-      "score": 108,
-      "comments_count": 64,
-      "publish_time": "2026-08-29T22:51:17+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 94.8,
-      "id": "a5a9ea369baa"
-    },
-    {
-      "title": "Domain-Driven Agents",
-      "url": "https://coldtake.dev/blog/domain-driven-agents",
-      "platform_url": "https://news.ycombinator.com/item?id=49492584",
-      "discussion_url": "https://news.ycombinator.com/item?id=49492584",
-      "score": 89,
-      "comments_count": 20,
-      "publish_time": "2026-08-29T19:28:28+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 68.3,
-      "id": "6ed4a91f4ef5"
-    },
-    {
-      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-      "platform_url": "https://news.ycombinator.com/item?id=49491568",
-      "discussion_url": "https://news.ycombinator.com/item?id=49491568",
-      "score": 456,
-      "comments_count": 114,
-      "publish_time": "2026-08-29T17:19:47+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 353.4,
-      "id": "db18d122834c"
-    },
-    {
       "title": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
       "url": "https://www.qbitai.com/2026/08/481372.html",
       "platform_url": "https://www.qbitai.com/2026/08/481372.html",
@@ -1584,32 +1636,6 @@
       "id": "f78b2b80da6e"
     },
     {
-      "title": "OpenClaw：红过，爱过，散了",
-      "url": "https://www.qbitai.com/2026/08/480855.html",
-      "platform_url": "https://www.qbitai.com/2026/08/480855.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/截屏2026-08-29-19.58.45.png",
-      "publish_time": "2026-08-29T12:00:51+00:00",
-      "tags": [
-        "OpenClaw"
-      ],
-      "platform": "qbitai",
-      "id": "32bdad06a1db"
-    },
-    {
-      "title": "32GB大显存加持，英特尔锐炫Pro B70搞定AI漫剧创作",
-      "url": "https://www.qbitai.com/2026/08/480787.html",
-      "platform_url": "https://www.qbitai.com/2026/08/480787.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/15fc8f0e1687f59b21656e308ebf7d4a.jpeg",
-      "publish_time": "2026-08-29T11:35:57+00:00",
-      "tags": [
-        "GPU",
-        "英特尔",
-        "锐炫Pro B70"
-      ],
-      "platform": "qbitai",
-      "id": "49d9a68b1f60"
-    },
-    {
       "title": "[模型] orcarouter/GLM-5.3-Flash-Uncensored-FP8",
       "url": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-FP8",
       "platform_url": "https://huggingface.co/orcarouter/GLM-5.3-Flash-Uncensored-FP8",
@@ -1619,24 +1645,42 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 102 · 下载 684",
+      "summary": "TrendingScore 115 · 下载 1,541",
       "platform": "huggingface",
-      "score": 109,
-      "trending_score": 102,
-      "downloads": 684,
+      "score": 125,
+      "trending_score": 115,
+      "downloads": 1541,
       "id": "e8b41cc5bd36"
     },
     {
-      "title": "e生涯斩获浙江一等奖，同蚂蚁、浙大一道晋级数据要素国赛",
-      "url": "https://www.qbitai.com/2026/08/480591.html",
-      "platform_url": "https://www.qbitai.com/2026/08/480591.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/08/65097216c31c9cd37c01165a5719ffc4.jpeg",
-      "publish_time": "2026-08-28T07:20:14+00:00",
+      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "url": "https://huggingface.co/papers/2608.28281",
+      "platform_url": "https://huggingface.co/papers/2608.28281",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.28281.png",
+      "publish_time": "2026-08-27T20:00:00.000Z",
       "tags": [
-        "海亮科服"
+        "论文"
       ],
-      "platform": "qbitai",
-      "id": "74cf975db166"
+      "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing each prompt by hand, practitioners design loops that monitor progress, assign work, run checks, and decide what the agent should do next. Even with a capable coding agent, a loop may trust a stale progress note, skip needed verification, spend its budget in the wrong direction, or stop before the task is safe to submit. Yet the final outcome of one end-to-end run cannot tell whethe",
+      "platform": "huggingface",
+      "score": 82,
+      "comments_count": 2,
+      "id": "226b51277a9b"
+    },
+    {
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "url": "https://huggingface.co/papers/2608.28122",
+      "platform_url": "https://huggingface.co/papers/2608.28122",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.28122.png",
+      "publish_time": "2026-08-27T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of producing drafts and components. Their practical impact increasingly depends on whether those pieces can become complete, dependable deliverables. This survey examines agentic artifact creation, which we define as stateful construction in which an AI system materially constructs or revises a deliverable and intermediate observations redirect later work. Functionally, the process l",
+      "platform": "huggingface",
+      "score": 50,
+      "comments_count": 1,
+      "id": "0cc1f014054c"
     },
     {
       "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
@@ -1649,7 +1693,7 @@
       ],
       "summary": "Recent video generation models are increasingly framed as world models. Many physical processes can unfold in more than one valid way. Therefore, a world model should reproduce not only a plausible trajectory, but also the distribution of possible behaviors under the same initial observation and action. We call this distribution-level requirement probabilistic alignment. However, existing evaluations largely assess individual-video plausibility and do not test whether repeated generations recove",
       "platform": "huggingface",
-      "score": 137,
+      "score": 138,
       "comments_count": 2,
       "id": "f7731b7a29f9"
     },
@@ -1679,7 +1723,7 @@
       ],
       "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT). Replacing ground truth with majority-vote pseudo-labels is a natural alternative, yet it is fragile: an incorrect vote corrupts the teacher and misleads every token. We observe that this failure mode is asymmetric: rollouts th",
       "platform": "huggingface",
-      "score": 73,
+      "score": 72,
       "comments_count": 2,
       "id": "e24554b152bf"
     },
@@ -1694,7 +1738,7 @@
       ],
       "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated real-scale city. We propose UrbanGround, the first sandbox to make this question testable in a physically constrained replica of Hong Kong built from territory-wide 3D geospatial data. UrbanGround su",
       "platform": "huggingface",
-      "score": 105,
+      "score": 106,
       "comments_count": 3,
       "id": "bf87b301147a"
     },
@@ -1744,6 +1788,21 @@
       "id": "aee786c3ac23"
     },
     {
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2608.27550",
+      "platform_url": "https://huggingface.co/papers/2608.27550",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.27550.png",
+      "publish_time": "2026-08-26T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM bac",
+      "platform": "huggingface",
+      "score": 55,
+      "comments_count": 1,
+      "id": "7798e34d6c72"
+    },
+    {
       "title": "[模型] unsloth/GLM-5.3-Flash-GGUF",
       "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
       "platform_url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
@@ -1753,11 +1812,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 288 · 下载 45,936",
+      "summary": "TrendingScore 301 · 下载 53,350",
       "platform": "huggingface",
-      "score": 293,
-      "trending_score": 288,
-      "downloads": 45936,
+      "score": 308,
+      "trending_score": 301,
+      "downloads": 53350,
       "id": "d4f862db8d14"
     },
     {
@@ -1842,7 +1901,7 @@
       ],
       "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this strategy is inefficient: scaling world models also requires a recursive data engine that offers grounded reward signals. The success of code agents illustrates why this matters. As code is executable, compilers and runtimes can provide high-quality rewards for Reinforcement Learning (RL) post-training of LLMs. By contrast, spatial generation still relies largely on fuzzy proxies suc",
       "platform": "huggingface",
-      "score": 182,
+      "score": 185,
       "comments_count": 4,
       "id": "6340c96d9510"
     },
@@ -1895,11 +1954,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 1310 · 下载 50,116",
+      "summary": "TrendingScore 1348 · 下载 66,195",
       "platform": "huggingface",
-      "score": 1363,
-      "trending_score": 1310,
-      "downloads": 50116,
+      "score": 1408,
+      "trending_score": 1348,
+      "downloads": 66195,
       "id": "fe18284cc651"
     },
     {
@@ -1912,80 +1971,13 @@
       "summary": "",
       "platform": "radarai",
       "id": "822f85516167"
-    },
-    {
-      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
-      "url": "https://huggingface.co/papers/2608.24053",
-      "platform_url": "https://huggingface.co/papers/2608.24053",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24053.png",
-      "publish_time": "2026-08-24T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of universal multimodal embedding models supporting text, images, videos, visual documents, and arbitrarily interleaved multimodal inputs with flexible output dimensions. The family comprises 2B, 4B, and 9B v",
-      "platform": "huggingface",
-      "score": 61,
-      "comments_count": 2,
-      "id": "60c8c21687cc"
-    },
-    {
-      "title": "On-Policy Self-Distillation in Diffusion Models",
-      "url": "https://huggingface.co/papers/2608.24646",
-      "platform_url": "https://huggingface.co/papers/2608.24646",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24646.png",
-      "publish_time": "2026-08-24T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change. We introduce DiffusionOPSD as an on-policy self-distillation framework that converts image-level reward guidance into explicit targets for clean-output predictions at sampled queries. At each outer iteration, a frozen behavior policy generates trajectories and supplies query states and anchors. Reward gr",
-      "platform": "huggingface",
-      "score": 44,
-      "comments_count": 1,
-      "id": "e3cc50a45e67"
-    },
-    {
-      "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
-      "url": "https://huggingface.co/papers/2608.24979",
-      "platform_url": "https://huggingface.co/papers/2608.24979",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.24979.png",
-      "publish_time": "2026-08-24T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated programs, or a single domain. We introduce FrontierChallenge, a cross-domain benchmark comprising 300 end-to-end scientific workflows. In this paper, we release and evaluate 97 of these tasks, spanning quantum chemistry, molecular dynamics, materials characterization, analytical chemistry, life science, and electrochemistry/environment. Each task provid",
-      "platform": "huggingface",
-      "score": 138,
-      "comments_count": 2,
-      "id": "734eea2bceae"
-    },
-    {
-      "title": "苹果推书本式折叠iPhone，小米发布O100大模型芯片，梅卡曼德冲刺港交所 · 0825-600期",
-      "url": "https://radarai.top/updates/brief-20260825-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260825-0000",
-      "cover_url": null,
-      "publish_time": "2026-08-24T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "f60c2c26f79f"
-    },
-    {
-      "title": "Hugging Face估值逼近130亿美元，中立模型平台价值凸显 · 0824-599期",
-      "url": "https://radarai.top/updates/brief-20260824-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260824-1600",
-      "cover_url": null,
-      "publish_time": "2026-08-24T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "b2a9d5b373d8"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.7,
+      "avg_response_time": 9.1,
       "cover_success_rate": 34.8
     },
     "platforms": [
@@ -1994,73 +1986,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-31T06:18:30.968069+00:00"
+        "last_crawl": "2026-08-31T18:58:50.385498+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-08-31T06:19:00.951671+00:00"
+        "last_crawl": "2026-08-31T18:59:12.659158+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 9,
-        "last_crawl": "2026-08-31T06:19:02.416400+00:00"
+        "last_crawl": "2026-08-31T18:59:13.955413+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-08-31T06:19:10.593807+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-08-31T18:59:23.318523+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-08-31T06:19:10.746951+00:00"
+        "last_crawl": "2026-08-31T18:59:23.534584+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-08-31T06:18:30.968075+00:00",
+        "timestamp": "2026-08-31T18:58:50.385503+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 8.627739
+        "latency": 12.555843
       },
       {
-        "timestamp": "2026-08-31T06:19:00.951677+00:00",
+        "timestamp": "2026-08-31T18:59:12.659163+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 29.983594
+        "latency": 22.273652
       },
       {
-        "timestamp": "2026-08-31T06:19:02.416406+00:00",
+        "timestamp": "2026-08-31T18:59:13.955418+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 9,
-        "latency": 1.464721
+        "latency": 1.296249
       },
       {
-        "timestamp": "2026-08-31T06:19:10.593813+00:00",
+        "timestamp": "2026-08-31T18:59:23.318529+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.1774
+        "items_collected": 10,
+        "latency": 9.363104
       },
       {
-        "timestamp": "2026-08-31T06:19:10.746963+00:00",
+        "timestamp": "2026-08-31T18:59:23.534592+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.153143
+        "latency": 0.216056
       }
     ]
   }
