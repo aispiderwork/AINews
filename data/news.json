@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-04T05:11:36.683360+00:00",
+  "update_time": "2026-09-04T16:03:55.463187+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "OpenAI发布GPT-6 Astra定调性能AGI · 0905-621期",
+        "url": "https://radarai.top/updates/brief-20260905-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260905-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-04T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "2861d45e3e03"
+      },
+      {
+        "title": "OpenAI推GPT-6 Astra称达AGI级 · 0904-620期",
+        "url": "https://radarai.top/updates/brief-20260904-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260904-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-04T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "b2dacdba9c6d"
+      },
       {
         "title": "每周 AI 热点 · 2026-09-04",
         "url": "https://radarai.top/updates/weekly-2026-09-04",
@@ -90,41 +112,31 @@
         "summary": "",
         "platform": "radarai",
         "id": "d6f7483d10fb"
-      },
-      {
-        "title": "英伟达DLSS 5让《GTA 5》画质逼近次世代 · 0902-612期",
-        "url": "https://radarai.top/updates/brief-20260902-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260902-0000",
-        "cover_url": null,
-        "publish_time": "2026-09-01T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e7f4e9da14a9"
-      },
-      {
-        "title": "库克卸任苹果CEO，特努斯接棒挑战AI落后困局 · 0901-611期",
-        "url": "https://radarai.top/updates/brief-20260901-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260901-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-01T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "2d06918bfb05"
       }
     ],
     "hackernews": [
+      {
+        "title": "Discovery of a new OpenAI agent message board",
+        "url": "https://collusion.wiki/",
+        "platform_url": "https://news.ycombinator.com/item?id=49563355",
+        "discussion_url": "https://news.ycombinator.com/item?id=49563355",
+        "score": 684,
+        "comments_count": 477,
+        "publish_time": "2026-09-04T11:54:53+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 621.9,
+        "id": "0b12e8e2a052"
+      },
       {
         "title": "GPT-6 Astra",
         "url": "https://openai.com/index/gpt-6-astra/",
         "platform_url": "https://news.ycombinator.com/item?id=49554643",
         "discussion_url": "https://news.ycombinator.com/item?id=49554643",
-        "score": 1527,
-        "comments_count": 1298,
+        "score": 2018,
+        "comments_count": 1835,
         "publish_time": "2026-09-03T18:41:05+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1458.2999999999997,
+        "hn_hot_score": 1963.1,
         "id": "bedaf5ab9883"
       },
       {
@@ -132,11 +144,11 @@
         "url": "https://inference-docs.cerebras.ai/models/overview",
         "platform_url": "https://news.ycombinator.com/item?id=49554520",
         "discussion_url": "https://news.ycombinator.com/item?id=49554520",
-        "score": 502,
-        "comments_count": 152,
+        "score": 641,
+        "comments_count": 210,
         "publish_time": "2026-09-03T18:32:13+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 397.0,
+        "hn_hot_score": 511.7,
         "id": "808f619e70c2"
       },
       {
@@ -156,11 +168,11 @@
         "url": "https://news.ycombinator.com/item?id=49551096",
         "platform_url": "https://news.ycombinator.com/item?id=49551096",
         "discussion_url": "https://news.ycombinator.com/item?id=49551096",
-        "score": 355,
-        "comments_count": 532,
+        "score": 384,
+        "comments_count": 547,
         "publish_time": "2026-09-03T15:07:01+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 408.09999999999997,
+        "hn_hot_score": 432.9,
         "id": "1d3eeb54c7e9"
       },
       {
@@ -174,6 +186,18 @@
         "platform": "hackernews",
         "hn_hot_score": 301.2,
         "id": "6e09285894d0"
+      },
+      {
+        "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+        "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+        "platform_url": "https://news.ycombinator.com/item?id=49544762",
+        "discussion_url": "https://news.ycombinator.com/item?id=49544762",
+        "score": 419,
+        "comments_count": 162,
+        "publish_time": "2026-09-03T01:11:22+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 341.9,
+        "id": "fc336f72ca92"
       },
       {
         "title": "Paint.net 5.2 alpha now runs on Linux",
@@ -204,36 +228,12 @@
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
         "platform_url": "https://news.ycombinator.com/item?id=49537553",
         "discussion_url": "https://news.ycombinator.com/item?id=49537553",
-        "score": 1143,
-        "comments_count": 655,
+        "score": 1149,
+        "comments_count": 661,
         "publish_time": "2026-09-02T15:12:40+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 996.5999999999999,
+        "hn_hot_score": 1002.5999999999999,
         "id": "d1d744cc92c1"
-      },
-      {
-        "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-        "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-        "platform_url": "https://news.ycombinator.com/item?id=49536375",
-        "discussion_url": "https://news.ycombinator.com/item?id=49536375",
-        "score": 504,
-        "comments_count": 248,
-        "publish_time": "2026-09-02T13:59:59+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 427.19999999999993,
-        "id": "c2d3ecb5b462"
-      },
-      {
-        "title": "Aging brains blend memories together instead of just forgetting them",
-        "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-        "platform_url": "https://news.ycombinator.com/item?id=49535548",
-        "discussion_url": "https://news.ycombinator.com/item?id=49535548",
-        "score": 330,
-        "comments_count": 130,
-        "publish_time": "2026-09-02T12:59:09+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 270.0,
-        "id": "b6f03f8ea78e"
       }
     ],
     "huggingface": [
@@ -248,8 +248,8 @@
         ],
         "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable o",
         "platform": "huggingface",
-        "score": 63,
-        "comments_count": 1,
+        "score": 131,
+        "comments_count": 2,
         "id": "8ee4c9e3dd33"
       },
       {
@@ -263,7 +263,7 @@
         ],
         "summary": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially its decay and write-strength gates -- on the intuition that errors in a recurrence accumulate over long contexts. We test that intuition by building Minima: NVFP4 W4A4 on all 496 linear layers, GDN i",
         "platform": "huggingface",
-        "score": 47,
+        "score": 65,
         "comments_count": 1,
         "id": "844376eadfa2"
       },
@@ -278,7 +278,7 @@
         ],
         "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no sc",
         "platform": "huggingface",
-        "score": 41,
+        "score": 72,
         "comments_count": 1,
         "id": "4d43beb434ca"
       },
@@ -293,9 +293,39 @@
         ],
         "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds of steps and recovers most of full-data OPD's gain across task domains and model families. We explain this result through the states visited during training and t",
         "platform": "huggingface",
-        "score": 35,
+        "score": 63,
         "comments_count": 1,
         "id": "14d7bbac87d8"
+      },
+      {
+        "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+        "url": "https://huggingface.co/papers/2609.04148",
+        "platform_url": "https://huggingface.co/papers/2609.04148",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04148.png",
+        "publish_time": "2026-09-02T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution feedback, whereas a trajectory is a single frozen demonstration. Rather than generating environments from scratch, we observe that the tool-execution history in existing trajectories exposes the structure an",
+        "platform": "huggingface",
+        "score": 170,
+        "comments_count": 0,
+        "id": "5b01c91ca256"
+      },
+      {
+        "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+        "url": "https://huggingface.co/papers/2609.04199",
+        "platform_url": "https://huggingface.co/papers/2609.04199",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04199.png",
+        "publish_time": "2026-09-02T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and c",
+        "platform": "huggingface",
+        "score": 140,
+        "comments_count": 2,
+        "id": "84fc0747319c"
       },
       {
         "title": "[模型] IFM/K2-Horizon-MoVA-36B-A4B",
@@ -307,11 +337,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 84 · 下载 0",
+        "summary": "TrendingScore 124 · 下载 433",
         "platform": "huggingface",
-        "score": 85,
-        "trending_score": 84,
-        "downloads": 0,
+        "score": 126,
+        "trending_score": 124,
+        "downloads": 433,
         "id": "b5d12b28062c"
       },
       {
@@ -460,8 +490,8 @@
         ],
         "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Current agent evaluations typically report downstream performance under a chosen harness, leaving a model's ability to develop the harness itself comparatively underexplored. We introduce HarnessDev, a benchmark that shifts th",
         "platform": "huggingface",
-        "score": 229,
-        "comments_count": 3,
+        "score": 236,
+        "comments_count": 4,
         "id": "87b549d21264"
       },
       {
@@ -475,7 +505,7 @@
         ],
         "summary": "Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen decoder reads directly through its input-embedding interface, with no text reconstruction at inference. A small reader-matched writer compresses 4-16times while training only an adapter (4.2M-26.2M pa",
         "platform": "huggingface",
-        "score": 49,
+        "score": 74,
         "comments_count": 1,
         "id": "1cfd83b0c302"
       },
@@ -508,36 +538,6 @@
         "score": 82,
         "comments_count": 2,
         "id": "a12b8628266a"
-      },
-      {
-        "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
-        "url": "https://huggingface.co/papers/2608.31046",
-        "platform_url": "https://huggingface.co/papers/2608.31046",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.31046.png",
-        "publish_time": "2026-08-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "On-policy distillation (OPD) offers dense token-level supervision as an alternative to the sparse outcome-level advantages of reinforcement learning with verifiable rewards (RLVR). However, the teacher scores student-generated trajectories that are inherently off-policy for it, so the reliability of its supervision, and hence the source of the student's improvement, remains unclear. We quantitatively analyze teacher supervision during OPD training and find substantial noise whose prevalence incr",
-        "platform": "huggingface",
-        "score": 87,
-        "comments_count": 1,
-        "id": "947bbf50787b"
-      },
-      {
-        "title": "Normalized Low-Rank Adaptation",
-        "url": "https://huggingface.co/papers/2608.31036",
-        "platform_url": "https://huggingface.co/papers/2608.31036",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.31036.png",
-        "publish_time": "2026-08-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "While low-rank adaptation (LoRA) is widely used for parameter-efficient model adaptation, how to regularize its training dynamics for stable and effective optimization remains underexplored. Because LoRA initializes the up-projection to zero, its early optimization dynamics are largely governed by the down-projection. Building on this observation, we introduce Normalized Low-Rank Adaptation (NoRA), a simple yet effective method that normalizes the down-projection matrices during training. We fur",
-        "platform": "huggingface",
-        "score": 47,
-        "comments_count": 3,
-        "id": "88e5655ea319"
       }
     ],
     "bestblogs": [
@@ -884,6 +884,82 @@
     ],
     "qbitai": [
       {
+        "title": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
+        "url": "https://www.qbitai.com/2026/09/484547.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484547.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/9d104f392cc4b286030ea98438f64bf5.jpeg",
+        "publish_time": "2026-09-04T09:23:24+00:00",
+        "tags": [
+          "摩尔线程",
+          "趋境科技"
+        ],
+        "platform": "qbitai",
+        "id": "c9f9b808e6e5"
+      },
+      {
+        "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+        "url": "https://www.qbitai.com/2026/09/484437.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484437.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/79203f40625f8113fd8450bd8cb5e0eb.png",
+        "publish_time": "2026-09-04T09:19:29+00:00",
+        "tags": [
+          "星尘智能"
+        ],
+        "platform": "qbitai",
+        "id": "2d87cd8a6997"
+      },
+      {
+        "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+        "url": "https://www.qbitai.com/2026/09/484293.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484293.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/压缩.jpg",
+        "publish_time": "2026-09-04T08:57:14+00:00",
+        "tags": [
+          "openJiuwen",
+          "ScienceDiscovery",
+          "科研"
+        ],
+        "platform": "qbitai",
+        "id": "a4e034d5ae8a"
+      },
+      {
+        "title": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+        "url": "https://www.qbitai.com/2026/09/484163.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484163.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5389d8cf7653ae40ddefa22d9eaa19e4.webp",
+        "publish_time": "2026-09-04T06:54:12+00:00",
+        "tags": [
+          "世界模型",
+          "空间智能"
+        ],
+        "platform": "qbitai",
+        "id": "8340f3f3fbee"
+      },
+      {
+        "title": "2026 上半年智能眼镜竞争加剧，雷鸟创新五榜登顶实现全品类销量领先",
+        "url": "https://www.qbitai.com/2026/09/484159.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484159.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8ac308b02759867da33d390317d0b2d4.jpeg",
+        "publish_time": "2026-09-04T05:53:09+00:00",
+        "tags": [
+          "雷鸟创新"
+        ],
+        "platform": "qbitai",
+        "id": "e130a1e39e78"
+      },
+      {
+        "title": "千问办公上线首月用户数突破 3000万，企业用户占比过半",
+        "url": "https://www.qbitai.com/2026/09/484155.html",
+        "platform_url": "https://www.qbitai.com/2026/09/484155.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0c7dbb15824dfe79a623eee9a6716d75.png",
+        "publish_time": "2026-09-04T05:48:53+00:00",
+        "tags": [
+          "阿里"
+        ],
+        "platform": "qbitai",
+        "id": "e7335a4b732d"
+      },
+      {
         "title": "常州女首富机器人转型才开始，先因裁应届生上了热搜",
         "url": "https://www.qbitai.com/2026/09/483984.html",
         "platform_url": "https://www.qbitai.com/2026/09/483984.html",
@@ -933,88 +1009,120 @@
         ],
         "platform": "qbitai",
         "id": "96ccba1cfc29"
-      },
-      {
-        "title": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
-        "url": "https://www.qbitai.com/2026/09/483786.html",
-        "platform_url": "https://www.qbitai.com/2026/09/483786.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/82fa0530b866d3a3f69b93ee909fb95f.webp",
-        "publish_time": "2026-09-03T11:25:29+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "91b66181ed6a"
-      },
-      {
-        "title": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
-        "url": "https://www.qbitai.com/2026/09/483565.html",
-        "platform_url": "https://www.qbitai.com/2026/09/483565.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/大图.jpg",
-        "publish_time": "2026-09-03T03:16:43+00:00",
-        "tags": [
-          "具身智能",
-          "它石智航",
-          "泛化"
-        ],
-        "platform": "qbitai",
-        "id": "e2cb8281d9df"
-      },
-      {
-        "title": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
-        "url": "https://www.qbitai.com/2026/09/483552.html",
-        "platform_url": "https://www.qbitai.com/2026/09/483552.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/90dd38e35cdcd97235b0cba2ba44dc60.webp",
-        "publish_time": "2026-09-03T01:31:45+00:00",
-        "tags": [
-          "具身智能",
-          "具身模型"
-        ],
-        "platform": "qbitai",
-        "id": "8d9e57a16864"
-      },
-      {
-        "title": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
-        "url": "https://www.qbitai.com/2026/09/483462.html",
-        "platform_url": "https://www.qbitai.com/2026/09/483462.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/da383f41f8be9c2962ae3e9b1eee20eb.png",
-        "publish_time": "2026-09-03T01:27:05+00:00",
-        "tags": [
-          "理想汽车"
-        ],
-        "platform": "qbitai",
-        "id": "ca9e21aae361"
-      },
-      {
-        "title": "今年最难的机器人Demo，“机器人含量”为0",
-        "url": "https://www.qbitai.com/2026/09/483351.html",
-        "platform_url": "https://www.qbitai.com/2026/09/483351.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/WX20260902-184212@2x.png",
-        "publish_time": "2026-09-03T00:51:16+00:00",
-        "tags": [
-          "Ego数据",
-          "具身智能",
-          "自变量机器人",
-          "遥操"
-        ],
-        "platform": "qbitai",
-        "id": "8d2b301bd7c9"
-      },
-      {
-        "title": "具身大脑进了真实世界，难题才刚刚开始",
-        "url": "https://www.qbitai.com/2026/09/484149.html",
-        "platform_url": "https://www.qbitai.com/2026/09/484149.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c2940ae796cd15d17b53173477a74563-scaled-e1788495128335.jpeg",
-        "publish_time": "2026-09-02T10:10:25+00:00",
-        "tags": [
-          "蚂蚁灵波"
-        ],
-        "platform": "qbitai",
-        "id": "486673ffcf4b"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI发布GPT-6 Astra定调性能AGI · 0905-621期",
+      "url": "https://radarai.top/updates/brief-20260905-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260905-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-04T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "2861d45e3e03"
+    },
+    {
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "platform_url": "https://news.ycombinator.com/item?id=49563355",
+      "discussion_url": "https://news.ycombinator.com/item?id=49563355",
+      "score": 684,
+      "comments_count": 477,
+      "publish_time": "2026-09-04T11:54:53+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 621.9,
+      "id": "0b12e8e2a052"
+    },
+    {
+      "title": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
+      "url": "https://www.qbitai.com/2026/09/484547.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484547.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/9d104f392cc4b286030ea98438f64bf5.jpeg",
+      "publish_time": "2026-09-04T09:23:24+00:00",
+      "tags": [
+        "摩尔线程",
+        "趋境科技"
+      ],
+      "platform": "qbitai",
+      "id": "c9f9b808e6e5"
+    },
+    {
+      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+      "url": "https://www.qbitai.com/2026/09/484437.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484437.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/79203f40625f8113fd8450bd8cb5e0eb.png",
+      "publish_time": "2026-09-04T09:19:29+00:00",
+      "tags": [
+        "星尘智能"
+      ],
+      "platform": "qbitai",
+      "id": "2d87cd8a6997"
+    },
+    {
+      "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+      "url": "https://www.qbitai.com/2026/09/484293.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484293.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/压缩.jpg",
+      "publish_time": "2026-09-04T08:57:14+00:00",
+      "tags": [
+        "openJiuwen",
+        "ScienceDiscovery",
+        "科研"
+      ],
+      "platform": "qbitai",
+      "id": "a4e034d5ae8a"
+    },
+    {
+      "title": "OpenAI推GPT-6 Astra称达AGI级 · 0904-620期",
+      "url": "https://radarai.top/updates/brief-20260904-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260904-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-04T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "b2dacdba9c6d"
+    },
+    {
+      "title": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+      "url": "https://www.qbitai.com/2026/09/484163.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484163.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5389d8cf7653ae40ddefa22d9eaa19e4.webp",
+      "publish_time": "2026-09-04T06:54:12+00:00",
+      "tags": [
+        "世界模型",
+        "空间智能"
+      ],
+      "platform": "qbitai",
+      "id": "8340f3f3fbee"
+    },
+    {
+      "title": "2026 上半年智能眼镜竞争加剧，雷鸟创新五榜登顶实现全品类销量领先",
+      "url": "https://www.qbitai.com/2026/09/484159.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484159.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8ac308b02759867da33d390317d0b2d4.jpeg",
+      "publish_time": "2026-09-04T05:53:09+00:00",
+      "tags": [
+        "雷鸟创新"
+      ],
+      "platform": "qbitai",
+      "id": "e130a1e39e78"
+    },
+    {
+      "title": "千问办公上线首月用户数突破 3000万，企业用户占比过半",
+      "url": "https://www.qbitai.com/2026/09/484155.html",
+      "platform_url": "https://www.qbitai.com/2026/09/484155.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0c7dbb15824dfe79a623eee9a6716d75.png",
+      "publish_time": "2026-09-04T05:48:53+00:00",
+      "tags": [
+        "阿里"
+      ],
+      "platform": "qbitai",
+      "id": "e7335a4b732d"
+    },
     {
       "title": "得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付",
       "url": "https://www.bestblogs.dev/article/RAW_f8e63f9b08",
@@ -1263,11 +1371,11 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "platform_url": "https://news.ycombinator.com/item?id=49554643",
       "discussion_url": "https://news.ycombinator.com/item?id=49554643",
-      "score": 1527,
-      "comments_count": 1298,
+      "score": 2018,
+      "comments_count": 1835,
       "publish_time": "2026-09-03T18:41:05+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1458.2999999999997,
+      "hn_hot_score": 1963.1,
       "id": "bedaf5ab9883"
     },
     {
@@ -1275,11 +1383,11 @@
       "url": "https://inference-docs.cerebras.ai/models/overview",
       "platform_url": "https://news.ycombinator.com/item?id=49554520",
       "discussion_url": "https://news.ycombinator.com/item?id=49554520",
-      "score": 502,
-      "comments_count": 152,
+      "score": 641,
+      "comments_count": 210,
       "publish_time": "2026-09-03T18:32:13+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 397.0,
+      "hn_hot_score": 511.7,
       "id": "808f619e70c2"
     },
     {
@@ -1310,11 +1418,11 @@
       "url": "https://news.ycombinator.com/item?id=49551096",
       "platform_url": "https://news.ycombinator.com/item?id=49551096",
       "discussion_url": "https://news.ycombinator.com/item?id=49551096",
-      "score": 355,
-      "comments_count": 532,
+      "score": 384,
+      "comments_count": 547,
       "publish_time": "2026-09-03T15:07:01+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 408.09999999999997,
+      "hn_hot_score": 432.9,
       "id": "1d3eeb54c7e9"
     },
     {
@@ -1328,18 +1436,6 @@
       "platform": "hackernews",
       "hn_hot_score": 301.2,
       "id": "6e09285894d0"
-    },
-    {
-      "title": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
-      "url": "https://www.qbitai.com/2026/09/483786.html",
-      "platform_url": "https://www.qbitai.com/2026/09/483786.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/82fa0530b866d3a3f69b93ee909fb95f.webp",
-      "publish_time": "2026-09-03T11:25:29+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "91b66181ed6a"
     },
     {
       "title": "Gemini 3.8 Flash六周三更，Anthropic开源工具链 · 0903-617期",
@@ -1523,58 +1619,16 @@
       "id": "34b718bdc36e"
     },
     {
-      "title": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
-      "url": "https://www.qbitai.com/2026/09/483565.html",
-      "platform_url": "https://www.qbitai.com/2026/09/483565.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/大图.jpg",
-      "publish_time": "2026-09-03T03:16:43+00:00",
-      "tags": [
-        "具身智能",
-        "它石智航",
-        "泛化"
-      ],
-      "platform": "qbitai",
-      "id": "e2cb8281d9df"
-    },
-    {
-      "title": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
-      "url": "https://www.qbitai.com/2026/09/483552.html",
-      "platform_url": "https://www.qbitai.com/2026/09/483552.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/90dd38e35cdcd97235b0cba2ba44dc60.webp",
-      "publish_time": "2026-09-03T01:31:45+00:00",
-      "tags": [
-        "具身智能",
-        "具身模型"
-      ],
-      "platform": "qbitai",
-      "id": "8d9e57a16864"
-    },
-    {
-      "title": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
-      "url": "https://www.qbitai.com/2026/09/483462.html",
-      "platform_url": "https://www.qbitai.com/2026/09/483462.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/da383f41f8be9c2962ae3e9b1eee20eb.png",
-      "publish_time": "2026-09-03T01:27:05+00:00",
-      "tags": [
-        "理想汽车"
-      ],
-      "platform": "qbitai",
-      "id": "ca9e21aae361"
-    },
-    {
-      "title": "今年最难的机器人Demo，“机器人含量”为0",
-      "url": "https://www.qbitai.com/2026/09/483351.html",
-      "platform_url": "https://www.qbitai.com/2026/09/483351.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/WX20260902-184212@2x.png",
-      "publish_time": "2026-09-03T00:51:16+00:00",
-      "tags": [
-        "Ego数据",
-        "具身智能",
-        "自变量机器人",
-        "遥操"
-      ],
-      "platform": "qbitai",
-      "id": "8d2b301bd7c9"
+      "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "platform_url": "https://news.ycombinator.com/item?id=49544762",
+      "discussion_url": "https://news.ycombinator.com/item?id=49544762",
+      "score": 419,
+      "comments_count": 162,
+      "publish_time": "2026-09-03T01:11:22+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 341.9,
+      "id": "fc336f72ca92"
     },
     {
       "title": "Gemini 3.8 Flash六周三更，跑分逼近旗舰但实测细节粗糙 · 0903-616期",
@@ -1598,8 +1652,8 @@
       ],
       "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable o",
       "platform": "huggingface",
-      "score": 63,
-      "comments_count": 1,
+      "score": 131,
+      "comments_count": 2,
       "id": "8ee4c9e3dd33"
     },
     {
@@ -1613,7 +1667,7 @@
       ],
       "summary": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially its decay and write-strength gates -- on the intuition that errors in a recurrence accumulate over long contexts. We test that intuition by building Minima: NVFP4 W4A4 on all 496 linear layers, GDN i",
       "platform": "huggingface",
-      "score": 47,
+      "score": 65,
       "comments_count": 1,
       "id": "844376eadfa2"
     },
@@ -1628,7 +1682,7 @@
       ],
       "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no sc",
       "platform": "huggingface",
-      "score": 41,
+      "score": 72,
       "comments_count": 1,
       "id": "4d43beb434ca"
     },
@@ -1643,9 +1697,39 @@
       ],
       "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds of steps and recovers most of full-data OPD's gain across task domains and model families. We explain this result through the states visited during training and t",
       "platform": "huggingface",
-      "score": 35,
+      "score": 63,
       "comments_count": 1,
       "id": "14d7bbac87d8"
+    },
+    {
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "url": "https://huggingface.co/papers/2609.04148",
+      "platform_url": "https://huggingface.co/papers/2609.04148",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04148.png",
+      "publish_time": "2026-09-02T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution feedback, whereas a trajectory is a single frozen demonstration. Rather than generating environments from scratch, we observe that the tool-execution history in existing trajectories exposes the structure an",
+      "platform": "huggingface",
+      "score": 170,
+      "comments_count": 0,
+      "id": "5b01c91ca256"
+    },
+    {
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "url": "https://huggingface.co/papers/2609.04199",
+      "platform_url": "https://huggingface.co/papers/2609.04199",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04199.png",
+      "publish_time": "2026-09-02T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and c",
+      "platform": "huggingface",
+      "score": 140,
+      "comments_count": 2,
+      "id": "84fc0747319c"
     },
     {
       "title": "Paint.net 5.2 alpha now runs on Linux",
@@ -1687,48 +1771,12 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "platform_url": "https://news.ycombinator.com/item?id=49537553",
       "discussion_url": "https://news.ycombinator.com/item?id=49537553",
-      "score": 1143,
-      "comments_count": 655,
+      "score": 1149,
+      "comments_count": 661,
       "publish_time": "2026-09-02T15:12:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 996.5999999999999,
+      "hn_hot_score": 1002.5999999999999,
       "id": "d1d744cc92c1"
-    },
-    {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "platform_url": "https://news.ycombinator.com/item?id=49536375",
-      "discussion_url": "https://news.ycombinator.com/item?id=49536375",
-      "score": 504,
-      "comments_count": 248,
-      "publish_time": "2026-09-02T13:59:59+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 427.19999999999993,
-      "id": "c2d3ecb5b462"
-    },
-    {
-      "title": "Aging brains blend memories together instead of just forgetting them",
-      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-      "platform_url": "https://news.ycombinator.com/item?id=49535548",
-      "discussion_url": "https://news.ycombinator.com/item?id=49535548",
-      "score": 330,
-      "comments_count": 130,
-      "publish_time": "2026-09-02T12:59:09+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 270.0,
-      "id": "b6f03f8ea78e"
-    },
-    {
-      "title": "具身大脑进了真实世界，难题才刚刚开始",
-      "url": "https://www.qbitai.com/2026/09/484149.html",
-      "platform_url": "https://www.qbitai.com/2026/09/484149.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c2940ae796cd15d17b53173477a74563-scaled-e1788495128335.jpeg",
-      "publish_time": "2026-09-02T10:10:25+00:00",
-      "tags": [
-        "蚂蚁灵波"
-      ],
-      "platform": "qbitai",
-      "id": "486673ffcf4b"
     },
     {
       "title": "Anthropic新模型缓存降价反致Token激增 · 0902-614期",
@@ -1762,11 +1810,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 84 · 下载 0",
+      "summary": "TrendingScore 124 · 下载 433",
       "platform": "huggingface",
-      "score": 85,
-      "trending_score": 84,
-      "downloads": 0,
+      "score": 126,
+      "trending_score": 124,
+      "downloads": 433,
       "id": "b5d12b28062c"
     },
     {
@@ -1828,28 +1876,6 @@
       "score": 55,
       "comments_count": 3,
       "id": "bdd4e590562d"
-    },
-    {
-      "title": "英伟达DLSS 5让《GTA 5》画质逼近次世代 · 0902-612期",
-      "url": "https://radarai.top/updates/brief-20260902-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260902-0000",
-      "cover_url": null,
-      "publish_time": "2026-09-01T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e7f4e9da14a9"
-    },
-    {
-      "title": "库克卸任苹果CEO，特努斯接棒挑战AI落后困局 · 0901-611期",
-      "url": "https://radarai.top/updates/brief-20260901-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260901-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-01T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "2d06918bfb05"
     },
     {
       "title": "StudentSim: Training LLM-based Student Simulators",
@@ -1937,8 +1963,8 @@
       ],
       "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Current agent evaluations typically report downstream performance under a chosen harness, leaving a model's ability to develop the harness itself comparatively underexplored. We introduce HarnessDev, a benchmark that shifts th",
       "platform": "huggingface",
-      "score": 229,
-      "comments_count": 3,
+      "score": 236,
+      "comments_count": 4,
       "id": "87b549d21264"
     },
     {
@@ -1952,7 +1978,7 @@
       ],
       "summary": "Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen decoder reads directly through its input-embedding interface, with no text reconstruction at inference. A small reader-matched writer compresses 4-16times while training only an adapter (4.2M-26.2M pa",
       "platform": "huggingface",
-      "score": 49,
+      "score": 74,
       "comments_count": 1,
       "id": "1cfd83b0c302"
     },
@@ -1985,43 +2011,13 @@
       "score": 82,
       "comments_count": 2,
       "id": "a12b8628266a"
-    },
-    {
-      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
-      "url": "https://huggingface.co/papers/2608.31046",
-      "platform_url": "https://huggingface.co/papers/2608.31046",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.31046.png",
-      "publish_time": "2026-08-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "On-policy distillation (OPD) offers dense token-level supervision as an alternative to the sparse outcome-level advantages of reinforcement learning with verifiable rewards (RLVR). However, the teacher scores student-generated trajectories that are inherently off-policy for it, so the reliability of its supervision, and hence the source of the student's improvement, remains unclear. We quantitatively analyze teacher supervision during OPD training and find substantial noise whose prevalence incr",
-      "platform": "huggingface",
-      "score": 87,
-      "comments_count": 1,
-      "id": "947bbf50787b"
-    },
-    {
-      "title": "Normalized Low-Rank Adaptation",
-      "url": "https://huggingface.co/papers/2608.31036",
-      "platform_url": "https://huggingface.co/papers/2608.31036",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.31036.png",
-      "publish_time": "2026-08-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "While low-rank adaptation (LoRA) is widely used for parameter-efficient model adaptation, how to regularize its training dynamics for stable and effective optimization remains underexplored. Because LoRA initializes the up-projection to zero, its early optimization dynamics are largely governed by the down-projection. Building on this observation, we introduce Normalized Low-Rank Adaptation (NoRA), a simple yet effective method that normalizes the down-projection matrices during training. We fur",
-      "platform": "huggingface",
-      "score": 47,
-      "comments_count": 3,
-      "id": "88e5655ea319"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.4,
+      "avg_response_time": 9.8,
       "cover_success_rate": 41.4
     },
     "platforms": [
@@ -2030,73 +2026,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-04T05:10:55.268944+00:00"
+        "last_crawl": "2026-09-04T16:03:16.977291+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-04T05:11:23.327138+00:00"
+        "last_crawl": "2026-09-04T16:03:46.126185+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-04T05:11:24.879067+00:00"
+        "last_crawl": "2026-09-04T16:03:47.658710+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-09-04T05:11:36.477259+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-09-04T16:03:55.255391+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-04T05:11:36.647583+00:00"
+        "last_crawl": "2026-09-04T16:03:55.411221+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-04T05:10:55.268948+00:00",
+        "timestamp": "2026-09-04T16:03:16.977312+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.540598
+        "latency": 10.478713
       },
       {
-        "timestamp": "2026-09-04T05:11:23.327142+00:00",
+        "timestamp": "2026-09-04T16:03:46.126190+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 28.058188
+        "latency": 29.14887
       },
       {
-        "timestamp": "2026-09-04T05:11:24.879072+00:00",
+        "timestamp": "2026-09-04T16:03:47.658714+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.551922
+        "latency": 1.532516
       },
       {
-        "timestamp": "2026-09-04T05:11:36.477262+00:00",
+        "timestamp": "2026-09-04T16:03:55.255397+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 11.598182
+        "items_collected": 10,
+        "latency": 7.596676
       },
       {
-        "timestamp": "2026-09-04T05:11:36.647595+00:00",
+        "timestamp": "2026-09-04T16:03:55.411234+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.170324
+        "latency": 0.15583
       }
     ]
   }
