@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-09T05:25:39.331809+00:00",
+  "update_time": "2026-09-09T16:17:10.144238+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "OpenAI称破解千禧年难题，Anthropic研究员因AI失控担忧离职 · 0910-636期",
+        "url": "https://radarai.top/updates/brief-20260910-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260910-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-09T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "9a3982227e25"
+      },
+      {
+        "title": "OpenAI代理失控入侵Hugging Face，微软单月修复974个CVE漏洞 · 0909-635期",
+        "url": "https://radarai.top/updates/brief-20260909-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260909-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-09T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "f9e5bd809efd"
+      },
       {
         "title": "OpenAI代理失控入侵Hugging Face，暴露自主AI安全漏洞与伦理困境 · 0909-634期",
         "url": "https://radarai.top/updates/brief-20260909-0800",
@@ -90,31 +112,57 @@
         "summary": "",
         "platform": "radarai",
         "id": "84699f39ac14"
-      },
-      {
-        "title": "Claude完成费马大定理形式化验证，B站用AI放大素人创作 · 0906-626期",
-        "url": "https://radarai.top/updates/brief-20260906-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260906-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-06T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "335184009481"
-      },
-      {
-        "title": "OpenAI GPT-6 Astra推理跃升 · 0906-625期",
-        "url": "https://radarai.top/updates/brief-20260906-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260906-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-06T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "c21cf058a53d"
       }
     ],
     "hackernews": [
+      {
+        "title": "Tailwind Labs is joining Shopify",
+        "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+        "platform_url": "https://news.ycombinator.com/item?id=49626190",
+        "discussion_url": "https://news.ycombinator.com/item?id=49626190",
+        "score": 429,
+        "comments_count": 165,
+        "publish_time": "2026-09-09T13:27:11+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 349.79999999999995,
+        "id": "3d3da2564de0"
+      },
+      {
+        "title": "How An AI math breakthrough ignited a controversy",
+        "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+        "platform_url": "https://news.ycombinator.com/item?id=49624163",
+        "discussion_url": "https://news.ycombinator.com/item?id=49624163",
+        "score": 198,
+        "comments_count": 205,
+        "publish_time": "2026-09-09T10:25:41+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 200.1,
+        "id": "b941490f2a43"
+      },
+      {
+        "title": "Claude, change the \"Add to Cart\" button to blue",
+        "url": "https://opusfived.dev/",
+        "platform_url": "https://news.ycombinator.com/item?id=49623754",
+        "discussion_url": "https://news.ycombinator.com/item?id=49623754",
+        "score": 569,
+        "comments_count": 222,
+        "publish_time": "2026-09-09T09:39:46+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 464.9,
+        "id": "d1c5a0a4059b"
+      },
+      {
+        "title": "“Tweet” and the bird logo apparently enter the public domain",
+        "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
+        "platform_url": "https://news.ycombinator.com/item?id=49621751",
+        "discussion_url": "https://news.ycombinator.com/item?id=49621751",
+        "score": 197,
+        "comments_count": 113,
+        "publish_time": "2026-09-09T06:02:07+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 171.79999999999998,
+        "id": "edfa2bd4a0d2"
+      },
       {
         "title": "I resigned from Anthropic today",
         "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
@@ -132,11 +180,11 @@
         "url": "https://mathstodon.xyz/@tao/117237320796901560",
         "platform_url": "https://news.ycombinator.com/item?id=49616968",
         "discussion_url": "https://news.ycombinator.com/item?id=49616968",
-        "score": 271,
-        "comments_count": 289,
+        "score": 444,
+        "comments_count": 381,
         "publish_time": "2026-09-08T21:00:52+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 276.4,
+        "hn_hot_score": 425.09999999999997,
         "id": "60f16eb28622"
       },
       {
@@ -144,11 +192,11 @@
         "url": "https://ai.meta.com/muse/",
         "platform_url": "https://news.ycombinator.com/item?id=49615537",
         "discussion_url": "https://news.ycombinator.com/item?id=49615537",
-        "score": 409,
-        "comments_count": 429,
+        "score": 597,
+        "comments_count": 650,
         "publish_time": "2026-09-08T19:25:00+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 414.99999999999994,
+        "hn_hot_score": 612.9,
         "id": "622a2fab60d5"
       },
       {
@@ -156,11 +204,11 @@
         "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
         "platform_url": "https://news.ycombinator.com/item?id=49614720",
         "discussion_url": "https://news.ycombinator.com/item?id=49614720",
-        "score": 298,
-        "comments_count": 378,
+        "score": 367,
+        "comments_count": 440,
         "publish_time": "2026-09-08T18:37:51+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 322.0,
+        "hn_hot_score": 388.9,
         "id": "b024a5b09094"
       },
       {
@@ -186,57 +234,43 @@
         "platform": "hackernews",
         "hn_hot_score": 91.6,
         "id": "bc964c682a62"
-      },
-      {
-        "title": "The two Christian saints who are the Buddha",
-        "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
-        "platform_url": "https://news.ycombinator.com/item?id=49611051",
-        "discussion_url": "https://news.ycombinator.com/item?id=49611051",
-        "score": 229,
-        "comments_count": 174,
-        "publish_time": "2026-09-08T14:44:25+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 212.49999999999997,
-        "id": "99c6c9d5339a"
-      },
-      {
-        "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-        "url": "https://github.com/ayghri/i-have-adhd",
-        "platform_url": "https://news.ycombinator.com/item?id=49610631",
-        "discussion_url": "https://news.ycombinator.com/item?id=49610631",
-        "score": 377,
-        "comments_count": 279,
-        "publish_time": "2026-09-08T14:13:26+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 347.59999999999997,
-        "id": "3af368ddefda"
-      },
-      {
-        "title": "LibreOffice breaks download records after declaring it has no AI features",
-        "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-        "platform_url": "https://news.ycombinator.com/item?id=49610538",
-        "discussion_url": "https://news.ycombinator.com/item?id=49610538",
-        "score": 460,
-        "comments_count": 143,
-        "publish_time": "2026-09-08T14:05:57+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 364.9,
-        "id": "cfb680836e85"
-      },
-      {
-        "title": "We Must Return to the Office to Use AI in Person",
-        "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-        "platform_url": "https://news.ycombinator.com/item?id=49610229",
-        "discussion_url": "https://news.ycombinator.com/item?id=49610229",
-        "score": 300,
-        "comments_count": 37,
-        "publish_time": "2026-09-08T13:41:25+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 221.1,
-        "id": "ecbfc73ea1a6"
       }
     ],
     "huggingface": [
+      {
+        "title": "[模型] nex-agi/Nex-N2.5-Pro",
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+        "platform_url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+        "cover_url": null,
+        "publish_time": "2026-09-08T11:01:41.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 147 · 下载 0",
+        "platform": "huggingface",
+        "score": 161,
+        "trending_score": 147,
+        "downloads": 0,
+        "id": "4b8467f47b3e"
+      },
+      {
+        "title": "[模型] nex-agi/Nex-N2.5-mini",
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "platform_url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "cover_url": null,
+        "publish_time": "2026-09-08T05:08:43.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 177 · 下载 2",
+        "platform": "huggingface",
+        "score": 196,
+        "trending_score": 177,
+        "downloads": 2,
+        "id": "efc0e90f4064"
+      },
       {
         "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
         "url": "https://huggingface.co/papers/2609.08183",
@@ -248,8 +282,8 @@
         ],
         "summary": "Recursive self-improvement (RSI) requires a concrete mechanism through which an AI system observes its capabilities and converts that evidence into the next round of learning. We present NeoHorse-1, a family of agent-native models developed to explore this path through agentic post-training. Our system combines a heterogeneous model pool with intelligent routing, recording the predicted capability demand, selected service tier, and subsequent interaction for each user turn. These records are con",
         "platform": "huggingface",
-        "score": 69,
-        "comments_count": 1,
+        "score": 272,
+        "comments_count": 4,
         "id": "8f5bef3d9423"
       },
       {
@@ -263,7 +297,7 @@
         ],
         "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, where repeating frontier-scale post-training from scratch can be prohibitively expensive. Yet conventional distillation treats the weak teacher as an optimization target, potentially imposing its capacity ceiling on the student. We introduce On-Policy Reverse Distillation (OPRD), whi",
         "platform": "huggingface",
-        "score": 36,
+        "score": 76,
         "comments_count": 1,
         "id": "a0e50b3a45fe"
       },
@@ -278,9 +312,69 @@
         ],
         "summary": "We present Miles v0.1, a full-stack, production-ready system for frontier post-training. Building upon the clean design of slime, Miles designs each stage of the reinforcement-learning (RL) training loop around a single principle: components should be verified, clean, and customizable. With accuracy, efficiency, reliability, and scalability as first-class goals, Miles aims to make frontier-scale RL accessible to researchers and enterprises alike. This report walks through the system end to end: ",
         "platform": "huggingface",
-        "score": 19,
+        "score": 43,
         "comments_count": 1,
         "id": "6ef997a7dd41"
+      },
+      {
+        "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+        "url": "https://huggingface.co/papers/2609.08936",
+        "platform_url": "https://huggingface.co/papers/2609.08936",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936.png",
+        "publish_time": "2026-09-07T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancement and separation, paralinguistic editing, and acoustic editing. AuK combines a multimodal large la",
+        "platform": "huggingface",
+        "score": 144,
+        "comments_count": 2,
+        "id": "f5fec8e508c5"
+      },
+      {
+        "title": "Omni Interaction Agent Technical Report",
+        "url": "https://huggingface.co/papers/2609.08977",
+        "platform_url": "https://huggingface.co/papers/2609.08977",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08977.png",
+        "publish_time": "2026-09-07T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex workflow-oriented agent scenarios. Users can interrupt the model at any time, while the model can al",
+        "platform": "huggingface",
+        "score": 94,
+        "comments_count": 1,
+        "id": "e8593353d70a"
+      },
+      {
+        "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+        "url": "https://huggingface.co/papers/2609.09123",
+        "platform_url": "https://huggingface.co/papers/2609.09123",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09123.png",
+        "publish_time": "2026-09-07T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-saturation and over-smoothing issues, resulting in limited visual quality and realism. The key contributing factor is the mode-seeking behavior of the reverse KL objective in DMD, which can cause the studen",
+        "platform": "huggingface",
+        "score": 42,
+        "comments_count": 1,
+        "id": "25d4fb363a8b"
+      },
+      {
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "url": "https://huggingface.co/papers/2609.07398",
+        "platform_url": "https://huggingface.co/papers/2609.07398",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07398.png",
+        "publish_time": "2026-09-06T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program.",
+        "platform": "huggingface",
+        "score": 47,
+        "comments_count": 1,
+        "id": "4443a2ecd5ca"
       },
       {
         "title": "[模型] openbmb/MiniCPM5-2B",
@@ -292,10 +386,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 594 · 下载 2,879",
+        "summary": "TrendingScore 668 · 下载 2,879",
         "platform": "huggingface",
-        "score": 742,
-        "trending_score": 594,
+        "score": 850,
+        "trending_score": 668,
         "downloads": 2879,
         "id": "2b26cea5934b"
       },
@@ -309,10 +403,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 118 · 下载 7,760",
+        "summary": "TrendingScore 126 · 下载 7,760",
         "platform": "huggingface",
-        "score": 123,
-        "trending_score": 118,
+        "score": 131,
+        "trending_score": 126,
         "downloads": 7760,
         "id": "3bd869de9888"
       },
@@ -327,9 +421,24 @@
         ],
         "summary": "Most end-to-end autonomous-driving systems learn by imitating human driving logs, leaving their learned behavior constrained by the quality and behavioral coverage of the recorded trajectories. This report presents DriveZero, an end-to-end system that learns driving behavior beyond human demonstrations. It decomposes driving into a perception model and an action model, pretrains each in the regime best suited to it, and combines them into one end-to-end planner. The two models call for different",
         "platform": "huggingface",
-        "score": 28,
+        "score": 50,
         "comments_count": 2,
         "id": "060abde6d970"
+      },
+      {
+        "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
+        "url": "https://huggingface.co/papers/2609.05588",
+        "platform_url": "https://huggingface.co/papers/2609.05588",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05588.png",
+        "publish_time": "2026-09-03T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World-action models (WAM) predict future states to guide robot actions, enabling learning from both action-free video and action-labeled interaction. Most inherit pretrained video generators, leaving WAM pretraining and scaling underexplored. We introduce Genie Envisioner Act 2.0 (GE-Act 2.0), a world-action model whose trainable generative and action components are all initialized from scratch on manipulation data. It combines a control-oriented autoencoder (CoAE), a single-step visual planner ",
+        "platform": "huggingface",
+        "score": 45,
+        "comments_count": 1,
+        "id": "4782b2c35f70"
       },
       {
         "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
@@ -435,111 +544,6 @@
         "score": 66,
         "comments_count": 3,
         "id": "501ff8e7d3ba"
-      },
-      {
-        "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
-        "url": "https://huggingface.co/papers/2609.04201",
-        "platform_url": "https://huggingface.co/papers/2609.04201",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04201.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approa",
-        "platform": "huggingface",
-        "score": 46,
-        "comments_count": 2,
-        "id": "64c2a4efd575"
-      },
-      {
-        "title": "Iris: Climbing to the Search Frontier",
-        "url": "https://huggingface.co/papers/2609.04304",
-        "platform_url": "https://huggingface.co/papers/2609.04304",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04304.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails ",
-        "platform": "huggingface",
-        "score": 53,
-        "comments_count": 4,
-        "id": "59ae84f75544"
-      },
-      {
-        "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-        "url": "https://huggingface.co/papers/2609.04010",
-        "platform_url": "https://huggingface.co/papers/2609.04010",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04010.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overcome this bottleneck, we introduce diffusion-augmented LLMs, a new class of models that defines an AR model distribution while using diffusion to draw multiple tokens in parallel from that distribution. We decouple the parameters of these models into two sets: AR weights, trained using the standard NTP objective, and lig",
-        "platform": "huggingface",
-        "score": 121,
-        "comments_count": 9,
-        "id": "c57cb4e610d4"
-      },
-      {
-        "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
-        "url": "https://huggingface.co/papers/2609.03241",
-        "platform_url": "https://huggingface.co/papers/2609.03241",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03241.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense same-model guidance can reinforce false confidence or overconcentrate learning on a narrow solution mode. We introduce FlowBalance, a verifier-grounded self-improvement method that learns a normalized distribution over complete responses. For each on-policy trajectory, a frozen training-time view of the same policy uses privilege",
-        "platform": "huggingface",
-        "score": 83,
-        "comments_count": 2,
-        "id": "e79679f7cc45"
-      },
-      {
-        "title": "Last Translation Benchmark",
-        "url": "https://huggingface.co/papers/2609.04173",
-        "platform_url": "https://huggingface.co/papers/2609.04173",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04173.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is not problem-free, because it often lacks reproducibility, objectivity, and scalability. Overall, th",
-        "platform": "huggingface",
-        "score": 33,
-        "comments_count": 2,
-        "id": "3b79dead2943"
-      },
-      {
-        "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
-        "url": "https://huggingface.co/papers/2609.03756",
-        "platform_url": "https://huggingface.co/papers/2609.03756",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03756.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segmentation models, including the latest foundation models such as SAM 3, still suffer from temporal hallucinations, spatial fragmentation, and semantic misclassification: they fail to report target absence when an object leaves the field of view, segment local textures instead of the complete object during extreme close-ups, and prioritize visual features over ontological reality, ",
-        "platform": "huggingface",
-        "score": 35,
-        "comments_count": 3,
-        "id": "5276c396b4d9"
-      },
-      {
-        "title": "The Attention Triangle in Audio-Video Models",
-        "url": "https://huggingface.co/papers/2609.03586",
-        "platform_url": "https://huggingface.co/papers/2609.03586",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03586.png",
-        "publish_time": "2026-09-02T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed across modalities during generation. Our analysis reveals that routing along the audio-video edge is bid",
-        "platform": "huggingface",
-        "score": 30,
-        "comments_count": 3,
-        "id": "03a70759cf59"
       }
     ],
     "bestblogs": [
@@ -886,10 +890,32 @@
     ],
     "qbitai": [
       {
+        "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug",
+        "url": "https://www.qbitai.com/2026/09/486374.html",
+        "platform_url": "https://www.qbitai.com/2026/09/486374.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5aa6994813cae39cca65b02252c19ab5.jpeg",
+        "publish_time": "2026-09-09T10:02:54+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "0b4460fffceb"
+      },
+      {
+        "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+        "url": "https://www.qbitai.com/2026/09/486370.html",
+        "platform_url": "https://www.qbitai.com/2026/09/486370.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/986875cb7d69e17f5e50e2b6521a39ec.jpeg",
+        "publish_time": "2026-09-09T09:57:54+00:00",
+        "tags": [
+          "太初元碁"
+        ],
+        "platform": "qbitai",
+        "id": "c596b23921ca"
+      },
+      {
         "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
         "url": "https://www.qbitai.com/2026/09/486288.html",
         "platform_url": "https://www.qbitai.com/2026/09/486288.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/图虫创意-2492231000593137705-1-e1788930106636.jpeg",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/27325ce5a8c02798f567b903683ef4ee.png",
         "publish_time": "2026-09-09T05:02:30+00:00",
         "tags": [
           "蚂蚁"
@@ -978,34 +1004,102 @@
         ],
         "platform": "qbitai",
         "id": "ec987095268f"
-      },
-      {
-        "title": "DHH领衔，英伟达、微软、HuggingFace等150+全球技术大咖集结，GOSIM Shenzhen 2026全议程公布",
-        "url": "https://www.qbitai.com/2026/09/485154.html",
-        "platform_url": "https://www.qbitai.com/2026/09/485154.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/f966a3a38a961345506691a481c9bdcb.png",
-        "publish_time": "2026-09-07T08:51:30+00:00",
-        "tags": [
-          "csdn"
-        ],
-        "platform": "qbitai",
-        "id": "25a101baf1b3"
-      },
-      {
-        "title": "国内首份办公Agent用户行为报告发布：北京用户量全国居首，海外用户占比超12%",
-        "url": "https://www.qbitai.com/2026/09/485064.html",
-        "platform_url": "https://www.qbitai.com/2026/09/485064.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bad5f7de1f1ac94fabe5896e48ba6120.png",
-        "publish_time": "2026-09-07T06:53:26+00:00",
-        "tags": [
-          "网易有道"
-        ],
-        "platform": "qbitai",
-        "id": "91dae5ddd4ef"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI称破解千禧年难题，Anthropic研究员因AI失控担忧离职 · 0910-636期",
+      "url": "https://radarai.top/updates/brief-20260910-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260910-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-09T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "9a3982227e25"
+    },
+    {
+      "title": "Tailwind Labs is joining Shopify",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "platform_url": "https://news.ycombinator.com/item?id=49626190",
+      "discussion_url": "https://news.ycombinator.com/item?id=49626190",
+      "score": 429,
+      "comments_count": 165,
+      "publish_time": "2026-09-09T13:27:11+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 349.79999999999995,
+      "id": "3d3da2564de0"
+    },
+    {
+      "title": "How An AI math breakthrough ignited a controversy",
+      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+      "platform_url": "https://news.ycombinator.com/item?id=49624163",
+      "discussion_url": "https://news.ycombinator.com/item?id=49624163",
+      "score": 198,
+      "comments_count": 205,
+      "publish_time": "2026-09-09T10:25:41+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 200.1,
+      "id": "b941490f2a43"
+    },
+    {
+      "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug",
+      "url": "https://www.qbitai.com/2026/09/486374.html",
+      "platform_url": "https://www.qbitai.com/2026/09/486374.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5aa6994813cae39cca65b02252c19ab5.jpeg",
+      "publish_time": "2026-09-09T10:02:54+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "0b4460fffceb"
+    },
+    {
+      "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+      "url": "https://www.qbitai.com/2026/09/486370.html",
+      "platform_url": "https://www.qbitai.com/2026/09/486370.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/986875cb7d69e17f5e50e2b6521a39ec.jpeg",
+      "publish_time": "2026-09-09T09:57:54+00:00",
+      "tags": [
+        "太初元碁"
+      ],
+      "platform": "qbitai",
+      "id": "c596b23921ca"
+    },
+    {
+      "title": "Claude, change the \"Add to Cart\" button to blue",
+      "url": "https://opusfived.dev/",
+      "platform_url": "https://news.ycombinator.com/item?id=49623754",
+      "discussion_url": "https://news.ycombinator.com/item?id=49623754",
+      "score": 569,
+      "comments_count": 222,
+      "publish_time": "2026-09-09T09:39:46+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 464.9,
+      "id": "d1c5a0a4059b"
+    },
+    {
+      "title": "OpenAI代理失控入侵Hugging Face，微软单月修复974个CVE漏洞 · 0909-635期",
+      "url": "https://radarai.top/updates/brief-20260909-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260909-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-09T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "f9e5bd809efd"
+    },
+    {
+      "title": "“Tweet” and the bird logo apparently enter the public domain",
+      "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
+      "platform_url": "https://news.ycombinator.com/item?id=49621751",
+      "discussion_url": "https://news.ycombinator.com/item?id=49621751",
+      "score": 197,
+      "comments_count": 113,
+      "publish_time": "2026-09-09T06:02:07+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 171.79999999999998,
+      "id": "edfa2bd4a0d2"
+    },
     {
       "title": "#712.陶哲轩：AI 擅长广度，人类守住深度",
       "url": "https://www.bestblogs.dev/article/RAW_a7dc52562",
@@ -1180,7 +1274,7 @@
       "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
       "url": "https://www.qbitai.com/2026/09/486288.html",
       "platform_url": "https://www.qbitai.com/2026/09/486288.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/图虫创意-2492231000593137705-1-e1788930106636.jpeg",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/27325ce5a8c02798f567b903683ef4ee.png",
       "publish_time": "2026-09-09T05:02:30+00:00",
       "tags": [
         "蚂蚁"
@@ -1240,11 +1334,11 @@
       "url": "https://mathstodon.xyz/@tao/117237320796901560",
       "platform_url": "https://news.ycombinator.com/item?id=49616968",
       "discussion_url": "https://news.ycombinator.com/item?id=49616968",
-      "score": 271,
-      "comments_count": 289,
+      "score": 444,
+      "comments_count": 381,
       "publish_time": "2026-09-08T21:00:52+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 276.4,
+      "hn_hot_score": 425.09999999999997,
       "id": "60f16eb28622"
     },
     {
@@ -1252,11 +1346,11 @@
       "url": "https://ai.meta.com/muse/",
       "platform_url": "https://news.ycombinator.com/item?id=49615537",
       "discussion_url": "https://news.ycombinator.com/item?id=49615537",
-      "score": 409,
-      "comments_count": 429,
+      "score": 597,
+      "comments_count": 650,
       "publish_time": "2026-09-08T19:25:00+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 414.99999999999994,
+      "hn_hot_score": 612.9,
       "id": "622a2fab60d5"
     },
     {
@@ -1264,11 +1358,11 @@
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
       "platform_url": "https://news.ycombinator.com/item?id=49614720",
       "discussion_url": "https://news.ycombinator.com/item?id=49614720",
-      "score": 298,
-      "comments_count": 378,
+      "score": 367,
+      "comments_count": 440,
       "publish_time": "2026-09-08T18:37:51+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 322.0,
+      "hn_hot_score": 388.9,
       "id": "b024a5b09094"
     },
     {
@@ -1307,52 +1401,21 @@
       "id": "bc964c682a62"
     },
     {
-      "title": "The two Christian saints who are the Buddha",
-      "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
-      "platform_url": "https://news.ycombinator.com/item?id=49611051",
-      "discussion_url": "https://news.ycombinator.com/item?id=49611051",
-      "score": 229,
-      "comments_count": 174,
-      "publish_time": "2026-09-08T14:44:25+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 212.49999999999997,
-      "id": "99c6c9d5339a"
-    },
-    {
-      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "platform_url": "https://news.ycombinator.com/item?id=49610631",
-      "discussion_url": "https://news.ycombinator.com/item?id=49610631",
-      "score": 377,
-      "comments_count": 279,
-      "publish_time": "2026-09-08T14:13:26+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 347.59999999999997,
-      "id": "3af368ddefda"
-    },
-    {
-      "title": "LibreOffice breaks download records after declaring it has no AI features",
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "platform_url": "https://news.ycombinator.com/item?id=49610538",
-      "discussion_url": "https://news.ycombinator.com/item?id=49610538",
-      "score": 460,
-      "comments_count": 143,
-      "publish_time": "2026-09-08T14:05:57+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 364.9,
-      "id": "cfb680836e85"
-    },
-    {
-      "title": "We Must Return to the Office to Use AI in Person",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "platform_url": "https://news.ycombinator.com/item?id=49610229",
-      "discussion_url": "https://news.ycombinator.com/item?id=49610229",
-      "score": 300,
-      "comments_count": 37,
-      "publish_time": "2026-09-08T13:41:25+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 221.1,
-      "id": "ecbfc73ea1a6"
+      "title": "[模型] nex-agi/Nex-N2.5-Pro",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+      "platform_url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+      "cover_url": null,
+      "publish_time": "2026-09-08T11:01:41.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 147 · 下载 0",
+      "platform": "huggingface",
+      "score": 161,
+      "trending_score": 147,
+      "downloads": 0,
+      "id": "4b8467f47b3e"
     },
     {
       "title": "微信等平台接入AI Agent互联，A2A时代催生信任危机与治理新需求 · 0908-632期",
@@ -1548,6 +1611,23 @@
       "id": "01ca9adb849d"
     },
     {
+      "title": "[模型] nex-agi/Nex-N2.5-mini",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+      "platform_url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+      "cover_url": null,
+      "publish_time": "2026-09-08T05:08:43.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 177 · 下载 2",
+      "platform": "huggingface",
+      "score": 196,
+      "trending_score": 177,
+      "downloads": 2,
+      "id": "efc0e90f4064"
+    },
+    {
       "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
       "url": "https://www.qbitai.com/2026/09/485784.html",
       "platform_url": "https://www.qbitai.com/2026/09/485784.html",
@@ -1593,8 +1673,8 @@
       ],
       "summary": "Recursive self-improvement (RSI) requires a concrete mechanism through which an AI system observes its capabilities and converts that evidence into the next round of learning. We present NeoHorse-1, a family of agent-native models developed to explore this path through agentic post-training. Our system combines a heterogeneous model pool with intelligent routing, recording the predicted capability demand, selected service tier, and subsequent interaction for each user turn. These records are con",
       "platform": "huggingface",
-      "score": 69,
-      "comments_count": 1,
+      "score": 272,
+      "comments_count": 4,
       "id": "8f5bef3d9423"
     },
     {
@@ -1608,7 +1688,7 @@
       ],
       "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, where repeating frontier-scale post-training from scratch can be prohibitively expensive. Yet conventional distillation treats the weak teacher as an optimization target, potentially imposing its capacity ceiling on the student. We introduce On-Policy Reverse Distillation (OPRD), whi",
       "platform": "huggingface",
-      "score": 36,
+      "score": 76,
       "comments_count": 1,
       "id": "a0e50b3a45fe"
     },
@@ -1623,9 +1703,54 @@
       ],
       "summary": "We present Miles v0.1, a full-stack, production-ready system for frontier post-training. Building upon the clean design of slime, Miles designs each stage of the reinforcement-learning (RL) training loop around a single principle: components should be verified, clean, and customizable. With accuracy, efficiency, reliability, and scalability as first-class goals, Miles aims to make frontier-scale RL accessible to researchers and enterprises alike. This report walks through the system end to end: ",
       "platform": "huggingface",
-      "score": 19,
+      "score": 43,
       "comments_count": 1,
       "id": "6ef997a7dd41"
+    },
+    {
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "url": "https://huggingface.co/papers/2609.08936",
+      "platform_url": "https://huggingface.co/papers/2609.08936",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936.png",
+      "publish_time": "2026-09-07T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancement and separation, paralinguistic editing, and acoustic editing. AuK combines a multimodal large la",
+      "platform": "huggingface",
+      "score": 144,
+      "comments_count": 2,
+      "id": "f5fec8e508c5"
+    },
+    {
+      "title": "Omni Interaction Agent Technical Report",
+      "url": "https://huggingface.co/papers/2609.08977",
+      "platform_url": "https://huggingface.co/papers/2609.08977",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08977.png",
+      "publish_time": "2026-09-07T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex workflow-oriented agent scenarios. Users can interrupt the model at any time, while the model can al",
+      "platform": "huggingface",
+      "score": 94,
+      "comments_count": 1,
+      "id": "e8593353d70a"
+    },
+    {
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "url": "https://huggingface.co/papers/2609.09123",
+      "platform_url": "https://huggingface.co/papers/2609.09123",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09123.png",
+      "publish_time": "2026-09-07T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-saturation and over-smoothing issues, resulting in limited visual quality and realism. The key contributing factor is the mode-seeking behavior of the reverse KL objective in DMD, which can cause the studen",
+      "platform": "huggingface",
+      "score": 42,
+      "comments_count": 1,
+      "id": "25d4fb363a8b"
     },
     {
       "title": "AMD联想千亿参数端侧方案落地，Windows本地AI首度叫板Mac工作站 · 0908-630期",
@@ -1661,18 +1786,6 @@
       "id": "ec987095268f"
     },
     {
-      "title": "DHH领衔，英伟达、微软、HuggingFace等150+全球技术大咖集结，GOSIM Shenzhen 2026全议程公布",
-      "url": "https://www.qbitai.com/2026/09/485154.html",
-      "platform_url": "https://www.qbitai.com/2026/09/485154.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/f966a3a38a961345506691a481c9bdcb.png",
-      "publish_time": "2026-09-07T08:51:30+00:00",
-      "tags": [
-        "csdn"
-      ],
-      "platform": "qbitai",
-      "id": "25a101baf1b3"
-    },
-    {
       "title": "OpenAI 首席科学家呼吁“刹车”警示 GPT-6 风险 · 0907-629期",
       "url": "https://radarai.top/updates/brief-20260907-1600",
       "platform_url": "https://radarai.top/updates/brief-20260907-1600",
@@ -1684,18 +1797,6 @@
       "id": "be80692ac6dd"
     },
     {
-      "title": "国内首份办公Agent用户行为报告发布：北京用户量全国居首，海外用户占比超12%",
-      "url": "https://www.qbitai.com/2026/09/485064.html",
-      "platform_url": "https://www.qbitai.com/2026/09/485064.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bad5f7de1f1ac94fabe5896e48ba6120.png",
-      "publish_time": "2026-09-07T06:53:26+00:00",
-      "tags": [
-        "网易有道"
-      ],
-      "platform": "qbitai",
-      "id": "91dae5ddd4ef"
-    },
-    {
       "title": "GPT-6 Astra直接操控软件，康宁押注半导体封装 · 0907-628期",
       "url": "https://radarai.top/updates/brief-20260907-0800",
       "platform_url": "https://radarai.top/updates/brief-20260907-0800",
@@ -1705,6 +1806,21 @@
       "summary": "",
       "platform": "radarai",
       "id": "d913fc60247b"
+    },
+    {
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "url": "https://huggingface.co/papers/2609.07398",
+      "platform_url": "https://huggingface.co/papers/2609.07398",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07398.png",
+      "publish_time": "2026-09-06T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program.",
+      "platform": "huggingface",
+      "score": 47,
+      "comments_count": 1,
+      "id": "4443a2ecd5ca"
     },
     {
       "title": "液冷订单排到年底，阿里千问办公月活破3000万，AI基建与应用双线爆发 · 0907-627期",
@@ -1727,34 +1843,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 594 · 下载 2,879",
+      "summary": "TrendingScore 668 · 下载 2,879",
       "platform": "huggingface",
-      "score": 742,
-      "trending_score": 594,
+      "score": 850,
+      "trending_score": 668,
       "downloads": 2879,
       "id": "2b26cea5934b"
-    },
-    {
-      "title": "Claude完成费马大定理形式化验证，B站用AI放大素人创作 · 0906-626期",
-      "url": "https://radarai.top/updates/brief-20260906-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260906-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-06T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "335184009481"
-    },
-    {
-      "title": "OpenAI GPT-6 Astra推理跃升 · 0906-625期",
-      "url": "https://radarai.top/updates/brief-20260906-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260906-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-06T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "c21cf058a53d"
     },
     {
       "title": "[模型] openbmb/MiniCPM5-2B-GGUF",
@@ -1766,10 +1860,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 118 · 下载 7,760",
+      "summary": "TrendingScore 126 · 下载 7,760",
       "platform": "huggingface",
-      "score": 123,
-      "trending_score": 118,
+      "score": 131,
+      "trending_score": 126,
       "downloads": 7760,
       "id": "3bd869de9888"
     },
@@ -1784,9 +1878,24 @@
       ],
       "summary": "Most end-to-end autonomous-driving systems learn by imitating human driving logs, leaving their learned behavior constrained by the quality and behavioral coverage of the recorded trajectories. This report presents DriveZero, an end-to-end system that learns driving behavior beyond human demonstrations. It decomposes driving into a perception model and an action model, pretrains each in the regime best suited to it, and combines them into one end-to-end planner. The two models call for different",
       "platform": "huggingface",
-      "score": 28,
+      "score": 50,
       "comments_count": 2,
       "id": "060abde6d970"
+    },
+    {
+      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2609.05588",
+      "platform_url": "https://huggingface.co/papers/2609.05588",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05588.png",
+      "publish_time": "2026-09-03T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World-action models (WAM) predict future states to guide robot actions, enabling learning from both action-free video and action-labeled interaction. Most inherit pretrained video generators, leaving WAM pretraining and scaling underexplored. We introduce Genie Envisioner Act 2.0 (GE-Act 2.0), a world-action model whose trainable generative and action components are all initialized from scratch on manipulation data. It combines a control-oriented autoencoder (CoAE), a single-step visual planner ",
+      "platform": "huggingface",
+      "score": 45,
+      "comments_count": 1,
+      "id": "4782b2c35f70"
     },
     {
       "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
@@ -1892,119 +2001,14 @@
       "score": 66,
       "comments_count": 3,
       "id": "501ff8e7d3ba"
-    },
-    {
-      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
-      "url": "https://huggingface.co/papers/2609.04201",
-      "platform_url": "https://huggingface.co/papers/2609.04201",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04201.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approa",
-      "platform": "huggingface",
-      "score": 46,
-      "comments_count": 2,
-      "id": "64c2a4efd575"
-    },
-    {
-      "title": "Iris: Climbing to the Search Frontier",
-      "url": "https://huggingface.co/papers/2609.04304",
-      "platform_url": "https://huggingface.co/papers/2609.04304",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04304.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails ",
-      "platform": "huggingface",
-      "score": 53,
-      "comments_count": 4,
-      "id": "59ae84f75544"
-    },
-    {
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "url": "https://huggingface.co/papers/2609.04010",
-      "platform_url": "https://huggingface.co/papers/2609.04010",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04010.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overcome this bottleneck, we introduce diffusion-augmented LLMs, a new class of models that defines an AR model distribution while using diffusion to draw multiple tokens in parallel from that distribution. We decouple the parameters of these models into two sets: AR weights, trained using the standard NTP objective, and lig",
-      "platform": "huggingface",
-      "score": 121,
-      "comments_count": 9,
-      "id": "c57cb4e610d4"
-    },
-    {
-      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
-      "url": "https://huggingface.co/papers/2609.03241",
-      "platform_url": "https://huggingface.co/papers/2609.03241",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03241.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense same-model guidance can reinforce false confidence or overconcentrate learning on a narrow solution mode. We introduce FlowBalance, a verifier-grounded self-improvement method that learns a normalized distribution over complete responses. For each on-policy trajectory, a frozen training-time view of the same policy uses privilege",
-      "platform": "huggingface",
-      "score": 83,
-      "comments_count": 2,
-      "id": "e79679f7cc45"
-    },
-    {
-      "title": "Last Translation Benchmark",
-      "url": "https://huggingface.co/papers/2609.04173",
-      "platform_url": "https://huggingface.co/papers/2609.04173",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04173.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is not problem-free, because it often lacks reproducibility, objectivity, and scalability. Overall, th",
-      "platform": "huggingface",
-      "score": 33,
-      "comments_count": 2,
-      "id": "3b79dead2943"
-    },
-    {
-      "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
-      "url": "https://huggingface.co/papers/2609.03756",
-      "platform_url": "https://huggingface.co/papers/2609.03756",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03756.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segmentation models, including the latest foundation models such as SAM 3, still suffer from temporal hallucinations, spatial fragmentation, and semantic misclassification: they fail to report target absence when an object leaves the field of view, segment local textures instead of the complete object during extreme close-ups, and prioritize visual features over ontological reality, ",
-      "platform": "huggingface",
-      "score": 35,
-      "comments_count": 3,
-      "id": "5276c396b4d9"
-    },
-    {
-      "title": "The Attention Triangle in Audio-Video Models",
-      "url": "https://huggingface.co/papers/2609.03586",
-      "platform_url": "https://huggingface.co/papers/2609.03586",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.03586.png",
-      "publish_time": "2026-09-02T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed across modalities during generation. Our analysis reveals that routing along the audio-video edge is bid",
-      "platform": "huggingface",
-      "score": 30,
-      "comments_count": 3,
-      "id": "03a70759cf59"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.6,
-      "cover_success_rate": 40.0
+      "avg_response_time": 10.1,
+      "cover_success_rate": 37.1
     },
     "platforms": [
       {
@@ -2012,73 +2016,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-09T05:24:59.188458+00:00"
+        "last_crawl": "2026-09-09T16:16:29.292400+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-09T05:25:27.059367+00:00"
+        "last_crawl": "2026-09-09T16:16:59.327414+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-09T05:25:28.507274+00:00"
+        "last_crawl": "2026-09-09T16:17:00.876233+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-09-09T05:25:39.136095+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-09-09T16:17:09.962833+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-09T05:25:39.277939+00:00"
+        "last_crawl": "2026-09-09T16:17:10.091409+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-09T05:24:59.188463+00:00",
+        "timestamp": "2026-09-09T16:16:29.292406+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 12.695205
+        "latency": 9.852093
       },
       {
-        "timestamp": "2026-09-09T05:25:27.059372+00:00",
+        "timestamp": "2026-09-09T16:16:59.327421+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 27.870901
+        "latency": 30.035008
       },
       {
-        "timestamp": "2026-09-09T05:25:28.507279+00:00",
+        "timestamp": "2026-09-09T16:17:00.876238+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.447901
+        "latency": 1.54881
       },
       {
-        "timestamp": "2026-09-09T05:25:39.136101+00:00",
+        "timestamp": "2026-09-09T16:17:09.962839+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 10.628814
+        "items_collected": 10,
+        "latency": 9.086595
       },
       {
-        "timestamp": "2026-09-09T05:25:39.277952+00:00",
+        "timestamp": "2026-09-09T16:17:10.091419+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.141845
+        "latency": 0.128574
       }
     ]
   }
