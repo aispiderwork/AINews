@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-11T05:21:47.645970+00:00",
+  "update_time": "2026-09-11T16:12:04.654103+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "OpenAI智能体入侵Hugging Face遭参议院调查 · 0912-642期",
+        "url": "https://radarai.top/updates/brief-20260912-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260912-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-11T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "28ee6dab5368"
+      },
+      {
+        "title": "UPDF把AI Agent塞进PDF编辑器 · 0911-641期",
+        "url": "https://radarai.top/updates/brief-20260911-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260911-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-11T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "c6d01ad2746b"
+      },
       {
         "title": "每周 AI 热点 · 2026-09-11",
         "url": "https://radarai.top/updates/weekly-2026-09-11",
@@ -90,41 +112,67 @@
         "summary": "",
         "platform": "radarai",
         "id": "e8eb50e2ef66"
-      },
-      {
-        "title": "麦肯锡：44%企业已全部署AI，仅6%成高绩效 · 0909-633期",
-        "url": "https://radarai.top/updates/brief-20260909-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260909-0000",
-        "cover_url": null,
-        "publish_time": "2026-09-08T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d8050db6982d"
-      },
-      {
-        "title": "微信等平台接入AI Agent互联，A2A时代催生信任危机与治理新需求 · 0908-632期",
-        "url": "https://radarai.top/updates/brief-20260908-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260908-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-08T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "951e51674fc8"
       }
     ],
     "hackernews": [
+      {
+        "title": "Ask HN: Can we please limit the AI news flood?",
+        "url": "https://news.ycombinator.com/item?id=49657850",
+        "platform_url": "https://news.ycombinator.com/item?id=49657850",
+        "discussion_url": "https://news.ycombinator.com/item?id=49657850",
+        "score": 620,
+        "comments_count": 305,
+        "publish_time": "2026-09-11T13:11:04+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 525.5,
+        "id": "924e6e6ca0d7"
+      },
+      {
+        "title": "The Waymo effect: how AI is quietly making research less collaborative",
+        "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49656496",
+        "discussion_url": "https://news.ycombinator.com/item?id=49656496",
+        "score": 303,
+        "comments_count": 244,
+        "publish_time": "2026-09-11T11:17:50+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 285.3,
+        "id": "57a7f0d7923f"
+      },
+      {
+        "title": "Claude is only available to people over 18 years",
+        "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+        "platform_url": "https://news.ycombinator.com/item?id=49656225",
+        "discussion_url": "https://news.ycombinator.com/item?id=49656225",
+        "score": 301,
+        "comments_count": 377,
+        "publish_time": "2026-09-11T10:48:00+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 323.79999999999995,
+        "id": "98e2325c7929"
+      },
+      {
+        "title": "Astra for Coding: Why Are We Doing This Again?",
+        "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "platform_url": "https://news.ycombinator.com/item?id=49654229",
+        "discussion_url": "https://news.ycombinator.com/item?id=49654229",
+        "score": 403,
+        "comments_count": 301,
+        "publish_time": "2026-09-11T06:23:06+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 372.4,
+        "id": "d662c4d123f6"
+      },
       {
         "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
         "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
         "platform_url": "https://news.ycombinator.com/item?id=49650326",
         "discussion_url": "https://news.ycombinator.com/item?id=49650326",
-        "score": 152,
-        "comments_count": 156,
+        "score": 172,
+        "comments_count": 174,
         "publish_time": "2026-09-10T21:22:59+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 153.2,
+        "hn_hot_score": 172.6,
         "id": "d163a40a021a"
       },
       {
@@ -132,11 +180,11 @@
         "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
         "platform_url": "https://news.ycombinator.com/item?id=49649213",
         "discussion_url": "https://news.ycombinator.com/item?id=49649213",
-        "score": 197,
-        "comments_count": 119,
+        "score": 317,
+        "comments_count": 167,
         "publish_time": "2026-09-10T19:43:22+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 173.59999999999997,
+        "hn_hot_score": 272.0,
         "id": "40a00456a298"
       },
       {
@@ -144,11 +192,11 @@
         "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
         "platform_url": "https://news.ycombinator.com/item?id=49647300",
         "discussion_url": "https://news.ycombinator.com/item?id=49647300",
-        "score": 104,
-        "comments_count": 178,
+        "score": 159,
+        "comments_count": 223,
         "publish_time": "2026-09-10T17:23:42+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 126.19999999999999,
+        "hn_hot_score": 178.2,
         "id": "68ed25a17ba6"
       },
       {
@@ -156,11 +204,11 @@
         "url": "https://cognition.com/blog/swe-2",
         "platform_url": "https://news.ycombinator.com/item?id=49645443",
         "discussion_url": "https://news.ycombinator.com/item?id=49645443",
-        "score": 386,
-        "comments_count": 162,
+        "score": 433,
+        "comments_count": 186,
         "publish_time": "2026-09-10T15:29:47+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 318.8,
+        "hn_hot_score": 358.9,
         "id": "d48500725141"
       },
       {
@@ -180,60 +228,12 @@
         "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
         "platform_url": "https://news.ycombinator.com/item?id=49639408",
         "discussion_url": "https://news.ycombinator.com/item?id=49639408",
-        "score": 762,
-        "comments_count": 697,
+        "score": 850,
+        "comments_count": 788,
         "publish_time": "2026-09-10T06:49:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 742.5,
+        "hn_hot_score": 831.4,
         "id": "1ae04072c122"
-      },
-      {
-        "title": "AirPods 5",
-        "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-        "platform_url": "https://news.ycombinator.com/item?id=49630253",
-        "discussion_url": "https://news.ycombinator.com/item?id=49630253",
-        "score": 498,
-        "comments_count": 434,
-        "publish_time": "2026-09-09T17:39:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 478.79999999999995,
-        "id": "32172733d158"
-      },
-      {
-        "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-        "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-        "platform_url": "https://news.ycombinator.com/item?id=49630026",
-        "discussion_url": "https://news.ycombinator.com/item?id=49630026",
-        "score": 232,
-        "comments_count": 90,
-        "publish_time": "2026-09-09T17:24:28+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 189.39999999999998,
-        "id": "d45462947166"
-      },
-      {
-        "title": "Understanding the recent DDoS attack against Read the Docs",
-        "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
-        "platform_url": "https://news.ycombinator.com/item?id=49628614",
-        "discussion_url": "https://news.ycombinator.com/item?id=49628614",
-        "score": 210,
-        "comments_count": 74,
-        "publish_time": "2026-09-09T15:55:53+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 169.2,
-        "id": "eafc89ca3922"
-      },
-      {
-        "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-        "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-        "platform_url": "https://news.ycombinator.com/item?id=49627370",
-        "discussion_url": "https://news.ycombinator.com/item?id=49627370",
-        "score": 508,
-        "comments_count": 161,
-        "publish_time": "2026-09-09T14:37:47+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 403.9,
-        "id": "7d16001d79fd"
       }
     ],
     "huggingface": [
@@ -248,7 +248,7 @@
         ],
         "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthe",
         "platform": "huggingface",
-        "score": 50,
+        "score": 108,
         "comments_count": 1,
         "id": "ae412ea5b9d9"
       },
@@ -263,9 +263,24 @@
         ],
         "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool-call turns per task, rewarded by executing each task's own verifier. We provide a comprehensive recipe: First, an aggressively warm-started to stabilize actor-critic training, with a dense process re",
         "platform": "huggingface",
-        "score": 28,
+        "score": 44,
         "comments_count": 1,
         "id": "4a9f887a3a7e"
+      },
+      {
+        "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+        "url": "https://huggingface.co/papers/2609.11317",
+        "platform_url": "https://huggingface.co/papers/2609.11317",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11317.png",
+        "publish_time": "2026-09-09T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice artifacts from content-entangled granular texture, then combines selective spectral notching, structure-aware smoothing, and cleaned-reference regeneration. This separation enables low-distortion filt",
+        "platform": "huggingface",
+        "score": 20,
+        "comments_count": 2,
+        "id": "f5b25098a608"
       },
       {
         "title": "Show-Harness: Just a VLM Agent Can Play Robots",
@@ -308,7 +323,7 @@
         ],
         "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discrete concepts that span multiple tokens, introducing an explicit and more challenging concept-level objective while preserving standard token-level autoregressive generation. NCP-ArchPreview builds a latent space by constructing a product-quantized concept vocabulary dir",
         "platform": "huggingface",
-        "score": 91,
+        "score": 132,
         "comments_count": 1,
         "id": "54af99c5a170"
       },
@@ -322,11 +337,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 441 · 下载 3",
+        "summary": "TrendingScore 450 · 下载 12,260",
         "platform": "huggingface",
-        "score": 583,
-        "trending_score": 441,
-        "downloads": 3,
+        "score": 592,
+        "trending_score": 450,
+        "downloads": 12260,
         "id": "4b8467f47b3e"
       },
       {
@@ -339,11 +354,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 509 · 下载 2,444",
+        "summary": "TrendingScore 531 · 下载 3,121",
         "platform": "huggingface",
-        "score": 661,
-        "trending_score": 509,
-        "downloads": 2444,
+        "score": 684,
+        "trending_score": 531,
+        "downloads": 3121,
         "id": "efc0e90f4064"
       },
       {
@@ -462,7 +477,7 @@
         ],
         "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent. For MAS prompt optimization, textual gradient methods that guide prompt updates using natural-language feedback have emerged as a leading paradigm. In this paper, we identify limitations in two stages of existing textual gradient approaches: gradient extraction and gradient aggregation. In gradient extrac",
         "platform": "huggingface",
-        "score": 88,
+        "score": 89,
         "comments_count": 2,
         "id": "0853dbbce97c"
       },
@@ -477,8 +492,8 @@
         ],
         "summary": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. However, our analysis work show that its evaluation is undermined by two sources of unreliability: reward hacking, enabled by leakage of gold solutions or hidden evaluation information, and task quality issues, including misleading problem statements and improperly scoped tests. These issues can inflate benchmark performance and obscure agents' true coding ability. ",
         "platform": "huggingface",
-        "score": 18,
-        "comments_count": 3,
+        "score": 21,
+        "comments_count": 4,
         "id": "7311b7089b7d"
       },
       {
@@ -512,36 +527,19 @@
         "id": "e9023900f4a1"
       },
       {
-        "title": "[模型] openbmb/MiniCPM5-2B",
-        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-        "platform_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-        "cover_url": null,
-        "publish_time": "2026-09-06T11:12:19.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 942 · 下载 42,289",
-        "platform": "huggingface",
-        "score": 1130,
-        "trending_score": 942,
-        "downloads": 42289,
-        "id": "2b26cea5934b"
-      },
-      {
-        "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
-        "url": "https://huggingface.co/papers/2609.06746",
-        "platform_url": "https://huggingface.co/papers/2609.06746",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06746.png",
-        "publish_time": "2026-09-05T20:00:00.000Z",
+        "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+        "url": "https://huggingface.co/papers/2609.07064",
+        "platform_url": "https://huggingface.co/papers/2609.07064",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07064.png",
+        "publish_time": "2026-09-06T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit textual chains of thought. However, visual information being present in a latent state does not imply that the model actually relies on that state when producing its answer, especially when alternative image-conditioned paths remain available. We introduce Causal Visual Recurrent Reasoning (CVRR), which preserves pretrained visual competence while making recurrent computation the re",
+        "summary": "Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this gap by using real-scene spatial question answering datasets that require dense geometric annotations. However, constructing such labels is costly, time-consuming, and often noisy due to reliance on ex",
         "platform": "huggingface",
-        "score": 30,
-        "comments_count": 2,
-        "id": "eeb3c6f6d9c8"
+        "score": 48,
+        "comments_count": 1,
+        "id": "851365812171"
       }
     ],
     "bestblogs": [
@@ -888,6 +886,44 @@
     ],
     "qbitai": [
       {
+        "title": "啊？Anthropic最高320万招销售，只为服务Meta",
+        "url": "https://www.qbitai.com/2026/09/487573.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487573.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bf8ee0326288edfbbefc10e2263cad73.webp",
+        "publish_time": "2026-09-11T14:05:16+00:00",
+        "tags": [
+          "AI",
+          "Claude"
+        ],
+        "platform": "qbitai",
+        "id": "880aad1e7afa"
+      },
+      {
+        "title": "不简单，“吃货快乐榜”也全面AI化了",
+        "url": "https://www.qbitai.com/2026/09/487282.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487282.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/06ec0b1e6370bd0c0b189b33bad0a2bb.webp",
+        "publish_time": "2026-09-11T08:59:28+00:00",
+        "tags": [
+          "世界模型",
+          "空间智能"
+        ],
+        "platform": "qbitai",
+        "id": "ca99a537269a"
+      },
+      {
+        "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
+        "url": "https://www.qbitai.com/2026/09/487273.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487273.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7913a88bdad4b2d4643a9e7b708cc7be.jpeg",
+        "publish_time": "2026-09-11T06:19:03+00:00",
+        "tags": [
+          "墨芯人工智能"
+        ],
+        "platform": "qbitai",
+        "id": "1645352e003b"
+      },
+      {
         "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
         "url": "https://www.qbitai.com/2026/09/487176.html",
         "platform_url": "https://www.qbitai.com/2026/09/487176.html",
@@ -975,46 +1011,118 @@
         ],
         "platform": "qbitai",
         "id": "cfcd756de2b7"
-      },
-      {
-        "title": "营销科技巨头蓝色光标与全球达人营销AI平台AhaCreator达成深度合作，让品牌更高效连接全球500万创作者",
-        "url": "https://www.qbitai.com/2026/09/486651.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486651.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e60fe7fa5a3272d89720301fb89f9c53.png",
-        "publish_time": "2026-09-10T06:25:22+00:00",
-        "tags": [
-          "AhaCreator"
-        ],
-        "platform": "qbitai",
-        "id": "c8334dd7109b"
-      },
-      {
-        "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
-        "url": "https://www.qbitai.com/2026/09/486436.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486436.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/3f6bec19e89fa732eb1f522f51ed8959.png",
-        "publish_time": "2026-09-10T01:39:13+00:00",
-        "tags": [
-          "京东"
-        ],
-        "platform": "qbitai",
-        "id": "b0d0ed6044b6"
-      },
-      {
-        "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
-        "url": "https://www.qbitai.com/2026/09/486450.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486450.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8bbfd7431d196d81378c748c880d9ac4.png",
-        "publish_time": "2026-09-09T19:24:22+00:00",
-        "tags": [
-          "苹果"
-        ],
-        "platform": "qbitai",
-        "id": "ebcb81ed7704"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI智能体入侵Hugging Face遭参议院调查 · 0912-642期",
+      "url": "https://radarai.top/updates/brief-20260912-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260912-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-11T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "28ee6dab5368"
+    },
+    {
+      "title": "啊？Anthropic最高320万招销售，只为服务Meta",
+      "url": "https://www.qbitai.com/2026/09/487573.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487573.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bf8ee0326288edfbbefc10e2263cad73.webp",
+      "publish_time": "2026-09-11T14:05:16+00:00",
+      "tags": [
+        "AI",
+        "Claude"
+      ],
+      "platform": "qbitai",
+      "id": "880aad1e7afa"
+    },
+    {
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "url": "https://news.ycombinator.com/item?id=49657850",
+      "platform_url": "https://news.ycombinator.com/item?id=49657850",
+      "discussion_url": "https://news.ycombinator.com/item?id=49657850",
+      "score": 620,
+      "comments_count": 305,
+      "publish_time": "2026-09-11T13:11:04+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 525.5,
+      "id": "924e6e6ca0d7"
+    },
+    {
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49656496",
+      "discussion_url": "https://news.ycombinator.com/item?id=49656496",
+      "score": 303,
+      "comments_count": 244,
+      "publish_time": "2026-09-11T11:17:50+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 285.3,
+      "id": "57a7f0d7923f"
+    },
+    {
+      "title": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "platform_url": "https://news.ycombinator.com/item?id=49656225",
+      "discussion_url": "https://news.ycombinator.com/item?id=49656225",
+      "score": 301,
+      "comments_count": 377,
+      "publish_time": "2026-09-11T10:48:00+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 323.79999999999995,
+      "id": "98e2325c7929"
+    },
+    {
+      "title": "不简单，“吃货快乐榜”也全面AI化了",
+      "url": "https://www.qbitai.com/2026/09/487282.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487282.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/06ec0b1e6370bd0c0b189b33bad0a2bb.webp",
+      "publish_time": "2026-09-11T08:59:28+00:00",
+      "tags": [
+        "世界模型",
+        "空间智能"
+      ],
+      "platform": "qbitai",
+      "id": "ca99a537269a"
+    },
+    {
+      "title": "UPDF把AI Agent塞进PDF编辑器 · 0911-641期",
+      "url": "https://radarai.top/updates/brief-20260911-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260911-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-11T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "c6d01ad2746b"
+    },
+    {
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "platform_url": "https://news.ycombinator.com/item?id=49654229",
+      "discussion_url": "https://news.ycombinator.com/item?id=49654229",
+      "score": 403,
+      "comments_count": 301,
+      "publish_time": "2026-09-11T06:23:06+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 372.4,
+      "id": "d662c4d123f6"
+    },
+    {
+      "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
+      "url": "https://www.qbitai.com/2026/09/487273.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487273.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7913a88bdad4b2d4643a9e7b708cc7be.jpeg",
+      "publish_time": "2026-09-11T06:19:03+00:00",
+      "tags": [
+        "墨芯人工智能"
+      ],
+      "platform": "qbitai",
+      "id": "1645352e003b"
+    },
     {
       "title": "Tibo Sottiaux 谈 Codex：从研究工具到软件工程智能体",
       "url": "https://www.bestblogs.dev/article/RAW_7fc2ef1cb",
@@ -1250,11 +1358,11 @@
       "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
       "platform_url": "https://news.ycombinator.com/item?id=49650326",
       "discussion_url": "https://news.ycombinator.com/item?id=49650326",
-      "score": 152,
-      "comments_count": 156,
+      "score": 172,
+      "comments_count": 174,
       "publish_time": "2026-09-10T21:22:59+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 153.2,
+      "hn_hot_score": 172.6,
       "id": "d163a40a021a"
     },
     {
@@ -1262,11 +1370,11 @@
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "platform_url": "https://news.ycombinator.com/item?id=49649213",
       "discussion_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 197,
-      "comments_count": 119,
+      "score": 317,
+      "comments_count": 167,
       "publish_time": "2026-09-10T19:43:22+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 173.59999999999997,
+      "hn_hot_score": 272.0,
       "id": "40a00456a298"
     },
     {
@@ -1274,11 +1382,11 @@
       "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
       "platform_url": "https://news.ycombinator.com/item?id=49647300",
       "discussion_url": "https://news.ycombinator.com/item?id=49647300",
-      "score": 104,
-      "comments_count": 178,
+      "score": 159,
+      "comments_count": 223,
       "publish_time": "2026-09-10T17:23:42+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 126.19999999999999,
+      "hn_hot_score": 178.2,
       "id": "68ed25a17ba6"
     },
     {
@@ -1297,11 +1405,11 @@
       "url": "https://cognition.com/blog/swe-2",
       "platform_url": "https://news.ycombinator.com/item?id=49645443",
       "discussion_url": "https://news.ycombinator.com/item?id=49645443",
-      "score": 386,
-      "comments_count": 162,
+      "score": 433,
+      "comments_count": 186,
       "publish_time": "2026-09-10T15:29:47+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 318.8,
+      "hn_hot_score": 358.9,
       "id": "d48500725141"
     },
     {
@@ -1383,24 +1491,12 @@
       "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
       "platform_url": "https://news.ycombinator.com/item?id=49639408",
       "discussion_url": "https://news.ycombinator.com/item?id=49639408",
-      "score": 762,
-      "comments_count": 697,
+      "score": 850,
+      "comments_count": 788,
       "publish_time": "2026-09-10T06:49:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 742.5,
+      "hn_hot_score": 831.4,
       "id": "1ae04072c122"
-    },
-    {
-      "title": "营销科技巨头蓝色光标与全球达人营销AI平台AhaCreator达成深度合作，让品牌更高效连接全球500万创作者",
-      "url": "https://www.qbitai.com/2026/09/486651.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486651.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e60fe7fa5a3272d89720301fb89f9c53.png",
-      "publish_time": "2026-09-10T06:25:22+00:00",
-      "tags": [
-        "AhaCreator"
-      ],
-      "platform": "qbitai",
-      "id": "c8334dd7109b"
     },
     {
       "title": "#713.Grok Bot：AI 应该像真正的同事一样工作",
@@ -1573,18 +1669,6 @@
       "id": "ec30c49de4cd"
     },
     {
-      "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
-      "url": "https://www.qbitai.com/2026/09/486436.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486436.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/3f6bec19e89fa732eb1f522f51ed8959.png",
-      "publish_time": "2026-09-10T01:39:13+00:00",
-      "tags": [
-        "京东"
-      ],
-      "platform": "qbitai",
-      "id": "b0d0ed6044b6"
-    },
-    {
       "title": "苹果折叠屏iPhone Duo与GPT Images 2.5同日亮相 · 0910-637期",
       "url": "https://radarai.top/updates/brief-20260910-0800",
       "platform_url": "https://radarai.top/updates/brief-20260910-0800",
@@ -1606,7 +1690,7 @@
       ],
       "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthe",
       "platform": "huggingface",
-      "score": 50,
+      "score": 108,
       "comments_count": 1,
       "id": "ae412ea5b9d9"
     },
@@ -1621,45 +1705,24 @@
       ],
       "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool-call turns per task, rewarded by executing each task's own verifier. We provide a comprehensive recipe: First, an aggressively warm-started to stabilize actor-critic training, with a dense process re",
       "platform": "huggingface",
-      "score": 28,
+      "score": 44,
       "comments_count": 1,
       "id": "4a9f887a3a7e"
     },
     {
-      "title": "刚刚，苹果首款折叠屏发布！15999元起，AI参与设计",
-      "url": "https://www.qbitai.com/2026/09/486450.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486450.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8bbfd7431d196d81378c748c880d9ac4.png",
-      "publish_time": "2026-09-09T19:24:22+00:00",
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "url": "https://huggingface.co/papers/2609.11317",
+      "platform_url": "https://huggingface.co/papers/2609.11317",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11317.png",
+      "publish_time": "2026-09-09T20:00:00.000Z",
       "tags": [
-        "苹果"
+        "论文"
       ],
-      "platform": "qbitai",
-      "id": "ebcb81ed7704"
-    },
-    {
-      "title": "AirPods 5",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-      "platform_url": "https://news.ycombinator.com/item?id=49630253",
-      "discussion_url": "https://news.ycombinator.com/item?id=49630253",
-      "score": 498,
-      "comments_count": 434,
-      "publish_time": "2026-09-09T17:39:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 478.79999999999995,
-      "id": "32172733d158"
-    },
-    {
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "platform_url": "https://news.ycombinator.com/item?id=49630026",
-      "discussion_url": "https://news.ycombinator.com/item?id=49630026",
-      "score": 232,
-      "comments_count": 90,
-      "publish_time": "2026-09-09T17:24:28+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 189.39999999999998,
-      "id": "d45462947166"
+      "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice artifacts from content-entangled granular texture, then combines selective spectral notching, structure-aware smoothing, and cleaned-reference regeneration. This separation enables low-distortion filt",
+      "platform": "huggingface",
+      "score": 20,
+      "comments_count": 2,
+      "id": "f5b25098a608"
     },
     {
       "title": "OpenAI称破解千禧年难题，Anthropic研究员因AI失控担忧离职 · 0910-636期",
@@ -1671,30 +1734,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "9a3982227e25"
-    },
-    {
-      "title": "Understanding the recent DDoS attack against Read the Docs",
-      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
-      "platform_url": "https://news.ycombinator.com/item?id=49628614",
-      "discussion_url": "https://news.ycombinator.com/item?id=49628614",
-      "score": 210,
-      "comments_count": 74,
-      "publish_time": "2026-09-09T15:55:53+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 169.2,
-      "id": "eafc89ca3922"
-    },
-    {
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "platform_url": "https://news.ycombinator.com/item?id=49627370",
-      "discussion_url": "https://news.ycombinator.com/item?id=49627370",
-      "score": 508,
-      "comments_count": 161,
-      "publish_time": "2026-09-09T14:37:47+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 403.9,
-      "id": "7d16001d79fd"
     },
     {
       "title": "OpenAI代理失控入侵Hugging Face，微软单月修复974个CVE漏洞 · 0909-635期",
@@ -1759,20 +1798,9 @@
       ],
       "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discrete concepts that span multiple tokens, introducing an explicit and more challenging concept-level objective while preserving standard token-level autoregressive generation. NCP-ArchPreview builds a latent space by constructing a product-quantized concept vocabulary dir",
       "platform": "huggingface",
-      "score": 91,
+      "score": 132,
       "comments_count": 1,
       "id": "54af99c5a170"
-    },
-    {
-      "title": "麦肯锡：44%企业已全部署AI，仅6%成高绩效 · 0909-633期",
-      "url": "https://radarai.top/updates/brief-20260909-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260909-0000",
-      "cover_url": null,
-      "publish_time": "2026-09-08T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d8050db6982d"
     },
     {
       "title": "[模型] nex-agi/Nex-N2.5-Pro",
@@ -1784,23 +1812,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 441 · 下载 3",
+      "summary": "TrendingScore 450 · 下载 12,260",
       "platform": "huggingface",
-      "score": 583,
-      "trending_score": 441,
-      "downloads": 3,
+      "score": 592,
+      "trending_score": 450,
+      "downloads": 12260,
       "id": "4b8467f47b3e"
-    },
-    {
-      "title": "微信等平台接入AI Agent互联，A2A时代催生信任危机与治理新需求 · 0908-632期",
-      "url": "https://radarai.top/updates/brief-20260908-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260908-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-08T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "951e51674fc8"
     },
     {
       "title": "[模型] nex-agi/Nex-N2.5-mini",
@@ -1812,11 +1829,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 509 · 下载 2,444",
+      "summary": "TrendingScore 531 · 下载 3,121",
       "platform": "huggingface",
-      "score": 661,
-      "trending_score": 509,
-      "downloads": 2444,
+      "score": 684,
+      "trending_score": 531,
+      "downloads": 3121,
       "id": "efc0e90f4064"
     },
     {
@@ -1935,7 +1952,7 @@
       ],
       "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent. For MAS prompt optimization, textual gradient methods that guide prompt updates using natural-language feedback have emerged as a leading paradigm. In this paper, we identify limitations in two stages of existing textual gradient approaches: gradient extraction and gradient aggregation. In gradient extrac",
       "platform": "huggingface",
-      "score": 88,
+      "score": 89,
       "comments_count": 2,
       "id": "0853dbbce97c"
     },
@@ -1950,8 +1967,8 @@
       ],
       "summary": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. However, our analysis work show that its evaluation is undermined by two sources of unreliability: reward hacking, enabled by leakage of gold solutions or hidden evaluation information, and task quality issues, including misleading problem statements and improperly scoped tests. These issues can inflate benchmark performance and obscure agents' true coding ability. ",
       "platform": "huggingface",
-      "score": 18,
-      "comments_count": 3,
+      "score": 21,
+      "comments_count": 4,
       "id": "7311b7089b7d"
     },
     {
@@ -1985,44 +2002,27 @@
       "id": "e9023900f4a1"
     },
     {
-      "title": "[模型] openbmb/MiniCPM5-2B",
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "platform_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "cover_url": null,
-      "publish_time": "2026-09-06T11:12:19.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 942 · 下载 42,289",
-      "platform": "huggingface",
-      "score": 1130,
-      "trending_score": 942,
-      "downloads": 42289,
-      "id": "2b26cea5934b"
-    },
-    {
-      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
-      "url": "https://huggingface.co/papers/2609.06746",
-      "platform_url": "https://huggingface.co/papers/2609.06746",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06746.png",
-      "publish_time": "2026-09-05T20:00:00.000Z",
+      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+      "url": "https://huggingface.co/papers/2609.07064",
+      "platform_url": "https://huggingface.co/papers/2609.07064",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07064.png",
+      "publish_time": "2026-09-06T20:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit textual chains of thought. However, visual information being present in a latent state does not imply that the model actually relies on that state when producing its answer, especially when alternative image-conditioned paths remain available. We introduce Causal Visual Recurrent Reasoning (CVRR), which preserves pretrained visual competence while making recurrent computation the re",
+      "summary": "Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this gap by using real-scene spatial question answering datasets that require dense geometric annotations. However, constructing such labels is costly, time-consuming, and often noisy due to reliance on ex",
       "platform": "huggingface",
-      "score": 30,
-      "comments_count": 2,
-      "id": "eeb3c6f6d9c8"
+      "score": 48,
+      "comments_count": 1,
+      "id": "851365812171"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.0,
-      "cover_success_rate": 38.6
+      "avg_response_time": 11.1,
+      "cover_success_rate": 40.0
     },
     "platforms": [
       {
@@ -2030,73 +2030,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-11T05:21:14.071608+00:00"
+        "last_crawl": "2026-09-11T16:11:23.367962+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-11T05:21:36.767252+00:00"
+        "last_crawl": "2026-09-11T16:11:53.057925+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-11T05:21:38.017077+00:00"
+        "last_crawl": "2026-09-11T16:11:54.458420+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-09-11T05:21:47.459006+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-09-11T16:12:04.425244+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-11T05:21:47.603824+00:00"
+        "last_crawl": "2026-09-11T16:12:04.599968+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-11T05:21:14.071612+00:00",
+        "timestamp": "2026-09-11T16:11:23.367966+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 11.626677
+        "latency": 14.449694
       },
       {
-        "timestamp": "2026-09-11T05:21:36.767256+00:00",
+        "timestamp": "2026-09-11T16:11:53.057932+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 22.695638
+        "latency": 29.689958
       },
       {
-        "timestamp": "2026-09-11T05:21:38.017082+00:00",
+        "timestamp": "2026-09-11T16:11:54.458425+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.249821
+        "latency": 1.400486
       },
       {
-        "timestamp": "2026-09-11T05:21:47.459010+00:00",
+        "timestamp": "2026-09-11T16:12:04.425252+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 9.441921
+        "items_collected": 10,
+        "latency": 9.966821
       },
       {
-        "timestamp": "2026-09-11T05:21:47.603835+00:00",
+        "timestamp": "2026-09-11T16:12:04.599979+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.144789
+        "latency": 0.174719
       }
     ]
   }
