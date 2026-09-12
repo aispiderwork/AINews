@@ -1,8 +1,19 @@
 {
-  "update_time": "2026-09-12T05:12:47.391357+00:00",
+  "update_time": "2026-09-12T15:19:10.255948+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "苹果押注Apple Watch做AI中枢，GPT-6自主编程35小时失败 · 0912-644期",
+        "url": "https://radarai.top/updates/brief-20260912-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260912-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-12T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "3f3119ca4f66"
+      },
       {
         "title": "蚂蚁阿福连18个健康硬件，Anthropic被曝320万年薪专岗服务Meta · 0912-643期",
         "url": "https://radarai.top/updates/brief-20260912-0800",
@@ -101,17 +112,6 @@
         "summary": "",
         "platform": "radarai",
         "id": "9a3982227e25"
-      },
-      {
-        "title": "OpenAI代理失控入侵Hugging Face，微软单月修复974个CVE漏洞 · 0909-635期",
-        "url": "https://radarai.top/updates/brief-20260909-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260909-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-09T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "f9e5bd809efd"
       }
     ],
     "hackernews": [
@@ -120,23 +120,47 @@
         "url": "https://www.rubyhack.ai/",
         "platform_url": "https://news.ycombinator.com/item?id=49666735",
         "discussion_url": "https://news.ycombinator.com/item?id=49666735",
-        "score": 516,
-        "comments_count": 299,
+        "score": 841,
+        "comments_count": 493,
         "publish_time": "2026-09-11T23:17:42+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 450.9,
+        "hn_hot_score": 736.5999999999999,
         "id": "bff8fe9e8d10"
+      },
+      {
+        "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
+        "url": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/",
+        "platform_url": "https://news.ycombinator.com/item?id=49663054",
+        "discussion_url": "https://news.ycombinator.com/item?id=49663054",
+        "score": 144,
+        "comments_count": 71,
+        "publish_time": "2026-09-11T18:30:07+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 122.1,
+        "id": "8936244044e9"
+      },
+      {
+        "title": "Litelm: LiteLLM Without the Bloat",
+        "url": "https://github.com/kennethwolters/litelm",
+        "platform_url": "https://news.ycombinator.com/item?id=49662767",
+        "discussion_url": "https://news.ycombinator.com/item?id=49662767",
+        "score": 162,
+        "comments_count": 57,
+        "publish_time": "2026-09-11T18:10:20+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 130.5,
+        "id": "bdab55152487"
       },
       {
         "title": "A misalignment of AI in mathematics",
         "url": "https://mathandai.org/",
         "platform_url": "https://news.ycombinator.com/item?id=49662371",
         "discussion_url": "https://news.ycombinator.com/item?id=49662371",
-        "score": 779,
-        "comments_count": 768,
+        "score": 1081,
+        "comments_count": 1031,
         "publish_time": "2026-09-11T17:45:12+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 775.6999999999999,
+        "hn_hot_score": 1066.0,
         "id": "6cf32768b0de"
       },
       {
@@ -156,11 +180,11 @@
         "url": "https://hcker.news/?ai=exclude",
         "platform_url": "https://news.ycombinator.com/item?id=49659647",
         "discussion_url": "https://news.ycombinator.com/item?id=49659647",
-        "score": 179,
-        "comments_count": 84,
+        "score": 194,
+        "comments_count": 86,
         "publish_time": "2026-09-11T15:01:19+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 150.5,
+        "hn_hot_score": 161.6,
         "id": "a40b9b233d9d"
       },
       {
@@ -192,11 +216,11 @@
         "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
         "platform_url": "https://news.ycombinator.com/item?id=49656225",
         "discussion_url": "https://news.ycombinator.com/item?id=49656225",
-        "score": 607,
-        "comments_count": 617,
+        "score": 658,
+        "comments_count": 634,
         "publish_time": "2026-09-11T10:48:00+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 610.0,
+        "hn_hot_score": 650.8,
         "id": "98e2325c7929"
       },
       {
@@ -210,30 +234,6 @@
         "platform": "hackernews",
         "hn_hot_score": 372.4,
         "id": "d662c4d123f6"
-      },
-      {
-        "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
-        "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
-        "platform_url": "https://news.ycombinator.com/item?id=49650326",
-        "discussion_url": "https://news.ycombinator.com/item?id=49650326",
-        "score": 172,
-        "comments_count": 174,
-        "publish_time": "2026-09-10T21:22:59+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 172.6,
-        "id": "d163a40a021a"
-      },
-      {
-        "title": "OpenAI Agents API",
-        "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-        "platform_url": "https://news.ycombinator.com/item?id=49649213",
-        "discussion_url": "https://news.ycombinator.com/item?id=49649213",
-        "score": 338,
-        "comments_count": 178,
-        "publish_time": "2026-09-10T19:43:22+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 290.0,
-        "id": "40a00456a298"
       }
     ],
     "huggingface": [
@@ -248,7 +248,7 @@
         ],
         "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthe",
         "platform": "huggingface",
-        "score": 141,
+        "score": 155,
         "comments_count": 2,
         "id": "ae412ea5b9d9"
       },
@@ -263,7 +263,7 @@
         ],
         "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool-call turns per task, rewarded by executing each task's own verifier. We provide a comprehensive recipe: First, an aggressively warm-started to stabilize actor-critic training, with a dense process re",
         "platform": "huggingface",
-        "score": 47,
+        "score": 50,
         "comments_count": 2,
         "id": "4a9f887a3a7e"
       },
@@ -278,9 +278,24 @@
         ],
         "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice artifacts from content-entangled granular texture, then combines selective spectral notching, structure-aware smoothing, and cleaned-reference regeneration. This separation enables low-distortion filt",
         "platform": "huggingface",
-        "score": 20,
+        "score": 35,
         "comments_count": 3,
         "id": "f5b25098a608"
+      },
+      {
+        "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+        "url": "https://huggingface.co/papers/2609.11412",
+        "platform_url": "https://huggingface.co/papers/2609.11412",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11412.png",
+        "publish_time": "2026-09-09T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks perturbs the embeddings consumed by the decoder and can cause deletion and premature end-of-sequence errors. We introduce X-AuT, a progressive framework that selects layer combinations through short behavioral probes and restores the pruned model through representation alignment, cross-scale distillation, scheduled student-policy supervision, and LoRA finetuning. The language-mode",
+        "platform": "huggingface",
+        "score": 28,
+        "comments_count": 2,
+        "id": "a91c8b48109d"
       },
       {
         "title": "Show-Harness: Just a VLM Agent Can Play Robots",
@@ -323,7 +338,7 @@
         ],
         "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discrete concepts that span multiple tokens, introducing an explicit and more challenging concept-level objective while preserving standard token-level autoregressive generation. NCP-ArchPreview builds a latent space by constructing a product-quantized concept vocabulary dir",
         "platform": "huggingface",
-        "score": 178,
+        "score": 196,
         "comments_count": 2,
         "id": "54af99c5a170"
       },
@@ -337,11 +352,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 117 · 下载 951",
+        "summary": "TrendingScore 313 · 下载 1,596",
         "platform": "huggingface",
-        "score": 127,
-        "trending_score": 117,
-        "downloads": 951,
+        "score": 328,
+        "trending_score": 313,
+        "downloads": 1596,
         "id": "fc7df35fe938"
       },
       {
@@ -354,11 +369,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 456 · 下载 12,260",
+        "summary": "TrendingScore 467 · 下载 30,081",
         "platform": "huggingface",
-        "score": 599,
-        "trending_score": 456,
-        "downloads": 12260,
+        "score": 611,
+        "trending_score": 467,
+        "downloads": 30081,
         "id": "4b8467f47b3e"
       },
       {
@@ -371,11 +386,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 542 · 下载 3,121",
+        "summary": "TrendingScore 560 · 下载 3,581",
         "platform": "huggingface",
-        "score": 695,
-        "trending_score": 542,
-        "downloads": 3121,
+        "score": 715,
+        "trending_score": 560,
+        "downloads": 3581,
         "id": "efc0e90f4064"
       },
       {
@@ -494,7 +509,7 @@
         ],
         "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent. For MAS prompt optimization, textual gradient methods that guide prompt updates using natural-language feedback have emerged as a leading paradigm. In this paper, we identify limitations in two stages of existing textual gradient approaches: gradient extraction and gradient aggregation. In gradient extrac",
         "platform": "huggingface",
-        "score": 90,
+        "score": 91,
         "comments_count": 2,
         "id": "0853dbbce97c"
       },
@@ -527,21 +542,6 @@
         "score": 59,
         "comments_count": 2,
         "id": "4443a2ecd5ca"
-      },
-      {
-        "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
-        "url": "https://huggingface.co/papers/2609.07470",
-        "platform_url": "https://huggingface.co/papers/2609.07470",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07470.png",
-        "publish_time": "2026-09-06T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages. We study the addition of Greek to an open vision-language-action stack using only machine-rephrased instructions and no architecture changes. The main challenge is measurement rather than translation. Several plausible instruments produce false conclusions: a color-histogram metric rewards noise, a single-goal benchmark scores 84.6% under correct Greek and ",
-        "platform": "huggingface",
-        "score": 19,
-        "comments_count": 2,
-        "id": "e9023900f4a1"
       }
     ],
     "bestblogs": [
@@ -552,7 +552,7 @@
         "original_url": "",
         "resource_id": "RAW_3388b70336",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357977+00:00",
+        "publish_time": "2026-09-12T15:18:58.941493+00:00",
         "tags": [
           "早报"
         ],
@@ -569,7 +569,7 @@
         "original_url": "",
         "resource_id": "RAW_313203e9a8",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357975+00:00",
+        "publish_time": "2026-09-12T15:18:58.941490+00:00",
         "tags": [
           "早报"
         ],
@@ -586,7 +586,7 @@
         "original_url": "",
         "resource_id": "RAW_dce43f82db",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357972+00:00",
+        "publish_time": "2026-09-12T15:18:58.941484+00:00",
         "tags": [
           "早报"
         ],
@@ -603,7 +603,7 @@
         "original_url": "",
         "resource_id": "RAW_7df868fe8e",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357969+00:00",
+        "publish_time": "2026-09-12T15:18:58.941481+00:00",
         "tags": [
           "早报"
         ],
@@ -620,7 +620,7 @@
         "original_url": "",
         "resource_id": "RAW_4342945808",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357967+00:00",
+        "publish_time": "2026-09-12T15:18:58.941478+00:00",
         "tags": [
           "早报"
         ],
@@ -637,7 +637,7 @@
         "original_url": "",
         "resource_id": "RAW_b541d96bf",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357955+00:00",
+        "publish_time": "2026-09-12T15:18:58.941459+00:00",
         "tags": [
           "早报"
         ],
@@ -654,7 +654,7 @@
         "original_url": "",
         "resource_id": "RAW_6dfb071cd5",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357952+00:00",
+        "publish_time": "2026-09-12T15:18:58.941455+00:00",
         "tags": [
           "早报"
         ],
@@ -671,7 +671,7 @@
         "original_url": "",
         "resource_id": "RAW_56aa044175",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357948+00:00",
+        "publish_time": "2026-09-12T15:18:58.941451+00:00",
         "tags": [
           "早报"
         ],
@@ -688,7 +688,7 @@
         "original_url": "",
         "resource_id": "RAW_93aba83998",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357936+00:00",
+        "publish_time": "2026-09-12T15:18:58.941434+00:00",
         "tags": [
           "早报"
         ],
@@ -705,7 +705,7 @@
         "original_url": "",
         "resource_id": "RAW_d10d742de8",
         "cover_url": null,
-        "publish_time": "2026-09-12T05:12:34.357934+00:00",
+        "publish_time": "2026-09-12T15:18:58.941430+00:00",
         "tags": [
           "早报"
         ],
@@ -888,6 +888,42 @@
     ],
     "qbitai": [
       {
+        "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
+        "url": "https://www.qbitai.com/2026/09/487860.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487860.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7c0e1f73ece9d7667082e73b135ee96d.png",
+        "publish_time": "2026-09-12T11:38:16+00:00",
+        "tags": [
+          "太初元碁"
+        ],
+        "platform": "qbitai",
+        "id": "0d4d65784d2a"
+      },
+      {
+        "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
+        "url": "https://www.qbitai.com/2026/09/487796.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487796.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7e51f97872f0de885f3638a51e61ad6c.webp",
+        "publish_time": "2026-09-12T08:49:02+00:00",
+        "tags": [
+          "Anthropic"
+        ],
+        "platform": "qbitai",
+        "id": "ab8cdf051df8"
+      },
+      {
+        "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
+        "url": "https://www.qbitai.com/2026/09/487701.html",
+        "platform_url": "https://www.qbitai.com/2026/09/487701.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/4eb226298404664a041753f89b33ba94.webp",
+        "publish_time": "2026-09-12T07:33:54+00:00",
+        "tags": [
+          "GPT-6 Astra"
+        ],
+        "platform": "qbitai",
+        "id": "2ab7467cd8d0"
+      },
+      {
         "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
         "url": "https://www.qbitai.com/2026/09/487631.html",
         "platform_url": "https://www.qbitai.com/2026/09/487631.html",
@@ -974,44 +1010,6 @@
         ],
         "platform": "qbitai",
         "id": "738c7efaeb2d"
-      },
-      {
-        "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
-        "url": "https://www.qbitai.com/2026/09/486900.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486900.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/673850245409792ea804090a678a6749.jpeg",
-        "publish_time": "2026-09-10T08:17:00+00:00",
-        "tags": [
-          "高德"
-        ],
-        "platform": "qbitai",
-        "id": "798304eb57ce"
-      },
-      {
-        "title": "全球首个可仿真的人–场景交互重建框架 HSImul3R：让人类视频真正成为机器人技能来源",
-        "url": "https://www.qbitai.com/2026/09/486747.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486747.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c98fd5ad24e46c71e7c2f2f6acfa4eaa.png",
-        "publish_time": "2026-09-10T07:57:55+00:00",
-        "tags": [
-          "大晓机器人"
-        ],
-        "platform": "qbitai",
-        "id": "2229bfdbcca1"
-      },
-      {
-        "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
-        "url": "https://www.qbitai.com/2026/09/486716.html",
-        "platform_url": "https://www.qbitai.com/2026/09/486716.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/267d4c2bbe54769524436c6ab2534f01.jpeg",
-        "publish_time": "2026-09-10T07:44:00+00:00",
-        "tags": [
-          "LingBot-World 2.0",
-          "世界模型",
-          "蚂蚁灵波"
-        ],
-        "platform": "qbitai",
-        "id": "e5b649b2ea62"
       }
     ]
   },
@@ -1023,7 +1021,7 @@
       "original_url": "",
       "resource_id": "RAW_dce43f82db",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357972+00:00",
+      "publish_time": "2026-09-12T15:18:58.941484+00:00",
       "tags": [
         "早报"
       ],
@@ -1049,7 +1047,7 @@
       "original_url": "",
       "resource_id": "RAW_3388b70336",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357977+00:00",
+      "publish_time": "2026-09-12T15:18:58.941493+00:00",
       "tags": [
         "早报"
       ],
@@ -1066,7 +1064,7 @@
       "original_url": "",
       "resource_id": "RAW_313203e9a8",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357975+00:00",
+      "publish_time": "2026-09-12T15:18:58.941490+00:00",
       "tags": [
         "早报"
       ],
@@ -1083,7 +1081,7 @@
       "original_url": "",
       "resource_id": "RAW_7df868fe8e",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357969+00:00",
+      "publish_time": "2026-09-12T15:18:58.941481+00:00",
       "tags": [
         "早报"
       ],
@@ -1100,7 +1098,7 @@
       "original_url": "",
       "resource_id": "RAW_4342945808",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357967+00:00",
+      "publish_time": "2026-09-12T15:18:58.941478+00:00",
       "tags": [
         "早报"
       ],
@@ -1117,7 +1115,7 @@
       "original_url": "",
       "resource_id": "RAW_b541d96bf",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357955+00:00",
+      "publish_time": "2026-09-12T15:18:58.941459+00:00",
       "tags": [
         "早报"
       ],
@@ -1134,7 +1132,7 @@
       "original_url": "",
       "resource_id": "RAW_6dfb071cd5",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357952+00:00",
+      "publish_time": "2026-09-12T15:18:58.941455+00:00",
       "tags": [
         "早报"
       ],
@@ -1151,7 +1149,7 @@
       "original_url": "",
       "resource_id": "RAW_56aa044175",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357948+00:00",
+      "publish_time": "2026-09-12T15:18:58.941451+00:00",
       "tags": [
         "早报"
       ],
@@ -1168,7 +1166,7 @@
       "original_url": "",
       "resource_id": "RAW_93aba83998",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357936+00:00",
+      "publish_time": "2026-09-12T15:18:58.941434+00:00",
       "tags": [
         "早报"
       ],
@@ -1185,7 +1183,7 @@
       "original_url": "",
       "resource_id": "RAW_d10d742de8",
       "cover_url": null,
-      "publish_time": "2026-09-12T05:12:34.357934+00:00",
+      "publish_time": "2026-09-12T15:18:58.941430+00:00",
       "tags": [
         "早报"
       ],
@@ -1194,6 +1192,53 @@
       "score": 90,
       "source_name": "OpenAI News",
       "id": "98afd6c6b9e8"
+    },
+    {
+      "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
+      "url": "https://www.qbitai.com/2026/09/487860.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487860.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7c0e1f73ece9d7667082e73b135ee96d.png",
+      "publish_time": "2026-09-12T11:38:16+00:00",
+      "tags": [
+        "太初元碁"
+      ],
+      "platform": "qbitai",
+      "id": "0d4d65784d2a"
+    },
+    {
+      "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
+      "url": "https://www.qbitai.com/2026/09/487796.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487796.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/7e51f97872f0de885f3638a51e61ad6c.webp",
+      "publish_time": "2026-09-12T08:49:02+00:00",
+      "tags": [
+        "Anthropic"
+      ],
+      "platform": "qbitai",
+      "id": "ab8cdf051df8"
+    },
+    {
+      "title": "苹果押注Apple Watch做AI中枢，GPT-6自主编程35小时失败 · 0912-644期",
+      "url": "https://radarai.top/updates/brief-20260912-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260912-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-12T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "3f3119ca4f66"
+    },
+    {
+      "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
+      "url": "https://www.qbitai.com/2026/09/487701.html",
+      "platform_url": "https://www.qbitai.com/2026/09/487701.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/4eb226298404664a041753f89b33ba94.webp",
+      "publish_time": "2026-09-12T07:33:54+00:00",
+      "tags": [
+        "GPT-6 Astra"
+      ],
+      "platform": "qbitai",
+      "id": "2ab7467cd8d0"
     },
     {
       "title": "蚂蚁阿福连18个健康硬件，Anthropic被曝320万年薪专岗服务Meta · 0912-643期",
@@ -1211,12 +1256,36 @@
       "url": "https://www.rubyhack.ai/",
       "platform_url": "https://news.ycombinator.com/item?id=49666735",
       "discussion_url": "https://news.ycombinator.com/item?id=49666735",
-      "score": 516,
-      "comments_count": 299,
+      "score": 841,
+      "comments_count": 493,
       "publish_time": "2026-09-11T23:17:42+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 450.9,
+      "hn_hot_score": 736.5999999999999,
       "id": "bff8fe9e8d10"
+    },
+    {
+      "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
+      "url": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/",
+      "platform_url": "https://news.ycombinator.com/item?id=49663054",
+      "discussion_url": "https://news.ycombinator.com/item?id=49663054",
+      "score": 144,
+      "comments_count": 71,
+      "publish_time": "2026-09-11T18:30:07+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 122.1,
+      "id": "8936244044e9"
+    },
+    {
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "url": "https://github.com/kennethwolters/litelm",
+      "platform_url": "https://news.ycombinator.com/item?id=49662767",
+      "discussion_url": "https://news.ycombinator.com/item?id=49662767",
+      "score": 162,
+      "comments_count": 57,
+      "publish_time": "2026-09-11T18:10:20+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 130.5,
+      "id": "bdab55152487"
     },
     {
       "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
@@ -1235,11 +1304,11 @@
       "url": "https://mathandai.org/",
       "platform_url": "https://news.ycombinator.com/item?id=49662371",
       "discussion_url": "https://news.ycombinator.com/item?id=49662371",
-      "score": 779,
-      "comments_count": 768,
+      "score": 1081,
+      "comments_count": 1031,
       "publish_time": "2026-09-11T17:45:12+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 775.6999999999999,
+      "hn_hot_score": 1066.0,
       "id": "6cf32768b0de"
     },
     {
@@ -1270,11 +1339,11 @@
       "url": "https://hcker.news/?ai=exclude",
       "platform_url": "https://news.ycombinator.com/item?id=49659647",
       "discussion_url": "https://news.ycombinator.com/item?id=49659647",
-      "score": 179,
-      "comments_count": 84,
+      "score": 194,
+      "comments_count": 86,
       "publish_time": "2026-09-11T15:01:19+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 150.5,
+      "hn_hot_score": 161.6,
       "id": "a40b9b233d9d"
     },
     {
@@ -1319,11 +1388,11 @@
       "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "platform_url": "https://news.ycombinator.com/item?id=49656225",
       "discussion_url": "https://news.ycombinator.com/item?id=49656225",
-      "score": 607,
-      "comments_count": 617,
+      "score": 658,
+      "comments_count": 634,
       "publish_time": "2026-09-11T10:48:00+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 610.0,
+      "hn_hot_score": 650.8,
       "id": "98e2325c7929"
     },
     {
@@ -1592,30 +1661,6 @@
       "id": "624ba45c2717"
     },
     {
-      "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
-      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
-      "platform_url": "https://news.ycombinator.com/item?id=49650326",
-      "discussion_url": "https://news.ycombinator.com/item?id=49650326",
-      "score": 172,
-      "comments_count": 174,
-      "publish_time": "2026-09-10T21:22:59+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 172.6,
-      "id": "d163a40a021a"
-    },
-    {
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "platform_url": "https://news.ycombinator.com/item?id=49649213",
-      "discussion_url": "https://news.ycombinator.com/item?id=49649213",
-      "score": 338,
-      "comments_count": 178,
-      "publish_time": "2026-09-10T19:43:22+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 290.0,
-      "id": "40a00456a298"
-    },
-    {
       "title": "DeepSeek V4.1 Flash 发布：552B 总参数仅激活 8B · 0911-639期",
       "url": "https://radarai.top/updates/brief-20260911-0000",
       "platform_url": "https://radarai.top/updates/brief-20260911-0000",
@@ -1627,18 +1672,6 @@
       "id": "ab198061d757"
     },
     {
-      "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
-      "url": "https://www.qbitai.com/2026/09/486900.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486900.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/673850245409792ea804090a678a6749.jpeg",
-      "publish_time": "2026-09-10T08:17:00+00:00",
-      "tags": [
-        "高德"
-      ],
-      "platform": "qbitai",
-      "id": "798304eb57ce"
-    },
-    {
       "title": "GPT-6冲击白领岗位又曝700个AI联手攻击，京东抛出300万台机器人采购计划 · 0910-638期",
       "url": "https://radarai.top/updates/brief-20260910-1600",
       "platform_url": "https://radarai.top/updates/brief-20260910-1600",
@@ -1648,32 +1681,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "cb95219df21c"
-    },
-    {
-      "title": "全球首个可仿真的人–场景交互重建框架 HSImul3R：让人类视频真正成为机器人技能来源",
-      "url": "https://www.qbitai.com/2026/09/486747.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486747.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c98fd5ad24e46c71e7c2f2f6acfa4eaa.png",
-      "publish_time": "2026-09-10T07:57:55+00:00",
-      "tags": [
-        "大晓机器人"
-      ],
-      "platform": "qbitai",
-      "id": "2229bfdbcca1"
-    },
-    {
-      "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
-      "url": "https://www.qbitai.com/2026/09/486716.html",
-      "platform_url": "https://www.qbitai.com/2026/09/486716.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/267d4c2bbe54769524436c6ab2534f01.jpeg",
-      "publish_time": "2026-09-10T07:44:00+00:00",
-      "tags": [
-        "LingBot-World 2.0",
-        "世界模型",
-        "蚂蚁灵波"
-      ],
-      "platform": "qbitai",
-      "id": "e5b649b2ea62"
     },
     {
       "title": "苹果折叠屏iPhone Duo与GPT Images 2.5同日亮相 · 0910-637期",
@@ -1697,7 +1704,7 @@
       ],
       "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthe",
       "platform": "huggingface",
-      "score": 141,
+      "score": 155,
       "comments_count": 2,
       "id": "ae412ea5b9d9"
     },
@@ -1712,7 +1719,7 @@
       ],
       "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool-call turns per task, rewarded by executing each task's own verifier. We provide a comprehensive recipe: First, an aggressively warm-started to stabilize actor-critic training, with a dense process re",
       "platform": "huggingface",
-      "score": 47,
+      "score": 50,
       "comments_count": 2,
       "id": "4a9f887a3a7e"
     },
@@ -1727,9 +1734,24 @@
       ],
       "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice artifacts from content-entangled granular texture, then combines selective spectral notching, structure-aware smoothing, and cleaned-reference regeneration. This separation enables low-distortion filt",
       "platform": "huggingface",
-      "score": 20,
+      "score": 35,
       "comments_count": 3,
       "id": "f5b25098a608"
+    },
+    {
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "url": "https://huggingface.co/papers/2609.11412",
+      "platform_url": "https://huggingface.co/papers/2609.11412",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.11412.png",
+      "publish_time": "2026-09-09T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks perturbs the embeddings consumed by the decoder and can cause deletion and premature end-of-sequence errors. We introduce X-AuT, a progressive framework that selects layer combinations through short behavioral probes and restores the pruned model through representation alignment, cross-scale distillation, scheduled student-policy supervision, and LoRA finetuning. The language-mode",
+      "platform": "huggingface",
+      "score": 28,
+      "comments_count": 2,
+      "id": "a91c8b48109d"
     },
     {
       "title": "OpenAI称破解千禧年难题，Anthropic研究员因AI失控担忧离职 · 0910-636期",
@@ -1741,17 +1763,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "9a3982227e25"
-    },
-    {
-      "title": "OpenAI代理失控入侵Hugging Face，微软单月修复974个CVE漏洞 · 0909-635期",
-      "url": "https://radarai.top/updates/brief-20260909-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260909-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-09T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "f9e5bd809efd"
     },
     {
       "title": "Show-Harness: Just a VLM Agent Can Play Robots",
@@ -1794,7 +1805,7 @@
       ],
       "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept Prediction (NCP) to predict discrete concepts that span multiple tokens, introducing an explicit and more challenging concept-level objective while preserving standard token-level autoregressive generation. NCP-ArchPreview builds a latent space by constructing a product-quantized concept vocabulary dir",
       "platform": "huggingface",
-      "score": 178,
+      "score": 196,
       "comments_count": 2,
       "id": "54af99c5a170"
     },
@@ -1808,11 +1819,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 117 · 下载 951",
+      "summary": "TrendingScore 313 · 下载 1,596",
       "platform": "huggingface",
-      "score": 127,
-      "trending_score": 117,
-      "downloads": 951,
+      "score": 328,
+      "trending_score": 313,
+      "downloads": 1596,
       "id": "fc7df35fe938"
     },
     {
@@ -1825,11 +1836,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 456 · 下载 12,260",
+      "summary": "TrendingScore 467 · 下载 30,081",
       "platform": "huggingface",
-      "score": 599,
-      "trending_score": 456,
-      "downloads": 12260,
+      "score": 611,
+      "trending_score": 467,
+      "downloads": 30081,
       "id": "4b8467f47b3e"
     },
     {
@@ -1842,11 +1853,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 542 · 下载 3,121",
+      "summary": "TrendingScore 560 · 下载 3,581",
       "platform": "huggingface",
-      "score": 695,
-      "trending_score": 542,
-      "downloads": 3121,
+      "score": 715,
+      "trending_score": 560,
+      "downloads": 3581,
       "id": "efc0e90f4064"
     },
     {
@@ -1965,7 +1976,7 @@
       ],
       "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent. For MAS prompt optimization, textual gradient methods that guide prompt updates using natural-language feedback have emerged as a leading paradigm. In this paper, we identify limitations in two stages of existing textual gradient approaches: gradient extraction and gradient aggregation. In gradient extrac",
       "platform": "huggingface",
-      "score": 90,
+      "score": 91,
       "comments_count": 2,
       "id": "0853dbbce97c"
     },
@@ -1998,28 +2009,13 @@
       "score": 59,
       "comments_count": 2,
       "id": "4443a2ecd5ca"
-    },
-    {
-      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
-      "url": "https://huggingface.co/papers/2609.07470",
-      "platform_url": "https://huggingface.co/papers/2609.07470",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07470.png",
-      "publish_time": "2026-09-06T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages. We study the addition of Greek to an open vision-language-action stack using only machine-rephrased instructions and no architecture changes. The main challenge is measurement rather than translation. Several plausible instruments produce false conclusions: a color-histogram metric rewards noise, a single-goal benchmark scores 84.6% under correct Greek and ",
-      "platform": "huggingface",
-      "score": 19,
-      "comments_count": 2,
-      "id": "e9023900f4a1"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 14.4,
+      "avg_response_time": 10.9,
       "cover_success_rate": 38.6
     },
     "platforms": [
@@ -2028,73 +2024,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-12T05:11:49.544311+00:00"
+        "last_crawl": "2026-09-12T15:18:29.394899+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-12T05:12:30.901641+00:00"
+        "last_crawl": "2026-09-12T15:18:55.366271+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-12T05:12:32.266747+00:00"
+        "last_crawl": "2026-09-12T15:18:56.712525+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-12T05:12:47.146485+00:00"
+        "last_crawl": "2026-09-12T15:19:09.976840+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-12T05:12:47.350259+00:00"
+        "last_crawl": "2026-09-12T15:19:10.205115+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-12T05:11:49.544315+00:00",
+        "timestamp": "2026-09-12T15:18:29.394904+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 14.171851
+        "latency": 13.486183
       },
       {
-        "timestamp": "2026-09-12T05:12:30.901646+00:00",
+        "timestamp": "2026-09-12T15:18:55.366277+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 41.357324
+        "latency": 25.971365
       },
       {
-        "timestamp": "2026-09-12T05:12:32.266751+00:00",
+        "timestamp": "2026-09-12T15:18:56.712530+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.3651
+        "latency": 1.346246
       },
       {
-        "timestamp": "2026-09-12T05:12:47.146489+00:00",
+        "timestamp": "2026-09-12T15:19:09.976846+00:00",
         "platform": "bestblogs",
         "status": "success",
         "items_collected": 20,
-        "latency": 14.879731
+        "latency": 13.264311
       },
       {
-        "timestamp": "2026-09-12T05:12:47.350268+00:00",
+        "timestamp": "2026-09-12T15:19:10.205126+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.203772
+        "latency": 0.228272
       }
     ]
   }
