@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-19T15:41:14.552983+00:00",
+  "update_time": "2026-09-20T05:31:26.231251+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "阿里Qwen3.8实时翻译延迟降至2.3秒，谷歌Gemini 4 Pro性能大涨 · 0920-667期",
+        "url": "https://radarai.top/updates/brief-20260920-0800",
+        "platform_url": "https://radarai.top/updates/brief-20260920-0800",
+        "cover_url": null,
+        "publish_time": "2026-09-20T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "cc2b5e8e3900"
+      },
+      {
+        "title": "Anthropic自建湿实验室，谷歌Gemini攻入真实公司，AI信任危机加剧 · 0920-666期",
+        "url": "https://radarai.top/updates/brief-20260920-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260920-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-19T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "7cfa9b527dbe"
+      },
       {
         "title": "Codex支持Chrome插件、Claude Code兼容AGENTS.md · 0919-665期",
         "url": "https://radarai.top/updates/brief-20260919-1600",
@@ -90,65 +112,79 @@
         "summary": "",
         "platform": "radarai",
         "id": "8bf2f1693b78"
-      },
-      {
-        "title": "Claude 聊天与 Cowork 合并上线 · 0917-658期",
-        "url": "https://radarai.top/updates/brief-20260917-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260917-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-17T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "9d16e755bb89"
-      },
-      {
-        "title": "豆包2.1 Pro与飞书8.0让Agent成团队协作者，Jev模型提速200倍 · 0917-657期",
-        "url": "https://radarai.top/updates/brief-20260917-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260917-0000",
-        "cover_url": null,
-        "publish_time": "2026-09-16T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "540927563f2b"
       }
     ],
     "hackernews": [
+      {
+        "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+        "platform_url": "https://news.ycombinator.com/item?id=49768921",
+        "discussion_url": "https://news.ycombinator.com/item?id=49768921",
+        "score": 149,
+        "comments_count": 44,
+        "publish_time": "2026-09-19T18:21:30+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 117.5,
+        "id": "7a9286987854"
+      },
+      {
+        "title": "I think you should almost never use AI to write",
+        "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+        "platform_url": "https://news.ycombinator.com/item?id=49767937",
+        "discussion_url": "https://news.ycombinator.com/item?id=49767937",
+        "score": 272,
+        "comments_count": 136,
+        "publish_time": "2026-09-19T16:35:24+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 231.2,
+        "id": "287b4fcede32"
+      },
       {
         "title": "AI-generated posters don’t have to be horrible",
         "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
         "platform_url": "https://news.ycombinator.com/item?id=49764791",
         "discussion_url": "https://news.ycombinator.com/item?id=49764791",
-        "score": 648,
-        "comments_count": 383,
+        "score": 1476,
+        "comments_count": 805,
         "publish_time": "2026-09-19T09:20:58+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 568.5,
+        "hn_hot_score": 1274.7,
         "id": "7d9eb8fa8a0d"
       },
       {
-        "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+        "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+        "platform_url": "https://news.ycombinator.com/item?id=49763987",
+        "discussion_url": "https://news.ycombinator.com/item?id=49763987",
+        "score": 376,
+        "comments_count": 172,
+        "publish_time": "2026-09-19T06:41:44+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 314.8,
+        "id": "561368a6112f"
+      },
+      {
+        "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
         "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
         "platform_url": "https://news.ycombinator.com/item?id=49763697",
         "discussion_url": "https://news.ycombinator.com/item?id=49763697",
-        "score": 451,
-        "comments_count": 169,
+        "score": 617,
+        "comments_count": 242,
         "publish_time": "2026-09-19T05:48:50+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 366.4,
-        "id": "1706d9fdc0c1"
+        "hn_hot_score": 504.5,
+        "id": "922b005a1691"
       },
       {
         "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
         "url": "https://code.claude.com/docs/en/changelog",
         "platform_url": "https://news.ycombinator.com/item?id=49760187",
         "discussion_url": "https://news.ycombinator.com/item?id=49760187",
-        "score": 693,
-        "comments_count": 256,
+        "score": 716,
+        "comments_count": 270,
         "publish_time": "2026-09-18T21:00:32+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 561.9,
+        "hn_hot_score": 582.2,
         "id": "2e9d353beb1a"
       },
       {
@@ -176,64 +212,28 @@
         "id": "5e90e6f0bdc2"
       },
       {
-        "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
-        "url": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
-        "platform_url": "https://news.ycombinator.com/item?id=49752614",
-        "discussion_url": "https://news.ycombinator.com/item?id=49752614",
-        "score": 308,
-        "comments_count": 207,
-        "publish_time": "2026-09-18T11:01:44+00:00",
+        "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+        "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+        "platform_url": "https://news.ycombinator.com/item?id=49755533",
+        "discussion_url": "https://news.ycombinator.com/item?id=49755533",
+        "score": 127,
+        "comments_count": 70,
+        "publish_time": "2026-09-18T15:12:07+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 277.7,
-        "id": "da5594a0a105"
+        "hn_hot_score": 109.89999999999999,
+        "id": "1e3674060c4b"
       },
       {
-        "title": "ZCode, the GLM coding agent, silently uploads your Git history",
-        "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-        "platform_url": "https://news.ycombinator.com/item?id=49752422",
-        "discussion_url": "https://news.ycombinator.com/item?id=49752422",
-        "score": 237,
-        "comments_count": 53,
-        "publish_time": "2026-09-18T10:35:28+00:00",
+        "title": "AI chatbots are becoming experts at changing people's minds",
+        "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+        "platform_url": "https://news.ycombinator.com/item?id=49754250",
+        "discussion_url": "https://news.ycombinator.com/item?id=49754250",
+        "score": 124,
+        "comments_count": 100,
+        "publish_time": "2026-09-18T13:39:27+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 181.79999999999998,
-        "id": "0d916ea17133"
-      },
-      {
-        "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-        "platform_url": "https://news.ycombinator.com/item?id=49752056",
-        "discussion_url": "https://news.ycombinator.com/item?id=49752056",
-        "score": 873,
-        "comments_count": 771,
-        "publish_time": "2026-09-18T09:45:07+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 842.3999999999999,
-        "id": "85ad3e7177ab"
-      },
-      {
-        "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-        "url": "https://www.hacktron.ai/blog/hacking-openai",
-        "platform_url": "https://news.ycombinator.com/item?id=49749656",
-        "discussion_url": "https://news.ycombinator.com/item?id=49749656",
-        "score": 479,
-        "comments_count": 203,
-        "publish_time": "2026-09-18T02:47:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 396.19999999999993,
-        "id": "e27d433cd5f6"
-      },
-      {
-        "title": "How to Write with an LLM",
-        "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-        "platform_url": "https://news.ycombinator.com/item?id=49747070",
-        "discussion_url": "https://news.ycombinator.com/item?id=49747070",
-        "score": 547,
-        "comments_count": 360,
-        "publish_time": "2026-09-17T21:48:38+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 490.9,
-        "id": "5f1c5bf5f3f7"
+        "hn_hot_score": 116.8,
+        "id": "3306bc8d1a06"
       }
     ],
     "huggingface": [
@@ -247,10 +247,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 213 · 下载 23,111",
+        "summary": "TrendingScore 248 · 下载 23,111",
         "platform": "huggingface",
-        "score": 224,
-        "trending_score": 213,
+        "score": 259,
+        "trending_score": 248,
         "downloads": 23111,
         "id": "23b48599f178"
       },
@@ -264,10 +264,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 1054 · 下载 1,516,960",
+        "summary": "TrendingScore 1198 · 下载 1,516,960",
         "platform": "huggingface",
-        "score": 1111,
-        "trending_score": 1054,
+        "score": 1272,
+        "trending_score": 1198,
         "downloads": 1516960,
         "id": "42f223336d51"
       },
@@ -282,7 +282,7 @@
         ],
         "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flas",
         "platform": "huggingface",
-        "score": 87,
+        "score": 114,
         "comments_count": 3,
         "id": "ffa0aaa4ffa1"
       },
@@ -297,7 +297,7 @@
         ],
         "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerous and diverse environments for harness rollouts. At this scale, the process yields reusable improvem",
         "platform": "huggingface",
-        "score": 67,
+        "score": 82,
         "comments_count": 3,
         "id": "0cb79e9c1ac9"
       },
@@ -312,7 +312,7 @@
         ],
         "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget. We identify termination-token mismatch between base students and post-trained teachers as an important source of this behavior. Across Qwen3, Llama, and Gemma, the two models can place their stopping probability on different EOS tokens, even when their declared stopping sets are identical. This mismatch can suppress the student's preferred termina",
         "platform": "huggingface",
-        "score": 72,
+        "score": 90,
         "comments_count": 5,
         "id": "4d0e4f0cc7cd"
       },
@@ -327,9 +327,24 @@
         ],
         "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
         "platform": "huggingface",
-        "score": 54,
+        "score": 68,
         "comments_count": 3,
         "id": "41b9551f34e0"
+      },
+      {
+        "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+        "url": "https://huggingface.co/papers/2609.20800",
+        "platform_url": "https://huggingface.co/papers/2609.20800",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.20800.png",
+        "publish_time": "2026-09-16T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pa",
+        "platform": "huggingface",
+        "score": 52,
+        "comments_count": 4,
+        "id": "aae82ccee9ab"
       },
       {
         "title": "[模型] XingChen-AGI/Xing4.0-29B-A4B",
@@ -341,10 +356,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 537 · 下载 7,278",
+        "summary": "TrendingScore 614 · 下载 7,278",
         "platform": "huggingface",
-        "score": 610,
-        "trending_score": 537,
+        "score": 693,
+        "trending_score": 614,
         "downloads": 7278,
         "id": "77fea789a897"
       },
@@ -358,10 +373,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 403 · 下载 0",
+        "summary": "TrendingScore 428 · 下载 0",
         "platform": "huggingface",
-        "score": 416,
-        "trending_score": 403,
+        "score": 444,
+        "trending_score": 428,
         "downloads": 0,
         "id": "0aac9851f6ab"
       },
@@ -376,7 +391,7 @@
         ],
         "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the scientific experience bottleneck. We introduce ScienceIDE, infrastructure for turning the world's scientific code into programmable environments for scientific agents. Guided by expert-defined scientific",
         "platform": "huggingface",
-        "score": 73,
+        "score": 75,
         "comments_count": 3,
         "id": "b1e10ca2ee8a"
       },
@@ -391,7 +406,7 @@
         ],
         "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estimate state values and reduce the variance of policy updates. However, we uncover a systematic failure mode in PPO critics, which we call Value Flattening: state values, estimated from multiple Monte Carlo continuations, change sharply across intermediate states while critic predictions remain comparatively flat. We further observe this phenomenon in a controlled FrozenLake enviro",
         "platform": "huggingface",
-        "score": 62,
+        "score": 63,
         "comments_count": 2,
         "id": "f595035b908a"
       },
@@ -451,7 +466,7 @@
         ],
         "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model's world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this questio",
         "platform": "huggingface",
-        "score": 91,
+        "score": 108,
         "comments_count": 4,
         "id": "144b01f1c611"
       },
@@ -496,7 +511,7 @@
         ],
         "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organizing principle of in-context learning from target-centric prediction to mechanism-oriented joint modeling. Rather than centering the network on the p(y mid x, D_{context}) objective of conventional t",
         "platform": "huggingface",
-        "score": 278,
+        "score": 322,
         "comments_count": 4,
         "id": "f1cdfd401fb5"
       },
@@ -529,24 +544,179 @@
         "score": 266,
         "comments_count": 3,
         "id": "aae164c75538"
-      },
-      {
-        "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
-        "url": "https://huggingface.co/papers/2609.15818",
-        "platform_url": "https://huggingface.co/papers/2609.15818",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15818.png",
-        "publish_time": "2026-09-13T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language model designed for scientific research and engineering workflows, with the goal of expanding the frontier of agent productivity in the real world. This model is trained via a Verifiable Experience Pipeline that connects tool-mediated interactions to executable environments and ex",
-        "platform": "huggingface",
-        "score": 423,
-        "comments_count": 3,
-        "id": "31fcba3c46c4"
       }
     ],
     "bestblogs": [
+      {
+        "title": "#729.OpenAI：多 Agent 让 RSI 更可行",
+        "url": "https://www.bestblogs.dev/article/RAW_05a2a4231",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_05a2a4231",
+        "original_url": "",
+        "resource_id": "RAW_05a2a4231",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027714+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "跨国串门儿计划",
+        "id": "746fc5e7f5b2"
+      },
+      {
+        "title": "陶哲轩启动“开放数学模型计划”：不依附大厂，为数学界打造自己的 AI",
+        "url": "https://www.bestblogs.dev/article/RAW_0568617800",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_0568617800",
+        "original_url": "",
+        "resource_id": "RAW_0568617800",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027696+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "DeepTech深科技",
+        "id": "99fdcef53cee"
+      },
+      {
+        "title": "WorkBuddy/CodeX 都这么强了，企业还要花钱自研智能体吗？",
+        "url": "https://www.bestblogs.dev/article/RAW_c2827cd79f",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_c2827cd79f",
+        "original_url": "",
+        "resource_id": "RAW_c2827cd79f",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027685+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "人人都是产品经理",
+        "id": "1d43cd7d6644"
+      },
+      {
+        "title": "AI 音乐的丰饶与失衡｜AI 破晓",
+        "url": "https://www.bestblogs.dev/article/RAW_28069ff68a",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_28069ff68a",
+        "original_url": "",
+        "resource_id": "RAW_28069ff68a",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027677+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "腾讯研究院",
+        "id": "bb5eb61bc7fa"
+      },
+      {
+        "title": "Claude Code 重构 Projects：引入 Thread 多智能体并行架构与共享记忆",
+        "url": "https://www.bestblogs.dev/article/RAW_2100696009282080778",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2100696009282080778",
+        "original_url": "",
+        "resource_id": "RAW_2100696009282080778",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027673+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "宝玉(@dotey)",
+        "id": "f08a400b866c"
+      },
+      {
+        "title": "Databricks CEO Ali Ghodsi：谈 AI 存在性风险、网络安全与企业本体",
+        "url": "https://www.bestblogs.dev/article/RAW_717b858e3",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_717b858e3",
+        "original_url": "",
+        "resource_id": "RAW_717b858e3",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027667+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "a16z",
+        "id": "5550eb3b9bbc"
+      },
+      {
+        "title": "AGI 最难一战，竟在医院！中国 AI 登上 Science，医生不怕失业还催着上线",
+        "url": "https://www.bestblogs.dev/article/RAW_7cebf67213",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_7cebf67213",
+        "original_url": "",
+        "resource_id": "RAW_7cebf67213",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027659+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "量子位",
+        "id": "5b49b3994320"
+      },
+      {
+        "title": "AI 未能解出的最后一道 IMO 题：风车铺砖与动机化证明",
+        "url": "https://www.bestblogs.dev/article/RAW_e28661762",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_e28661762",
+        "original_url": "",
+        "resource_id": "RAW_e28661762",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027655+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "3Blue1Brown",
+        "id": "9bac46c52e6c"
+      },
+      {
+        "title": "为何扩散模型将主导 AI 推理：Inception 联合创始人兼 CEO Stefano Ermon",
+        "url": "https://www.bestblogs.dev/article/RAW_4819e514b",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_4819e514b",
+        "original_url": "",
+        "resource_id": "RAW_4819e514b",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027651+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "No Priors",
+        "id": "92645a4e9599"
+      },
+      {
+        "title": "究竟有多少项目会真正建成？能源真的是 AI 最大瓶颈吗？——Positron AI 联合创始人访谈",
+        "url": "https://www.bestblogs.dev/article/RAW_dfb8003c8",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_dfb8003c8",
+        "original_url": "",
+        "resource_id": "RAW_dfb8003c8",
+        "cover_url": null,
+        "publish_time": "2026-09-20T05:31:12.027647+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "20VC with Harry Stebbings",
+        "id": "b47e2e0fb231"
+      },
       {
         "title": "于是转身向具身走去｜对话王家伟：深朴智能 00 后首席科学家",
         "url": "https://www.bestblogs.dev/article/RAW_250c216ba2",
@@ -716,179 +886,21 @@
         "score": 92,
         "source_name": "大淘宝技术",
         "id": "8aa5b618498e"
-      },
-      {
-        "title": "为超级智能承保：为你可以起诉的智能体背书 — Rune Kvist，AIUC",
-        "url": "https://www.bestblogs.dev/article/RAW_7eb5439e02",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_7eb5439e02",
-        "original_url": "",
-        "resource_id": "RAW_7eb5439e02",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802370+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Latent.Space",
-        "id": "1cc8b2922456"
-      },
-      {
-        "title": "腾讯开源 BrowserSkill：让 Agent 借用你已登录的真实浏览器",
-        "url": "https://www.bestblogs.dev/article/RAW_2100208718592032854",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_2100208718592032854",
-        "original_url": "",
-        "resource_id": "RAW_2100208718592032854",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802362+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "meng shao(@shao__meng)",
-        "id": "3d5e473700e8"
-      },
-      {
-        "title": "垂类业务如何落地生产级 Agent",
-        "url": "https://www.bestblogs.dev/article/RAW_320db446a0",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_320db446a0",
-        "original_url": "",
-        "resource_id": "RAW_320db446a0",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802358+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "阿里技术",
-        "id": "9cbb52ddf1dd"
-      },
-      {
-        "title": "从编程智能体走向知识智能体：为搜索、分解与编排而设计的 AI",
-        "url": "https://www.bestblogs.dev/article/RAW_1abee6a6f",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_1abee6a6f",
-        "original_url": "",
-        "resource_id": "RAW_1abee6a6f",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802352+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "AI Engineer",
-        "id": "3219a7028fbe"
-      },
-      {
-        "title": "您的下一个 DSL 作者是语言模型",
-        "url": "https://www.bestblogs.dev/article/RAW_1439834210",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_1439834210",
-        "original_url": "",
-        "resource_id": "RAW_1439834210",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802342+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "InfoQ",
-        "id": "8e068addfd7d"
-      },
-      {
-        "title": "美团多业务落地复盘：由浅入深拆解 Agent 评测体系",
-        "url": "https://www.bestblogs.dev/article/RAW_dbde5e8b4f",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_dbde5e8b4f",
-        "original_url": "",
-        "resource_id": "RAW_dbde5e8b4f",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802316+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "dbaplus社群",
-        "id": "7c26ca0ac434"
-      },
-      {
-        "title": "从“做过”到“会做”：用 OpenViking 经验记忆构建 Agent 的进化闭环",
-        "url": "https://www.bestblogs.dev/article/RAW_2a2d5c1862",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_2a2d5c1862",
-        "original_url": "",
-        "resource_id": "RAW_2a2d5c1862",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802308+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "字节跳动技术团队",
-        "id": "e2d6a03e687a"
-      },
-      {
-        "title": "把「达标判定」从大模型手里收回来：Graph Engineering 实践",
-        "url": "https://www.bestblogs.dev/article/RAW_9f8b29d390",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_9f8b29d390",
-        "original_url": "",
-        "resource_id": "RAW_9f8b29d390",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802304+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 93,
-        "source_name": "阿里技术",
-        "id": "85a521037c4a"
-      },
-      {
-        "title": "将 GitHub Copilot 运行时迁移到 Rust，使用 Copilot",
-        "url": "https://www.bestblogs.dev/article/RAW_e1530016ef",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_e1530016ef",
-        "original_url": "",
-        "resource_id": "RAW_e1530016ef",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802299+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "The GitHub Blog",
-        "id": "3f452d617500"
-      },
-      {
-        "title": "我们报告模型失准的框架",
-        "url": "https://www.bestblogs.dev/article/RAW_3a1aa9cb89",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3a1aa9cb89",
-        "original_url": "",
-        "resource_id": "RAW_3a1aa9cb89",
-        "cover_url": null,
-        "publish_time": "2026-09-18T05:20:22.802276+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "OpenAI News",
-        "id": "37f6555267ca"
       }
     ],
     "qbitai": [
+      {
+        "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+        "url": "https://www.qbitai.com/2026/09/492849.html",
+        "platform_url": "https://www.qbitai.com/2026/09/492849.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/89cd4597c70fce3af6c0d68a5d743c11.png",
+        "publish_time": "2026-09-20T02:48:18+00:00",
+        "tags": [
+          "永信至诚"
+        ],
+        "platform": "qbitai",
+        "id": "e5ae10e849cd"
+      },
       {
         "title": "“留给人类阻止AI的时间不多了”",
         "url": "https://www.qbitai.com/2026/09/492755.html",
@@ -1000,20 +1012,238 @@
         ],
         "platform": "qbitai",
         "id": "d73228429a2d"
-      },
-      {
-        "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-        "url": "https://www.qbitai.com/2026/09/492238.html",
-        "platform_url": "https://www.qbitai.com/2026/09/492238.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0013131f0b4a5ead380ed32573a11a30.png",
-        "publish_time": "2026-09-18T13:16:33+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "98f72e0a0e58"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "#729.OpenAI：多 Agent 让 RSI 更可行",
+      "url": "https://www.bestblogs.dev/article/RAW_05a2a4231",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_05a2a4231",
+      "original_url": "",
+      "resource_id": "RAW_05a2a4231",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027714+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "跨国串门儿计划",
+      "id": "746fc5e7f5b2"
+    },
+    {
+      "title": "陶哲轩启动“开放数学模型计划”：不依附大厂，为数学界打造自己的 AI",
+      "url": "https://www.bestblogs.dev/article/RAW_0568617800",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_0568617800",
+      "original_url": "",
+      "resource_id": "RAW_0568617800",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027696+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "DeepTech深科技",
+      "id": "99fdcef53cee"
+    },
+    {
+      "title": "WorkBuddy/CodeX 都这么强了，企业还要花钱自研智能体吗？",
+      "url": "https://www.bestblogs.dev/article/RAW_c2827cd79f",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_c2827cd79f",
+      "original_url": "",
+      "resource_id": "RAW_c2827cd79f",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027685+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "人人都是产品经理",
+      "id": "1d43cd7d6644"
+    },
+    {
+      "title": "AI 音乐的丰饶与失衡｜AI 破晓",
+      "url": "https://www.bestblogs.dev/article/RAW_28069ff68a",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_28069ff68a",
+      "original_url": "",
+      "resource_id": "RAW_28069ff68a",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027677+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "腾讯研究院",
+      "id": "bb5eb61bc7fa"
+    },
+    {
+      "title": "Claude Code 重构 Projects：引入 Thread 多智能体并行架构与共享记忆",
+      "url": "https://www.bestblogs.dev/article/RAW_2100696009282080778",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2100696009282080778",
+      "original_url": "",
+      "resource_id": "RAW_2100696009282080778",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027673+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "宝玉(@dotey)",
+      "id": "f08a400b866c"
+    },
+    {
+      "title": "Databricks CEO Ali Ghodsi：谈 AI 存在性风险、网络安全与企业本体",
+      "url": "https://www.bestblogs.dev/article/RAW_717b858e3",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_717b858e3",
+      "original_url": "",
+      "resource_id": "RAW_717b858e3",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027667+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "a16z",
+      "id": "5550eb3b9bbc"
+    },
+    {
+      "title": "AGI 最难一战，竟在医院！中国 AI 登上 Science，医生不怕失业还催着上线",
+      "url": "https://www.bestblogs.dev/article/RAW_7cebf67213",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_7cebf67213",
+      "original_url": "",
+      "resource_id": "RAW_7cebf67213",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027659+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "量子位",
+      "id": "5b49b3994320"
+    },
+    {
+      "title": "AI 未能解出的最后一道 IMO 题：风车铺砖与动机化证明",
+      "url": "https://www.bestblogs.dev/article/RAW_e28661762",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_e28661762",
+      "original_url": "",
+      "resource_id": "RAW_e28661762",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027655+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "3Blue1Brown",
+      "id": "9bac46c52e6c"
+    },
+    {
+      "title": "为何扩散模型将主导 AI 推理：Inception 联合创始人兼 CEO Stefano Ermon",
+      "url": "https://www.bestblogs.dev/article/RAW_4819e514b",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_4819e514b",
+      "original_url": "",
+      "resource_id": "RAW_4819e514b",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027651+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "No Priors",
+      "id": "92645a4e9599"
+    },
+    {
+      "title": "究竟有多少项目会真正建成？能源真的是 AI 最大瓶颈吗？——Positron AI 联合创始人访谈",
+      "url": "https://www.bestblogs.dev/article/RAW_dfb8003c8",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_dfb8003c8",
+      "original_url": "",
+      "resource_id": "RAW_dfb8003c8",
+      "cover_url": null,
+      "publish_time": "2026-09-20T05:31:12.027647+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "20VC with Harry Stebbings",
+      "id": "b47e2e0fb231"
+    },
+    {
+      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+      "url": "https://www.qbitai.com/2026/09/492849.html",
+      "platform_url": "https://www.qbitai.com/2026/09/492849.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/89cd4597c70fce3af6c0d68a5d743c11.png",
+      "publish_time": "2026-09-20T02:48:18+00:00",
+      "tags": [
+        "永信至诚"
+      ],
+      "platform": "qbitai",
+      "id": "e5ae10e849cd"
+    },
+    {
+      "title": "阿里Qwen3.8实时翻译延迟降至2.3秒，谷歌Gemini 4 Pro性能大涨 · 0920-667期",
+      "url": "https://radarai.top/updates/brief-20260920-0800",
+      "platform_url": "https://radarai.top/updates/brief-20260920-0800",
+      "cover_url": null,
+      "publish_time": "2026-09-20T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "cc2b5e8e3900"
+    },
+    {
+      "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "platform_url": "https://news.ycombinator.com/item?id=49768921",
+      "discussion_url": "https://news.ycombinator.com/item?id=49768921",
+      "score": 149,
+      "comments_count": 44,
+      "publish_time": "2026-09-19T18:21:30+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 117.5,
+      "id": "7a9286987854"
+    },
+    {
+      "title": "I think you should almost never use AI to write",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "platform_url": "https://news.ycombinator.com/item?id=49767937",
+      "discussion_url": "https://news.ycombinator.com/item?id=49767937",
+      "score": 272,
+      "comments_count": 136,
+      "publish_time": "2026-09-19T16:35:24+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 231.2,
+      "id": "287b4fcede32"
+    },
+    {
+      "title": "Anthropic自建湿实验室，谷歌Gemini攻入真实公司，AI信任危机加剧 · 0920-666期",
+      "url": "https://radarai.top/updates/brief-20260920-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260920-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-19T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "7cfa9b527dbe"
+    },
     {
       "title": "于是转身向具身走去｜对话王家伟：深朴智能 00 后首席科学家",
       "url": "https://www.bestblogs.dev/article/RAW_250c216ba2",
@@ -1240,11 +1470,11 @@
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
       "platform_url": "https://news.ycombinator.com/item?id=49764791",
       "discussion_url": "https://news.ycombinator.com/item?id=49764791",
-      "score": 648,
-      "comments_count": 383,
+      "score": 1476,
+      "comments_count": 805,
       "publish_time": "2026-09-19T09:20:58+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 568.5,
+      "hn_hot_score": 1274.7,
       "id": "7d9eb8fa8a0d"
     },
     {
@@ -1295,16 +1525,28 @@
       "id": "955ba5c14a60"
     },
     {
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "platform_url": "https://news.ycombinator.com/item?id=49763987",
+      "discussion_url": "https://news.ycombinator.com/item?id=49763987",
+      "score": 376,
+      "comments_count": 172,
+      "publish_time": "2026-09-19T06:41:44+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 314.8,
+      "id": "561368a6112f"
+    },
+    {
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
       "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
       "platform_url": "https://news.ycombinator.com/item?id=49763697",
       "discussion_url": "https://news.ycombinator.com/item?id=49763697",
-      "score": 451,
-      "comments_count": 169,
+      "score": 617,
+      "comments_count": 242,
       "publish_time": "2026-09-19T05:48:50+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 366.4,
-      "id": "1706d9fdc0c1"
+      "hn_hot_score": 504.5,
+      "id": "922b005a1691"
     },
     {
       "title": "华为Peerium架构对决Figure机器人零样本进家庭，AI拐点已至 · 0919-664期",
@@ -1322,11 +1564,11 @@
       "url": "https://code.claude.com/docs/en/changelog",
       "platform_url": "https://news.ycombinator.com/item?id=49760187",
       "discussion_url": "https://news.ycombinator.com/item?id=49760187",
-      "score": 693,
-      "comments_count": 256,
+      "score": 716,
+      "comments_count": 270,
       "publish_time": "2026-09-18T21:00:32+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 561.9,
+      "hn_hot_score": 582.2,
       "id": "2e9d353beb1a"
     },
     {
@@ -1390,50 +1632,28 @@
       "id": "d73228429a2d"
     },
     {
-      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "url": "https://www.qbitai.com/2026/09/492238.html",
-      "platform_url": "https://www.qbitai.com/2026/09/492238.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0013131f0b4a5ead380ed32573a11a30.png",
-      "publish_time": "2026-09-18T13:16:33+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "98f72e0a0e58"
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "platform_url": "https://news.ycombinator.com/item?id=49755533",
+      "discussion_url": "https://news.ycombinator.com/item?id=49755533",
+      "score": 127,
+      "comments_count": 70,
+      "publish_time": "2026-09-18T15:12:07+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 109.89999999999999,
+      "id": "1e3674060c4b"
     },
     {
-      "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
-      "url": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
-      "platform_url": "https://news.ycombinator.com/item?id=49752614",
-      "discussion_url": "https://news.ycombinator.com/item?id=49752614",
-      "score": 308,
-      "comments_count": 207,
-      "publish_time": "2026-09-18T11:01:44+00:00",
+      "title": "AI chatbots are becoming experts at changing people's minds",
+      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+      "platform_url": "https://news.ycombinator.com/item?id=49754250",
+      "discussion_url": "https://news.ycombinator.com/item?id=49754250",
+      "score": 124,
+      "comments_count": 100,
+      "publish_time": "2026-09-18T13:39:27+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 277.7,
-      "id": "da5594a0a105"
-    },
-    {
-      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "platform_url": "https://news.ycombinator.com/item?id=49752422",
-      "discussion_url": "https://news.ycombinator.com/item?id=49752422",
-      "score": 237,
-      "comments_count": 53,
-      "publish_time": "2026-09-18T10:35:28+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 181.79999999999998,
-      "id": "0d916ea17133"
-    },
-    {
-      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "platform_url": "https://news.ycombinator.com/item?id=49752056",
-      "discussion_url": "https://news.ycombinator.com/item?id=49752056",
-      "score": 873,
-      "comments_count": 771,
-      "publish_time": "2026-09-18T09:45:07+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 842.3999999999999,
-      "id": "85ad3e7177ab"
+      "hn_hot_score": 116.8,
+      "id": "3306bc8d1a06"
     },
     {
       "title": "27B模型压到5.9GB仍保98%性能，万个Agent并行挑战千禧年难题 · 0918-662期",
@@ -1445,188 +1665,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "a431982b7d69"
-    },
-    {
-      "title": "为超级智能承保：为你可以起诉的智能体背书 — Rune Kvist，AIUC",
-      "url": "https://www.bestblogs.dev/article/RAW_7eb5439e02",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_7eb5439e02",
-      "original_url": "",
-      "resource_id": "RAW_7eb5439e02",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802370+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Latent.Space",
-      "id": "1cc8b2922456"
-    },
-    {
-      "title": "腾讯开源 BrowserSkill：让 Agent 借用你已登录的真实浏览器",
-      "url": "https://www.bestblogs.dev/article/RAW_2100208718592032854",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_2100208718592032854",
-      "original_url": "",
-      "resource_id": "RAW_2100208718592032854",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802362+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "meng shao(@shao__meng)",
-      "id": "3d5e473700e8"
-    },
-    {
-      "title": "垂类业务如何落地生产级 Agent",
-      "url": "https://www.bestblogs.dev/article/RAW_320db446a0",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_320db446a0",
-      "original_url": "",
-      "resource_id": "RAW_320db446a0",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802358+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "阿里技术",
-      "id": "9cbb52ddf1dd"
-    },
-    {
-      "title": "从编程智能体走向知识智能体：为搜索、分解与编排而设计的 AI",
-      "url": "https://www.bestblogs.dev/article/RAW_1abee6a6f",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_1abee6a6f",
-      "original_url": "",
-      "resource_id": "RAW_1abee6a6f",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802352+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "AI Engineer",
-      "id": "3219a7028fbe"
-    },
-    {
-      "title": "您的下一个 DSL 作者是语言模型",
-      "url": "https://www.bestblogs.dev/article/RAW_1439834210",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_1439834210",
-      "original_url": "",
-      "resource_id": "RAW_1439834210",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802342+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "InfoQ",
-      "id": "8e068addfd7d"
-    },
-    {
-      "title": "美团多业务落地复盘：由浅入深拆解 Agent 评测体系",
-      "url": "https://www.bestblogs.dev/article/RAW_dbde5e8b4f",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_dbde5e8b4f",
-      "original_url": "",
-      "resource_id": "RAW_dbde5e8b4f",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802316+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "dbaplus社群",
-      "id": "7c26ca0ac434"
-    },
-    {
-      "title": "从“做过”到“会做”：用 OpenViking 经验记忆构建 Agent 的进化闭环",
-      "url": "https://www.bestblogs.dev/article/RAW_2a2d5c1862",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_2a2d5c1862",
-      "original_url": "",
-      "resource_id": "RAW_2a2d5c1862",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802308+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "字节跳动技术团队",
-      "id": "e2d6a03e687a"
-    },
-    {
-      "title": "把「达标判定」从大模型手里收回来：Graph Engineering 实践",
-      "url": "https://www.bestblogs.dev/article/RAW_9f8b29d390",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_9f8b29d390",
-      "original_url": "",
-      "resource_id": "RAW_9f8b29d390",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802304+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 93,
-      "source_name": "阿里技术",
-      "id": "85a521037c4a"
-    },
-    {
-      "title": "将 GitHub Copilot 运行时迁移到 Rust，使用 Copilot",
-      "url": "https://www.bestblogs.dev/article/RAW_e1530016ef",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_e1530016ef",
-      "original_url": "",
-      "resource_id": "RAW_e1530016ef",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802299+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "The GitHub Blog",
-      "id": "3f452d617500"
-    },
-    {
-      "title": "我们报告模型失准的框架",
-      "url": "https://www.bestblogs.dev/article/RAW_3a1aa9cb89",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3a1aa9cb89",
-      "original_url": "",
-      "resource_id": "RAW_3a1aa9cb89",
-      "cover_url": null,
-      "publish_time": "2026-09-18T05:20:22.802276+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "OpenAI News",
-      "id": "37f6555267ca"
-    },
-    {
-      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "platform_url": "https://news.ycombinator.com/item?id=49749656",
-      "discussion_url": "https://news.ycombinator.com/item?id=49749656",
-      "score": 479,
-      "comments_count": 203,
-      "publish_time": "2026-09-18T02:47:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 396.19999999999993,
-      "id": "e27d433cd5f6"
     },
     {
       "title": "每周 AI 热点 · 2026-09-18",
@@ -1651,18 +1689,6 @@
       "id": "d1690fb0bd28"
     },
     {
-      "title": "How to Write with an LLM",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "platform_url": "https://news.ycombinator.com/item?id=49747070",
-      "discussion_url": "https://news.ycombinator.com/item?id=49747070",
-      "score": 547,
-      "comments_count": 360,
-      "publish_time": "2026-09-17T21:48:38+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 490.9,
-      "id": "5f1c5bf5f3f7"
-    },
-    {
       "title": "智谱10万国产卡跑通GLM造GLM，vivo端侧30B模型落地 · 0918-660期",
       "url": "https://radarai.top/updates/brief-20260918-0000",
       "platform_url": "https://radarai.top/updates/brief-20260918-0000",
@@ -1685,17 +1711,6 @@
       "id": "8bf2f1693b78"
     },
     {
-      "title": "Claude 聊天与 Cowork 合并上线 · 0917-658期",
-      "url": "https://radarai.top/updates/brief-20260917-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260917-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-17T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "9d16e755bb89"
-    },
-    {
       "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
       "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
@@ -1705,10 +1720,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 213 · 下载 23,111",
+      "summary": "TrendingScore 248 · 下载 23,111",
       "platform": "huggingface",
-      "score": 224,
-      "trending_score": 213,
+      "score": 259,
+      "trending_score": 248,
       "downloads": 23111,
       "id": "23b48599f178"
     },
@@ -1722,10 +1737,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 1054 · 下载 1,516,960",
+      "summary": "TrendingScore 1198 · 下载 1,516,960",
       "platform": "huggingface",
-      "score": 1111,
-      "trending_score": 1054,
+      "score": 1272,
+      "trending_score": 1198,
       "downloads": 1516960,
       "id": "42f223336d51"
     },
@@ -1740,7 +1755,7 @@
       ],
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flas",
       "platform": "huggingface",
-      "score": 87,
+      "score": 114,
       "comments_count": 3,
       "id": "ffa0aaa4ffa1"
     },
@@ -1755,7 +1770,7 @@
       ],
       "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerous and diverse environments for harness rollouts. At this scale, the process yields reusable improvem",
       "platform": "huggingface",
-      "score": 67,
+      "score": 82,
       "comments_count": 3,
       "id": "0cb79e9c1ac9"
     },
@@ -1770,7 +1785,7 @@
       ],
       "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget. We identify termination-token mismatch between base students and post-trained teachers as an important source of this behavior. Across Qwen3, Llama, and Gemma, the two models can place their stopping probability on different EOS tokens, even when their declared stopping sets are identical. This mismatch can suppress the student's preferred termina",
       "platform": "huggingface",
-      "score": 72,
+      "score": 90,
       "comments_count": 5,
       "id": "4d0e4f0cc7cd"
     },
@@ -1785,20 +1800,24 @@
       ],
       "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
       "platform": "huggingface",
-      "score": 54,
+      "score": 68,
       "comments_count": 3,
       "id": "41b9551f34e0"
     },
     {
-      "title": "豆包2.1 Pro与飞书8.0让Agent成团队协作者，Jev模型提速200倍 · 0917-657期",
-      "url": "https://radarai.top/updates/brief-20260917-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260917-0000",
-      "cover_url": null,
-      "publish_time": "2026-09-16T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "540927563f2b"
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://huggingface.co/papers/2609.20800",
+      "platform_url": "https://huggingface.co/papers/2609.20800",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.20800.png",
+      "publish_time": "2026-09-16T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pa",
+      "platform": "huggingface",
+      "score": 52,
+      "comments_count": 4,
+      "id": "aae82ccee9ab"
     },
     {
       "title": "[模型] XingChen-AGI/Xing4.0-29B-A4B",
@@ -1810,10 +1829,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 537 · 下载 7,278",
+      "summary": "TrendingScore 614 · 下载 7,278",
       "platform": "huggingface",
-      "score": 610,
-      "trending_score": 537,
+      "score": 693,
+      "trending_score": 614,
       "downloads": 7278,
       "id": "77fea789a897"
     },
@@ -1827,10 +1846,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 403 · 下载 0",
+      "summary": "TrendingScore 428 · 下载 0",
       "platform": "huggingface",
-      "score": 416,
-      "trending_score": 403,
+      "score": 444,
+      "trending_score": 428,
       "downloads": 0,
       "id": "0aac9851f6ab"
     },
@@ -1845,7 +1864,7 @@
       ],
       "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the scientific experience bottleneck. We introduce ScienceIDE, infrastructure for turning the world's scientific code into programmable environments for scientific agents. Guided by expert-defined scientific",
       "platform": "huggingface",
-      "score": 73,
+      "score": 75,
       "comments_count": 3,
       "id": "b1e10ca2ee8a"
     },
@@ -1860,7 +1879,7 @@
       ],
       "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estimate state values and reduce the variance of policy updates. However, we uncover a systematic failure mode in PPO critics, which we call Value Flattening: state values, estimated from multiple Monte Carlo continuations, change sharply across intermediate states while critic predictions remain comparatively flat. We further observe this phenomenon in a controlled FrozenLake enviro",
       "platform": "huggingface",
-      "score": 62,
+      "score": 63,
       "comments_count": 2,
       "id": "f595035b908a"
     },
@@ -1920,7 +1939,7 @@
       ],
       "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model's world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this questio",
       "platform": "huggingface",
-      "score": 91,
+      "score": 108,
       "comments_count": 4,
       "id": "144b01f1c611"
     },
@@ -1965,7 +1984,7 @@
       ],
       "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organizing principle of in-context learning from target-centric prediction to mechanism-oriented joint modeling. Rather than centering the network on the p(y mid x, D_{context}) objective of conventional t",
       "platform": "huggingface",
-      "score": 278,
+      "score": 322,
       "comments_count": 4,
       "id": "f1cdfd401fb5"
     },
@@ -1998,28 +2017,13 @@
       "score": 266,
       "comments_count": 3,
       "id": "aae164c75538"
-    },
-    {
-      "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
-      "url": "https://huggingface.co/papers/2609.15818",
-      "platform_url": "https://huggingface.co/papers/2609.15818",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.15818.png",
-      "publish_time": "2026-09-13T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language model designed for scientific research and engineering workflows, with the goal of expanding the frontier of agent productivity in the real world. This model is trained via a Verifiable Experience Pipeline that connects tool-mediated interactions to executable environments and ex",
-      "platform": "huggingface",
-      "score": 423,
-      "comments_count": 3,
-      "id": "31fcba3c46c4"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 12.0,
+      "avg_response_time": 23.5,
       "cover_success_rate": 35.7
     },
     "platforms": [
@@ -2028,73 +2032,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-19T15:40:31.512269+00:00"
+        "last_crawl": "2026-09-20T05:29:45.396295+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-19T15:40:59.216545+00:00"
+        "last_crawl": "2026-09-20T05:31:10.170456+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-19T15:41:00.377443+00:00"
+        "last_crawl": "2026-09-20T05:31:11.388281+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-19T15:41:14.313656+00:00"
+        "last_crawl": "2026-09-20T05:31:25.991223+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-19T15:41:14.500260+00:00"
+        "last_crawl": "2026-09-20T05:31:26.175196+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-19T15:40:31.512274+00:00",
+        "timestamp": "2026-09-20T05:29:45.396300+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 16.93701
+        "latency": 16.820448
       },
       {
-        "timestamp": "2026-09-19T15:40:59.216551+00:00",
+        "timestamp": "2026-09-20T05:31:10.170461+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 27.704269
+        "latency": 84.774153
       },
       {
-        "timestamp": "2026-09-19T15:41:00.377449+00:00",
+        "timestamp": "2026-09-20T05:31:11.388285+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.160892
+        "latency": 1.217816
       },
       {
-        "timestamp": "2026-09-19T15:41:14.313662+00:00",
+        "timestamp": "2026-09-20T05:31:25.991229+00:00",
         "platform": "bestblogs",
         "status": "success",
         "items_collected": 20,
-        "latency": 13.936204
+        "latency": 14.602937
       },
       {
-        "timestamp": "2026-09-19T15:41:14.500273+00:00",
+        "timestamp": "2026-09-20T05:31:26.175207+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.186604
+        "latency": 0.183972
       }
     ]
   }
