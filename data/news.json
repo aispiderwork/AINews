@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-23T05:18:56.925164+00:00",
+  "update_time": "2026-09-23T16:31:11.826589+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "小米开源全模态模型MiMo-V2.6 Pro · 0924-678期",
+        "url": "https://radarai.top/updates/brief-20260924-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260924-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-23T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "c1de0020dedc"
+      },
+      {
+        "title": "GPT-6与Claude Opus 5.5同日降价 · 0923-677期",
+        "url": "https://radarai.top/updates/brief-20260923-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260923-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-23T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "4399c9a53e29"
+      },
       {
         "title": "GPT-6提示词缓存最高省90%成本 · 0923-676期",
         "url": "https://radarai.top/updates/brief-20260923-0800",
@@ -90,41 +112,31 @@
         "summary": "",
         "platform": "radarai",
         "id": "0314fbf531d3"
-      },
-      {
-        "title": "阶跃星辰600B稀疏MoE重返第一梯队，通义同传延迟压至2.3秒 · 0920-668期",
-        "url": "https://radarai.top/updates/brief-20260920-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260920-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-20T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "32baae16620c"
-      },
-      {
-        "title": "阿里Qwen3.8实时翻译延迟降至2.3秒，谷歌Gemini 4 Pro性能大涨 · 0920-667期",
-        "url": "https://radarai.top/updates/brief-20260920-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260920-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-20T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "cc2b5e8e3900"
       }
     ],
     "hackernews": [
+      {
+        "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+        "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+        "platform_url": "https://news.ycombinator.com/item?id=49814947",
+        "discussion_url": "https://news.ycombinator.com/item?id=49814947",
+        "score": 347,
+        "comments_count": 190,
+        "publish_time": "2026-09-23T12:15:33+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 299.9,
+        "id": "369d070d8d25"
+      },
       {
         "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
         "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
         "platform_url": "https://news.ycombinator.com/item?id=49806430",
         "discussion_url": "https://news.ycombinator.com/item?id=49806430",
-        "score": 527,
-        "comments_count": 258,
+        "score": 820,
+        "comments_count": 437,
         "publish_time": "2026-09-22T19:03:38+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 446.29999999999995,
+        "hn_hot_score": 705.1,
         "id": "976075386374"
       },
       {
@@ -132,23 +144,35 @@
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
         "platform_url": "https://news.ycombinator.com/item?id=49805509",
         "discussion_url": "https://news.ycombinator.com/item?id=49805509",
-        "score": 1356,
-        "comments_count": 660,
+        "score": 1668,
+        "comments_count": 800,
         "publish_time": "2026-09-22T18:00:34+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1147.1999999999998,
+        "hn_hot_score": 1407.6,
         "id": "8d4bb53ad185"
+      },
+      {
+        "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+        "platform_url": "https://news.ycombinator.com/item?id=49804316",
+        "discussion_url": "https://news.ycombinator.com/item?id=49804316",
+        "score": 319,
+        "comments_count": 101,
+        "publish_time": "2026-09-22T16:51:31+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 253.59999999999997,
+        "id": "58acabf80e0f"
       },
       {
         "title": "Claude Opus 5.5",
         "url": "https://www.anthropic.com/claude-opus-5-5",
         "platform_url": "https://news.ycombinator.com/item?id=49803892",
         "discussion_url": "https://news.ycombinator.com/item?id=49803892",
-        "score": 1367,
-        "comments_count": 869,
+        "score": 1689,
+        "comments_count": 1031,
         "publish_time": "2026-09-22T16:29:05+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1217.6,
+        "hn_hot_score": 1491.6,
         "id": "9049f412617a"
       },
       {
@@ -156,11 +180,11 @@
         "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
         "platform_url": "https://news.ycombinator.com/item?id=49802161",
         "discussion_url": "https://news.ycombinator.com/item?id=49802161",
-        "score": 275,
-        "comments_count": 199,
+        "score": 306,
+        "comments_count": 215,
         "publish_time": "2026-09-22T14:42:59+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 252.2,
+        "hn_hot_score": 278.7,
         "id": "0c9f1f4ca760"
       },
       {
@@ -168,11 +192,11 @@
         "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
         "platform_url": "https://news.ycombinator.com/item?id=49801324",
         "discussion_url": "https://news.ycombinator.com/item?id=49801324",
-        "score": 610,
-        "comments_count": 373,
+        "score": 706,
+        "comments_count": 415,
         "publish_time": "2026-09-22T13:52:15+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 538.9,
+        "hn_hot_score": 618.7,
         "id": "56230518961d"
       },
       {
@@ -192,11 +216,11 @@
         "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
         "platform_url": "https://news.ycombinator.com/item?id=49797982",
         "discussion_url": "https://news.ycombinator.com/item?id=49797982",
-        "score": 809,
-        "comments_count": 651,
+        "score": 845,
+        "comments_count": 682,
         "publish_time": "2026-09-22T08:04:55+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 761.5999999999999,
+        "hn_hot_score": 796.1,
         "id": "ecbc3e679869"
       },
       {
@@ -204,39 +228,30 @@
         "url": "https://poloclub.github.io/transformer-explainer/",
         "platform_url": "https://news.ycombinator.com/item?id=49792342",
         "discussion_url": "https://news.ycombinator.com/item?id=49792342",
-        "score": 603,
-        "comments_count": 87,
+        "score": 623,
+        "comments_count": 88,
         "publish_time": "2026-09-21T19:43:49+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 448.2,
+        "hn_hot_score": 462.49999999999994,
         "id": "77eda0d8bcf5"
-      },
-      {
-        "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-        "url": "https://linear.app/now/ci-bottleneck-reworked",
-        "platform_url": "https://news.ycombinator.com/item?id=49792067",
-        "discussion_url": "https://news.ycombinator.com/item?id=49792067",
-        "score": 311,
-        "comments_count": 386,
-        "publish_time": "2026-09-21T19:23:33+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 333.5,
-        "id": "7869dc1a6002"
-      },
-      {
-        "title": "US halts flights at busy East Coast airports, says fiber line cut",
-        "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
-        "platform_url": "https://news.ycombinator.com/item?id=49791509",
-        "discussion_url": "https://news.ycombinator.com/item?id=49791509",
-        "score": 217,
-        "comments_count": 123,
-        "publish_time": "2026-09-21T18:41:59+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 188.79999999999998,
-        "id": "86bc0f141f43"
       }
     ],
     "huggingface": [
+      {
+        "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+        "url": "https://huggingface.co/papers/2609.25804",
+        "platform_url": "https://huggingface.co/papers/2609.25804",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.25804.png",
+        "publish_time": "2026-09-21T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them measure",
+        "platform": "huggingface",
+        "score": 110,
+        "comments_count": 4,
+        "id": "6023f3dcc6cc"
+      },
       {
         "title": "[模型] XiaomiMiMo/MiMo-V2.6-Flash-RL",
         "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
@@ -247,11 +262,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 390 · 下载 2,641",
+        "summary": "TrendingScore 411 · 下载 13,243",
         "platform": "huggingface",
-        "score": 396,
-        "trending_score": 390,
-        "downloads": 2641,
+        "score": 416,
+        "trending_score": 411,
+        "downloads": 13243,
         "id": "73569b31a5bd"
       },
       {
@@ -264,11 +279,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 395 · 下载 985",
+        "summary": "TrendingScore 427 · 下载 4,070",
         "platform": "huggingface",
-        "score": 402,
-        "trending_score": 395,
-        "downloads": 985,
+        "score": 436,
+        "trending_score": 427,
+        "downloads": 4070,
         "id": "8d643759d087"
       },
       {
@@ -297,7 +312,7 @@
         ],
         "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different",
         "platform": "huggingface",
-        "score": 113,
+        "score": 115,
         "comments_count": 3,
         "id": "1646ab0d30d4"
       },
@@ -327,7 +342,7 @@
         ],
         "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over extracted text incurs high token costs and hallucination risk. We present Document Retrieval-Aware Chun",
         "platform": "huggingface",
-        "score": 51,
+        "score": 52,
         "comments_count": 4,
         "id": "23e619f7d9b7"
       },
@@ -342,7 +357,7 @@
         ],
         "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through",
         "platform": "huggingface",
-        "score": 36,
+        "score": 40,
         "comments_count": 3,
         "id": "5b64ea0ddf99"
       },
@@ -357,9 +372,39 @@
         ],
         "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limitations with rubric-based scoring. We first establish empirically that prompting a vision-language ju",
         "platform": "huggingface",
-        "score": 37,
-        "comments_count": 1,
+        "score": 59,
+        "comments_count": 2,
         "id": "c4f31d01a8c3"
+      },
+      {
+        "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+        "url": "https://huggingface.co/papers/2609.24981",
+        "platform_url": "https://huggingface.co/papers/2609.24981",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.24981.png",
+        "publish_time": "2026-09-20T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically rich space that encodes cross-view structure. Rather than adding geometry as another output, we repara",
+        "platform": "huggingface",
+        "score": 36,
+        "comments_count": 3,
+        "id": "82e77ab842e4"
+      },
+      {
+        "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+        "url": "https://huggingface.co/papers/2609.24058",
+        "platform_url": "https://huggingface.co/papers/2609.24058",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.24058.png",
+        "publish_time": "2026-09-20T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scripts. In this work, we pursue an all-in-one multilingual recognizer that is simpler than per-languag",
+        "platform": "huggingface",
+        "score": 35,
+        "comments_count": 2,
+        "id": "fa97f972c68d"
       },
       {
         "title": "[模型] Altworld/Hemmingway-1",
@@ -371,11 +416,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 496 · 下载 2,745",
+        "summary": "TrendingScore 537 · 下载 3,787",
         "platform": "huggingface",
-        "score": 507,
-        "trending_score": 496,
-        "downloads": 2745,
+        "score": 550,
+        "trending_score": 537,
+        "downloads": 3787,
         "id": "e7c3f2289e0a"
       },
       {
@@ -389,8 +434,8 @@
         ],
         "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (GAMs), a new paradigm of robot foundation models built with 3D grounding. GAM can be conditioned usin",
         "platform": "huggingface",
-        "score": 51,
-        "comments_count": 2,
+        "score": 75,
+        "comments_count": 3,
         "id": "40442df5650b"
       },
       {
@@ -419,7 +464,7 @@
         ],
         "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning and teaching. Its instruction-tuning corpus combines over 100 educational resources and general instr",
         "platform": "huggingface",
-        "score": 128,
+        "score": 141,
         "comments_count": 3,
         "id": "35d1f2535455"
       },
@@ -497,55 +542,6 @@
         "score": 25,
         "comments_count": 2,
         "id": "eafb993039d5"
-      },
-      {
-        "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-        "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-        "cover_url": null,
-        "publish_time": "2026-09-16T23:41:18.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 324 · 下载 43,477",
-        "platform": "huggingface",
-        "score": 339,
-        "trending_score": 324,
-        "downloads": 43477,
-        "id": "23b48599f178"
-      },
-      {
-        "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "cover_url": null,
-        "publish_time": "2026-09-16T23:40:56.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 1740 · 下载 2,569,604",
-        "platform": "huggingface",
-        "score": 1899,
-        "trending_score": 1740,
-        "downloads": 2569604,
-        "id": "42f223336d51"
-      },
-      {
-        "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-        "url": "https://huggingface.co/papers/2609.19969",
-        "platform_url": "https://huggingface.co/papers/2609.19969",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.19969.png",
-        "publish_time": "2026-09-16T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flas",
-        "platform": "huggingface",
-        "score": 145,
-        "comments_count": 4,
-        "id": "ffa0aaa4ffa1"
       }
     ],
     "bestblogs": [
@@ -892,130 +888,290 @@
     ],
     "qbitai": [
       {
-        "title": "Claude Opus 5.5突袭！68万行代码一天迁完，API价格打8折",
-        "url": "https://www.qbitai.com/2026/09/496221.html",
-        "platform_url": "https://www.qbitai.com/2026/09/496221.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/93e144ff3b8ebe6aecc5ea19017cb2a1.webp",
-        "publish_time": "2026-09-23T04:59:29+00:00",
+        "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
+        "url": "https://www.qbitai.com/2026/09/496609.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496609.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/47e8cf2cbccf0677048df959b3ee4162.jpeg",
+        "publish_time": "2026-09-23T10:35:16+00:00",
         "tags": [
-          "AI",
-          "Claude"
+          "联想"
         ],
         "platform": "qbitai",
-        "id": "b4640d4f30a0"
+        "id": "093d0d338bbe"
       },
       {
-        "title": "刷视频也能教会机器人干活！1200亿tokens人类动作预训练，误差按幂律下降",
-        "url": "https://www.qbitai.com/2026/09/496129.html",
-        "platform_url": "https://www.qbitai.com/2026/09/496129.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/daf310be8097bd9066693b2947eb984d.webp",
-        "publish_time": "2026-09-23T04:25:12+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "ec1339985de4"
-      },
-      {
-        "title": "滴滴自动驾驶连获全国工商联及北京市荣誉榜单认可",
-        "url": "https://www.qbitai.com/2026/09/496124.html",
-        "platform_url": "https://www.qbitai.com/2026/09/496124.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/49c6c094b6821f801027cfecf614afdd.jpeg",
-        "publish_time": "2026-09-23T03:12:31+00:00",
+        "title": "让Token生产更高效：异构混推的关键技术演进与创新实践",
+        "url": "https://www.qbitai.com/2026/09/496578.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496578.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8a031c87bdbebc58dff73c4bf7e368ea.jpeg",
+        "publish_time": "2026-09-23T09:56:53+00:00",
         "tags": [
-          "滴滴"
-        ],
-        "platform": "qbitai",
-        "id": "2a66260e8819"
-      },
-      {
-        "title": "华为全新智驾上车，全域L3架构，岚图最强旗舰MPV 42万开卖",
-        "url": "https://www.qbitai.com/2026/09/495959.html",
-        "platform_url": "https://www.qbitai.com/2026/09/495959.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/a0929df85132b65d68fcd669e8919839.png",
-        "publish_time": "2026-09-23T01:00:54+00:00",
-        "tags": [
-          "岚图梦想家9",
-          "岚图汽车",
-          "车圈最新认知"
-        ],
-        "platform": "qbitai",
-        "id": "f7fee32245ed"
-      },
-      {
-        "title": "陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产",
-        "url": "https://www.qbitai.com/2026/09/494429.html",
-        "platform_url": "https://www.qbitai.com/2026/09/494429.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/35f9612fa811e42781c1ba6622fa3ba6.gif",
-        "publish_time": "2026-09-22T15:59:35+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "972e47b48a42"
-      },
-      {
-        "title": "Agent时代，CPU的价值该重估了",
-        "url": "https://www.qbitai.com/2026/09/494430.html",
-        "platform_url": "https://www.qbitai.com/2026/09/494430.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/fd3f1cad639a6818c754503ac5b8f35a.webp",
-        "publish_time": "2026-09-22T15:46:54+00:00",
-        "tags": [
-          "Agent",
-          "CPU",
-          "英特尔"
-        ],
-        "platform": "qbitai",
-        "id": "3c80da6bb79d"
-      },
-      {
-        "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
-        "url": "https://www.qbitai.com/2026/09/494420.html",
-        "platform_url": "https://www.qbitai.com/2026/09/494420.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/63841b5b3268db5b106ba0fdecb145b4.jpeg",
-        "publish_time": "2026-09-22T14:28:59+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "2487dc40c55e"
-      },
-      {
-        "title": "讲真，我没看出这图是AI做的，更没想到是国产AI做的",
-        "url": "https://www.qbitai.com/2026/09/494263.html",
-        "platform_url": "https://www.qbitai.com/2026/09/494263.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/ee137cd9d180565a7ba58918d6eafe1c.webp",
-        "publish_time": "2026-09-22T13:57:10+00:00",
-        "tags": [
-          "SenseNova",
-          "SenseNova U1 Pro",
+          "token",
           "商汤科技"
         ],
         "platform": "qbitai",
-        "id": "f5e5fb19d670"
+        "id": "7dc37de08948"
       },
       {
-        "title": "WebArena作者Shuyan Zhou入职Meta超级智能实验室",
-        "url": "https://www.qbitai.com/2026/09/493653.html",
-        "platform_url": "https://www.qbitai.com/2026/09/493653.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e0388252a6fd7583ed6f19fc3bdd5fdc.png",
-        "publish_time": "2026-09-22T11:58:53+00:00",
+        "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+        "url": "https://www.qbitai.com/2026/09/496493.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496493.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e1886abac2d01204efb311380b6365a6.png",
+        "publish_time": "2026-09-23T09:50:26+00:00",
         "tags": [
-          "AI浏览器",
-          "Meta"
+          "汇智智能"
         ],
         "platform": "qbitai",
-        "id": "59365f7a8026"
+        "id": "2c074ba491c0"
       },
       {
-        "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
-        "url": "https://www.qbitai.com/2026/09/494120.html",
-        "platform_url": "https://www.qbitai.com/2026/09/494120.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/2736013aed962921cf97ee5f5c5a234e.jpeg",
-        "publish_time": "2026-09-22T10:06:34+00:00",
+        "title": "达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
+        "url": "https://www.qbitai.com/2026/09/496494.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496494.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5c308e8c47ca66bc9a61eb82d6534ec6.png",
+        "publish_time": "2026-09-23T09:46:57+00:00",
         "tags": [
-          "基元律动"
+          "融资",
+          "达卯科技"
         ],
         "platform": "qbitai",
-        "id": "ac07b0e0266e"
+        "id": "c85d19ff1873"
+      },
+      {
+        "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
+        "url": "https://www.qbitai.com/2026/09/496481.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496481.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0159f458cd22b23508d298f1407eefac.jpeg",
+        "publish_time": "2026-09-23T08:54:04+00:00",
+        "tags": [
+          "它石智航"
+        ],
+        "platform": "qbitai",
+        "id": "90df4cf145bd"
+      },
+      {
+        "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
+        "url": "https://www.qbitai.com/2026/09/496471.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496471.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c87c6bcc5503afa7746114cdb50e266c.jpeg",
+        "publish_time": "2026-09-23T08:45:22+00:00",
+        "tags": [
+          "斑马智能"
+        ],
+        "platform": "qbitai",
+        "id": "f2fcbf5c5364"
+      },
+      {
+        "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+        "url": "https://www.qbitai.com/2026/09/496393.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496393.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bdec12774ecedfc8f2cff70b1e56c779.png",
+        "publish_time": "2026-09-23T07:29:50+00:00",
+        "tags": [
+          "Deepseek"
+        ],
+        "platform": "qbitai",
+        "id": "68d44de01375"
+      },
+      {
+        "title": "Qwen一号位定了！刘大一恒接棒",
+        "url": "https://www.qbitai.com/2026/09/496384.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496384.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/HSviy__bYAAeMT2-e1790148444354.jpeg",
+        "publish_time": "2026-09-23T07:27:49+00:00",
+        "tags": [
+          "Qwen",
+          "阿里"
+        ],
+        "platform": "qbitai",
+        "id": "b57701ca0104"
+      },
+      {
+        "title": "Jev vs Decitron：同为决策AI，为什么不是一回事？",
+        "url": "https://www.qbitai.com/2026/09/496352.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496352.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/64e9b65af1ce71435c2fa91abf98bfb2.webp",
+        "publish_time": "2026-09-23T06:38:07+00:00",
+        "tags": [
+          "中科闻歌",
+          "决策AI"
+        ],
+        "platform": "qbitai",
+        "id": "0087dc6ae6f5"
+      },
+      {
+        "title": "实时世界模型进入“全科生”阶段，PixVerse R2先交卷！",
+        "url": "https://www.qbitai.com/2026/09/496329.html",
+        "platform_url": "https://www.qbitai.com/2026/09/496329.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/6d27f98b26111d06b1ede25c12cef8ba.webp",
+        "publish_time": "2026-09-23T06:08:50+00:00",
+        "tags": [
+          "世界模型"
+        ],
+        "platform": "qbitai",
+        "id": "9a48a7197916"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "小米开源全模态模型MiMo-V2.6 Pro · 0924-678期",
+      "url": "https://radarai.top/updates/brief-20260924-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260924-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-23T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "c1de0020dedc"
+    },
+    {
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "platform_url": "https://news.ycombinator.com/item?id=49814947",
+      "discussion_url": "https://news.ycombinator.com/item?id=49814947",
+      "score": 347,
+      "comments_count": 190,
+      "publish_time": "2026-09-23T12:15:33+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 299.9,
+      "id": "369d070d8d25"
+    },
+    {
+      "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
+      "url": "https://www.qbitai.com/2026/09/496609.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496609.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/47e8cf2cbccf0677048df959b3ee4162.jpeg",
+      "publish_time": "2026-09-23T10:35:16+00:00",
+      "tags": [
+        "联想"
+      ],
+      "platform": "qbitai",
+      "id": "093d0d338bbe"
+    },
+    {
+      "title": "让Token生产更高效：异构混推的关键技术演进与创新实践",
+      "url": "https://www.qbitai.com/2026/09/496578.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496578.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/8a031c87bdbebc58dff73c4bf7e368ea.jpeg",
+      "publish_time": "2026-09-23T09:56:53+00:00",
+      "tags": [
+        "token",
+        "商汤科技"
+      ],
+      "platform": "qbitai",
+      "id": "7dc37de08948"
+    },
+    {
+      "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+      "url": "https://www.qbitai.com/2026/09/496493.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496493.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e1886abac2d01204efb311380b6365a6.png",
+      "publish_time": "2026-09-23T09:50:26+00:00",
+      "tags": [
+        "汇智智能"
+      ],
+      "platform": "qbitai",
+      "id": "2c074ba491c0"
+    },
+    {
+      "title": "达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
+      "url": "https://www.qbitai.com/2026/09/496494.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496494.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/5c308e8c47ca66bc9a61eb82d6534ec6.png",
+      "publish_time": "2026-09-23T09:46:57+00:00",
+      "tags": [
+        "融资",
+        "达卯科技"
+      ],
+      "platform": "qbitai",
+      "id": "c85d19ff1873"
+    },
+    {
+      "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
+      "url": "https://www.qbitai.com/2026/09/496481.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496481.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/0159f458cd22b23508d298f1407eefac.jpeg",
+      "publish_time": "2026-09-23T08:54:04+00:00",
+      "tags": [
+        "它石智航"
+      ],
+      "platform": "qbitai",
+      "id": "90df4cf145bd"
+    },
+    {
+      "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
+      "url": "https://www.qbitai.com/2026/09/496471.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496471.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c87c6bcc5503afa7746114cdb50e266c.jpeg",
+      "publish_time": "2026-09-23T08:45:22+00:00",
+      "tags": [
+        "斑马智能"
+      ],
+      "platform": "qbitai",
+      "id": "f2fcbf5c5364"
+    },
+    {
+      "title": "GPT-6与Claude Opus 5.5同日降价 · 0923-677期",
+      "url": "https://radarai.top/updates/brief-20260923-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260923-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-23T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "4399c9a53e29"
+    },
+    {
+      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+      "url": "https://www.qbitai.com/2026/09/496393.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496393.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/bdec12774ecedfc8f2cff70b1e56c779.png",
+      "publish_time": "2026-09-23T07:29:50+00:00",
+      "tags": [
+        "Deepseek"
+      ],
+      "platform": "qbitai",
+      "id": "68d44de01375"
+    },
+    {
+      "title": "Qwen一号位定了！刘大一恒接棒",
+      "url": "https://www.qbitai.com/2026/09/496384.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496384.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/HSviy__bYAAeMT2-e1790148444354.jpeg",
+      "publish_time": "2026-09-23T07:27:49+00:00",
+      "tags": [
+        "Qwen",
+        "阿里"
+      ],
+      "platform": "qbitai",
+      "id": "b57701ca0104"
+    },
+    {
+      "title": "Jev vs Decitron：同为决策AI，为什么不是一回事？",
+      "url": "https://www.qbitai.com/2026/09/496352.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496352.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/64e9b65af1ce71435c2fa91abf98bfb2.webp",
+      "publish_time": "2026-09-23T06:38:07+00:00",
+      "tags": [
+        "中科闻歌",
+        "决策AI"
+      ],
+      "platform": "qbitai",
+      "id": "0087dc6ae6f5"
+    },
+    {
+      "title": "实时世界模型进入“全科生”阶段，PixVerse R2先交卷！",
+      "url": "https://www.qbitai.com/2026/09/496329.html",
+      "platform_url": "https://www.qbitai.com/2026/09/496329.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/6d27f98b26111d06b1ede25c12cef8ba.webp",
+      "publish_time": "2026-09-23T06:08:50+00:00",
+      "tags": [
+        "世界模型"
+      ],
+      "platform": "qbitai",
+      "id": "9a48a7197916"
+    },
     {
       "title": "理解 Token，才能理解 AI 经济",
       "url": "https://www.bestblogs.dev/article/RAW_6def4a2424",
@@ -1187,55 +1343,6 @@
       "id": "a87fea2378a9"
     },
     {
-      "title": "Claude Opus 5.5突袭！68万行代码一天迁完，API价格打8折",
-      "url": "https://www.qbitai.com/2026/09/496221.html",
-      "platform_url": "https://www.qbitai.com/2026/09/496221.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/93e144ff3b8ebe6aecc5ea19017cb2a1.webp",
-      "publish_time": "2026-09-23T04:59:29+00:00",
-      "tags": [
-        "AI",
-        "Claude"
-      ],
-      "platform": "qbitai",
-      "id": "b4640d4f30a0"
-    },
-    {
-      "title": "刷视频也能教会机器人干活！1200亿tokens人类动作预训练，误差按幂律下降",
-      "url": "https://www.qbitai.com/2026/09/496129.html",
-      "platform_url": "https://www.qbitai.com/2026/09/496129.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/daf310be8097bd9066693b2947eb984d.webp",
-      "publish_time": "2026-09-23T04:25:12+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "ec1339985de4"
-    },
-    {
-      "title": "滴滴自动驾驶连获全国工商联及北京市荣誉榜单认可",
-      "url": "https://www.qbitai.com/2026/09/496124.html",
-      "platform_url": "https://www.qbitai.com/2026/09/496124.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/49c6c094b6821f801027cfecf614afdd.jpeg",
-      "publish_time": "2026-09-23T03:12:31+00:00",
-      "tags": [
-        "滴滴"
-      ],
-      "platform": "qbitai",
-      "id": "2a66260e8819"
-    },
-    {
-      "title": "华为全新智驾上车，全域L3架构，岚图最强旗舰MPV 42万开卖",
-      "url": "https://www.qbitai.com/2026/09/495959.html",
-      "platform_url": "https://www.qbitai.com/2026/09/495959.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/a0929df85132b65d68fcd669e8919839.png",
-      "publish_time": "2026-09-23T01:00:54+00:00",
-      "tags": [
-        "岚图梦想家9",
-        "岚图汽车",
-        "车圈最新认知"
-      ],
-      "platform": "qbitai",
-      "id": "f7fee32245ed"
-    },
-    {
       "title": "GPT-6提示词缓存最高省90%成本 · 0923-676期",
       "url": "https://radarai.top/updates/brief-20260923-0800",
       "platform_url": "https://radarai.top/updates/brief-20260923-0800",
@@ -1251,11 +1358,11 @@
       "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
       "platform_url": "https://news.ycombinator.com/item?id=49806430",
       "discussion_url": "https://news.ycombinator.com/item?id=49806430",
-      "score": 527,
-      "comments_count": 258,
+      "score": 820,
+      "comments_count": 437,
       "publish_time": "2026-09-22T19:03:38+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 446.29999999999995,
+      "hn_hot_score": 705.1,
       "id": "976075386374"
     },
     {
@@ -1263,23 +1370,35 @@
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "platform_url": "https://news.ycombinator.com/item?id=49805509",
       "discussion_url": "https://news.ycombinator.com/item?id=49805509",
-      "score": 1356,
-      "comments_count": 660,
+      "score": 1668,
+      "comments_count": 800,
       "publish_time": "2026-09-22T18:00:34+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1147.1999999999998,
+      "hn_hot_score": 1407.6,
       "id": "8d4bb53ad185"
+    },
+    {
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "platform_url": "https://news.ycombinator.com/item?id=49804316",
+      "discussion_url": "https://news.ycombinator.com/item?id=49804316",
+      "score": 319,
+      "comments_count": 101,
+      "publish_time": "2026-09-22T16:51:31+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 253.59999999999997,
+      "id": "58acabf80e0f"
     },
     {
       "title": "Claude Opus 5.5",
       "url": "https://www.anthropic.com/claude-opus-5-5",
       "platform_url": "https://news.ycombinator.com/item?id=49803892",
       "discussion_url": "https://news.ycombinator.com/item?id=49803892",
-      "score": 1367,
-      "comments_count": 869,
+      "score": 1689,
+      "comments_count": 1031,
       "publish_time": "2026-09-22T16:29:05+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1217.6,
+      "hn_hot_score": 1491.6,
       "id": "9049f412617a"
     },
     {
@@ -1294,75 +1413,27 @@
       "id": "92575d2b62be"
     },
     {
-      "title": "陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产",
-      "url": "https://www.qbitai.com/2026/09/494429.html",
-      "platform_url": "https://www.qbitai.com/2026/09/494429.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/35f9612fa811e42781c1ba6622fa3ba6.gif",
-      "publish_time": "2026-09-22T15:59:35+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "972e47b48a42"
-    },
-    {
-      "title": "Agent时代，CPU的价值该重估了",
-      "url": "https://www.qbitai.com/2026/09/494430.html",
-      "platform_url": "https://www.qbitai.com/2026/09/494430.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/fd3f1cad639a6818c754503ac5b8f35a.webp",
-      "publish_time": "2026-09-22T15:46:54+00:00",
-      "tags": [
-        "Agent",
-        "CPU",
-        "英特尔"
-      ],
-      "platform": "qbitai",
-      "id": "3c80da6bb79d"
-    },
-    {
       "title": "OpenAI is well positioned to fast-follow Jev",
       "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
       "platform_url": "https://news.ycombinator.com/item?id=49802161",
       "discussion_url": "https://news.ycombinator.com/item?id=49802161",
-      "score": 275,
-      "comments_count": 199,
+      "score": 306,
+      "comments_count": 215,
       "publish_time": "2026-09-22T14:42:59+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 252.2,
+      "hn_hot_score": 278.7,
       "id": "0c9f1f4ca760"
-    },
-    {
-      "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
-      "url": "https://www.qbitai.com/2026/09/494420.html",
-      "platform_url": "https://www.qbitai.com/2026/09/494420.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/63841b5b3268db5b106ba0fdecb145b4.jpeg",
-      "publish_time": "2026-09-22T14:28:59+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "2487dc40c55e"
-    },
-    {
-      "title": "讲真，我没看出这图是AI做的，更没想到是国产AI做的",
-      "url": "https://www.qbitai.com/2026/09/494263.html",
-      "platform_url": "https://www.qbitai.com/2026/09/494263.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/ee137cd9d180565a7ba58918d6eafe1c.webp",
-      "publish_time": "2026-09-22T13:57:10+00:00",
-      "tags": [
-        "SenseNova",
-        "SenseNova U1 Pro",
-        "商汤科技"
-      ],
-      "platform": "qbitai",
-      "id": "f5e5fb19d670"
     },
     {
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
       "platform_url": "https://news.ycombinator.com/item?id=49801324",
       "discussion_url": "https://news.ycombinator.com/item?id=49801324",
-      "score": 610,
-      "comments_count": 373,
+      "score": 706,
+      "comments_count": 415,
       "publish_time": "2026-09-22T13:52:15+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 538.9,
+      "hn_hot_score": 618.7,
       "id": "56230518961d"
     },
     {
@@ -1378,40 +1449,15 @@
       "id": "6341abe9f822"
     },
     {
-      "title": "WebArena作者Shuyan Zhou入职Meta超级智能实验室",
-      "url": "https://www.qbitai.com/2026/09/493653.html",
-      "platform_url": "https://www.qbitai.com/2026/09/493653.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e0388252a6fd7583ed6f19fc3bdd5fdc.png",
-      "publish_time": "2026-09-22T11:58:53+00:00",
-      "tags": [
-        "AI浏览器",
-        "Meta"
-      ],
-      "platform": "qbitai",
-      "id": "59365f7a8026"
-    },
-    {
-      "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
-      "url": "https://www.qbitai.com/2026/09/494120.html",
-      "platform_url": "https://www.qbitai.com/2026/09/494120.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/2736013aed962921cf97ee5f5c5a234e.jpeg",
-      "publish_time": "2026-09-22T10:06:34+00:00",
-      "tags": [
-        "基元律动"
-      ],
-      "platform": "qbitai",
-      "id": "ac07b0e0266e"
-    },
-    {
       "title": "I said no and Apple said yes",
       "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
       "platform_url": "https://news.ycombinator.com/item?id=49797982",
       "discussion_url": "https://news.ycombinator.com/item?id=49797982",
-      "score": 809,
-      "comments_count": 651,
+      "score": 845,
+      "comments_count": 682,
       "publish_time": "2026-09-22T08:04:55+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 761.5999999999999,
+      "hn_hot_score": 796.1,
       "id": "ecbc3e679869"
     },
     {
@@ -1607,40 +1653,31 @@
       "id": "a9ac86a154f3"
     },
     {
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2609.25804",
+      "platform_url": "https://huggingface.co/papers/2609.25804",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.25804.png",
+      "publish_time": "2026-09-21T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them measure",
+      "platform": "huggingface",
+      "score": 110,
+      "comments_count": 4,
+      "id": "6023f3dcc6cc"
+    },
+    {
       "title": "Transformers Explained Visually",
       "url": "https://poloclub.github.io/transformer-explainer/",
       "platform_url": "https://news.ycombinator.com/item?id=49792342",
       "discussion_url": "https://news.ycombinator.com/item?id=49792342",
-      "score": 603,
-      "comments_count": 87,
+      "score": 623,
+      "comments_count": 88,
       "publish_time": "2026-09-21T19:43:49+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 448.2,
+      "hn_hot_score": 462.49999999999994,
       "id": "77eda0d8bcf5"
-    },
-    {
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "url": "https://linear.app/now/ci-bottleneck-reworked",
-      "platform_url": "https://news.ycombinator.com/item?id=49792067",
-      "discussion_url": "https://news.ycombinator.com/item?id=49792067",
-      "score": 311,
-      "comments_count": 386,
-      "publish_time": "2026-09-21T19:23:33+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 333.5,
-      "id": "7869dc1a6002"
-    },
-    {
-      "title": "US halts flights at busy East Coast airports, says fiber line cut",
-      "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
-      "platform_url": "https://news.ycombinator.com/item?id=49791509",
-      "discussion_url": "https://news.ycombinator.com/item?id=49791509",
-      "score": 217,
-      "comments_count": 123,
-      "publish_time": "2026-09-21T18:41:59+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 188.79999999999998,
-      "id": "86bc0f141f43"
     },
     {
       "title": "GPT-6 Astra安全测试97%执行恶意指令 · 0922-672期",
@@ -1663,11 +1700,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 390 · 下载 2,641",
+      "summary": "TrendingScore 411 · 下载 13,243",
       "platform": "huggingface",
-      "score": 396,
-      "trending_score": 390,
-      "downloads": 2641,
+      "score": 416,
+      "trending_score": 411,
+      "downloads": 13243,
       "id": "73569b31a5bd"
     },
     {
@@ -1680,11 +1717,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 395 · 下载 985",
+      "summary": "TrendingScore 427 · 下载 4,070",
       "platform": "huggingface",
-      "score": 402,
-      "trending_score": 395,
-      "downloads": 985,
+      "score": 436,
+      "trending_score": 427,
+      "downloads": 4070,
       "id": "8d643759d087"
     },
     {
@@ -1735,7 +1772,7 @@
       ],
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different",
       "platform": "huggingface",
-      "score": 113,
+      "score": 115,
       "comments_count": 3,
       "id": "1646ab0d30d4"
     },
@@ -1765,7 +1802,7 @@
       ],
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over extracted text incurs high token costs and hallucination risk. We present Document Retrieval-Aware Chun",
       "platform": "huggingface",
-      "score": 51,
+      "score": 52,
       "comments_count": 4,
       "id": "23e619f7d9b7"
     },
@@ -1780,7 +1817,7 @@
       ],
       "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through",
       "platform": "huggingface",
-      "score": 36,
+      "score": 40,
       "comments_count": 3,
       "id": "5b64ea0ddf99"
     },
@@ -1795,9 +1832,39 @@
       ],
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limitations with rubric-based scoring. We first establish empirically that prompting a vision-language ju",
       "platform": "huggingface",
-      "score": 37,
-      "comments_count": 1,
+      "score": 59,
+      "comments_count": 2,
       "id": "c4f31d01a8c3"
+    },
+    {
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "url": "https://huggingface.co/papers/2609.24981",
+      "platform_url": "https://huggingface.co/papers/2609.24981",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.24981.png",
+      "publish_time": "2026-09-20T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically rich space that encodes cross-view structure. Rather than adding geometry as another output, we repara",
+      "platform": "huggingface",
+      "score": 36,
+      "comments_count": 3,
+      "id": "82e77ab842e4"
+    },
+    {
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2609.24058",
+      "platform_url": "https://huggingface.co/papers/2609.24058",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.24058.png",
+      "publish_time": "2026-09-20T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scripts. In this work, we pursue an all-in-one multilingual recognizer that is simpler than per-languag",
+      "platform": "huggingface",
+      "score": 35,
+      "comments_count": 2,
+      "id": "fa97f972c68d"
     },
     {
       "title": "阿里通义千问开源Qwen-Image-2.1，7B参数统一图像生成与编辑 · 0921-669期",
@@ -1820,34 +1887,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 496 · 下载 2,745",
+      "summary": "TrendingScore 537 · 下载 3,787",
       "platform": "huggingface",
-      "score": 507,
-      "trending_score": 496,
-      "downloads": 2745,
+      "score": 550,
+      "trending_score": 537,
+      "downloads": 3787,
       "id": "e7c3f2289e0a"
-    },
-    {
-      "title": "阶跃星辰600B稀疏MoE重返第一梯队，通义同传延迟压至2.3秒 · 0920-668期",
-      "url": "https://radarai.top/updates/brief-20260920-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260920-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-20T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "32baae16620c"
-    },
-    {
-      "title": "阿里Qwen3.8实时翻译延迟降至2.3秒，谷歌Gemini 4 Pro性能大涨 · 0920-667期",
-      "url": "https://radarai.top/updates/brief-20260920-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260920-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-20T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "cc2b5e8e3900"
     },
     {
       "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
@@ -1860,8 +1905,8 @@
       ],
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (GAMs), a new paradigm of robot foundation models built with 3D grounding. GAM can be conditioned usin",
       "platform": "huggingface",
-      "score": 51,
-      "comments_count": 2,
+      "score": 75,
+      "comments_count": 3,
       "id": "40442df5650b"
     },
     {
@@ -1890,7 +1935,7 @@
       ],
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning and teaching. Its instruction-tuning corpus combines over 100 educational resources and general instr",
       "platform": "huggingface",
-      "score": 128,
+      "score": 141,
       "comments_count": 3,
       "id": "35d1f2535455"
     },
@@ -1968,63 +2013,14 @@
       "score": 25,
       "comments_count": 2,
       "id": "eafb993039d5"
-    },
-    {
-      "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-      "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-      "cover_url": null,
-      "publish_time": "2026-09-16T23:41:18.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 324 · 下载 43,477",
-      "platform": "huggingface",
-      "score": 339,
-      "trending_score": 324,
-      "downloads": 43477,
-      "id": "23b48599f178"
-    },
-    {
-      "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "cover_url": null,
-      "publish_time": "2026-09-16T23:40:56.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 1740 · 下载 2,569,604",
-      "platform": "huggingface",
-      "score": 1899,
-      "trending_score": 1740,
-      "downloads": 2569604,
-      "id": "42f223336d51"
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "url": "https://huggingface.co/papers/2609.19969",
-      "platform_url": "https://huggingface.co/papers/2609.19969",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.19969.png",
-      "publish_time": "2026-09-16T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flas",
-      "platform": "huggingface",
-      "score": 145,
-      "comments_count": 4,
-      "id": "ffa0aaa4ffa1"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 12.4,
-      "cover_success_rate": 35.7
+      "avg_response_time": 11.8,
+      "cover_success_rate": 38.6
     },
     "platforms": [
       {
@@ -2032,73 +2028,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-23T05:18:04.944618+00:00"
+        "last_crawl": "2026-09-23T16:30:22.989890+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-23T05:18:37.960251+00:00"
+        "last_crawl": "2026-09-23T16:30:57.546369+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-23T05:18:39.469581+00:00"
+        "last_crawl": "2026-09-23T16:30:59.053914+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-09-23T05:18:56.774280+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-09-23T16:31:11.591908+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-23T05:18:56.874250+00:00"
+        "last_crawl": "2026-09-23T16:31:11.774971+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-23T05:18:04.944623+00:00",
+        "timestamp": "2026-09-23T16:30:22.989894+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.221534
+        "latency": 10.040898
       },
       {
-        "timestamp": "2026-09-23T05:18:37.960257+00:00",
+        "timestamp": "2026-09-23T16:30:57.546374+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 33.015626
+        "latency": 34.556474
       },
       {
-        "timestamp": "2026-09-23T05:18:39.469586+00:00",
+        "timestamp": "2026-09-23T16:30:59.053920+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.509321
+        "latency": 1.507539
       },
       {
-        "timestamp": "2026-09-23T05:18:56.774285+00:00",
+        "timestamp": "2026-09-23T16:31:11.591915+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 17.304693
+        "items_collected": 10,
+        "latency": 12.537988
       },
       {
-        "timestamp": "2026-09-23T05:18:56.874259+00:00",
+        "timestamp": "2026-09-23T16:31:11.774983+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.099967
+        "latency": 0.183063
       }
     ]
   }
