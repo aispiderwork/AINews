@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-09-28T06:00:31.109247+00:00",
+  "update_time": "2026-09-28T19:28:38.876913+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "英伟达联合百余家伙伴推智能体安全平台，Meta企业部门携Muse入场 · 0929-693期",
+        "url": "https://radarai.top/updates/brief-20260929-0000",
+        "platform_url": "https://radarai.top/updates/brief-20260929-0000",
+        "cover_url": null,
+        "publish_time": "2026-09-28T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "b76cd11cf0ef"
+      },
+      {
+        "title": "黄仁勋辛顿激辩AI末日论，Meta Muse泄露住址暴露代理安全危机 · 0928-692期",
+        "url": "https://radarai.top/updates/brief-20260928-1600",
+        "platform_url": "https://radarai.top/updates/brief-20260928-1600",
+        "cover_url": null,
+        "publish_time": "2026-09-28T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "4c6985b1bb85"
+      },
       {
         "title": "前10%客户贡献99.5%模型支出，开源闭源差距再拉大 · 0928-691期",
         "url": "https://radarai.top/updates/brief-20260928-0800",
@@ -90,31 +112,93 @@
         "summary": "",
         "platform": "radarai",
         "id": "b03d7b3eda12"
-      },
-      {
-        "title": "GPT-6被吐槽性能倒退，用户转投Claude · 0925-683期",
-        "url": "https://radarai.top/updates/brief-20260925-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260925-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-25T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "445be5ddf287"
-      },
-      {
-        "title": "每周 AI 热点 · 2026-09-25",
-        "url": "https://radarai.top/updates/weekly-2026-09-25",
-        "platform_url": "https://radarai.top/updates/weekly-2026-09-25",
-        "cover_url": null,
-        "publish_time": "2026-09-25T01:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "1593b368b6e2"
       }
     ],
     "hackernews": [
+      {
+        "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+        "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+        "platform_url": "https://news.ycombinator.com/item?id=49881484",
+        "discussion_url": "https://news.ycombinator.com/item?id=49881484",
+        "score": 72,
+        "comments_count": 69,
+        "publish_time": "2026-09-28T17:33:34+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 71.1,
+        "id": "fb1c1ffe23c9"
+      },
+      {
+        "title": "The problem is not AI code, but not knowing about system architecture or intent",
+        "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+        "platform_url": "https://news.ycombinator.com/item?id=49880312",
+        "discussion_url": "https://news.ycombinator.com/item?id=49880312",
+        "score": 302,
+        "comments_count": 199,
+        "publish_time": "2026-09-28T16:11:42+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 271.09999999999997,
+        "id": "c34e9ad5feb5"
+      },
+      {
+        "title": "What Would a Serious AI Product Look Like?",
+        "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49876148",
+        "discussion_url": "https://news.ycombinator.com/item?id=49876148",
+        "score": 88,
+        "comments_count": 26,
+        "publish_time": "2026-09-28T11:02:12+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 69.39999999999999,
+        "id": "5ba2c869862c"
+      },
+      {
+        "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+        "url": "https://git.mills.io/prologic/parley",
+        "platform_url": "https://news.ycombinator.com/item?id=49875913",
+        "discussion_url": "https://news.ycombinator.com/item?id=49875913",
+        "score": 252,
+        "comments_count": 124,
+        "publish_time": "2026-09-28T10:30:54+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 213.59999999999997,
+        "id": "32d28ef351d9"
+      },
+      {
+        "title": "Prompting Claude Opus 5.5",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+        "platform_url": "https://news.ycombinator.com/item?id=49874728",
+        "discussion_url": "https://news.ycombinator.com/item?id=49874728",
+        "score": 189,
+        "comments_count": 215,
+        "publish_time": "2026-09-28T07:33:29+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 196.79999999999998,
+        "id": "0054e2c1b9e3"
+      },
+      {
+        "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+        "url": "https://arxiv.org/abs/2110.01834",
+        "platform_url": "https://news.ycombinator.com/item?id=49873241",
+        "discussion_url": "https://news.ycombinator.com/item?id=49873241",
+        "score": 166,
+        "comments_count": 72,
+        "publish_time": "2026-09-28T03:23:53+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 137.79999999999998,
+        "id": "ba78ca5c849d"
+      },
+      {
+        "title": "Nissan's third generation e-POWER powertrain",
+        "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+        "platform_url": "https://news.ycombinator.com/item?id=49872883",
+        "discussion_url": "https://news.ycombinator.com/item?id=49872883",
+        "score": 147,
+        "comments_count": 343,
+        "publish_time": "2026-09-28T02:31:23+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 205.79999999999998,
+        "id": "5838ccd34ed0"
+      },
       {
         "title": "There are no \"rogue\" AI agents",
         "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
@@ -132,11 +216,11 @@
         "url": "https://tinyaiarena.com/",
         "platform_url": "https://news.ycombinator.com/item?id=49867775",
         "discussion_url": "https://news.ycombinator.com/item?id=49867775",
-        "score": 105,
-        "comments_count": 41,
+        "score": 117,
+        "comments_count": 45,
         "publish_time": "2026-09-27T15:51:28+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 85.8,
+        "hn_hot_score": 95.39999999999999,
         "id": "5a4a106cf5d3"
       },
       {
@@ -144,99 +228,32 @@
         "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
         "platform_url": "https://news.ycombinator.com/item?id=49867486",
         "discussion_url": "https://news.ycombinator.com/item?id=49867486",
-        "score": 260,
-        "comments_count": 104,
+        "score": 274,
+        "comments_count": 122,
         "publish_time": "2026-09-27T15:26:40+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 213.2,
+        "hn_hot_score": 228.39999999999998,
         "id": "5f267934e4bf"
-      },
-      {
-        "title": "Fragment of oldest known peace treaty found in Turkey",
-        "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
-        "platform_url": "https://news.ycombinator.com/item?id=49866988",
-        "discussion_url": "https://news.ycombinator.com/item?id=49866988",
-        "score": 78,
-        "comments_count": 10,
-        "publish_time": "2026-09-27T14:35:10+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 57.599999999999994,
-        "id": "663f2e411fcb"
-      },
-      {
-        "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
-        "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
-        "platform_url": "https://news.ycombinator.com/item?id=49864642",
-        "discussion_url": "https://news.ycombinator.com/item?id=49864642",
-        "score": 434,
-        "comments_count": 288,
-        "publish_time": "2026-09-27T08:44:04+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 390.19999999999993,
-        "id": "be46bb1e984f"
-      },
-      {
-        "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-        "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-        "platform_url": "https://news.ycombinator.com/item?id=49863864",
-        "discussion_url": "https://news.ycombinator.com/item?id=49863864",
-        "score": 610,
-        "comments_count": 599,
-        "publish_time": "2026-09-27T06:19:33+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 606.7,
-        "id": "6b789ef4d8c5"
-      },
-      {
-        "title": "Automattic has a new board after failed attempt to put CEO on leave",
-        "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-        "platform_url": "https://news.ycombinator.com/item?id=49857572",
-        "discussion_url": "https://news.ycombinator.com/item?id=49857572",
-        "score": 142,
-        "comments_count": 178,
-        "publish_time": "2026-09-26T15:40:27+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 152.79999999999998,
-        "id": "4df0d4de0313"
-      },
-      {
-        "title": "OpenAI bots meddled with multiple US Government agency sites",
-        "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-        "platform_url": "https://news.ycombinator.com/item?id=49856665",
-        "discussion_url": "https://news.ycombinator.com/item?id=49856665",
-        "score": 112,
-        "comments_count": 173,
-        "publish_time": "2026-09-26T14:03:54+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 130.29999999999998,
-        "id": "17906137a25b"
-      },
-      {
-        "title": "How to keep enjoying programming in a world of LLMs",
-        "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-        "platform_url": "https://news.ycombinator.com/item?id=49854875",
-        "discussion_url": "https://news.ycombinator.com/item?id=49854875",
-        "score": 299,
-        "comments_count": 319,
-        "publish_time": "2026-09-26T09:41:58+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 305.0,
-        "id": "4367945d5a93"
-      },
-      {
-        "title": "An agent used DNS to reach an external chatbot",
-        "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-        "platform_url": "https://news.ycombinator.com/item?id=49853137",
-        "discussion_url": "https://news.ycombinator.com/item?id=49853137",
-        "score": 173,
-        "comments_count": 167,
-        "publish_time": "2026-09-26T04:14:11+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 171.2,
-        "id": "84a3dad89e05"
       }
     ],
     "huggingface": [
+      {
+        "title": "[模型] orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+        "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+        "platform_url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+        "cover_url": null,
+        "publish_time": "2026-09-26T03:37:50.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 113 · 下载 4,599",
+        "platform": "huggingface",
+        "score": 126,
+        "trending_score": 113,
+        "downloads": 4599,
+        "id": "d719bd0e565f"
+      },
       {
         "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
         "url": "https://huggingface.co/papers/2609.31620",
@@ -248,7 +265,7 @@
         ],
         "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion th",
         "platform": "huggingface",
-        "score": 55,
+        "score": 113,
         "comments_count": 2,
         "id": "b8f6f39bea53"
       },
@@ -268,6 +285,21 @@
         "id": "2ed718c26b06"
       },
       {
+        "title": "Block Sparse Attention with Log-Linear Complexity",
+        "url": "https://huggingface.co/papers/2609.31093",
+        "platform_url": "https://huggingface.co/papers/2609.31093",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.31093.png",
+        "publish_time": "2026-09-24T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional block selection requires scoring all query-block pairs and therefore remains quadratic in sequence length. To address this issue, we propose PISA, a block-sparse attention mechanism that employs a pyramid Top-K selection strategy. The main idea is to gradually narrow down the candi",
+        "platform": "huggingface",
+        "score": 19,
+        "comments_count": 1,
+        "id": "5d7cadff4a0c"
+      },
+      {
         "title": "[模型] ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
         "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
         "platform_url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -277,11 +309,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 117 · 下载 28,802",
+        "summary": "TrendingScore 131 · 下载 58,021",
         "platform": "huggingface",
-        "score": 122,
-        "trending_score": 117,
-        "downloads": 28802,
+        "score": 138,
+        "trending_score": 131,
+        "downloads": 58021,
         "id": "4ed225418bbf"
       },
       {
@@ -294,11 +326,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 171 · 下载 1,330",
+        "summary": "TrendingScore 186 · 下载 1,663",
         "platform": "huggingface",
-        "score": 172,
-        "trending_score": 171,
-        "downloads": 1330,
+        "score": 187,
+        "trending_score": 186,
+        "downloads": 1663,
         "id": "cac4e9f237b8"
       },
       {
@@ -312,7 +344,7 @@
         ],
         "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe ",
         "platform": "huggingface",
-        "score": 77,
+        "score": 79,
         "comments_count": 2,
         "id": "dece080356b1"
       },
@@ -342,9 +374,24 @@
         ],
         "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training build",
         "platform": "huggingface",
-        "score": 19,
+        "score": 21,
         "comments_count": 3,
         "id": "de97ea2b3e54"
+      },
+      {
+        "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+        "url": "https://huggingface.co/papers/2609.30199",
+        "platform_url": "https://huggingface.co/papers/2609.30199",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.30199.png",
+        "publish_time": "2026-09-23T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+        "platform": "huggingface",
+        "score": 19,
+        "comments_count": 1,
+        "id": "55d3a1cfa597"
       },
       {
         "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
@@ -387,7 +434,7 @@
         ],
         "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of",
         "platform": "huggingface",
-        "score": 207,
+        "score": 209,
         "comments_count": 2,
         "id": "121c0dc72b74"
       },
@@ -476,11 +523,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 489 · 下载 25,661",
+        "summary": "TrendingScore 503 · 下载 28,842",
         "platform": "huggingface",
-        "score": 495,
-        "trending_score": 489,
-        "downloads": 25661,
+        "score": 510,
+        "trending_score": 503,
+        "downloads": 28842,
         "id": "73569b31a5bd"
       },
       {
@@ -493,63 +540,12 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 550 · 下载 75,079",
+        "summary": "TrendingScore 566 · 下载 76,518",
         "platform": "huggingface",
-        "score": 563,
-        "trending_score": 550,
-        "downloads": 75079,
+        "score": 580,
+        "trending_score": 566,
+        "downloads": 76518,
         "id": "8d643759d087"
-      },
-      {
-        "title": "[模型] Altworld/Hemmingway-1",
-        "url": "https://huggingface.co/Altworld/Hemmingway-1",
-        "platform_url": "https://huggingface.co/Altworld/Hemmingway-1",
-        "cover_url": null,
-        "publish_time": "2026-09-20T12:10:31.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 592 · 下载 5,904",
-        "platform": "huggingface",
-        "score": 744,
-        "trending_score": 592,
-        "downloads": 5904,
-        "id": "e7c3f2289e0a"
-      },
-      {
-        "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "cover_url": null,
-        "publish_time": "2026-09-16T23:40:56.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 586 · 下载 3,343,748",
-        "platform": "huggingface",
-        "score": 2204,
-        "trending_score": 586,
-        "downloads": 3343748,
-        "id": "42f223336d51"
-      },
-      {
-        "title": "[模型] XingChen-AGI/Xing4.0-29B-A4B",
-        "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-        "platform_url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-        "cover_url": null,
-        "publish_time": "2026-09-16T06:44:40.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 834 · 下载 45,028",
-        "platform": "huggingface",
-        "score": 1786,
-        "trending_score": 834,
-        "downloads": 45028,
-        "id": "77fea789a897"
       }
     ],
     "bestblogs": [
@@ -896,6 +892,33 @@
     ],
     "qbitai": [
       {
+        "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
+        "url": "https://www.qbitai.com/2026/09/498877.html",
+        "platform_url": "https://www.qbitai.com/2026/09/498877.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/84f691df120f8275402e8c2bf43f94ca.jpeg",
+        "publish_time": "2026-09-28T12:43:53+00:00",
+        "tags": [
+          "工业Agent",
+          "工业AI",
+          "繁星生态大会",
+          "西门子"
+        ],
+        "platform": "qbitai",
+        "id": "4bff53a45d26"
+      },
+      {
+        "title": "HC归来，华为正重新定义AIDC基础设施",
+        "url": "https://www.qbitai.com/2026/09/498787.html",
+        "platform_url": "https://www.qbitai.com/2026/09/498787.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e9f0f52b82bb7d241981dbb6ab6fbfd6.webp",
+        "publish_time": "2026-09-28T11:18:27+00:00",
+        "tags": [
+          "华为AIDC"
+        ],
+        "platform": "qbitai",
+        "id": "49ebd7f7d5fa"
+      },
+      {
         "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
         "url": "https://www.qbitai.com/2026/09/498605.html",
         "platform_url": "https://www.qbitai.com/2026/09/498605.html",
@@ -986,34 +1009,119 @@
         ],
         "platform": "qbitai",
         "id": "19954fba6557"
-      },
-      {
-        "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-        "url": "https://www.qbitai.com/2026/09/497108.html",
-        "platform_url": "https://www.qbitai.com/2026/09/497108.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c39a29eeab5e59a8d95c3b4acfbd85af.jpeg",
-        "publish_time": "2026-09-25T10:00:14+00:00",
-        "tags": [
-          "AI芯片",
-          "平头哥",
-          "阿里"
-        ],
-        "platform": "qbitai",
-        "id": "4aaa2838a4a9"
-      },
-      {
-        "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-        "url": "https://www.qbitai.com/2026/09/497075.html",
-        "platform_url": "https://www.qbitai.com/2026/09/497075.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/ec70ba413b87d756ddffb67a5f303163.jpeg",
-        "publish_time": "2026-09-25T06:20:56+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "d989ebdf4aad"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "platform_url": "https://news.ycombinator.com/item?id=49881484",
+      "discussion_url": "https://news.ycombinator.com/item?id=49881484",
+      "score": 72,
+      "comments_count": 69,
+      "publish_time": "2026-09-28T17:33:34+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 71.1,
+      "id": "fb1c1ffe23c9"
+    },
+    {
+      "title": "The problem is not AI code, but not knowing about system architecture or intent",
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "platform_url": "https://news.ycombinator.com/item?id=49880312",
+      "discussion_url": "https://news.ycombinator.com/item?id=49880312",
+      "score": 302,
+      "comments_count": 199,
+      "publish_time": "2026-09-28T16:11:42+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 271.09999999999997,
+      "id": "c34e9ad5feb5"
+    },
+    {
+      "title": "英伟达联合百余家伙伴推智能体安全平台，Meta企业部门携Muse入场 · 0929-693期",
+      "url": "https://radarai.top/updates/brief-20260929-0000",
+      "platform_url": "https://radarai.top/updates/brief-20260929-0000",
+      "cover_url": null,
+      "publish_time": "2026-09-28T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "b76cd11cf0ef"
+    },
+    {
+      "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
+      "url": "https://www.qbitai.com/2026/09/498877.html",
+      "platform_url": "https://www.qbitai.com/2026/09/498877.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/84f691df120f8275402e8c2bf43f94ca.jpeg",
+      "publish_time": "2026-09-28T12:43:53+00:00",
+      "tags": [
+        "工业Agent",
+        "工业AI",
+        "繁星生态大会",
+        "西门子"
+      ],
+      "platform": "qbitai",
+      "id": "4bff53a45d26"
+    },
+    {
+      "title": "HC归来，华为正重新定义AIDC基础设施",
+      "url": "https://www.qbitai.com/2026/09/498787.html",
+      "platform_url": "https://www.qbitai.com/2026/09/498787.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/e9f0f52b82bb7d241981dbb6ab6fbfd6.webp",
+      "publish_time": "2026-09-28T11:18:27+00:00",
+      "tags": [
+        "华为AIDC"
+      ],
+      "platform": "qbitai",
+      "id": "49ebd7f7d5fa"
+    },
+    {
+      "title": "What Would a Serious AI Product Look Like?",
+      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49876148",
+      "discussion_url": "https://news.ycombinator.com/item?id=49876148",
+      "score": 88,
+      "comments_count": 26,
+      "publish_time": "2026-09-28T11:02:12+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 69.39999999999999,
+      "id": "5ba2c869862c"
+    },
+    {
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "platform_url": "https://news.ycombinator.com/item?id=49875913",
+      "discussion_url": "https://news.ycombinator.com/item?id=49875913",
+      "score": 252,
+      "comments_count": 124,
+      "publish_time": "2026-09-28T10:30:54+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 213.59999999999997,
+      "id": "32d28ef351d9"
+    },
+    {
+      "title": "黄仁勋辛顿激辩AI末日论，Meta Muse泄露住址暴露代理安全危机 · 0928-692期",
+      "url": "https://radarai.top/updates/brief-20260928-1600",
+      "platform_url": "https://radarai.top/updates/brief-20260928-1600",
+      "cover_url": null,
+      "publish_time": "2026-09-28T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "4c6985b1bb85"
+    },
+    {
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "platform_url": "https://news.ycombinator.com/item?id=49874728",
+      "discussion_url": "https://news.ycombinator.com/item?id=49874728",
+      "score": 189,
+      "comments_count": 215,
+      "publish_time": "2026-09-28T07:33:29+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 196.79999999999998,
+      "id": "0054e2c1b9e3"
+    },
     {
       "title": "一个等价性观察：DFlash-2 的 Selector 和 DSpark 的 Markov Head 竟是同一机制",
       "url": "https://www.bestblogs.dev/article/RAW_ab5de2e541",
@@ -1185,6 +1293,30 @@
       "id": "be3573e8368f"
     },
     {
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "platform_url": "https://news.ycombinator.com/item?id=49873241",
+      "discussion_url": "https://news.ycombinator.com/item?id=49873241",
+      "score": 166,
+      "comments_count": 72,
+      "publish_time": "2026-09-28T03:23:53+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 137.79999999999998,
+      "id": "ba78ca5c849d"
+    },
+    {
+      "title": "Nissan's third generation e-POWER powertrain",
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "platform_url": "https://news.ycombinator.com/item?id=49872883",
+      "discussion_url": "https://news.ycombinator.com/item?id=49872883",
+      "score": 147,
+      "comments_count": 343,
+      "publish_time": "2026-09-28T02:31:23+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 205.79999999999998,
+      "id": "5838ccd34ed0"
+    },
+    {
       "title": "前10%客户贡献99.5%模型支出，开源闭源差距再拉大 · 0928-691期",
       "url": "https://radarai.top/updates/brief-20260928-0800",
       "platform_url": "https://radarai.top/updates/brief-20260928-0800",
@@ -1223,11 +1355,11 @@
       "url": "https://tinyaiarena.com/",
       "platform_url": "https://news.ycombinator.com/item?id=49867775",
       "discussion_url": "https://news.ycombinator.com/item?id=49867775",
-      "score": 105,
-      "comments_count": 41,
+      "score": 117,
+      "comments_count": 45,
       "publish_time": "2026-09-27T15:51:28+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 85.8,
+      "hn_hot_score": 95.39999999999999,
       "id": "5a4a106cf5d3"
     },
     {
@@ -1235,24 +1367,12 @@
       "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
       "platform_url": "https://news.ycombinator.com/item?id=49867486",
       "discussion_url": "https://news.ycombinator.com/item?id=49867486",
-      "score": 260,
-      "comments_count": 104,
+      "score": 274,
+      "comments_count": 122,
       "publish_time": "2026-09-27T15:26:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 213.2,
+      "hn_hot_score": 228.39999999999998,
       "id": "5f267934e4bf"
-    },
-    {
-      "title": "Fragment of oldest known peace treaty found in Turkey",
-      "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
-      "platform_url": "https://news.ycombinator.com/item?id=49866988",
-      "discussion_url": "https://news.ycombinator.com/item?id=49866988",
-      "score": 78,
-      "comments_count": 10,
-      "publish_time": "2026-09-27T14:35:10+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 57.599999999999994,
-      "id": "663f2e411fcb"
     },
     {
       "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
@@ -1280,18 +1400,6 @@
       "id": "690943c21d58"
     },
     {
-      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
-      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
-      "platform_url": "https://news.ycombinator.com/item?id=49864642",
-      "discussion_url": "https://news.ycombinator.com/item?id=49864642",
-      "score": 434,
-      "comments_count": 288,
-      "publish_time": "2026-09-27T08:44:04+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 390.19999999999993,
-      "id": "be46bb1e984f"
-    },
-    {
       "title": "OpenAI 9月29日推常驻助手O · 0927-689期",
       "url": "https://radarai.top/updates/brief-20260927-1600",
       "platform_url": "https://radarai.top/updates/brief-20260927-1600",
@@ -1301,18 +1409,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "029f5ce8a496"
-    },
-    {
-      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "platform_url": "https://news.ycombinator.com/item?id=49863864",
-      "discussion_url": "https://news.ycombinator.com/item?id=49863864",
-      "score": 610,
-      "comments_count": 599,
-      "publish_time": "2026-09-27T06:19:33+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 606.7,
-      "id": "6b789ef4d8c5"
     },
     {
       "title": "Apple Reference Image 在传感器端对照片签名，将来源信任从 C2PA 转移",
@@ -1507,30 +1603,6 @@
       "id": "b7626abb35bd"
     },
     {
-      "title": "Automattic has a new board after failed attempt to put CEO on leave",
-      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-      "platform_url": "https://news.ycombinator.com/item?id=49857572",
-      "discussion_url": "https://news.ycombinator.com/item?id=49857572",
-      "score": 142,
-      "comments_count": 178,
-      "publish_time": "2026-09-26T15:40:27+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 152.79999999999998,
-      "id": "4df0d4de0313"
-    },
-    {
-      "title": "OpenAI bots meddled with multiple US Government agency sites",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "platform_url": "https://news.ycombinator.com/item?id=49856665",
-      "discussion_url": "https://news.ycombinator.com/item?id=49856665",
-      "score": 112,
-      "comments_count": 173,
-      "publish_time": "2026-09-26T14:03:54+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 130.29999999999998,
-      "id": "17906137a25b"
-    },
-    {
       "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
       "url": "https://www.qbitai.com/2026/09/498478.html",
       "platform_url": "https://www.qbitai.com/2026/09/498478.html",
@@ -1541,18 +1613,6 @@
       ],
       "platform": "qbitai",
       "id": "971d162e0e24"
-    },
-    {
-      "title": "How to keep enjoying programming in a world of LLMs",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "platform_url": "https://news.ycombinator.com/item?id=49854875",
-      "discussion_url": "https://news.ycombinator.com/item?id=49854875",
-      "score": 299,
-      "comments_count": 319,
-      "publish_time": "2026-09-26T09:41:58+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 305.0,
-      "id": "4367945d5a93"
     },
     {
       "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
@@ -1596,16 +1656,21 @@
       "id": "c87bae5572ba"
     },
     {
-      "title": "An agent used DNS to reach an external chatbot",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-      "platform_url": "https://news.ycombinator.com/item?id=49853137",
-      "discussion_url": "https://news.ycombinator.com/item?id=49853137",
-      "score": 173,
-      "comments_count": 167,
-      "publish_time": "2026-09-26T04:14:11+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 171.2,
-      "id": "84a3dad89e05"
+      "title": "[模型] orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+      "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+      "platform_url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+      "cover_url": null,
+      "publish_time": "2026-09-26T03:37:50.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 113 · 下载 4,599",
+      "platform": "huggingface",
+      "score": 126,
+      "trending_score": 113,
+      "downloads": 4599,
+      "id": "d719bd0e565f"
     },
     {
       "title": "Anthropic签116亿美元算力大单 · 0926-685期",
@@ -1655,52 +1720,6 @@
       "id": "19954fba6557"
     },
     {
-      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-      "url": "https://www.qbitai.com/2026/09/497108.html",
-      "platform_url": "https://www.qbitai.com/2026/09/497108.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/c39a29eeab5e59a8d95c3b4acfbd85af.jpeg",
-      "publish_time": "2026-09-25T10:00:14+00:00",
-      "tags": [
-        "AI芯片",
-        "平头哥",
-        "阿里"
-      ],
-      "platform": "qbitai",
-      "id": "4aaa2838a4a9"
-    },
-    {
-      "title": "GPT-6被吐槽性能倒退，用户转投Claude · 0925-683期",
-      "url": "https://radarai.top/updates/brief-20260925-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260925-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-25T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "445be5ddf287"
-    },
-    {
-      "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-      "url": "https://www.qbitai.com/2026/09/497075.html",
-      "platform_url": "https://www.qbitai.com/2026/09/497075.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/ec70ba413b87d756ddffb67a5f303163.jpeg",
-      "publish_time": "2026-09-25T06:20:56+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "d989ebdf4aad"
-    },
-    {
-      "title": "每周 AI 热点 · 2026-09-25",
-      "url": "https://radarai.top/updates/weekly-2026-09-25",
-      "platform_url": "https://radarai.top/updates/weekly-2026-09-25",
-      "cover_url": null,
-      "publish_time": "2026-09-25T01:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "1593b368b6e2"
-    },
-    {
       "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
       "url": "https://huggingface.co/papers/2609.31620",
       "platform_url": "https://huggingface.co/papers/2609.31620",
@@ -1711,7 +1730,7 @@
       ],
       "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion th",
       "platform": "huggingface",
-      "score": 55,
+      "score": 113,
       "comments_count": 2,
       "id": "b8f6f39bea53"
     },
@@ -1731,6 +1750,21 @@
       "id": "2ed718c26b06"
     },
     {
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "platform_url": "https://huggingface.co/papers/2609.31093",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.31093.png",
+      "publish_time": "2026-09-24T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional block selection requires scoring all query-block pairs and therefore remains quadratic in sequence length. To address this issue, we propose PISA, a block-sparse attention mechanism that employs a pyramid Top-K selection strategy. The main idea is to gradually narrow down the candi",
+      "platform": "huggingface",
+      "score": 19,
+      "comments_count": 1,
+      "id": "5d7cadff4a0c"
+    },
+    {
       "title": "[模型] ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
       "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
       "platform_url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -1740,11 +1774,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 117 · 下载 28,802",
+      "summary": "TrendingScore 131 · 下载 58,021",
       "platform": "huggingface",
-      "score": 122,
-      "trending_score": 117,
-      "downloads": 28802,
+      "score": 138,
+      "trending_score": 131,
+      "downloads": 58021,
       "id": "4ed225418bbf"
     },
     {
@@ -1757,11 +1791,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 171 · 下载 1,330",
+      "summary": "TrendingScore 186 · 下载 1,663",
       "platform": "huggingface",
-      "score": 172,
-      "trending_score": 171,
-      "downloads": 1330,
+      "score": 187,
+      "trending_score": 186,
+      "downloads": 1663,
       "id": "cac4e9f237b8"
     },
     {
@@ -1775,7 +1809,7 @@
       ],
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe ",
       "platform": "huggingface",
-      "score": 77,
+      "score": 79,
       "comments_count": 2,
       "id": "dece080356b1"
     },
@@ -1805,9 +1839,24 @@
       ],
       "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training build",
       "platform": "huggingface",
-      "score": 19,
+      "score": 21,
       "comments_count": 3,
       "id": "de97ea2b3e54"
+    },
+    {
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "url": "https://huggingface.co/papers/2609.30199",
+      "platform_url": "https://huggingface.co/papers/2609.30199",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.30199.png",
+      "publish_time": "2026-09-23T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+      "platform": "huggingface",
+      "score": 19,
+      "comments_count": 1,
+      "id": "55d3a1cfa597"
     },
     {
       "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
@@ -1850,7 +1899,7 @@
       ],
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of",
       "platform": "huggingface",
-      "score": 207,
+      "score": 209,
       "comments_count": 2,
       "id": "121c0dc72b74"
     },
@@ -1939,11 +1988,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 489 · 下载 25,661",
+      "summary": "TrendingScore 503 · 下载 28,842",
       "platform": "huggingface",
-      "score": 495,
-      "trending_score": 489,
-      "downloads": 25661,
+      "score": 510,
+      "trending_score": 503,
+      "downloads": 28842,
       "id": "73569b31a5bd"
     },
     {
@@ -1956,71 +2005,20 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 550 · 下载 75,079",
+      "summary": "TrendingScore 566 · 下载 76,518",
       "platform": "huggingface",
-      "score": 563,
-      "trending_score": 550,
-      "downloads": 75079,
+      "score": 580,
+      "trending_score": 566,
+      "downloads": 76518,
       "id": "8d643759d087"
-    },
-    {
-      "title": "[模型] Altworld/Hemmingway-1",
-      "url": "https://huggingface.co/Altworld/Hemmingway-1",
-      "platform_url": "https://huggingface.co/Altworld/Hemmingway-1",
-      "cover_url": null,
-      "publish_time": "2026-09-20T12:10:31.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 592 · 下载 5,904",
-      "platform": "huggingface",
-      "score": 744,
-      "trending_score": 592,
-      "downloads": 5904,
-      "id": "e7c3f2289e0a"
-    },
-    {
-      "title": "[模型] prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "platform_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "cover_url": null,
-      "publish_time": "2026-09-16T23:40:56.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 586 · 下载 3,343,748",
-      "platform": "huggingface",
-      "score": 2204,
-      "trending_score": 586,
-      "downloads": 3343748,
-      "id": "42f223336d51"
-    },
-    {
-      "title": "[模型] XingChen-AGI/Xing4.0-29B-A4B",
-      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "platform_url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "cover_url": null,
-      "publish_time": "2026-09-16T06:44:40.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 834 · 下载 45,028",
-      "platform": "huggingface",
-      "score": 1786,
-      "trending_score": 834,
-      "downloads": 45028,
-      "id": "77fea789a897"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 13.3,
-      "cover_success_rate": 31.4
+      "avg_response_time": 10.4,
+      "cover_success_rate": 34.3
     },
     "platforms": [
       {
@@ -2028,73 +2026,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-28T05:59:35.120598+00:00"
+        "last_crawl": "2026-09-28T19:28:02.369950+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-28T06:00:11.860772+00:00"
+        "last_crawl": "2026-09-28T19:28:24.336524+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-09-28T06:00:13.423915+00:00"
+        "last_crawl": "2026-09-28T19:28:25.631178+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-09-28T06:00:30.923151+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-09-28T19:28:38.634614+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-09-28T06:00:31.057612+00:00"
+        "last_crawl": "2026-09-28T19:28:38.824710+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-09-28T05:59:35.120603+00:00",
+        "timestamp": "2026-09-28T19:28:02.369955+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.579612
+        "latency": 15.630475
       },
       {
-        "timestamp": "2026-09-28T06:00:11.860778+00:00",
+        "timestamp": "2026-09-28T19:28:24.336530+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 36.740168
+        "latency": 21.966568
       },
       {
-        "timestamp": "2026-09-28T06:00:13.423920+00:00",
+        "timestamp": "2026-09-28T19:28:25.631184+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.563136
+        "latency": 1.294648
       },
       {
-        "timestamp": "2026-09-28T06:00:30.923158+00:00",
+        "timestamp": "2026-09-28T19:28:38.634620+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 17.49921
+        "items_collected": 10,
+        "latency": 13.003428
       },
       {
-        "timestamp": "2026-09-28T06:00:31.057625+00:00",
+        "timestamp": "2026-09-28T19:28:38.824721+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.13446
+        "latency": 0.190095
       }
     ]
   }
