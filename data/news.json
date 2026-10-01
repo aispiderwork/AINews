@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-01T06:38:46.915793+00:00",
+  "update_time": "2026-10-01T18:16:31.218337+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
+        "url": "https://radarai.top/updates/brief-20261002-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261002-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-01T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "8e0ca337a7de"
+      },
+      {
+        "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
+        "url": "https://radarai.top/updates/brief-20261001-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261001-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-01T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "6edb0577fd01"
+      },
       {
         "title": "谷歌Gemini 4 Argon以77.9%反超Claude Opus 5.5 · 1001-700期",
         "url": "https://radarai.top/updates/brief-20261001-0800",
@@ -90,31 +112,45 @@
         "summary": "",
         "platform": "radarai",
         "id": "b76cd11cf0ef"
-      },
-      {
-        "title": "黄仁勋辛顿激辩AI末日论，Meta Muse泄露住址暴露代理安全危机 · 0928-692期",
-        "url": "https://radarai.top/updates/brief-20260928-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260928-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-28T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "4c6985b1bb85"
-      },
-      {
-        "title": "前10%客户贡献99.5%模型支出，开源闭源差距再拉大 · 0928-691期",
-        "url": "https://radarai.top/updates/brief-20260928-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260928-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-28T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "b5016dfbaa9f"
       }
     ],
     "hackernews": [
+      {
+        "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+        "url": "https://blog.cloudflare.com/clef-decision-models/",
+        "platform_url": "https://news.ycombinator.com/item?id=49923692",
+        "discussion_url": "https://news.ycombinator.com/item?id=49923692",
+        "score": 189,
+        "comments_count": 69,
+        "publish_time": "2026-10-01T16:18:57+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 152.99999999999997,
+        "id": "6dfd72f96ece"
+      },
+      {
+        "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+        "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49921050",
+        "discussion_url": "https://news.ycombinator.com/item?id=49921050",
+        "score": 160,
+        "comments_count": 102,
+        "publish_time": "2026-10-01T13:00:55+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 142.6,
+        "id": "3b4c3524445a"
+      },
+      {
+        "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+        "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+        "platform_url": "https://news.ycombinator.com/item?id=49919910",
+        "discussion_url": "https://news.ycombinator.com/item?id=49919910",
+        "score": 139,
+        "comments_count": 72,
+        "publish_time": "2026-10-01T10:21:36+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 118.89999999999999,
+        "id": "dfdf5400cd42"
+      },
       {
         "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
         "url": "https://artificialanalysis.ai/models/gemini-4-argon",
@@ -132,11 +168,11 @@
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "platform_url": "https://news.ycombinator.com/item?id=49913571",
         "discussion_url": "https://news.ycombinator.com/item?id=49913571",
-        "score": 1252,
-        "comments_count": 803,
+        "score": 1603,
+        "comments_count": 1068,
         "publish_time": "2026-09-30T20:04:37+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1117.3,
+        "hn_hot_score": 1442.5,
         "id": "c8d4821bd259"
       },
       {
@@ -156,11 +192,11 @@
         "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
         "platform_url": "https://news.ycombinator.com/item?id=49912955",
         "discussion_url": "https://news.ycombinator.com/item?id=49912955",
-        "score": 165,
-        "comments_count": 53,
+        "score": 242,
+        "comments_count": 92,
         "publish_time": "2026-09-30T19:04:50+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 131.39999999999998,
+        "hn_hot_score": 196.99999999999997,
         "id": "1c96d516b325"
       },
       {
@@ -168,11 +204,11 @@
         "url": "https://github.com/magnitudedev/magnitude",
         "platform_url": "https://news.ycombinator.com/item?id=49911995",
         "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-        "score": 144,
-        "comments_count": 72,
+        "score": 187,
+        "comments_count": 92,
         "publish_time": "2026-09-30T17:37:40+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 122.39999999999999,
+        "hn_hot_score": 158.5,
         "id": "2a8df15ecb57"
       },
       {
@@ -198,42 +234,6 @@
         "platform": "hackernews",
         "hn_hot_score": 81.1,
         "id": "461389b4984d"
-      },
-      {
-        "title": "You said no MCP",
-        "url": "https://earendil.com/posts/you-said-no-mcp/",
-        "platform_url": "https://news.ycombinator.com/item?id=49906637",
-        "discussion_url": "https://news.ycombinator.com/item?id=49906637",
-        "score": 630,
-        "comments_count": 350,
-        "publish_time": "2026-09-30T09:55:23+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 546.0,
-        "id": "f69e446f98c8"
-      },
-      {
-        "title": "Doing a Machine Learning PhD While Working in Japan",
-        "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
-        "platform_url": "https://news.ycombinator.com/item?id=49905644",
-        "discussion_url": "https://news.ycombinator.com/item?id=49905644",
-        "score": 79,
-        "comments_count": 28,
-        "publish_time": "2026-09-30T07:33:45+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 63.699999999999996,
-        "id": "8fc71f8cca7f"
-      },
-      {
-        "title": "PSSA: A non-transformer language model written from scratch in Rust",
-        "url": "https://github.com/Sparticle62ops/pssa",
-        "platform_url": "https://news.ycombinator.com/item?id=49903993",
-        "discussion_url": "https://news.ycombinator.com/item?id=49903993",
-        "score": 84,
-        "comments_count": 37,
-        "publish_time": "2026-09-30T03:19:54+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 69.89999999999999,
-        "id": "fa49b4588959"
       }
     ],
     "huggingface": [
@@ -248,8 +248,8 @@
         ],
         "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to a",
         "platform": "huggingface",
-        "score": 54,
-        "comments_count": 1,
+        "score": 177,
+        "comments_count": 2,
         "id": "19a1caf964a4"
       },
       {
@@ -308,7 +308,7 @@
         ],
         "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To study ",
         "platform": "huggingface",
-        "score": 22,
+        "score": 85,
         "comments_count": 1,
         "id": "5b1f66d1586f"
       },
@@ -326,6 +326,21 @@
         "score": 17,
         "comments_count": 1,
         "id": "94ac75967231"
+      },
+      {
+        "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+        "url": "https://huggingface.co/papers/2609.39102",
+        "platform_url": "https://huggingface.co/papers/2609.39102",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39102.png",
+        "publish_time": "2026-09-29T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correc",
+        "platform": "huggingface",
+        "score": 156,
+        "comments_count": 1,
+        "id": "b308823e3567"
       },
       {
         "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
@@ -488,8 +503,8 @@
         ],
         "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervis",
         "platform": "huggingface",
-        "score": 40,
-        "comments_count": 1,
+        "score": 106,
+        "comments_count": 2,
         "id": "55a9689f3d85"
       },
       {
@@ -508,34 +523,19 @@
         "id": "fb2a8a1814be"
       },
       {
-        "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
-        "url": "https://huggingface.co/papers/2609.35432",
-        "platform_url": "https://huggingface.co/papers/2609.35432",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35432.png",
-        "publish_time": "2026-09-27T20:00:00.000Z",
+        "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+        "url": "https://huggingface.co/papers/2609.38334",
+        "platform_url": "https://huggingface.co/papers/2609.38334",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38334.png",
+        "publish_time": "2026-09-28T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making them difficult to inspect or revise. Digital coding agents offer a precedent: LLMs call tools, verif",
+        "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring it ",
         "platform": "huggingface",
-        "score": 39,
-        "comments_count": 1,
-        "id": "88377f1b87c6"
-      },
-      {
-        "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
-        "url": "https://huggingface.co/papers/2609.35748",
-        "platform_url": "https://huggingface.co/papers/2609.35748",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35748.png",
-        "publish_time": "2026-09-27T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-compute slope, measured as the accuracy gain per doubling of test-time decoding FLOPs. We find that exi",
-        "platform": "huggingface",
-        "score": 25,
-        "comments_count": 1,
-        "id": "30a17056d90a"
+        "score": 49,
+        "comments_count": 2,
+        "id": "b2ef255eee78"
       }
     ],
     "bestblogs": [
@@ -882,6 +882,32 @@
     ],
     "qbitai": [
       {
+        "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+        "url": "https://www.qbitai.com/2026/10/499812.html",
+        "platform_url": "https://www.qbitai.com/2026/10/499812.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e32282d4e6facef6e97ad9ea54be37df-e1790867075587.png",
+        "publish_time": "2026-10-01T15:06:30+00:00",
+        "tags": [
+          "何恺明",
+          "猫"
+        ],
+        "platform": "qbitai",
+        "id": "5fc295105358"
+      },
+      {
+        "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+        "url": "https://www.qbitai.com/2026/10/499663.html",
+        "platform_url": "https://www.qbitai.com/2026/10/499663.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-01-22.59.40-e1790866820849.png",
+        "publish_time": "2026-10-01T15:02:14+00:00",
+        "tags": [
+          "Gemini",
+          "谷歌"
+        ],
+        "platform": "qbitai",
+        "id": "31630b56557a"
+      },
+      {
         "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
         "url": "https://www.qbitai.com/2026/09/499654.html",
         "platform_url": "https://www.qbitai.com/2026/09/499654.html",
@@ -980,34 +1006,6 @@
         ],
         "platform": "qbitai",
         "id": "7eb751816b6d"
-      },
-      {
-        "title": "正行创新联合创始人杨宇欣正式亮相：出任总裁，负责全球业务拓展",
-        "url": "https://www.qbitai.com/2026/09/499239.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499239.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/b4bbd5eedc2665c0399880ec7a2ca654.png",
-        "publish_time": "2026-09-29T10:56:33+00:00",
-        "tags": [
-          "Striding AI",
-          "杨宇欣",
-          "正行创新"
-        ],
-        "platform": "qbitai",
-        "id": "10bf7552a5ba"
-      },
-      {
-        "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-        "url": "https://www.qbitai.com/2026/09/499188.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499188.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/814c56bc1ecd452dccd080fa2c166cce.png",
-        "publish_time": "2026-09-29T07:59:46+00:00",
-        "tags": [
-          "AI大模型",
-          "IQuest-Q1",
-          "RL"
-        ],
-        "platform": "qbitai",
-        "id": "abe1e03f8e75"
       }
     ]
   },
@@ -1063,6 +1061,90 @@
           "platform_url": "https://news.ycombinator.com/item?id=49913571"
         }
       ]
+    },
+    {
+      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "platform_url": "https://news.ycombinator.com/item?id=49923692",
+      "discussion_url": "https://news.ycombinator.com/item?id=49923692",
+      "score": 189,
+      "comments_count": 69,
+      "publish_time": "2026-10-01T16:18:57+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 152.99999999999997,
+      "id": "6dfd72f96ece"
+    },
+    {
+      "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
+      "url": "https://radarai.top/updates/brief-20261002-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261002-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-01T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "8e0ca337a7de"
+    },
+    {
+      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "url": "https://www.qbitai.com/2026/10/499812.html",
+      "platform_url": "https://www.qbitai.com/2026/10/499812.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e32282d4e6facef6e97ad9ea54be37df-e1790867075587.png",
+      "publish_time": "2026-10-01T15:06:30+00:00",
+      "tags": [
+        "何恺明",
+        "猫"
+      ],
+      "platform": "qbitai",
+      "id": "5fc295105358"
+    },
+    {
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "url": "https://www.qbitai.com/2026/10/499663.html",
+      "platform_url": "https://www.qbitai.com/2026/10/499663.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-01-22.59.40-e1790866820849.png",
+      "publish_time": "2026-10-01T15:02:14+00:00",
+      "tags": [
+        "Gemini",
+        "谷歌"
+      ],
+      "platform": "qbitai",
+      "id": "31630b56557a"
+    },
+    {
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49921050",
+      "discussion_url": "https://news.ycombinator.com/item?id=49921050",
+      "score": 160,
+      "comments_count": 102,
+      "publish_time": "2026-10-01T13:00:55+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 142.6,
+      "id": "3b4c3524445a"
+    },
+    {
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "platform_url": "https://news.ycombinator.com/item?id=49919910",
+      "discussion_url": "https://news.ycombinator.com/item?id=49919910",
+      "score": 139,
+      "comments_count": 72,
+      "publish_time": "2026-10-01T10:21:36+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 118.89999999999999,
+      "id": "dfdf5400cd42"
+    },
+    {
+      "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
+      "url": "https://radarai.top/updates/brief-20261001-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261001-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-01T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "6edb0577fd01"
     },
     {
       "title": "在 TPU 上加速视频扩散模型的时空注意力",
@@ -1240,11 +1322,11 @@
       "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
       "platform_url": "https://news.ycombinator.com/item?id=49912955",
       "discussion_url": "https://news.ycombinator.com/item?id=49912955",
-      "score": 165,
-      "comments_count": 53,
+      "score": 242,
+      "comments_count": 92,
       "publish_time": "2026-09-30T19:04:50+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 131.39999999999998,
+      "hn_hot_score": 196.99999999999997,
       "id": "1c96d516b325"
     },
     {
@@ -1252,11 +1334,11 @@
       "url": "https://github.com/magnitudedev/magnitude",
       "platform_url": "https://news.ycombinator.com/item?id=49911995",
       "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-      "score": 144,
-      "comments_count": 72,
+      "score": 187,
+      "comments_count": 92,
       "publish_time": "2026-09-30T17:37:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 122.39999999999999,
+      "hn_hot_score": 158.5,
       "id": "2a8df15ecb57"
     },
     {
@@ -1333,18 +1415,6 @@
       "id": "461389b4984d"
     },
     {
-      "title": "You said no MCP",
-      "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "platform_url": "https://news.ycombinator.com/item?id=49906637",
-      "discussion_url": "https://news.ycombinator.com/item?id=49906637",
-      "score": 630,
-      "comments_count": 350,
-      "publish_time": "2026-09-30T09:55:23+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 546.0,
-      "id": "f69e446f98c8"
-    },
-    {
       "title": "OpenAI发布GPT-6 Astra等25项更新，演示翻车引质疑 · 0930-698期",
       "url": "https://radarai.top/updates/brief-20260930-1600",
       "platform_url": "https://radarai.top/updates/brief-20260930-1600",
@@ -1380,18 +1450,6 @@
       ],
       "platform": "qbitai",
       "id": "b6275321657a"
-    },
-    {
-      "title": "Doing a Machine Learning PhD While Working in Japan",
-      "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
-      "platform_url": "https://news.ycombinator.com/item?id=49905644",
-      "discussion_url": "https://news.ycombinator.com/item?id=49905644",
-      "score": 79,
-      "comments_count": 28,
-      "publish_time": "2026-09-30T07:33:45+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 63.699999999999996,
-      "id": "8fc71f8cca7f"
     },
     {
       "title": "为什么我在夏天暂别 AI，以及我从中学到了什么｜Karri Saarinen（Linear）",
@@ -1576,18 +1634,6 @@
       "id": "4e321faca340"
     },
     {
-      "title": "PSSA: A non-transformer language model written from scratch in Rust",
-      "url": "https://github.com/Sparticle62ops/pssa",
-      "platform_url": "https://news.ycombinator.com/item?id=49903993",
-      "discussion_url": "https://news.ycombinator.com/item?id=49903993",
-      "score": 84,
-      "comments_count": 37,
-      "publish_time": "2026-09-30T03:19:54+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 69.89999999999999,
-      "id": "fa49b4588959"
-    },
-    {
       "title": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
       "url": "https://www.qbitai.com/2026/09/499263.html",
       "platform_url": "https://www.qbitai.com/2026/09/499263.html",
@@ -1621,8 +1667,8 @@
       ],
       "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to a",
       "platform": "huggingface",
-      "score": 54,
-      "comments_count": 1,
+      "score": 177,
+      "comments_count": 2,
       "id": "19a1caf964a4"
     },
     {
@@ -1681,7 +1727,7 @@
       ],
       "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To study ",
       "platform": "huggingface",
-      "score": 22,
+      "score": 85,
       "comments_count": 1,
       "id": "5b1f66d1586f"
     },
@@ -1701,6 +1747,21 @@
       "id": "94ac75967231"
     },
     {
+      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+      "url": "https://huggingface.co/papers/2609.39102",
+      "platform_url": "https://huggingface.co/papers/2609.39102",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39102.png",
+      "publish_time": "2026-09-29T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correc",
+      "platform": "huggingface",
+      "score": 156,
+      "comments_count": 1,
+      "id": "b308823e3567"
+    },
+    {
       "title": "AMD 82亿收购李飞飞World Labs，OpenAI年收入逼近700亿 · 0930-696期",
       "url": "https://radarai.top/updates/brief-20260930-0000",
       "platform_url": "https://radarai.top/updates/brief-20260930-0000",
@@ -1712,20 +1773,6 @@
       "id": "76c666d4fe6a"
     },
     {
-      "title": "正行创新联合创始人杨宇欣正式亮相：出任总裁，负责全球业务拓展",
-      "url": "https://www.qbitai.com/2026/09/499239.html",
-      "platform_url": "https://www.qbitai.com/2026/09/499239.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/b4bbd5eedc2665c0399880ec7a2ca654.png",
-      "publish_time": "2026-09-29T10:56:33+00:00",
-      "tags": [
-        "Striding AI",
-        "杨宇欣",
-        "正行创新"
-      ],
-      "platform": "qbitai",
-      "id": "10bf7552a5ba"
-    },
-    {
       "title": "可灵4.0冲击电影级AI视频，国内生成式AI用户破7亿 · 0929-695期",
       "url": "https://radarai.top/updates/brief-20260929-1600",
       "platform_url": "https://radarai.top/updates/brief-20260929-1600",
@@ -1735,20 +1782,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "69d0305f4e02"
-    },
-    {
-      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-      "url": "https://www.qbitai.com/2026/09/499188.html",
-      "platform_url": "https://www.qbitai.com/2026/09/499188.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/814c56bc1ecd452dccd080fa2c166cce.png",
-      "publish_time": "2026-09-29T07:59:46+00:00",
-      "tags": [
-        "AI大模型",
-        "IQuest-Q1",
-        "RL"
-      ],
-      "platform": "qbitai",
-      "id": "abe1e03f8e75"
     },
     {
       "title": "OpenAI取消Astra 6.1发布遭佛州起诉 · 0929-694期",
@@ -1922,8 +1955,8 @@
       ],
       "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervis",
       "platform": "huggingface",
-      "score": 40,
-      "comments_count": 1,
+      "score": 106,
+      "comments_count": 2,
       "id": "55a9689f3d85"
     },
     {
@@ -1942,6 +1975,21 @@
       "id": "fb2a8a1814be"
     },
     {
+      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+      "url": "https://huggingface.co/papers/2609.38334",
+      "platform_url": "https://huggingface.co/papers/2609.38334",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38334.png",
+      "publish_time": "2026-09-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring it ",
+      "platform": "huggingface",
+      "score": 49,
+      "comments_count": 2,
+      "id": "b2ef255eee78"
+    },
+    {
       "title": "英伟达联合百余家伙伴推智能体安全平台，Meta企业部门携Muse入场 · 0929-693期",
       "url": "https://radarai.top/updates/brief-20260929-0000",
       "platform_url": "https://radarai.top/updates/brief-20260929-0000",
@@ -1951,65 +1999,13 @@
       "summary": "",
       "platform": "radarai",
       "id": "b76cd11cf0ef"
-    },
-    {
-      "title": "黄仁勋辛顿激辩AI末日论，Meta Muse泄露住址暴露代理安全危机 · 0928-692期",
-      "url": "https://radarai.top/updates/brief-20260928-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260928-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-28T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "4c6985b1bb85"
-    },
-    {
-      "title": "前10%客户贡献99.5%模型支出，开源闭源差距再拉大 · 0928-691期",
-      "url": "https://radarai.top/updates/brief-20260928-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260928-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-28T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "b5016dfbaa9f"
-    },
-    {
-      "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
-      "url": "https://huggingface.co/papers/2609.35432",
-      "platform_url": "https://huggingface.co/papers/2609.35432",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35432.png",
-      "publish_time": "2026-09-27T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making them difficult to inspect or revise. Digital coding agents offer a precedent: LLMs call tools, verif",
-      "platform": "huggingface",
-      "score": 39,
-      "comments_count": 1,
-      "id": "88377f1b87c6"
-    },
-    {
-      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
-      "url": "https://huggingface.co/papers/2609.35748",
-      "platform_url": "https://huggingface.co/papers/2609.35748",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35748.png",
-      "publish_time": "2026-09-27T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-compute slope, measured as the accuracy gain per doubling of test-time decoding FLOPs. We find that exi",
-      "platform": "huggingface",
-      "score": 25,
-      "comments_count": 1,
-      "id": "30a17056d90a"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 11.8,
+      "avg_response_time": 10.9,
       "cover_success_rate": 42.9
     },
     "platforms": [
@@ -2018,73 +2014,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T06:38:03.425232+00:00"
+        "last_crawl": "2026-10-01T18:15:52.308725+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T06:38:27.799403+00:00"
+        "last_crawl": "2026-10-01T18:16:19.733849+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T06:38:29.112661+00:00"
+        "last_crawl": "2026-10-01T18:16:21.117716+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-01T06:38:46.682325+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-01T18:16:30.991280+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-01T06:38:46.861557+00:00"
+        "last_crawl": "2026-10-01T18:16:31.163531+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-01T06:38:03.425238+00:00",
+        "timestamp": "2026-10-01T18:15:52.308730+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.514579
+        "latency": 15.455628
       },
       {
-        "timestamp": "2026-10-01T06:38:27.799408+00:00",
+        "timestamp": "2026-10-01T18:16:19.733853+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 24.374162
+        "latency": 27.425116
       },
       {
-        "timestamp": "2026-10-01T06:38:29.112667+00:00",
+        "timestamp": "2026-10-01T18:16:21.117721+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.313251
+        "latency": 1.38386
       },
       {
-        "timestamp": "2026-10-01T06:38:46.682332+00:00",
+        "timestamp": "2026-10-01T18:16:30.991285+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 17.569657
+        "items_collected": 10,
+        "latency": 9.873557
       },
       {
-        "timestamp": "2026-10-01T06:38:46.861569+00:00",
+        "timestamp": "2026-10-01T18:16:31.163544+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.179231
+        "latency": 0.172251
       }
     ]
   }
