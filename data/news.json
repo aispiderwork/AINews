@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-01T18:16:31.218337+00:00",
+  "update_time": "2026-10-02T06:22:07.373492+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "每周 AI 热点 · 2026-10-02",
+        "url": "https://radarai.top/updates/weekly-2026-10-02",
+        "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
+        "cover_url": null,
+        "publish_time": "2026-10-02T01:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "0b164b5019ca"
+      },
+      {
+        "title": "OpenAI上线ChatGPT虚拟试穿，微软语音模型0.13秒延迟登顶 · 1002-703期",
+        "url": "https://radarai.top/updates/brief-20261002-0800",
+        "platform_url": "https://radarai.top/updates/brief-20261002-0800",
+        "cover_url": null,
+        "publish_time": "2026-10-02T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "acff73140d5c"
+      },
       {
         "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
         "url": "https://radarai.top/updates/brief-20261002-0000",
@@ -90,53 +112,43 @@
         "summary": "",
         "platform": "radarai",
         "id": "69d0305f4e02"
-      },
-      {
-        "title": "OpenAI取消Astra 6.1发布遭佛州起诉 · 0929-694期",
-        "url": "https://radarai.top/updates/brief-20260929-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260929-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-29T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "755a067beaf5"
-      },
-      {
-        "title": "英伟达联合百余家伙伴推智能体安全平台，Meta企业部门携Muse入场 · 0929-693期",
-        "url": "https://radarai.top/updates/brief-20260929-0000",
-        "platform_url": "https://radarai.top/updates/brief-20260929-0000",
-        "cover_url": null,
-        "publish_time": "2026-09-28T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "b76cd11cf0ef"
       }
     ],
     "hackernews": [
       {
-        "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+        "title": "Vote on which of Hacker News' challenges for AI have been met",
+        "url": "https://stoppels.ch/goalposts/",
+        "platform_url": "https://news.ycombinator.com/item?id=49924618",
+        "discussion_url": "https://news.ycombinator.com/item?id=49924618",
+        "score": 127,
+        "comments_count": 126,
+        "publish_time": "2026-10-01T17:32:43+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 126.69999999999999,
+        "id": "6414e8da4d2e"
+      },
+      {
+        "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
         "url": "https://blog.cloudflare.com/clef-decision-models/",
         "platform_url": "https://news.ycombinator.com/item?id=49923692",
         "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-        "score": 189,
-        "comments_count": 69,
+        "score": 478,
+        "comments_count": 171,
         "publish_time": "2026-10-01T16:18:57+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 152.99999999999997,
-        "id": "6dfd72f96ece"
+        "hn_hot_score": 385.9,
+        "id": "84c4b429d51f"
       },
       {
         "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
         "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
         "platform_url": "https://news.ycombinator.com/item?id=49921050",
         "discussion_url": "https://news.ycombinator.com/item?id=49921050",
-        "score": 160,
-        "comments_count": 102,
+        "score": 201,
+        "comments_count": 153,
         "publish_time": "2026-10-01T13:00:55+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 142.6,
+        "hn_hot_score": 186.6,
         "id": "3b4c3524445a"
       },
       {
@@ -144,11 +156,11 @@
         "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
         "platform_url": "https://news.ycombinator.com/item?id=49919910",
         "discussion_url": "https://news.ycombinator.com/item?id=49919910",
-        "score": 139,
-        "comments_count": 72,
+        "score": 176,
+        "comments_count": 106,
         "publish_time": "2026-10-01T10:21:36+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 118.89999999999999,
+        "hn_hot_score": 155.0,
         "id": "dfdf5400cd42"
       },
       {
@@ -168,11 +180,11 @@
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "platform_url": "https://news.ycombinator.com/item?id=49913571",
         "discussion_url": "https://news.ycombinator.com/item?id=49913571",
-        "score": 1603,
-        "comments_count": 1068,
+        "score": 1648,
+        "comments_count": 1133,
         "publish_time": "2026-09-30T20:04:37+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1442.5,
+        "hn_hot_score": 1493.5,
         "id": "c8d4821bd259"
       },
       {
@@ -204,39 +216,117 @@
         "url": "https://github.com/magnitudedev/magnitude",
         "platform_url": "https://news.ycombinator.com/item?id=49911995",
         "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-        "score": 187,
-        "comments_count": 92,
+        "score": 191,
+        "comments_count": 96,
         "publish_time": "2026-09-30T17:37:40+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 158.5,
+        "hn_hot_score": 162.5,
         "id": "2a8df15ecb57"
       },
       {
-        "title": "The AI Race Just Got Awkward",
-        "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
-        "platform_url": "https://news.ycombinator.com/item?id=49910553",
-        "discussion_url": "https://news.ycombinator.com/item?id=49910553",
-        "score": 337,
-        "comments_count": 326,
-        "publish_time": "2026-09-30T15:50:11+00:00",
+        "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+        "url": "https://news.ycombinator.com/item?id=49911500",
+        "platform_url": "https://news.ycombinator.com/item?id=49911500",
+        "discussion_url": "https://news.ycombinator.com/item?id=49911500",
+        "score": 99,
+        "comments_count": 32,
+        "publish_time": "2026-09-30T16:58:24+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 333.7,
-        "id": "bf2972068bde"
-      },
-      {
-        "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
-        "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-        "platform_url": "https://news.ycombinator.com/item?id=49906669",
-        "discussion_url": "https://news.ycombinator.com/item?id=49906669",
-        "score": 76,
-        "comments_count": 93,
-        "publish_time": "2026-09-30T09:59:03+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 81.1,
-        "id": "461389b4984d"
+        "hn_hot_score": 78.89999999999999,
+        "id": "078086cc30cd"
       }
     ],
     "huggingface": [
+      {
+        "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+        "url": "https://huggingface.co/papers/2610.00906",
+        "platform_url": "https://huggingface.co/papers/2610.00906",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00906.png",
+        "publish_time": "2026-09-30T21:36:03.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further optimization can change, suggesting that the training curriculum itself should adapt alongside the harne",
+        "platform": "huggingface",
+        "score": 27,
+        "comments_count": 1,
+        "id": "f2a522683bd9"
+      },
+      {
+        "title": "Hierarchical Continuous Diffusion Language Models",
+        "url": "https://huggingface.co/papers/2610.02193",
+        "platform_url": "https://huggingface.co/papers/2610.02193",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02193.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
+        "platform": "huggingface",
+        "score": 46,
+        "comments_count": 1,
+        "id": "18f67bb8dc8a"
+      },
+      {
+        "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+        "url": "https://huggingface.co/papers/2610.02162",
+        "platform_url": "https://huggingface.co/papers/2610.02162",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02162.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one ",
+        "platform": "huggingface",
+        "score": 29,
+        "comments_count": 3,
+        "id": "e3fa5c3e84ee"
+      },
+      {
+        "title": "Sharpening Tax in Post-Training",
+        "url": "https://huggingface.co/papers/2610.01509",
+        "platform_url": "https://huggingface.co/papers/2610.01509",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01509.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabilities newly acquired during post-training. Our surprising finding is that pre-trained LLMs, equipped wi",
+        "platform": "huggingface",
+        "score": 27,
+        "comments_count": 1,
+        "id": "d58b14cd58c8"
+      },
+      {
+        "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+        "url": "https://huggingface.co/papers/2610.01215",
+        "platform_url": "https://huggingface.co/papers/2610.01215",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01215.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime c",
+        "platform": "huggingface",
+        "score": 25,
+        "comments_count": 1,
+        "id": "48ea56a863bd"
+      },
+      {
+        "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+        "url": "https://huggingface.co/papers/2610.01415",
+        "platform_url": "https://huggingface.co/papers/2610.01415",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01415.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world state with unresolved task requirements, making explicit what the agent still needs to learn and acco",
+        "platform": "huggingface",
+        "score": 20,
+        "comments_count": 2,
+        "id": "48990510ad54"
+      },
       {
         "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
         "url": "https://huggingface.co/papers/2609.38721",
@@ -343,6 +433,21 @@
         "id": "b308823e3567"
       },
       {
+        "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+        "url": "https://huggingface.co/papers/2609.39027",
+        "platform_url": "https://huggingface.co/papers/2609.39027",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39027.png",
+        "publish_time": "2026-09-29T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false robust",
+        "platform": "huggingface",
+        "score": 30,
+        "comments_count": 1,
+        "id": "3028c9e09a4b"
+      },
+      {
         "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
         "url": "https://huggingface.co/papers/2609.34981",
         "platform_url": "https://huggingface.co/papers/2609.34981",
@@ -431,114 +536,179 @@
         "score": 41,
         "comments_count": 1,
         "id": "7a29b5ae60c1"
-      },
-      {
-        "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
-        "url": "https://huggingface.co/papers/2609.37686",
-        "platform_url": "https://huggingface.co/papers/2609.37686",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37686.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 expert-curated tasks spanning 6 engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization) and",
-        "platform": "huggingface",
-        "score": 34,
-        "comments_count": 1,
-        "id": "4df2aabc8801"
-      },
-      {
-        "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
-        "url": "https://huggingface.co/papers/2609.37559",
-        "platform_url": "https://huggingface.co/papers/2609.37559",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37559.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use. Yet existing streaming benchmarks and methods often focus on individual continuous videos or short clips, overlooking that real-world interactions are often intermittent and require memory to persist across interruptions. To fill this gap, we introduce APM-Bench, which reformulates real-world streaming interaction as multi-session life trajectories. It contains 5",
-        "platform": "huggingface",
-        "score": 19,
-        "comments_count": 1,
-        "id": "200ff54bc5f8"
-      },
-      {
-        "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
-        "url": "https://huggingface.co/papers/2609.37969",
-        "platform_url": "https://huggingface.co/papers/2609.37969",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37969.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "High-resolution video generation is expensive, as its cost grows rapidly with the number of spatiotemporal tokens. A practical alternative first generates a lower-resolution video and then applies a refiner, but conventional multi-step refinement introduces a second sampling bottleneck. We present SoL-Refiner, a one-step video refiner that transforms low-resolution model outputs into 4K videos with a single denoising step. Our three-stage recipe combines high-resolution continual training, reinf",
-        "platform": "huggingface",
-        "score": 19,
-        "comments_count": 2,
-        "id": "4917528f3330"
-      },
-      {
-        "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
-        "url": "https://huggingface.co/papers/2609.36484",
-        "platform_url": "https://huggingface.co/papers/2609.36484",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.36484.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teacher's hidden states reaches the logits at a small fraction of its weight, and the sampled-token log-",
-        "platform": "huggingface",
-        "score": 125,
-        "comments_count": 1,
-        "id": "b0bd4530a4ca"
-      },
-      {
-        "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
-        "url": "https://huggingface.co/papers/2609.38288",
-        "platform_url": "https://huggingface.co/papers/2609.38288",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38288.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervis",
-        "platform": "huggingface",
-        "score": 106,
-        "comments_count": 2,
-        "id": "55a9689f3d85"
-      },
-      {
-        "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
-        "url": "https://huggingface.co/papers/2609.38143",
-        "platform_url": "https://huggingface.co/papers/2609.38143",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38143.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Builder learns these principles from Target's execution feedback on the development set, then uses the f",
-        "platform": "huggingface",
-        "score": 38,
-        "comments_count": 1,
-        "id": "fb2a8a1814be"
-      },
-      {
-        "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
-        "url": "https://huggingface.co/papers/2609.38334",
-        "platform_url": "https://huggingface.co/papers/2609.38334",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38334.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring it ",
-        "platform": "huggingface",
-        "score": 49,
-        "comments_count": 2,
-        "id": "b2ef255eee78"
       }
     ],
     "bestblogs": [
+      {
+        "title": "推理拍卖：为什么争抢 GPU 优先权破坏 KV 缓存局部性",
+        "url": "https://www.bestblogs.dev/article/RAW_e397a9585b",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_e397a9585b",
+        "original_url": "",
+        "resource_id": "RAW_e397a9585b",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655823+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 87,
+        "source_name": "DEV Community: machinelearning",
+        "id": "c4854611c29b"
+      },
+      {
+        "title": "When Every AI Agent Action Is Authorized—and the Overall Decision Is Still Wrong",
+        "url": "https://www.bestblogs.dev/article/RAW_6d8010e060",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_6d8010e060",
+        "original_url": "",
+        "resource_id": "RAW_6d8010e060",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655795+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 88,
+        "source_name": "Hacker News - Newest: \"AI Agent\"",
+        "id": "2e8c50fee342"
+      },
+      {
+        "title": "Braşov 还是 Brașov？15 个大模型写对我的城市名，直到你先写错",
+        "url": "https://www.bestblogs.dev/article/RAW_d59e911472",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_d59e911472",
+        "original_url": "",
+        "resource_id": "RAW_d59e911472",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655792+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 88,
+        "source_name": "DEV Community: machinelearning",
+        "id": "33186aee70ea"
+      },
+      {
+        "title": "为什么真正的智能远不止是优化 | Aeon 随笔",
+        "url": "https://www.bestblogs.dev/article/RAW_9cc73ee0b5",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_9cc73ee0b5",
+        "original_url": "",
+        "resource_id": "RAW_9cc73ee0b5",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655787+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 89,
+        "source_name": "Aeon | a world of ideas",
+        "id": "3213abfdc4e9"
+      },
+      {
+        "title": "构建 Gateway API 数据平面：Envoy Gateway 与 Airlock 的幕后设计",
+        "url": "https://www.bestblogs.dev/article/RAW_e9f743f40",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_e9f743f40",
+        "original_url": "",
+        "resource_id": "RAW_e9f743f40",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655783+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "CNCF [Cloud Native Computing Foundation]",
+        "id": "640de831f51c"
+      },
+      {
+        "title": "Introducing Olmo-core 3: 为大规模 MoE 设计的开放、可扩展训练基础设施",
+        "url": "https://www.bestblogs.dev/article/RAW_c34105384c",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_c34105384c",
+        "original_url": "",
+        "resource_id": "RAW_c34105384c",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655766+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 92,
+        "source_name": "Hugging Face - Blog",
+        "id": "4c0a4391d8d9"
+      },
+      {
+        "title": "如何在 Harness 中构建模型路由器",
+        "url": "https://www.bestblogs.dev/article/RAW_6444c3fab4",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_6444c3fab4",
+        "original_url": "",
+        "resource_id": "RAW_6444c3fab4",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655756+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "LangChain Blog",
+        "id": "a35d5b3b6878"
+      },
+      {
+        "title": "600 美元的 PR：软件工厂的投资回报究竟来自哪里",
+        "url": "https://www.bestblogs.dev/article/RAW_90d76789a",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_90d76789a",
+        "original_url": "",
+        "resource_id": "RAW_90d76789a",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655752+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Native Dev",
+        "id": "b07cd8efe6f3"
+      },
+      {
+        "title": "每日脉动：RoR 作者再次引发‘手写代码终结论’辩论",
+        "url": "https://www.bestblogs.dev/article/RAW_4125b953d0",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_4125b953d0",
+        "original_url": "",
+        "resource_id": "RAW_4125b953d0",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655746+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "The Pragmatic Engineer",
+        "id": "b1738aedb1fd"
+      },
+      {
+        "title": "Claude 时代的科学",
+        "url": "https://www.bestblogs.dev/article/RAW_333c5b436b",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_333c5b436b",
+        "original_url": "",
+        "resource_id": "RAW_333c5b436b",
+        "cover_url": null,
+        "publish_time": "2026-10-02T06:21:55.655728+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "Anthropic Research",
+        "id": "3bd65963a89f"
+      },
       {
         "title": "在 TPU 上加速视频扩散模型的时空注意力",
         "url": "https://www.bestblogs.dev/article/RAW_7d1be8ee6b",
@@ -708,176 +878,6 @@
         "score": 93,
         "source_name": "Google DeepMind",
         "id": "a2fc545bb233"
-      },
-      {
-        "title": "为什么我在夏天暂别 AI，以及我从中学到了什么｜Karri Saarinen（Linear）",
-        "url": "https://www.bestblogs.dev/article/RAW_b129037da",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_b129037da",
-        "original_url": "",
-        "resource_id": "RAW_b129037da",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314815+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Lenny's Podcast",
-        "id": "de7087b404d9"
-      },
-      {
-        "title": "斯坦福&英伟达开源 CLM-8B：75MB 对比学习验证器，DeepSWE 81.6% 刷新 SOTA",
-        "url": "https://www.bestblogs.dev/article/RAW_aa3d954997",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_aa3d954997",
-        "original_url": "",
-        "resource_id": "RAW_aa3d954997",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314809+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 89,
-        "source_name": "魔搭ModelScope社区",
-        "id": "d4cca4418ae9"
-      },
-      {
-        "title": "我发现了渗透 Agent 长程任务的秘密",
-        "url": "https://www.bestblogs.dev/article/RAW_4043a380ad",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_4043a380ad",
-        "original_url": "",
-        "resource_id": "RAW_4043a380ad",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314801+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "FreeBuf",
-        "id": "af3ce6898505"
-      },
-      {
-        "title": "Grok Bot 核心团队访谈：从手动指挥到信任放权的 Agent 使用哲学",
-        "url": "https://www.bestblogs.dev/article/RAW_2104406451498471816",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_2104406451498471816",
-        "original_url": "",
-        "resource_id": "RAW_2104406451498471816",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314793+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "meng shao(@shao__meng)",
-        "id": "9b2d0aacd171"
-      },
-      {
-        "title": "DeepSeek Harness 桌面端：现在，开箱即用。",
-        "url": "https://www.bestblogs.dev/article/RAW_99f92f6982",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_99f92f6982",
-        "original_url": "",
-        "resource_id": "RAW_99f92f6982",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314785+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "DeepSeek Harness 团队",
-        "id": "729b6d5fdd52"
-      },
-      {
-        "title": "让人类交出方向盘：特斯拉 FSD 十三年的冒险、争议与进化",
-        "url": "https://www.bestblogs.dev/article/RAW_dc2fd93cb5",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_dc2fd93cb5",
-        "original_url": "",
-        "resource_id": "RAW_dc2fd93cb5",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314780+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "硅谷101",
-        "id": "87b2c3fdbf93"
-      },
-      {
-        "title": "什么样的 AI 助手值得付费？消费级智能体的价值、信任与成本",
-        "url": "https://www.bestblogs.dev/article/RAW_184a74b78",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_184a74b78",
-        "original_url": "",
-        "resource_id": "RAW_184a74b78",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314764+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "a16z",
-        "id": "7c48e957c1de"
-      },
-      {
-        "title": "AI Native 回忆录：稳定性前端 S1 实践复盘",
-        "url": "https://www.bestblogs.dev/article/RAW_7c98d09e6a",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_7c98d09e6a",
-        "original_url": "",
-        "resource_id": "RAW_7c98d09e6a",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314755+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "阿里技术",
-        "id": "ae6f47d3d8d7"
-      },
-      {
-        "title": "推出 dots",
-        "url": "https://www.bestblogs.dev/article/RAW_ca9d3253f7",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_ca9d3253f7",
-        "original_url": "",
-        "resource_id": "RAW_ca9d3253f7",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314745+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "OpenAI News",
-        "id": "26eecea14fe1"
-      },
-      {
-        "title": "帮大家总结了一下凌晨的 OpenAI 2026 开发者大会。",
-        "url": "https://www.bestblogs.dev/article/RAW_fe2dcbb357",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_fe2dcbb357",
-        "original_url": "",
-        "resource_id": "RAW_fe2dcbb357",
-        "cover_url": null,
-        "publish_time": "2026-09-30T06:04:01.314715+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "数字生命卡兹克",
-        "id": "6accd837eb2c"
       }
     ],
     "qbitai": [
@@ -1063,16 +1063,220 @@
       ]
     },
     {
-      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "title": "推理拍卖：为什么争抢 GPU 优先权破坏 KV 缓存局部性",
+      "url": "https://www.bestblogs.dev/article/RAW_e397a9585b",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_e397a9585b",
+      "original_url": "",
+      "resource_id": "RAW_e397a9585b",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655823+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 87,
+      "source_name": "DEV Community: machinelearning",
+      "id": "c4854611c29b"
+    },
+    {
+      "title": "When Every AI Agent Action Is Authorized—and the Overall Decision Is Still Wrong",
+      "url": "https://www.bestblogs.dev/article/RAW_6d8010e060",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_6d8010e060",
+      "original_url": "",
+      "resource_id": "RAW_6d8010e060",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655795+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "Hacker News - Newest: \"AI Agent\"",
+      "id": "2e8c50fee342"
+    },
+    {
+      "title": "Braşov 还是 Brașov？15 个大模型写对我的城市名，直到你先写错",
+      "url": "https://www.bestblogs.dev/article/RAW_d59e911472",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_d59e911472",
+      "original_url": "",
+      "resource_id": "RAW_d59e911472",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655792+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "DEV Community: machinelearning",
+      "id": "33186aee70ea"
+    },
+    {
+      "title": "为什么真正的智能远不止是优化 | Aeon 随笔",
+      "url": "https://www.bestblogs.dev/article/RAW_9cc73ee0b5",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_9cc73ee0b5",
+      "original_url": "",
+      "resource_id": "RAW_9cc73ee0b5",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655787+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 89,
+      "source_name": "Aeon | a world of ideas",
+      "id": "3213abfdc4e9"
+    },
+    {
+      "title": "构建 Gateway API 数据平面：Envoy Gateway 与 Airlock 的幕后设计",
+      "url": "https://www.bestblogs.dev/article/RAW_e9f743f40",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_e9f743f40",
+      "original_url": "",
+      "resource_id": "RAW_e9f743f40",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655783+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "CNCF [Cloud Native Computing Foundation]",
+      "id": "640de831f51c"
+    },
+    {
+      "title": "Introducing Olmo-core 3: 为大规模 MoE 设计的开放、可扩展训练基础设施",
+      "url": "https://www.bestblogs.dev/article/RAW_c34105384c",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_c34105384c",
+      "original_url": "",
+      "resource_id": "RAW_c34105384c",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655766+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 92,
+      "source_name": "Hugging Face - Blog",
+      "id": "4c0a4391d8d9"
+    },
+    {
+      "title": "如何在 Harness 中构建模型路由器",
+      "url": "https://www.bestblogs.dev/article/RAW_6444c3fab4",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_6444c3fab4",
+      "original_url": "",
+      "resource_id": "RAW_6444c3fab4",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655756+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "LangChain Blog",
+      "id": "a35d5b3b6878"
+    },
+    {
+      "title": "600 美元的 PR：软件工厂的投资回报究竟来自哪里",
+      "url": "https://www.bestblogs.dev/article/RAW_90d76789a",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_90d76789a",
+      "original_url": "",
+      "resource_id": "RAW_90d76789a",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655752+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Native Dev",
+      "id": "b07cd8efe6f3"
+    },
+    {
+      "title": "每日脉动：RoR 作者再次引发‘手写代码终结论’辩论",
+      "url": "https://www.bestblogs.dev/article/RAW_4125b953d0",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_4125b953d0",
+      "original_url": "",
+      "resource_id": "RAW_4125b953d0",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655746+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "The Pragmatic Engineer",
+      "id": "b1738aedb1fd"
+    },
+    {
+      "title": "Claude 时代的科学",
+      "url": "https://www.bestblogs.dev/article/RAW_333c5b436b",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_333c5b436b",
+      "original_url": "",
+      "resource_id": "RAW_333c5b436b",
+      "cover_url": null,
+      "publish_time": "2026-10-02T06:21:55.655728+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "Anthropic Research",
+      "id": "3bd65963a89f"
+    },
+    {
+      "title": "每周 AI 热点 · 2026-10-02",
+      "url": "https://radarai.top/updates/weekly-2026-10-02",
+      "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
+      "cover_url": null,
+      "publish_time": "2026-10-02T01:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "0b164b5019ca"
+    },
+    {
+      "title": "OpenAI上线ChatGPT虚拟试穿，微软语音模型0.13秒延迟登顶 · 1002-703期",
+      "url": "https://radarai.top/updates/brief-20261002-0800",
+      "platform_url": "https://radarai.top/updates/brief-20261002-0800",
+      "cover_url": null,
+      "publish_time": "2026-10-02T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "acff73140d5c"
+    },
+    {
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "platform_url": "https://news.ycombinator.com/item?id=49924618",
+      "discussion_url": "https://news.ycombinator.com/item?id=49924618",
+      "score": 127,
+      "comments_count": 126,
+      "publish_time": "2026-10-01T17:32:43+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 126.69999999999999,
+      "id": "6414e8da4d2e"
+    },
+    {
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "platform_url": "https://news.ycombinator.com/item?id=49923692",
       "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-      "score": 189,
-      "comments_count": 69,
+      "score": 478,
+      "comments_count": 171,
       "publish_time": "2026-10-01T16:18:57+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 152.99999999999997,
-      "id": "6dfd72f96ece"
+      "hn_hot_score": 385.9,
+      "id": "84c4b429d51f"
     },
     {
       "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
@@ -1116,11 +1320,11 @@
       "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
       "platform_url": "https://news.ycombinator.com/item?id=49921050",
       "discussion_url": "https://news.ycombinator.com/item?id=49921050",
-      "score": 160,
-      "comments_count": 102,
+      "score": 201,
+      "comments_count": 153,
       "publish_time": "2026-10-01T13:00:55+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 142.6,
+      "hn_hot_score": 186.6,
       "id": "3b4c3524445a"
     },
     {
@@ -1128,11 +1332,11 @@
       "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
       "platform_url": "https://news.ycombinator.com/item?id=49919910",
       "discussion_url": "https://news.ycombinator.com/item?id=49919910",
-      "score": 139,
-      "comments_count": 72,
+      "score": 176,
+      "comments_count": 106,
       "publish_time": "2026-10-01T10:21:36+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 118.89999999999999,
+      "hn_hot_score": 155.0,
       "id": "dfdf5400cd42"
     },
     {
@@ -1294,6 +1498,21 @@
       "id": "6cc359470cc5"
     },
     {
+      "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+      "url": "https://huggingface.co/papers/2610.00906",
+      "platform_url": "https://huggingface.co/papers/2610.00906",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00906.png",
+      "publish_time": "2026-09-30T21:36:03.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further optimization can change, suggesting that the training curriculum itself should adapt alongside the harne",
+      "platform": "huggingface",
+      "score": 27,
+      "comments_count": 1,
+      "id": "f2a522683bd9"
+    },
+    {
       "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
       "url": "https://artificialanalysis.ai/models/gemini-4-argon",
       "platform_url": "https://news.ycombinator.com/item?id=49914236",
@@ -1304,6 +1523,81 @@
       "platform": "hackernews",
       "hn_hot_score": 85.9,
       "id": "dfa0202cb144"
+    },
+    {
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.02193",
+      "platform_url": "https://huggingface.co/papers/2610.02193",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02193.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
+      "platform": "huggingface",
+      "score": 46,
+      "comments_count": 1,
+      "id": "18f67bb8dc8a"
+    },
+    {
+      "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+      "url": "https://huggingface.co/papers/2610.02162",
+      "platform_url": "https://huggingface.co/papers/2610.02162",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02162.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one ",
+      "platform": "huggingface",
+      "score": 29,
+      "comments_count": 3,
+      "id": "e3fa5c3e84ee"
+    },
+    {
+      "title": "Sharpening Tax in Post-Training",
+      "url": "https://huggingface.co/papers/2610.01509",
+      "platform_url": "https://huggingface.co/papers/2610.01509",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01509.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabilities newly acquired during post-training. Our surprising finding is that pre-trained LLMs, equipped wi",
+      "platform": "huggingface",
+      "score": 27,
+      "comments_count": 1,
+      "id": "d58b14cd58c8"
+    },
+    {
+      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+      "url": "https://huggingface.co/papers/2610.01215",
+      "platform_url": "https://huggingface.co/papers/2610.01215",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01215.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime c",
+      "platform": "huggingface",
+      "score": 25,
+      "comments_count": 1,
+      "id": "48ea56a863bd"
+    },
+    {
+      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+      "url": "https://huggingface.co/papers/2610.01415",
+      "platform_url": "https://huggingface.co/papers/2610.01415",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01415.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world state with unresolved task requirements, making explicit what the agent still needs to learn and acco",
+      "platform": "huggingface",
+      "score": 20,
+      "comments_count": 2,
+      "id": "48990510ad54"
     },
     {
       "title": "CS240 AI Cheating Retrospective",
@@ -1334,12 +1628,24 @@
       "url": "https://github.com/magnitudedev/magnitude",
       "platform_url": "https://news.ycombinator.com/item?id=49911995",
       "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-      "score": 187,
-      "comments_count": 92,
+      "score": 191,
+      "comments_count": 96,
       "publish_time": "2026-09-30T17:37:40+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 158.5,
+      "hn_hot_score": 162.5,
       "id": "2a8df15ecb57"
+    },
+    {
+      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+      "url": "https://news.ycombinator.com/item?id=49911500",
+      "platform_url": "https://news.ycombinator.com/item?id=49911500",
+      "discussion_url": "https://news.ycombinator.com/item?id=49911500",
+      "score": 99,
+      "comments_count": 32,
+      "publish_time": "2026-09-30T16:58:24+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 78.89999999999999,
+      "id": "078086cc30cd"
     },
     {
       "title": "OpenAI推迟IPO寻求300亿融资 · 1001-699期",
@@ -1351,18 +1657,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "6577b8a6bec4"
-    },
-    {
-      "title": "The AI Race Just Got Awkward",
-      "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
-      "platform_url": "https://news.ycombinator.com/item?id=49910553",
-      "discussion_url": "https://news.ycombinator.com/item?id=49910553",
-      "score": 337,
-      "comments_count": 326,
-      "publish_time": "2026-09-30T15:50:11+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 333.7,
-      "id": "bf2972068bde"
     },
     {
       "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
@@ -1403,18 +1697,6 @@
       "id": "ea6ac774ebdd"
     },
     {
-      "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
-      "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-      "platform_url": "https://news.ycombinator.com/item?id=49906669",
-      "discussion_url": "https://news.ycombinator.com/item?id=49906669",
-      "score": 76,
-      "comments_count": 93,
-      "publish_time": "2026-09-30T09:59:03+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 81.1,
-      "id": "461389b4984d"
-    },
-    {
       "title": "OpenAI发布GPT-6 Astra等25项更新，演示翻车引质疑 · 0930-698期",
       "url": "https://radarai.top/updates/brief-20260930-1600",
       "platform_url": "https://radarai.top/updates/brief-20260930-1600",
@@ -1450,176 +1732,6 @@
       ],
       "platform": "qbitai",
       "id": "b6275321657a"
-    },
-    {
-      "title": "为什么我在夏天暂别 AI，以及我从中学到了什么｜Karri Saarinen（Linear）",
-      "url": "https://www.bestblogs.dev/article/RAW_b129037da",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_b129037da",
-      "original_url": "",
-      "resource_id": "RAW_b129037da",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314815+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Lenny's Podcast",
-      "id": "de7087b404d9"
-    },
-    {
-      "title": "斯坦福&英伟达开源 CLM-8B：75MB 对比学习验证器，DeepSWE 81.6% 刷新 SOTA",
-      "url": "https://www.bestblogs.dev/article/RAW_aa3d954997",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_aa3d954997",
-      "original_url": "",
-      "resource_id": "RAW_aa3d954997",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314809+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 89,
-      "source_name": "魔搭ModelScope社区",
-      "id": "d4cca4418ae9"
-    },
-    {
-      "title": "我发现了渗透 Agent 长程任务的秘密",
-      "url": "https://www.bestblogs.dev/article/RAW_4043a380ad",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_4043a380ad",
-      "original_url": "",
-      "resource_id": "RAW_4043a380ad",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314801+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "FreeBuf",
-      "id": "af3ce6898505"
-    },
-    {
-      "title": "Grok Bot 核心团队访谈：从手动指挥到信任放权的 Agent 使用哲学",
-      "url": "https://www.bestblogs.dev/article/RAW_2104406451498471816",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_2104406451498471816",
-      "original_url": "",
-      "resource_id": "RAW_2104406451498471816",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314793+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "meng shao(@shao__meng)",
-      "id": "9b2d0aacd171"
-    },
-    {
-      "title": "DeepSeek Harness 桌面端：现在，开箱即用。",
-      "url": "https://www.bestblogs.dev/article/RAW_99f92f6982",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_99f92f6982",
-      "original_url": "",
-      "resource_id": "RAW_99f92f6982",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314785+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "DeepSeek Harness 团队",
-      "id": "729b6d5fdd52"
-    },
-    {
-      "title": "让人类交出方向盘：特斯拉 FSD 十三年的冒险、争议与进化",
-      "url": "https://www.bestblogs.dev/article/RAW_dc2fd93cb5",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_dc2fd93cb5",
-      "original_url": "",
-      "resource_id": "RAW_dc2fd93cb5",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314780+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "硅谷101",
-      "id": "87b2c3fdbf93"
-    },
-    {
-      "title": "什么样的 AI 助手值得付费？消费级智能体的价值、信任与成本",
-      "url": "https://www.bestblogs.dev/article/RAW_184a74b78",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_184a74b78",
-      "original_url": "",
-      "resource_id": "RAW_184a74b78",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314764+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "a16z",
-      "id": "7c48e957c1de"
-    },
-    {
-      "title": "AI Native 回忆录：稳定性前端 S1 实践复盘",
-      "url": "https://www.bestblogs.dev/article/RAW_7c98d09e6a",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_7c98d09e6a",
-      "original_url": "",
-      "resource_id": "RAW_7c98d09e6a",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314755+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "阿里技术",
-      "id": "ae6f47d3d8d7"
-    },
-    {
-      "title": "推出 dots",
-      "url": "https://www.bestblogs.dev/article/RAW_ca9d3253f7",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_ca9d3253f7",
-      "original_url": "",
-      "resource_id": "RAW_ca9d3253f7",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314745+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "OpenAI News",
-      "id": "26eecea14fe1"
-    },
-    {
-      "title": "帮大家总结了一下凌晨的 OpenAI 2026 开发者大会。",
-      "url": "https://www.bestblogs.dev/article/RAW_fe2dcbb357",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_fe2dcbb357",
-      "original_url": "",
-      "resource_id": "RAW_fe2dcbb357",
-      "cover_url": null,
-      "publish_time": "2026-09-30T06:04:01.314715+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "数字生命卡兹克",
-      "id": "6accd837eb2c"
     },
     {
       "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
@@ -1762,6 +1874,21 @@
       "id": "b308823e3567"
     },
     {
+      "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+      "url": "https://huggingface.co/papers/2609.39027",
+      "platform_url": "https://huggingface.co/papers/2609.39027",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39027.png",
+      "publish_time": "2026-09-29T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false robust",
+      "platform": "huggingface",
+      "score": 30,
+      "comments_count": 1,
+      "id": "3028c9e09a4b"
+    },
+    {
       "title": "AMD 82亿收购李飞飞World Labs，OpenAI年收入逼近700亿 · 0930-696期",
       "url": "https://radarai.top/updates/brief-20260930-0000",
       "platform_url": "https://radarai.top/updates/brief-20260930-0000",
@@ -1782,17 +1909,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "69d0305f4e02"
-    },
-    {
-      "title": "OpenAI取消Astra 6.1发布遭佛州起诉 · 0929-694期",
-      "url": "https://radarai.top/updates/brief-20260929-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260929-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-29T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "755a067beaf5"
     },
     {
       "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
@@ -1883,129 +1999,13 @@
       "score": 41,
       "comments_count": 1,
       "id": "7a29b5ae60c1"
-    },
-    {
-      "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
-      "url": "https://huggingface.co/papers/2609.37686",
-      "platform_url": "https://huggingface.co/papers/2609.37686",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37686.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 expert-curated tasks spanning 6 engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization) and",
-      "platform": "huggingface",
-      "score": 34,
-      "comments_count": 1,
-      "id": "4df2aabc8801"
-    },
-    {
-      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
-      "url": "https://huggingface.co/papers/2609.37559",
-      "platform_url": "https://huggingface.co/papers/2609.37559",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37559.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use. Yet existing streaming benchmarks and methods often focus on individual continuous videos or short clips, overlooking that real-world interactions are often intermittent and require memory to persist across interruptions. To fill this gap, we introduce APM-Bench, which reformulates real-world streaming interaction as multi-session life trajectories. It contains 5",
-      "platform": "huggingface",
-      "score": 19,
-      "comments_count": 1,
-      "id": "200ff54bc5f8"
-    },
-    {
-      "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
-      "url": "https://huggingface.co/papers/2609.37969",
-      "platform_url": "https://huggingface.co/papers/2609.37969",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.37969.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "High-resolution video generation is expensive, as its cost grows rapidly with the number of spatiotemporal tokens. A practical alternative first generates a lower-resolution video and then applies a refiner, but conventional multi-step refinement introduces a second sampling bottleneck. We present SoL-Refiner, a one-step video refiner that transforms low-resolution model outputs into 4K videos with a single denoising step. Our three-stage recipe combines high-resolution continual training, reinf",
-      "platform": "huggingface",
-      "score": 19,
-      "comments_count": 2,
-      "id": "4917528f3330"
-    },
-    {
-      "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.36484",
-      "platform_url": "https://huggingface.co/papers/2609.36484",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.36484.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teacher's hidden states reaches the logits at a small fraction of its weight, and the sampled-token log-",
-      "platform": "huggingface",
-      "score": 125,
-      "comments_count": 1,
-      "id": "b0bd4530a4ca"
-    },
-    {
-      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
-      "url": "https://huggingface.co/papers/2609.38288",
-      "platform_url": "https://huggingface.co/papers/2609.38288",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38288.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervis",
-      "platform": "huggingface",
-      "score": 106,
-      "comments_count": 2,
-      "id": "55a9689f3d85"
-    },
-    {
-      "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
-      "url": "https://huggingface.co/papers/2609.38143",
-      "platform_url": "https://huggingface.co/papers/2609.38143",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38143.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Builder learns these principles from Target's execution feedback on the development set, then uses the f",
-      "platform": "huggingface",
-      "score": 38,
-      "comments_count": 1,
-      "id": "fb2a8a1814be"
-    },
-    {
-      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
-      "url": "https://huggingface.co/papers/2609.38334",
-      "platform_url": "https://huggingface.co/papers/2609.38334",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38334.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring it ",
-      "platform": "huggingface",
-      "score": 49,
-      "comments_count": 2,
-      "id": "b2ef255eee78"
-    },
-    {
-      "title": "英伟达联合百余家伙伴推智能体安全平台，Meta企业部门携Muse入场 · 0929-693期",
-      "url": "https://radarai.top/updates/brief-20260929-0000",
-      "platform_url": "https://radarai.top/updates/brief-20260929-0000",
-      "cover_url": null,
-      "publish_time": "2026-09-28T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "b76cd11cf0ef"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.9,
+      "avg_response_time": 10.4,
       "cover_success_rate": 42.9
     },
     "platforms": [
@@ -2014,73 +2014,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T18:15:52.308725+00:00"
+        "last_crawl": "2026-10-02T06:21:31.181115+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T18:16:19.733849+00:00"
+        "last_crawl": "2026-10-02T06:21:53.051185+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-01T18:16:21.117716+00:00"
+        "last_crawl": "2026-10-02T06:21:54.202549+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-10-01T18:16:30.991280+00:00"
+        "item_count": 20,
+        "last_crawl": "2026-10-02T06:22:07.146354+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-01T18:16:31.163531+00:00"
+        "last_crawl": "2026-10-02T06:22:07.319814+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-01T18:15:52.308730+00:00",
+        "timestamp": "2026-10-02T06:21:31.181120+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.455628
+        "latency": 15.976843
       },
       {
-        "timestamp": "2026-10-01T18:16:19.733853+00:00",
+        "timestamp": "2026-10-02T06:21:53.051192+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 27.425116
+        "latency": 21.870065
       },
       {
-        "timestamp": "2026-10-01T18:16:21.117721+00:00",
+        "timestamp": "2026-10-02T06:21:54.202555+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.38386
+        "latency": 1.151356
       },
       {
-        "timestamp": "2026-10-01T18:16:30.991285+00:00",
+        "timestamp": "2026-10-02T06:22:07.146361+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 10,
-        "latency": 9.873557
+        "items_collected": 20,
+        "latency": 12.9438
       },
       {
-        "timestamp": "2026-10-01T18:16:31.163544+00:00",
+        "timestamp": "2026-10-02T06:22:07.319826+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.172251
+        "latency": 0.173457
       }
     ]
   }
