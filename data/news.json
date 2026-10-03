@@ -1,8 +1,19 @@
 {
-  "update_time": "2026-10-02T17:42:12.267087+00:00",
+  "update_time": "2026-10-03T05:51:30.277047+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "OpenAI挖白宫安全官员，Anthropic投1亿美元培训万名工程师 · 1003-706期",
+        "url": "https://radarai.top/updates/brief-20261003-0800",
+        "platform_url": "https://radarai.top/updates/brief-20261003-0800",
+        "cover_url": null,
+        "publish_time": "2026-10-03T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "2ebf2ba11ec4"
+      },
       {
         "title": "Airbnb 六成代码由 AI 编写 · 1003-705期",
         "url": "https://radarai.top/updates/brief-20261003-0000",
@@ -101,30 +112,91 @@
         "summary": "",
         "platform": "radarai",
         "id": "8347f3329d3d"
-      },
-      {
-        "title": "OpenAI DevDay连发GPT-6.1与Codex · 0930-697期",
-        "url": "https://radarai.top/updates/brief-20260930-0800",
-        "platform_url": "https://radarai.top/updates/brief-20260930-0800",
-        "cover_url": null,
-        "publish_time": "2026-09-30T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "f3b0c03b350d"
       }
     ],
     "hackernews": [
+      {
+        "title": "From the creator of Redis; run LLM locally with ds4",
+        "url": "https://dwarfstar.sh/",
+        "platform_url": "https://news.ycombinator.com/item?id=49936575",
+        "discussion_url": "https://news.ycombinator.com/item?id=49936575",
+        "score": 200,
+        "comments_count": 56,
+        "publish_time": "2026-10-02T18:01:16+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 156.8,
+        "id": "0a57f6f96f4b"
+      },
+      {
+        "title": "With most information hidden, the game Stratego had stumped AI until now",
+        "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+        "platform_url": "https://news.ycombinator.com/item?id=49933740",
+        "discussion_url": "https://news.ycombinator.com/item?id=49933740",
+        "score": 204,
+        "comments_count": 97,
+        "publish_time": "2026-10-02T14:11:24+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 171.89999999999998,
+        "id": "c1ad06e8563c"
+      },
+      {
+        "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+        "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+        "platform_url": "https://news.ycombinator.com/item?id=49929391",
+        "discussion_url": "https://news.ycombinator.com/item?id=49929391",
+        "score": 214,
+        "comments_count": 56,
+        "publish_time": "2026-10-02T02:51:27+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 166.6,
+        "id": "6a6a1a04d557"
+      },
+      {
+        "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+        "url": "https://stillwet.art/",
+        "platform_url": "https://news.ycombinator.com/item?id=49928566",
+        "discussion_url": "https://news.ycombinator.com/item?id=49928566",
+        "score": 240,
+        "comments_count": 76,
+        "publish_time": "2026-10-02T00:27:56+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 190.8,
+        "id": "e733958b90f0"
+      },
+      {
+        "title": "Sites in ChatGPT",
+        "url": "https://chatgpt.com/features/sites/",
+        "platform_url": "https://news.ycombinator.com/item?id=49927747",
+        "discussion_url": "https://news.ycombinator.com/item?id=49927747",
+        "score": 244,
+        "comments_count": 232,
+        "publish_time": "2026-10-01T22:22:21+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 240.39999999999998,
+        "id": "43f1c83bad63"
+      },
+      {
+        "title": "Loss of cell identity drives human aging: Two new papers",
+        "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+        "platform_url": "https://news.ycombinator.com/item?id=49926411",
+        "discussion_url": "https://news.ycombinator.com/item?id=49926411",
+        "score": 211,
+        "comments_count": 58,
+        "publish_time": "2026-10-01T20:02:57+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 165.1,
+        "id": "17af0b4edf1a"
+      },
       {
         "title": "Vote on which of Hacker News' challenges for AI have been met",
         "url": "https://stoppels.ch/goalposts/",
         "platform_url": "https://news.ycombinator.com/item?id=49924618",
         "discussion_url": "https://news.ycombinator.com/item?id=49924618",
-        "score": 192,
-        "comments_count": 239,
+        "score": 196,
+        "comments_count": 259,
         "publish_time": "2026-10-01T17:32:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 206.09999999999997,
+        "hn_hot_score": 214.89999999999998,
         "id": "6414e8da4d2e"
       },
       {
@@ -132,11 +204,11 @@
         "url": "https://blog.cloudflare.com/clef-decision-models/",
         "platform_url": "https://news.ycombinator.com/item?id=49923692",
         "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-        "score": 600,
-        "comments_count": 213,
+        "score": 621,
+        "comments_count": 215,
         "publish_time": "2026-10-01T16:18:57+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 483.9,
+        "hn_hot_score": 499.2,
         "id": "84c4b429d51f"
       },
       {
@@ -162,81 +234,26 @@
         "platform": "hackernews",
         "hn_hot_score": 186.6,
         "id": "3b4c3524445a"
-      },
-      {
-        "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-        "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-        "platform_url": "https://news.ycombinator.com/item?id=49919910",
-        "discussion_url": "https://news.ycombinator.com/item?id=49919910",
-        "score": 186,
-        "comments_count": 110,
-        "publish_time": "2026-10-01T10:21:36+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 163.2,
-        "id": "dfdf5400cd42"
-      },
-      {
-        "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
-        "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-        "platform_url": "https://news.ycombinator.com/item?id=49914236",
-        "discussion_url": "https://news.ycombinator.com/item?id=49914236",
-        "score": 100,
-        "comments_count": 53,
-        "publish_time": "2026-09-30T20:50:28+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 85.9,
-        "id": "dfa0202cb144"
-      },
-      {
-        "title": "Gemini 4 Argon",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-        "platform_url": "https://news.ycombinator.com/item?id=49913571",
-        "discussion_url": "https://news.ycombinator.com/item?id=49913571",
-        "score": 1681,
-        "comments_count": 1163,
-        "publish_time": "2026-09-30T20:04:37+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 1525.6,
-        "id": "c8d4821bd259"
-      },
-      {
-        "title": "CS240 AI Cheating Retrospective",
-        "url": "https://turkeyland.net/thoughts/ai.php",
-        "platform_url": "https://news.ycombinator.com/item?id=49913458",
-        "discussion_url": "https://news.ycombinator.com/item?id=49913458",
-        "score": 104,
-        "comments_count": 91,
-        "publish_time": "2026-09-30T19:54:29+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 100.1,
-        "id": "352657230c53"
-      },
-      {
-        "title": "Surprisingly complex waves reveal the brain's inner workings",
-        "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
-        "platform_url": "https://news.ycombinator.com/item?id=49912955",
-        "discussion_url": "https://news.ycombinator.com/item?id=49912955",
-        "score": 242,
-        "comments_count": 92,
-        "publish_time": "2026-09-30T19:04:50+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 196.99999999999997,
-        "id": "1c96d516b325"
-      },
-      {
-        "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-        "url": "https://github.com/magnitudedev/magnitude",
-        "platform_url": "https://news.ycombinator.com/item?id=49911995",
-        "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-        "score": 194,
-        "comments_count": 97,
-        "publish_time": "2026-09-30T17:37:40+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 164.89999999999998,
-        "id": "2a8df15ecb57"
       }
     ],
     "huggingface": [
+      {
+        "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+        "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+        "platform_url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+        "cover_url": null,
+        "publish_time": "2026-10-01T03:42:00.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 113 · 下载 127",
+        "platform": "huggingface",
+        "score": 126,
+        "trending_score": 113,
+        "downloads": 127,
+        "id": "df39418e06f9"
+      },
       {
         "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
         "url": "https://huggingface.co/papers/2610.00906",
@@ -338,7 +355,7 @@
         ],
         "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
         "platform": "huggingface",
-        "score": 143,
+        "score": 150,
         "comments_count": 1,
         "id": "f7c2296dd11d"
       },
@@ -353,7 +370,7 @@
         ],
         "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
         "platform": "huggingface",
-        "score": 16,
+        "score": 37,
         "comments_count": 1,
         "id": "f79bccb79c22"
       },
@@ -368,8 +385,8 @@
         ],
         "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned vision-language-action (VLA) policies into Python cells that perform conditional checks and local retries",
         "platform": "huggingface",
-        "score": 14,
-        "comments_count": 1,
+        "score": 26,
+        "comments_count": 2,
         "id": "2557f3b146f0"
       },
       {
@@ -503,8 +520,8 @@
         ],
         "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
         "platform": "huggingface",
-        "score": 25,
-        "comments_count": 1,
+        "score": 43,
+        "comments_count": 2,
         "id": "22d772aa399d"
       },
       {
@@ -518,27 +535,182 @@
         ],
         "summary": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as ",
         "platform": "huggingface",
-        "score": 22,
+        "score": 36,
         "comments_count": 1,
         "id": "843573397109"
-      },
-      {
-        "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
-        "url": "https://huggingface.co/papers/2606.10953",
-        "platform_url": "https://huggingface.co/papers/2606.10953",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.10953.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints. We ask whether professional furnishing knowledge can be learned from real floor plans using a pretrained model, enabling direct constraint-aware layout generation without relying on costly iterative agentic inference. We introduce AntPlan, a curated da",
-        "platform": "huggingface",
-        "score": 10,
-        "comments_count": 1,
-        "id": "46c949ec9ee0"
       }
     ],
     "bestblogs": [
+      {
+        "title": "Gemini 4 Argon (High) 登顶 Text Arena，成本效率实现突破性领先",
+        "url": "https://www.bestblogs.dev/article/RAW_2105394855644139908",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2105394855644139908",
+        "original_url": "",
+        "resource_id": "RAW_2105394855644139908",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182465+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 93,
+        "source_name": "Arena.ai(@lmarena_ai)",
+        "id": "629ae1aaaa31"
+      },
+      {
+        "title": "智能体被困在数字孤岛：为什么 MCP 和 A2A 仍不足以支撑多智能体协作",
+        "url": "https://www.bestblogs.dev/article/RAW_3073f03ca",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_3073f03ca",
+        "original_url": "",
+        "resource_id": "RAW_3073f03ca",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182453+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "e3ce94ea0c08"
+      },
+      {
+        "title": "如何使用 Next.js、AWS 和沙箱构建像 Lovable 一样的 AI 应用构建器",
+        "url": "https://www.bestblogs.dev/article/RAW_602ab6ae11",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_602ab6ae11",
+        "original_url": "",
+        "resource_id": "RAW_602ab6ae11",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182449+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "freeCodeCamp",
+        "id": "b9f083162c3f"
+      },
+      {
+        "title": "永恒的互补品",
+        "url": "https://www.bestblogs.dev/article/RAW_26c5935e52",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_26c5935e52",
+        "original_url": "",
+        "resource_id": "RAW_26c5935e52",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182442+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "OpenAI News",
+        "id": "21785427066a"
+      },
+      {
+        "title": "LegoFlow：让智能体自主跑完代码数据构建测评流程",
+        "url": "https://www.bestblogs.dev/article/RAW_462fe90a96",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_462fe90a96",
+        "original_url": "",
+        "resource_id": "RAW_462fe90a96",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182439+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "机器之心",
+        "id": "8df10219271f"
+      },
+      {
+        "title": "使用 Helion 构建高性能且可移植的 vLLM 线性后端",
+        "url": "https://www.bestblogs.dev/article/RAW_7eb79b6ca7",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_7eb79b6ca7",
+        "original_url": "",
+        "resource_id": "RAW_7eb79b6ca7",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182435+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 92,
+        "source_name": "PyTorch",
+        "id": "7eae4913e72c"
+      },
+      {
+        "title": "Claude Code：用 TypeScript 编写 Mods 来自定义功能",
+        "url": "https://www.bestblogs.dev/article/RAW_2c7377002b",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2c7377002b",
+        "original_url": "",
+        "resource_id": "RAW_2c7377002b",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182431+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Claude Blog",
+        "id": "ecec36fc0200"
+      },
+      {
+        "title": "Instinct 创始人对谈：Personal Agent 最激进的产品，凭什么估值 100 亿美元？",
+        "url": "https://www.bestblogs.dev/article/RAW_e0caa7b014",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_e0caa7b014",
+        "original_url": "",
+        "resource_id": "RAW_e0caa7b014",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182426+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Founder Park",
+        "id": "35cd3cb7ba66"
+      },
+      {
+        "title": "AI Search 现已正式可用",
+        "url": "https://www.bestblogs.dev/article/RAW_362c1b68ae",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_362c1b68ae",
+        "original_url": "",
+        "resource_id": "RAW_362c1b68ae",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182421+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "The Cloudflare Blog",
+        "id": "b466b69c3e3f"
+      },
+      {
+        "title": "Pi 1.0：为何接纳 MCP，又推出 Pi Durable？",
+        "url": "https://www.bestblogs.dev/article/RAW_6fa9f3ad65",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_6fa9f3ad65",
+        "original_url": "",
+        "resource_id": "RAW_6fa9f3ad65",
+        "cover_url": null,
+        "publish_time": "2026-10-03T05:51:17.182412+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "浮之静",
+        "id": "4ebdbadb500d"
+      },
       {
         "title": "推理拍卖：为什么争抢 GPU 优先权破坏 KV 缓存局部性",
         "url": "https://www.bestblogs.dev/article/RAW_e397a9585b",
@@ -708,179 +880,31 @@
         "score": 91,
         "source_name": "Anthropic Research",
         "id": "3bd65963a89f"
-      },
-      {
-        "title": "在 TPU 上加速视频扩散模型的时空注意力",
-        "url": "https://www.bestblogs.dev/article/RAW_7d1be8ee6b",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_7d1be8ee6b",
-        "original_url": "",
-        "resource_id": "RAW_7d1be8ee6b",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394817+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Google Developers Blog",
-        "id": "8ec7cb10b752"
-      },
-      {
-        "title": "AI 时代漏洞发现与利用趋势",
-        "url": "https://www.bestblogs.dev/article/RAW_7a74a403b5",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_7a74a403b5",
-        "original_url": "",
-        "resource_id": "RAW_7a74a403b5",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394810+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Google Cloud Blog",
-        "id": "cdd8c5652151"
-      },
-      {
-        "title": "看见即行动、性能超 Jev，上海 AI 实验室推出决策模型“书生·明决”，实现响应效率与质量双升级",
-        "url": "https://www.bestblogs.dev/article/RAW_4c6bea6bc7",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_4c6bea6bc7",
-        "original_url": "",
-        "resource_id": "RAW_4c6bea6bc7",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394803+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "魔搭ModelScope社区",
-        "id": "bff2455cf17c"
-      },
-      {
-        "title": "DeepSeek 知乎独家发文，首次公开 V4.1 Agent 训练“大本营”DSec",
-        "url": "https://www.bestblogs.dev/article/RAW_ba298f30dd",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_ba298f30dd",
-        "original_url": "",
-        "resource_id": "RAW_ba298f30dd",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394789+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "量子位",
-        "id": "b9a1a2be7525"
-      },
-      {
-        "title": "从编程到个人助理：更强大的 AI，更透明的你",
-        "url": "https://www.bestblogs.dev/article/RAW_5eb7a5e203",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_5eb7a5e203",
-        "original_url": "",
-        "resource_id": "RAW_5eb7a5e203",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394762+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "晚点LatePost",
-        "id": "a794f0196faa"
-      },
-      {
-        "title": "81.8 秒、15 个版本：一次纯 Codex 驱动的 AI-native 视频实践",
-        "url": "https://www.bestblogs.dev/article/RAW_6a9ec5e517",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_6a9ec5e517",
-        "original_url": "",
-        "resource_id": "RAW_6a9ec5e517",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394758+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "京东技术",
-        "id": "e3494181bff6"
-      },
-      {
-        "title": "高德本地生活分析 Agent AI Native实践全景（万字长文）",
-        "url": "https://www.bestblogs.dev/article/RAW_c6ab355805",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c6ab355805",
-        "original_url": "",
-        "resource_id": "RAW_c6ab355805",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394749+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "阿里技术",
-        "id": "bc91620f0848"
-      },
-      {
-        "title": "Eleven v4：我们最具表现力的文本转语音 AI 模型",
-        "url": "https://www.bestblogs.dev/article/RAW_3b03f1b003",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3b03f1b003",
-        "original_url": "",
-        "resource_id": "RAW_3b03f1b003",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394745+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "ElevenLabs Blog",
-        "id": "d1e6b978aa53"
-      },
-      {
-        "title": "我们能预测机器人将从事的工作吗？",
-        "url": "https://www.bestblogs.dev/article/RAW_eed774a046",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_eed774a046",
-        "original_url": "",
-        "resource_id": "RAW_eed774a046",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394739+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "Anthropic Research",
-        "id": "cd20d5538bb9"
-      },
-      {
-        "title": "Gemini 4 Argon：前沿智能的新阶段",
-        "url": "https://www.bestblogs.dev/article/RAW_3b19baea81",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3b19baea81",
-        "original_url": "",
-        "resource_id": "RAW_3b19baea81",
-        "cover_url": null,
-        "publish_time": "2026-10-01T06:38:31.394721+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 93,
-        "source_name": "Google DeepMind",
-        "id": "a2fc545bb233"
       }
     ],
     "qbitai": [
+      {
+        "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+        "url": "https://www.qbitai.com/2026/10/501368.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501368.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/Codex-图像-2026年10月3日-11_18_46.png",
+        "publish_time": "2026-10-03T04:41:24+00:00",
+        "tags": [
+          "OpenAI安全团队"
+        ],
+        "platform": "qbitai",
+        "id": "83b5610dd5a6"
+      },
+      {
+        "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+        "url": "https://www.qbitai.com/2026/10/500148.html",
+        "platform_url": "https://www.qbitai.com/2026/10/500148.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/761c0051272217cf18b1ad83567b7309.jpeg",
+        "publish_time": "2026-10-03T02:38:19+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "7e07f8a1e10c"
+      },
       {
         "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
         "url": "https://www.qbitai.com/2026/10/500098.html",
@@ -981,86 +1005,224 @@
         ],
         "platform": "qbitai",
         "id": "88ca62cd098d"
-      },
-      {
-        "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-        "url": "https://www.qbitai.com/2026/09/499493.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499493.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/16570a9c142c08561f3d8a419f936346.png",
-        "publish_time": "2026-09-30T07:54:54+00:00",
-        "tags": [
-          "具身智能",
-          "宇树"
-        ],
-        "platform": "qbitai",
-        "id": "b6275321657a"
-      },
-      {
-        "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-        "url": "https://www.qbitai.com/2026/09/499308.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499308.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/3e5f57576a43d6f4441fde5183f9e472.png",
-        "publish_time": "2026-09-30T05:18:05+00:00",
-        "tags": [
-          "知乎"
-        ],
-        "platform": "qbitai",
-        "id": "720ff846f4f2"
       }
     ]
   },
   "sorted_all": [
     {
-      "title": "DeepSeek 知乎独家发文，首次公开 V4.1 Agent 训练“大本营”DSec",
-      "url": "https://www.bestblogs.dev/article/RAW_ba298f30dd",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_ba298f30dd",
+      "title": "Gemini 4 Argon (High) 登顶 Text Arena，成本效率实现突破性领先",
+      "url": "https://www.bestblogs.dev/article/RAW_2105394855644139908",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2105394855644139908",
       "original_url": "",
-      "resource_id": "RAW_ba298f30dd",
+      "resource_id": "RAW_2105394855644139908",
       "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394789+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "量子位",
-      "id": "b9a1a2be7525",
-      "source_count": 2,
-      "also_covered_by": [
-        {
-          "platform": "qbitai",
-          "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-          "url": "https://www.qbitai.com/2026/09/499308.html",
-          "platform_url": "https://www.qbitai.com/2026/09/499308.html"
-        }
-      ]
-    },
-    {
-      "title": "Gemini 4 Argon：前沿智能的新阶段",
-      "url": "https://www.bestblogs.dev/article/RAW_3b19baea81",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3b19baea81",
-      "original_url": "",
-      "resource_id": "RAW_3b19baea81",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394721+00:00",
+      "publish_time": "2026-10-03T05:51:17.182465+00:00",
       "tags": [
         "早报"
       ],
       "summary": "",
       "platform": "bestblogs",
       "score": 93,
-      "source_name": "Google DeepMind",
-      "id": "a2fc545bb233",
-      "source_count": 2,
-      "also_covered_by": [
-        {
-          "platform": "hackernews",
-          "title": "Gemini 4 Argon",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "platform_url": "https://news.ycombinator.com/item?id=49913571"
-        }
-      ]
+      "source_name": "Arena.ai(@lmarena_ai)",
+      "id": "629ae1aaaa31"
+    },
+    {
+      "title": "智能体被困在数字孤岛：为什么 MCP 和 A2A 仍不足以支撑多智能体协作",
+      "url": "https://www.bestblogs.dev/article/RAW_3073f03ca",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_3073f03ca",
+      "original_url": "",
+      "resource_id": "RAW_3073f03ca",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182453+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "e3ce94ea0c08"
+    },
+    {
+      "title": "如何使用 Next.js、AWS 和沙箱构建像 Lovable 一样的 AI 应用构建器",
+      "url": "https://www.bestblogs.dev/article/RAW_602ab6ae11",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_602ab6ae11",
+      "original_url": "",
+      "resource_id": "RAW_602ab6ae11",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182449+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "freeCodeCamp",
+      "id": "b9f083162c3f"
+    },
+    {
+      "title": "永恒的互补品",
+      "url": "https://www.bestblogs.dev/article/RAW_26c5935e52",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_26c5935e52",
+      "original_url": "",
+      "resource_id": "RAW_26c5935e52",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182442+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "OpenAI News",
+      "id": "21785427066a"
+    },
+    {
+      "title": "LegoFlow：让智能体自主跑完代码数据构建测评流程",
+      "url": "https://www.bestblogs.dev/article/RAW_462fe90a96",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_462fe90a96",
+      "original_url": "",
+      "resource_id": "RAW_462fe90a96",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182439+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "机器之心",
+      "id": "8df10219271f"
+    },
+    {
+      "title": "使用 Helion 构建高性能且可移植的 vLLM 线性后端",
+      "url": "https://www.bestblogs.dev/article/RAW_7eb79b6ca7",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_7eb79b6ca7",
+      "original_url": "",
+      "resource_id": "RAW_7eb79b6ca7",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182435+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 92,
+      "source_name": "PyTorch",
+      "id": "7eae4913e72c"
+    },
+    {
+      "title": "Claude Code：用 TypeScript 编写 Mods 来自定义功能",
+      "url": "https://www.bestblogs.dev/article/RAW_2c7377002b",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2c7377002b",
+      "original_url": "",
+      "resource_id": "RAW_2c7377002b",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182431+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Claude Blog",
+      "id": "ecec36fc0200"
+    },
+    {
+      "title": "Instinct 创始人对谈：Personal Agent 最激进的产品，凭什么估值 100 亿美元？",
+      "url": "https://www.bestblogs.dev/article/RAW_e0caa7b014",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_e0caa7b014",
+      "original_url": "",
+      "resource_id": "RAW_e0caa7b014",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182426+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Founder Park",
+      "id": "35cd3cb7ba66"
+    },
+    {
+      "title": "AI Search 现已正式可用",
+      "url": "https://www.bestblogs.dev/article/RAW_362c1b68ae",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_362c1b68ae",
+      "original_url": "",
+      "resource_id": "RAW_362c1b68ae",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182421+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "The Cloudflare Blog",
+      "id": "b466b69c3e3f"
+    },
+    {
+      "title": "Pi 1.0：为何接纳 MCP，又推出 Pi Durable？",
+      "url": "https://www.bestblogs.dev/article/RAW_6fa9f3ad65",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_6fa9f3ad65",
+      "original_url": "",
+      "resource_id": "RAW_6fa9f3ad65",
+      "cover_url": null,
+      "publish_time": "2026-10-03T05:51:17.182412+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "浮之静",
+      "id": "4ebdbadb500d"
+    },
+    {
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "url": "https://www.qbitai.com/2026/10/501368.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501368.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/Codex-图像-2026年10月3日-11_18_46.png",
+      "publish_time": "2026-10-03T04:41:24+00:00",
+      "tags": [
+        "OpenAI安全团队"
+      ],
+      "platform": "qbitai",
+      "id": "83b5610dd5a6"
+    },
+    {
+      "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "url": "https://www.qbitai.com/2026/10/500148.html",
+      "platform_url": "https://www.qbitai.com/2026/10/500148.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/761c0051272217cf18b1ad83567b7309.jpeg",
+      "publish_time": "2026-10-03T02:38:19+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "7e07f8a1e10c"
+    },
+    {
+      "title": "OpenAI挖白宫安全官员，Anthropic投1亿美元培训万名工程师 · 1003-706期",
+      "url": "https://radarai.top/updates/brief-20261003-0800",
+      "platform_url": "https://radarai.top/updates/brief-20261003-0800",
+      "cover_url": null,
+      "publish_time": "2026-10-03T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "2ebf2ba11ec4"
+    },
+    {
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "platform_url": "https://news.ycombinator.com/item?id=49936575",
+      "discussion_url": "https://news.ycombinator.com/item?id=49936575",
+      "score": 200,
+      "comments_count": 56,
+      "publish_time": "2026-10-02T18:01:16+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 156.8,
+      "id": "0a57f6f96f4b"
     },
     {
       "title": "Airbnb 六成代码由 AI 编写 · 1003-705期",
@@ -1072,6 +1234,18 @@
       "summary": "",
       "platform": "radarai",
       "id": "9c054c010a44"
+    },
+    {
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "platform_url": "https://news.ycombinator.com/item?id=49933740",
+      "discussion_url": "https://news.ycombinator.com/item?id=49933740",
+      "score": 204,
+      "comments_count": 97,
+      "publish_time": "2026-10-02T14:11:24+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 171.89999999999998,
+      "id": "c1ad06e8563c"
     },
     {
       "title": "Anthropic被曝2万亿IPO，AMD 82亿收购World Labs · 1002-704期",
@@ -1279,6 +1453,18 @@
       "id": "3bd65963a89f"
     },
     {
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "platform_url": "https://news.ycombinator.com/item?id=49929391",
+      "discussion_url": "https://news.ycombinator.com/item?id=49929391",
+      "score": 214,
+      "comments_count": 56,
+      "publish_time": "2026-10-02T02:51:27+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 166.6,
+      "id": "6a6a1a04d557"
+    },
+    {
       "title": "每周 AI 热点 · 2026-10-02",
       "url": "https://radarai.top/updates/weekly-2026-10-02",
       "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
@@ -1288,6 +1474,18 @@
       "summary": "",
       "platform": "radarai",
       "id": "0b164b5019ca"
+    },
+    {
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "url": "https://stillwet.art/",
+      "platform_url": "https://news.ycombinator.com/item?id=49928566",
+      "discussion_url": "https://news.ycombinator.com/item?id=49928566",
+      "score": 240,
+      "comments_count": 76,
+      "publish_time": "2026-10-02T00:27:56+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 190.8,
+      "id": "e733958b90f0"
     },
     {
       "title": "OpenAI上线ChatGPT虚拟试穿，微软语音模型0.13秒延迟登顶 · 1002-703期",
@@ -1301,15 +1499,39 @@
       "id": "acff73140d5c"
     },
     {
+      "title": "Sites in ChatGPT",
+      "url": "https://chatgpt.com/features/sites/",
+      "platform_url": "https://news.ycombinator.com/item?id=49927747",
+      "discussion_url": "https://news.ycombinator.com/item?id=49927747",
+      "score": 244,
+      "comments_count": 232,
+      "publish_time": "2026-10-01T22:22:21+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 240.39999999999998,
+      "id": "43f1c83bad63"
+    },
+    {
+      "title": "Loss of cell identity drives human aging: Two new papers",
+      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "platform_url": "https://news.ycombinator.com/item?id=49926411",
+      "discussion_url": "https://news.ycombinator.com/item?id=49926411",
+      "score": 211,
+      "comments_count": 58,
+      "publish_time": "2026-10-01T20:02:57+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 165.1,
+      "id": "17af0b4edf1a"
+    },
+    {
       "title": "Vote on which of Hacker News' challenges for AI have been met",
       "url": "https://stoppels.ch/goalposts/",
       "platform_url": "https://news.ycombinator.com/item?id=49924618",
       "discussion_url": "https://news.ycombinator.com/item?id=49924618",
-      "score": 192,
-      "comments_count": 239,
+      "score": 196,
+      "comments_count": 259,
       "publish_time": "2026-10-01T17:32:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 206.09999999999997,
+      "hn_hot_score": 214.89999999999998,
       "id": "6414e8da4d2e"
     },
     {
@@ -1317,11 +1539,11 @@
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "platform_url": "https://news.ycombinator.com/item?id=49923692",
       "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-      "score": 600,
-      "comments_count": 213,
+      "score": 621,
+      "comments_count": 215,
       "publish_time": "2026-10-01T16:18:57+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 483.9,
+      "hn_hot_score": 499.2,
       "id": "84c4b429d51f"
     },
     {
@@ -1386,18 +1608,6 @@
       "id": "3b4c3524445a"
     },
     {
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "platform_url": "https://news.ycombinator.com/item?id=49919910",
-      "discussion_url": "https://news.ycombinator.com/item?id=49919910",
-      "score": 186,
-      "comments_count": 110,
-      "publish_time": "2026-10-01T10:21:36+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 163.2,
-      "id": "dfdf5400cd42"
-    },
-    {
       "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
       "url": "https://radarai.top/updates/brief-20261001-1600",
       "platform_url": "https://radarai.top/updates/brief-20261001-1600",
@@ -1409,140 +1619,21 @@
       "id": "6edb0577fd01"
     },
     {
-      "title": "在 TPU 上加速视频扩散模型的时空注意力",
-      "url": "https://www.bestblogs.dev/article/RAW_7d1be8ee6b",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_7d1be8ee6b",
-      "original_url": "",
-      "resource_id": "RAW_7d1be8ee6b",
+      "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+      "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+      "platform_url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
       "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394817+00:00",
+      "publish_time": "2026-10-01T03:42:00.000Z",
       "tags": [
-        "早报"
+        "模型",
+        "text-generation"
       ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Google Developers Blog",
-      "id": "8ec7cb10b752"
-    },
-    {
-      "title": "AI 时代漏洞发现与利用趋势",
-      "url": "https://www.bestblogs.dev/article/RAW_7a74a403b5",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_7a74a403b5",
-      "original_url": "",
-      "resource_id": "RAW_7a74a403b5",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394810+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Google Cloud Blog",
-      "id": "cdd8c5652151"
-    },
-    {
-      "title": "看见即行动、性能超 Jev，上海 AI 实验室推出决策模型“书生·明决”，实现响应效率与质量双升级",
-      "url": "https://www.bestblogs.dev/article/RAW_4c6bea6bc7",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_4c6bea6bc7",
-      "original_url": "",
-      "resource_id": "RAW_4c6bea6bc7",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394803+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "魔搭ModelScope社区",
-      "id": "bff2455cf17c"
-    },
-    {
-      "title": "从编程到个人助理：更强大的 AI，更透明的你",
-      "url": "https://www.bestblogs.dev/article/RAW_5eb7a5e203",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_5eb7a5e203",
-      "original_url": "",
-      "resource_id": "RAW_5eb7a5e203",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394762+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "晚点LatePost",
-      "id": "a794f0196faa"
-    },
-    {
-      "title": "81.8 秒、15 个版本：一次纯 Codex 驱动的 AI-native 视频实践",
-      "url": "https://www.bestblogs.dev/article/RAW_6a9ec5e517",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_6a9ec5e517",
-      "original_url": "",
-      "resource_id": "RAW_6a9ec5e517",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394758+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "京东技术",
-      "id": "e3494181bff6"
-    },
-    {
-      "title": "高德本地生活分析 Agent AI Native实践全景（万字长文）",
-      "url": "https://www.bestblogs.dev/article/RAW_c6ab355805",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c6ab355805",
-      "original_url": "",
-      "resource_id": "RAW_c6ab355805",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394749+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "阿里技术",
-      "id": "bc91620f0848"
-    },
-    {
-      "title": "Eleven v4：我们最具表现力的文本转语音 AI 模型",
-      "url": "https://www.bestblogs.dev/article/RAW_3b03f1b003",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3b03f1b003",
-      "original_url": "",
-      "resource_id": "RAW_3b03f1b003",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394745+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "ElevenLabs Blog",
-      "id": "d1e6b978aa53"
-    },
-    {
-      "title": "我们能预测机器人将从事的工作吗？",
-      "url": "https://www.bestblogs.dev/article/RAW_eed774a046",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_eed774a046",
-      "original_url": "",
-      "resource_id": "RAW_eed774a046",
-      "cover_url": null,
-      "publish_time": "2026-10-01T06:38:31.394739+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "Anthropic Research",
-      "id": "cd20d5538bb9"
+      "summary": "TrendingScore 113 · 下载 127",
+      "platform": "huggingface",
+      "score": 126,
+      "trending_score": 113,
+      "downloads": 127,
+      "id": "df39418e06f9"
     },
     {
       "title": "谷歌Gemini 4 Argon以77.9%反超Claude Opus 5.5 · 1001-700期",
@@ -1569,18 +1660,6 @@
       "score": 27,
       "comments_count": 1,
       "id": "f2a522683bd9"
-    },
-    {
-      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
-      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-      "platform_url": "https://news.ycombinator.com/item?id=49914236",
-      "discussion_url": "https://news.ycombinator.com/item?id=49914236",
-      "score": 100,
-      "comments_count": 53,
-      "publish_time": "2026-09-30T20:50:28+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 85.9,
-      "id": "dfa0202cb144"
     },
     {
       "title": "Hierarchical Continuous Diffusion Language Models",
@@ -1668,7 +1747,7 @@
       ],
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
       "platform": "huggingface",
-      "score": 143,
+      "score": 150,
       "comments_count": 1,
       "id": "f7c2296dd11d"
     },
@@ -1683,7 +1762,7 @@
       ],
       "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
       "platform": "huggingface",
-      "score": 16,
+      "score": 37,
       "comments_count": 1,
       "id": "f79bccb79c22"
     },
@@ -1698,45 +1777,9 @@
       ],
       "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned vision-language-action (VLA) policies into Python cells that perform conditional checks and local retries",
       "platform": "huggingface",
-      "score": 14,
-      "comments_count": 1,
+      "score": 26,
+      "comments_count": 2,
       "id": "2557f3b146f0"
-    },
-    {
-      "title": "CS240 AI Cheating Retrospective",
-      "url": "https://turkeyland.net/thoughts/ai.php",
-      "platform_url": "https://news.ycombinator.com/item?id=49913458",
-      "discussion_url": "https://news.ycombinator.com/item?id=49913458",
-      "score": 104,
-      "comments_count": 91,
-      "publish_time": "2026-09-30T19:54:29+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 100.1,
-      "id": "352657230c53"
-    },
-    {
-      "title": "Surprisingly complex waves reveal the brain's inner workings",
-      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
-      "platform_url": "https://news.ycombinator.com/item?id=49912955",
-      "discussion_url": "https://news.ycombinator.com/item?id=49912955",
-      "score": 242,
-      "comments_count": 92,
-      "publish_time": "2026-09-30T19:04:50+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 196.99999999999997,
-      "id": "1c96d516b325"
-    },
-    {
-      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "platform_url": "https://news.ycombinator.com/item?id=49911995",
-      "discussion_url": "https://news.ycombinator.com/item?id=49911995",
-      "score": 194,
-      "comments_count": 97,
-      "publish_time": "2026-09-30T17:37:40+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 164.89999999999998,
-      "id": "2a8df15ecb57"
     },
     {
       "title": "OpenAI推迟IPO寻求300亿融资 · 1001-699期",
@@ -1810,30 +1853,6 @@
       ],
       "platform": "qbitai",
       "id": "88ca62cd098d"
-    },
-    {
-      "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-      "url": "https://www.qbitai.com/2026/09/499493.html",
-      "platform_url": "https://www.qbitai.com/2026/09/499493.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/16570a9c142c08561f3d8a419f936346.png",
-      "publish_time": "2026-09-30T07:54:54+00:00",
-      "tags": [
-        "具身智能",
-        "宇树"
-      ],
-      "platform": "qbitai",
-      "id": "b6275321657a"
-    },
-    {
-      "title": "OpenAI DevDay连发GPT-6.1与Codex · 0930-697期",
-      "url": "https://radarai.top/updates/brief-20260930-0800",
-      "platform_url": "https://radarai.top/updates/brief-20260930-0800",
-      "cover_url": null,
-      "publish_time": "2026-09-30T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "f3b0c03b350d"
     },
     {
       "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
@@ -1966,8 +1985,8 @@
       ],
       "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
       "platform": "huggingface",
-      "score": 25,
-      "comments_count": 1,
+      "score": 43,
+      "comments_count": 2,
       "id": "22d772aa399d"
     },
     {
@@ -1981,32 +2000,17 @@
       ],
       "summary": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as ",
       "platform": "huggingface",
-      "score": 22,
+      "score": 36,
       "comments_count": 1,
       "id": "843573397109"
-    },
-    {
-      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
-      "url": "https://huggingface.co/papers/2606.10953",
-      "platform_url": "https://huggingface.co/papers/2606.10953",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.10953.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints. We ask whether professional furnishing knowledge can be learned from real floor plans using a pretrained model, enabling direct constraint-aware layout generation without relying on costly iterative agentic inference. We introduce AntPlan, a curated da",
-      "platform": "huggingface",
-      "score": 10,
-      "comments_count": 1,
-      "id": "46c949ec9ee0"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 12.0,
-      "cover_success_rate": 42.9
+      "avg_response_time": 11.2,
+      "cover_success_rate": 41.4
     },
     "platforms": [
       {
@@ -2014,73 +2018,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-02T17:41:27.650823+00:00"
+        "last_crawl": "2026-10-03T05:50:49.910655+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-02T17:41:56.415498+00:00"
+        "last_crawl": "2026-10-03T05:51:15.277775+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-02T17:41:57.601745+00:00"
+        "last_crawl": "2026-10-03T05:51:16.489926+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-10-02T17:42:11.967794+00:00"
+        "item_count": 20,
+        "last_crawl": "2026-10-03T05:51:30.064830+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-02T17:42:12.210371+00:00"
+        "last_crawl": "2026-10-03T05:51:30.220331+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-02T17:41:27.650828+00:00",
+        "timestamp": "2026-10-03T05:50:49.910661+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.26098
+        "latency": 15.565627
       },
       {
-        "timestamp": "2026-10-02T17:41:56.415521+00:00",
+        "timestamp": "2026-10-03T05:51:15.277784+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 28.764685
+        "latency": 25.367116
       },
       {
-        "timestamp": "2026-10-02T17:41:57.601750+00:00",
+        "timestamp": "2026-10-03T05:51:16.489933+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.186221
+        "latency": 1.212141
       },
       {
-        "timestamp": "2026-10-02T17:42:11.967799+00:00",
+        "timestamp": "2026-10-03T05:51:30.064836+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 10,
-        "latency": 14.366042
+        "items_collected": 20,
+        "latency": 13.574896
       },
       {
-        "timestamp": "2026-10-02T17:42:12.210384+00:00",
+        "timestamp": "2026-10-03T05:51:30.220343+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.242578
+        "latency": 0.155501
       }
     ]
   }
