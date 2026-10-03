@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-03T05:51:30.277047+00:00",
+  "update_time": "2026-10-03T16:00:26.922837+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "LeCun 称扩展 LLM 无法实现 AGI · 1004-708期",
+        "url": "https://radarai.top/updates/brief-20261004-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261004-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-03T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "f35ec9275ae2"
+      },
+      {
+        "title": "OpenAI日烧50万美元查智能体入侵，韩国五大银行遭AI黑客攻击 · 1003-707期",
+        "url": "https://radarai.top/updates/brief-20261003-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261003-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-03T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "fcfc037e0aca"
+      },
       {
         "title": "OpenAI挖白宫安全官员，Anthropic投1亿美元培训万名工程师 · 1003-706期",
         "url": "https://radarai.top/updates/brief-20261003-0800",
@@ -90,41 +112,31 @@
         "summary": "",
         "platform": "radarai",
         "id": "6cc359470cc5"
-      },
-      {
-        "title": "OpenAI推迟IPO寻求300亿融资 · 1001-699期",
-        "url": "https://radarai.top/updates/brief-20261001-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261001-0000",
-        "cover_url": null,
-        "publish_time": "2026-09-30T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "6577b8a6bec4"
-      },
-      {
-        "title": "OpenAI发布GPT-6 Astra等25项更新，演示翻车引质疑 · 0930-698期",
-        "url": "https://radarai.top/updates/brief-20260930-1600",
-        "platform_url": "https://radarai.top/updates/brief-20260930-1600",
-        "cover_url": null,
-        "publish_time": "2026-09-30T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "8347f3329d3d"
       }
     ],
     "hackernews": [
+      {
+        "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+        "url": "https://tej.as/blog/aleph-alpha-kolibri",
+        "platform_url": "https://news.ycombinator.com/item?id=49943034",
+        "discussion_url": "https://news.ycombinator.com/item?id=49943034",
+        "score": 251,
+        "comments_count": 114,
+        "publish_time": "2026-10-03T10:43:51+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 209.89999999999998,
+        "id": "0c16179ca631"
+      },
       {
         "title": "From the creator of Redis; run LLM locally with ds4",
         "url": "https://dwarfstar.sh/",
         "platform_url": "https://news.ycombinator.com/item?id=49936575",
         "discussion_url": "https://news.ycombinator.com/item?id=49936575",
-        "score": 200,
-        "comments_count": 56,
+        "score": 300,
+        "comments_count": 89,
         "publish_time": "2026-10-02T18:01:16+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 156.8,
+        "hn_hot_score": 236.7,
         "id": "0a57f6f96f4b"
       },
       {
@@ -132,11 +144,11 @@
         "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
         "platform_url": "https://news.ycombinator.com/item?id=49933740",
         "discussion_url": "https://news.ycombinator.com/item?id=49933740",
-        "score": 204,
-        "comments_count": 97,
+        "score": 254,
+        "comments_count": 121,
         "publish_time": "2026-10-02T14:11:24+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 171.89999999999998,
+        "hn_hot_score": 214.09999999999997,
         "id": "c1ad06e8563c"
       },
       {
@@ -144,11 +156,11 @@
         "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
         "platform_url": "https://news.ycombinator.com/item?id=49929391",
         "discussion_url": "https://news.ycombinator.com/item?id=49929391",
-        "score": 214,
-        "comments_count": 56,
+        "score": 283,
+        "comments_count": 107,
         "publish_time": "2026-10-02T02:51:27+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 166.6,
+        "hn_hot_score": 230.2,
         "id": "6a6a1a04d557"
       },
       {
@@ -156,11 +168,11 @@
         "url": "https://stillwet.art/",
         "platform_url": "https://news.ycombinator.com/item?id=49928566",
         "discussion_url": "https://news.ycombinator.com/item?id=49928566",
-        "score": 240,
-        "comments_count": 76,
+        "score": 328,
+        "comments_count": 102,
         "publish_time": "2026-10-02T00:27:56+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 190.8,
+        "hn_hot_score": 260.2,
         "id": "e733958b90f0"
       },
       {
@@ -168,11 +180,11 @@
         "url": "https://chatgpt.com/features/sites/",
         "platform_url": "https://news.ycombinator.com/item?id=49927747",
         "discussion_url": "https://news.ycombinator.com/item?id=49927747",
-        "score": 244,
-        "comments_count": 232,
+        "score": 318,
+        "comments_count": 307,
         "publish_time": "2026-10-01T22:22:21+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 240.39999999999998,
+        "hn_hot_score": 314.7,
         "id": "43f1c83bad63"
       },
       {
@@ -180,11 +192,11 @@
         "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
         "platform_url": "https://news.ycombinator.com/item?id=49926411",
         "discussion_url": "https://news.ycombinator.com/item?id=49926411",
-        "score": 211,
-        "comments_count": 58,
+        "score": 308,
+        "comments_count": 142,
         "publish_time": "2026-10-01T20:02:57+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 165.1,
+        "hn_hot_score": 258.2,
         "id": "17af0b4edf1a"
       },
       {
@@ -192,11 +204,11 @@
         "url": "https://stoppels.ch/goalposts/",
         "platform_url": "https://news.ycombinator.com/item?id=49924618",
         "discussion_url": "https://news.ycombinator.com/item?id=49924618",
-        "score": 196,
-        "comments_count": 259,
+        "score": 198,
+        "comments_count": 265,
         "publish_time": "2026-10-01T17:32:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 214.89999999999998,
+        "hn_hot_score": 218.1,
         "id": "6414e8da4d2e"
       },
       {
@@ -204,11 +216,11 @@
         "url": "https://blog.cloudflare.com/clef-decision-models/",
         "platform_url": "https://news.ycombinator.com/item?id=49923692",
         "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-        "score": 621,
+        "score": 622,
         "comments_count": 215,
         "publish_time": "2026-10-01T16:18:57+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 499.2,
+        "hn_hot_score": 499.9,
         "id": "84c4b429d51f"
       },
       {
@@ -222,21 +234,26 @@
         "platform": "hackernews",
         "hn_hot_score": 70.3,
         "id": "e36306ec04f0"
-      },
-      {
-        "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-        "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-        "platform_url": "https://news.ycombinator.com/item?id=49921050",
-        "discussion_url": "https://news.ycombinator.com/item?id=49921050",
-        "score": 201,
-        "comments_count": 153,
-        "publish_time": "2026-10-01T13:00:55+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 186.6,
-        "id": "3b4c3524445a"
       }
     ],
     "huggingface": [
+      {
+        "title": "[模型] Aleph-Alpha/Kolibri-1",
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+        "platform_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+        "cover_url": null,
+        "publish_time": "2026-10-02T05:54:02.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 146 · 下载 0",
+        "platform": "huggingface",
+        "score": 150,
+        "trending_score": 146,
+        "downloads": 0,
+        "id": "ad7e98aaffac"
+      },
       {
         "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
         "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
@@ -247,11 +264,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 113 · 下载 127",
+        "summary": "TrendingScore 148 · 下载 520",
         "platform": "huggingface",
-        "score": 126,
-        "trending_score": 113,
-        "downloads": 127,
+        "score": 162,
+        "trending_score": 148,
+        "downloads": 520,
         "id": "df39418e06f9"
       },
       {
@@ -355,7 +372,7 @@
         ],
         "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
         "platform": "huggingface",
-        "score": 150,
+        "score": 157,
         "comments_count": 1,
         "id": "f7c2296dd11d"
       },
@@ -370,7 +387,7 @@
         ],
         "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
         "platform": "huggingface",
-        "score": 37,
+        "score": 42,
         "comments_count": 1,
         "id": "f79bccb79c22"
       },
@@ -520,24 +537,9 @@
         ],
         "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
         "platform": "huggingface",
-        "score": 43,
+        "score": 48,
         "comments_count": 2,
         "id": "22d772aa399d"
-      },
-      {
-        "title": "EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos",
-        "url": "https://huggingface.co/papers/2609.39378",
-        "platform_url": "https://huggingface.co/papers/2609.39378",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39378.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as ",
-        "platform": "huggingface",
-        "score": 36,
-        "comments_count": 1,
-        "id": "843573397109"
       }
     ],
     "bestblogs": [
@@ -884,6 +886,18 @@
     ],
     "qbitai": [
       {
+        "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+        "url": "https://www.qbitai.com/2026/10/501381.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501381.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a825a1e1bb5110fd9b127fb0a8a97078.png",
+        "publish_time": "2026-10-03T07:54:43+00:00",
+        "tags": [
+          "Deepseek"
+        ],
+        "platform": "qbitai",
+        "id": "6db794442ef1"
+      },
+      {
         "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
         "url": "https://www.qbitai.com/2026/10/501368.html",
         "platform_url": "https://www.qbitai.com/2026/10/501368.html",
@@ -992,23 +1006,56 @@
         ],
         "platform": "qbitai",
         "id": "ea6ac774ebdd"
-      },
-      {
-        "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-        "url": "https://www.qbitai.com/2026/09/499592.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499592.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/cb543671c4882a713bd4397c7b8b2196.webp",
-        "publish_time": "2026-09-30T07:58:37+00:00",
-        "tags": [
-          "Agent",
-          "Manus"
-        ],
-        "platform": "qbitai",
-        "id": "88ca62cd098d"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "LeCun 称扩展 LLM 无法实现 AGI · 1004-708期",
+      "url": "https://radarai.top/updates/brief-20261004-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261004-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-03T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "f35ec9275ae2"
+    },
+    {
+      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "platform_url": "https://news.ycombinator.com/item?id=49943034",
+      "discussion_url": "https://news.ycombinator.com/item?id=49943034",
+      "score": 251,
+      "comments_count": 114,
+      "publish_time": "2026-10-03T10:43:51+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 209.89999999999998,
+      "id": "0c16179ca631"
+    },
+    {
+      "title": "OpenAI日烧50万美元查智能体入侵，韩国五大银行遭AI黑客攻击 · 1003-707期",
+      "url": "https://radarai.top/updates/brief-20261003-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261003-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-03T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "fcfc037e0aca"
+    },
+    {
+      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "url": "https://www.qbitai.com/2026/10/501381.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501381.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a825a1e1bb5110fd9b127fb0a8a97078.png",
+      "publish_time": "2026-10-03T07:54:43+00:00",
+      "tags": [
+        "Deepseek"
+      ],
+      "platform": "qbitai",
+      "id": "6db794442ef1"
+    },
     {
       "title": "Gemini 4 Argon (High) 登顶 Text Arena，成本效率实现突破性领先",
       "url": "https://www.bestblogs.dev/article/RAW_2105394855644139908",
@@ -1217,11 +1264,11 @@
       "url": "https://dwarfstar.sh/",
       "platform_url": "https://news.ycombinator.com/item?id=49936575",
       "discussion_url": "https://news.ycombinator.com/item?id=49936575",
-      "score": 200,
-      "comments_count": 56,
+      "score": 300,
+      "comments_count": 89,
       "publish_time": "2026-10-02T18:01:16+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 156.8,
+      "hn_hot_score": 236.7,
       "id": "0a57f6f96f4b"
     },
     {
@@ -1240,11 +1287,11 @@
       "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
       "platform_url": "https://news.ycombinator.com/item?id=49933740",
       "discussion_url": "https://news.ycombinator.com/item?id=49933740",
-      "score": 204,
-      "comments_count": 97,
+      "score": 254,
+      "comments_count": 121,
       "publish_time": "2026-10-02T14:11:24+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 171.89999999999998,
+      "hn_hot_score": 214.09999999999997,
       "id": "c1ad06e8563c"
     },
     {
@@ -1453,15 +1500,32 @@
       "id": "3bd65963a89f"
     },
     {
+      "title": "[模型] Aleph-Alpha/Kolibri-1",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "platform_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "cover_url": null,
+      "publish_time": "2026-10-02T05:54:02.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 146 · 下载 0",
+      "platform": "huggingface",
+      "score": 150,
+      "trending_score": 146,
+      "downloads": 0,
+      "id": "ad7e98aaffac"
+    },
+    {
       "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
       "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
       "platform_url": "https://news.ycombinator.com/item?id=49929391",
       "discussion_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 214,
-      "comments_count": 56,
+      "score": 283,
+      "comments_count": 107,
       "publish_time": "2026-10-02T02:51:27+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 166.6,
+      "hn_hot_score": 230.2,
       "id": "6a6a1a04d557"
     },
     {
@@ -1480,11 +1544,11 @@
       "url": "https://stillwet.art/",
       "platform_url": "https://news.ycombinator.com/item?id=49928566",
       "discussion_url": "https://news.ycombinator.com/item?id=49928566",
-      "score": 240,
-      "comments_count": 76,
+      "score": 328,
+      "comments_count": 102,
       "publish_time": "2026-10-02T00:27:56+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 190.8,
+      "hn_hot_score": 260.2,
       "id": "e733958b90f0"
     },
     {
@@ -1503,11 +1567,11 @@
       "url": "https://chatgpt.com/features/sites/",
       "platform_url": "https://news.ycombinator.com/item?id=49927747",
       "discussion_url": "https://news.ycombinator.com/item?id=49927747",
-      "score": 244,
-      "comments_count": 232,
+      "score": 318,
+      "comments_count": 307,
       "publish_time": "2026-10-01T22:22:21+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 240.39999999999998,
+      "hn_hot_score": 314.7,
       "id": "43f1c83bad63"
     },
     {
@@ -1515,11 +1579,11 @@
       "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
       "platform_url": "https://news.ycombinator.com/item?id=49926411",
       "discussion_url": "https://news.ycombinator.com/item?id=49926411",
-      "score": 211,
-      "comments_count": 58,
+      "score": 308,
+      "comments_count": 142,
       "publish_time": "2026-10-01T20:02:57+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 165.1,
+      "hn_hot_score": 258.2,
       "id": "17af0b4edf1a"
     },
     {
@@ -1527,11 +1591,11 @@
       "url": "https://stoppels.ch/goalposts/",
       "platform_url": "https://news.ycombinator.com/item?id=49924618",
       "discussion_url": "https://news.ycombinator.com/item?id=49924618",
-      "score": 196,
-      "comments_count": 259,
+      "score": 198,
+      "comments_count": 265,
       "publish_time": "2026-10-01T17:32:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 214.89999999999998,
+      "hn_hot_score": 218.1,
       "id": "6414e8da4d2e"
     },
     {
@@ -1539,11 +1603,11 @@
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "platform_url": "https://news.ycombinator.com/item?id=49923692",
       "discussion_url": "https://news.ycombinator.com/item?id=49923692",
-      "score": 621,
+      "score": 622,
       "comments_count": 215,
       "publish_time": "2026-10-01T16:18:57+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 499.2,
+      "hn_hot_score": 499.9,
       "id": "84c4b429d51f"
     },
     {
@@ -1596,18 +1660,6 @@
       "id": "e36306ec04f0"
     },
     {
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "platform_url": "https://news.ycombinator.com/item?id=49921050",
-      "discussion_url": "https://news.ycombinator.com/item?id=49921050",
-      "score": 201,
-      "comments_count": 153,
-      "publish_time": "2026-10-01T13:00:55+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 186.6,
-      "id": "3b4c3524445a"
-    },
-    {
       "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
       "url": "https://radarai.top/updates/brief-20261001-1600",
       "platform_url": "https://radarai.top/updates/brief-20261001-1600",
@@ -1628,11 +1680,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 113 · 下载 127",
+      "summary": "TrendingScore 148 · 下载 520",
       "platform": "huggingface",
-      "score": 126,
-      "trending_score": 113,
-      "downloads": 127,
+      "score": 162,
+      "trending_score": 148,
+      "downloads": 520,
       "id": "df39418e06f9"
     },
     {
@@ -1747,7 +1799,7 @@
       ],
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
       "platform": "huggingface",
-      "score": 150,
+      "score": 157,
       "comments_count": 1,
       "id": "f7c2296dd11d"
     },
@@ -1762,7 +1814,7 @@
       ],
       "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
       "platform": "huggingface",
-      "score": 37,
+      "score": 42,
       "comments_count": 1,
       "id": "f79bccb79c22"
     },
@@ -1780,17 +1832,6 @@
       "score": 26,
       "comments_count": 2,
       "id": "2557f3b146f0"
-    },
-    {
-      "title": "OpenAI推迟IPO寻求300亿融资 · 1001-699期",
-      "url": "https://radarai.top/updates/brief-20261001-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261001-0000",
-      "cover_url": null,
-      "publish_time": "2026-09-30T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "6577b8a6bec4"
     },
     {
       "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
@@ -1829,30 +1870,6 @@
       ],
       "platform": "qbitai",
       "id": "ea6ac774ebdd"
-    },
-    {
-      "title": "OpenAI发布GPT-6 Astra等25项更新，演示翻车引质疑 · 0930-698期",
-      "url": "https://radarai.top/updates/brief-20260930-1600",
-      "platform_url": "https://radarai.top/updates/brief-20260930-1600",
-      "cover_url": null,
-      "publish_time": "2026-09-30T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "8347f3329d3d"
-    },
-    {
-      "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-      "url": "https://www.qbitai.com/2026/09/499592.html",
-      "platform_url": "https://www.qbitai.com/2026/09/499592.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/cb543671c4882a713bd4397c7b8b2196.webp",
-      "publish_time": "2026-09-30T07:58:37+00:00",
-      "tags": [
-        "Agent",
-        "Manus"
-      ],
-      "platform": "qbitai",
-      "id": "88ca62cd098d"
     },
     {
       "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
@@ -1985,32 +2002,17 @@
       ],
       "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
       "platform": "huggingface",
-      "score": 43,
+      "score": 48,
       "comments_count": 2,
       "id": "22d772aa399d"
-    },
-    {
-      "title": "EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos",
-      "url": "https://huggingface.co/papers/2609.39378",
-      "platform_url": "https://huggingface.co/papers/2609.39378",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39378.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as ",
-      "platform": "huggingface",
-      "score": 36,
-      "comments_count": 1,
-      "id": "843573397109"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 11.2,
-      "cover_success_rate": 41.4
+      "avg_response_time": 11.0,
+      "cover_success_rate": 40.0
     },
     "platforms": [
       {
@@ -2018,73 +2020,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-03T05:50:49.910655+00:00"
+        "last_crawl": "2026-10-03T15:59:47.048967+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-03T05:51:15.277775+00:00"
+        "last_crawl": "2026-10-03T16:00:17.305524+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-03T05:51:16.489926+00:00"
+        "last_crawl": "2026-10-03T16:00:21.013251+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-03T05:51:30.064830+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-03T16:00:26.698448+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-03T05:51:30.220331+00:00"
+        "last_crawl": "2026-10-03T16:00:26.868817+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-03T05:50:49.910661+00:00",
+        "timestamp": "2026-10-03T15:59:47.048975+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.565627
+        "latency": 15.247773
       },
       {
-        "timestamp": "2026-10-03T05:51:15.277784+00:00",
+        "timestamp": "2026-10-03T16:00:17.305530+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 25.367116
+        "latency": 30.256546
       },
       {
-        "timestamp": "2026-10-03T05:51:16.489933+00:00",
+        "timestamp": "2026-10-03T16:00:21.013256+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.212141
+        "latency": 3.707719
       },
       {
-        "timestamp": "2026-10-03T05:51:30.064836+00:00",
+        "timestamp": "2026-10-03T16:00:26.698454+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 13.574896
+        "items_collected": 10,
+        "latency": 5.68519
       },
       {
-        "timestamp": "2026-10-03T05:51:30.220343+00:00",
+        "timestamp": "2026-10-03T16:00:26.868828+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.155501
+        "latency": 0.170368
       }
     ]
   }
