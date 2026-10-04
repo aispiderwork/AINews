@@ -1,8 +1,32 @@
 {
-  "update_time": "2026-10-04T06:28:13.344686+00:00",
-  "platform_unavailable": [],
+  "update_time": "2026-10-04T16:42:04.463704+00:00",
+  "platform_unavailable": [
+    "huggingface"
+  ],
   "news": {
     "radarai": [
+      {
+        "title": "Meta新模型让AI像编辑文件一样管理上下文，准确率提升11.4% · 1005-711期",
+        "url": "https://radarai.top/updates/brief-20261005-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261005-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-04T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "28a2c6273b6d"
+      },
+      {
+        "title": "OpenAI转向效率优先，DeepSeek与微软齐推智能体框架 · 1004-710期",
+        "url": "https://radarai.top/updates/brief-20261004-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261004-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-04T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "9ad39f162cd8"
+      },
       {
         "title": "Meta智能体准确率升至62.5%，OpenAI前安全员工痛批公司文化崩坏 · 1004-709期",
         "url": "https://radarai.top/updates/brief-20261004-0800",
@@ -90,53 +114,91 @@
         "summary": "",
         "platform": "radarai",
         "id": "acff73140d5c"
-      },
-      {
-        "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
-        "url": "https://radarai.top/updates/brief-20261002-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261002-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-01T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "8e0ca337a7de"
-      },
-      {
-        "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
-        "url": "https://radarai.top/updates/brief-20261001-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261001-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-01T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "6edb0577fd01"
       }
     ],
     "hackernews": [
+      {
+        "title": "In Ukraine, distributed renewables foil Russia's assaults",
+        "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+        "platform_url": "https://news.ycombinator.com/item?id=49951881",
+        "discussion_url": "https://news.ycombinator.com/item?id=49951881",
+        "score": 150,
+        "comments_count": 160,
+        "publish_time": "2026-10-04T08:39:58+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 153.0,
+        "id": "0405c66bb47f"
+      },
+      {
+        "title": "Religious scholars met with Anthropic",
+        "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49950052",
+        "discussion_url": "https://news.ycombinator.com/item?id=49950052",
+        "score": 140,
+        "comments_count": 331,
+        "publish_time": "2026-10-04T02:34:22+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 197.3,
+        "id": "c78eb05f73c7"
+      },
       {
         "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
         "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
         "platform_url": "https://news.ycombinator.com/item?id=49946567",
         "discussion_url": "https://news.ycombinator.com/item?id=49946567",
-        "score": 204,
-        "comments_count": 140,
+        "score": 225,
+        "comments_count": 154,
         "publish_time": "2026-10-03T18:29:30+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 184.79999999999998,
+        "hn_hot_score": 203.7,
         "id": "d88e2bad3d4a"
+      },
+      {
+        "title": "Pop!_OS bans AI-generated code from much of its codebase",
+        "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+        "platform_url": "https://news.ycombinator.com/item?id=49946321",
+        "discussion_url": "https://news.ycombinator.com/item?id=49946321",
+        "score": 113,
+        "comments_count": 161,
+        "publish_time": "2026-10-03T17:57:03+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 127.39999999999999,
+        "id": "410f3ba66964"
+      },
+      {
+        "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+        "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+        "platform_url": "https://news.ycombinator.com/item?id=49946228",
+        "discussion_url": "https://news.ycombinator.com/item?id=49946228",
+        "score": 276,
+        "comments_count": 446,
+        "publish_time": "2026-10-03T17:44:29+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 327.0,
+        "id": "ff39c1c5f3da"
+      },
+      {
+        "title": "Agents don't need memory, they need documentation",
+        "url": "https://liao.gg/blog/agents-dont-need-memory",
+        "platform_url": "https://news.ycombinator.com/item?id=49945933",
+        "discussion_url": "https://news.ycombinator.com/item?id=49945933",
+        "score": 287,
+        "comments_count": 163,
+        "publish_time": "2026-10-03T17:03:37+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 249.79999999999998,
+        "id": "d07eae96afa9"
       },
       {
         "title": "I quit OpenAI because its culture is broken",
         "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
         "platform_url": "https://news.ycombinator.com/item?id=49944227",
         "discussion_url": "https://news.ycombinator.com/item?id=49944227",
-        "score": 157,
-        "comments_count": 419,
+        "score": 366,
+        "comments_count": 608,
         "publish_time": "2026-10-03T13:46:34+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 235.59999999999997,
+        "hn_hot_score": 438.6,
         "id": "300cbc27004c"
       },
       {
@@ -174,372 +236,6 @@
         "platform": "hackernews",
         "hn_hot_score": 271.2,
         "id": "0a57f6f96f4b"
-      },
-      {
-        "title": "With most information hidden, the game Stratego had stumped AI until now",
-        "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-        "platform_url": "https://news.ycombinator.com/item?id=49933740",
-        "discussion_url": "https://news.ycombinator.com/item?id=49933740",
-        "score": 280,
-        "comments_count": 144,
-        "publish_time": "2026-10-02T14:11:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 239.2,
-        "id": "c1ad06e8563c"
-      },
-      {
-        "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-        "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-        "platform_url": "https://news.ycombinator.com/item?id=49929391",
-        "discussion_url": "https://news.ycombinator.com/item?id=49929391",
-        "score": 329,
-        "comments_count": 118,
-        "publish_time": "2026-10-02T02:51:27+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 265.7,
-        "id": "6a6a1a04d557"
-      },
-      {
-        "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-        "url": "https://stillwet.art/",
-        "platform_url": "https://news.ycombinator.com/item?id=49928566",
-        "discussion_url": "https://news.ycombinator.com/item?id=49928566",
-        "score": 375,
-        "comments_count": 109,
-        "publish_time": "2026-10-02T00:27:56+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 295.2,
-        "id": "e733958b90f0"
-      },
-      {
-        "title": "Sites in ChatGPT",
-        "url": "https://chatgpt.com/features/sites/",
-        "platform_url": "https://news.ycombinator.com/item?id=49927747",
-        "discussion_url": "https://news.ycombinator.com/item?id=49927747",
-        "score": 344,
-        "comments_count": 335,
-        "publish_time": "2026-10-01T22:22:21+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 341.29999999999995,
-        "id": "43f1c83bad63"
-      },
-      {
-        "title": "Loss of cell identity drives human aging: Two new papers",
-        "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
-        "platform_url": "https://news.ycombinator.com/item?id=49926411",
-        "discussion_url": "https://news.ycombinator.com/item?id=49926411",
-        "score": 359,
-        "comments_count": 173,
-        "publish_time": "2026-10-01T20:02:57+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 303.2,
-        "id": "17af0b4edf1a"
-      }
-    ],
-    "huggingface": [
-      {
-        "title": "[模型] Aleph-Alpha/Kolibri-1",
-        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-        "platform_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-        "cover_url": null,
-        "publish_time": "2026-10-02T05:54:02.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 269 · 下载 0",
-        "platform": "huggingface",
-        "score": 274,
-        "trending_score": 269,
-        "downloads": 0,
-        "id": "ad7e98aaffac"
-      },
-      {
-        "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-        "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-        "platform_url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-        "cover_url": null,
-        "publish_time": "2026-10-01T03:42:00.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 170 · 下载 520",
-        "platform": "huggingface",
-        "score": 188,
-        "trending_score": 170,
-        "downloads": 520,
-        "id": "df39418e06f9"
-      },
-      {
-        "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
-        "url": "https://huggingface.co/papers/2610.00906",
-        "platform_url": "https://huggingface.co/papers/2610.00906",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00906.png",
-        "publish_time": "2026-09-30T21:36:03.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further optimization can change, suggesting that the training curriculum itself should adapt alongside the harne",
-        "platform": "huggingface",
-        "score": 27,
-        "comments_count": 1,
-        "id": "f2a522683bd9"
-      },
-      {
-        "title": "Hierarchical Continuous Diffusion Language Models",
-        "url": "https://huggingface.co/papers/2610.02193",
-        "platform_url": "https://huggingface.co/papers/2610.02193",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02193.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
-        "platform": "huggingface",
-        "score": 46,
-        "comments_count": 1,
-        "id": "18f67bb8dc8a"
-      },
-      {
-        "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
-        "url": "https://huggingface.co/papers/2610.02162",
-        "platform_url": "https://huggingface.co/papers/2610.02162",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02162.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one ",
-        "platform": "huggingface",
-        "score": 43,
-        "comments_count": 3,
-        "id": "e3fa5c3e84ee"
-      },
-      {
-        "title": "Sharpening Tax in Post-Training",
-        "url": "https://huggingface.co/papers/2610.01509",
-        "platform_url": "https://huggingface.co/papers/2610.01509",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01509.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabilities newly acquired during post-training. Our surprising finding is that pre-trained LLMs, equipped wi",
-        "platform": "huggingface",
-        "score": 27,
-        "comments_count": 1,
-        "id": "d58b14cd58c8"
-      },
-      {
-        "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
-        "url": "https://huggingface.co/papers/2610.01215",
-        "platform_url": "https://huggingface.co/papers/2610.01215",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01215.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime c",
-        "platform": "huggingface",
-        "score": 25,
-        "comments_count": 1,
-        "id": "48ea56a863bd"
-      },
-      {
-        "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
-        "url": "https://huggingface.co/papers/2610.01415",
-        "platform_url": "https://huggingface.co/papers/2610.01415",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01415.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world state with unresolved task requirements, making explicit what the agent still needs to learn and acco",
-        "platform": "huggingface",
-        "score": 20,
-        "comments_count": 2,
-        "id": "48990510ad54"
-      },
-      {
-        "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-        "url": "https://huggingface.co/papers/2610.01762",
-        "platform_url": "https://huggingface.co/papers/2610.01762",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01762.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
-        "platform": "huggingface",
-        "score": 160,
-        "comments_count": 2,
-        "id": "f7c2296dd11d"
-      },
-      {
-        "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-        "url": "https://huggingface.co/papers/2610.02196",
-        "platform_url": "https://huggingface.co/papers/2610.02196",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02196.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
-        "platform": "huggingface",
-        "score": 43,
-        "comments_count": 2,
-        "id": "f79bccb79c22"
-      },
-      {
-        "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-        "url": "https://huggingface.co/papers/2610.01939",
-        "platform_url": "https://huggingface.co/papers/2610.01939",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01939.png",
-        "publish_time": "2026-09-30T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned vision-language-action (VLA) policies into Python cells that perform conditional checks and local retries",
-        "platform": "huggingface",
-        "score": 26,
-        "comments_count": 2,
-        "id": "2557f3b146f0"
-      },
-      {
-        "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
-        "url": "https://huggingface.co/papers/2609.38721",
-        "platform_url": "https://huggingface.co/papers/2609.38721",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38721.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to a",
-        "platform": "huggingface",
-        "score": 177,
-        "comments_count": 2,
-        "id": "19a1caf964a4"
-      },
-      {
-        "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
-        "url": "https://huggingface.co/papers/2609.40340",
-        "platform_url": "https://huggingface.co/papers/2609.40340",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40340.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retrieval gate lets the LLM assess its knowledge gap and choose to retrieve new documents, reuse stored ",
-        "platform": "huggingface",
-        "score": 52,
-        "comments_count": 1,
-        "id": "53325477a0da"
-      },
-      {
-        "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-        "url": "https://huggingface.co/papers/2609.40325",
-        "platform_url": "https://huggingface.co/papers/2609.40325",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40325.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close cou",
-        "platform": "huggingface",
-        "score": 38,
-        "comments_count": 1,
-        "id": "b2f39f1e1a61"
-      },
-      {
-        "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
-        "url": "https://huggingface.co/papers/2609.38827",
-        "platform_url": "https://huggingface.co/papers/2609.38827",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38827.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all predictions and 51.3\\% of errors to Neutral despite 74.95\\% accuracy, nearly balanced gold labels, and balance",
-        "platform": "huggingface",
-        "score": 26,
-        "comments_count": 1,
-        "id": "9f6be4f00a81"
-      },
-      {
-        "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
-        "url": "https://huggingface.co/papers/2609.39982",
-        "platform_url": "https://huggingface.co/papers/2609.39982",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39982.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To study ",
-        "platform": "huggingface",
-        "score": 85,
-        "comments_count": 1,
-        "id": "5b1f66d1586f"
-      },
-      {
-        "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
-        "url": "https://huggingface.co/papers/2609.40111",
-        "platform_url": "https://huggingface.co/papers/2609.40111",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40111.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error-diagnosis pairs from 9,961 source tasks across 33 environments, 19 harness families, and 23 policy models in text-based agent systems. We ",
-        "platform": "huggingface",
-        "score": 17,
-        "comments_count": 1,
-        "id": "94ac75967231"
-      },
-      {
-        "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-        "url": "https://huggingface.co/papers/2609.39102",
-        "platform_url": "https://huggingface.co/papers/2609.39102",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39102.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correc",
-        "platform": "huggingface",
-        "score": 156,
-        "comments_count": 1,
-        "id": "b308823e3567"
-      },
-      {
-        "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
-        "url": "https://huggingface.co/papers/2609.39027",
-        "platform_url": "https://huggingface.co/papers/2609.39027",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39027.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false robust",
-        "platform": "huggingface",
-        "score": 43,
-        "comments_count": 1,
-        "id": "3028c9e09a4b"
-      },
-      {
-        "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
-        "url": "https://huggingface.co/papers/2610.00574",
-        "platform_url": "https://huggingface.co/papers/2610.00574",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00574.png",
-        "publish_time": "2026-09-29T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
-        "platform": "huggingface",
-        "score": 49,
-        "comments_count": 2,
-        "id": "22d772aa399d"
       }
     ],
     "bestblogs": [
@@ -886,6 +582,21 @@
     ],
     "qbitai": [
       {
+        "title": "AI算力硬合作，马斯克还是更相信中国制造",
+        "url": "https://www.qbitai.com/2026/10/501605.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501605.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e2984150ec85437b3bdb47545d79cc74.png",
+        "publish_time": "2026-10-04T06:12:22+00:00",
+        "tags": [
+          "台积电",
+          "芯片",
+          "英特尔",
+          "马斯克"
+        ],
+        "platform": "qbitai",
+        "id": "9524b13618c5"
+      },
+      {
         "title": "最火AI岗位FDE：月薪5万，都干这些…",
         "url": "https://www.qbitai.com/2026/10/501506.html",
         "platform_url": "https://www.qbitai.com/2026/10/501506.html",
@@ -994,24 +705,44 @@
         ],
         "platform": "qbitai",
         "id": "31630b56557a"
-      },
-      {
-        "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-        "url": "https://www.qbitai.com/2026/09/499654.html",
-        "platform_url": "https://www.qbitai.com/2026/09/499654.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/2376063844e4f0a9de5acd3ff1c110bf.png",
-        "publish_time": "2026-09-30T14:03:43+00:00",
-        "tags": [
-          "AI数学",
-          "AI访谈",
-          "长文干货"
-        ],
-        "platform": "qbitai",
-        "id": "ccd60c9cb420"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "Meta新模型让AI像编辑文件一样管理上下文，准确率提升11.4% · 1005-711期",
+      "url": "https://radarai.top/updates/brief-20261005-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261005-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-04T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "28a2c6273b6d"
+    },
+    {
+      "title": "In Ukraine, distributed renewables foil Russia's assaults",
+      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "platform_url": "https://news.ycombinator.com/item?id=49951881",
+      "discussion_url": "https://news.ycombinator.com/item?id=49951881",
+      "score": 150,
+      "comments_count": 160,
+      "publish_time": "2026-10-04T08:39:58+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 153.0,
+      "id": "0405c66bb47f"
+    },
+    {
+      "title": "OpenAI转向效率优先，DeepSeek与微软齐推智能体框架 · 1004-710期",
+      "url": "https://radarai.top/updates/brief-20261004-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261004-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-04T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "9ad39f162cd8"
+    },
     {
       "title": "MCP 本身没有问题，问题出在智能体实现｜Jan Čurn",
       "url": "https://www.bestblogs.dev/article/RAW_277571e33",
@@ -1183,6 +914,21 @@
       "id": "0e37383259d6"
     },
     {
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501605.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e2984150ec85437b3bdb47545d79cc74.png",
+      "publish_time": "2026-10-04T06:12:22+00:00",
+      "tags": [
+        "台积电",
+        "芯片",
+        "英特尔",
+        "马斯克"
+      ],
+      "platform": "qbitai",
+      "id": "9524b13618c5"
+    },
+    {
       "title": "最火AI岗位FDE：月薪5万，都干这些…",
       "url": "https://www.qbitai.com/2026/10/501506.html",
       "platform_url": "https://www.qbitai.com/2026/10/501506.html",
@@ -1195,6 +941,18 @@
       ],
       "platform": "qbitai",
       "id": "c333af4d8fde"
+    },
+    {
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49950052",
+      "discussion_url": "https://news.ycombinator.com/item?id=49950052",
+      "score": 140,
+      "comments_count": 331,
+      "publish_time": "2026-10-04T02:34:22+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 197.3,
+      "id": "c78eb05f73c7"
     },
     {
       "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
@@ -1224,12 +982,48 @@
       "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "platform_url": "https://news.ycombinator.com/item?id=49946567",
       "discussion_url": "https://news.ycombinator.com/item?id=49946567",
-      "score": 204,
-      "comments_count": 140,
+      "score": 225,
+      "comments_count": 154,
       "publish_time": "2026-10-03T18:29:30+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 184.79999999999998,
+      "hn_hot_score": 203.7,
       "id": "d88e2bad3d4a"
+    },
+    {
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "platform_url": "https://news.ycombinator.com/item?id=49946321",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946321",
+      "score": 113,
+      "comments_count": 161,
+      "publish_time": "2026-10-03T17:57:03+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 127.39999999999999,
+      "id": "410f3ba66964"
+    },
+    {
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "platform_url": "https://news.ycombinator.com/item?id=49946228",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946228",
+      "score": 276,
+      "comments_count": 446,
+      "publish_time": "2026-10-03T17:44:29+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 327.0,
+      "id": "ff39c1c5f3da"
+    },
+    {
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "platform_url": "https://news.ycombinator.com/item?id=49945933",
+      "discussion_url": "https://news.ycombinator.com/item?id=49945933",
+      "score": 287,
+      "comments_count": 163,
+      "publish_time": "2026-10-03T17:03:37+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 249.79999999999998,
+      "id": "d07eae96afa9"
     },
     {
       "title": "Aleph Alpha 开源 78B 双语 MoE 模型 · 1004-708期",
@@ -1247,11 +1041,11 @@
       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
       "platform_url": "https://news.ycombinator.com/item?id=49944227",
       "discussion_url": "https://news.ycombinator.com/item?id=49944227",
-      "score": 157,
-      "comments_count": 419,
+      "score": 366,
+      "comments_count": 608,
       "publish_time": "2026-10-03T13:46:34+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 235.59999999999997,
+      "hn_hot_score": 438.6,
       "id": "300cbc27004c"
     },
     {
@@ -1528,18 +1322,6 @@
       "id": "9c054c010a44"
     },
     {
-      "title": "With most information hidden, the game Stratego had stumped AI until now",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "platform_url": "https://news.ycombinator.com/item?id=49933740",
-      "discussion_url": "https://news.ycombinator.com/item?id=49933740",
-      "score": 280,
-      "comments_count": 144,
-      "publish_time": "2026-10-02T14:11:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 239.2,
-      "id": "c1ad06e8563c"
-    },
-    {
       "title": "Anthropic被曝2万亿IPO，AMD 82亿收购World Labs · 1002-704期",
       "url": "https://radarai.top/updates/brief-20261002-1600",
       "platform_url": "https://radarai.top/updates/brief-20261002-1600",
@@ -1575,35 +1357,6 @@
       "id": "1189cee91cb2"
     },
     {
-      "title": "[模型] Aleph-Alpha/Kolibri-1",
-      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "platform_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "cover_url": null,
-      "publish_time": "2026-10-02T05:54:02.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 269 · 下载 0",
-      "platform": "huggingface",
-      "score": 274,
-      "trending_score": 269,
-      "downloads": 0,
-      "id": "ad7e98aaffac"
-    },
-    {
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "platform_url": "https://news.ycombinator.com/item?id=49929391",
-      "discussion_url": "https://news.ycombinator.com/item?id=49929391",
-      "score": 329,
-      "comments_count": 118,
-      "publish_time": "2026-10-02T02:51:27+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 265.7,
-      "id": "6a6a1a04d557"
-    },
-    {
       "title": "每周 AI 热点 · 2026-10-02",
       "url": "https://radarai.top/updates/weekly-2026-10-02",
       "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
@@ -1615,18 +1368,6 @@
       "id": "0b164b5019ca"
     },
     {
-      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-      "url": "https://stillwet.art/",
-      "platform_url": "https://news.ycombinator.com/item?id=49928566",
-      "discussion_url": "https://news.ycombinator.com/item?id=49928566",
-      "score": 375,
-      "comments_count": 109,
-      "publish_time": "2026-10-02T00:27:56+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 295.2,
-      "id": "e733958b90f0"
-    },
-    {
       "title": "OpenAI上线ChatGPT虚拟试穿，微软语音模型0.13秒延迟登顶 · 1002-703期",
       "url": "https://radarai.top/updates/brief-20261002-0800",
       "platform_url": "https://radarai.top/updates/brief-20261002-0800",
@@ -1636,41 +1377,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "acff73140d5c"
-    },
-    {
-      "title": "Sites in ChatGPT",
-      "url": "https://chatgpt.com/features/sites/",
-      "platform_url": "https://news.ycombinator.com/item?id=49927747",
-      "discussion_url": "https://news.ycombinator.com/item?id=49927747",
-      "score": 344,
-      "comments_count": 335,
-      "publish_time": "2026-10-01T22:22:21+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 341.29999999999995,
-      "id": "43f1c83bad63"
-    },
-    {
-      "title": "Loss of cell identity drives human aging: Two new papers",
-      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
-      "platform_url": "https://news.ycombinator.com/item?id=49926411",
-      "discussion_url": "https://news.ycombinator.com/item?id=49926411",
-      "score": 359,
-      "comments_count": 173,
-      "publish_time": "2026-10-01T20:02:57+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 303.2,
-      "id": "17af0b4edf1a"
-    },
-    {
-      "title": "OpenAI发布智能体Dots，Claude Opus 5.5登顶榜单 · 1002-702期",
-      "url": "https://radarai.top/updates/brief-20261002-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261002-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-01T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "8e0ca337a7de"
     },
     {
       "title": "何恺明团队新作：看猫片就能学会ARC挑战",
@@ -1697,326 +1403,14 @@
       ],
       "platform": "qbitai",
       "id": "31630b56557a"
-    },
-    {
-      "title": "Gemini 4 Argon 登顶却遭跑分质疑 · 1001-701期",
-      "url": "https://radarai.top/updates/brief-20261001-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261001-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-01T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "6edb0577fd01"
-    },
-    {
-      "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-      "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-      "platform_url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
-      "cover_url": null,
-      "publish_time": "2026-10-01T03:42:00.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 170 · 下载 520",
-      "platform": "huggingface",
-      "score": 188,
-      "trending_score": 170,
-      "downloads": 520,
-      "id": "df39418e06f9"
-    },
-    {
-      "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
-      "url": "https://huggingface.co/papers/2610.00906",
-      "platform_url": "https://huggingface.co/papers/2610.00906",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00906.png",
-      "publish_time": "2026-09-30T21:36:03.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further optimization can change, suggesting that the training curriculum itself should adapt alongside the harne",
-      "platform": "huggingface",
-      "score": 27,
-      "comments_count": 1,
-      "id": "f2a522683bd9"
-    },
-    {
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.02193",
-      "platform_url": "https://huggingface.co/papers/2610.02193",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02193.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
-      "platform": "huggingface",
-      "score": 46,
-      "comments_count": 1,
-      "id": "18f67bb8dc8a"
-    },
-    {
-      "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
-      "url": "https://huggingface.co/papers/2610.02162",
-      "platform_url": "https://huggingface.co/papers/2610.02162",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02162.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one ",
-      "platform": "huggingface",
-      "score": 43,
-      "comments_count": 3,
-      "id": "e3fa5c3e84ee"
-    },
-    {
-      "title": "Sharpening Tax in Post-Training",
-      "url": "https://huggingface.co/papers/2610.01509",
-      "platform_url": "https://huggingface.co/papers/2610.01509",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01509.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabilities newly acquired during post-training. Our surprising finding is that pre-trained LLMs, equipped wi",
-      "platform": "huggingface",
-      "score": 27,
-      "comments_count": 1,
-      "id": "d58b14cd58c8"
-    },
-    {
-      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
-      "url": "https://huggingface.co/papers/2610.01215",
-      "platform_url": "https://huggingface.co/papers/2610.01215",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01215.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime c",
-      "platform": "huggingface",
-      "score": 25,
-      "comments_count": 1,
-      "id": "48ea56a863bd"
-    },
-    {
-      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
-      "url": "https://huggingface.co/papers/2610.01415",
-      "platform_url": "https://huggingface.co/papers/2610.01415",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01415.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world state with unresolved task requirements, making explicit what the agent still needs to learn and acco",
-      "platform": "huggingface",
-      "score": 20,
-      "comments_count": 2,
-      "id": "48990510ad54"
-    },
-    {
-      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-      "url": "https://huggingface.co/papers/2610.01762",
-      "platform_url": "https://huggingface.co/papers/2610.01762",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01762.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of comp",
-      "platform": "huggingface",
-      "score": 160,
-      "comments_count": 2,
-      "id": "f7c2296dd11d"
-    },
-    {
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "url": "https://huggingface.co/papers/2610.02196",
-      "platform_url": "https://huggingface.co/papers/2610.02196",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02196.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
-      "platform": "huggingface",
-      "score": 43,
-      "comments_count": 2,
-      "id": "f79bccb79c22"
-    },
-    {
-      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-      "url": "https://huggingface.co/papers/2610.01939",
-      "platform_url": "https://huggingface.co/papers/2610.01939",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01939.png",
-      "publish_time": "2026-09-30T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned vision-language-action (VLA) policies into Python cells that perform conditional checks and local retries",
-      "platform": "huggingface",
-      "score": 26,
-      "comments_count": 2,
-      "id": "2557f3b146f0"
-    },
-    {
-      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "url": "https://www.qbitai.com/2026/09/499654.html",
-      "platform_url": "https://www.qbitai.com/2026/09/499654.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/09/2376063844e4f0a9de5acd3ff1c110bf.png",
-      "publish_time": "2026-09-30T14:03:43+00:00",
-      "tags": [
-        "AI数学",
-        "AI访谈",
-        "长文干货"
-      ],
-      "platform": "qbitai",
-      "id": "ccd60c9cb420"
-    },
-    {
-      "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
-      "url": "https://huggingface.co/papers/2609.38721",
-      "platform_url": "https://huggingface.co/papers/2609.38721",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38721.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to a",
-      "platform": "huggingface",
-      "score": 177,
-      "comments_count": 2,
-      "id": "19a1caf964a4"
-    },
-    {
-      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
-      "url": "https://huggingface.co/papers/2609.40340",
-      "platform_url": "https://huggingface.co/papers/2609.40340",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40340.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retrieval gate lets the LLM assess its knowledge gap and choose to retrieve new documents, reuse stored ",
-      "platform": "huggingface",
-      "score": 52,
-      "comments_count": 1,
-      "id": "53325477a0da"
-    },
-    {
-      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-      "url": "https://huggingface.co/papers/2609.40325",
-      "platform_url": "https://huggingface.co/papers/2609.40325",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40325.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close cou",
-      "platform": "huggingface",
-      "score": 38,
-      "comments_count": 1,
-      "id": "b2f39f1e1a61"
-    },
-    {
-      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
-      "url": "https://huggingface.co/papers/2609.38827",
-      "platform_url": "https://huggingface.co/papers/2609.38827",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38827.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all predictions and 51.3\\% of errors to Neutral despite 74.95\\% accuracy, nearly balanced gold labels, and balance",
-      "platform": "huggingface",
-      "score": 26,
-      "comments_count": 1,
-      "id": "9f6be4f00a81"
-    },
-    {
-      "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
-      "url": "https://huggingface.co/papers/2609.39982",
-      "platform_url": "https://huggingface.co/papers/2609.39982",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39982.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To study ",
-      "platform": "huggingface",
-      "score": 85,
-      "comments_count": 1,
-      "id": "5b1f66d1586f"
-    },
-    {
-      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
-      "url": "https://huggingface.co/papers/2609.40111",
-      "platform_url": "https://huggingface.co/papers/2609.40111",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.40111.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error-diagnosis pairs from 9,961 source tasks across 33 environments, 19 harness families, and 23 policy models in text-based agent systems. We ",
-      "platform": "huggingface",
-      "score": 17,
-      "comments_count": 1,
-      "id": "94ac75967231"
-    },
-    {
-      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-      "url": "https://huggingface.co/papers/2609.39102",
-      "platform_url": "https://huggingface.co/papers/2609.39102",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39102.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correc",
-      "platform": "huggingface",
-      "score": 156,
-      "comments_count": 1,
-      "id": "b308823e3567"
-    },
-    {
-      "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
-      "url": "https://huggingface.co/papers/2609.39027",
-      "platform_url": "https://huggingface.co/papers/2609.39027",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.39027.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false robust",
-      "platform": "huggingface",
-      "score": 43,
-      "comments_count": 1,
-      "id": "3028c9e09a4b"
-    },
-    {
-      "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
-      "url": "https://huggingface.co/papers/2610.00574",
-      "platform_url": "https://huggingface.co/papers/2610.00574",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.00574.png",
-      "publish_time": "2026-09-29T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-gro",
-      "platform": "huggingface",
-      "score": 49,
-      "comments_count": 2,
-      "id": "22d772aa399d"
     }
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 100.0,
-      "total_fail_rate": 0.0,
-      "avg_response_time": 10.6,
-      "cover_success_rate": 40.0
+      "total_success_rate": 80.0,
+      "total_fail_rate": 20.0,
+      "avg_response_time": 13.1,
+      "cover_success_rate": 20.0
     },
     "platforms": [
       {
@@ -2024,73 +1418,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-04T06:27:29.607549+00:00"
+        "last_crawl": "2026-10-04T16:40:53.523708+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-04T06:28:01.083807+00:00"
+        "last_crawl": "2026-10-04T16:41:23.206187+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-04T06:28:02.549595+00:00"
+        "last_crawl": "2026-10-04T16:41:24.462695+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-04T06:28:13.176134+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-04T16:41:34.372365+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
-        "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-04T06:28:13.291479+00:00"
+        "status": "error",
+        "item_count": 0,
+        "last_crawl": "2026-10-04T16:42:04.444397+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-04T06:27:29.607554+00:00",
+        "timestamp": "2026-10-04T16:40:53.523711+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 9.351318
+        "latency": 11.463362
       },
       {
-        "timestamp": "2026-10-04T06:28:01.083812+00:00",
+        "timestamp": "2026-10-04T16:41:23.206192+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 31.476251
+        "latency": 29.682474
       },
       {
-        "timestamp": "2026-10-04T06:28:02.549600+00:00",
+        "timestamp": "2026-10-04T16:41:24.462698+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.465782
+        "latency": 1.2565
       },
       {
-        "timestamp": "2026-10-04T06:28:13.176141+00:00",
+        "timestamp": "2026-10-04T16:41:34.372369+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 10.626534
+        "items_collected": 10,
+        "latency": 9.909665
       },
       {
-        "timestamp": "2026-10-04T06:28:13.291490+00:00",
+        "timestamp": "2026-10-04T16:42:04.444413+00:00",
         "platform": "huggingface",
-        "status": "success",
-        "items_collected": 20,
-        "latency": 0.115342
+        "status": "error",
+        "error_message": "",
+        "latency": 30.072038
       }
     ]
   }
