@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-05T06:21:16.192728+00:00",
+  "update_time": "2026-10-05T20:31:01.088233+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "ContextQA推出自动修bug智能体 · 1006-714期",
+        "url": "https://radarai.top/updates/brief-20261006-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261006-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-05T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "53dcd1f5f4c4"
+      },
+      {
+        "title": "施耐德226亿美元收购PTC，华为高通签AI专利协议 · 1005-713期",
+        "url": "https://radarai.top/updates/brief-20261005-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261005-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-05T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "943cf9c22fb2"
+      },
       {
         "title": "GPT-6、Gemini 4、Claude 5.1 三十天齐发 · 1005-712期",
         "url": "https://radarai.top/updates/brief-20261005-0800",
@@ -90,53 +112,67 @@
         "summary": "",
         "platform": "radarai",
         "id": "9c054c010a44"
-      },
-      {
-        "title": "Anthropic被曝2万亿IPO，AMD 82亿收购World Labs · 1002-704期",
-        "url": "https://radarai.top/updates/brief-20261002-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261002-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-02T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "1e619bb5f9da"
-      },
-      {
-        "title": "每周 AI 热点 · 2026-10-02",
-        "url": "https://radarai.top/updates/weekly-2026-10-02",
-        "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
-        "cover_url": null,
-        "publish_time": "2026-10-02T01:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "0b164b5019ca"
       }
     ],
     "hackernews": [
+      {
+        "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+        "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+        "platform_url": "https://news.ycombinator.com/item?id=49968105",
+        "discussion_url": "https://news.ycombinator.com/item?id=49968105",
+        "score": 206,
+        "comments_count": 142,
+        "publish_time": "2026-10-05T17:53:35+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 186.79999999999998,
+        "id": "b41723964ff5"
+      },
+      {
+        "title": "Anthropic reported diary entry to police, woman faces felony charge",
+        "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+        "platform_url": "https://news.ycombinator.com/item?id=49961057",
+        "discussion_url": "https://news.ycombinator.com/item?id=49961057",
+        "score": 331,
+        "comments_count": 257,
+        "publish_time": "2026-10-05T05:37:40+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 308.79999999999995,
+        "id": "86e0bda389bc"
+      },
       {
         "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
         "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
         "platform_url": "https://news.ycombinator.com/item?id=49959869",
         "discussion_url": "https://news.ycombinator.com/item?id=49959869",
-        "score": 169,
-        "comments_count": 102,
+        "score": 278,
+        "comments_count": 237,
         "publish_time": "2026-10-05T01:54:08+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 148.9,
+        "hn_hot_score": 265.7,
         "id": "1b3ec96adea0"
+      },
+      {
+        "title": "All I wanted was a custom domain email",
+        "url": "https://jacobg.co/emails-at-jacobg-co/",
+        "platform_url": "https://news.ycombinator.com/item?id=49956092",
+        "discussion_url": "https://news.ycombinator.com/item?id=49956092",
+        "score": 98,
+        "comments_count": 134,
+        "publish_time": "2026-10-04T17:47:21+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 108.79999999999998,
+        "id": "26aa48867eab"
       },
       {
         "title": "Show HN: AI search for every photo and every frame of video on macOS",
         "url": "https://github.com/allenv0/SCM",
         "platform_url": "https://news.ycombinator.com/item?id=49952111",
         "discussion_url": "https://news.ycombinator.com/item?id=49952111",
-        "score": 149,
-        "comments_count": 67,
+        "score": 161,
+        "comments_count": 72,
         "publish_time": "2026-10-04T09:24:52+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 124.39999999999999,
+        "hn_hot_score": 134.29999999999998,
         "id": "64f4480e3ea4"
       },
       {
@@ -144,11 +180,11 @@
         "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
         "platform_url": "https://news.ycombinator.com/item?id=49951891",
         "discussion_url": "https://news.ycombinator.com/item?id=49951891",
-        "score": 73,
-        "comments_count": 25,
+        "score": 96,
+        "comments_count": 45,
         "publish_time": "2026-10-04T08:41:58+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 58.599999999999994,
+        "hn_hot_score": 80.69999999999999,
         "id": "b2cdc4060c0a"
       },
       {
@@ -198,42 +234,6 @@
         "platform": "hackernews",
         "hn_hot_score": 127.39999999999999,
         "id": "410f3ba66964"
-      },
-      {
-        "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-        "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-        "platform_url": "https://news.ycombinator.com/item?id=49946228",
-        "discussion_url": "https://news.ycombinator.com/item?id=49946228",
-        "score": 395,
-        "comments_count": 738,
-        "publish_time": "2026-10-03T17:44:29+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 497.9,
-        "id": "ff39c1c5f3da"
-      },
-      {
-        "title": "Agents don't need memory, they need documentation",
-        "url": "https://liao.gg/blog/agents-dont-need-memory",
-        "platform_url": "https://news.ycombinator.com/item?id=49945933",
-        "discussion_url": "https://news.ycombinator.com/item?id=49945933",
-        "score": 358,
-        "comments_count": 256,
-        "publish_time": "2026-10-03T17:03:37+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 327.4,
-        "id": "d07eae96afa9"
-      },
-      {
-        "title": "I quit OpenAI because its culture is broken",
-        "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-        "platform_url": "https://news.ycombinator.com/item?id=49944227",
-        "discussion_url": "https://news.ycombinator.com/item?id=49944227",
-        "score": 468,
-        "comments_count": 783,
-        "publish_time": "2026-10-03T13:46:34+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 562.5,
-        "id": "300cbc27004c"
       }
     ],
     "bestblogs": [
@@ -580,6 +580,16 @@
     ],
     "qbitai": [
       {
+        "title": "刚刚，诺贝尔奖颁给光遗传学！",
+        "url": "https://www.qbitai.com/2026/10/501720.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501720.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/7a96faa4964edbdff17294787ce0c818.webp",
+        "publish_time": "2026-10-05T10:37:01+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "56bde60d5914"
+      },
+      {
         "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
         "url": "https://www.qbitai.com/2026/10/501700.html",
         "platform_url": "https://www.qbitai.com/2026/10/501700.html",
@@ -690,19 +700,6 @@
         ],
         "platform": "qbitai",
         "id": "1189cee91cb2"
-      },
-      {
-        "title": "何恺明团队新作：看猫片就能学会ARC挑战",
-        "url": "https://www.qbitai.com/2026/10/499812.html",
-        "platform_url": "https://www.qbitai.com/2026/10/499812.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e32282d4e6facef6e97ad9ea54be37df-e1790867075587.png",
-        "publish_time": "2026-10-01T15:06:30+00:00",
-        "tags": [
-          "何恺明",
-          "猫"
-        ],
-        "platform": "qbitai",
-        "id": "5fc295105358"
       }
     ],
     "huggingface": [
@@ -716,12 +713,57 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 424 · 下载 1,135",
+        "summary": "TrendingScore 586 · 下载 2,453",
         "platform": "huggingface",
-        "score": 434,
-        "trending_score": 424,
-        "downloads": 1135,
+        "score": 606,
+        "trending_score": 586,
+        "downloads": 2453,
         "id": "ad7e98aaffac"
+      },
+      {
+        "title": "Native Action-Prior Learning from Videos for World Action Models",
+        "url": "https://huggingface.co/papers/2610.03391",
+        "platform_url": "https://huggingface.co/papers/2610.03391",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03391.png",
+        "publish_time": "2026-10-01T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions that are subsequently grounded to robot commands. We present NAVA-WAM, which introduces native actio",
+        "platform": "huggingface",
+        "score": 58,
+        "comments_count": 1,
+        "id": "0a03a4b6a12d"
+      },
+      {
+        "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+        "url": "https://huggingface.co/papers/2610.03574",
+        "platform_url": "https://huggingface.co/papers/2610.03574",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03574.png",
+        "publish_time": "2026-10-01T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clue chains, or inspecting heterogeneous sources such as videos, scanned documents, images, or maps. Ea",
+        "platform": "huggingface",
+        "score": 42,
+        "comments_count": 1,
+        "id": "7e263fab6ba8"
+      },
+      {
+        "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+        "url": "https://huggingface.co/papers/2610.03665",
+        "platform_url": "https://huggingface.co/papers/2610.03665",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03665.png",
+        "publish_time": "2026-10-01T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which tokens to train on: they typically train on the final text or assign rewards to whole denoising ste",
+        "platform": "huggingface",
+        "score": 32,
+        "comments_count": 1,
+        "id": "8da61c3f0169"
       },
       {
         "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
@@ -733,11 +775,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 191 · 下载 946",
+        "summary": "TrendingScore 197 · 下载 1,342",
         "platform": "huggingface",
-        "score": 220,
-        "trending_score": 191,
-        "downloads": 946,
+        "score": 228,
+        "trending_score": 197,
+        "downloads": 1342,
         "id": "df39418e06f9"
       },
       {
@@ -769,6 +811,36 @@
         "score": 25,
         "comments_count": 2,
         "id": "1f342fb7e70a"
+      },
+      {
+        "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+        "url": "https://huggingface.co/papers/2610.01780",
+        "platform_url": "https://huggingface.co/papers/2610.01780",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01780.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships with an AI companion: 27,218 messages over up to 120 days, released as the conversation and four fi",
+        "platform": "huggingface",
+        "score": 172,
+        "comments_count": 1,
+        "id": "dac4cf079301"
+      },
+      {
+        "title": "World Action Modeling with Progressive Visual Planning",
+        "url": "https://huggingface.co/papers/2610.02508",
+        "platform_url": "https://huggingface.co/papers/2610.02508",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02508.png",
+        "publish_time": "2026-09-30T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full video, but this approach neglects how to progress toward the goal. We present ProWAM, a progressive ",
+        "platform": "huggingface",
+        "score": 67,
+        "comments_count": 1,
+        "id": "c94d305c6595"
       },
       {
         "title": "Video Generation Models: A Survey of Post-Training and Alignment",
@@ -811,7 +883,7 @@
         ],
         "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we build FoldingCorpus, a protein-derived question-answer dataset, and Fold2Reason, a recipe that post-trai",
         "platform": "huggingface",
-        "score": 37,
+        "score": 109,
         "comments_count": 2,
         "id": "dc6da90a3081"
       },
@@ -831,19 +903,19 @@
         "id": "57adfa6fcadb"
       },
       {
-        "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-        "url": "https://huggingface.co/papers/2609.36585",
-        "platform_url": "https://huggingface.co/papers/2609.36585",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.36585.png",
-        "publish_time": "2026-09-28T20:00:00.000Z",
+        "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+        "url": "https://huggingface.co/papers/2609.38839",
+        "platform_url": "https://huggingface.co/papers/2609.38839",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38839.png",
+        "publish_time": "2026-09-29T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program li",
+        "summary": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become i",
         "platform": "huggingface",
-        "score": 72,
+        "score": 85,
         "comments_count": 2,
-        "id": "a9505972c4fa"
+        "id": "aebc0ed16669"
       },
       {
         "title": "[模型] orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
@@ -855,11 +927,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 210 · 下载 14,195",
+        "summary": "TrendingScore 208 · 下载 16,802",
         "platform": "huggingface",
-        "score": 368,
-        "trending_score": 210,
-        "downloads": 14195,
+        "score": 386,
+        "trending_score": 208,
+        "downloads": 16802,
         "id": "d719bd0e565f"
       },
       {
@@ -872,11 +944,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 92 · 下载 388,005",
+        "summary": "TrendingScore 104 · 下载 437,599",
         "platform": "huggingface",
-        "score": 235,
-        "trending_score": 92,
-        "downloads": 388005,
+        "score": 262,
+        "trending_score": 104,
+        "downloads": 437599,
         "id": "4ed225418bbf"
       },
       {
@@ -889,11 +961,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 306 · 下载 14,361",
+        "summary": "TrendingScore 389 · 下载 18,863",
         "platform": "huggingface",
-        "score": 326,
-        "trending_score": 306,
-        "downloads": 14361,
+        "score": 410,
+        "trending_score": 389,
+        "downloads": 18863,
         "id": "2d880c3f46d0"
       },
       {
@@ -906,11 +978,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 187 · 下载 4,045,810",
+        "summary": "TrendingScore 173 · 下载 4,120,718",
         "platform": "huggingface",
-        "score": 2423,
-        "trending_score": 187,
-        "downloads": 4045810,
+        "score": 2441,
+        "trending_score": 173,
+        "downloads": 4120718,
         "id": "42f223336d51"
       },
       {
@@ -923,11 +995,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 94 · 下载 7,999",
+        "summary": "TrendingScore 190 · 下载 10,329",
         "platform": "huggingface",
-        "score": 101,
-        "trending_score": 94,
-        "downloads": 7999,
+        "score": 197,
+        "trending_score": 190,
+        "downloads": 10329,
         "id": "b03879f77726"
       },
       {
@@ -940,50 +1012,60 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 96 · 下载 1,442",
+        "summary": "TrendingScore 99 · 下载 1,550",
         "platform": "huggingface",
-        "score": 307,
-        "trending_score": 96,
-        "downloads": 1442,
+        "score": 311,
+        "trending_score": 99,
+        "downloads": 1550,
         "id": "c1f140999a73"
-      },
-      {
-        "title": "[模型] zai-org/GLM-5.3",
-        "url": "https://huggingface.co/zai-org/GLM-5.3",
-        "platform_url": "https://huggingface.co/zai-org/GLM-5.3",
-        "cover_url": null,
-        "publish_time": "2026-08-25T06:42:50.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 121 · 下载 1,424,746",
-        "platform": "huggingface",
-        "score": 2094,
-        "trending_score": 121,
-        "downloads": 1424746,
-        "id": "fe18284cc651"
-      },
-      {
-        "title": "[模型] JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "platform_url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "cover_url": null,
-        "publish_time": "2026-08-14T03:43:36.000Z",
-        "tags": [
-          "模型",
-          "text-generation"
-        ],
-        "summary": "TrendingScore 92 · 下载 2,182,684",
-        "platform": "huggingface",
-        "score": 1426,
-        "trending_score": 92,
-        "downloads": 2182684,
-        "id": "0d17304cc8f1"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "platform_url": "https://news.ycombinator.com/item?id=49968105",
+      "discussion_url": "https://news.ycombinator.com/item?id=49968105",
+      "score": 206,
+      "comments_count": 142,
+      "publish_time": "2026-10-05T17:53:35+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 186.79999999999998,
+      "id": "b41723964ff5"
+    },
+    {
+      "title": "ContextQA推出自动修bug智能体 · 1006-714期",
+      "url": "https://radarai.top/updates/brief-20261006-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261006-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-05T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "53dcd1f5f4c4"
+    },
+    {
+      "title": "刚刚，诺贝尔奖颁给光遗传学！",
+      "url": "https://www.qbitai.com/2026/10/501720.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501720.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/7a96faa4964edbdff17294787ce0c818.webp",
+      "publish_time": "2026-10-05T10:37:01+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "56bde60d5914"
+    },
+    {
+      "title": "施耐德226亿美元收购PTC，华为高通签AI专利协议 · 1005-713期",
+      "url": "https://radarai.top/updates/brief-20261005-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261005-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-05T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "943cf9c22fb2"
+    },
     {
       "title": "丘成桐新论文致谢GPT和Claude：解决悬念70年的球面几何猜想",
       "url": "https://www.bestblogs.dev/article/RAW_79cfb95a54",
@@ -1155,6 +1237,18 @@
       "id": "6916521ad63f"
     },
     {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "platform_url": "https://news.ycombinator.com/item?id=49961057",
+      "discussion_url": "https://news.ycombinator.com/item?id=49961057",
+      "score": 331,
+      "comments_count": 257,
+      "publish_time": "2026-10-05T05:37:40+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 308.79999999999995,
+      "id": "86e0bda389bc"
+    },
+    {
       "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
       "url": "https://www.qbitai.com/2026/10/501700.html",
       "platform_url": "https://www.qbitai.com/2026/10/501700.html",
@@ -1172,11 +1266,11 @@
       "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
       "platform_url": "https://news.ycombinator.com/item?id=49959869",
       "discussion_url": "https://news.ycombinator.com/item?id=49959869",
-      "score": 169,
-      "comments_count": 102,
+      "score": 278,
+      "comments_count": 237,
       "publish_time": "2026-10-05T01:54:08+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 148.9,
+      "hn_hot_score": 265.7,
       "id": "1b3ec96adea0"
     },
     {
@@ -1189,6 +1283,18 @@
       "summary": "",
       "platform": "radarai",
       "id": "9202d6726812"
+    },
+    {
+      "title": "All I wanted was a custom domain email",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "platform_url": "https://news.ycombinator.com/item?id=49956092",
+      "discussion_url": "https://news.ycombinator.com/item?id=49956092",
+      "score": 98,
+      "comments_count": 134,
+      "publish_time": "2026-10-04T17:47:21+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 108.79999999999998,
+      "id": "26aa48867eab"
     },
     {
       "title": "Meta新模型让AI像编辑文件一样管理上下文，准确率提升11.4% · 1005-711期",
@@ -1206,11 +1312,11 @@
       "url": "https://github.com/allenv0/SCM",
       "platform_url": "https://news.ycombinator.com/item?id=49952111",
       "discussion_url": "https://news.ycombinator.com/item?id=49952111",
-      "score": 149,
-      "comments_count": 67,
+      "score": 161,
+      "comments_count": 72,
       "publish_time": "2026-10-04T09:24:52+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 124.39999999999999,
+      "hn_hot_score": 134.29999999999998,
       "id": "64f4480e3ea4"
     },
     {
@@ -1218,11 +1324,11 @@
       "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
       "platform_url": "https://news.ycombinator.com/item?id=49951891",
       "discussion_url": "https://news.ycombinator.com/item?id=49951891",
-      "score": 73,
-      "comments_count": 25,
+      "score": 96,
+      "comments_count": 45,
       "publish_time": "2026-10-04T08:41:58+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 58.599999999999994,
+      "hn_hot_score": 80.69999999999999,
       "id": "b2cdc4060c0a"
     },
     {
@@ -1507,30 +1613,6 @@
       "id": "410f3ba66964"
     },
     {
-      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "platform_url": "https://news.ycombinator.com/item?id=49946228",
-      "discussion_url": "https://news.ycombinator.com/item?id=49946228",
-      "score": 395,
-      "comments_count": 738,
-      "publish_time": "2026-10-03T17:44:29+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 497.9,
-      "id": "ff39c1c5f3da"
-    },
-    {
-      "title": "Agents don't need memory, they need documentation",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "platform_url": "https://news.ycombinator.com/item?id=49945933",
-      "discussion_url": "https://news.ycombinator.com/item?id=49945933",
-      "score": 358,
-      "comments_count": 256,
-      "publish_time": "2026-10-03T17:03:37+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 327.4,
-      "id": "d07eae96afa9"
-    },
-    {
       "title": "Aleph Alpha 开源 78B 双语 MoE 模型 · 1004-708期",
       "url": "https://radarai.top/updates/brief-20261004-0000",
       "platform_url": "https://radarai.top/updates/brief-20261004-0000",
@@ -1540,18 +1622,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "5457058d2106"
-    },
-    {
-      "title": "I quit OpenAI because its culture is broken",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "platform_url": "https://news.ycombinator.com/item?id=49944227",
-      "discussion_url": "https://news.ycombinator.com/item?id=49944227",
-      "score": 468,
-      "comments_count": 783,
-      "publish_time": "2026-10-03T13:46:34+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 562.5,
-      "id": "300cbc27004c"
     },
     {
       "title": "OpenAI日烧50万美元查智能体入侵，韩国五大银行遭AI黑客攻击 · 1003-707期",
@@ -1621,17 +1691,6 @@
       "id": "9c054c010a44"
     },
     {
-      "title": "Anthropic被曝2万亿IPO，AMD 82亿收购World Labs · 1002-704期",
-      "url": "https://radarai.top/updates/brief-20261002-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261002-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-02T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "1e619bb5f9da"
-    },
-    {
       "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
       "url": "https://www.qbitai.com/2026/10/500098.html",
       "platform_url": "https://www.qbitai.com/2026/10/500098.html",
@@ -1665,36 +1724,57 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 424 · 下载 1,135",
+      "summary": "TrendingScore 586 · 下载 2,453",
       "platform": "huggingface",
-      "score": 434,
-      "trending_score": 424,
-      "downloads": 1135,
+      "score": 606,
+      "trending_score": 586,
+      "downloads": 2453,
       "id": "ad7e98aaffac"
     },
     {
-      "title": "每周 AI 热点 · 2026-10-02",
-      "url": "https://radarai.top/updates/weekly-2026-10-02",
-      "platform_url": "https://radarai.top/updates/weekly-2026-10-02",
-      "cover_url": null,
-      "publish_time": "2026-10-02T01:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "0b164b5019ca"
+      "title": "Native Action-Prior Learning from Videos for World Action Models",
+      "url": "https://huggingface.co/papers/2610.03391",
+      "platform_url": "https://huggingface.co/papers/2610.03391",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03391.png",
+      "publish_time": "2026-10-01T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions that are subsequently grounded to robot commands. We present NAVA-WAM, which introduces native actio",
+      "platform": "huggingface",
+      "score": 58,
+      "comments_count": 1,
+      "id": "0a03a4b6a12d"
     },
     {
-      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "url": "https://www.qbitai.com/2026/10/499812.html",
-      "platform_url": "https://www.qbitai.com/2026/10/499812.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e32282d4e6facef6e97ad9ea54be37df-e1790867075587.png",
-      "publish_time": "2026-10-01T15:06:30+00:00",
+      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+      "url": "https://huggingface.co/papers/2610.03574",
+      "platform_url": "https://huggingface.co/papers/2610.03574",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03574.png",
+      "publish_time": "2026-10-01T20:00:00.000Z",
       "tags": [
-        "何恺明",
-        "猫"
+        "论文"
       ],
-      "platform": "qbitai",
-      "id": "5fc295105358"
+      "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clue chains, or inspecting heterogeneous sources such as videos, scanned documents, images, or maps. Ea",
+      "platform": "huggingface",
+      "score": 42,
+      "comments_count": 1,
+      "id": "7e263fab6ba8"
+    },
+    {
+      "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.03665",
+      "platform_url": "https://huggingface.co/papers/2610.03665",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03665.png",
+      "publish_time": "2026-10-01T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which tokens to train on: they typically train on the final text or assign rewards to whole denoising ste",
+      "platform": "huggingface",
+      "score": 32,
+      "comments_count": 1,
+      "id": "8da61c3f0169"
     },
     {
       "title": "[模型] Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
@@ -1706,11 +1786,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 191 · 下载 946",
+      "summary": "TrendingScore 197 · 下载 1,342",
       "platform": "huggingface",
-      "score": 220,
-      "trending_score": 191,
-      "downloads": 946,
+      "score": 228,
+      "trending_score": 197,
+      "downloads": 1342,
       "id": "df39418e06f9"
     },
     {
@@ -1742,6 +1822,36 @@
       "score": 25,
       "comments_count": 2,
       "id": "1f342fb7e70a"
+    },
+    {
+      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "url": "https://huggingface.co/papers/2610.01780",
+      "platform_url": "https://huggingface.co/papers/2610.01780",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01780.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships with an AI companion: 27,218 messages over up to 120 days, released as the conversation and four fi",
+      "platform": "huggingface",
+      "score": 172,
+      "comments_count": 1,
+      "id": "dac4cf079301"
+    },
+    {
+      "title": "World Action Modeling with Progressive Visual Planning",
+      "url": "https://huggingface.co/papers/2610.02508",
+      "platform_url": "https://huggingface.co/papers/2610.02508",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02508.png",
+      "publish_time": "2026-09-30T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full video, but this approach neglects how to progress toward the goal. We present ProWAM, a progressive ",
+      "platform": "huggingface",
+      "score": 67,
+      "comments_count": 1,
+      "id": "c94d305c6595"
     },
     {
       "title": "Video Generation Models: A Survey of Post-Training and Alignment",
@@ -1784,7 +1894,7 @@
       ],
       "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we build FoldingCorpus, a protein-derived question-answer dataset, and Fold2Reason, a recipe that post-trai",
       "platform": "huggingface",
-      "score": 37,
+      "score": 109,
       "comments_count": 2,
       "id": "dc6da90a3081"
     },
@@ -1804,19 +1914,19 @@
       "id": "57adfa6fcadb"
     },
     {
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://huggingface.co/papers/2609.36585",
-      "platform_url": "https://huggingface.co/papers/2609.36585",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.36585.png",
-      "publish_time": "2026-09-28T20:00:00.000Z",
+      "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+      "url": "https://huggingface.co/papers/2609.38839",
+      "platform_url": "https://huggingface.co/papers/2609.38839",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38839.png",
+      "publish_time": "2026-09-29T20:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program li",
+      "summary": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become i",
       "platform": "huggingface",
-      "score": 72,
+      "score": 85,
       "comments_count": 2,
-      "id": "a9505972c4fa"
+      "id": "aebc0ed16669"
     },
     {
       "title": "[模型] orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
@@ -1828,11 +1938,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 210 · 下载 14,195",
+      "summary": "TrendingScore 208 · 下载 16,802",
       "platform": "huggingface",
-      "score": 368,
-      "trending_score": 210,
-      "downloads": 14195,
+      "score": 386,
+      "trending_score": 208,
+      "downloads": 16802,
       "id": "d719bd0e565f"
     },
     {
@@ -1845,11 +1955,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 92 · 下载 388,005",
+      "summary": "TrendingScore 104 · 下载 437,599",
       "platform": "huggingface",
-      "score": 235,
-      "trending_score": 92,
-      "downloads": 388005,
+      "score": 262,
+      "trending_score": 104,
+      "downloads": 437599,
       "id": "4ed225418bbf"
     },
     {
@@ -1862,11 +1972,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 306 · 下载 14,361",
+      "summary": "TrendingScore 389 · 下载 18,863",
       "platform": "huggingface",
-      "score": 326,
-      "trending_score": 306,
-      "downloads": 14361,
+      "score": 410,
+      "trending_score": 389,
+      "downloads": 18863,
       "id": "2d880c3f46d0"
     },
     {
@@ -1879,11 +1989,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 187 · 下载 4,045,810",
+      "summary": "TrendingScore 173 · 下载 4,120,718",
       "platform": "huggingface",
-      "score": 2423,
-      "trending_score": 187,
-      "downloads": 4045810,
+      "score": 2441,
+      "trending_score": 173,
+      "downloads": 4120718,
       "id": "42f223336d51"
     },
     {
@@ -1896,11 +2006,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 94 · 下载 7,999",
+      "summary": "TrendingScore 190 · 下载 10,329",
       "platform": "huggingface",
-      "score": 101,
-      "trending_score": 94,
-      "downloads": 7999,
+      "score": 197,
+      "trending_score": 190,
+      "downloads": 10329,
       "id": "b03879f77726"
     },
     {
@@ -1913,54 +2023,20 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 96 · 下载 1,442",
+      "summary": "TrendingScore 99 · 下载 1,550",
       "platform": "huggingface",
-      "score": 307,
-      "trending_score": 96,
-      "downloads": 1442,
+      "score": 311,
+      "trending_score": 99,
+      "downloads": 1550,
       "id": "c1f140999a73"
-    },
-    {
-      "title": "[模型] zai-org/GLM-5.3",
-      "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "platform_url": "https://huggingface.co/zai-org/GLM-5.3",
-      "cover_url": null,
-      "publish_time": "2026-08-25T06:42:50.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 121 · 下载 1,424,746",
-      "platform": "huggingface",
-      "score": 2094,
-      "trending_score": 121,
-      "downloads": 1424746,
-      "id": "fe18284cc651"
-    },
-    {
-      "title": "[模型] JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "platform_url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "cover_url": null,
-      "publish_time": "2026-08-14T03:43:36.000Z",
-      "tags": [
-        "模型",
-        "text-generation"
-      ],
-      "summary": "TrendingScore 92 · 下载 2,182,684",
-      "platform": "huggingface",
-      "score": 1426,
-      "trending_score": 92,
-      "downloads": 2182684,
-      "id": "0d17304cc8f1"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.9,
-      "cover_success_rate": 25.4
+      "avg_response_time": 8.8,
+      "cover_success_rate": 31.4
     },
     "platforms": [
       {
@@ -1968,73 +2044,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-05T06:20:37.098382+00:00"
+        "last_crawl": "2026-10-05T20:30:26.428790+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-05T06:21:00.905080+00:00"
+        "last_crawl": "2026-10-05T20:30:51.678998+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-05T06:21:02.116665+00:00"
+        "last_crawl": "2026-10-05T20:30:53.058518+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-05T06:21:15.968217+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-05T20:31:00.910764+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-05T06:21:16.144634+00:00"
+        "last_crawl": "2026-10-05T20:31:01.059218+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-05T06:20:37.098388+00:00",
+        "timestamp": "2026-10-05T20:30:26.428793+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 15.449345
+        "latency": 9.616014
       },
       {
-        "timestamp": "2026-10-05T06:21:00.905086+00:00",
+        "timestamp": "2026-10-05T20:30:51.679001+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 23.80669
+        "latency": 25.250202
       },
       {
-        "timestamp": "2026-10-05T06:21:02.116670+00:00",
+        "timestamp": "2026-10-05T20:30:53.058520+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.211577
+        "latency": 1.379514
       },
       {
-        "timestamp": "2026-10-05T06:21:15.968223+00:00",
+        "timestamp": "2026-10-05T20:31:00.910767+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 13.851546
+        "items_collected": 10,
+        "latency": 7.852242
       },
       {
-        "timestamp": "2026-10-05T06:21:16.144644+00:00",
+        "timestamp": "2026-10-05T20:31:01.059224+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.176414
+        "latency": 0.148451
       }
     ]
   }
