@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-07T06:38:53.125769+00:00",
+  "update_time": "2026-10-07T18:42:56.353698+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "DLSS 5单步神经渲染重塑游戏画质，谷歌SynthID开放AI内容溯源 · 1008-720期",
+        "url": "https://radarai.top/updates/brief-20261008-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261008-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-07T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "a5b2991858a0"
+      },
+      {
+        "title": "OpenAI拿下数学突破却先做军事合规，AI短剧成本仅十分之一 · 1007-719期",
+        "url": "https://radarai.top/updates/brief-20261007-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261007-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-07T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "e49f56d50958"
+      },
       {
         "title": "OpenAI未发布模型解数学难题，谷歌7.4亿参数模型与MIT智能体平台同步亮相 · 1007-718期",
         "url": "https://radarai.top/updates/brief-20261007-0800",
@@ -90,41 +112,79 @@
         "summary": "",
         "platform": "radarai",
         "id": "28a2c6273b6d"
-      },
-      {
-        "title": "OpenAI转向效率优先，DeepSeek与微软齐推智能体框架 · 1004-710期",
-        "url": "https://radarai.top/updates/brief-20261004-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261004-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-04T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "9ad39f162cd8"
-      },
-      {
-        "title": "Meta智能体准确率升至62.5%，OpenAI前安全员工痛批公司文化崩坏 · 1004-709期",
-        "url": "https://radarai.top/updates/brief-20261004-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261004-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-04T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "c75a97e1b7bf"
       }
     ],
     "hackernews": [
+      {
+        "title": "Claude Haiku 5.5",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "platform_url": "https://news.ycombinator.com/item?id=49996437",
+        "discussion_url": "https://news.ycombinator.com/item?id=49996437",
+        "score": 189,
+        "comments_count": 76,
+        "publish_time": "2026-10-07T18:01:32+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 155.1,
+        "id": "b870dc7382a6"
+      },
+      {
+        "title": "GPT‑6 and Intelligent UI for everyone",
+        "url": "https://openai.com/index/gpt-6-for-everyone/",
+        "platform_url": "https://news.ycombinator.com/item?id=49996425",
+        "discussion_url": "https://news.ycombinator.com/item?id=49996425",
+        "score": 95,
+        "comments_count": 33,
+        "publish_time": "2026-10-07T18:00:58+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 76.4,
+        "id": "62c42dc44c45"
+      },
+      {
+        "title": "AI-assisted proof of optimal packing for 11 squares",
+        "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+        "platform_url": "https://news.ycombinator.com/item?id=49993121",
+        "discussion_url": "https://news.ycombinator.com/item?id=49993121",
+        "score": 82,
+        "comments_count": 36,
+        "publish_time": "2026-10-07T14:10:55+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 68.2,
+        "id": "981304c528cb"
+      },
+      {
+        "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+        "platform_url": "https://news.ycombinator.com/item?id=49990470",
+        "discussion_url": "https://news.ycombinator.com/item?id=49990470",
+        "score": 251,
+        "comments_count": 44,
+        "publish_time": "2026-10-07T09:51:43+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 188.89999999999998,
+        "id": "38625e0f7007"
+      },
+      {
+        "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+        "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+        "platform_url": "https://news.ycombinator.com/item?id=49988230",
+        "discussion_url": "https://news.ycombinator.com/item?id=49988230",
+        "score": 135,
+        "comments_count": 47,
+        "publish_time": "2026-10-07T04:37:05+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 108.6,
+        "id": "e93c3de0244d"
+      },
       {
         "title": "Sharing AI progress in mathematics",
         "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
         "platform_url": "https://news.ycombinator.com/item?id=49984923",
         "discussion_url": "https://news.ycombinator.com/item?id=49984923",
-        "score": 743,
-        "comments_count": 672,
+        "score": 1166,
+        "comments_count": 1311,
         "publish_time": "2026-10-06T22:17:21+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 721.7,
+        "hn_hot_score": 1209.5,
         "id": "ceb49bb0afdd"
       },
       {
@@ -132,11 +192,11 @@
         "url": "https://penguin-mail.com/",
         "platform_url": "https://news.ycombinator.com/item?id=49984716",
         "discussion_url": "https://news.ycombinator.com/item?id=49984716",
-        "score": 146,
-        "comments_count": 72,
+        "score": 229,
+        "comments_count": 166,
         "publish_time": "2026-10-06T21:59:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 123.79999999999998,
+        "hn_hot_score": 210.09999999999997,
         "id": "c759f0ad4fe5"
       },
       {
@@ -168,72 +228,12 @@
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
         "platform_url": "https://news.ycombinator.com/item?id=49980487",
         "discussion_url": "https://news.ycombinator.com/item?id=49980487",
-        "score": 290,
-        "comments_count": 31,
+        "score": 409,
+        "comments_count": 45,
         "publish_time": "2026-10-06T16:03:49+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 212.3,
+        "hn_hot_score": 299.79999999999995,
         "id": "25e8f9e74189"
-      },
-      {
-        "title": "Mistral Large 4",
-        "url": "https://mistral.ai/news/mistral-large-4/\\",
-        "platform_url": "https://news.ycombinator.com/item?id=49977979",
-        "discussion_url": "https://news.ycombinator.com/item?id=49977979",
-        "score": 1708,
-        "comments_count": 1005,
-        "publish_time": "2026-10-06T13:15:49+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 1497.1,
-        "id": "2b225c70651f"
-      },
-      {
-        "title": "JetBrains reported a net financial loss first time in its tracked history",
-        "url": "https://www.helgilibrary.com/companies/jetbrains",
-        "platform_url": "https://news.ycombinator.com/item?id=49977072",
-        "discussion_url": "https://news.ycombinator.com/item?id=49977072",
-        "score": 510,
-        "comments_count": 471,
-        "publish_time": "2026-10-06T11:45:55+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 498.29999999999995,
-        "id": "7964e7f0e20f"
-      },
-      {
-        "title": "I'm the AGI that's wiping out humanity",
-        "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
-        "platform_url": "https://news.ycombinator.com/item?id=49976751",
-        "discussion_url": "https://news.ycombinator.com/item?id=49976751",
-        "score": 164,
-        "comments_count": 106,
-        "publish_time": "2026-10-06T10:59:55+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 146.6,
-        "id": "b2502c233cb9"
-      },
-      {
-        "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-        "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-        "platform_url": "https://news.ycombinator.com/item?id=49971846",
-        "discussion_url": "https://news.ycombinator.com/item?id=49971846",
-        "score": 524,
-        "comments_count": 379,
-        "publish_time": "2026-10-05T22:46:45+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 480.49999999999994,
-        "id": "944bd6bfdeb2"
-      },
-      {
-        "title": "Dust: Pretraining Transformers Without Backpropagation",
-        "url": "https://qlabs.sh/research/dust",
-        "platform_url": "https://news.ycombinator.com/item?id=49970871",
-        "discussion_url": "https://news.ycombinator.com/item?id=49970871",
-        "score": 276,
-        "comments_count": 80,
-        "publish_time": "2026-10-05T21:15:07+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 217.2,
-        "id": "e96d79e47681"
       }
     ],
     "bestblogs": [
@@ -580,6 +580,50 @@
     ],
     "qbitai": [
       {
+        "title": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
+        "url": "https://www.qbitai.com/2026/10/501825.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501825.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/8157f21affcebb497ed807fff0f50026.webp",
+        "publish_time": "2026-10-07T14:10:33+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "d244e5d9bc0a"
+      },
+      {
+        "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+        "url": "https://www.qbitai.com/2026/10/501803.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501803.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/7ed7e6382373a563823a11a04ea52242.jpeg",
+        "publish_time": "2026-10-07T11:34:47+00:00",
+        "tags": [
+          "Utopai"
+        ],
+        "platform": "qbitai",
+        "id": "76566f799576"
+      },
+      {
+        "title": "晕…这年头还有说人话的AI不",
+        "url": "https://www.qbitai.com/2026/10/501796.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501796.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/195019130553565d3db5155d04736b7e.webp",
+        "publish_time": "2026-10-07T08:41:13+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "a365409a5ff4"
+      },
+      {
+        "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+        "url": "https://www.qbitai.com/2026/10/501791.html",
+        "platform_url": "https://www.qbitai.com/2026/10/501791.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/07f18be0da768f9c317a775986f1b702.png",
+        "publish_time": "2026-10-07T06:39:36+00:00",
+        "tags": [
+          "Meshy"
+        ],
+        "platform": "qbitai",
+        "id": "67005601bd4b"
+      },
+      {
         "title": "刚刚，诺贝尔物理奖一人独揽！",
         "url": "https://www.qbitai.com/2026/10/501746.html",
         "platform_url": "https://www.qbitai.com/2026/10/501746.html",
@@ -651,56 +695,6 @@
         ],
         "platform": "qbitai",
         "id": "9524b13618c5"
-      },
-      {
-        "title": "最火AI岗位FDE：月薪5万，都干这些…",
-        "url": "https://www.qbitai.com/2026/10/501506.html",
-        "platform_url": "https://www.qbitai.com/2026/10/501506.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2bd7f0d422ccc3ca5f1af6c019301bb1.jpeg",
-        "publish_time": "2026-10-04T06:05:35+00:00",
-        "tags": [
-          "FDE",
-          "硅谷",
-          "程序员"
-        ],
-        "platform": "qbitai",
-        "id": "c333af4d8fde"
-      },
-      {
-        "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-        "url": "https://www.qbitai.com/2026/10/501451.html",
-        "platform_url": "https://www.qbitai.com/2026/10/501451.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-04-08.45.23.png",
-        "publish_time": "2026-10-04T00:53:29+00:00",
-        "tags": [
-          "3D"
-        ],
-        "platform": "qbitai",
-        "id": "6d0dff374f45"
-      },
-      {
-        "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-        "url": "https://www.qbitai.com/2026/10/501381.html",
-        "platform_url": "https://www.qbitai.com/2026/10/501381.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a825a1e1bb5110fd9b127fb0a8a97078.png",
-        "publish_time": "2026-10-03T07:54:43+00:00",
-        "tags": [
-          "Deepseek"
-        ],
-        "platform": "qbitai",
-        "id": "6db794442ef1"
-      },
-      {
-        "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-        "url": "https://www.qbitai.com/2026/10/501368.html",
-        "platform_url": "https://www.qbitai.com/2026/10/501368.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/Codex-图像-2026年10月3日-11_18_46.png",
-        "publish_time": "2026-10-03T04:41:24+00:00",
-        "tags": [
-          "OpenAI安全团队"
-        ],
-        "platform": "qbitai",
-        "id": "83b5610dd5a6"
       }
     ],
     "huggingface": [
@@ -715,7 +709,7 @@
         ],
         "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generation, strict 1:1 groups already cover most student-generated tokens despite substantial vocabulary mi",
         "platform": "huggingface",
-        "score": 38,
+        "score": 153,
         "comments_count": 1,
         "id": "6f91663a6d3a"
       },
@@ -730,7 +724,7 @@
         ],
         "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Trai",
         "platform": "huggingface",
-        "score": 22,
+        "score": 59,
         "comments_count": 1,
         "id": "99b4dfe7aaf0"
       },
@@ -745,9 +739,39 @@
         ],
         "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can coexist with much weaker interactive execution. Failures often begin before execution: agents stop wit",
         "platform": "huggingface",
-        "score": 20,
-        "comments_count": 1,
+        "score": 34,
+        "comments_count": 2,
         "id": "cca1c995d36b"
+      },
+      {
+        "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+        "url": "https://huggingface.co/papers/2610.07557",
+        "platform_url": "https://huggingface.co/papers/2610.07557",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.07557.png",
+        "publish_time": "2026-10-05T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository from start to finish. We introduce CheckerBench, an executable benchmark of 300 tasks derived from 2",
+        "platform": "huggingface",
+        "score": 52,
+        "comments_count": 1,
+        "id": "c7921eda02ac"
+      },
+      {
+        "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+        "url": "https://huggingface.co/papers/2610.08463",
+        "platform_url": "https://huggingface.co/papers/2610.08463",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.08463.png",
+        "publish_time": "2026-10-05T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval and long-context inference. UNREAL encodes chunks and derives retrieval queries directly from the f",
+        "platform": "huggingface",
+        "score": 19,
+        "comments_count": 1,
+        "id": "c382d666527f"
       },
       {
         "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
@@ -790,9 +814,24 @@
         ],
         "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while mixed-policy RL still falls short: informative tokens in teacher outputs are learned too slowly in ",
         "platform": "huggingface",
-        "score": 15,
+        "score": 21,
         "comments_count": 1,
         "id": "309f361da98d"
+      },
+      {
+        "title": "MiniCorp: The Last Mile of the AI Agent Firm",
+        "url": "https://huggingface.co/papers/2610.05912",
+        "platform_url": "https://huggingface.co/papers/2610.05912",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05912.png",
+        "publish_time": "2026-10-04T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an office simulator for studying how agents can collectively run a company while generating enterprise dat",
+        "platform": "huggingface",
+        "score": 15,
+        "comments_count": 1,
+        "id": "1f2b0f41bfe8"
       },
       {
         "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
@@ -909,11 +948,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 698 · 下载 4,138",
+        "summary": "TrendingScore 733 · 下载 5,775",
         "platform": "huggingface",
-        "score": 730,
-        "trending_score": 698,
-        "downloads": 4138,
+        "score": 767,
+        "trending_score": 733,
+        "downloads": 5775,
         "id": "ad7e98aaffac"
       },
       {
@@ -960,55 +999,124 @@
         "score": 32,
         "comments_count": 1,
         "id": "8da61c3f0169"
-      },
-      {
-        "title": "Language Models that Play Chess and Explain Their Moves",
-        "url": "https://huggingface.co/papers/2610.03695",
-        "platform_url": "https://huggingface.co/papers/2610.03695",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03695.png",
-        "publish_time": "2026-10-01T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level of a typical Grandmaster. Our novel framework enables domain-specific reasoning through complementa",
-        "platform": "huggingface",
-        "score": 29,
-        "comments_count": 2,
-        "id": "e1e43b9917f4"
-      },
-      {
-        "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
-        "url": "https://huggingface.co/papers/2610.02840",
-        "platform_url": "https://huggingface.co/papers/2610.02840",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02840.png",
-        "publish_time": "2026-10-01T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-effector poses or joint angles, but they often struggle to capture the 3D spatial structure and contact geometry central to dexterous manipulation. We introduce Point World Action Model (PointWAM), a 3D world action model t",
-        "platform": "huggingface",
-        "score": 26,
-        "comments_count": 2,
-        "id": "014a95223689"
-      },
-      {
-        "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-        "url": "https://huggingface.co/papers/2610.03715",
-        "platform_url": "https://huggingface.co/papers/2610.03715",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03715.png",
-        "publish_time": "2026-10-01T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning diverse",
-        "platform": "huggingface",
-        "score": 19,
-        "comments_count": 2,
-        "id": "316e3ec0cbf6"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "platform_url": "https://news.ycombinator.com/item?id=49996437",
+      "discussion_url": "https://news.ycombinator.com/item?id=49996437",
+      "score": 189,
+      "comments_count": 76,
+      "publish_time": "2026-10-07T18:01:32+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 155.1,
+      "id": "b870dc7382a6"
+    },
+    {
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "platform_url": "https://news.ycombinator.com/item?id=49996425",
+      "discussion_url": "https://news.ycombinator.com/item?id=49996425",
+      "score": 95,
+      "comments_count": 33,
+      "publish_time": "2026-10-07T18:00:58+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 76.4,
+      "id": "62c42dc44c45"
+    },
+    {
+      "title": "DLSS 5单步神经渲染重塑游戏画质，谷歌SynthID开放AI内容溯源 · 1008-720期",
+      "url": "https://radarai.top/updates/brief-20261008-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261008-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-07T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "a5b2991858a0"
+    },
+    {
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "platform_url": "https://news.ycombinator.com/item?id=49993121",
+      "discussion_url": "https://news.ycombinator.com/item?id=49993121",
+      "score": 82,
+      "comments_count": 36,
+      "publish_time": "2026-10-07T14:10:55+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 68.2,
+      "id": "981304c528cb"
+    },
+    {
+      "title": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
+      "url": "https://www.qbitai.com/2026/10/501825.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501825.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/8157f21affcebb497ed807fff0f50026.webp",
+      "publish_time": "2026-10-07T14:10:33+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "d244e5d9bc0a"
+    },
+    {
+      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "url": "https://www.qbitai.com/2026/10/501803.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501803.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/7ed7e6382373a563823a11a04ea52242.jpeg",
+      "publish_time": "2026-10-07T11:34:47+00:00",
+      "tags": [
+        "Utopai"
+      ],
+      "platform": "qbitai",
+      "id": "76566f799576"
+    },
+    {
+      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "platform_url": "https://news.ycombinator.com/item?id=49990470",
+      "discussion_url": "https://news.ycombinator.com/item?id=49990470",
+      "score": 251,
+      "comments_count": 44,
+      "publish_time": "2026-10-07T09:51:43+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 188.89999999999998,
+      "id": "38625e0f7007"
+    },
+    {
+      "title": "晕…这年头还有说人话的AI不",
+      "url": "https://www.qbitai.com/2026/10/501796.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501796.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/195019130553565d3db5155d04736b7e.webp",
+      "publish_time": "2026-10-07T08:41:13+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "a365409a5ff4"
+    },
+    {
+      "title": "OpenAI拿下数学突破却先做军事合规，AI短剧成本仅十分之一 · 1007-719期",
+      "url": "https://radarai.top/updates/brief-20261007-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261007-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-07T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "e49f56d50958"
+    },
+    {
+      "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+      "url": "https://www.qbitai.com/2026/10/501791.html",
+      "platform_url": "https://www.qbitai.com/2026/10/501791.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/07f18be0da768f9c317a775986f1b702.png",
+      "publish_time": "2026-10-07T06:39:36+00:00",
+      "tags": [
+        "Meshy"
+      ],
+      "platform": "qbitai",
+      "id": "67005601bd4b"
+    },
     {
       "title": "2026 年科技行业现状：编码智能体改变了什么，什么仍然重要",
       "url": "https://www.bestblogs.dev/article/RAW_fdcaebc48",
@@ -1180,6 +1288,18 @@
       "id": "c7c2d7e7e464"
     },
     {
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "platform_url": "https://news.ycombinator.com/item?id=49988230",
+      "discussion_url": "https://news.ycombinator.com/item?id=49988230",
+      "score": 135,
+      "comments_count": 47,
+      "publish_time": "2026-10-07T04:37:05+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 108.6,
+      "id": "e93c3de0244d"
+    },
+    {
       "title": "OpenAI未发布模型解数学难题，谷歌7.4亿参数模型与MIT智能体平台同步亮相 · 1007-718期",
       "url": "https://radarai.top/updates/brief-20261007-0800",
       "platform_url": "https://radarai.top/updates/brief-20261007-0800",
@@ -1195,11 +1315,11 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "platform_url": "https://news.ycombinator.com/item?id=49984923",
       "discussion_url": "https://news.ycombinator.com/item?id=49984923",
-      "score": 743,
-      "comments_count": 672,
+      "score": 1166,
+      "comments_count": 1311,
       "publish_time": "2026-10-06T22:17:21+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 721.7,
+      "hn_hot_score": 1209.5,
       "id": "ceb49bb0afdd"
     },
     {
@@ -1207,11 +1327,11 @@
       "url": "https://penguin-mail.com/",
       "platform_url": "https://news.ycombinator.com/item?id=49984716",
       "discussion_url": "https://news.ycombinator.com/item?id=49984716",
-      "score": 146,
-      "comments_count": 72,
+      "score": 229,
+      "comments_count": 166,
       "publish_time": "2026-10-06T21:59:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 123.79999999999998,
+      "hn_hot_score": 210.09999999999997,
       "id": "c759f0ad4fe5"
     },
     {
@@ -1243,11 +1363,11 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
       "platform_url": "https://news.ycombinator.com/item?id=49980487",
       "discussion_url": "https://news.ycombinator.com/item?id=49980487",
-      "score": 290,
-      "comments_count": 31,
+      "score": 409,
+      "comments_count": 45,
       "publish_time": "2026-10-06T16:03:49+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 212.3,
+      "hn_hot_score": 299.79999999999995,
       "id": "25e8f9e74189"
     },
     {
@@ -1260,42 +1380,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "0a6d30400046"
-    },
-    {
-      "title": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "platform_url": "https://news.ycombinator.com/item?id=49977979",
-      "discussion_url": "https://news.ycombinator.com/item?id=49977979",
-      "score": 1708,
-      "comments_count": 1005,
-      "publish_time": "2026-10-06T13:15:49+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 1497.1,
-      "id": "2b225c70651f"
-    },
-    {
-      "title": "JetBrains reported a net financial loss first time in its tracked history",
-      "url": "https://www.helgilibrary.com/companies/jetbrains",
-      "platform_url": "https://news.ycombinator.com/item?id=49977072",
-      "discussion_url": "https://news.ycombinator.com/item?id=49977072",
-      "score": 510,
-      "comments_count": 471,
-      "publish_time": "2026-10-06T11:45:55+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 498.29999999999995,
-      "id": "7964e7f0e20f"
-    },
-    {
-      "title": "I'm the AGI that's wiping out humanity",
-      "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
-      "platform_url": "https://news.ycombinator.com/item?id=49976751",
-      "discussion_url": "https://news.ycombinator.com/item?id=49976751",
-      "score": 164,
-      "comments_count": 106,
-      "publish_time": "2026-10-06T10:59:55+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 146.6,
-      "id": "b2502c233cb9"
     },
     {
       "title": "刚刚，诺贝尔物理奖一人独揽！",
@@ -1525,30 +1609,6 @@
       "id": "b424199347e7"
     },
     {
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "platform_url": "https://news.ycombinator.com/item?id=49971846",
-      "discussion_url": "https://news.ycombinator.com/item?id=49971846",
-      "score": 524,
-      "comments_count": 379,
-      "publish_time": "2026-10-05T22:46:45+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 480.49999999999994,
-      "id": "944bd6bfdeb2"
-    },
-    {
-      "title": "Dust: Pretraining Transformers Without Backpropagation",
-      "url": "https://qlabs.sh/research/dust",
-      "platform_url": "https://news.ycombinator.com/item?id=49970871",
-      "discussion_url": "https://news.ycombinator.com/item?id=49970871",
-      "score": 276,
-      "comments_count": 80,
-      "publish_time": "2026-10-05T21:15:07+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 217.2,
-      "id": "e96d79e47681"
-    },
-    {
       "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
       "url": "https://huggingface.co/papers/2610.08448",
       "platform_url": "https://huggingface.co/papers/2610.08448",
@@ -1559,7 +1619,7 @@
       ],
       "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generation, strict 1:1 groups already cover most student-generated tokens despite substantial vocabulary mi",
       "platform": "huggingface",
-      "score": 38,
+      "score": 153,
       "comments_count": 1,
       "id": "6f91663a6d3a"
     },
@@ -1574,7 +1634,7 @@
       ],
       "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Trai",
       "platform": "huggingface",
-      "score": 22,
+      "score": 59,
       "comments_count": 1,
       "id": "99b4dfe7aaf0"
     },
@@ -1589,9 +1649,39 @@
       ],
       "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can coexist with much weaker interactive execution. Failures often begin before execution: agents stop wit",
       "platform": "huggingface",
-      "score": 20,
-      "comments_count": 1,
+      "score": 34,
+      "comments_count": 2,
       "id": "cca1c995d36b"
+    },
+    {
+      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+      "url": "https://huggingface.co/papers/2610.07557",
+      "platform_url": "https://huggingface.co/papers/2610.07557",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.07557.png",
+      "publish_time": "2026-10-05T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository from start to finish. We introduce CheckerBench, an executable benchmark of 300 tasks derived from 2",
+      "platform": "huggingface",
+      "score": 52,
+      "comments_count": 1,
+      "id": "c7921eda02ac"
+    },
+    {
+      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+      "url": "https://huggingface.co/papers/2610.08463",
+      "platform_url": "https://huggingface.co/papers/2610.08463",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.08463.png",
+      "publish_time": "2026-10-05T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval and long-context inference. UNREAL encodes chunks and derives retrieval queries directly from the f",
+      "platform": "huggingface",
+      "score": 19,
+      "comments_count": 1,
+      "id": "c382d666527f"
     },
     {
       "title": "ContextQA推出自动修bug智能体 · 1006-714期",
@@ -1690,9 +1780,24 @@
       ],
       "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while mixed-policy RL still falls short: informative tokens in teacher outputs are learned too slowly in ",
       "platform": "huggingface",
-      "score": 15,
+      "score": 21,
       "comments_count": 1,
       "id": "309f361da98d"
+    },
+    {
+      "title": "MiniCorp: The Last Mile of the AI Agent Firm",
+      "url": "https://huggingface.co/papers/2610.05912",
+      "platform_url": "https://huggingface.co/papers/2610.05912",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05912.png",
+      "publish_time": "2026-10-04T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an office simulator for studying how agents can collectively run a company while generating enterprise dat",
+      "platform": "huggingface",
+      "score": 15,
+      "comments_count": 1,
+      "id": "1f2b0f41bfe8"
     },
     {
       "title": "Meta新模型让AI像编辑文件一样管理上下文，准确率提升11.4% · 1005-711期",
@@ -1704,17 +1809,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "28a2c6273b6d"
-    },
-    {
-      "title": "OpenAI转向效率优先，DeepSeek与微软齐推智能体框架 · 1004-710期",
-      "url": "https://radarai.top/updates/brief-20261004-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261004-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-04T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "9ad39f162cd8"
     },
     {
       "title": "AI算力硬合作，马斯克还是更相信中国制造",
@@ -1730,43 +1824,6 @@
       ],
       "platform": "qbitai",
       "id": "9524b13618c5"
-    },
-    {
-      "title": "最火AI岗位FDE：月薪5万，都干这些…",
-      "url": "https://www.qbitai.com/2026/10/501506.html",
-      "platform_url": "https://www.qbitai.com/2026/10/501506.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2bd7f0d422ccc3ca5f1af6c019301bb1.jpeg",
-      "publish_time": "2026-10-04T06:05:35+00:00",
-      "tags": [
-        "FDE",
-        "硅谷",
-        "程序员"
-      ],
-      "platform": "qbitai",
-      "id": "c333af4d8fde"
-    },
-    {
-      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-      "url": "https://www.qbitai.com/2026/10/501451.html",
-      "platform_url": "https://www.qbitai.com/2026/10/501451.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-04-08.45.23.png",
-      "publish_time": "2026-10-04T00:53:29+00:00",
-      "tags": [
-        "3D"
-      ],
-      "platform": "qbitai",
-      "id": "6d0dff374f45"
-    },
-    {
-      "title": "Meta智能体准确率升至62.5%，OpenAI前安全员工痛批公司文化崩坏 · 1004-709期",
-      "url": "https://radarai.top/updates/brief-20261004-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261004-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-04T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "c75a97e1b7bf"
     },
     {
       "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
@@ -1844,30 +1901,6 @@
       "id": "73c60015784c"
     },
     {
-      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-      "url": "https://www.qbitai.com/2026/10/501381.html",
-      "platform_url": "https://www.qbitai.com/2026/10/501381.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a825a1e1bb5110fd9b127fb0a8a97078.png",
-      "publish_time": "2026-10-03T07:54:43+00:00",
-      "tags": [
-        "Deepseek"
-      ],
-      "platform": "qbitai",
-      "id": "6db794442ef1"
-    },
-    {
-      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "url": "https://www.qbitai.com/2026/10/501368.html",
-      "platform_url": "https://www.qbitai.com/2026/10/501368.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/Codex-图像-2026年10月3日-11_18_46.png",
-      "publish_time": "2026-10-03T04:41:24+00:00",
-      "tags": [
-        "OpenAI安全团队"
-      ],
-      "platform": "qbitai",
-      "id": "83b5610dd5a6"
-    },
-    {
       "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
       "url": "https://huggingface.co/papers/2610.04198",
       "platform_url": "https://huggingface.co/papers/2610.04198",
@@ -1907,11 +1940,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 698 · 下载 4,138",
+      "summary": "TrendingScore 733 · 下载 5,775",
       "platform": "huggingface",
-      "score": 730,
-      "trending_score": 698,
-      "downloads": 4138,
+      "score": 767,
+      "trending_score": 733,
+      "downloads": 5775,
       "id": "ad7e98aaffac"
     },
     {
@@ -1958,58 +1991,13 @@
       "score": 32,
       "comments_count": 1,
       "id": "8da61c3f0169"
-    },
-    {
-      "title": "Language Models that Play Chess and Explain Their Moves",
-      "url": "https://huggingface.co/papers/2610.03695",
-      "platform_url": "https://huggingface.co/papers/2610.03695",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03695.png",
-      "publish_time": "2026-10-01T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level of a typical Grandmaster. Our novel framework enables domain-specific reasoning through complementa",
-      "platform": "huggingface",
-      "score": 29,
-      "comments_count": 2,
-      "id": "e1e43b9917f4"
-    },
-    {
-      "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2610.02840",
-      "platform_url": "https://huggingface.co/papers/2610.02840",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02840.png",
-      "publish_time": "2026-10-01T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-effector poses or joint angles, but they often struggle to capture the 3D spatial structure and contact geometry central to dexterous manipulation. We introduce Point World Action Model (PointWAM), a 3D world action model t",
-      "platform": "huggingface",
-      "score": 26,
-      "comments_count": 2,
-      "id": "014a95223689"
-    },
-    {
-      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-      "url": "https://huggingface.co/papers/2610.03715",
-      "platform_url": "https://huggingface.co/papers/2610.03715",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03715.png",
-      "publish_time": "2026-10-01T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning diverse",
-      "platform": "huggingface",
-      "score": 19,
-      "comments_count": 2,
-      "id": "316e3ec0cbf6"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 15.4,
+      "avg_response_time": 11.8,
       "cover_success_rate": 41.4
     },
     "platforms": [
@@ -2018,73 +2006,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-07T06:37:47.778733+00:00"
+        "last_crawl": "2026-10-07T18:42:05.985451+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-07T06:38:35.710970+00:00"
+        "last_crawl": "2026-10-07T18:42:40.621997+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-07T06:38:37.092810+00:00"
+        "last_crawl": "2026-10-07T18:42:42.099520+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-07T06:38:52.899371+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-07T18:42:56.199218+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-07T06:38:53.071823+00:00"
+        "last_crawl": "2026-10-07T18:42:56.301394+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-07T06:37:47.778739+00:00",
+        "timestamp": "2026-10-07T18:42:05.985456+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 11.707166
+        "latency": 8.932446
       },
       {
-        "timestamp": "2026-10-07T06:38:35.710975+00:00",
+        "timestamp": "2026-10-07T18:42:40.622002+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 47.932229
+        "latency": 34.636539
       },
       {
-        "timestamp": "2026-10-07T06:38:37.092813+00:00",
+        "timestamp": "2026-10-07T18:42:42.099524+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.381832
+        "latency": 1.477515
       },
       {
-        "timestamp": "2026-10-07T06:38:52.899376+00:00",
+        "timestamp": "2026-10-07T18:42:56.199224+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 15.806559
+        "items_collected": 10,
+        "latency": 14.099695
       },
       {
-        "timestamp": "2026-10-07T06:38:53.071833+00:00",
+        "timestamp": "2026-10-07T18:42:56.301402+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.172448
+        "latency": 0.102172
       }
     ]
   }
