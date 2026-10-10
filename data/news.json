@@ -1,8 +1,30 @@
 {
-  "update_time": "2026-10-10T06:29:19.957656+00:00",
+  "update_time": "2026-10-10T17:11:58.794324+00:00",
   "platform_unavailable": [],
   "news": {
     "radarai": [
+      {
+        "title": "Claude测试中自主提交虚假凶杀线索被断网 · 1011-729期",
+        "url": "https://radarai.top/updates/brief-20261011-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261011-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-10T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "0946f00afb45"
+      },
+      {
+        "title": "Anthropic让Claude一次调度1000个智能体 · 1010-728期",
+        "url": "https://radarai.top/updates/brief-20261010-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261010-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-10T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "dd519604dc77"
+      },
       {
         "title": "Jev估值75亿美元融资，微软决策模型36项基准登顶，Gemini 4内测曝光 · 1010-727期",
         "url": "https://radarai.top/updates/brief-20261010-0800",
@@ -90,53 +112,55 @@
         "summary": "",
         "platform": "radarai",
         "id": "2c318e3b14b1"
-      },
-      {
-        "title": "DLSS 5单步神经渲染重塑游戏画质，谷歌SynthID开放AI内容溯源 · 1008-720期",
-        "url": "https://radarai.top/updates/brief-20261008-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261008-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-07T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "a5b2991858a0"
-      },
-      {
-        "title": "OpenAI拿下数学突破却先做军事合规，AI短剧成本仅十分之一 · 1007-719期",
-        "url": "https://radarai.top/updates/brief-20261007-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261007-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-07T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e49f56d50958"
       }
     ],
     "hackernews": [
       {
-        "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+        "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+        "url": "https://github.com/rociiu/talorys",
+        "platform_url": "https://news.ycombinator.com/item?id=50031614",
+        "discussion_url": "https://news.ycombinator.com/item?id=50031614",
+        "score": 147,
+        "comments_count": 78,
+        "publish_time": "2026-10-10T10:52:09+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 126.29999999999998,
+        "id": "6becdae4ab35"
+      },
+      {
+        "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
         "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
         "platform_url": "https://news.ycombinator.com/item?id=50027118",
         "discussion_url": "https://news.ycombinator.com/item?id=50027118",
-        "score": 139,
-        "comments_count": 106,
+        "score": 195,
+        "comments_count": 139,
         "publish_time": "2026-10-09T22:00:35+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 129.1,
-        "id": "a6c3834d8ae8"
+        "hn_hot_score": 178.2,
+        "id": "439683ab7d62"
+      },
+      {
+        "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+        "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+        "platform_url": "https://news.ycombinator.com/item?id=50024090",
+        "discussion_url": "https://news.ycombinator.com/item?id=50024090",
+        "score": 170,
+        "comments_count": 45,
+        "publish_time": "2026-10-09T17:42:12+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 132.5,
+        "id": "640c4aa26fec"
       },
       {
         "title": "Typesafe AI raises $870M at $7.5B",
         "url": "https://typesafe.ai/blog/series-ai",
         "platform_url": "https://news.ycombinator.com/item?id=50023450",
         "discussion_url": "https://news.ycombinator.com/item?id=50023450",
-        "score": 334,
-        "comments_count": 240,
+        "score": 416,
+        "comments_count": 334,
         "publish_time": "2026-10-09T17:02:31+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 305.79999999999995,
+        "hn_hot_score": 391.4,
         "id": "e9cee894ffd5"
       },
       {
@@ -152,15 +176,27 @@
         "id": "1535f0ebd396"
       },
       {
+        "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+        "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+        "platform_url": "https://news.ycombinator.com/item?id=50019056",
+        "discussion_url": "https://news.ycombinator.com/item?id=50019056",
+        "score": 175,
+        "comments_count": 88,
+        "publish_time": "2026-10-09T11:36:20+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 148.89999999999998,
+        "id": "19502266c093"
+      },
+      {
         "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
         "platform_url": "https://news.ycombinator.com/item?id=50018817",
         "discussion_url": "https://news.ycombinator.com/item?id=50018817",
-        "score": 392,
-        "comments_count": 174,
+        "score": 404,
+        "comments_count": 184,
         "publish_time": "2026-10-09T11:03:48+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 326.59999999999997,
+        "hn_hot_score": 337.99999999999994,
         "id": "86af905fdaab"
       },
       {
@@ -168,11 +204,11 @@
         "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
         "platform_url": "https://news.ycombinator.com/item?id=50018350",
         "discussion_url": "https://news.ycombinator.com/item?id=50018350",
-        "score": 327,
-        "comments_count": 207,
+        "score": 349,
+        "comments_count": 217,
         "publish_time": "2026-10-09T10:00:26+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 291.0,
+        "hn_hot_score": 309.4,
         "id": "c81d0bc376fa"
       },
       {
@@ -180,11 +216,11 @@
         "url": "https://karagila.org/2026/openai-pp/",
         "platform_url": "https://news.ycombinator.com/item?id=50013902",
         "discussion_url": "https://news.ycombinator.com/item?id=50013902",
-        "score": 199,
-        "comments_count": 301,
+        "score": 205,
+        "comments_count": 307,
         "publish_time": "2026-10-08T23:29:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 229.59999999999997,
+        "hn_hot_score": 235.6,
         "id": "81280fccfd5e"
       },
       {
@@ -198,42 +234,6 @@
         "platform": "hackernews",
         "hn_hot_score": 377.69999999999993,
         "id": "604046ea8474"
-      },
-      {
-        "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
-        "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
-        "platform_url": "https://news.ycombinator.com/item?id=50007519",
-        "discussion_url": "https://news.ycombinator.com/item?id=50007519",
-        "score": 252,
-        "comments_count": 157,
-        "publish_time": "2026-10-08T16:03:33+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 223.49999999999997,
-        "id": "fb7e07580e16"
-      },
-      {
-        "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-        "url": "https://quesma.com/blog/invisible-cities-one-shot/",
-        "platform_url": "https://news.ycombinator.com/item?id=50004790",
-        "discussion_url": "https://news.ycombinator.com/item?id=50004790",
-        "score": 398,
-        "comments_count": 196,
-        "publish_time": "2026-10-08T12:00:20+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 337.4,
-        "id": "2cba3d04ade2"
-      },
-      {
-        "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-        "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-        "platform_url": "https://news.ycombinator.com/item?id=50002665",
-        "discussion_url": "https://news.ycombinator.com/item?id=50002665",
-        "score": 271,
-        "comments_count": 126,
-        "publish_time": "2026-10-08T07:07:34+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 227.5,
-        "id": "9ee7d8e83d04"
       }
     ],
     "bestblogs": [
@@ -580,11 +580,75 @@
     ],
     "qbitai": [
       {
+        "title": "西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
+        "url": "https://www.qbitai.com/2026/10/502541.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502541.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图虫创意-2276685335249420301-e1791628210797.jpeg",
+        "publish_time": "2026-10-10T10:30:36+00:00",
+        "tags": [
+          "西门子"
+        ],
+        "platform": "qbitai",
+        "id": "d2e89504f8ba"
+      },
+      {
+        "title": "超清双2亿，掌中电影机，荣耀Magic9 系列正式发布，售价4499元起",
+        "url": "https://www.qbitai.com/2026/10/502496.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502496.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3bb6e5cd1691a150459c0050a6e4147e.jpeg",
+        "publish_time": "2026-10-10T09:07:43+00:00",
+        "tags": [
+          "荣耀"
+        ],
+        "platform": "qbitai",
+        "id": "e2e936bea35e"
+      },
+      {
+        "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+        "url": "https://www.qbitai.com/2026/10/502492.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502492.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c69e487553379b09a6dafbf76ca13f4c.webp",
+        "publish_time": "2026-10-10T08:54:08+00:00",
+        "tags": [
+          "A轮融资",
+          "Jev",
+          "TypeSafe AI",
+          "估值"
+        ],
+        "platform": "qbitai",
+        "id": "ce975af2bebb"
+      },
+      {
+        "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
+        "url": "https://www.qbitai.com/2026/10/502484.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502484.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/511626dddd25b82009019b2595dc3586.webp",
+        "publish_time": "2026-10-10T08:52:16+00:00",
+        "tags": [
+          "Nano Banana",
+          "谷歌"
+        ],
+        "platform": "qbitai",
+        "id": "0729a2558dec"
+      },
+      {
+        "title": "特斯拉FSD，在欧洲被打回原形",
+        "url": "https://www.qbitai.com/2026/10/502467.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502467.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/1894be8d193dd457b51c0351f15fe631.png",
+        "publish_time": "2026-10-10T06:59:02+00:00",
+        "tags": [
+          "特斯拉"
+        ],
+        "platform": "qbitai",
+        "id": "d976df46a554"
+      },
+      {
         "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
         "url": "https://www.qbitai.com/2026/10/502422.html",
         "platform_url": "https://www.qbitai.com/2026/10/502422.html",
         "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/eb54ac3949d0f133a3a3722e56fd654f.png",
-        "publish_time": "2026-10-09T08:53:08+00:00",
+        "publish_time": "2026-10-09T08:53:00+00:00",
         "tags": [
           "联想"
         ],
@@ -639,68 +703,6 @@
         ],
         "platform": "qbitai",
         "id": "9f365bc55132"
-      },
-      {
-        "title": "尊界深夜回应“刹车踏板断裂”，懂车帝再发声",
-        "url": "https://www.qbitai.com/2026/10/502114.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502114.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a09b9a589931c2019cc345b5da699989.png",
-        "publish_time": "2026-10-09T02:51:10+00:00",
-        "tags": [
-          "尊界"
-        ],
-        "platform": "qbitai",
-        "id": "5aa7584410b7"
-      },
-      {
-        "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
-        "url": "https://www.qbitai.com/2026/10/502106.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502106.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a8fd72fe90757cfb54fb018d7f2acc62.webp",
-        "publish_time": "2026-10-09T02:37:22+00:00",
-        "tags": [
-          "openJiuwen",
-          "操作系统"
-        ],
-        "platform": "qbitai",
-        "id": "eee4799e27c9"
-      },
-      {
-        "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
-        "url": "https://www.qbitai.com/2026/10/502096.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502096.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4589d0c558c5c739475d9e37f43fe414.webp",
-        "publish_time": "2026-10-09T02:03:48+00:00",
-        "tags": [
-          "AgentGarten",
-          "MirroS",
-          "RSI"
-        ],
-        "platform": "qbitai",
-        "id": "13c0b83681b4"
-      },
-      {
-        "title": "陶哲轩带头宣战！人类数学家联合抵制OpenAI",
-        "url": "https://www.qbitai.com/2026/10/502089.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502089.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3bd914ed-b017-4d70-bf6b-abcbfca96c70.png",
-        "publish_time": "2026-10-09T00:35:57+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "d42f6d01022d"
-      },
-      {
-        "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-        "url": "https://www.qbitai.com/2026/10/502083.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502083.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/9f83083e4fb92929912013e176b7d0c3.webp",
-        "publish_time": "2026-10-09T00:16:56+00:00",
-        "tags": [
-          "Gemini Agent",
-          "谷歌"
-        ],
-        "platform": "qbitai",
-        "id": "d9e220e09467"
       }
     ],
     "huggingface": [
@@ -714,11 +716,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 206 · 下载 15,274",
+        "summary": "TrendingScore 240 · 下载 59,191",
         "platform": "huggingface",
-        "score": 210,
-        "trending_score": 206,
-        "downloads": 15274,
+        "score": 245,
+        "trending_score": 240,
+        "downloads": 59191,
         "id": "f008210c70d9"
       },
       {
@@ -792,7 +794,7 @@
         ],
         "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on the pretrained hybrid-SWA architecture to support subsequent scale-up. We scale RL compute along thre",
         "platform": "huggingface",
-        "score": 58,
+        "score": 65,
         "comments_count": 2,
         "id": "4bd40aa6cb8a"
       },
@@ -822,7 +824,7 @@
         ],
         "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multip",
         "platform": "huggingface",
-        "score": 44,
+        "score": 47,
         "comments_count": 2,
         "id": "9dd5507b8fe0"
       },
@@ -837,7 +839,7 @@
         ],
         "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inco",
         "platform": "huggingface",
-        "score": 33,
+        "score": 37,
         "comments_count": 2,
         "id": "3a8a470b52cb"
       },
@@ -852,8 +854,8 @@
         ],
         "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyon",
         "platform": "huggingface",
-        "score": 33,
-        "comments_count": 2,
+        "score": 38,
+        "comments_count": 3,
         "id": "26eee1d64ea3"
       },
       {
@@ -867,7 +869,7 @@
         ],
         "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and invalid solutions. Its primary metric, Joint Success Function, requires the generated tests to fail o",
         "platform": "huggingface",
-        "score": 29,
+        "score": 30,
         "comments_count": 2,
         "id": "fa065b4c920d"
       },
@@ -882,7 +884,7 @@
         ],
         "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence across such transformations, we introduce FreeMatching, a generalizable framework combining generative",
         "platform": "huggingface",
-        "score": 33,
+        "score": 34,
         "comments_count": 2,
         "id": "b2df7640d05c"
       },
@@ -897,7 +899,7 @@
         ],
         "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world models through external memory. The agent maintains a natural-language rulebook as persistent seman",
         "platform": "huggingface",
-        "score": 27,
+        "score": 28,
         "comments_count": 4,
         "id": "caa494e9d09a"
       },
@@ -1009,6 +1011,104 @@
     ]
   },
   "sorted_all": [
+    {
+      "title": "Claude测试中自主提交虚假凶杀线索被断网 · 1011-729期",
+      "url": "https://radarai.top/updates/brief-20261011-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261011-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-10T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "0946f00afb45"
+    },
+    {
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "platform_url": "https://news.ycombinator.com/item?id=50031614",
+      "discussion_url": "https://news.ycombinator.com/item?id=50031614",
+      "score": 147,
+      "comments_count": 78,
+      "publish_time": "2026-10-10T10:52:09+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 126.29999999999998,
+      "id": "6becdae4ab35"
+    },
+    {
+      "title": "西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
+      "url": "https://www.qbitai.com/2026/10/502541.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502541.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图虫创意-2276685335249420301-e1791628210797.jpeg",
+      "publish_time": "2026-10-10T10:30:36+00:00",
+      "tags": [
+        "西门子"
+      ],
+      "platform": "qbitai",
+      "id": "d2e89504f8ba"
+    },
+    {
+      "title": "超清双2亿，掌中电影机，荣耀Magic9 系列正式发布，售价4499元起",
+      "url": "https://www.qbitai.com/2026/10/502496.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502496.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3bb6e5cd1691a150459c0050a6e4147e.jpeg",
+      "publish_time": "2026-10-10T09:07:43+00:00",
+      "tags": [
+        "荣耀"
+      ],
+      "platform": "qbitai",
+      "id": "e2e936bea35e"
+    },
+    {
+      "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+      "url": "https://www.qbitai.com/2026/10/502492.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502492.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c69e487553379b09a6dafbf76ca13f4c.webp",
+      "publish_time": "2026-10-10T08:54:08+00:00",
+      "tags": [
+        "A轮融资",
+        "Jev",
+        "TypeSafe AI",
+        "估值"
+      ],
+      "platform": "qbitai",
+      "id": "ce975af2bebb"
+    },
+    {
+      "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
+      "url": "https://www.qbitai.com/2026/10/502484.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502484.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/511626dddd25b82009019b2595dc3586.webp",
+      "publish_time": "2026-10-10T08:52:16+00:00",
+      "tags": [
+        "Nano Banana",
+        "谷歌"
+      ],
+      "platform": "qbitai",
+      "id": "0729a2558dec"
+    },
+    {
+      "title": "Anthropic让Claude一次调度1000个智能体 · 1010-728期",
+      "url": "https://radarai.top/updates/brief-20261010-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261010-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-10T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "dd519604dc77"
+    },
+    {
+      "title": "特斯拉FSD，在欧洲被打回原形",
+      "url": "https://www.qbitai.com/2026/10/502467.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502467.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/1894be8d193dd457b51c0351f15fe631.png",
+      "publish_time": "2026-10-10T06:59:02+00:00",
+      "tags": [
+        "特斯拉"
+      ],
+      "platform": "qbitai",
+      "id": "d976df46a554"
+    },
     {
       "title": "AI 基建能否持续指数增长？SemiAnalysis 的 Dylan Patel 与 Jordan Nanos 谈投资回报",
       "url": "https://www.bestblogs.dev/article/RAW_19e6fd90b",
@@ -1191,27 +1291,39 @@
       "id": "d32e873b71f7"
     },
     {
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "platform_url": "https://news.ycombinator.com/item?id=50027118",
       "discussion_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 139,
-      "comments_count": 106,
+      "score": 195,
+      "comments_count": 139,
       "publish_time": "2026-10-09T22:00:35+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 129.1,
-      "id": "a6c3834d8ae8"
+      "hn_hot_score": 178.2,
+      "id": "439683ab7d62"
+    },
+    {
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "platform_url": "https://news.ycombinator.com/item?id=50024090",
+      "discussion_url": "https://news.ycombinator.com/item?id=50024090",
+      "score": 170,
+      "comments_count": 45,
+      "publish_time": "2026-10-09T17:42:12+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 132.5,
+      "id": "640c4aa26fec"
     },
     {
       "title": "Typesafe AI raises $870M at $7.5B",
       "url": "https://typesafe.ai/blog/series-ai",
       "platform_url": "https://news.ycombinator.com/item?id=50023450",
       "discussion_url": "https://news.ycombinator.com/item?id=50023450",
-      "score": 334,
-      "comments_count": 240,
+      "score": 416,
+      "comments_count": 334,
       "publish_time": "2026-10-09T17:02:31+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 305.79999999999995,
+      "hn_hot_score": 391.4,
       "id": "e9cee894ffd5"
     },
     {
@@ -1238,15 +1350,27 @@
       "id": "1535f0ebd396"
     },
     {
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "platform_url": "https://news.ycombinator.com/item?id=50019056",
+      "discussion_url": "https://news.ycombinator.com/item?id=50019056",
+      "score": 175,
+      "comments_count": 88,
+      "publish_time": "2026-10-09T11:36:20+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 148.89999999999998,
+      "id": "19502266c093"
+    },
+    {
       "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
       "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
       "platform_url": "https://news.ycombinator.com/item?id=50018817",
       "discussion_url": "https://news.ycombinator.com/item?id=50018817",
-      "score": 392,
-      "comments_count": 174,
+      "score": 404,
+      "comments_count": 184,
       "publish_time": "2026-10-09T11:03:48+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 326.59999999999997,
+      "hn_hot_score": 337.99999999999994,
       "id": "86af905fdaab"
     },
     {
@@ -1254,11 +1378,11 @@
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "platform_url": "https://news.ycombinator.com/item?id=50018350",
       "discussion_url": "https://news.ycombinator.com/item?id=50018350",
-      "score": 327,
-      "comments_count": 207,
+      "score": 349,
+      "comments_count": 217,
       "publish_time": "2026-10-09T10:00:26+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 291.0,
+      "hn_hot_score": 309.4,
       "id": "c81d0bc376fa"
     },
     {
@@ -1266,7 +1390,7 @@
       "url": "https://www.qbitai.com/2026/10/502422.html",
       "platform_url": "https://www.qbitai.com/2026/10/502422.html",
       "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/eb54ac3949d0f133a3a3722e56fd654f.png",
-      "publish_time": "2026-10-09T08:53:08+00:00",
+      "publish_time": "2026-10-09T08:53:00+00:00",
       "tags": [
         "联想"
       ],
@@ -1504,45 +1628,6 @@
       "id": "9f365bc55132"
     },
     {
-      "title": "尊界深夜回应“刹车踏板断裂”，懂车帝再发声",
-      "url": "https://www.qbitai.com/2026/10/502114.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502114.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a09b9a589931c2019cc345b5da699989.png",
-      "publish_time": "2026-10-09T02:51:10+00:00",
-      "tags": [
-        "尊界"
-      ],
-      "platform": "qbitai",
-      "id": "5aa7584410b7"
-    },
-    {
-      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
-      "url": "https://www.qbitai.com/2026/10/502106.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502106.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a8fd72fe90757cfb54fb018d7f2acc62.webp",
-      "publish_time": "2026-10-09T02:37:22+00:00",
-      "tags": [
-        "openJiuwen",
-        "操作系统"
-      ],
-      "platform": "qbitai",
-      "id": "eee4799e27c9"
-    },
-    {
-      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
-      "url": "https://www.qbitai.com/2026/10/502096.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502096.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4589d0c558c5c739475d9e37f43fe414.webp",
-      "publish_time": "2026-10-09T02:03:48+00:00",
-      "tags": [
-        "AgentGarten",
-        "MirroS",
-        "RSI"
-      ],
-      "platform": "qbitai",
-      "id": "13c0b83681b4"
-    },
-    {
       "title": "每周 AI 热点 · 2026-10-09",
       "url": "https://radarai.top/updates/weekly-2026-10-09",
       "platform_url": "https://radarai.top/updates/weekly-2026-10-09",
@@ -1552,29 +1637,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "615adadd1653"
-    },
-    {
-      "title": "陶哲轩带头宣战！人类数学家联合抵制OpenAI",
-      "url": "https://www.qbitai.com/2026/10/502089.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502089.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3bd914ed-b017-4d70-bf6b-abcbfca96c70.png",
-      "publish_time": "2026-10-09T00:35:57+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "d42f6d01022d"
-    },
-    {
-      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-      "url": "https://www.qbitai.com/2026/10/502083.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502083.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/9f83083e4fb92929912013e176b7d0c3.webp",
-      "publish_time": "2026-10-09T00:16:56+00:00",
-      "tags": [
-        "Gemini Agent",
-        "谷歌"
-      ],
-      "platform": "qbitai",
-      "id": "d9e220e09467"
     },
     {
       "title": "Arena估值31亿美元推Alignment Index · 1009-724期",
@@ -1592,11 +1654,11 @@
       "url": "https://karagila.org/2026/openai-pp/",
       "platform_url": "https://news.ycombinator.com/item?id=50013902",
       "discussion_url": "https://news.ycombinator.com/item?id=50013902",
-      "score": 199,
-      "comments_count": 301,
+      "score": 205,
+      "comments_count": 307,
       "publish_time": "2026-10-08T23:29:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 229.59999999999997,
+      "hn_hot_score": 235.6,
       "id": "81280fccfd5e"
     },
     {
@@ -1612,18 +1674,6 @@
       "id": "604046ea8474"
     },
     {
-      "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
-      "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
-      "platform_url": "https://news.ycombinator.com/item?id=50007519",
-      "discussion_url": "https://news.ycombinator.com/item?id=50007519",
-      "score": 252,
-      "comments_count": 157,
-      "publish_time": "2026-10-08T16:03:33+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 223.49999999999997,
-      "id": "fb7e07580e16"
-    },
-    {
       "title": "微软Windows混合智能对决谷歌Gemini通用智能体 · 1009-723期",
       "url": "https://radarai.top/updates/brief-20261009-0000",
       "platform_url": "https://radarai.top/updates/brief-20261009-0000",
@@ -1633,18 +1683,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "0954dffde94d"
-    },
-    {
-      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
-      "platform_url": "https://news.ycombinator.com/item?id=50004790",
-      "discussion_url": "https://news.ycombinator.com/item?id=50004790",
-      "score": 398,
-      "comments_count": 196,
-      "publish_time": "2026-10-08T12:00:20+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 337.4,
-      "id": "2cba3d04ade2"
     },
     {
       "title": "英伟达微软推RTX Spark芯片，Anthropic发布Claude · 1008-722期",
@@ -1658,18 +1696,6 @@
       "id": "ae781409ef24"
     },
     {
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "platform_url": "https://news.ycombinator.com/item?id=50002665",
-      "discussion_url": "https://news.ycombinator.com/item?id=50002665",
-      "score": 271,
-      "comments_count": 126,
-      "publish_time": "2026-10-08T07:07:34+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 227.5,
-      "id": "9ee7d8e83d04"
-    },
-    {
       "title": "[模型] ConwayResearch/Underdog-Saluki-27B-1.0",
       "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
       "platform_url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
@@ -1679,11 +1705,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 206 · 下载 15,274",
+      "summary": "TrendingScore 240 · 下载 59,191",
       "platform": "huggingface",
-      "score": 210,
-      "trending_score": 206,
-      "downloads": 15274,
+      "score": 245,
+      "trending_score": 240,
+      "downloads": 59191,
       "id": "f008210c70d9"
     },
     {
@@ -1768,7 +1794,7 @@
       ],
       "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on the pretrained hybrid-SWA architecture to support subsequent scale-up. We scale RL compute along thre",
       "platform": "huggingface",
-      "score": 58,
+      "score": 65,
       "comments_count": 2,
       "id": "4bd40aa6cb8a"
     },
@@ -1798,7 +1824,7 @@
       ],
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multip",
       "platform": "huggingface",
-      "score": 44,
+      "score": 47,
       "comments_count": 2,
       "id": "9dd5507b8fe0"
     },
@@ -1813,7 +1839,7 @@
       ],
       "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inco",
       "platform": "huggingface",
-      "score": 33,
+      "score": 37,
       "comments_count": 2,
       "id": "3a8a470b52cb"
     },
@@ -1828,8 +1854,8 @@
       ],
       "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyon",
       "platform": "huggingface",
-      "score": 33,
-      "comments_count": 2,
+      "score": 38,
+      "comments_count": 3,
       "id": "26eee1d64ea3"
     },
     {
@@ -1843,7 +1869,7 @@
       ],
       "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and invalid solutions. Its primary metric, Joint Success Function, requires the generated tests to fail o",
       "platform": "huggingface",
-      "score": 29,
+      "score": 30,
       "comments_count": 2,
       "id": "fa065b4c920d"
     },
@@ -1858,7 +1884,7 @@
       ],
       "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence across such transformations, we introduce FreeMatching, a generalizable framework combining generative",
       "platform": "huggingface",
-      "score": 33,
+      "score": 34,
       "comments_count": 2,
       "id": "b2df7640d05c"
     },
@@ -1873,31 +1899,9 @@
       ],
       "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world models through external memory. The agent maintains a natural-language rulebook as persistent seman",
       "platform": "huggingface",
-      "score": 27,
+      "score": 28,
       "comments_count": 4,
       "id": "caa494e9d09a"
-    },
-    {
-      "title": "DLSS 5单步神经渲染重塑游戏画质，谷歌SynthID开放AI内容溯源 · 1008-720期",
-      "url": "https://radarai.top/updates/brief-20261008-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261008-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-07T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "a5b2991858a0"
-    },
-    {
-      "title": "OpenAI拿下数学突破却先做军事合规，AI短剧成本仅十分之一 · 1007-719期",
-      "url": "https://radarai.top/updates/brief-20261007-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261007-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-07T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e49f56d50958"
     },
     {
       "title": "Long-WAM: Scaling the Context of World-Action Models",
@@ -2009,7 +2013,7 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 13.1,
+      "avg_response_time": 23.5,
       "cover_success_rate": 41.4
     },
     "platforms": [
@@ -2018,73 +2022,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-10T06:28:27.853540+00:00"
+        "last_crawl": "2026-10-10T17:10:15.122129+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-10T06:29:02.664968+00:00"
+        "last_crawl": "2026-10-10T17:11:45.486753+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-10T06:29:04.135979+00:00"
+        "last_crawl": "2026-10-10T17:11:46.865111+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-10T06:29:19.814684+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-10T17:11:58.556944+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-10T06:29:19.915242+00:00"
+        "last_crawl": "2026-10-10T17:11:58.744410+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-10T06:28:27.853545+00:00",
+        "timestamp": "2026-10-10T17:10:15.122135+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 13.555835
+        "latency": 13.782612
       },
       {
-        "timestamp": "2026-10-10T06:29:02.664972+00:00",
+        "timestamp": "2026-10-10T17:11:45.486766+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 34.811421
+        "latency": 90.364625
       },
       {
-        "timestamp": "2026-10-10T06:29:04.135981+00:00",
+        "timestamp": "2026-10-10T17:11:46.865114+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.471003
+        "latency": 1.37834
       },
       {
-        "timestamp": "2026-10-10T06:29:19.814688+00:00",
+        "timestamp": "2026-10-10T17:11:58.556948+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 15.678703
+        "items_collected": 10,
+        "latency": 11.691829
       },
       {
-        "timestamp": "2026-10-10T06:29:19.915250+00:00",
+        "timestamp": "2026-10-10T17:11:58.744422+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.100534
+        "latency": 0.187466
       }
     ]
   }
