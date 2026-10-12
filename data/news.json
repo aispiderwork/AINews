@@ -1,120 +1,46 @@
 {
-  "update_time": "2026-10-11T17:33:53.102375+00:00",
-  "platform_unavailable": [],
+  "update_time": "2026-10-12T06:40:09.973052+00:00",
+  "platform_unavailable": [
+    "radarai"
+  ],
   "news": {
-    "radarai": [
-      {
-        "title": "DeepSeek拟融超120亿美元，Manus与Kling同步冲刺IPO · 1012-732期",
-        "url": "https://radarai.top/updates/brief-20261012-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261012-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-11T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "4cbba61368fa"
-      },
-      {
-        "title": "DDR4被迫重出江湖，蚂蚁灵光与Grok Bot抢滩个人AI Agent · 1011-731期",
-        "url": "https://radarai.top/updates/brief-20261011-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261011-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-11T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "7868589d0e76"
-      },
-      {
-        "title": "英伟达洽谈收购Reflection AI，估值250亿美元 · 1011-730期",
-        "url": "https://radarai.top/updates/brief-20261011-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261011-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-11T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "f9159281d3bc"
-      },
-      {
-        "title": "Claude测试中自主提交虚假凶杀线索被断网 · 1011-729期",
-        "url": "https://radarai.top/updates/brief-20261011-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261011-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-10T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "0946f00afb45"
-      },
-      {
-        "title": "Anthropic让Claude一次调度1000个智能体 · 1010-728期",
-        "url": "https://radarai.top/updates/brief-20261010-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261010-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-10T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "dd519604dc77"
-      },
-      {
-        "title": "Jev估值75亿美元融资，微软决策模型36项基准登顶，Gemini 4内测曝光 · 1010-727期",
-        "url": "https://radarai.top/updates/brief-20261010-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261010-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-10T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d32e873b71f7"
-      },
-      {
-        "title": "TUFA Labs 以 88.06% 登顶 ARC-AGI-2 · 1010-726期",
-        "url": "https://radarai.top/updates/brief-20261010-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261010-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-09T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "103b466a453b"
-      },
-      {
-        "title": "软银拟募资1000亿美元加码AI，Manus母公司融资超5亿美元 · 1009-725期",
-        "url": "https://radarai.top/updates/brief-20261009-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261009-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-09T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "384ded958897"
-      },
-      {
-        "title": "每周 AI 热点 · 2026-10-09",
-        "url": "https://radarai.top/updates/weekly-2026-10-09",
-        "platform_url": "https://radarai.top/updates/weekly-2026-10-09",
-        "cover_url": null,
-        "publish_time": "2026-10-09T01:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "615adadd1653"
-      },
-      {
-        "title": "Arena估值31亿美元推Alignment Index · 1009-724期",
-        "url": "https://radarai.top/updates/brief-20261009-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261009-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-09T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "44a4aec81c98"
-      }
-    ],
     "hackernews": [
+      {
+        "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+        "url": "https://github.com/plimsollmark/plimsoll",
+        "platform_url": "https://news.ycombinator.com/item?id=50049388",
+        "discussion_url": "https://news.ycombinator.com/item?id=50049388",
+        "score": 15,
+        "comments_count": 2,
+        "publish_time": "2026-10-11T23:47:59+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 11.1,
+        "id": "9eb8bde9cf6c"
+      },
+      {
+        "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+        "url": "https://github.com/swimmingbrain/brainotes",
+        "platform_url": "https://news.ycombinator.com/item?id=50049132",
+        "discussion_url": "https://news.ycombinator.com/item?id=50049132",
+        "score": 25,
+        "comments_count": 2,
+        "publish_time": "2026-10-11T23:22:29+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 18.1,
+        "id": "affe19e5844c"
+      },
+      {
+        "title": "The gap in shared understanding of LLM capability is widening",
+        "url": "https://twitter.com/karpathy/status/2109361546505966046",
+        "platform_url": "https://news.ycombinator.com/item?id=50047422",
+        "discussion_url": "https://news.ycombinator.com/item?id=50047422",
+        "score": 393,
+        "comments_count": 553,
+        "publish_time": "2026-10-11T20:20:52+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 441.0,
+        "id": "94188f1ba91c"
+      },
       {
         "title": "Documents add to evidence in climate deception case against ExxonMobil",
         "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
@@ -128,16 +54,52 @@
         "id": "e404fa4411b4"
       },
       {
+        "title": "Why Texas Is Making Data Centers Wait",
+        "url": "https://a16z.com/why-texas-is-making-data-centers-wait/",
+        "platform_url": "https://news.ycombinator.com/item?id=50043603",
+        "discussion_url": "https://news.ycombinator.com/item?id=50043603",
+        "score": 34,
+        "comments_count": 82,
+        "publish_time": "2026-10-11T14:21:31+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 48.39999999999999,
+        "id": "849f2869680d"
+      },
+      {
         "title": "I paid people to try and follow my README",
         "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
         "platform_url": "https://news.ycombinator.com/item?id=50042219",
         "discussion_url": "https://news.ycombinator.com/item?id=50042219",
-        "score": 264,
-        "comments_count": 134,
+        "score": 384,
+        "comments_count": 191,
         "publish_time": "2026-10-11T11:47:29+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 224.99999999999997,
+        "hn_hot_score": 326.09999999999997,
         "id": "833ac6850a8c"
+      },
+      {
+        "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+        "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+        "platform_url": "https://news.ycombinator.com/item?id=50041765",
+        "discussion_url": "https://news.ycombinator.com/item?id=50041765",
+        "score": 98,
+        "comments_count": 95,
+        "publish_time": "2026-10-11T10:47:21+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 97.1,
+        "id": "eb51419746be"
+      },
+      {
+        "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+        "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+        "platform_url": "https://news.ycombinator.com/item?id=50039092",
+        "discussion_url": "https://news.ycombinator.com/item?id=50039092",
+        "score": 190,
+        "comments_count": 137,
+        "publish_time": "2026-10-11T02:02:38+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 174.1,
+        "id": "53b0f71314be"
       },
       {
         "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -162,81 +124,179 @@
         "platform": "hackernews",
         "hn_hot_score": 167.9,
         "id": "6be6ed3cc8b2"
-      },
-      {
-        "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-        "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-        "platform_url": "https://news.ycombinator.com/item?id=50027118",
-        "discussion_url": "https://news.ycombinator.com/item?id=50027118",
-        "score": 208,
-        "comments_count": 154,
-        "publish_time": "2026-10-09T22:00:35+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 191.79999999999998,
-        "id": "439683ab7d62"
-      },
-      {
-        "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-        "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-        "platform_url": "https://news.ycombinator.com/item?id=50024090",
-        "discussion_url": "https://news.ycombinator.com/item?id=50024090",
-        "score": 198,
-        "comments_count": 58,
-        "publish_time": "2026-10-09T17:42:12+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 156.0,
-        "id": "640c4aa26fec"
-      },
-      {
-        "title": "Typesafe AI raises $870M at $7.5B",
-        "url": "https://typesafe.ai/blog/series-ai",
-        "platform_url": "https://news.ycombinator.com/item?id=50023450",
-        "discussion_url": "https://news.ycombinator.com/item?id=50023450",
-        "score": 434,
-        "comments_count": 347,
-        "publish_time": "2026-10-09T17:02:31+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 407.9,
-        "id": "e9cee894ffd5"
-      },
-      {
-        "title": "Five months treating bugs like patients and coding agents like a medical team",
-        "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
-        "platform_url": "https://news.ycombinator.com/item?id=50021899",
-        "discussion_url": "https://news.ycombinator.com/item?id=50021899",
-        "score": 196,
-        "comments_count": 88,
-        "publish_time": "2026-10-09T15:26:33+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 163.6,
-        "id": "b75bab75ad20"
-      },
-      {
-        "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-        "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-        "platform_url": "https://news.ycombinator.com/item?id=50019455",
-        "discussion_url": "https://news.ycombinator.com/item?id=50019455",
-        "score": 182,
-        "comments_count": 163,
-        "publish_time": "2026-10-09T12:21:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 176.29999999999998,
-        "id": "1535f0ebd396"
-      },
-      {
-        "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-        "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-        "platform_url": "https://news.ycombinator.com/item?id=50019056",
-        "discussion_url": "https://news.ycombinator.com/item?id=50019056",
-        "score": 175,
-        "comments_count": 88,
-        "publish_time": "2026-10-09T11:36:20+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 148.89999999999998,
-        "id": "19502266c093"
       }
     ],
     "bestblogs": [
+      {
+        "title": "为智能体构建数据上下文层：Typedef 演示知识图谱、连接安全与代码影响分析",
+        "url": "https://www.bestblogs.dev/article/RAW_57420f2a7",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_57420f2a7",
+        "original_url": "",
+        "resource_id": "RAW_57420f2a7",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487884+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "e487395ce033"
+      },
+      {
+        "title": "我将 4 款模型的推理档位调至「高」：只解决了一个问题，却为所有消耗买了单",
+        "url": "https://www.bestblogs.dev/article/RAW_1730249d30",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_1730249d30",
+        "original_url": "",
+        "resource_id": "RAW_1730249d30",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487881+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "DEV Community: machinelearning",
+        "id": "2b252d5b21ce"
+      },
+      {
+        "title": "从零构建智能体评测排行榜：Wolfram Ravenwolf 的实战方法",
+        "url": "https://www.bestblogs.dev/article/RAW_ff28cb93e",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_ff28cb93e",
+        "original_url": "",
+        "resource_id": "RAW_ff28cb93e",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487877+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Engineer",
+        "id": "1c2ba3235c78"
+      },
+      {
+        "title": "把平台交给智能体后会怎样：一场 Kubernetes 攻防演示",
+        "url": "https://www.bestblogs.dev/article/RAW_43e8e504e",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_43e8e504e",
+        "original_url": "",
+        "resource_id": "RAW_43e8e504e",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487873+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Engineer",
+        "id": "f1f026a3da76"
+      },
+      {
+        "title": "让智能体掌控自己的推理：Du’an Lightfoot 与 Khaja Omer 的 Akamai GPU 部署实战",
+        "url": "https://www.bestblogs.dev/article/RAW_90b3e15e1",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_90b3e15e1",
+        "original_url": "",
+        "resource_id": "RAW_90b3e15e1",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487870+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Engineer",
+        "id": "221ea906e3b0"
+      },
+      {
+        "title": "超越 RAG：从零构建面向组织知识的关系型上下文引擎",
+        "url": "https://www.bestblogs.dev/article/RAW_4b5130832",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_4b5130832",
+        "original_url": "",
+        "resource_id": "RAW_4b5130832",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487866+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Engineer",
+        "id": "9b6e3911f1fc"
+      },
+      {
+        "title": "GPU 利用率从 15% 走向 90%：先修数据流水线，再谈模型优化",
+        "url": "https://www.bestblogs.dev/article/RAW_b79682b84",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_b79682b84",
+        "original_url": "",
+        "resource_id": "RAW_b79682b84",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487862+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "AI Engineer",
+        "id": "0a31ee965dce"
+      },
+      {
+        "title": "用 NVIDIA Data Designer 教智能体学会搜索：Dhruv Nathawani 的数据构建实战",
+        "url": "https://www.bestblogs.dev/article/RAW_7dfecd5df",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_7dfecd5df",
+        "original_url": "",
+        "resource_id": "RAW_7dfecd5df",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487848+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "e045139f92ba"
+      },
+      {
+        "title": "不到 500 美元训练金融智能体：4B 专用模型如何胜过 235B 模型",
+        "url": "https://www.bestblogs.dev/article/RAW_8835e9b1a",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_8835e9b1a",
+        "original_url": "",
+        "resource_id": "RAW_8835e9b1a",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487836+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "bd3dc72e6951"
+      },
+      {
+        "title": "MiniMax M3 如何构建：稀疏注意力与原生多模态训练｜Olive Song",
+        "url": "https://www.bestblogs.dev/article/RAW_427fee254",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_427fee254",
+        "original_url": "",
+        "resource_id": "RAW_427fee254",
+        "cover_url": null,
+        "publish_time": "2026-10-12T06:39:56.487832+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "537e3627c27b"
+      },
       {
         "title": "科技爱好者周刊（第 414 期）：Jev 决策模型有什么用",
         "url": "https://www.bestblogs.dev/article/RAW_8459192b34",
@@ -406,179 +466,32 @@
         "score": 92,
         "source_name": "Latent.Space",
         "id": "5460d8f63fbb"
-      },
-      {
-        "title": "AI 基建能否持续指数增长？SemiAnalysis 的 Dylan Patel 与 Jordan Nanos 谈投资回报",
-        "url": "https://www.bestblogs.dev/article/RAW_19e6fd90b",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_19e6fd90b",
-        "original_url": "",
-        "resource_id": "RAW_19e6fd90b",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739765+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Alex Kantrowitz",
-        "id": "732ff02a581d"
-      },
-      {
-        "title": "GitHub 使用 AI 辅助重写，将 Copilot 运行时迁移到 Rust",
-        "url": "https://www.bestblogs.dev/article/RAW_b35a68570c",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_b35a68570c",
-        "original_url": "",
-        "resource_id": "RAW_b35a68570c",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739759+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "InfoQ",
-        "id": "1f3d16a25f5c"
-      },
-      {
-        "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-        "url": "https://www.bestblogs.dev/article/RAW_10fb0644a2",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_10fb0644a2",
-        "original_url": "",
-        "resource_id": "RAW_10fb0644a2",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739753+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "InfoQ 中文",
-        "id": "3430bad3e0cc"
-      },
-      {
-        "title": "三篇重磅论文，拆解 OpenViking 核心技术",
-        "url": "https://www.bestblogs.dev/article/RAW_872b3aa9d1",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_872b3aa9d1",
-        "original_url": "",
-        "resource_id": "RAW_872b3aa9d1",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739736+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "字节跳动技术团队",
-        "id": "505bb0d8aa15"
-      },
-      {
-        "title": "Dynamo：让推理系统理解智能体会话",
-        "url": "https://www.bestblogs.dev/article/RAW_70336337d9",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_70336337d9",
-        "original_url": "",
-        "resource_id": "RAW_70336337d9",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739732+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "PyTorch",
-        "id": "c5ed94e7c792"
-      },
-      {
-        "title": "构建可靠的数据分析代理：KDD Cup 的经验",
-        "url": "https://www.bestblogs.dev/article/RAW_c912542846",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c912542846",
-        "original_url": "",
-        "resource_id": "RAW_c912542846",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739724+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "NVIDIA Technical Blog",
-        "id": "f877cd2091e8"
-      },
-      {
-        "title": "利用 Claude Science 绘制首张完整的紫外光波段全天星图",
-        "url": "https://www.bestblogs.dev/article/RAW_dcc91c5a9e",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_dcc91c5a9e",
-        "original_url": "",
-        "resource_id": "RAW_dcc91c5a9e",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739721+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Anthropic Research",
-        "id": "ad80838b08ba"
-      },
-      {
-        "title": "本体驱动的可观测性：在 Netflix 规模下构建端到端知识图谱",
-        "url": "https://www.bestblogs.dev/article/RAW_021a6526e8",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_021a6526e8",
-        "original_url": "",
-        "resource_id": "RAW_021a6526e8",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739718+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "InfoQ",
-        "id": "82aa33f7816a"
-      },
-      {
-        "title": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
-        "url": "https://www.bestblogs.dev/article/RAW_8e1ea2437",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_8e1ea2437",
-        "original_url": "",
-        "resource_id": "RAW_8e1ea2437",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739715+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "硅谷101播客",
-        "id": "3e4584162123"
-      },
-      {
-        "title": "GPU集群的有效调度",
-        "url": "https://www.bestblogs.dev/article/RAW_209c13c9ea",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_209c13c9ea",
-        "original_url": "",
-        "resource_id": "RAW_209c13c9ea",
-        "cover_url": null,
-        "publish_time": "2026-10-10T06:29:04.739686+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "Hugging Face - Blog",
-        "id": "e2288278d20f"
       }
     ],
     "qbitai": [
+      {
+        "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+        "url": "https://www.qbitai.com/2026/10/502654.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502654.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/011d732336d16e29cff5ab5cfdff349c.png",
+        "publish_time": "2026-10-12T05:48:36+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "d4afcd92cf37"
+      },
+      {
+        "title": "智谱新模型，490 tokens/s！",
+        "url": "https://www.qbitai.com/2026/10/502649.html",
+        "platform_url": "https://www.qbitai.com/2026/10/502649.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/99c4c1ed1bb174f7adcd83f5d3cc58c3.webp",
+        "publish_time": "2026-10-12T02:37:04+00:00",
+        "tags": [
+          "AI",
+          "智谱"
+        ],
+        "platform": "qbitai",
+        "id": "83a1ca88de4e"
+      },
       {
         "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
         "url": "https://www.qbitai.com/2026/10/502644.html",
@@ -681,37 +594,54 @@
         ],
         "platform": "qbitai",
         "id": "e2e936bea35e"
-      },
-      {
-        "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
-        "url": "https://www.qbitai.com/2026/10/502492.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502492.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c69e487553379b09a6dafbf76ca13f4c.webp",
-        "publish_time": "2026-10-10T08:54:08+00:00",
-        "tags": [
-          "A轮融资",
-          "Jev",
-          "TypeSafe AI",
-          "估值"
-        ],
-        "platform": "qbitai",
-        "id": "ce975af2bebb"
-      },
-      {
-        "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
-        "url": "https://www.qbitai.com/2026/10/502484.html",
-        "platform_url": "https://www.qbitai.com/2026/10/502484.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/511626dddd25b82009019b2595dc3586.webp",
-        "publish_time": "2026-10-10T08:52:16+00:00",
-        "tags": [
-          "Nano Banana",
-          "谷歌"
-        ],
-        "platform": "qbitai",
-        "id": "0729a2558dec"
       }
     ],
     "huggingface": [
+      {
+        "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+        "url": "https://huggingface.co/papers/2610.13395",
+        "platform_url": "https://huggingface.co/papers/2610.13395",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13395.png",
+        "publish_time": "2026-10-08T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to discover what is required and to decide how the system should be designed remain scarce. Moreover, existing agent workflows also cannot sustain long-horizon development in which the agent explores the reference program bef",
+        "platform": "huggingface",
+        "score": 32,
+        "comments_count": 1,
+        "id": "a06627d35164"
+      },
+      {
+        "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+        "url": "https://huggingface.co/papers/2610.13021",
+        "platform_url": "https://huggingface.co/papers/2610.13021",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13021.png",
+        "publish_time": "2026-10-08T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability of self-evolving agents. With compositional generalization as the core evaluation principle, our benc",
+        "platform": "huggingface",
+        "score": 22,
+        "comments_count": 1,
+        "id": "dce173cf5802"
+      },
+      {
+        "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+        "url": "https://huggingface.co/papers/2610.13113",
+        "platform_url": "https://huggingface.co/papers/2610.13113",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13113.png",
+        "publish_time": "2026-10-08T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. While Self-Distillation Fine-Tuning (SDFT) mitigates this using self-supervision with in-context demonstrations, it relies on strong in-context learning and instruction-following abilities. Consequently, SDFT fails on smaller models critical for low-latency, on-device use. To enable continual learning at smaller scales, we first identify the root cause",
+        "platform": "huggingface",
+        "score": 17,
+        "comments_count": 1,
+        "id": "670712188e11"
+      },
       {
         "title": "[模型] ConwayResearch/Underdog-Saluki-27B-1.0",
         "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
@@ -722,10 +652,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 301 · 下载 108,900",
+        "summary": "TrendingScore 321 · 下载 108,900",
         "platform": "huggingface",
-        "score": 309,
-        "trending_score": 301,
+        "score": 329,
+        "trending_score": 321,
         "downloads": 108900,
         "id": "f008210c70d9"
       },
@@ -925,108 +855,281 @@
         "id": "49a7dc7f4edb"
       },
       {
-        "title": "Long-WAM: Scaling the Context of World-Action Models",
-        "url": "https://huggingface.co/papers/2610.10528",
-        "platform_url": "https://huggingface.co/papers/2610.10528",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10528.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
+        "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+        "url": "https://huggingface.co/papers/2610.12341",
+        "platform_url": "https://huggingface.co/papers/2610.12341",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12341.png",
+        "publish_time": "2026-10-07T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentr",
+        "summary": "Adversarial games have driven advances from heuristic search to reinforcement learning, yet learning and adapting strategies from limited samples remain challenging. AI agents offer an alternative by turning game experience into revisions of executable policies. Building on heuristic learning (HL), we formalize Adversarial Heuristic Learning (AHL), a paradigm that uses AI agents as learning engines to refine game policies and supporting software while keeping model weights fixed. We introduce AA",
         "platform": "huggingface",
-        "score": 87,
+        "score": 26,
         "comments_count": 1,
-        "id": "082d09112445"
+        "id": "2ba9a2944a48"
       },
       {
-        "title": "GRACE: Generation-aware latent compression for efficient video generation",
-        "url": "https://huggingface.co/papers/2610.10524",
-        "platform_url": "https://huggingface.co/papers/2610.10524",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10524.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
+        "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+        "url": "https://huggingface.co/papers/2610.12611",
+        "platform_url": "https://huggingface.co/papers/2610.12611",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12611.png",
+        "publish_time": "2026-10-07T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from sc",
+        "summary": "Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application-specific overfitting. Browser-hosted environments provide limited interaction depth and workflow complexity. These limitations motivate SoftwareGym, an automated pipeline for synthesizing GUI softwar",
         "platform": "huggingface",
-        "score": 62,
+        "score": 20,
         "comments_count": 1,
-        "id": "3dca801986db"
+        "id": "1f2891f2eab9"
       },
       {
-        "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
-        "url": "https://huggingface.co/papers/2610.10429",
-        "platform_url": "https://huggingface.co/papers/2610.10429",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10429.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
+        "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+        "url": "https://huggingface.co/papers/2610.12572",
+        "platform_url": "https://huggingface.co/papers/2610.12572",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12572.png",
+        "publish_time": "2026-10-07T20:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradient Forcing Plus (SGF+), which assigns separate parameters to context writing and denoising while pres",
+        "summary": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward--reverse consistency force that joint positive--negative training cancels only partially, and that ",
         "platform": "huggingface",
-        "score": 49,
+        "score": 18,
         "comments_count": 1,
-        "id": "0e1d6b83413b"
-      },
-      {
-        "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
-        "url": "https://huggingface.co/papers/2610.10444",
-        "platform_url": "https://huggingface.co/papers/2610.10444",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10444.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only half the task: nothing keeps track of what the task asks for, what has been read, and what was list",
-        "platform": "huggingface",
-        "score": 29,
-        "comments_count": 1,
-        "id": "8f20a4b99a12"
-      },
-      {
-        "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
-        "url": "https://huggingface.co/papers/2610.09823",
-        "platform_url": "https://huggingface.co/papers/2610.09823",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.09823.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed p",
-        "platform": "huggingface",
-        "score": 43,
-        "comments_count": 1,
-        "id": "b2e60eac9070"
-      },
-      {
-        "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
-        "url": "https://huggingface.co/papers/2610.10539",
-        "platform_url": "https://huggingface.co/papers/2610.10539",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10539.png",
-        "publish_time": "2026-10-06T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and the",
-        "platform": "huggingface",
-        "score": 35,
-        "comments_count": 1,
-        "id": "2dd228fc8d94"
+        "id": "c5e0b694f1e6"
       }
     ]
   },
   "sorted_all": [
     {
-      "title": "DeepSeek拟融超120亿美元，Manus与Kling同步冲刺IPO · 1012-732期",
-      "url": "https://radarai.top/updates/brief-20261012-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261012-0000",
+      "title": "为智能体构建数据上下文层：Typedef 演示知识图谱、连接安全与代码影响分析",
+      "url": "https://www.bestblogs.dev/article/RAW_57420f2a7",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_57420f2a7",
+      "original_url": "",
+      "resource_id": "RAW_57420f2a7",
       "cover_url": null,
-      "publish_time": "2026-10-11T16:00:00+00:00",
-      "tags": [],
+      "publish_time": "2026-10-12T06:39:56.487884+00:00",
+      "tags": [
+        "早报"
+      ],
       "summary": "",
-      "platform": "radarai",
-      "id": "4cbba61368fa"
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "e487395ce033"
+    },
+    {
+      "title": "我将 4 款模型的推理档位调至「高」：只解决了一个问题，却为所有消耗买了单",
+      "url": "https://www.bestblogs.dev/article/RAW_1730249d30",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_1730249d30",
+      "original_url": "",
+      "resource_id": "RAW_1730249d30",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487881+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "DEV Community: machinelearning",
+      "id": "2b252d5b21ce"
+    },
+    {
+      "title": "从零构建智能体评测排行榜：Wolfram Ravenwolf 的实战方法",
+      "url": "https://www.bestblogs.dev/article/RAW_ff28cb93e",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_ff28cb93e",
+      "original_url": "",
+      "resource_id": "RAW_ff28cb93e",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487877+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "1c2ba3235c78"
+    },
+    {
+      "title": "把平台交给智能体后会怎样：一场 Kubernetes 攻防演示",
+      "url": "https://www.bestblogs.dev/article/RAW_43e8e504e",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_43e8e504e",
+      "original_url": "",
+      "resource_id": "RAW_43e8e504e",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487873+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "f1f026a3da76"
+    },
+    {
+      "title": "让智能体掌控自己的推理：Du’an Lightfoot 与 Khaja Omer 的 Akamai GPU 部署实战",
+      "url": "https://www.bestblogs.dev/article/RAW_90b3e15e1",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_90b3e15e1",
+      "original_url": "",
+      "resource_id": "RAW_90b3e15e1",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487870+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "221ea906e3b0"
+    },
+    {
+      "title": "超越 RAG：从零构建面向组织知识的关系型上下文引擎",
+      "url": "https://www.bestblogs.dev/article/RAW_4b5130832",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_4b5130832",
+      "original_url": "",
+      "resource_id": "RAW_4b5130832",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487866+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "9b6e3911f1fc"
+    },
+    {
+      "title": "GPU 利用率从 15% 走向 90%：先修数据流水线，再谈模型优化",
+      "url": "https://www.bestblogs.dev/article/RAW_b79682b84",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_b79682b84",
+      "original_url": "",
+      "resource_id": "RAW_b79682b84",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487862+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "0a31ee965dce"
+    },
+    {
+      "title": "用 NVIDIA Data Designer 教智能体学会搜索：Dhruv Nathawani 的数据构建实战",
+      "url": "https://www.bestblogs.dev/article/RAW_7dfecd5df",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_7dfecd5df",
+      "original_url": "",
+      "resource_id": "RAW_7dfecd5df",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487848+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "e045139f92ba"
+    },
+    {
+      "title": "不到 500 美元训练金融智能体：4B 专用模型如何胜过 235B 模型",
+      "url": "https://www.bestblogs.dev/article/RAW_8835e9b1a",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_8835e9b1a",
+      "original_url": "",
+      "resource_id": "RAW_8835e9b1a",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487836+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "bd3dc72e6951"
+    },
+    {
+      "title": "MiniMax M3 如何构建：稀疏注意力与原生多模态训练｜Olive Song",
+      "url": "https://www.bestblogs.dev/article/RAW_427fee254",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_427fee254",
+      "original_url": "",
+      "resource_id": "RAW_427fee254",
+      "cover_url": null,
+      "publish_time": "2026-10-12T06:39:56.487832+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "537e3627c27b"
+    },
+    {
+      "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "url": "https://www.qbitai.com/2026/10/502654.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502654.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/011d732336d16e29cff5ab5cfdff349c.png",
+      "publish_time": "2026-10-12T05:48:36+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "d4afcd92cf37"
+    },
+    {
+      "title": "智谱新模型，490 tokens/s！",
+      "url": "https://www.qbitai.com/2026/10/502649.html",
+      "platform_url": "https://www.qbitai.com/2026/10/502649.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/99c4c1ed1bb174f7adcd83f5d3cc58c3.webp",
+      "publish_time": "2026-10-12T02:37:04+00:00",
+      "tags": [
+        "AI",
+        "智谱"
+      ],
+      "platform": "qbitai",
+      "id": "83a1ca88de4e"
+    },
+    {
+      "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+      "url": "https://github.com/plimsollmark/plimsoll",
+      "platform_url": "https://news.ycombinator.com/item?id=50049388",
+      "discussion_url": "https://news.ycombinator.com/item?id=50049388",
+      "score": 15,
+      "comments_count": 2,
+      "publish_time": "2026-10-11T23:47:59+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 11.1,
+      "id": "9eb8bde9cf6c"
+    },
+    {
+      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+      "url": "https://github.com/swimmingbrain/brainotes",
+      "platform_url": "https://news.ycombinator.com/item?id=50049132",
+      "discussion_url": "https://news.ycombinator.com/item?id=50049132",
+      "score": 25,
+      "comments_count": 2,
+      "publish_time": "2026-10-11T23:22:29+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 18.1,
+      "id": "affe19e5844c"
+    },
+    {
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "platform_url": "https://news.ycombinator.com/item?id=50047422",
+      "discussion_url": "https://news.ycombinator.com/item?id=50047422",
+      "score": 393,
+      "comments_count": 553,
+      "publish_time": "2026-10-11T20:20:52+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 441.0,
+      "id": "94188f1ba91c"
     },
     {
       "title": "Documents add to evidence in climate deception case against ExxonMobil",
@@ -1041,16 +1144,40 @@
       "id": "e404fa4411b4"
     },
     {
+      "title": "Why Texas Is Making Data Centers Wait",
+      "url": "https://a16z.com/why-texas-is-making-data-centers-wait/",
+      "platform_url": "https://news.ycombinator.com/item?id=50043603",
+      "discussion_url": "https://news.ycombinator.com/item?id=50043603",
+      "score": 34,
+      "comments_count": 82,
+      "publish_time": "2026-10-11T14:21:31+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 48.39999999999999,
+      "id": "849f2869680d"
+    },
+    {
       "title": "I paid people to try and follow my README",
       "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
       "platform_url": "https://news.ycombinator.com/item?id=50042219",
       "discussion_url": "https://news.ycombinator.com/item?id=50042219",
-      "score": 264,
-      "comments_count": 134,
+      "score": 384,
+      "comments_count": 191,
       "publish_time": "2026-10-11T11:47:29+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 224.99999999999997,
+      "hn_hot_score": 326.09999999999997,
       "id": "833ac6850a8c"
+    },
+    {
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "platform_url": "https://news.ycombinator.com/item?id=50041765",
+      "discussion_url": "https://news.ycombinator.com/item?id=50041765",
+      "score": 98,
+      "comments_count": 95,
+      "publish_time": "2026-10-11T10:47:21+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 97.1,
+      "id": "eb51419746be"
     },
     {
       "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
@@ -1077,17 +1204,6 @@
       ],
       "platform": "qbitai",
       "id": "ba20952d4cb7"
-    },
-    {
-      "title": "DDR4被迫重出江湖，蚂蚁灵光与Grok Bot抢滩个人AI Agent · 1011-731期",
-      "url": "https://radarai.top/updates/brief-20261011-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261011-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-11T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "7868589d0e76"
     },
     {
       "title": "陶哲轩：数学2.0时代已至！",
@@ -1313,26 +1429,16 @@
       "id": "77dd1911640d"
     },
     {
-      "title": "英伟达洽谈收购Reflection AI，估值250亿美元 · 1011-730期",
-      "url": "https://radarai.top/updates/brief-20261011-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261011-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-11T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "f9159281d3bc"
-    },
-    {
-      "title": "Claude测试中自主提交虚假凶杀线索被断网 · 1011-729期",
-      "url": "https://radarai.top/updates/brief-20261011-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261011-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-10T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "0946f00afb45"
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "platform_url": "https://news.ycombinator.com/item?id=50039092",
+      "discussion_url": "https://news.ycombinator.com/item?id=50039092",
+      "score": 190,
+      "comments_count": 137,
+      "publish_time": "2026-10-11T02:02:38+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 174.1,
+      "id": "53b0f71314be"
     },
     {
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -1371,215 +1477,6 @@
       "id": "e2e936bea35e"
     },
     {
-      "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
-      "url": "https://www.qbitai.com/2026/10/502492.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502492.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c69e487553379b09a6dafbf76ca13f4c.webp",
-      "publish_time": "2026-10-10T08:54:08+00:00",
-      "tags": [
-        "A轮融资",
-        "Jev",
-        "TypeSafe AI",
-        "估值"
-      ],
-      "platform": "qbitai",
-      "id": "ce975af2bebb"
-    },
-    {
-      "title": "Nano Banana终于2.1了！4K直出，中文进步太明显",
-      "url": "https://www.qbitai.com/2026/10/502484.html",
-      "platform_url": "https://www.qbitai.com/2026/10/502484.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/511626dddd25b82009019b2595dc3586.webp",
-      "publish_time": "2026-10-10T08:52:16+00:00",
-      "tags": [
-        "Nano Banana",
-        "谷歌"
-      ],
-      "platform": "qbitai",
-      "id": "0729a2558dec"
-    },
-    {
-      "title": "Anthropic让Claude一次调度1000个智能体 · 1010-728期",
-      "url": "https://radarai.top/updates/brief-20261010-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261010-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-10T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "dd519604dc77"
-    },
-    {
-      "title": "AI 基建能否持续指数增长？SemiAnalysis 的 Dylan Patel 与 Jordan Nanos 谈投资回报",
-      "url": "https://www.bestblogs.dev/article/RAW_19e6fd90b",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_19e6fd90b",
-      "original_url": "",
-      "resource_id": "RAW_19e6fd90b",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739765+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Alex Kantrowitz",
-      "id": "732ff02a581d"
-    },
-    {
-      "title": "GitHub 使用 AI 辅助重写，将 Copilot 运行时迁移到 Rust",
-      "url": "https://www.bestblogs.dev/article/RAW_b35a68570c",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_b35a68570c",
-      "original_url": "",
-      "resource_id": "RAW_b35a68570c",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739759+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "InfoQ",
-      "id": "1f3d16a25f5c"
-    },
-    {
-      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-      "url": "https://www.bestblogs.dev/article/RAW_10fb0644a2",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_10fb0644a2",
-      "original_url": "",
-      "resource_id": "RAW_10fb0644a2",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739753+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "InfoQ 中文",
-      "id": "3430bad3e0cc"
-    },
-    {
-      "title": "三篇重磅论文，拆解 OpenViking 核心技术",
-      "url": "https://www.bestblogs.dev/article/RAW_872b3aa9d1",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_872b3aa9d1",
-      "original_url": "",
-      "resource_id": "RAW_872b3aa9d1",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739736+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "字节跳动技术团队",
-      "id": "505bb0d8aa15"
-    },
-    {
-      "title": "Dynamo：让推理系统理解智能体会话",
-      "url": "https://www.bestblogs.dev/article/RAW_70336337d9",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_70336337d9",
-      "original_url": "",
-      "resource_id": "RAW_70336337d9",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739732+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "PyTorch",
-      "id": "c5ed94e7c792"
-    },
-    {
-      "title": "构建可靠的数据分析代理：KDD Cup 的经验",
-      "url": "https://www.bestblogs.dev/article/RAW_c912542846",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c912542846",
-      "original_url": "",
-      "resource_id": "RAW_c912542846",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739724+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "NVIDIA Technical Blog",
-      "id": "f877cd2091e8"
-    },
-    {
-      "title": "利用 Claude Science 绘制首张完整的紫外光波段全天星图",
-      "url": "https://www.bestblogs.dev/article/RAW_dcc91c5a9e",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_dcc91c5a9e",
-      "original_url": "",
-      "resource_id": "RAW_dcc91c5a9e",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739721+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Anthropic Research",
-      "id": "ad80838b08ba"
-    },
-    {
-      "title": "本体驱动的可观测性：在 Netflix 规模下构建端到端知识图谱",
-      "url": "https://www.bestblogs.dev/article/RAW_021a6526e8",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_021a6526e8",
-      "original_url": "",
-      "resource_id": "RAW_021a6526e8",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739718+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "InfoQ",
-      "id": "82aa33f7816a"
-    },
-    {
-      "title": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
-      "url": "https://www.bestblogs.dev/article/RAW_8e1ea2437",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_8e1ea2437",
-      "original_url": "",
-      "resource_id": "RAW_8e1ea2437",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739715+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "硅谷101播客",
-      "id": "3e4584162123"
-    },
-    {
-      "title": "GPU集群的有效调度",
-      "url": "https://www.bestblogs.dev/article/RAW_209c13c9ea",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_209c13c9ea",
-      "original_url": "",
-      "resource_id": "RAW_209c13c9ea",
-      "cover_url": null,
-      "publish_time": "2026-10-10T06:29:04.739686+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "Hugging Face - Blog",
-      "id": "e2288278d20f"
-    },
-    {
       "title": "Food processing influences metabolism and brain activity",
       "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
       "platform_url": "https://news.ycombinator.com/item?id=50029830",
@@ -1592,131 +1489,49 @@
       "id": "6be6ed3cc8b2"
     },
     {
-      "title": "Jev估值75亿美元融资，微软决策模型36项基准登顶，Gemini 4内测曝光 · 1010-727期",
-      "url": "https://radarai.top/updates/brief-20261010-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261010-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-10T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d32e873b71f7"
+      "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+      "url": "https://huggingface.co/papers/2610.13395",
+      "platform_url": "https://huggingface.co/papers/2610.13395",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13395.png",
+      "publish_time": "2026-10-08T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to discover what is required and to decide how the system should be designed remain scarce. Moreover, existing agent workflows also cannot sustain long-horizon development in which the agent explores the reference program bef",
+      "platform": "huggingface",
+      "score": 32,
+      "comments_count": 1,
+      "id": "a06627d35164"
     },
     {
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "platform_url": "https://news.ycombinator.com/item?id=50027118",
-      "discussion_url": "https://news.ycombinator.com/item?id=50027118",
-      "score": 208,
-      "comments_count": 154,
-      "publish_time": "2026-10-09T22:00:35+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 191.79999999999998,
-      "id": "439683ab7d62"
+      "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+      "url": "https://huggingface.co/papers/2610.13021",
+      "platform_url": "https://huggingface.co/papers/2610.13021",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13021.png",
+      "publish_time": "2026-10-08T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability of self-evolving agents. With compositional generalization as the core evaluation principle, our benc",
+      "platform": "huggingface",
+      "score": 22,
+      "comments_count": 1,
+      "id": "dce173cf5802"
     },
     {
-      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "platform_url": "https://news.ycombinator.com/item?id=50024090",
-      "discussion_url": "https://news.ycombinator.com/item?id=50024090",
-      "score": 198,
-      "comments_count": 58,
-      "publish_time": "2026-10-09T17:42:12+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 156.0,
-      "id": "640c4aa26fec"
-    },
-    {
-      "title": "Typesafe AI raises $870M at $7.5B",
-      "url": "https://typesafe.ai/blog/series-ai",
-      "platform_url": "https://news.ycombinator.com/item?id=50023450",
-      "discussion_url": "https://news.ycombinator.com/item?id=50023450",
-      "score": 434,
-      "comments_count": 347,
-      "publish_time": "2026-10-09T17:02:31+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 407.9,
-      "id": "e9cee894ffd5"
-    },
-    {
-      "title": "TUFA Labs 以 88.06% 登顶 ARC-AGI-2 · 1010-726期",
-      "url": "https://radarai.top/updates/brief-20261010-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261010-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-09T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "103b466a453b"
-    },
-    {
-      "title": "Five months treating bugs like patients and coding agents like a medical team",
-      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
-      "platform_url": "https://news.ycombinator.com/item?id=50021899",
-      "discussion_url": "https://news.ycombinator.com/item?id=50021899",
-      "score": 196,
-      "comments_count": 88,
-      "publish_time": "2026-10-09T15:26:33+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 163.6,
-      "id": "b75bab75ad20"
-    },
-    {
-      "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
-      "platform_url": "https://news.ycombinator.com/item?id=50019455",
-      "discussion_url": "https://news.ycombinator.com/item?id=50019455",
-      "score": 182,
-      "comments_count": 163,
-      "publish_time": "2026-10-09T12:21:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 176.29999999999998,
-      "id": "1535f0ebd396"
-    },
-    {
-      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-      "platform_url": "https://news.ycombinator.com/item?id=50019056",
-      "discussion_url": "https://news.ycombinator.com/item?id=50019056",
-      "score": 175,
-      "comments_count": 88,
-      "publish_time": "2026-10-09T11:36:20+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 148.89999999999998,
-      "id": "19502266c093"
-    },
-    {
-      "title": "软银拟募资1000亿美元加码AI，Manus母公司融资超5亿美元 · 1009-725期",
-      "url": "https://radarai.top/updates/brief-20261009-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261009-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-09T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "384ded958897"
-    },
-    {
-      "title": "每周 AI 热点 · 2026-10-09",
-      "url": "https://radarai.top/updates/weekly-2026-10-09",
-      "platform_url": "https://radarai.top/updates/weekly-2026-10-09",
-      "cover_url": null,
-      "publish_time": "2026-10-09T01:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "615adadd1653"
-    },
-    {
-      "title": "Arena估值31亿美元推Alignment Index · 1009-724期",
-      "url": "https://radarai.top/updates/brief-20261009-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261009-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-09T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "44a4aec81c98"
+      "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+      "url": "https://huggingface.co/papers/2610.13113",
+      "platform_url": "https://huggingface.co/papers/2610.13113",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.13113.png",
+      "publish_time": "2026-10-08T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. While Self-Distillation Fine-Tuning (SDFT) mitigates this using self-supervision with in-context demonstrations, it relies on strong in-context learning and instruction-following abilities. Consequently, SDFT fails on smaller models critical for low-latency, on-device use. To enable continual learning at smaller scales, we first identify the root cause",
+      "platform": "huggingface",
+      "score": 17,
+      "comments_count": 1,
+      "id": "670712188e11"
     },
     {
       "title": "[模型] ConwayResearch/Underdog-Saluki-27B-1.0",
@@ -1728,10 +1543,10 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 301 · 下载 108,900",
+      "summary": "TrendingScore 321 · 下载 108,900",
       "platform": "huggingface",
-      "score": 309,
-      "trending_score": 301,
+      "score": 329,
+      "trending_score": 321,
       "downloads": 108900,
       "id": "f008210c70d9"
     },
@@ -1931,102 +1746,57 @@
       "id": "49a7dc7f4edb"
     },
     {
-      "title": "Long-WAM: Scaling the Context of World-Action Models",
-      "url": "https://huggingface.co/papers/2610.10528",
-      "platform_url": "https://huggingface.co/papers/2610.10528",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10528.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
+      "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+      "url": "https://huggingface.co/papers/2610.12341",
+      "platform_url": "https://huggingface.co/papers/2610.12341",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12341.png",
+      "publish_time": "2026-10-07T20:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentr",
+      "summary": "Adversarial games have driven advances from heuristic search to reinforcement learning, yet learning and adapting strategies from limited samples remain challenging. AI agents offer an alternative by turning game experience into revisions of executable policies. Building on heuristic learning (HL), we formalize Adversarial Heuristic Learning (AHL), a paradigm that uses AI agents as learning engines to refine game policies and supporting software while keeping model weights fixed. We introduce AA",
       "platform": "huggingface",
-      "score": 87,
+      "score": 26,
       "comments_count": 1,
-      "id": "082d09112445"
+      "id": "2ba9a2944a48"
     },
     {
-      "title": "GRACE: Generation-aware latent compression for efficient video generation",
-      "url": "https://huggingface.co/papers/2610.10524",
-      "platform_url": "https://huggingface.co/papers/2610.10524",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10524.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
+      "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+      "url": "https://huggingface.co/papers/2610.12611",
+      "platform_url": "https://huggingface.co/papers/2610.12611",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12611.png",
+      "publish_time": "2026-10-07T20:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from sc",
+      "summary": "Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application-specific overfitting. Browser-hosted environments provide limited interaction depth and workflow complexity. These limitations motivate SoftwareGym, an automated pipeline for synthesizing GUI softwar",
       "platform": "huggingface",
-      "score": 62,
+      "score": 20,
       "comments_count": 1,
-      "id": "3dca801986db"
+      "id": "1f2891f2eab9"
     },
     {
-      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2610.10429",
-      "platform_url": "https://huggingface.co/papers/2610.10429",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10429.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
+      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+      "url": "https://huggingface.co/papers/2610.12572",
+      "platform_url": "https://huggingface.co/papers/2610.12572",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.12572.png",
+      "publish_time": "2026-10-07T20:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradient Forcing Plus (SGF+), which assigns separate parameters to context writing and denoising while pres",
+      "summary": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward--reverse consistency force that joint positive--negative training cancels only partially, and that ",
       "platform": "huggingface",
-      "score": 49,
+      "score": 18,
       "comments_count": 1,
-      "id": "0e1d6b83413b"
-    },
-    {
-      "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
-      "url": "https://huggingface.co/papers/2610.10444",
-      "platform_url": "https://huggingface.co/papers/2610.10444",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10444.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only half the task: nothing keeps track of what the task asks for, what has been read, and what was list",
-      "platform": "huggingface",
-      "score": 29,
-      "comments_count": 1,
-      "id": "8f20a4b99a12"
-    },
-    {
-      "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
-      "url": "https://huggingface.co/papers/2610.09823",
-      "platform_url": "https://huggingface.co/papers/2610.09823",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.09823.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed p",
-      "platform": "huggingface",
-      "score": 43,
-      "comments_count": 1,
-      "id": "b2e60eac9070"
-    },
-    {
-      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
-      "url": "https://huggingface.co/papers/2610.10539",
-      "platform_url": "https://huggingface.co/papers/2610.10539",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.10539.png",
-      "publish_time": "2026-10-06T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and the",
-      "platform": "huggingface",
-      "score": 35,
-      "comments_count": 1,
-      "id": "2dd228fc8d94"
+      "id": "c5e0b694f1e6"
     }
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 100.0,
-      "total_fail_rate": 0.0,
-      "avg_response_time": 11.7,
-      "cover_success_rate": 41.4
+      "total_success_rate": 80.0,
+      "total_fail_rate": 20.0,
+      "avg_response_time": 12.7,
+      "cover_success_rate": 48.3
     },
     "platforms": [
       {
@@ -2034,73 +1804,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-11T17:33:08.172765+00:00"
+        "last_crawl": "2026-10-12T06:39:33.346990+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-11T17:33:40.594685+00:00"
+        "last_crawl": "2026-10-12T06:39:55.282275+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
-        "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-10-11T17:33:42.131896+00:00"
+        "status": "error",
+        "item_count": 0,
+        "last_crawl": "2026-10-12T06:39:55.688735+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-10-11T17:33:52.906442+00:00"
+        "item_count": 20,
+        "last_crawl": "2026-10-12T06:40:09.719999+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-11T17:33:53.052134+00:00"
+        "last_crawl": "2026-10-12T06:40:09.932994+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-11T17:33:08.172770+00:00",
+        "timestamp": "2026-10-12T06:39:33.346996+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 13.538987
+        "latency": 14.483301
       },
       {
-        "timestamp": "2026-10-11T17:33:40.594689+00:00",
+        "timestamp": "2026-10-12T06:39:55.282280+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 32.421911
+        "latency": 21.935277
       },
       {
-        "timestamp": "2026-10-11T17:33:42.131900+00:00",
+        "timestamp": "2026-10-12T06:39:55.688747+00:00",
         "platform": "radarai",
-        "status": "success",
-        "items_collected": 10,
-        "latency": 1.537204
+        "status": "error",
+        "error_message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)",
+        "latency": 0.406461
       },
       {
-        "timestamp": "2026-10-11T17:33:52.906445+00:00",
+        "timestamp": "2026-10-12T06:40:09.720005+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 10,
-        "latency": 10.774539
+        "items_collected": 20,
+        "latency": 14.030516
       },
       {
-        "timestamp": "2026-10-11T17:33:53.052145+00:00",
+        "timestamp": "2026-10-12T06:40:09.933003+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.145693
+        "latency": 0.212993
       }
     ]
   }
