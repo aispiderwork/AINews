@@ -1,18 +1,102 @@
 {
-  "update_time": "2026-10-16T16:23:01.650011+00:00",
+  "update_time": "2026-10-17T05:06:51.715746+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "How the Claude Code team does code review",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "platform_url": "https://news.ycombinator.com/item?id=50122951",
+        "discussion_url": "https://news.ycombinator.com/item?id=50122951",
+        "score": 285,
+        "comments_count": 260,
+        "publish_time": "2026-10-16T19:04:47+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 277.5,
+        "id": "36f634029a9a"
+      },
+      {
+        "title": "You could have invented transformers from memory",
+        "url": "https://alexwang.ai/posts/associative-memory/",
+        "platform_url": "https://news.ycombinator.com/item?id=50122878",
+        "discussion_url": "https://news.ycombinator.com/item?id=50122878",
+        "score": 200,
+        "comments_count": 57,
+        "publish_time": "2026-10-16T19:01:17+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 157.1,
+        "id": "71303d5a5f8d"
+      },
+      {
+        "title": "Claude reveals ECDSA curve origins",
+        "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "platform_url": "https://news.ycombinator.com/item?id=50122800",
+        "discussion_url": "https://news.ycombinator.com/item?id=50122800",
+        "score": 774,
+        "comments_count": 296,
+        "publish_time": "2026-10-16T18:55:59+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 630.5999999999999,
+        "id": "2a1ceafb2c64"
+      },
+      {
+        "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+        "url": "https://github.com/cobanov/PS5LM",
+        "platform_url": "https://news.ycombinator.com/item?id=50122431",
+        "discussion_url": "https://news.ycombinator.com/item?id=50122431",
+        "score": 233,
+        "comments_count": 62,
+        "publish_time": "2026-10-16T18:32:35+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 181.7,
+        "id": "64f481c5449d"
+      },
+      {
+        "title": "Anthropic assigned highest junk credit rating in June",
+        "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+        "platform_url": "https://news.ycombinator.com/item?id=50122112",
+        "discussion_url": "https://news.ycombinator.com/item?id=50122112",
+        "score": 234,
+        "comments_count": 72,
+        "publish_time": "2026-10-16T18:11:42+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 185.39999999999998,
+        "id": "b15da1772558"
+      },
+      {
+        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+        "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+        "platform_url": "https://news.ycombinator.com/item?id=50121179",
+        "discussion_url": "https://news.ycombinator.com/item?id=50121179",
+        "score": 446,
+        "comments_count": 391,
+        "publish_time": "2026-10-16T17:08:38+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 429.5,
+        "id": "2f37a9498035"
+      },
+      {
+        "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+        "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+        "platform_url": "https://news.ycombinator.com/item?id=50119991",
+        "discussion_url": "https://news.ycombinator.com/item?id=50119991",
+        "score": 190,
+        "comments_count": 76,
+        "publish_time": "2026-10-16T15:55:40+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 155.8,
+        "id": "7202145c0d81"
+      },
       {
         "title": "Show HN: Gemini 4 Argon plays StarCraft",
         "url": "https://starskirmish.com/bench/v0-2/",
         "platform_url": "https://news.ycombinator.com/item?id=50118688",
         "discussion_url": "https://news.ycombinator.com/item?id=50118688",
-        "score": 57,
-        "comments_count": 34,
+        "score": 204,
+        "comments_count": 90,
         "publish_time": "2026-10-16T14:18:44+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 50.099999999999994,
+        "hn_hot_score": 169.79999999999998,
         "id": "3304d6ae1f84"
       },
       {
@@ -38,93 +122,179 @@
         "platform": "hackernews",
         "hn_hot_score": 187.3,
         "id": "88f0d0d079a7"
-      },
-      {
-        "title": "Neural networks are clean",
-        "url": "https://already-clean.goodfire.com/",
-        "platform_url": "https://news.ycombinator.com/item?id=50105647",
-        "discussion_url": "https://news.ycombinator.com/item?id=50105647",
-        "score": 771,
-        "comments_count": 304,
-        "publish_time": "2026-10-15T16:04:01+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 630.9,
-        "id": "c4058445f8d4"
-      },
-      {
-        "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-        "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-        "platform_url": "https://news.ycombinator.com/item?id=50104654",
-        "discussion_url": "https://news.ycombinator.com/item?id=50104654",
-        "score": 243,
-        "comments_count": 197,
-        "publish_time": "2026-10-15T14:58:48+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 229.2,
-        "id": "5dec6b9e7147"
-      },
-      {
-        "title": "Prompt injection in HTTP headers: what 217M web responses show",
-        "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-        "platform_url": "https://news.ycombinator.com/item?id=50104310",
-        "discussion_url": "https://news.ycombinator.com/item?id=50104310",
-        "score": 93,
-        "comments_count": 17,
-        "publish_time": "2026-10-15T14:36:22+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 70.19999999999999,
-        "id": "1326fe2b4332"
-      },
-      {
-        "title": "Using AI to reverse engineer hardware",
-        "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-        "platform_url": "https://news.ycombinator.com/item?id=50104299",
-        "discussion_url": "https://news.ycombinator.com/item?id=50104299",
-        "score": 236,
-        "comments_count": 216,
-        "publish_time": "2026-10-15T14:35:15+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 230.0,
-        "id": "d0813158b184"
-      },
-      {
-        "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-        "url": "https://github.com/awslabs/aidlc-workflows",
-        "platform_url": "https://news.ycombinator.com/item?id=50100387",
-        "discussion_url": "https://news.ycombinator.com/item?id=50100387",
-        "score": 26,
-        "comments_count": 21,
-        "publish_time": "2026-10-15T07:20:39+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 24.5,
-        "id": "9f5a62f83330"
-      },
-      {
-        "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-        "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-        "platform_url": "https://news.ycombinator.com/item?id=50097369",
-        "discussion_url": "https://news.ycombinator.com/item?id=50097369",
-        "score": 271,
-        "comments_count": 72,
-        "publish_time": "2026-10-14T23:59:37+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 211.29999999999998,
-        "id": "dd23714732c0"
-      },
-      {
-        "title": "Anthropic's Scion is heavily inspired by Mononoke",
-        "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-        "platform_url": "https://news.ycombinator.com/item?id=50094694",
-        "discussion_url": "https://news.ycombinator.com/item?id=50094694",
-        "score": 400,
-        "comments_count": 147,
-        "publish_time": "2026-10-14T20:30:54+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 324.1,
-        "id": "f0bdc2702e78"
       }
     ],
     "bestblogs": [
+      {
+        "title": "现在可能是投身数学的最好时机",
+        "url": "https://www.bestblogs.dev/article/RAW_4aa6c39860",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_4aa6c39860",
+        "original_url": "",
+        "resource_id": "RAW_4aa6c39860",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224865+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 92,
+        "source_name": "3Blue1Brown",
+        "id": "c592d97c11d4"
+      },
+      {
+        "title": "扩展印度语言预训练：2.8 万亿 token 与开放数据生成流水线",
+        "url": "https://www.bestblogs.dev/article/RAW_13cbddd98a",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_13cbddd98a",
+        "original_url": "",
+        "resource_id": "RAW_13cbddd98a",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224861+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Hugging Face - Blog",
+        "id": "cf76f1afed34"
+      },
+      {
+        "title": "一文拆解 Jev 架构：一个判断模型是怎么被拼出来的",
+        "url": "https://www.bestblogs.dev/article/RAW_64d0c6fe30",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_64d0c6fe30",
+        "original_url": "",
+        "resource_id": "RAW_64d0c6fe30",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224854+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "腾讯云开发者",
+        "id": "30b4a6bdc767"
+      },
+      {
+        "title": "AI 能终结孤独吗？Paul Bloom 谈陪伴与成长的代价",
+        "url": "https://www.bestblogs.dev/article/RAW_c342f81ca",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_c342f81ca",
+        "original_url": "",
+        "resource_id": "RAW_c342f81ca",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224847+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "TED",
+        "id": "66d54338d846"
+      },
+      {
+        "title": "AI 正在推动适度成功的软件项目迎来爆发",
+        "url": "https://www.bestblogs.dev/article/RAW_6f441545b7",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_6f441545b7",
+        "original_url": "",
+        "resource_id": "RAW_6f441545b7",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224840+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Sean Goedecke",
+        "id": "21cbd2b236c7"
+      },
+      {
+        "title": "运行一个 AI 智能体要花多少钱？来自 4 个项目的真实数据",
+        "url": "https://www.bestblogs.dev/article/RAW_59c1327257",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_59c1327257",
+        "original_url": "",
+        "resource_id": "RAW_59c1327257",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224837+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Hacker News - Newest: \"AI Agent\"",
+        "id": "496ab5e9ddcf"
+      },
+      {
+        "title": "独家对话 Karpo：Personal AI 的终局，是用户意图的「竞争」，但这还不是行业共识",
+        "url": "https://www.bestblogs.dev/article/RAW_38f66ab31d",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_38f66ab31d",
+        "original_url": "",
+        "resource_id": "RAW_38f66ab31d",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224834+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "Founder Park",
+        "id": "166c7d4fb5f4"
+      },
+      {
+        "title": "花两千踩坑四大 Personal Agent，我 3 个提示语把 33% 成功率救回来了",
+        "url": "https://www.bestblogs.dev/article/RAW_c10a8c5025",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_c10a8c5025",
+        "original_url": "",
+        "resource_id": "RAW_c10a8c5025",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224830+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "卡尔的AI沃茨",
+        "id": "0ebffe15bb35"
+      },
+      {
+        "title": "为什么一个 AI 智能体不够：Anthropic 工程师详解千智能体编排",
+        "url": "https://www.bestblogs.dev/article/RAW_908fe24ac",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_908fe24ac",
+        "original_url": "",
+        "resource_id": "RAW_908fe24ac",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224805+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "AI Engineer",
+        "id": "e5ce1e25e6a6"
+      },
+      {
+        "title": "淘特端侧模型从微调到应用的全链路实践",
+        "url": "https://www.bestblogs.dev/article/RAW_aa58c5847e",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_aa58c5847e",
+        "original_url": "",
+        "resource_id": "RAW_aa58c5847e",
+        "cover_url": null,
+        "publish_time": "2026-10-17T05:06:39.224775+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 92,
+        "source_name": "大淘宝技术",
+        "id": "c65cb64d0075"
+      },
       {
         "title": "如何防止 AI 智能体虚构尼日利亚邮政编码",
         "url": "https://www.bestblogs.dev/article/RAW_ddfd0ff5f1",
@@ -294,176 +464,6 @@
         "score": 92,
         "source_name": "Google Developers Blog",
         "id": "5a57720ad5f3"
-      },
-      {
-        "title": "宣布 Apigee hybrid 支持 MCP：可在自有集群中运行的智能体工具",
-        "url": "https://www.bestblogs.dev/article/RAW_4af394d42b",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_4af394d42b",
-        "original_url": "",
-        "resource_id": "RAW_4af394d42b",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171896+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Google Developers Blog",
-        "id": "58937e051ec8"
-      },
-      {
-        "title": "手把手带工程同学从零实现一个完整的 LLM（CS336）——Transformer 篇",
-        "url": "https://www.bestblogs.dev/article/RAW_93e8cbc5d5",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_93e8cbc5d5",
-        "original_url": "",
-        "resource_id": "RAW_93e8cbc5d5",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171893+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "阿里技术",
-        "id": "568fc844d65b"
-      },
-      {
-        "title": "GitHub - RayenMlayeh/jevcrawl：专为 AI 代理打造的网站抓取解决方案——比 Crawl4AI 更高效，比 Claude 抓取便宜 10 倍。",
-        "url": "https://www.bestblogs.dev/article/RAW_d15e93eeb6",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_d15e93eeb6",
-        "original_url": "",
-        "resource_id": "RAW_d15e93eeb6",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171885+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Hacker News - Newest: \"LLM\"",
-        "id": "f4696c4251c8"
-      },
-      {
-        "title": "Natura-1 发布：从百万小时人类经验中学会零样本泛化与灵巧操作",
-        "url": "https://www.bestblogs.dev/article/RAW_151aeaaf29",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_151aeaaf29",
-        "original_url": "",
-        "resource_id": "RAW_151aeaaf29",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171874+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "机器之心",
-        "id": "9954db50b738"
-      },
-      {
-        "title": "你的 GPU 邻居可以听到你的模型 —— Branislav Brzak，Stealthium",
-        "url": "https://www.bestblogs.dev/article/RAW_153081d3c",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_153081d3c",
-        "original_url": "",
-        "resource_id": "RAW_153081d3c",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171871+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "AI Engineer",
-        "id": "eb43a960f968"
-      },
-      {
-        "title": "Dyna-2：具备小时级自主能力的通用物理智能体——Jason Ma，Dyna Robotics",
-        "url": "https://www.bestblogs.dev/article/RAW_93b49119ec",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_93b49119ec",
-        "original_url": "",
-        "resource_id": "RAW_93b49119ec",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171852+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "Latent.Space",
-        "id": "cbef71f24a97"
-      },
-      {
-        "title": "淘宝 TaoMate-H3 开源：三步生成「分钟级」音视频连续创作",
-        "url": "https://www.bestblogs.dev/article/RAW_3d6df62762",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3d6df62762",
-        "original_url": "",
-        "resource_id": "RAW_3d6df62762",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171849+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 95,
-        "source_name": "大淘宝技术",
-        "id": "3ff7b7975527"
-      },
-      {
-        "title": "Meta 的生成式广告模型（GEM）：为前沿广告 AI 扩展中央模型与计算引擎",
-        "url": "https://www.bestblogs.dev/article/RAW_90cd2f363d",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_90cd2f363d",
-        "original_url": "",
-        "resource_id": "RAW_90cd2f363d",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171839+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "Engineering at Meta",
-        "id": "5a3b1da9c00a"
-      },
-      {
-        "title": "CASTLE：在第一次真实查询之前训练自然语言搜索",
-        "url": "https://www.bestblogs.dev/article/RAW_3a283f8716",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3a283f8716",
-        "original_url": "",
-        "resource_id": "RAW_3a283f8716",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171834+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "The Airbnb Tech Blog",
-        "id": "8d518bd75836"
-      },
-      {
-        "title": "走进 Uber 的 AI 工程基础设施",
-        "url": "https://www.bestblogs.dev/article/RAW_15054b7c5",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_15054b7c5",
-        "original_url": "",
-        "resource_id": "RAW_15054b7c5",
-        "cover_url": null,
-        "publish_time": "2026-10-15T05:22:52.171818+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "The Pragmatic Engineer",
-        "id": "32a8edf5617a"
       }
     ],
     "qbitai": [
@@ -606,10 +606,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 85 · 下载 0",
+        "summary": "TrendingScore 127 · 下载 0",
         "platform": "huggingface",
-        "score": 85,
-        "trending_score": 85,
+        "score": 127,
+        "trending_score": 127,
         "downloads": 0,
         "id": "d082e17f2bea"
       },
@@ -684,8 +684,8 @@
         ],
         "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can",
         "platform": "huggingface",
-        "score": 337,
-        "comments_count": 3,
+        "score": 656,
+        "comments_count": 4,
         "id": "0e6d2cace127"
       },
       {
@@ -699,7 +699,7 @@
         ],
         "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. W",
         "platform": "huggingface",
-        "score": 220,
+        "score": 290,
         "comments_count": 3,
         "id": "161d67571464"
       },
@@ -714,8 +714,8 @@
         ],
         "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated cu",
         "platform": "huggingface",
-        "score": 196,
-        "comments_count": 1,
+        "score": 277,
+        "comments_count": 2,
         "id": "9013606df892"
       },
       {
@@ -729,8 +729,8 @@
         ],
         "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar, or a 2D point. In light of this, we introduce MJev-Spatial, a System 1 multimodal",
         "platform": "huggingface",
-        "score": 137,
-        "comments_count": 1,
+        "score": 147,
+        "comments_count": 2,
         "id": "c935e3cd23f5"
       },
       {
@@ -744,8 +744,8 @@
         ],
         "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce intermediate reasoning or future-state prediction in language, visual, or latent spaces",
         "platform": "huggingface",
-        "score": 52,
-        "comments_count": 1,
+        "score": 54,
+        "comments_count": 2,
         "id": "a278384dc7f7"
       },
       {
@@ -759,9 +759,24 @@
         ],
         "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we introduce Multi-Session Agentic Reinforcement Learning, a more general setting that supports an arb",
         "platform": "huggingface",
-        "score": 46,
-        "comments_count": 1,
+        "score": 49,
+        "comments_count": 2,
         "id": "b816dfb2b15b"
+      },
+      {
+        "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+        "url": "https://huggingface.co/papers/2610.21261",
+        "platform_url": "https://huggingface.co/papers/2610.21261",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21261.png",
+        "publish_time": "2026-10-14T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above that order and bounds coalition ordering error for the optimal low order approximat",
+        "platform": "huggingface",
+        "score": 71,
+        "comments_count": 2,
+        "id": "523f23f5e4bf"
       },
       {
         "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
@@ -882,24 +897,20 @@
         "score": 61,
         "comments_count": 1,
         "id": "3aa220655e99"
-      },
-      {
-        "title": "Orbia: Do Generated Videos Form a Consistent 3D World?",
-        "url": "https://huggingface.co/papers/2610.20693",
-        "platform_url": "https://huggingface.co/papers/2610.20693",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20693.png",
-        "publish_time": "2026-10-13T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and comprehensive evaluation of 3D consistency in interactive world models. Through controlled e",
-        "platform": "huggingface",
-        "score": 23,
-        "comments_count": 1,
-        "id": "0e7856aa4d95"
       }
     ],
     "radarai": [
+      {
+        "title": "Anthropic报告：AI智能体工时达人类6倍 · 1017-742期",
+        "url": "https://radarai.top/updates/brief-20261017-0800",
+        "platform_url": "https://radarai.top/updates/brief-20261017-0800",
+        "cover_url": null,
+        "publish_time": "2026-10-17T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "dad832487f5e"
+      },
       {
         "title": "谷歌Gemini 4逼近ARC-AGI满分，开源阵营杀出501B新模型 · 1017-741期",
         "url": "https://radarai.top/updates/brief-20261017-0000",
@@ -998,21 +1009,263 @@
         "summary": "",
         "platform": "radarai",
         "id": "714e9c804712"
-      },
-      {
-        "title": "Karpathy 的 LLM 漏斗：60 亿人未用过大模型，5000 人接触前沿 · 1012-733期",
-        "url": "https://radarai.top/updates/brief-20261012-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261012-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-12T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "ab0a34e234e5"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "现在可能是投身数学的最好时机",
+      "url": "https://www.bestblogs.dev/article/RAW_4aa6c39860",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_4aa6c39860",
+      "original_url": "",
+      "resource_id": "RAW_4aa6c39860",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224865+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 92,
+      "source_name": "3Blue1Brown",
+      "id": "c592d97c11d4"
+    },
+    {
+      "title": "扩展印度语言预训练：2.8 万亿 token 与开放数据生成流水线",
+      "url": "https://www.bestblogs.dev/article/RAW_13cbddd98a",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_13cbddd98a",
+      "original_url": "",
+      "resource_id": "RAW_13cbddd98a",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224861+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Hugging Face - Blog",
+      "id": "cf76f1afed34"
+    },
+    {
+      "title": "一文拆解 Jev 架构：一个判断模型是怎么被拼出来的",
+      "url": "https://www.bestblogs.dev/article/RAW_64d0c6fe30",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_64d0c6fe30",
+      "original_url": "",
+      "resource_id": "RAW_64d0c6fe30",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224854+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "腾讯云开发者",
+      "id": "30b4a6bdc767"
+    },
+    {
+      "title": "AI 能终结孤独吗？Paul Bloom 谈陪伴与成长的代价",
+      "url": "https://www.bestblogs.dev/article/RAW_c342f81ca",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_c342f81ca",
+      "original_url": "",
+      "resource_id": "RAW_c342f81ca",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224847+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "TED",
+      "id": "66d54338d846"
+    },
+    {
+      "title": "AI 正在推动适度成功的软件项目迎来爆发",
+      "url": "https://www.bestblogs.dev/article/RAW_6f441545b7",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_6f441545b7",
+      "original_url": "",
+      "resource_id": "RAW_6f441545b7",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224840+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Sean Goedecke",
+      "id": "21cbd2b236c7"
+    },
+    {
+      "title": "运行一个 AI 智能体要花多少钱？来自 4 个项目的真实数据",
+      "url": "https://www.bestblogs.dev/article/RAW_59c1327257",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_59c1327257",
+      "original_url": "",
+      "resource_id": "RAW_59c1327257",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224837+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Hacker News - Newest: \"AI Agent\"",
+      "id": "496ab5e9ddcf"
+    },
+    {
+      "title": "独家对话 Karpo：Personal AI 的终局，是用户意图的「竞争」，但这还不是行业共识",
+      "url": "https://www.bestblogs.dev/article/RAW_38f66ab31d",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_38f66ab31d",
+      "original_url": "",
+      "resource_id": "RAW_38f66ab31d",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224834+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Founder Park",
+      "id": "166c7d4fb5f4"
+    },
+    {
+      "title": "花两千踩坑四大 Personal Agent，我 3 个提示语把 33% 成功率救回来了",
+      "url": "https://www.bestblogs.dev/article/RAW_c10a8c5025",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_c10a8c5025",
+      "original_url": "",
+      "resource_id": "RAW_c10a8c5025",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224830+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "卡尔的AI沃茨",
+      "id": "0ebffe15bb35"
+    },
+    {
+      "title": "为什么一个 AI 智能体不够：Anthropic 工程师详解千智能体编排",
+      "url": "https://www.bestblogs.dev/article/RAW_908fe24ac",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_908fe24ac",
+      "original_url": "",
+      "resource_id": "RAW_908fe24ac",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224805+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "AI Engineer",
+      "id": "e5ce1e25e6a6"
+    },
+    {
+      "title": "淘特端侧模型从微调到应用的全链路实践",
+      "url": "https://www.bestblogs.dev/article/RAW_aa58c5847e",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_aa58c5847e",
+      "original_url": "",
+      "resource_id": "RAW_aa58c5847e",
+      "cover_url": null,
+      "publish_time": "2026-10-17T05:06:39.224775+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 92,
+      "source_name": "大淘宝技术",
+      "id": "c65cb64d0075"
+    },
+    {
+      "title": "Anthropic报告：AI智能体工时达人类6倍 · 1017-742期",
+      "url": "https://radarai.top/updates/brief-20261017-0800",
+      "platform_url": "https://radarai.top/updates/brief-20261017-0800",
+      "cover_url": null,
+      "publish_time": "2026-10-17T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "dad832487f5e"
+    },
+    {
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "platform_url": "https://news.ycombinator.com/item?id=50122951",
+      "discussion_url": "https://news.ycombinator.com/item?id=50122951",
+      "score": 285,
+      "comments_count": 260,
+      "publish_time": "2026-10-16T19:04:47+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 277.5,
+      "id": "36f634029a9a"
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "platform_url": "https://news.ycombinator.com/item?id=50122878",
+      "discussion_url": "https://news.ycombinator.com/item?id=50122878",
+      "score": 200,
+      "comments_count": 57,
+      "publish_time": "2026-10-16T19:01:17+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 157.1,
+      "id": "71303d5a5f8d"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "platform_url": "https://news.ycombinator.com/item?id=50122800",
+      "discussion_url": "https://news.ycombinator.com/item?id=50122800",
+      "score": 774,
+      "comments_count": 296,
+      "publish_time": "2026-10-16T18:55:59+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 630.5999999999999,
+      "id": "2a1ceafb2c64"
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "platform_url": "https://news.ycombinator.com/item?id=50122431",
+      "discussion_url": "https://news.ycombinator.com/item?id=50122431",
+      "score": 233,
+      "comments_count": 62,
+      "publish_time": "2026-10-16T18:32:35+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 181.7,
+      "id": "64f481c5449d"
+    },
+    {
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "platform_url": "https://news.ycombinator.com/item?id=50122112",
+      "discussion_url": "https://news.ycombinator.com/item?id=50122112",
+      "score": 234,
+      "comments_count": 72,
+      "publish_time": "2026-10-16T18:11:42+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 185.39999999999998,
+      "id": "b15da1772558"
+    },
+    {
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "platform_url": "https://news.ycombinator.com/item?id=50121179",
+      "discussion_url": "https://news.ycombinator.com/item?id=50121179",
+      "score": 446,
+      "comments_count": 391,
+      "publish_time": "2026-10-16T17:08:38+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 429.5,
+      "id": "2f37a9498035"
+    },
     {
       "title": "谷歌Gemini 4逼近ARC-AGI满分，开源阵营杀出501B新模型 · 1017-741期",
       "url": "https://radarai.top/updates/brief-20261017-0000",
@@ -1025,15 +1278,27 @@
       "id": "35931be45263"
     },
     {
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "platform_url": "https://news.ycombinator.com/item?id=50119991",
+      "discussion_url": "https://news.ycombinator.com/item?id=50119991",
+      "score": 190,
+      "comments_count": 76,
+      "publish_time": "2026-10-16T15:55:40+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 155.8,
+      "id": "7202145c0d81"
+    },
+    {
       "title": "Show HN: Gemini 4 Argon plays StarCraft",
       "url": "https://starskirmish.com/bench/v0-2/",
       "platform_url": "https://news.ycombinator.com/item?id=50118688",
       "discussion_url": "https://news.ycombinator.com/item?id=50118688",
-      "score": 57,
-      "comments_count": 34,
+      "score": 204,
+      "comments_count": 90,
       "publish_time": "2026-10-16T14:18:44+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 50.099999999999994,
+      "hn_hot_score": 169.79999999999998,
       "id": "3304d6ae1f84"
     },
     {
@@ -1402,54 +1667,6 @@
       "id": "88f0d0d079a7"
     },
     {
-      "title": "Neural networks are clean",
-      "url": "https://already-clean.goodfire.com/",
-      "platform_url": "https://news.ycombinator.com/item?id=50105647",
-      "discussion_url": "https://news.ycombinator.com/item?id=50105647",
-      "score": 771,
-      "comments_count": 304,
-      "publish_time": "2026-10-15T16:04:01+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 630.9,
-      "id": "c4058445f8d4"
-    },
-    {
-      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "platform_url": "https://news.ycombinator.com/item?id=50104654",
-      "discussion_url": "https://news.ycombinator.com/item?id=50104654",
-      "score": 243,
-      "comments_count": 197,
-      "publish_time": "2026-10-15T14:58:48+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 229.2,
-      "id": "5dec6b9e7147"
-    },
-    {
-      "title": "Prompt injection in HTTP headers: what 217M web responses show",
-      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-      "platform_url": "https://news.ycombinator.com/item?id=50104310",
-      "discussion_url": "https://news.ycombinator.com/item?id=50104310",
-      "score": 93,
-      "comments_count": 17,
-      "publish_time": "2026-10-15T14:36:22+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 70.19999999999999,
-      "id": "1326fe2b4332"
-    },
-    {
-      "title": "Using AI to reverse engineer hardware",
-      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "platform_url": "https://news.ycombinator.com/item?id=50104299",
-      "discussion_url": "https://news.ycombinator.com/item?id=50104299",
-      "score": 236,
-      "comments_count": 216,
-      "publish_time": "2026-10-15T14:35:15+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 230.0,
-      "id": "d0813158b184"
-    },
-    {
       "title": "[模型] tencent/Hy-Memory-30B-A3B",
       "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
       "platform_url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
@@ -1459,218 +1676,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 85 · 下载 0",
+      "summary": "TrendingScore 127 · 下载 0",
       "platform": "huggingface",
-      "score": 85,
-      "trending_score": 85,
+      "score": 127,
+      "trending_score": 127,
       "downloads": 0,
       "id": "d082e17f2bea"
-    },
-    {
-      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-      "url": "https://github.com/awslabs/aidlc-workflows",
-      "platform_url": "https://news.ycombinator.com/item?id=50100387",
-      "discussion_url": "https://news.ycombinator.com/item?id=50100387",
-      "score": 26,
-      "comments_count": 21,
-      "publish_time": "2026-10-15T07:20:39+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 24.5,
-      "id": "9f5a62f83330"
-    },
-    {
-      "title": "宣布 Apigee hybrid 支持 MCP：可在自有集群中运行的智能体工具",
-      "url": "https://www.bestblogs.dev/article/RAW_4af394d42b",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_4af394d42b",
-      "original_url": "",
-      "resource_id": "RAW_4af394d42b",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171896+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Google Developers Blog",
-      "id": "58937e051ec8"
-    },
-    {
-      "title": "手把手带工程同学从零实现一个完整的 LLM（CS336）——Transformer 篇",
-      "url": "https://www.bestblogs.dev/article/RAW_93e8cbc5d5",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_93e8cbc5d5",
-      "original_url": "",
-      "resource_id": "RAW_93e8cbc5d5",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171893+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "阿里技术",
-      "id": "568fc844d65b"
-    },
-    {
-      "title": "GitHub - RayenMlayeh/jevcrawl：专为 AI 代理打造的网站抓取解决方案——比 Crawl4AI 更高效，比 Claude 抓取便宜 10 倍。",
-      "url": "https://www.bestblogs.dev/article/RAW_d15e93eeb6",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_d15e93eeb6",
-      "original_url": "",
-      "resource_id": "RAW_d15e93eeb6",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171885+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Hacker News - Newest: \"LLM\"",
-      "id": "f4696c4251c8"
-    },
-    {
-      "title": "Natura-1 发布：从百万小时人类经验中学会零样本泛化与灵巧操作",
-      "url": "https://www.bestblogs.dev/article/RAW_151aeaaf29",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_151aeaaf29",
-      "original_url": "",
-      "resource_id": "RAW_151aeaaf29",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171874+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "机器之心",
-      "id": "9954db50b738"
-    },
-    {
-      "title": "你的 GPU 邻居可以听到你的模型 —— Branislav Brzak，Stealthium",
-      "url": "https://www.bestblogs.dev/article/RAW_153081d3c",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_153081d3c",
-      "original_url": "",
-      "resource_id": "RAW_153081d3c",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171871+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "AI Engineer",
-      "id": "eb43a960f968"
-    },
-    {
-      "title": "Dyna-2：具备小时级自主能力的通用物理智能体——Jason Ma，Dyna Robotics",
-      "url": "https://www.bestblogs.dev/article/RAW_93b49119ec",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_93b49119ec",
-      "original_url": "",
-      "resource_id": "RAW_93b49119ec",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171852+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "Latent.Space",
-      "id": "cbef71f24a97"
-    },
-    {
-      "title": "淘宝 TaoMate-H3 开源：三步生成「分钟级」音视频连续创作",
-      "url": "https://www.bestblogs.dev/article/RAW_3d6df62762",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3d6df62762",
-      "original_url": "",
-      "resource_id": "RAW_3d6df62762",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171849+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 95,
-      "source_name": "大淘宝技术",
-      "id": "3ff7b7975527"
-    },
-    {
-      "title": "Meta 的生成式广告模型（GEM）：为前沿广告 AI 扩展中央模型与计算引擎",
-      "url": "https://www.bestblogs.dev/article/RAW_90cd2f363d",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_90cd2f363d",
-      "original_url": "",
-      "resource_id": "RAW_90cd2f363d",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171839+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "Engineering at Meta",
-      "id": "5a3b1da9c00a"
-    },
-    {
-      "title": "CASTLE：在第一次真实查询之前训练自然语言搜索",
-      "url": "https://www.bestblogs.dev/article/RAW_3a283f8716",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3a283f8716",
-      "original_url": "",
-      "resource_id": "RAW_3a283f8716",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171834+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "The Airbnb Tech Blog",
-      "id": "8d518bd75836"
-    },
-    {
-      "title": "走进 Uber 的 AI 工程基础设施",
-      "url": "https://www.bestblogs.dev/article/RAW_15054b7c5",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_15054b7c5",
-      "original_url": "",
-      "resource_id": "RAW_15054b7c5",
-      "cover_url": null,
-      "publish_time": "2026-10-15T05:22:52.171818+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "The Pragmatic Engineer",
-      "id": "32a8edf5617a"
-    },
-    {
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "platform_url": "https://news.ycombinator.com/item?id=50097369",
-      "discussion_url": "https://news.ycombinator.com/item?id=50097369",
-      "score": 271,
-      "comments_count": 72,
-      "publish_time": "2026-10-14T23:59:37+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 211.29999999999998,
-      "id": "dd23714732c0"
-    },
-    {
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "platform_url": "https://news.ycombinator.com/item?id=50094694",
-      "discussion_url": "https://news.ycombinator.com/item?id=50094694",
-      "score": 400,
-      "comments_count": 147,
-      "publish_time": "2026-10-14T20:30:54+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 324.1,
-      "id": "f0bdc2702e78"
     },
     {
       "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
@@ -1743,8 +1754,8 @@
       ],
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can",
       "platform": "huggingface",
-      "score": 337,
-      "comments_count": 3,
+      "score": 656,
+      "comments_count": 4,
       "id": "0e6d2cace127"
     },
     {
@@ -1758,7 +1769,7 @@
       ],
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. W",
       "platform": "huggingface",
-      "score": 220,
+      "score": 290,
       "comments_count": 3,
       "id": "161d67571464"
     },
@@ -1773,8 +1784,8 @@
       ],
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated cu",
       "platform": "huggingface",
-      "score": 196,
-      "comments_count": 1,
+      "score": 277,
+      "comments_count": 2,
       "id": "9013606df892"
     },
     {
@@ -1788,8 +1799,8 @@
       ],
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar, or a 2D point. In light of this, we introduce MJev-Spatial, a System 1 multimodal",
       "platform": "huggingface",
-      "score": 137,
-      "comments_count": 1,
+      "score": 147,
+      "comments_count": 2,
       "id": "c935e3cd23f5"
     },
     {
@@ -1803,8 +1814,8 @@
       ],
       "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce intermediate reasoning or future-state prediction in language, visual, or latent spaces",
       "platform": "huggingface",
-      "score": 52,
-      "comments_count": 1,
+      "score": 54,
+      "comments_count": 2,
       "id": "a278384dc7f7"
     },
     {
@@ -1818,9 +1829,24 @@
       ],
       "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we introduce Multi-Session Agentic Reinforcement Learning, a more general setting that supports an arb",
       "platform": "huggingface",
-      "score": 46,
-      "comments_count": 1,
+      "score": 49,
+      "comments_count": 2,
       "id": "b816dfb2b15b"
+    },
+    {
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "platform_url": "https://huggingface.co/papers/2610.21261",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21261.png",
+      "publish_time": "2026-10-14T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above that order and bounds coalition ordering error for the optimal low order approximat",
+      "platform": "huggingface",
+      "score": 71,
+      "comments_count": 2,
+      "id": "523f23f5e4bf"
     },
     {
       "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
@@ -1943,21 +1969,6 @@
       "id": "3aa220655e99"
     },
     {
-      "title": "Orbia: Do Generated Videos Form a Consistent 3D World?",
-      "url": "https://huggingface.co/papers/2610.20693",
-      "platform_url": "https://huggingface.co/papers/2610.20693",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20693.png",
-      "publish_time": "2026-10-13T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and comprehensive evaluation of 3D consistency in interactive world models. Through controlled e",
-      "platform": "huggingface",
-      "score": 23,
-      "comments_count": 1,
-      "id": "0e7856aa4d95"
-    },
-    {
       "title": "Anthropic拟建500MW数据中心，中国芯片短缺暴露度达美国2.7倍 · 1013-737期",
       "url": "https://radarai.top/updates/brief-20261013-1600",
       "platform_url": "https://radarai.top/updates/brief-20261013-1600",
@@ -2000,24 +2011,13 @@
       "summary": "",
       "platform": "radarai",
       "id": "714e9c804712"
-    },
-    {
-      "title": "Karpathy 的 LLM 漏斗：60 亿人未用过大模型，5000 人接触前沿 · 1012-733期",
-      "url": "https://radarai.top/updates/brief-20261012-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261012-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-12T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "ab0a34e234e5"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.8,
+      "avg_response_time": 11.4,
       "cover_success_rate": 41.4
     },
     "platforms": [
@@ -2026,73 +2026,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-16T16:22:23.873431+00:00"
+        "last_crawl": "2026-10-17T05:06:07.194535+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-16T16:22:49.534749+00:00"
+        "last_crawl": "2026-10-17T05:06:32.028336+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-16T16:22:50.801929+00:00"
+        "last_crawl": "2026-10-17T05:06:33.480140+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-10-16T16:23:01.409974+00:00"
+        "item_count": 20,
+        "last_crawl": "2026-10-17T05:06:51.546639+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-16T16:23:01.594957+00:00"
+        "last_crawl": "2026-10-17T05:06:51.661395+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-16T16:22:23.873436+00:00",
+        "timestamp": "2026-10-17T05:06:07.194541+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 16.233945
+        "latency": 12.572986
       },
       {
-        "timestamp": "2026-10-16T16:22:49.534755+00:00",
+        "timestamp": "2026-10-17T05:06:32.028342+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 25.661312
+        "latency": 24.833794
       },
       {
-        "timestamp": "2026-10-16T16:22:50.801935+00:00",
+        "timestamp": "2026-10-17T05:06:33.480147+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.267173
+        "latency": 1.451799
       },
       {
-        "timestamp": "2026-10-16T16:23:01.409981+00:00",
+        "timestamp": "2026-10-17T05:06:51.546644+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 10,
-        "latency": 10.608039
+        "items_collected": 20,
+        "latency": 18.066491
       },
       {
-        "timestamp": "2026-10-16T16:23:01.594968+00:00",
+        "timestamp": "2026-10-17T05:06:51.661406+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.184979
+        "latency": 0.114754
       }
     ]
   }
