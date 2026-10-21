@@ -1,18 +1,78 @@
 {
-  "update_time": "2026-10-21T05:25:48.584628+00:00",
+  "update_time": "2026-10-21T16:55:42.015102+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "platform_url": "https://news.ycombinator.com/item?id=50181175",
+        "discussion_url": "https://news.ycombinator.com/item?id=50181175",
+        "score": 131,
+        "comments_count": 70,
+        "publish_time": "2026-10-21T14:03:43+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 112.69999999999999,
+        "id": "9f3b34cd03dc"
+      },
+      {
+        "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "platform_url": "https://news.ycombinator.com/item?id=50181114",
+        "discussion_url": "https://news.ycombinator.com/item?id=50181114",
+        "score": 131,
+        "comments_count": 54,
+        "publish_time": "2026-10-21T14:00:26+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 107.89999999999999,
+        "id": "9082c0ecd45c"
+      },
+      {
+        "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+        "url": "https://www.wiz.io/blog/php2shell-php-rce",
+        "platform_url": "https://news.ycombinator.com/item?id=50180836",
+        "discussion_url": "https://news.ycombinator.com/item?id=50180836",
+        "score": 366,
+        "comments_count": 124,
+        "publish_time": "2026-10-21T13:43:19+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 293.4,
+        "id": "2ef6273684d3"
+      },
+      {
+        "title": "Using Claude to reduce the attack surface of code",
+        "url": "https://www.anthropic.com/research/attack-surface-reduction",
+        "platform_url": "https://news.ycombinator.com/item?id=50175779",
+        "discussion_url": "https://news.ycombinator.com/item?id=50175779",
+        "score": 112,
+        "comments_count": 74,
+        "publish_time": "2026-10-21T03:36:43+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 100.6,
+        "id": "395f6d079ac7"
+      },
+      {
+        "title": "In Hilbert space, all things are quantumly possible",
+        "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+        "platform_url": "https://news.ycombinator.com/item?id=50175185",
+        "discussion_url": "https://news.ycombinator.com/item?id=50175185",
+        "score": 134,
+        "comments_count": 70,
+        "publish_time": "2026-10-21T02:04:15+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 114.8,
+        "id": "c5b60c3f5cc5"
+      },
       {
         "title": "Good type against all odds",
         "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
         "platform_url": "https://news.ycombinator.com/item?id=50175059",
         "discussion_url": "https://news.ycombinator.com/item?id=50175059",
-        "score": 66,
-        "comments_count": 8,
+        "score": 183,
+        "comments_count": 18,
         "publish_time": "2026-10-21T01:45:07+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 48.599999999999994,
+        "hn_hot_score": 133.5,
         "id": "78dd3d6da9ee"
       },
       {
@@ -44,11 +104,11 @@
         "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
         "platform_url": "https://news.ycombinator.com/item?id=50167536",
         "discussion_url": "https://news.ycombinator.com/item?id=50167536",
-        "score": 428,
-        "comments_count": 386,
+        "score": 456,
+        "comments_count": 395,
         "publish_time": "2026-10-20T15:06:08+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 415.4,
+        "hn_hot_score": 437.7,
         "id": "88d244acae9d"
       },
       {
@@ -56,72 +116,12 @@
         "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
         "platform_url": "https://news.ycombinator.com/item?id=50165801",
         "discussion_url": "https://news.ycombinator.com/item?id=50165801",
-        "score": 330,
-        "comments_count": 192,
+        "score": 353,
+        "comments_count": 201,
         "publish_time": "2026-10-20T13:06:22+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 288.59999999999997,
+        "hn_hot_score": 307.4,
         "id": "754ab4203a1c"
-      },
-      {
-        "title": "NixOS is making me less afraid",
-        "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
-        "platform_url": "https://news.ycombinator.com/item?id=50165484",
-        "discussion_url": "https://news.ycombinator.com/item?id=50165484",
-        "score": 176,
-        "comments_count": 119,
-        "publish_time": "2026-10-20T12:43:05+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 158.89999999999998,
-        "id": "199062b270c3"
-      },
-      {
-        "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-        "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-        "platform_url": "https://news.ycombinator.com/item?id=50159341",
-        "discussion_url": "https://news.ycombinator.com/item?id=50159341",
-        "score": 720,
-        "comments_count": 208,
-        "publish_time": "2026-10-19T23:22:18+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 566.4,
-        "id": "1e00426d1cd2"
-      },
-      {
-        "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
-        "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-        "platform_url": "https://news.ycombinator.com/item?id=50153934",
-        "discussion_url": "https://news.ycombinator.com/item?id=50153934",
-        "score": 154,
-        "comments_count": 126,
-        "publish_time": "2026-10-19T15:52:26+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 145.6,
-        "id": "bf49fdad0b1f"
-      },
-      {
-        "title": "Ukraine claims first drone evacuation of wounded soldier",
-        "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-        "platform_url": "https://news.ycombinator.com/item?id=50153664",
-        "discussion_url": "https://news.ycombinator.com/item?id=50153664",
-        "score": 411,
-        "comments_count": 320,
-        "publish_time": "2026-10-19T15:31:34+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 383.7,
-        "id": "37a6cc6260d9"
-      },
-      {
-        "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-        "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-        "platform_url": "https://news.ycombinator.com/item?id=50153630",
-        "discussion_url": "https://news.ycombinator.com/item?id=50153630",
-        "score": 354,
-        "comments_count": 59,
-        "publish_time": "2026-10-19T15:28:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 265.5,
-        "id": "c9b1bcecface"
       }
     ],
     "bestblogs": [
@@ -468,6 +468,41 @@
     ],
     "qbitai": [
       {
+        "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+        "url": "https://www.qbitai.com/2026/10/504730.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504730.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/60034dc56d2f77db0b8eff11820df665-scaled-e1792575906202.png",
+        "publish_time": "2026-10-21T09:45:22+00:00",
+        "tags": [
+          "生数科技"
+        ],
+        "platform": "qbitai",
+        "id": "aedb10735f1a"
+      },
+      {
+        "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+        "url": "https://www.qbitai.com/2026/10/504653.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504653.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/b5d02e59509a6e74d695064de8f1c3d8.jpeg",
+        "publish_time": "2026-10-21T07:15:05+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "3c3d90ba2e2a"
+      },
+      {
+        "title": "量智齐飞！4个月9款车落地，轻舟城市NOA击穿10-20万体验天花板",
+        "url": "https://www.qbitai.com/2026/10/504638.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504638.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/866f3d3fb7a38efed9943b863e41ad8a.webp",
+        "publish_time": "2026-10-21T06:40:46+00:00",
+        "tags": [
+          "智驾",
+          "轻舟智航"
+        ],
+        "platform": "qbitai",
+        "id": "2e458d188c55"
+      },
+      {
         "title": "实探宁德时代总部：“去宁化”是喊太大声了",
         "url": "https://www.qbitai.com/2026/10/504618.html",
         "platform_url": "https://www.qbitai.com/2026/10/504618.html",
@@ -554,42 +589,6 @@
         ],
         "platform": "qbitai",
         "id": "ba12d1be757b"
-      },
-      {
-        "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
-        "url": "https://www.qbitai.com/2026/10/504415.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504415.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3940a9359486349f6e77bd2623751981.png",
-        "publish_time": "2026-10-20T04:59:04+00:00",
-        "tags": [
-          "Meshy"
-        ],
-        "platform": "qbitai",
-        "id": "8e508ec02db2"
-      },
-      {
-        "title": "赛豆首款AI汽车公告图公示，价格被按零件猜到了20万以上",
-        "url": "https://www.qbitai.com/2026/10/504395.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504395.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/19613eed88ac78521e016cdf4833b501.png",
-        "publish_time": "2026-10-20T04:18:29+00:00",
-        "tags": [
-          "赛豆科技"
-        ],
-        "platform": "qbitai",
-        "id": "2f3281fdb56a"
-      },
-      {
-        "title": "AI硬件出海，别当“背景板”，GTC2026 Shanghai「AI硬件专区」邀你占位",
-        "url": "https://www.qbitai.com/2026/10/504372.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504372.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/601d776d123faf2df066c120546caa44.jpeg",
-        "publish_time": "2026-10-20T04:08:15+00:00",
-        "tags": [
-          "白鲸出海"
-        ],
-        "platform": "qbitai",
-        "id": "164451ec2353"
       }
     ],
     "huggingface": [
@@ -634,7 +633,7 @@
         ],
         "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras,",
         "platform": "huggingface",
-        "score": 28,
+        "score": 41,
         "comments_count": 1,
         "id": "dafc5fa9102d"
       },
@@ -649,7 +648,7 @@
         ],
         "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration",
         "platform": "huggingface",
-        "score": 20,
+        "score": 146,
         "comments_count": 1,
         "id": "0292f4504d24"
       },
@@ -667,6 +666,53 @@
         "score": 14,
         "comments_count": 1,
         "id": "65ec9d4a78ce"
+      },
+      {
+        "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+        "url": "https://huggingface.co/papers/2610.27999",
+        "platform_url": "https://huggingface.co/papers/2610.27999",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27999.png",
+        "publish_time": "2026-10-19T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas int",
+        "platform": "huggingface",
+        "score": 175,
+        "comments_count": 1,
+        "id": "56b24ef37a92"
+      },
+      {
+        "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+        "url": "https://huggingface.co/papers/2610.28354",
+        "platform_url": "https://huggingface.co/papers/2610.28354",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28354.png",
+        "publish_time": "2026-10-19T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusio",
+        "platform": "huggingface",
+        "score": 86,
+        "comments_count": 1,
+        "id": "8562e3160266"
+      },
+      {
+        "title": "[模型] XHToken/Spark-X2.6-4B",
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "platform_url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "cover_url": null,
+        "publish_time": "2026-10-19T03:19:51.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 120 · 下载 85",
+        "platform": "huggingface",
+        "score": 127,
+        "trending_score": 120,
+        "downloads": 85,
+        "id": "7c2bf23cf05f"
       },
       {
         "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
@@ -844,57 +890,34 @@
         ],
         "summary": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak denoiser's prediction, amplifying components that remain underfit. The weak guide can be an early tr",
         "platform": "huggingface",
-        "score": 21,
+        "score": 27,
         "comments_count": 1,
         "id": "f128e24b37c4"
-      },
-      {
-        "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
-        "url": "https://huggingface.co/papers/2610.26067",
-        "platform_url": "https://huggingface.co/papers/2610.26067",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26067.png",
-        "publish_time": "2026-10-18T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspaces. Specifically, we propose a Neural Skinning Fields Autoencoder that predicts shape-dependent deformation subspaces without per-object network training. To learn these subspaces without simulation tr",
-        "platform": "huggingface",
-        "score": 14,
-        "comments_count": 1,
-        "id": "12bc8e70afcb"
-      },
-      {
-        "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
-        "url": "https://huggingface.co/papers/2610.25404",
-        "platform_url": "https://huggingface.co/papers/2610.25404",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25404.png",
-        "publish_time": "2026-10-17T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unintended changes to preserved regions and prior edits. To address these challenges, we propose MT Forc",
-        "platform": "huggingface",
-        "score": 30,
-        "comments_count": 1,
-        "id": "9c7cfd4bb3d1"
-      },
-      {
-        "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
-        "url": "https://huggingface.co/papers/2610.24960",
-        "platform_url": "https://huggingface.co/papers/2610.24960",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.24960.png",
-        "publish_time": "2026-10-17T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements guide task construction, and programmatic validation with feedback repair checks ge",
-        "platform": "huggingface",
-        "score": 36,
-        "comments_count": 2,
-        "id": "5293d7da8ff7"
       }
     ],
     "radarai": [
+      {
+        "title": "可灵4.0多平台上线开放API，OpenAI牵头修复14年PHP高危漏洞 · 1022-756期",
+        "url": "https://radarai.top/updates/brief-20261022-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261022-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-21T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "a08aecfc3301"
+      },
+      {
+        "title": "SpaceX靠AI算力租赁单季收入76亿美元，首次实现季度盈利 · 1021-755期",
+        "url": "https://radarai.top/updates/brief-20261021-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261021-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-21T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "d4ecb399a55f"
+      },
       {
         "title": "OpenRouter智能体周用量达人类8倍 · 1021-754期",
         "url": "https://radarai.top/updates/brief-20261021-0800",
@@ -982,32 +1005,103 @@
         "summary": "",
         "platform": "radarai",
         "id": "d6a05981f0a2"
-      },
-      {
-        "title": "Anthropic员工预测AI 2030年接手75%工作 · 1018-746期",
-        "url": "https://radarai.top/updates/brief-20261018-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261018-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-18T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "0c8ced079e4a"
-      },
-      {
-        "title": "长程智能体百步成功率跌至37%，Anthropic撤销Claude密钥 · 1018-745期",
-        "url": "https://radarai.top/updates/brief-20261018-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261018-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-18T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e6f4b18c0b77"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "可灵4.0多平台上线开放API，OpenAI牵头修复14年PHP高危漏洞 · 1022-756期",
+      "url": "https://radarai.top/updates/brief-20261022-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261022-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-21T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "a08aecfc3301"
+    },
+    {
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "platform_url": "https://news.ycombinator.com/item?id=50181175",
+      "discussion_url": "https://news.ycombinator.com/item?id=50181175",
+      "score": 131,
+      "comments_count": 70,
+      "publish_time": "2026-10-21T14:03:43+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 112.69999999999999,
+      "id": "9f3b34cd03dc"
+    },
+    {
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "platform_url": "https://news.ycombinator.com/item?id=50181114",
+      "discussion_url": "https://news.ycombinator.com/item?id=50181114",
+      "score": 131,
+      "comments_count": 54,
+      "publish_time": "2026-10-21T14:00:26+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 107.89999999999999,
+      "id": "9082c0ecd45c"
+    },
+    {
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "platform_url": "https://news.ycombinator.com/item?id=50180836",
+      "discussion_url": "https://news.ycombinator.com/item?id=50180836",
+      "score": 366,
+      "comments_count": 124,
+      "publish_time": "2026-10-21T13:43:19+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 293.4,
+      "id": "2ef6273684d3"
+    },
+    {
+      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "url": "https://www.qbitai.com/2026/10/504730.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504730.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/60034dc56d2f77db0b8eff11820df665-scaled-e1792575906202.png",
+      "publish_time": "2026-10-21T09:45:22+00:00",
+      "tags": [
+        "生数科技"
+      ],
+      "platform": "qbitai",
+      "id": "aedb10735f1a"
+    },
+    {
+      "title": "SpaceX靠AI算力租赁单季收入76亿美元，首次实现季度盈利 · 1021-755期",
+      "url": "https://radarai.top/updates/brief-20261021-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261021-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-21T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "d4ecb399a55f"
+    },
+    {
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "url": "https://www.qbitai.com/2026/10/504653.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504653.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/b5d02e59509a6e74d695064de8f1c3d8.jpeg",
+      "publish_time": "2026-10-21T07:15:05+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "3c3d90ba2e2a"
+    },
+    {
+      "title": "量智齐飞！4个月9款车落地，轻舟城市NOA击穿10-20万体验天花板",
+      "url": "https://www.qbitai.com/2026/10/504638.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504638.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/866f3d3fb7a38efed9943b863e41ad8a.webp",
+      "publish_time": "2026-10-21T06:40:46+00:00",
+      "tags": [
+        "智驾",
+        "轻舟智航"
+      ],
+      "platform": "qbitai",
+      "id": "2e458d188c55"
+    },
     {
       "title": "Al Chen：用可验证的工程证据缩短大型银行 AI 部署审查",
       "url": "https://www.bestblogs.dev/article/RAW_7b1efaa0c",
@@ -1191,6 +1285,18 @@
       "id": "861f221a2d0f"
     },
     {
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "platform_url": "https://news.ycombinator.com/item?id=50175779",
+      "discussion_url": "https://news.ycombinator.com/item?id=50175779",
+      "score": 112,
+      "comments_count": 74,
+      "publish_time": "2026-10-21T03:36:43+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 100.6,
+      "id": "395f6d079ac7"
+    },
+    {
       "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
       "url": "https://www.qbitai.com/2026/10/504608.html",
       "platform_url": "https://www.qbitai.com/2026/10/504608.html",
@@ -1205,15 +1311,27 @@
       "id": "1f6ad0c872e3"
     },
     {
+      "title": "In Hilbert space, all things are quantumly possible",
+      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "platform_url": "https://news.ycombinator.com/item?id=50175185",
+      "discussion_url": "https://news.ycombinator.com/item?id=50175185",
+      "score": 134,
+      "comments_count": 70,
+      "publish_time": "2026-10-21T02:04:15+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 114.8,
+      "id": "c5b60c3f5cc5"
+    },
+    {
       "title": "Good type against all odds",
       "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
       "platform_url": "https://news.ycombinator.com/item?id=50175059",
       "discussion_url": "https://news.ycombinator.com/item?id=50175059",
-      "score": 66,
-      "comments_count": 8,
+      "score": 183,
+      "comments_count": 18,
       "publish_time": "2026-10-21T01:45:07+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 48.599999999999994,
+      "hn_hot_score": 133.5,
       "id": "78dd3d6da9ee"
     },
     {
@@ -1279,11 +1397,11 @@
       "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
       "platform_url": "https://news.ycombinator.com/item?id=50167536",
       "discussion_url": "https://news.ycombinator.com/item?id=50167536",
-      "score": 428,
-      "comments_count": 386,
+      "score": 456,
+      "comments_count": 395,
       "publish_time": "2026-10-20T15:06:08+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 415.4,
+      "hn_hot_score": 437.7,
       "id": "88d244acae9d"
     },
     {
@@ -1303,24 +1421,12 @@
       "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
       "platform_url": "https://news.ycombinator.com/item?id=50165801",
       "discussion_url": "https://news.ycombinator.com/item?id=50165801",
-      "score": 330,
-      "comments_count": 192,
+      "score": 353,
+      "comments_count": 201,
       "publish_time": "2026-10-20T13:06:22+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 288.59999999999997,
+      "hn_hot_score": 307.4,
       "id": "754ab4203a1c"
-    },
-    {
-      "title": "NixOS is making me less afraid",
-      "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
-      "platform_url": "https://news.ycombinator.com/item?id=50165484",
-      "discussion_url": "https://news.ycombinator.com/item?id=50165484",
-      "score": 176,
-      "comments_count": 119,
-      "publish_time": "2026-10-20T12:43:05+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 158.89999999999998,
-      "id": "199062b270c3"
     },
     {
       "title": "比亚迪成为2026年APEC会议官方合作伙伴",
@@ -1542,42 +1648,6 @@
       "id": "0d74a647c188"
     },
     {
-      "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
-      "url": "https://www.qbitai.com/2026/10/504415.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504415.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3940a9359486349f6e77bd2623751981.png",
-      "publish_time": "2026-10-20T04:59:04+00:00",
-      "tags": [
-        "Meshy"
-      ],
-      "platform": "qbitai",
-      "id": "8e508ec02db2"
-    },
-    {
-      "title": "赛豆首款AI汽车公告图公示，价格被按零件猜到了20万以上",
-      "url": "https://www.qbitai.com/2026/10/504395.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504395.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/19613eed88ac78521e016cdf4833b501.png",
-      "publish_time": "2026-10-20T04:18:29+00:00",
-      "tags": [
-        "赛豆科技"
-      ],
-      "platform": "qbitai",
-      "id": "2f3281fdb56a"
-    },
-    {
-      "title": "AI硬件出海，别当“背景板”，GTC2026 Shanghai「AI硬件专区」邀你占位",
-      "url": "https://www.qbitai.com/2026/10/504372.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504372.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/601d776d123faf2df066c120546caa44.jpeg",
-      "publish_time": "2026-10-20T04:08:15+00:00",
-      "tags": [
-        "白鲸出海"
-      ],
-      "platform": "qbitai",
-      "id": "164451ec2353"
-    },
-    {
       "title": "MiniMax M3.1 Flash 隐身登顶 OpenRouter 十天 · 1020-751期",
       "url": "https://radarai.top/updates/brief-20261020-0800",
       "platform_url": "https://radarai.top/updates/brief-20261020-0800",
@@ -1587,18 +1657,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "ec43052e6af2"
-    },
-    {
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "platform_url": "https://news.ycombinator.com/item?id=50159341",
-      "discussion_url": "https://news.ycombinator.com/item?id=50159341",
-      "score": 720,
-      "comments_count": 208,
-      "publish_time": "2026-10-19T23:22:18+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 566.4,
-      "id": "1e00426d1cd2"
     },
     {
       "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
@@ -1641,7 +1699,7 @@
       ],
       "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras,",
       "platform": "huggingface",
-      "score": 28,
+      "score": 41,
       "comments_count": 1,
       "id": "dafc5fa9102d"
     },
@@ -1656,7 +1714,7 @@
       ],
       "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration",
       "platform": "huggingface",
-      "score": 20,
+      "score": 146,
       "comments_count": 1,
       "id": "0292f4504d24"
     },
@@ -1676,6 +1734,36 @@
       "id": "65ec9d4a78ce"
     },
     {
+      "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2610.27999",
+      "platform_url": "https://huggingface.co/papers/2610.27999",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27999.png",
+      "publish_time": "2026-10-19T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas int",
+      "platform": "huggingface",
+      "score": 175,
+      "comments_count": 1,
+      "id": "56b24ef37a92"
+    },
+    {
+      "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+      "url": "https://huggingface.co/papers/2610.28354",
+      "platform_url": "https://huggingface.co/papers/2610.28354",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28354.png",
+      "publish_time": "2026-10-19T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusio",
+      "platform": "huggingface",
+      "score": 86,
+      "comments_count": 1,
+      "id": "8562e3160266"
+    },
+    {
       "title": "谷歌Gemini 4自主通关《我的世界》27小时 · 1020-750期",
       "url": "https://radarai.top/updates/brief-20261020-0000",
       "platform_url": "https://radarai.top/updates/brief-20261020-0000",
@@ -1687,42 +1775,6 @@
       "id": "5f9878065ffd"
     },
     {
-      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
-      "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
-      "platform_url": "https://news.ycombinator.com/item?id=50153934",
-      "discussion_url": "https://news.ycombinator.com/item?id=50153934",
-      "score": 154,
-      "comments_count": 126,
-      "publish_time": "2026-10-19T15:52:26+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 145.6,
-      "id": "bf49fdad0b1f"
-    },
-    {
-      "title": "Ukraine claims first drone evacuation of wounded soldier",
-      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-      "platform_url": "https://news.ycombinator.com/item?id=50153664",
-      "discussion_url": "https://news.ycombinator.com/item?id=50153664",
-      "score": 411,
-      "comments_count": 320,
-      "publish_time": "2026-10-19T15:31:34+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 383.7,
-      "id": "37a6cc6260d9"
-    },
-    {
-      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-      "platform_url": "https://news.ycombinator.com/item?id=50153630",
-      "discussion_url": "https://news.ycombinator.com/item?id=50153630",
-      "score": 354,
-      "comments_count": 59,
-      "publish_time": "2026-10-19T15:28:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 265.5,
-      "id": "c9b1bcecface"
-    },
-    {
       "title": "面壁智能大监督智能体落地，6个Agent退款实验为何全失败 · 1019-749期",
       "url": "https://radarai.top/updates/brief-20261019-1600",
       "platform_url": "https://radarai.top/updates/brief-20261019-1600",
@@ -1732,6 +1784,23 @@
       "summary": "",
       "platform": "radarai",
       "id": "143664609352"
+    },
+    {
+      "title": "[模型] XHToken/Spark-X2.6-4B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "platform_url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "cover_url": null,
+      "publish_time": "2026-10-19T03:19:51.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 120 · 下载 85",
+      "platform": "huggingface",
+      "score": 127,
+      "trending_score": 120,
+      "downloads": 85,
+      "id": "7c2bf23cf05f"
     },
     {
       "title": "FLUX.1-dev衍生模型达4.3万 · 1019-748期",
@@ -1920,24 +1989,9 @@
       ],
       "summary": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak denoiser's prediction, amplifying components that remain underfit. The weak guide can be an early tr",
       "platform": "huggingface",
-      "score": 21,
+      "score": 27,
       "comments_count": 1,
       "id": "f128e24b37c4"
-    },
-    {
-      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
-      "url": "https://huggingface.co/papers/2610.26067",
-      "platform_url": "https://huggingface.co/papers/2610.26067",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26067.png",
-      "publish_time": "2026-10-18T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspaces. Specifically, we propose a Neural Skinning Fields Autoencoder that predicts shape-dependent deformation subspaces without per-object network training. To learn these subspaces without simulation tr",
-      "platform": "huggingface",
-      "score": 14,
-      "comments_count": 1,
-      "id": "12bc8e70afcb"
     },
     {
       "title": "英伟达让Kimi K3提速1.68倍，CoreWeave股价却暴跌25% · 1019-747期",
@@ -1949,66 +2003,14 @@
       "summary": "",
       "platform": "radarai",
       "id": "d6a05981f0a2"
-    },
-    {
-      "title": "Anthropic员工预测AI 2030年接手75%工作 · 1018-746期",
-      "url": "https://radarai.top/updates/brief-20261018-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261018-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-18T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "0c8ced079e4a"
-    },
-    {
-      "title": "长程智能体百步成功率跌至37%，Anthropic撤销Claude密钥 · 1018-745期",
-      "url": "https://radarai.top/updates/brief-20261018-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261018-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-18T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e6f4b18c0b77"
-    },
-    {
-      "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
-      "url": "https://huggingface.co/papers/2610.25404",
-      "platform_url": "https://huggingface.co/papers/2610.25404",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25404.png",
-      "publish_time": "2026-10-17T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unintended changes to preserved regions and prior edits. To address these challenges, we propose MT Forc",
-      "platform": "huggingface",
-      "score": 30,
-      "comments_count": 1,
-      "id": "9c7cfd4bb3d1"
-    },
-    {
-      "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
-      "url": "https://huggingface.co/papers/2610.24960",
-      "platform_url": "https://huggingface.co/papers/2610.24960",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.24960.png",
-      "publish_time": "2026-10-17T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements guide task construction, and programmatic validation with feedback repair checks ge",
-      "platform": "huggingface",
-      "score": 36,
-      "comments_count": 2,
-      "id": "5293d7da8ff7"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.4,
-      "cover_success_rate": 42.9
+      "avg_response_time": 10.0,
+      "cover_success_rate": 41.4
     },
     "platforms": [
       {
@@ -2016,73 +2018,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-21T05:25:05.501489+00:00"
+        "last_crawl": "2026-10-21T16:55:07.939821+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-21T05:25:37.293360+00:00"
+        "last_crawl": "2026-10-21T16:55:30.760537+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-21T05:25:38.796121+00:00"
+        "last_crawl": "2026-10-21T16:55:32.076147+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-21T05:25:48.322442+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-21T16:55:41.794490+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-21T05:25:48.528739+00:00"
+        "last_crawl": "2026-10-21T16:55:41.961020+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-21T05:25:05.501494+00:00",
+        "timestamp": "2026-10-21T16:55:07.939826+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 9.111783
+        "latency": 15.830485
       },
       {
-        "timestamp": "2026-10-21T05:25:37.293365+00:00",
+        "timestamp": "2026-10-21T16:55:30.760542+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 31.791864
+        "latency": 22.820708
       },
       {
-        "timestamp": "2026-10-21T05:25:38.796128+00:00",
+        "timestamp": "2026-10-21T16:55:32.076153+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.502757
+        "latency": 1.315603
       },
       {
-        "timestamp": "2026-10-21T05:25:48.322448+00:00",
+        "timestamp": "2026-10-21T16:55:41.794496+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 9.526313
+        "items_collected": 10,
+        "latency": 9.718336
       },
       {
-        "timestamp": "2026-10-21T05:25:48.528751+00:00",
+        "timestamp": "2026-10-21T16:55:41.961031+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.206296
+        "latency": 0.166528
       }
     ]
   }
