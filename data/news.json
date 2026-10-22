@@ -1,18 +1,66 @@
 {
-  "update_time": "2026-10-22T05:31:47.394145+00:00",
+  "update_time": "2026-10-22T16:56:08.307384+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+        "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+        "platform_url": "https://news.ycombinator.com/item?id=50193804",
+        "discussion_url": "https://news.ycombinator.com/item?id=50193804",
+        "score": 203,
+        "comments_count": 63,
+        "publish_time": "2026-10-22T11:12:37+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 161.0,
+        "id": "5820b0996390"
+      },
+      {
+        "title": "Jailbreaking the Switch 2",
+        "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+        "platform_url": "https://news.ycombinator.com/item?id=50192536",
+        "discussion_url": "https://news.ycombinator.com/item?id=50192536",
+        "score": 484,
+        "comments_count": 177,
+        "publish_time": "2026-10-22T08:01:52+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 391.9,
+        "id": "b075af0d98b5"
+      },
+      {
+        "title": "OpenAI CLI",
+        "url": "https://github.com/openai/openai-cli",
+        "platform_url": "https://news.ycombinator.com/item?id=50191507",
+        "discussion_url": "https://news.ycombinator.com/item?id=50191507",
+        "score": 210,
+        "comments_count": 100,
+        "publish_time": "2026-10-22T05:23:11+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 177.0,
+        "id": "3dceea6e5b0b"
+      },
+      {
+        "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+        "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+        "platform_url": "https://news.ycombinator.com/item?id=50190363",
+        "discussion_url": "https://news.ycombinator.com/item?id=50190363",
+        "score": 423,
+        "comments_count": 132,
+        "publish_time": "2026-10-22T02:18:41+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 335.7,
+        "id": "c16ef32e0d91"
+      },
       {
         "title": "Airbnb bans making guests do dishes and take out the trash",
         "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
         "platform_url": "https://news.ycombinator.com/item?id=50189150",
         "discussion_url": "https://news.ycombinator.com/item?id=50189150",
-        "score": 153,
-        "comments_count": 138,
+        "score": 222,
+        "comments_count": 203,
         "publish_time": "2026-10-21T23:38:32+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 148.5,
+        "hn_hot_score": 216.29999999999998,
         "id": "c53500aa8cf3"
       },
       {
@@ -20,11 +68,11 @@
         "url": "https://claude.com/product/claude-duet",
         "platform_url": "https://news.ycombinator.com/item?id=50186037",
         "discussion_url": "https://news.ycombinator.com/item?id=50186037",
-        "score": 341,
-        "comments_count": 306,
+        "score": 510,
+        "comments_count": 474,
         "publish_time": "2026-10-21T19:14:01+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 330.5,
+        "hn_hot_score": 499.2,
         "id": "d183457ba9c3"
       },
       {
@@ -32,11 +80,11 @@
         "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
         "platform_url": "https://news.ycombinator.com/item?id=50181175",
         "discussion_url": "https://news.ycombinator.com/item?id=50181175",
-        "score": 247,
-        "comments_count": 165,
+        "score": 260,
+        "comments_count": 182,
         "publish_time": "2026-10-21T14:03:43+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 222.39999999999998,
+        "hn_hot_score": 236.6,
         "id": "9f3b34cd03dc"
       },
       {
@@ -44,11 +92,11 @@
         "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
         "platform_url": "https://news.ycombinator.com/item?id=50181114",
         "discussion_url": "https://news.ycombinator.com/item?id=50181114",
-        "score": 470,
-        "comments_count": 159,
+        "score": 579,
+        "comments_count": 187,
         "publish_time": "2026-10-21T14:00:26+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 376.7,
+        "hn_hot_score": 461.4,
         "id": "9082c0ecd45c"
       },
       {
@@ -74,54 +122,6 @@
         "platform": "hackernews",
         "hn_hot_score": 123.1,
         "id": "7f27a4c1320a"
-      },
-      {
-        "title": "OpenAI models are coming to Google Cloud",
-        "url": "https://openai.com/index/openai-models-google-cloud/",
-        "platform_url": "https://news.ycombinator.com/item?id=50180079",
-        "discussion_url": "https://news.ycombinator.com/item?id=50180079",
-        "score": 272,
-        "comments_count": 111,
-        "publish_time": "2026-10-21T12:53:11+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 223.7,
-        "id": "5875caccd81e"
-      },
-      {
-        "title": "Using Claude to reduce the attack surface of code",
-        "url": "https://www.anthropic.com/research/attack-surface-reduction",
-        "platform_url": "https://news.ycombinator.com/item?id=50175779",
-        "discussion_url": "https://news.ycombinator.com/item?id=50175779",
-        "score": 131,
-        "comments_count": 86,
-        "publish_time": "2026-10-21T03:36:43+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 117.49999999999999,
-        "id": "395f6d079ac7"
-      },
-      {
-        "title": "In Hilbert space, all things are quantumly possible",
-        "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
-        "platform_url": "https://news.ycombinator.com/item?id=50175185",
-        "discussion_url": "https://news.ycombinator.com/item?id=50175185",
-        "score": 141,
-        "comments_count": 77,
-        "publish_time": "2026-10-21T02:04:15+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 121.79999999999998,
-        "id": "c5b60c3f5cc5"
-      },
-      {
-        "title": "Good type against all odds",
-        "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
-        "platform_url": "https://news.ycombinator.com/item?id=50175059",
-        "discussion_url": "https://news.ycombinator.com/item?id=50175059",
-        "score": 198,
-        "comments_count": 20,
-        "publish_time": "2026-10-21T01:45:07+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 144.6,
-        "id": "78dd3d6da9ee"
       }
     ],
     "bestblogs": [
@@ -468,6 +468,55 @@
     ],
     "qbitai": [
       {
+        "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
+        "url": "https://www.qbitai.com/2026/10/504879.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504879.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4b0e934fd967c3de132e20d57a4bbba1.png",
+        "publish_time": "2026-10-22T09:07:05+00:00",
+        "tags": [
+          "蚂蚁"
+        ],
+        "platform": "qbitai",
+        "id": "40bba527c0fa"
+      },
+      {
+        "title": "特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先",
+        "url": "https://www.qbitai.com/2026/10/504841.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504841.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/ddb7d90af4084d32a11b51f3597c1f43.png",
+        "publish_time": "2026-10-22T07:14:48+00:00",
+        "tags": [
+          "特斯拉"
+        ],
+        "platform": "qbitai",
+        "id": "7b0f6ae44a66"
+      },
+      {
+        "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+        "url": "https://www.qbitai.com/2026/10/504832.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504832.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f2a402e21a89a4c63cc83bb96be9077d.png",
+        "publish_time": "2026-10-22T07:11:14+00:00",
+        "tags": [
+          "华为",
+          "电信"
+        ],
+        "platform": "qbitai",
+        "id": "651bf19662f6"
+      },
+      {
+        "title": "谁在给OpenAI供应具身数据？",
+        "url": "https://www.qbitai.com/2026/10/504800.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504800.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2f7f9d2f186eaf0b1e429546b2d095b4.gif",
+        "publish_time": "2026-10-22T07:05:59+00:00",
+        "tags": [
+          "OpenAI"
+        ],
+        "platform": "qbitai",
+        "id": "878f6ea483cc"
+      },
+      {
         "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
         "url": "https://www.qbitai.com/2026/10/504730.html",
         "platform_url": "https://www.qbitai.com/2026/10/504730.html",
@@ -478,6 +527,18 @@
         ],
         "platform": "qbitai",
         "id": "aedb10735f1a"
+      },
+      {
+        "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
+        "url": "https://www.qbitai.com/2026/10/504435.html",
+        "platform_url": "https://www.qbitai.com/2026/10/504435.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/584c8a9d13508628f2c1159b82a20c53.jpeg",
+        "publish_time": "2026-10-21T09:13:00+00:00",
+        "tags": [
+          "比亚迪"
+        ],
+        "platform": "qbitai",
+        "id": "1881c859bd0a"
       },
       {
         "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
@@ -527,68 +588,6 @@
         ],
         "platform": "qbitai",
         "id": "1f6ad0c872e3"
-      },
-      {
-        "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
-        "url": "https://www.qbitai.com/2026/10/504551.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504551.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/790ab1ee71f71f045687e2dcb1e51058.jpeg",
-        "publish_time": "2026-10-21T01:04:35+00:00",
-        "tags": [
-          "理想汽车"
-        ],
-        "platform": "qbitai",
-        "id": "a2d158796c88"
-      },
-      {
-        "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
-        "url": "https://www.qbitai.com/2026/10/504517.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504517.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3664375f9871cfa7d5310f9b60772307.png",
-        "publish_time": "2026-10-20T13:29:54+00:00",
-        "tags": [
-          "MiniMax"
-        ],
-        "platform": "qbitai",
-        "id": "e3d3b0939f8d"
-      },
-      {
-        "title": "比亚迪成为2026年APEC会议官方合作伙伴",
-        "url": "https://www.qbitai.com/2026/10/504452.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504452.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/6156dadd079929d20f5dae3928d35208.jpeg",
-        "publish_time": "2026-10-20T09:57:35+00:00",
-        "tags": [
-          "比亚迪"
-        ],
-        "platform": "qbitai",
-        "id": "cc27695c386b"
-      },
-      {
-        "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
-        "url": "https://www.qbitai.com/2026/10/504435.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504435.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/584c8a9d13508628f2c1159b82a20c53.jpeg",
-        "publish_time": "2026-10-20T09:13:14+00:00",
-        "tags": [
-          "比亚迪"
-        ],
-        "platform": "qbitai",
-        "id": "1881c859bd0a"
-      },
-      {
-        "title": "首Token延迟降低32.4%！是石科技集群调度大招，国产推理再提效",
-        "url": "https://www.qbitai.com/2026/10/504421.html",
-        "platform_url": "https://www.qbitai.com/2026/10/504421.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3c0ed51e1627fa76272d842d1f2969b3.webp",
-        "publish_time": "2026-10-20T08:01:25+00:00",
-        "tags": [
-          "token",
-          "推理",
-          "是石科技"
-        ],
-        "platform": "qbitai",
-        "id": "ba12d1be757b"
       }
     ],
     "huggingface": [
@@ -602,11 +601,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 297 · 下载 0",
+        "summary": "TrendingScore 457 · 下载 420",
         "platform": "huggingface",
-        "score": 300,
-        "trending_score": 297,
-        "downloads": 0,
+        "score": 463,
+        "trending_score": 457,
+        "downloads": 420,
         "id": "190dc299d073"
       },
       {
@@ -637,8 +636,8 @@
         ],
         "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated c",
         "platform": "huggingface",
-        "score": 34,
-        "comments_count": 1,
+        "score": 89,
+        "comments_count": 2,
         "id": "81e6afd4aba4"
       },
       {
@@ -667,7 +666,7 @@
         ],
         "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained acro",
         "platform": "huggingface",
-        "score": 13,
+        "score": 103,
         "comments_count": 1,
         "id": "7e27cad526e6"
       },
@@ -685,6 +684,23 @@
         "score": 11,
         "comments_count": 1,
         "id": "6aa9a3060fc4"
+      },
+      {
+        "title": "[模型] unsloth/flint-GGUF",
+        "url": "https://huggingface.co/unsloth/flint-GGUF",
+        "platform_url": "https://huggingface.co/unsloth/flint-GGUF",
+        "cover_url": null,
+        "publish_time": "2026-10-20T03:26:14.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 135 · 下载 7,401",
+        "platform": "huggingface",
+        "score": 136,
+        "trending_score": 135,
+        "downloads": 7401,
+        "id": "3b000dacff48"
       },
       {
         "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
@@ -802,7 +818,7 @@
         ],
         "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states ",
         "platform": "huggingface",
-        "score": 44,
+        "score": 103,
         "comments_count": 1,
         "id": "a66e063a56c2"
       },
@@ -832,9 +848,24 @@
         ],
         "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from ",
         "platform": "huggingface",
-        "score": 15,
+        "score": 45,
         "comments_count": 1,
         "id": "75ea4f8a8cf4"
+      },
+      {
+        "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+        "url": "https://huggingface.co/papers/2610.28402",
+        "platform_url": "https://huggingface.co/papers/2610.28402",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28402.png",
+        "publish_time": "2026-10-19T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements ",
+        "platform": "huggingface",
+        "score": 265,
+        "comments_count": 1,
+        "id": "57aefd1c6b19"
       },
       {
         "title": "[模型] XHToken/Spark-X2.6-4B",
@@ -846,11 +877,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 179 · 下载 85",
+        "summary": "TrendingScore 218 · 下载 482",
         "platform": "huggingface",
-        "score": 191,
-        "trending_score": 179,
-        "downloads": 85,
+        "score": 231,
+        "trending_score": 218,
+        "downloads": 482,
         "id": "7c2bf23cf05f"
       },
       {
@@ -867,39 +898,31 @@
         "score": 77,
         "comments_count": 1,
         "id": "1e055d8e2cd3"
-      },
-      {
-        "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-        "url": "https://huggingface.co/papers/2610.25736",
-        "platform_url": "https://huggingface.co/papers/2610.25736",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25736.png",
-        "publish_time": "2026-10-18T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL thr",
-        "platform": "huggingface",
-        "score": 107,
-        "comments_count": 2,
-        "id": "eec8928d1cdf"
-      },
-      {
-        "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
-        "url": "https://huggingface.co/papers/2610.26216",
-        "platform_url": "https://huggingface.co/papers/2610.26216",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26216.png",
-        "publish_time": "2026-10-18T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from corrupted latents yields comparable downstream generation performance under a matched se",
-        "platform": "huggingface",
-        "score": 23,
-        "comments_count": 1,
-        "id": "b792cd221c41"
       }
     ],
     "radarai": [
+      {
+        "title": "谷歌Gemini 5确认大幅跃升，蚂蚁百灵开源医疗MoE模型 · 1023-759期",
+        "url": "https://radarai.top/updates/brief-20261023-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261023-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-22T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "38ab515f5886"
+      },
+      {
+        "title": "PHP内核高危漏洞全球紧急下线，讯飞星火X2.6与Claude Duet同期发布 · 1022-758期",
+        "url": "https://radarai.top/updates/brief-20261022-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261022-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-22T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "f41674c18dea"
+      },
       {
         "title": "Grok Bot支持实时协作甚至能玩《毁灭战士》 · 1022-757期",
         "url": "https://radarai.top/updates/brief-20261022-0800",
@@ -987,32 +1010,105 @@
         "summary": "",
         "platform": "radarai",
         "id": "5f9878065ffd"
-      },
-      {
-        "title": "面壁智能大监督智能体落地，6个Agent退款实验为何全失败 · 1019-749期",
-        "url": "https://radarai.top/updates/brief-20261019-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261019-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-19T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "143664609352"
-      },
-      {
-        "title": "FLUX.1-dev衍生模型达4.3万 · 1019-748期",
-        "url": "https://radarai.top/updates/brief-20261019-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261019-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-19T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "3426c1d0f706"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "谷歌Gemini 5确认大幅跃升，蚂蚁百灵开源医疗MoE模型 · 1023-759期",
+      "url": "https://radarai.top/updates/brief-20261023-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261023-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-22T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "38ab515f5886"
+    },
+    {
+      "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "platform_url": "https://news.ycombinator.com/item?id=50193804",
+      "discussion_url": "https://news.ycombinator.com/item?id=50193804",
+      "score": 203,
+      "comments_count": 63,
+      "publish_time": "2026-10-22T11:12:37+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 161.0,
+      "id": "5820b0996390"
+    },
+    {
+      "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
+      "url": "https://www.qbitai.com/2026/10/504879.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504879.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4b0e934fd967c3de132e20d57a4bbba1.png",
+      "publish_time": "2026-10-22T09:07:05+00:00",
+      "tags": [
+        "蚂蚁"
+      ],
+      "platform": "qbitai",
+      "id": "40bba527c0fa"
+    },
+    {
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "platform_url": "https://news.ycombinator.com/item?id=50192536",
+      "discussion_url": "https://news.ycombinator.com/item?id=50192536",
+      "score": 484,
+      "comments_count": 177,
+      "publish_time": "2026-10-22T08:01:52+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 391.9,
+      "id": "b075af0d98b5"
+    },
+    {
+      "title": "PHP内核高危漏洞全球紧急下线，讯飞星火X2.6与Claude Duet同期发布 · 1022-758期",
+      "url": "https://radarai.top/updates/brief-20261022-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261022-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-22T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "f41674c18dea"
+    },
+    {
+      "title": "特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先",
+      "url": "https://www.qbitai.com/2026/10/504841.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504841.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/ddb7d90af4084d32a11b51f3597c1f43.png",
+      "publish_time": "2026-10-22T07:14:48+00:00",
+      "tags": [
+        "特斯拉"
+      ],
+      "platform": "qbitai",
+      "id": "7b0f6ae44a66"
+    },
+    {
+      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+      "url": "https://www.qbitai.com/2026/10/504832.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504832.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f2a402e21a89a4c63cc83bb96be9077d.png",
+      "publish_time": "2026-10-22T07:11:14+00:00",
+      "tags": [
+        "华为",
+        "电信"
+      ],
+      "platform": "qbitai",
+      "id": "651bf19662f6"
+    },
+    {
+      "title": "谁在给OpenAI供应具身数据？",
+      "url": "https://www.qbitai.com/2026/10/504800.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504800.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2f7f9d2f186eaf0b1e429546b2d095b4.gif",
+      "publish_time": "2026-10-22T07:05:59+00:00",
+      "tags": [
+        "OpenAI"
+      ],
+      "platform": "qbitai",
+      "id": "878f6ea483cc"
+    },
     {
       "title": "迈向智能体规模的 Git 基础设施",
       "url": "https://www.bestblogs.dev/article/RAW_68d4a06067",
@@ -1184,6 +1280,30 @@
       "id": "33c914d32d7f"
     },
     {
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "platform_url": "https://news.ycombinator.com/item?id=50191507",
+      "discussion_url": "https://news.ycombinator.com/item?id=50191507",
+      "score": 210,
+      "comments_count": 100,
+      "publish_time": "2026-10-22T05:23:11+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 177.0,
+      "id": "3dceea6e5b0b"
+    },
+    {
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "platform_url": "https://news.ycombinator.com/item?id=50190363",
+      "discussion_url": "https://news.ycombinator.com/item?id=50190363",
+      "score": 423,
+      "comments_count": 132,
+      "publish_time": "2026-10-22T02:18:41+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 335.7,
+      "id": "c16ef32e0d91"
+    },
+    {
       "title": "Grok Bot支持实时协作甚至能玩《毁灭战士》 · 1022-757期",
       "url": "https://radarai.top/updates/brief-20261022-0800",
       "platform_url": "https://radarai.top/updates/brief-20261022-0800",
@@ -1199,11 +1319,11 @@
       "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
       "platform_url": "https://news.ycombinator.com/item?id=50189150",
       "discussion_url": "https://news.ycombinator.com/item?id=50189150",
-      "score": 153,
-      "comments_count": 138,
+      "score": 222,
+      "comments_count": 203,
       "publish_time": "2026-10-21T23:38:32+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 148.5,
+      "hn_hot_score": 216.29999999999998,
       "id": "c53500aa8cf3"
     },
     {
@@ -1211,11 +1331,11 @@
       "url": "https://claude.com/product/claude-duet",
       "platform_url": "https://news.ycombinator.com/item?id=50186037",
       "discussion_url": "https://news.ycombinator.com/item?id=50186037",
-      "score": 341,
-      "comments_count": 306,
+      "score": 510,
+      "comments_count": 474,
       "publish_time": "2026-10-21T19:14:01+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 330.5,
+      "hn_hot_score": 499.2,
       "id": "d183457ba9c3"
     },
     {
@@ -1239,11 +1359,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 297 · 下载 0",
+      "summary": "TrendingScore 457 · 下载 420",
       "platform": "huggingface",
-      "score": 300,
-      "trending_score": 297,
-      "downloads": 0,
+      "score": 463,
+      "trending_score": 457,
+      "downloads": 420,
       "id": "190dc299d073"
     },
     {
@@ -1251,11 +1371,11 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "platform_url": "https://news.ycombinator.com/item?id=50181175",
       "discussion_url": "https://news.ycombinator.com/item?id=50181175",
-      "score": 247,
-      "comments_count": 165,
+      "score": 260,
+      "comments_count": 182,
       "publish_time": "2026-10-21T14:03:43+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 222.39999999999998,
+      "hn_hot_score": 236.6,
       "id": "9f3b34cd03dc"
     },
     {
@@ -1263,11 +1383,11 @@
       "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
       "platform_url": "https://news.ycombinator.com/item?id=50181114",
       "discussion_url": "https://news.ycombinator.com/item?id=50181114",
-      "score": 470,
-      "comments_count": 159,
+      "score": 579,
+      "comments_count": 187,
       "publish_time": "2026-10-21T14:00:26+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 376.7,
+      "hn_hot_score": 461.4,
       "id": "9082c0ecd45c"
     },
     {
@@ -1295,18 +1415,6 @@
       "id": "7f27a4c1320a"
     },
     {
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "platform_url": "https://news.ycombinator.com/item?id=50180079",
-      "discussion_url": "https://news.ycombinator.com/item?id=50180079",
-      "score": 272,
-      "comments_count": 111,
-      "publish_time": "2026-10-21T12:53:11+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 223.7,
-      "id": "5875caccd81e"
-    },
-    {
       "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
       "url": "https://www.qbitai.com/2026/10/504730.html",
       "platform_url": "https://www.qbitai.com/2026/10/504730.html",
@@ -1317,6 +1425,18 @@
       ],
       "platform": "qbitai",
       "id": "aedb10735f1a"
+    },
+    {
+      "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
+      "url": "https://www.qbitai.com/2026/10/504435.html",
+      "platform_url": "https://www.qbitai.com/2026/10/504435.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/584c8a9d13508628f2c1159b82a20c53.jpeg",
+      "publish_time": "2026-10-21T09:13:00+00:00",
+      "tags": [
+        "比亚迪"
+      ],
+      "platform": "qbitai",
+      "id": "1881c859bd0a"
     },
     {
       "title": "SpaceX靠AI算力租赁单季收入76亿美元，首次实现季度盈利 · 1021-755期",
@@ -1535,18 +1655,6 @@
       "id": "861f221a2d0f"
     },
     {
-      "title": "Using Claude to reduce the attack surface of code",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "platform_url": "https://news.ycombinator.com/item?id=50175779",
-      "discussion_url": "https://news.ycombinator.com/item?id=50175779",
-      "score": 131,
-      "comments_count": 86,
-      "publish_time": "2026-10-21T03:36:43+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 117.49999999999999,
-      "id": "395f6d079ac7"
-    },
-    {
       "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
       "url": "https://www.qbitai.com/2026/10/504608.html",
       "platform_url": "https://www.qbitai.com/2026/10/504608.html",
@@ -1559,42 +1667,6 @@
       ],
       "platform": "qbitai",
       "id": "1f6ad0c872e3"
-    },
-    {
-      "title": "In Hilbert space, all things are quantumly possible",
-      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
-      "platform_url": "https://news.ycombinator.com/item?id=50175185",
-      "discussion_url": "https://news.ycombinator.com/item?id=50175185",
-      "score": 141,
-      "comments_count": 77,
-      "publish_time": "2026-10-21T02:04:15+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 121.79999999999998,
-      "id": "c5b60c3f5cc5"
-    },
-    {
-      "title": "Good type against all odds",
-      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
-      "platform_url": "https://news.ycombinator.com/item?id=50175059",
-      "discussion_url": "https://news.ycombinator.com/item?id=50175059",
-      "score": 198,
-      "comments_count": 20,
-      "publish_time": "2026-10-21T01:45:07+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 144.6,
-      "id": "78dd3d6da9ee"
-    },
-    {
-      "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
-      "url": "https://www.qbitai.com/2026/10/504551.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504551.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/790ab1ee71f71f045687e2dcb1e51058.jpeg",
-      "publish_time": "2026-10-21T01:04:35+00:00",
-      "tags": [
-        "理想汽车"
-      ],
-      "platform": "qbitai",
-      "id": "a2d158796c88"
     },
     {
       "title": "[模型] KRAFTON/Raon-1-mini-preview",
@@ -1635,8 +1707,8 @@
       ],
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated c",
       "platform": "huggingface",
-      "score": 34,
-      "comments_count": 1,
+      "score": 89,
+      "comments_count": 2,
       "id": "81e6afd4aba4"
     },
     {
@@ -1665,7 +1737,7 @@
       ],
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained acro",
       "platform": "huggingface",
-      "score": 13,
+      "score": 103,
       "comments_count": 1,
       "id": "7e27cad526e6"
     },
@@ -1696,56 +1768,6 @@
       "id": "b07dcb7d82d9"
     },
     {
-      "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
-      "url": "https://www.qbitai.com/2026/10/504517.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504517.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3664375f9871cfa7d5310f9b60772307.png",
-      "publish_time": "2026-10-20T13:29:54+00:00",
-      "tags": [
-        "MiniMax"
-      ],
-      "platform": "qbitai",
-      "id": "e3d3b0939f8d"
-    },
-    {
-      "title": "比亚迪成为2026年APEC会议官方合作伙伴",
-      "url": "https://www.qbitai.com/2026/10/504452.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504452.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/6156dadd079929d20f5dae3928d35208.jpeg",
-      "publish_time": "2026-10-20T09:57:35+00:00",
-      "tags": [
-        "比亚迪"
-      ],
-      "platform": "qbitai",
-      "id": "cc27695c386b"
-    },
-    {
-      "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
-      "url": "https://www.qbitai.com/2026/10/504435.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504435.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/584c8a9d13508628f2c1159b82a20c53.jpeg",
-      "publish_time": "2026-10-20T09:13:14+00:00",
-      "tags": [
-        "比亚迪"
-      ],
-      "platform": "qbitai",
-      "id": "1881c859bd0a"
-    },
-    {
-      "title": "首Token延迟降低32.4%！是石科技集群调度大招，国产推理再提效",
-      "url": "https://www.qbitai.com/2026/10/504421.html",
-      "platform_url": "https://www.qbitai.com/2026/10/504421.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3c0ed51e1627fa76272d842d1f2969b3.webp",
-      "publish_time": "2026-10-20T08:01:25+00:00",
-      "tags": [
-        "token",
-        "推理",
-        "是石科技"
-      ],
-      "platform": "qbitai",
-      "id": "ba12d1be757b"
-    },
-    {
       "title": "美银称AI资本开支超预期50%收入仅增20%，面壁智能35B MoE手机端跑通 · 1020-752期",
       "url": "https://radarai.top/updates/brief-20261020-1600",
       "platform_url": "https://radarai.top/updates/brief-20261020-1600",
@@ -1755,6 +1777,23 @@
       "summary": "",
       "platform": "radarai",
       "id": "53df2ba13281"
+    },
+    {
+      "title": "[模型] unsloth/flint-GGUF",
+      "url": "https://huggingface.co/unsloth/flint-GGUF",
+      "platform_url": "https://huggingface.co/unsloth/flint-GGUF",
+      "cover_url": null,
+      "publish_time": "2026-10-20T03:26:14.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 135 · 下载 7,401",
+      "platform": "huggingface",
+      "score": 136,
+      "trending_score": 135,
+      "downloads": 7401,
+      "id": "3b000dacff48"
     },
     {
       "title": "MiniMax M3.1 Flash 隐身登顶 OpenRouter 十天 · 1020-751期",
@@ -1883,7 +1922,7 @@
       ],
       "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states ",
       "platform": "huggingface",
-      "score": 44,
+      "score": 103,
       "comments_count": 1,
       "id": "a66e063a56c2"
     },
@@ -1913,9 +1952,24 @@
       ],
       "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from ",
       "platform": "huggingface",
-      "score": 15,
+      "score": 45,
       "comments_count": 1,
       "id": "75ea4f8a8cf4"
+    },
+    {
+      "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "url": "https://huggingface.co/papers/2610.28402",
+      "platform_url": "https://huggingface.co/papers/2610.28402",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28402.png",
+      "publish_time": "2026-10-19T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements ",
+      "platform": "huggingface",
+      "score": 265,
+      "comments_count": 1,
+      "id": "57aefd1c6b19"
     },
     {
       "title": "谷歌Gemini 4自主通关《我的世界》27小时 · 1020-750期",
@@ -1929,17 +1983,6 @@
       "id": "5f9878065ffd"
     },
     {
-      "title": "面壁智能大监督智能体落地，6个Agent退款实验为何全失败 · 1019-749期",
-      "url": "https://radarai.top/updates/brief-20261019-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261019-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-19T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "143664609352"
-    },
-    {
       "title": "[模型] XHToken/Spark-X2.6-4B",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "platform_url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
@@ -1949,23 +1992,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 179 · 下载 85",
+      "summary": "TrendingScore 218 · 下载 482",
       "platform": "huggingface",
-      "score": 191,
-      "trending_score": 179,
-      "downloads": 85,
+      "score": 231,
+      "trending_score": 218,
+      "downloads": 482,
       "id": "7c2bf23cf05f"
-    },
-    {
-      "title": "FLUX.1-dev衍生模型达4.3万 · 1019-748期",
-      "url": "https://radarai.top/updates/brief-20261019-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261019-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-19T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "3426c1d0f706"
     },
     {
       "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
@@ -1981,44 +2013,14 @@
       "score": 77,
       "comments_count": 1,
       "id": "1e055d8e2cd3"
-    },
-    {
-      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-      "url": "https://huggingface.co/papers/2610.25736",
-      "platform_url": "https://huggingface.co/papers/2610.25736",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25736.png",
-      "publish_time": "2026-10-18T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL thr",
-      "platform": "huggingface",
-      "score": 107,
-      "comments_count": 2,
-      "id": "eec8928d1cdf"
-    },
-    {
-      "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
-      "url": "https://huggingface.co/papers/2610.26216",
-      "platform_url": "https://huggingface.co/papers/2610.26216",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26216.png",
-      "publish_time": "2026-10-18T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from corrupted latents yields comparable downstream generation performance under a matched se",
-      "platform": "huggingface",
-      "score": 23,
-      "comments_count": 1,
-      "id": "b792cd221c41"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.4,
-      "cover_success_rate": 38.6
+      "avg_response_time": 16.3,
+      "cover_success_rate": 37.1
     },
     "platforms": [
       {
@@ -2026,73 +2028,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-22T05:31:13.203582+00:00"
+        "last_crawl": "2026-10-22T16:55:04.020738+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-22T05:31:34.795534+00:00"
+        "last_crawl": "2026-10-22T16:55:55.968992+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-22T05:31:36.012222+00:00"
+        "last_crawl": "2026-10-22T16:55:57.185339+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-22T05:31:47.187462+00:00"
+        "item_count": 10,
+        "last_crawl": "2026-10-22T16:56:08.078742+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-22T05:31:47.340266+00:00"
+        "last_crawl": "2026-10-22T16:56:08.254674+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-22T05:31:13.203587+00:00",
+        "timestamp": "2026-10-22T16:55:04.020746+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 17.948712
+        "latency": 17.255235
       },
       {
-        "timestamp": "2026-10-22T05:31:34.795539+00:00",
+        "timestamp": "2026-10-22T16:55:55.968997+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 21.591945
+        "latency": 51.94824
       },
       {
-        "timestamp": "2026-10-22T05:31:36.012226+00:00",
+        "timestamp": "2026-10-22T16:55:57.185344+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.21668
+        "latency": 1.216339
       },
       {
-        "timestamp": "2026-10-22T05:31:47.187470+00:00",
+        "timestamp": "2026-10-22T16:56:08.078748+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 11.175237
+        "items_collected": 10,
+        "latency": 10.893398
       },
       {
-        "timestamp": "2026-10-22T05:31:47.340279+00:00",
+        "timestamp": "2026-10-22T16:56:08.254685+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.152803
+        "latency": 0.17593
       }
     ]
   }
