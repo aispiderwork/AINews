@@ -1,18 +1,78 @@
 {
-  "update_time": "2026-10-27T05:45:23.046939+00:00",
+  "update_time": "2026-10-27T17:46:11.142708+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "Is my data used for model training?",
+        "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+        "platform_url": "https://news.ycombinator.com/item?id=50259406",
+        "discussion_url": "https://news.ycombinator.com/item?id=50259406",
+        "score": 174,
+        "comments_count": 75,
+        "publish_time": "2026-10-27T13:56:15+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 144.3,
+        "id": "7f9cfd38af28"
+      },
+      {
+        "title": "Wikipedia's Cleanup of AI-Generated Content",
+        "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+        "platform_url": "https://news.ycombinator.com/item?id=50257326",
+        "discussion_url": "https://news.ycombinator.com/item?id=50257326",
+        "score": 301,
+        "comments_count": 144,
+        "publish_time": "2026-10-27T11:08:15+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 253.89999999999998,
+        "id": "6bd9e89edd67"
+      },
+      {
+        "title": "AI promised less work. I've never worked more",
+        "url": "https://oioannou.com/blog/ai-promised-less-work/",
+        "platform_url": "https://news.ycombinator.com/item?id=50257325",
+        "discussion_url": "https://news.ycombinator.com/item?id=50257325",
+        "score": 581,
+        "comments_count": 541,
+        "publish_time": "2026-10-27T11:08:14+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 569.0,
+        "id": "10a37e62264e"
+      },
+      {
+        "title": "The Mythical Man-Month in the Age of AI",
+        "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+        "platform_url": "https://news.ycombinator.com/item?id=50255298",
+        "discussion_url": "https://news.ycombinator.com/item?id=50255298",
+        "score": 362,
+        "comments_count": 246,
+        "publish_time": "2026-10-27T06:25:37+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 327.2,
+        "id": "f9e0eaf27e8f"
+      },
+      {
+        "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+        "platform_url": "https://news.ycombinator.com/item?id=50252159",
+        "discussion_url": "https://news.ycombinator.com/item?id=50252159",
+        "score": 174,
+        "comments_count": 71,
+        "publish_time": "2026-10-26T22:41:48+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 143.1,
+        "id": "41d0a7a7f038"
+      },
       {
         "title": "GPT-6.1 Terra",
         "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
         "platform_url": "https://news.ycombinator.com/item?id=50248124",
         "discussion_url": "https://news.ycombinator.com/item?id=50248124",
-        "score": 563,
-        "comments_count": 351,
+        "score": 615,
+        "comments_count": 401,
         "publish_time": "2026-10-26T18:01:17+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 499.4,
+        "hn_hot_score": 550.8,
         "id": "5ff641018939"
       },
       {
@@ -44,11 +104,11 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
         "platform_url": "https://news.ycombinator.com/item?id=50242939",
         "discussion_url": "https://news.ycombinator.com/item?id=50242939",
-        "score": 1552,
-        "comments_count": 1496,
+        "score": 1675,
+        "comments_count": 1628,
         "publish_time": "2026-10-26T13:04:50+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1535.1999999999998,
+        "hn_hot_score": 1660.9,
         "id": "d23be7ec8245"
       },
       {
@@ -56,72 +116,12 @@
         "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
         "platform_url": "https://news.ycombinator.com/item?id=50242870",
         "discussion_url": "https://news.ycombinator.com/item?id=50242870",
-        "score": 161,
-        "comments_count": 66,
+        "score": 170,
+        "comments_count": 70,
         "publish_time": "2026-10-26T12:59:48+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 132.5,
+        "hn_hot_score": 140.0,
         "id": "607bc1a6d217"
-      },
-      {
-        "title": "SIMD-accelerated computer vision on a $2 microcontroller",
-        "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
-        "platform_url": "https://news.ycombinator.com/item?id=50236681",
-        "discussion_url": "https://news.ycombinator.com/item?id=50236681",
-        "score": 193,
-        "comments_count": 57,
-        "publish_time": "2026-10-25T22:29:47+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 152.2,
-        "id": "300c73942acc"
-      },
-      {
-        "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-        "url": "https://minimaxir.com/2026/10/cheap-llms/",
-        "platform_url": "https://news.ycombinator.com/item?id=50236102",
-        "discussion_url": "https://news.ycombinator.com/item?id=50236102",
-        "score": 422,
-        "comments_count": 428,
-        "publish_time": "2026-10-25T21:11:31+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 423.79999999999995,
-        "id": "69c980bb9e25"
-      },
-      {
-        "title": "Dolly Parton's Imagination Library",
-        "url": "https://imaginationlibrary.com/",
-        "platform_url": "https://news.ycombinator.com/item?id=50234474",
-        "discussion_url": "https://news.ycombinator.com/item?id=50234474",
-        "score": 676,
-        "comments_count": 108,
-        "publish_time": "2026-10-25T18:23:54+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 505.59999999999997,
-        "id": "85d183ef9e87"
-      },
-      {
-        "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-        "url": "https://lynchlab.net/llm-skin-cancer",
-        "platform_url": "https://news.ycombinator.com/item?id=50233779",
-        "discussion_url": "https://news.ycombinator.com/item?id=50233779",
-        "score": 647,
-        "comments_count": 265,
-        "publish_time": "2026-10-25T17:15:38+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 532.4,
-        "id": "1134fed8ae12"
-      },
-      {
-        "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-        "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-        "platform_url": "https://news.ycombinator.com/item?id=50233304",
-        "discussion_url": "https://news.ycombinator.com/item?id=50233304",
-        "score": 228,
-        "comments_count": 325,
-        "publish_time": "2026-10-25T16:28:26+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 257.1,
-        "id": "95709ea9d09d"
       }
     ],
     "bestblogs": [
@@ -468,130 +468,119 @@
     ],
     "qbitai": [
       {
-        "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
-        "url": "https://www.qbitai.com/2026/10/505580.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505580.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c52df5895de24bff130d78f516952f1f.png",
-        "publish_time": "2026-10-27T03:23:55+00:00",
-        "tags": [
-          "钛动科技"
-        ],
+        "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+        "url": "https://www.qbitai.com/2026/10/505865.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505865.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3d1f613ed6a58045052bb3f48dc80b4c.webp",
+        "publish_time": "2026-10-27T12:57:51+00:00",
+        "tags": [],
         "platform": "qbitai",
-        "id": "fa3c6972a16f"
+        "id": "187fce26978e"
       },
       {
-        "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
-        "url": "https://www.qbitai.com/2026/10/505551.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505551.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2f6c9ff7ca23fba994dd0092cbe5d964.png",
-        "publish_time": "2026-10-26T16:06:31+00:00",
+        "title": "印奇把4D雷达也端到端了",
+        "url": "https://www.qbitai.com/2026/10/505852.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505852.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/5a932e5d685ef89ec06d4e023abac685.png",
+        "publish_time": "2026-10-27T10:40:12+00:00",
         "tags": [
-          "Claude"
+          "千里科技"
         ],
         "platform": "qbitai",
-        "id": "bca16dc3ac60"
+        "id": "ad650430eaca"
       },
       {
-        "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
-        "url": "https://www.qbitai.com/2026/10/505539.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505539.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3541bad072d2dbddde30dd5f828d67bf.jpeg",
-        "publish_time": "2026-10-26T09:46:13+00:00",
+        "title": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
+        "url": "https://www.qbitai.com/2026/10/505830.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505830.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/840f95ebc5fdd6e15ac2327ae6cb0f2e.png",
+        "publish_time": "2026-10-27T09:54:51+00:00",
         "tags": [
-          "天禧AI"
+          "禾赛科技"
         ],
         "platform": "qbitai",
-        "id": "2c74f581b18c"
+        "id": "429721860a3b"
       },
       {
-        "title": "OpenAI开始断网训练最强模型：“安全起见”",
-        "url": "https://www.qbitai.com/2026/10/505529.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505529.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/bf1298f8e80aa020de369ab6a6387e15.webp",
-        "publish_time": "2026-10-26T09:37:57+00:00",
-        "tags": [
-          "OpenAI",
-          "断网"
-        ],
+        "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
+        "url": "https://www.qbitai.com/2026/10/505773.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505773.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/22523e90193cc8975fc3eff515e0e83d.webp",
+        "publish_time": "2026-10-27T08:35:33+00:00",
+        "tags": [],
         "platform": "qbitai",
-        "id": "523d3578ed0f"
+        "id": "21520b0854ff"
       },
       {
-        "title": "A社联创演讲：AI奇点已来",
-        "url": "https://www.qbitai.com/2026/10/505521.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505521.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/1e19022b3a20c3c00fcae6b5cbd93963.webp",
-        "publish_time": "2026-10-26T09:35:14+00:00",
+        "title": "GPT-6.1 Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+        "url": "https://www.qbitai.com/2026/10/505719.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505719.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a0e3ffed0eb59417c8bee0761dee28af.webp",
+        "publish_time": "2026-10-27T08:27:46+00:00",
         "tags": [
-          "AI奇点"
+          "OpenAI"
         ],
         "platform": "qbitai",
-        "id": "31f50f899a58"
+        "id": "9d6f21cb3a7b"
       },
       {
-        "title": "NeoLab第一个商业模式：转售GPU",
-        "url": "https://www.qbitai.com/2026/10/505478.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505478.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-26-10.05.43.png",
-        "publish_time": "2026-10-26T09:31:47+00:00",
-        "tags": [
-          "AI Lab",
-          "算力"
-        ],
+        "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+        "url": "https://www.qbitai.com/2026/10/505694.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505694.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e04acf3dda132271d9a6591eb0d0ab71.jpeg",
+        "publish_time": "2026-10-27T08:18:59+00:00",
+        "tags": [],
         "platform": "qbitai",
-        "id": "13d606d727ea"
+        "id": "3e21a0a01167"
       },
       {
-        "title": "中国近50%的新云生意，竟被这家公司包揽！",
-        "url": "https://www.qbitai.com/2026/10/505454.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505454.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/10b9e4b0d4753356c1fae65b6838458c.webp",
-        "publish_time": "2026-10-26T09:02:44+00:00",
+        "title": "做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026",
+        "url": "https://www.qbitai.com/2026/10/505687.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505687.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/825f34971f3580bb192c1c75288e7724.jpeg",
+        "publish_time": "2026-10-27T07:44:41+00:00",
         "tags": [
-          "Neocloud",
-          "Token工厂",
-          "商汤科技",
-          "新云"
+          "CPE 2026",
+          "达卯科技"
         ],
         "platform": "qbitai",
-        "id": "6a489c473879"
+        "id": "299d21bb6587"
       },
       {
-        "title": "从“言传身教”到“触类旁通”：AI既需要“名师指引”，也需要“自我修行”",
-        "url": "https://www.qbitai.com/2026/10/505443.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505443.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f5598b44403356e3dae282c23549d875.png",
-        "publish_time": "2026-10-26T08:38:49+00:00",
+        "title": "OXR强势开源！1.3B横扫全球三榜第一，速度快过Paddle、MinerU，RSI让它卷出新高度",
+        "url": "https://www.qbitai.com/2026/10/505635.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505635.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/197b60205d62f5d527698c57accbd8da.jpeg",
+        "publish_time": "2026-10-27T07:41:02+00:00",
         "tags": [
-          "MiniMax"
+          "SoMark团队"
         ],
         "platform": "qbitai",
-        "id": "0719e9e1fee1"
+        "id": "76b200b7ceb6"
       },
       {
-        "title": "长安汽车赵非：汽车将成为端侧物理AI规模最大的应用载体 | 2026世界智能网联汽车大会",
-        "url": "https://www.qbitai.com/2026/10/505436.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505436.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4ceb3d427fc428ec95ec23b42c9bc66c.png",
-        "publish_time": "2026-10-26T08:04:10+00:00",
+        "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+        "url": "https://www.qbitai.com/2026/10/505615.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505615.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/34a51d4d86acea7cfa5b60919679b5bd.jpeg",
+        "publish_time": "2026-10-27T07:25:51+00:00",
         "tags": [
-          "中国长安汽车"
+          "2026全球开发者先锋大会"
         ],
         "platform": "qbitai",
-        "id": "1dad106b4fe9"
+        "id": "2b999e84265c"
       },
       {
-        "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付",
-        "url": "https://www.qbitai.com/2026/10/505429.html",
-        "platform_url": "https://www.qbitai.com/2026/10/505429.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/71cbca85bd0ec61c5f8583e103ece150.jpeg",
-        "publish_time": "2026-10-26T06:50:44+00:00",
+        "title": "小米披露灵巧手最新技术探索成果：基于1827个工厂SOP验证，升级21自由度仿生灵巧手",
+        "url": "https://www.qbitai.com/2026/10/505600.html",
+        "platform_url": "https://www.qbitai.com/2026/10/505600.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/6f3c19ea337efb4d743a305bdd786a03.png",
+        "publish_time": "2026-10-27T07:09:28+00:00",
         "tags": [
-          "AI Token",
-          "趋境科技"
+          "小米"
         ],
         "platform": "qbitai",
-        "id": "57e11d20b06a"
+        "id": "0a1e943b0c04"
       }
     ],
     "huggingface": [
@@ -606,9 +595,24 @@
         ],
         "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce Stream",
         "platform": "huggingface",
-        "score": 77,
+        "score": 234,
         "comments_count": 1,
         "id": "c4214ce9e886"
+      },
+      {
+        "title": "Work Agents: Systems, Capabilities, and Optimization",
+        "url": "https://huggingface.co/papers/2610.35845",
+        "platform_url": "https://huggingface.co/papers/2610.35845",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35845.png",
+        "publish_time": "2026-10-25T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver ",
+        "platform": "huggingface",
+        "score": 96,
+        "comments_count": 1,
+        "id": "27353bb3ef2a"
       },
       {
         "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
@@ -621,7 +625,7 @@
         ],
         "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a ke",
         "platform": "huggingface",
-        "score": 55,
+        "score": 109,
         "comments_count": 1,
         "id": "d88ba6d03268"
       },
@@ -636,9 +640,39 @@
         ],
         "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification. Execution results and traces in",
         "platform": "huggingface",
-        "score": 22,
+        "score": 182,
         "comments_count": 1,
         "id": "f5ea5c7d53dc"
+      },
+      {
+        "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+        "url": "https://huggingface.co/papers/2610.33956",
+        "platform_url": "https://huggingface.co/papers/2610.33956",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33956.png",
+        "publish_time": "2026-10-24T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale benchmark developed by 50+ domain experts to measure experience-driven improvement in ",
+        "platform": "huggingface",
+        "score": 43,
+        "comments_count": 1,
+        "id": "e10d7776151e"
+      },
+      {
+        "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+        "url": "https://huggingface.co/papers/2610.34415",
+        "platform_url": "https://huggingface.co/papers/2610.34415",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34415.png",
+        "publish_time": "2026-10-24T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow rendering through executable ScenePlans that specify source content, activity, and 3",
+        "platform": "huggingface",
+        "score": 37,
+        "comments_count": 1,
+        "id": "829e28536bd6"
       },
       {
         "title": "[模型] Nanbeige/Nanbeige4.3-33B",
@@ -650,11 +684,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 603 · 下载 2,787",
+        "summary": "TrendingScore 642 · 下载 4,785",
         "platform": "huggingface",
-        "score": 609,
-        "trending_score": 603,
-        "downloads": 2787,
+        "score": 649,
+        "trending_score": 642,
+        "downloads": 4785,
         "id": "8f35bbea7e1c"
       },
       {
@@ -668,8 +702,8 @@
         ],
         "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible ",
         "platform": "huggingface",
-        "score": 88,
-        "comments_count": 1,
+        "score": 330,
+        "comments_count": 2,
         "id": "a56b36437cb5"
       },
       {
@@ -683,9 +717,24 @@
         ],
         "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, leading them to be less preferred than responses from the base model. To address this issue, we present",
         "platform": "huggingface",
-        "score": 14,
+        "score": 27,
         "comments_count": 1,
         "id": "04c425c8f95e"
+      },
+      {
+        "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+        "url": "https://huggingface.co/papers/2610.33413",
+        "platform_url": "https://huggingface.co/papers/2610.33413",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33413.png",
+        "publish_time": "2026-10-23T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene long-form audio-visual videos. AV-FABLE contains 16,650 pristine--manipulated twin ",
+        "platform": "huggingface",
+        "score": 33,
+        "comments_count": 1,
+        "id": "3544f22be510"
       },
       {
         "title": "[模型] ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -697,11 +746,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 335 · 下载 891,147",
+        "summary": "TrendingScore 362 · 下载 1,105,751",
         "platform": "huggingface",
-        "score": 353,
-        "trending_score": 335,
-        "downloads": 891147,
+        "score": 383,
+        "trending_score": 362,
+        "downloads": 1105751,
         "id": "8b31186c290b"
       },
       {
@@ -745,8 +794,8 @@
         ],
         "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into seven components covering context, execution, governance, lifecycle, observabili",
         "platform": "huggingface",
-        "score": 55,
-        "comments_count": 1,
+        "score": 187,
+        "comments_count": 3,
         "id": "ac47a86da0cc"
       },
       {
@@ -819,11 +868,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 205 · 下载 9,022",
+        "summary": "TrendingScore 219 · 下载 13,441",
         "platform": "huggingface",
-        "score": 241,
-        "trending_score": 205,
-        "downloads": 9022,
+        "score": 262,
+        "trending_score": 219,
+        "downloads": 13441,
         "id": "3ad05adec8eb"
       },
       {
@@ -840,69 +889,31 @@
         "score": 244,
         "comments_count": 2,
         "id": "ff7a78e8c7ea"
-      },
-      {
-        "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-        "url": "https://huggingface.co/papers/2610.30949",
-        "platform_url": "https://huggingface.co/papers/2610.30949",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30949.png",
-        "publish_time": "2026-10-21T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and forma",
-        "platform": "huggingface",
-        "score": 99,
-        "comments_count": 2,
-        "id": "e4aad0cefd5b"
-      },
-      {
-        "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-        "url": "https://huggingface.co/papers/2610.30753",
-        "platform_url": "https://huggingface.co/papers/2610.30753",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30753.png",
-        "publish_time": "2026-10-21T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly",
-        "platform": "huggingface",
-        "score": 32,
-        "comments_count": 2,
-        "id": "c984b3a18df8"
-      },
-      {
-        "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
-        "url": "https://huggingface.co/papers/2610.30932",
-        "platform_url": "https://huggingface.co/papers/2610.30932",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30932.png",
-        "publish_time": "2026-10-21T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real",
-        "platform": "huggingface",
-        "score": 47,
-        "comments_count": 1,
-        "id": "54e169ccbc3f"
-      },
-      {
-        "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-        "url": "https://huggingface.co/papers/2610.31668",
-        "platform_url": "https://huggingface.co/papers/2610.31668",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31668.png",
-        "publish_time": "2026-10-21T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
-        "platform": "huggingface",
-        "score": 272,
-        "comments_count": 2,
-        "id": "290538ecb0e4"
       }
     ],
     "radarai": [
+      {
+        "title": "微软MAI图像模型双榜升至第二，Meta前AI负责人离职创业对标Office · 1028-774期",
+        "url": "https://radarai.top/updates/brief-20261028-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261028-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-27T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "ca3f906fe177"
+      },
+      {
+        "title": "OpenAI骨折价推GPT-6.1 Terra，Agent成本骤降还通关数学难题 · 1027-773期",
+        "url": "https://radarai.top/updates/brief-20261027-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261027-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-27T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "d5016f2a0205"
+      },
       {
         "title": "OpenAI称AI推翻25年数学假说 · 1027-772期",
         "url": "https://radarai.top/updates/brief-20261027-0800",
@@ -990,32 +1001,195 @@
         "summary": "",
         "platform": "radarai",
         "id": "24158190754c"
-      },
-      {
-        "title": "Kimi K3.1 Pro 以3万亿参数刷新国产模型纪录 · 1024-764期",
-        "url": "https://radarai.top/updates/brief-20261024-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261024-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-24T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e4f8781adee1"
-      },
-      {
-        "title": "Kimi K3.1 Pro 以 2.8T 参数冲击开源天花板 · 1024-763期",
-        "url": "https://radarai.top/updates/brief-20261024-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261024-0800",
-        "cover_url": null,
-        "publish_time": "2026-10-24T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "e8cef9cf3279"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "微软MAI图像模型双榜升至第二，Meta前AI负责人离职创业对标Office · 1028-774期",
+      "url": "https://radarai.top/updates/brief-20261028-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261028-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-27T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "ca3f906fe177"
+    },
+    {
+      "title": "Is my data used for model training?",
+      "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+      "platform_url": "https://news.ycombinator.com/item?id=50259406",
+      "discussion_url": "https://news.ycombinator.com/item?id=50259406",
+      "score": 174,
+      "comments_count": 75,
+      "publish_time": "2026-10-27T13:56:15+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 144.3,
+      "id": "7f9cfd38af28"
+    },
+    {
+      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "url": "https://www.qbitai.com/2026/10/505865.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505865.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3d1f613ed6a58045052bb3f48dc80b4c.webp",
+      "publish_time": "2026-10-27T12:57:51+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "187fce26978e"
+    },
+    {
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "platform_url": "https://news.ycombinator.com/item?id=50257326",
+      "discussion_url": "https://news.ycombinator.com/item?id=50257326",
+      "score": 301,
+      "comments_count": 144,
+      "publish_time": "2026-10-27T11:08:15+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 253.89999999999998,
+      "id": "6bd9e89edd67"
+    },
+    {
+      "title": "AI promised less work. I've never worked more",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "platform_url": "https://news.ycombinator.com/item?id=50257325",
+      "discussion_url": "https://news.ycombinator.com/item?id=50257325",
+      "score": 581,
+      "comments_count": 541,
+      "publish_time": "2026-10-27T11:08:14+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 569.0,
+      "id": "10a37e62264e"
+    },
+    {
+      "title": "印奇把4D雷达也端到端了",
+      "url": "https://www.qbitai.com/2026/10/505852.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505852.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/5a932e5d685ef89ec06d4e023abac685.png",
+      "publish_time": "2026-10-27T10:40:12+00:00",
+      "tags": [
+        "千里科技"
+      ],
+      "platform": "qbitai",
+      "id": "ad650430eaca"
+    },
+    {
+      "title": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
+      "url": "https://www.qbitai.com/2026/10/505830.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505830.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/840f95ebc5fdd6e15ac2327ae6cb0f2e.png",
+      "publish_time": "2026-10-27T09:54:51+00:00",
+      "tags": [
+        "禾赛科技"
+      ],
+      "platform": "qbitai",
+      "id": "429721860a3b"
+    },
+    {
+      "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
+      "url": "https://www.qbitai.com/2026/10/505773.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505773.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/22523e90193cc8975fc3eff515e0e83d.webp",
+      "publish_time": "2026-10-27T08:35:33+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "21520b0854ff"
+    },
+    {
+      "title": "GPT-6.1 Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+      "url": "https://www.qbitai.com/2026/10/505719.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505719.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/a0e3ffed0eb59417c8bee0761dee28af.webp",
+      "publish_time": "2026-10-27T08:27:46+00:00",
+      "tags": [
+        "OpenAI"
+      ],
+      "platform": "qbitai",
+      "id": "9d6f21cb3a7b"
+    },
+    {
+      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+      "url": "https://www.qbitai.com/2026/10/505694.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505694.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e04acf3dda132271d9a6591eb0d0ab71.jpeg",
+      "publish_time": "2026-10-27T08:18:59+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "3e21a0a01167"
+    },
+    {
+      "title": "OpenAI骨折价推GPT-6.1 Terra，Agent成本骤降还通关数学难题 · 1027-773期",
+      "url": "https://radarai.top/updates/brief-20261027-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261027-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-27T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "d5016f2a0205"
+    },
+    {
+      "title": "做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026",
+      "url": "https://www.qbitai.com/2026/10/505687.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505687.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/825f34971f3580bb192c1c75288e7724.jpeg",
+      "publish_time": "2026-10-27T07:44:41+00:00",
+      "tags": [
+        "CPE 2026",
+        "达卯科技"
+      ],
+      "platform": "qbitai",
+      "id": "299d21bb6587"
+    },
+    {
+      "title": "OXR强势开源！1.3B横扫全球三榜第一，速度快过Paddle、MinerU，RSI让它卷出新高度",
+      "url": "https://www.qbitai.com/2026/10/505635.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505635.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/197b60205d62f5d527698c57accbd8da.jpeg",
+      "publish_time": "2026-10-27T07:41:02+00:00",
+      "tags": [
+        "SoMark团队"
+      ],
+      "platform": "qbitai",
+      "id": "76b200b7ceb6"
+    },
+    {
+      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+      "url": "https://www.qbitai.com/2026/10/505615.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505615.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/34a51d4d86acea7cfa5b60919679b5bd.jpeg",
+      "publish_time": "2026-10-27T07:25:51+00:00",
+      "tags": [
+        "2026全球开发者先锋大会"
+      ],
+      "platform": "qbitai",
+      "id": "2b999e84265c"
+    },
+    {
+      "title": "小米披露灵巧手最新技术探索成果：基于1827个工厂SOP验证，升级21自由度仿生灵巧手",
+      "url": "https://www.qbitai.com/2026/10/505600.html",
+      "platform_url": "https://www.qbitai.com/2026/10/505600.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/6f3c19ea337efb4d743a305bdd786a03.png",
+      "publish_time": "2026-10-27T07:09:28+00:00",
+      "tags": [
+        "小米"
+      ],
+      "platform": "qbitai",
+      "id": "0a1e943b0c04"
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "platform_url": "https://news.ycombinator.com/item?id=50255298",
+      "discussion_url": "https://news.ycombinator.com/item?id=50255298",
+      "score": 362,
+      "comments_count": 246,
+      "publish_time": "2026-10-27T06:25:37+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 327.2,
+      "id": "f9e0eaf27e8f"
+    },
     {
       "title": "前 EAGLE Team 成员自述 EAGLE-4 的设计，以及背后的工程取舍！",
       "url": "https://www.bestblogs.dev/article/RAW_cfa63cdce1",
@@ -1357,18 +1531,6 @@
       "id": "4f9ddd843fe8"
     },
     {
-      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
-      "url": "https://www.qbitai.com/2026/10/505580.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505580.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/c52df5895de24bff130d78f516952f1f.png",
-      "publish_time": "2026-10-27T03:23:55+00:00",
-      "tags": [
-        "钛动科技"
-      ],
-      "platform": "qbitai",
-      "id": "fa3c6972a16f"
-    },
-    {
       "title": "OpenAI称AI推翻25年数学假说 · 1027-772期",
       "url": "https://radarai.top/updates/brief-20261027-0800",
       "platform_url": "https://radarai.top/updates/brief-20261027-0800",
@@ -1380,15 +1542,27 @@
       "id": "4c9769a28cb3"
     },
     {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "platform_url": "https://news.ycombinator.com/item?id=50252159",
+      "discussion_url": "https://news.ycombinator.com/item?id=50252159",
+      "score": 174,
+      "comments_count": 71,
+      "publish_time": "2026-10-26T22:41:48+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 143.1,
+      "id": "41d0a7a7f038"
+    },
+    {
       "title": "GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
       "platform_url": "https://news.ycombinator.com/item?id=50248124",
       "discussion_url": "https://news.ycombinator.com/item?id=50248124",
-      "score": 563,
-      "comments_count": 351,
+      "score": 615,
+      "comments_count": 401,
       "publish_time": "2026-10-26T18:01:17+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 499.4,
+      "hn_hot_score": 550.8,
       "id": "5ff641018939"
     },
     {
@@ -1416,18 +1590,6 @@
       "id": "97cf0cb54363"
     },
     {
-      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
-      "url": "https://www.qbitai.com/2026/10/505551.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505551.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/2f6c9ff7ca23fba994dd0092cbe5d964.png",
-      "publish_time": "2026-10-26T16:06:31+00:00",
-      "tags": [
-        "Claude"
-      ],
-      "platform": "qbitai",
-      "id": "bca16dc3ac60"
-    },
-    {
       "title": "苹果新iPad mini上OLED却仍无高刷 · 1027-771期",
       "url": "https://radarai.top/updates/brief-20261027-0000",
       "platform_url": "https://radarai.top/updates/brief-20261027-0000",
@@ -1443,11 +1605,11 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
       "platform_url": "https://news.ycombinator.com/item?id=50242939",
       "discussion_url": "https://news.ycombinator.com/item?id=50242939",
-      "score": 1552,
-      "comments_count": 1496,
+      "score": 1675,
+      "comments_count": 1628,
       "publish_time": "2026-10-26T13:04:50+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1535.1999999999998,
+      "hn_hot_score": 1660.9,
       "id": "d23be7ec8245"
     },
     {
@@ -1455,101 +1617,12 @@
       "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
       "platform_url": "https://news.ycombinator.com/item?id=50242870",
       "discussion_url": "https://news.ycombinator.com/item?id=50242870",
-      "score": 161,
-      "comments_count": 66,
+      "score": 170,
+      "comments_count": 70,
       "publish_time": "2026-10-26T12:59:48+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 132.5,
+      "hn_hot_score": 140.0,
       "id": "607bc1a6d217"
-    },
-    {
-      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
-      "url": "https://www.qbitai.com/2026/10/505539.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505539.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/3541bad072d2dbddde30dd5f828d67bf.jpeg",
-      "publish_time": "2026-10-26T09:46:13+00:00",
-      "tags": [
-        "天禧AI"
-      ],
-      "platform": "qbitai",
-      "id": "2c74f581b18c"
-    },
-    {
-      "title": "OpenAI开始断网训练最强模型：“安全起见”",
-      "url": "https://www.qbitai.com/2026/10/505529.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505529.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/bf1298f8e80aa020de369ab6a6387e15.webp",
-      "publish_time": "2026-10-26T09:37:57+00:00",
-      "tags": [
-        "OpenAI",
-        "断网"
-      ],
-      "platform": "qbitai",
-      "id": "523d3578ed0f"
-    },
-    {
-      "title": "A社联创演讲：AI奇点已来",
-      "url": "https://www.qbitai.com/2026/10/505521.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505521.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/1e19022b3a20c3c00fcae6b5cbd93963.webp",
-      "publish_time": "2026-10-26T09:35:14+00:00",
-      "tags": [
-        "AI奇点"
-      ],
-      "platform": "qbitai",
-      "id": "31f50f899a58"
-    },
-    {
-      "title": "NeoLab第一个商业模式：转售GPU",
-      "url": "https://www.qbitai.com/2026/10/505478.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505478.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-26-10.05.43.png",
-      "publish_time": "2026-10-26T09:31:47+00:00",
-      "tags": [
-        "AI Lab",
-        "算力"
-      ],
-      "platform": "qbitai",
-      "id": "13d606d727ea"
-    },
-    {
-      "title": "中国近50%的新云生意，竟被这家公司包揽！",
-      "url": "https://www.qbitai.com/2026/10/505454.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505454.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/10b9e4b0d4753356c1fae65b6838458c.webp",
-      "publish_time": "2026-10-26T09:02:44+00:00",
-      "tags": [
-        "Neocloud",
-        "Token工厂",
-        "商汤科技",
-        "新云"
-      ],
-      "platform": "qbitai",
-      "id": "6a489c473879"
-    },
-    {
-      "title": "从“言传身教”到“触类旁通”：AI既需要“名师指引”，也需要“自我修行”",
-      "url": "https://www.qbitai.com/2026/10/505443.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505443.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f5598b44403356e3dae282c23549d875.png",
-      "publish_time": "2026-10-26T08:38:49+00:00",
-      "tags": [
-        "MiniMax"
-      ],
-      "platform": "qbitai",
-      "id": "0719e9e1fee1"
-    },
-    {
-      "title": "长安汽车赵非：汽车将成为端侧物理AI规模最大的应用载体 | 2026世界智能网联汽车大会",
-      "url": "https://www.qbitai.com/2026/10/505436.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505436.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/4ceb3d427fc428ec95ec23b42c9bc66c.png",
-      "publish_time": "2026-10-26T08:04:10+00:00",
-      "tags": [
-        "中国长安汽车"
-      ],
-      "platform": "qbitai",
-      "id": "1dad106b4fe9"
     },
     {
       "title": "Gartner调研称44% CEO难证AI回报 · 1026-770期",
@@ -1563,19 +1636,6 @@
       "id": "75620eecaa3c"
     },
     {
-      "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付",
-      "url": "https://www.qbitai.com/2026/10/505429.html",
-      "platform_url": "https://www.qbitai.com/2026/10/505429.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/71cbca85bd0ec61c5f8583e103ece150.jpeg",
-      "publish_time": "2026-10-26T06:50:44+00:00",
-      "tags": [
-        "AI Token",
-        "趋境科技"
-      ],
-      "platform": "qbitai",
-      "id": "57e11d20b06a"
-    },
-    {
       "title": "Nanbeige开源33B编程智能体 · 1026-769期",
       "url": "https://radarai.top/updates/brief-20261026-0800",
       "platform_url": "https://radarai.top/updates/brief-20261026-0800",
@@ -1585,30 +1645,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "60980d13f441"
-    },
-    {
-      "title": "SIMD-accelerated computer vision on a $2 microcontroller",
-      "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
-      "platform_url": "https://news.ycombinator.com/item?id=50236681",
-      "discussion_url": "https://news.ycombinator.com/item?id=50236681",
-      "score": 193,
-      "comments_count": 57,
-      "publish_time": "2026-10-25T22:29:47+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 152.2,
-      "id": "300c73942acc"
-    },
-    {
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "platform_url": "https://news.ycombinator.com/item?id=50236102",
-      "discussion_url": "https://news.ycombinator.com/item?id=50236102",
-      "score": 422,
-      "comments_count": 428,
-      "publish_time": "2026-10-25T21:11:31+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 423.79999999999995,
-      "id": "69c980bb9e25"
     },
     {
       "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
@@ -1621,45 +1657,24 @@
       ],
       "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce Stream",
       "platform": "huggingface",
-      "score": 77,
+      "score": 234,
       "comments_count": 1,
       "id": "c4214ce9e886"
     },
     {
-      "title": "Dolly Parton's Imagination Library",
-      "url": "https://imaginationlibrary.com/",
-      "platform_url": "https://news.ycombinator.com/item?id=50234474",
-      "discussion_url": "https://news.ycombinator.com/item?id=50234474",
-      "score": 676,
-      "comments_count": 108,
-      "publish_time": "2026-10-25T18:23:54+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 505.59999999999997,
-      "id": "85d183ef9e87"
-    },
-    {
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "platform_url": "https://news.ycombinator.com/item?id=50233779",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233779",
-      "score": 647,
-      "comments_count": 265,
-      "publish_time": "2026-10-25T17:15:38+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 532.4,
-      "id": "1134fed8ae12"
-    },
-    {
-      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "platform_url": "https://news.ycombinator.com/item?id=50233304",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233304",
-      "score": 228,
-      "comments_count": 325,
-      "publish_time": "2026-10-25T16:28:26+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 257.1,
-      "id": "95709ea9d09d"
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "url": "https://huggingface.co/papers/2610.35845",
+      "platform_url": "https://huggingface.co/papers/2610.35845",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35845.png",
+      "publish_time": "2026-10-25T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver ",
+      "platform": "huggingface",
+      "score": 96,
+      "comments_count": 1,
+      "id": "27353bb3ef2a"
     },
     {
       "title": "Kimi K3.1 Pro 百万上下文开源在即 · 1026-768期",
@@ -1705,7 +1720,7 @@
       ],
       "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a ke",
       "platform": "huggingface",
-      "score": 55,
+      "score": 109,
       "comments_count": 1,
       "id": "d88ba6d03268"
     },
@@ -1720,9 +1735,39 @@
       ],
       "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification. Execution results and traces in",
       "platform": "huggingface",
-      "score": 22,
+      "score": 182,
       "comments_count": 1,
       "id": "f5ea5c7d53dc"
+    },
+    {
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.33956",
+      "platform_url": "https://huggingface.co/papers/2610.33956",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33956.png",
+      "publish_time": "2026-10-24T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale benchmark developed by 50+ domain experts to measure experience-driven improvement in ",
+      "platform": "huggingface",
+      "score": 43,
+      "comments_count": 1,
+      "id": "e10d7776151e"
+    },
+    {
+      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+      "url": "https://huggingface.co/papers/2610.34415",
+      "platform_url": "https://huggingface.co/papers/2610.34415",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34415.png",
+      "publish_time": "2026-10-24T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow rendering through executable ScenePlans that specify source content, activity, and 3",
+      "platform": "huggingface",
+      "score": 37,
+      "comments_count": 1,
+      "id": "829e28536bd6"
     },
     {
       "title": "国内词元日耗500万亿，OpenAI红队实测前沿模型断网也能隐蔽通信 · 1025-765期",
@@ -1736,17 +1781,6 @@
       "id": "24158190754c"
     },
     {
-      "title": "Kimi K3.1 Pro 以3万亿参数刷新国产模型纪录 · 1024-764期",
-      "url": "https://radarai.top/updates/brief-20261024-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261024-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-24T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e4f8781adee1"
-    },
-    {
       "title": "[模型] Nanbeige/Nanbeige4.3-33B",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
       "platform_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
@@ -1756,23 +1790,12 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 603 · 下载 2,787",
+      "summary": "TrendingScore 642 · 下载 4,785",
       "platform": "huggingface",
-      "score": 609,
-      "trending_score": 603,
-      "downloads": 2787,
+      "score": 649,
+      "trending_score": 642,
+      "downloads": 4785,
       "id": "8f35bbea7e1c"
-    },
-    {
-      "title": "Kimi K3.1 Pro 以 2.8T 参数冲击开源天花板 · 1024-763期",
-      "url": "https://radarai.top/updates/brief-20261024-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261024-0800",
-      "cover_url": null,
-      "publish_time": "2026-10-24T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "e8cef9cf3279"
     },
     {
       "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
@@ -1785,8 +1808,8 @@
       ],
       "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible ",
       "platform": "huggingface",
-      "score": 88,
-      "comments_count": 1,
+      "score": 330,
+      "comments_count": 2,
       "id": "a56b36437cb5"
     },
     {
@@ -1800,9 +1823,24 @@
       ],
       "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, leading them to be less preferred than responses from the base model. To address this issue, we present",
       "platform": "huggingface",
-      "score": 14,
+      "score": 27,
       "comments_count": 1,
       "id": "04c425c8f95e"
+    },
+    {
+      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+      "url": "https://huggingface.co/papers/2610.33413",
+      "platform_url": "https://huggingface.co/papers/2610.33413",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33413.png",
+      "publish_time": "2026-10-23T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene long-form audio-visual videos. AV-FABLE contains 16,650 pristine--manipulated twin ",
+      "platform": "huggingface",
+      "score": 33,
+      "comments_count": 1,
+      "id": "3544f22be510"
     },
     {
       "title": "[模型] ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -1814,11 +1852,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 335 · 下载 891,147",
+      "summary": "TrendingScore 362 · 下载 1,105,751",
       "platform": "huggingface",
-      "score": 353,
-      "trending_score": 335,
-      "downloads": 891147,
+      "score": 383,
+      "trending_score": 362,
+      "downloads": 1105751,
       "id": "8b31186c290b"
     },
     {
@@ -1862,8 +1900,8 @@
       ],
       "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into seven components covering context, execution, governance, lifecycle, observabili",
       "platform": "huggingface",
-      "score": 55,
-      "comments_count": 1,
+      "score": 187,
+      "comments_count": 3,
       "id": "ac47a86da0cc"
     },
     {
@@ -1936,11 +1974,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 205 · 下载 9,022",
+      "summary": "TrendingScore 219 · 下载 13,441",
       "platform": "huggingface",
-      "score": 241,
-      "trending_score": 205,
-      "downloads": 9022,
+      "score": 262,
+      "trending_score": 219,
+      "downloads": 13441,
       "id": "3ad05adec8eb"
     },
     {
@@ -1957,73 +1995,13 @@
       "score": 244,
       "comments_count": 2,
       "id": "ff7a78e8c7ea"
-    },
-    {
-      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-      "url": "https://huggingface.co/papers/2610.30949",
-      "platform_url": "https://huggingface.co/papers/2610.30949",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30949.png",
-      "publish_time": "2026-10-21T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and forma",
-      "platform": "huggingface",
-      "score": 99,
-      "comments_count": 2,
-      "id": "e4aad0cefd5b"
-    },
-    {
-      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-      "url": "https://huggingface.co/papers/2610.30753",
-      "platform_url": "https://huggingface.co/papers/2610.30753",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30753.png",
-      "publish_time": "2026-10-21T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly",
-      "platform": "huggingface",
-      "score": 32,
-      "comments_count": 2,
-      "id": "c984b3a18df8"
-    },
-    {
-      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
-      "url": "https://huggingface.co/papers/2610.30932",
-      "platform_url": "https://huggingface.co/papers/2610.30932",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30932.png",
-      "publish_time": "2026-10-21T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real",
-      "platform": "huggingface",
-      "score": 47,
-      "comments_count": 1,
-      "id": "54e169ccbc3f"
-    },
-    {
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "url": "https://huggingface.co/papers/2610.31668",
-      "platform_url": "https://huggingface.co/papers/2610.31668",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31668.png",
-      "publish_time": "2026-10-21T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
-      "platform": "huggingface",
-      "score": 272,
-      "comments_count": 2,
-      "id": "290538ecb0e4"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.3,
+      "avg_response_time": 9.2,
       "cover_success_rate": 38.6
     },
     "platforms": [
@@ -2032,73 +2010,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-27T05:44:46.028242+00:00"
+        "last_crawl": "2026-10-27T17:45:35.599941+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-27T05:45:12.882196+00:00"
+        "last_crawl": "2026-10-27T17:46:04.005037+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-27T05:45:14.386820+00:00"
+        "last_crawl": "2026-10-27T17:46:05.476321+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-27T05:45:22.875266+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-10-27T17:46:10.967145+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-27T05:45:22.993319+00:00"
+        "last_crawl": "2026-10-27T17:46:11.090151+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-27T05:44:46.028247+00:00",
+        "timestamp": "2026-10-27T17:45:35.599947+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 9.774879
+        "latency": 10.630765
       },
       {
-        "timestamp": "2026-10-27T05:45:12.882203+00:00",
+        "timestamp": "2026-10-27T17:46:04.005042+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 26.853948
+        "latency": 28.40509
       },
       {
-        "timestamp": "2026-10-27T05:45:14.386833+00:00",
+        "timestamp": "2026-10-27T17:46:05.476325+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.504623
+        "latency": 1.471277
       },
       {
-        "timestamp": "2026-10-27T05:45:22.875278+00:00",
+        "timestamp": "2026-10-27T17:46:10.967153+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.488439
+        "items_collected": 0,
+        "latency": 5.490823
       },
       {
-        "timestamp": "2026-10-27T05:45:22.993329+00:00",
+        "timestamp": "2026-10-27T17:46:11.090157+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.118046
+        "latency": 0.122998
       }
     ]
   }
