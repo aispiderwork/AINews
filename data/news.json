@@ -1,18 +1,66 @@
 {
-  "update_time": "2026-10-30T06:33:59.273240+00:00",
+  "update_time": "2026-10-30T17:53:17.477445+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "AI isn't replacing SREs, it's deskilling them",
+        "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+        "platform_url": "https://news.ycombinator.com/item?id=50305693",
+        "discussion_url": "https://news.ycombinator.com/item?id=50305693",
+        "score": 245,
+        "comments_count": 189,
+        "publish_time": "2026-10-30T15:52:18+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 228.2,
+        "id": "04556cff3490"
+      },
+      {
+        "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+        "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+        "platform_url": "https://news.ycombinator.com/item?id=50302814",
+        "discussion_url": "https://news.ycombinator.com/item?id=50302814",
+        "score": 567,
+        "comments_count": 411,
+        "publish_time": "2026-10-30T12:08:00+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 520.1999999999999,
+        "id": "b07862926f37"
+      },
+      {
+        "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+        "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+        "platform_url": "https://news.ycombinator.com/item?id=50300683",
+        "discussion_url": "https://news.ycombinator.com/item?id=50300683",
+        "score": 445,
+        "comments_count": 370,
+        "publish_time": "2026-10-30T07:09:12+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 422.5,
+        "id": "efa34a7ef430"
+      },
+      {
+        "title": "We ran AI agent swarms in Minecraft and Mindustry",
+        "url": "https://labs.ycombinator.com/projects/games/index.html",
+        "platform_url": "https://news.ycombinator.com/item?id=50296486",
+        "discussion_url": "https://news.ycombinator.com/item?id=50296486",
+        "score": 379,
+        "comments_count": 160,
+        "publish_time": "2026-10-29T21:40:28+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 313.3,
+        "id": "74468b70d41d"
+      },
       {
         "title": "H.264 Is Magic (2016)",
         "url": "https://sidbala.com/h-264-is-magic/",
         "platform_url": "https://news.ycombinator.com/item?id=50291054",
         "discussion_url": "https://news.ycombinator.com/item?id=50291054",
-        "score": 381,
-        "comments_count": 141,
+        "score": 499,
+        "comments_count": 163,
         "publish_time": "2026-10-29T15:53:03+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 309.0,
+        "hn_hot_score": 398.19999999999993,
         "id": "fe43c53944b1"
       },
       {
@@ -20,11 +68,11 @@
         "url": "https://martinfowler.com/bliki/LLM-Voice.html",
         "platform_url": "https://news.ycombinator.com/item?id=50290177",
         "discussion_url": "https://news.ycombinator.com/item?id=50290177",
-        "score": 418,
-        "comments_count": 215,
+        "score": 573,
+        "comments_count": 308,
         "publish_time": "2026-10-29T14:57:55+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 357.09999999999997,
+        "hn_hot_score": 493.49999999999994,
         "id": "25ff69b8f572"
       },
       {
@@ -32,11 +80,11 @@
         "url": "https://mistral.ai/news/mistral-large-4-oss/",
         "platform_url": "https://news.ycombinator.com/item?id=50289418",
         "discussion_url": "https://news.ycombinator.com/item?id=50289418",
-        "score": 1332,
-        "comments_count": 362,
+        "score": 1656,
+        "comments_count": 427,
         "publish_time": "2026-10-29T14:13:21+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1041.0,
+        "hn_hot_score": 1287.2999999999997,
         "id": "68e68e9ac943"
       },
       {
@@ -68,60 +116,12 @@
         "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
         "platform_url": "https://news.ycombinator.com/item?id=50286987",
         "discussion_url": "https://news.ycombinator.com/item?id=50286987",
-        "score": 310,
-        "comments_count": 153,
+        "score": 319,
+        "comments_count": 161,
         "publish_time": "2026-10-29T10:42:41+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 262.9,
+        "hn_hot_score": 271.59999999999997,
         "id": "bcd4e5927884"
-      },
-      {
-        "title": "Claude Code regularly sends each background agent’s transcript to its model",
-        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-        "platform_url": "https://news.ycombinator.com/item?id=50284255",
-        "discussion_url": "https://news.ycombinator.com/item?id=50284255",
-        "score": 565,
-        "comments_count": 229,
-        "publish_time": "2026-10-29T03:33:42+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 464.2,
-        "id": "40832845f6f0"
-      },
-      {
-        "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
-        "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-        "platform_url": "https://news.ycombinator.com/item?id=50280864",
-        "discussion_url": "https://news.ycombinator.com/item?id=50280864",
-        "score": 423,
-        "comments_count": 263,
-        "publish_time": "2026-10-28T21:03:24+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 374.99999999999994,
-        "id": "71ca4477fe0e"
-      },
-      {
-        "title": "Gemini 4 Carbon",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-        "platform_url": "https://news.ycombinator.com/item?id=50276792",
-        "discussion_url": "https://news.ycombinator.com/item?id=50276792",
-        "score": 1006,
-        "comments_count": 797,
-        "publish_time": "2026-10-28T17:01:23+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 943.3,
-        "id": "125f22a10cb0"
-      },
-      {
-        "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-        "url": "https://surgehq.ai/blog/dayjob-tax",
-        "platform_url": "https://news.ycombinator.com/item?id=50275626",
-        "discussion_url": "https://news.ycombinator.com/item?id=50275626",
-        "score": 254,
-        "comments_count": 173,
-        "publish_time": "2026-10-28T15:46:30+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 229.7,
-        "id": "5f87860f377f"
       }
     ],
     "bestblogs": [
@@ -468,6 +468,52 @@
     ],
     "qbitai": [
       {
+        "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
+        "url": "https://www.qbitai.com/2026/10/506779.html",
+        "platform_url": "https://www.qbitai.com/2026/10/506779.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f6022b2e5a84e940cb69d8482166985d.png",
+        "publish_time": "2026-10-30T10:44:01+00:00",
+        "tags": [
+          "联想"
+        ],
+        "platform": "qbitai",
+        "id": "8f5bba805c5e"
+      },
+      {
+        "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+        "url": "https://www.qbitai.com/2026/10/506771.html",
+        "platform_url": "https://www.qbitai.com/2026/10/506771.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图片1-2.png",
+        "publish_time": "2026-10-30T08:50:44+00:00",
+        "tags": [],
+        "platform": "qbitai",
+        "id": "fefc49119425"
+      },
+      {
+        "title": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
+        "url": "https://www.qbitai.com/2026/10/506747.html",
+        "platform_url": "https://www.qbitai.com/2026/10/506747.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
+        "publish_time": "2026-10-30T08:12:11+00:00",
+        "tags": [
+          "Utopai Studios"
+        ],
+        "platform": "qbitai",
+        "id": "c9d362188716"
+      },
+      {
+        "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+        "url": "https://www.qbitai.com/2026/10/506743.html",
+        "platform_url": "https://www.qbitai.com/2026/10/506743.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/17240ae25c2799cc42c3d952b16abae3.jpeg",
+        "publish_time": "2026-10-30T07:31:11+00:00",
+        "tags": [
+          "MiniMax"
+        ],
+        "platform": "qbitai",
+        "id": "7e7bd46d4e8d"
+      },
+      {
         "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
         "url": "https://www.qbitai.com/2026/10/506686.html",
         "platform_url": "https://www.qbitai.com/2026/10/506686.html",
@@ -540,60 +586,69 @@
         ],
         "platform": "qbitai",
         "id": "2bbecc2d4925"
-      },
-      {
-        "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
-        "url": "https://www.qbitai.com/2026/10/506550.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506550.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/d8926e8e74117075ca2ccc9f2052b09a.png",
-        "publish_time": "2026-10-29T09:52:05+00:00",
-        "tags": [
-          "商汤"
-        ],
-        "platform": "qbitai",
-        "id": "89eb7e2219f0"
-      },
-      {
-        "title": "AI安全是AI规模化应用“加速器”",
-        "url": "https://www.qbitai.com/2026/10/506544.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506544.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e3dfc3f9e552f22742ce5963da441486.png",
-        "publish_time": "2026-10-29T08:50:14+00:00",
-        "tags": [
-          "中国电信"
-        ],
-        "platform": "qbitai",
-        "id": "ae5a4f74a6ee"
-      },
-      {
-        "title": "奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧",
-        "url": "https://www.qbitai.com/2026/10/506478.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506478.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/eb042998bea64c8aa45289f39e6ec5ed.webp",
-        "publish_time": "2026-10-29T06:53:19+00:00",
-        "tags": [
-          "AI",
-          "多模态"
-        ],
-        "platform": "qbitai",
-        "id": "ced2a445da3a"
-      },
-      {
-        "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
-        "url": "https://www.qbitai.com/2026/10/506477.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506477.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-28-11.12.19.png",
-        "publish_time": "2026-10-29T06:51:51+00:00",
-        "tags": [
-          "PSI",
-          "三体",
-          "物理"
-        ],
-        "platform": "qbitai",
-        "id": "68ffd0a6152a"
       }
     ],
     "huggingface": [
+      {
+        "title": "Intrinsic Distribution Matching",
+        "url": "https://huggingface.co/papers/2610.39633",
+        "platform_url": "https://huggingface.co/papers/2610.39633",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39633.png",
+        "publish_time": "2026-10-28T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A d",
+        "platform": "huggingface",
+        "score": 234,
+        "comments_count": 2,
+        "id": "525b5d5158a1"
+      },
+      {
+        "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+        "url": "https://huggingface.co/papers/2610.40614",
+        "platform_url": "https://huggingface.co/papers/2610.40614",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40614.png",
+        "publish_time": "2026-10-28T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introd",
+        "platform": "huggingface",
+        "score": 34,
+        "comments_count": 2,
+        "id": "b81b251886f6"
+      },
+      {
+        "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+        "url": "https://huggingface.co/papers/2610.39301",
+        "platform_url": "https://huggingface.co/papers/2610.39301",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39301.png",
+        "publish_time": "2026-10-28T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordin",
+        "platform": "huggingface",
+        "score": 28,
+        "comments_count": 1,
+        "id": "cad821aba0a6"
+      },
+      {
+        "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+        "url": "https://huggingface.co/papers/2610.40647",
+        "platform_url": "https://huggingface.co/papers/2610.40647",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40647.png",
+        "publish_time": "2026-10-28T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
+        "platform": "huggingface",
+        "score": 22,
+        "comments_count": 4,
+        "id": "b937bf1e71dc"
+      },
       {
         "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
         "url": "https://huggingface.co/papers/2610.38568",
@@ -605,8 +660,8 @@
         ],
         "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: t",
         "platform": "huggingface",
-        "score": 32,
-        "comments_count": 1,
+        "score": 153,
+        "comments_count": 3,
         "id": "528498dda06c"
       },
       {
@@ -740,8 +795,8 @@
         ],
         "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi",
         "platform": "huggingface",
-        "score": 18,
-        "comments_count": 1,
+        "score": 30,
+        "comments_count": 3,
         "id": "113af81bda3b"
       },
       {
@@ -770,8 +825,8 @@
         ],
         "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare",
         "platform": "huggingface",
-        "score": 17,
-        "comments_count": 1,
+        "score": 89,
+        "comments_count": 2,
         "id": "52c7cb56bad2"
       },
       {
@@ -833,69 +888,31 @@
         "score": 384,
         "comments_count": 3,
         "id": "de27f9815941"
-      },
-      {
-        "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-        "url": "https://huggingface.co/papers/2610.35013",
-        "platform_url": "https://huggingface.co/papers/2610.35013",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35013.png",
-        "publish_time": "2026-10-25T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale. Extensive experiments ac",
-        "platform": "huggingface",
-        "score": 381,
-        "comments_count": 4,
-        "id": "72f7291eddb9"
-      },
-      {
-        "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-        "url": "https://huggingface.co/papers/2610.35201",
-        "platform_url": "https://huggingface.co/papers/2610.35201",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35201.png",
-        "publish_time": "2026-10-25T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Ass",
-        "platform": "huggingface",
-        "score": 254,
-        "comments_count": 3,
-        "id": "dd559436e770"
-      },
-      {
-        "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
-        "url": "https://huggingface.co/papers/2610.35684",
-        "platform_url": "https://huggingface.co/papers/2610.35684",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35684.png",
-        "publish_time": "2026-10-25T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do n",
-        "platform": "huggingface",
-        "score": 49,
-        "comments_count": 2,
-        "id": "cc5c6a65d4fa"
-      },
-      {
-        "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
-        "url": "https://huggingface.co/papers/2610.33966",
-        "platform_url": "https://huggingface.co/papers/2610.33966",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33966.png",
-        "publish_time": "2026-10-24T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a ke",
-        "platform": "huggingface",
-        "score": 109,
-        "comments_count": 1,
-        "id": "d88ba6d03268"
       }
     ],
     "radarai": [
+      {
+        "title": "Anthropic测试Fable 5.5自评估安全审计 · 1031-783期",
+        "url": "https://radarai.top/updates/brief-20261031-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261031-0000",
+        "cover_url": null,
+        "publish_time": "2026-10-30T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "6aa2a9cea2a8"
+      },
+      {
+        "title": "OpenAI、Anthropic、DeepMind竞逐AGI · 1030-782期",
+        "url": "https://radarai.top/updates/brief-20261030-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261030-1600",
+        "cover_url": null,
+        "publish_time": "2026-10-30T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "19c159254bcf"
+      },
       {
         "title": "每周 AI 热点 · 2026-10-30",
         "url": "https://radarai.top/updates/weekly-2026-10-30",
@@ -983,32 +1000,114 @@
         "summary": "",
         "platform": "radarai",
         "id": "8be66429717f"
-      },
-      {
-        "title": "微软MAI图像模型双榜升至第二，Meta前AI负责人离职创业对标Office · 1028-774期",
-        "url": "https://radarai.top/updates/brief-20261028-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261028-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-27T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "ca3f906fe177"
-      },
-      {
-        "title": "OpenAI骨折价推GPT-6.1 Terra，Agent成本骤降还通关数学难题 · 1027-773期",
-        "url": "https://radarai.top/updates/brief-20261027-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261027-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-27T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d5016f2a0205"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "Anthropic测试Fable 5.5自评估安全审计 · 1031-783期",
+      "url": "https://radarai.top/updates/brief-20261031-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261031-0000",
+      "cover_url": null,
+      "publish_time": "2026-10-30T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "6aa2a9cea2a8"
+    },
+    {
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "platform_url": "https://news.ycombinator.com/item?id=50305693",
+      "discussion_url": "https://news.ycombinator.com/item?id=50305693",
+      "score": 245,
+      "comments_count": 189,
+      "publish_time": "2026-10-30T15:52:18+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 228.2,
+      "id": "04556cff3490"
+    },
+    {
+      "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "platform_url": "https://news.ycombinator.com/item?id=50302814",
+      "discussion_url": "https://news.ycombinator.com/item?id=50302814",
+      "score": 567,
+      "comments_count": 411,
+      "publish_time": "2026-10-30T12:08:00+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 520.1999999999999,
+      "id": "b07862926f37"
+    },
+    {
+      "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
+      "url": "https://www.qbitai.com/2026/10/506779.html",
+      "platform_url": "https://www.qbitai.com/2026/10/506779.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/f6022b2e5a84e940cb69d8482166985d.png",
+      "publish_time": "2026-10-30T10:44:01+00:00",
+      "tags": [
+        "联想"
+      ],
+      "platform": "qbitai",
+      "id": "8f5bba805c5e"
+    },
+    {
+      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+      "url": "https://www.qbitai.com/2026/10/506771.html",
+      "platform_url": "https://www.qbitai.com/2026/10/506771.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图片1-2.png",
+      "publish_time": "2026-10-30T08:50:44+00:00",
+      "tags": [],
+      "platform": "qbitai",
+      "id": "fefc49119425"
+    },
+    {
+      "title": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
+      "url": "https://www.qbitai.com/2026/10/506747.html",
+      "platform_url": "https://www.qbitai.com/2026/10/506747.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
+      "publish_time": "2026-10-30T08:12:11+00:00",
+      "tags": [
+        "Utopai Studios"
+      ],
+      "platform": "qbitai",
+      "id": "c9d362188716"
+    },
+    {
+      "title": "OpenAI、Anthropic、DeepMind竞逐AGI · 1030-782期",
+      "url": "https://radarai.top/updates/brief-20261030-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261030-1600",
+      "cover_url": null,
+      "publish_time": "2026-10-30T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "19c159254bcf"
+    },
+    {
+      "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+      "url": "https://www.qbitai.com/2026/10/506743.html",
+      "platform_url": "https://www.qbitai.com/2026/10/506743.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/17240ae25c2799cc42c3d952b16abae3.jpeg",
+      "publish_time": "2026-10-30T07:31:11+00:00",
+      "tags": [
+        "MiniMax"
+      ],
+      "platform": "qbitai",
+      "id": "7e7bd46d4e8d"
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "platform_url": "https://news.ycombinator.com/item?id=50300683",
+      "discussion_url": "https://news.ycombinator.com/item?id=50300683",
+      "score": 445,
+      "comments_count": 370,
+      "publish_time": "2026-10-30T07:09:12+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 422.5,
+      "id": "efa34a7ef430"
+    },
     {
       "title": "把记忆塞进 KV Cache，Agent 反而变笨了？KV 驻留内存，到底靠什么在干活！",
       "url": "https://www.bestblogs.dev/article/RAW_94a7e819d2",
@@ -1434,6 +1533,18 @@
       "id": "0629c826c5ed"
     },
     {
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "platform_url": "https://news.ycombinator.com/item?id=50296486",
+      "discussion_url": "https://news.ycombinator.com/item?id=50296486",
+      "score": 379,
+      "comments_count": 160,
+      "publish_time": "2026-10-29T21:40:28+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 313.3,
+      "id": "74468b70d41d"
+    },
+    {
       "title": "Mistral开源1.05T参数模型 · 1030-780期",
       "url": "https://radarai.top/updates/brief-20261030-0000",
       "platform_url": "https://radarai.top/updates/brief-20261030-0000",
@@ -1449,11 +1560,11 @@
       "url": "https://sidbala.com/h-264-is-magic/",
       "platform_url": "https://news.ycombinator.com/item?id=50291054",
       "discussion_url": "https://news.ycombinator.com/item?id=50291054",
-      "score": 381,
-      "comments_count": 141,
+      "score": 499,
+      "comments_count": 163,
       "publish_time": "2026-10-29T15:53:03+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 309.0,
+      "hn_hot_score": 398.19999999999993,
       "id": "fe43c53944b1"
     },
     {
@@ -1461,11 +1572,11 @@
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "platform_url": "https://news.ycombinator.com/item?id=50290177",
       "discussion_url": "https://news.ycombinator.com/item?id=50290177",
-      "score": 418,
-      "comments_count": 215,
+      "score": 573,
+      "comments_count": 308,
       "publish_time": "2026-10-29T14:57:55+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 357.09999999999997,
+      "hn_hot_score": 493.49999999999994,
       "id": "25ff69b8f572"
     },
     {
@@ -1473,11 +1584,11 @@
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "platform_url": "https://news.ycombinator.com/item?id=50289418",
       "discussion_url": "https://news.ycombinator.com/item?id=50289418",
-      "score": 1332,
-      "comments_count": 362,
+      "score": 1656,
+      "comments_count": 427,
       "publish_time": "2026-10-29T14:13:21+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1041.0,
+      "hn_hot_score": 1287.2999999999997,
       "id": "68e68e9ac943"
     },
     {
@@ -1509,11 +1620,11 @@
       "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
       "platform_url": "https://news.ycombinator.com/item?id=50286987",
       "discussion_url": "https://news.ycombinator.com/item?id=50286987",
-      "score": 310,
-      "comments_count": 153,
+      "score": 319,
+      "comments_count": 161,
       "publish_time": "2026-10-29T10:42:41+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 262.9,
+      "hn_hot_score": 271.59999999999997,
       "id": "bcd4e5927884"
     },
     {
@@ -1529,30 +1640,6 @@
       "id": "2bbecc2d4925"
     },
     {
-      "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
-      "url": "https://www.qbitai.com/2026/10/506550.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506550.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/d8926e8e74117075ca2ccc9f2052b09a.png",
-      "publish_time": "2026-10-29T09:52:05+00:00",
-      "tags": [
-        "商汤"
-      ],
-      "platform": "qbitai",
-      "id": "89eb7e2219f0"
-    },
-    {
-      "title": "AI安全是AI规模化应用“加速器”",
-      "url": "https://www.qbitai.com/2026/10/506544.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506544.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/e3dfc3f9e552f22742ce5963da441486.png",
-      "publish_time": "2026-10-29T08:50:14+00:00",
-      "tags": [
-        "中国电信"
-      ],
-      "platform": "qbitai",
-      "id": "ae5a4f74a6ee"
-    },
-    {
       "title": "Gemini 4 Carbon 以59分登顶AI指数 · 1029-779期",
       "url": "https://radarai.top/updates/brief-20261029-1600",
       "platform_url": "https://radarai.top/updates/brief-20261029-1600",
@@ -1562,45 +1649,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "86c2d1c60e35"
-    },
-    {
-      "title": "奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧",
-      "url": "https://www.qbitai.com/2026/10/506478.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506478.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/eb042998bea64c8aa45289f39e6ec5ed.webp",
-      "publish_time": "2026-10-29T06:53:19+00:00",
-      "tags": [
-        "AI",
-        "多模态"
-      ],
-      "platform": "qbitai",
-      "id": "ced2a445da3a"
-    },
-    {
-      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
-      "url": "https://www.qbitai.com/2026/10/506477.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506477.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-28-11.12.19.png",
-      "publish_time": "2026-10-29T06:51:51+00:00",
-      "tags": [
-        "PSI",
-        "三体",
-        "物理"
-      ],
-      "platform": "qbitai",
-      "id": "68ffd0a6152a"
-    },
-    {
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "platform_url": "https://news.ycombinator.com/item?id=50284255",
-      "discussion_url": "https://news.ycombinator.com/item?id=50284255",
-      "score": 565,
-      "comments_count": 229,
-      "publish_time": "2026-10-29T03:33:42+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 464.2,
-      "id": "40832845f6f0"
     },
     {
       "title": "Gemini 4 Carbon 以 59 分重夺 AI 榜首 · 1029-778期",
@@ -1614,28 +1662,64 @@
       "id": "45ed47b71240"
     },
     {
-      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
-      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-      "platform_url": "https://news.ycombinator.com/item?id=50280864",
-      "discussion_url": "https://news.ycombinator.com/item?id=50280864",
-      "score": 423,
-      "comments_count": 263,
-      "publish_time": "2026-10-28T21:03:24+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 374.99999999999994,
-      "id": "71ca4477fe0e"
+      "title": "Intrinsic Distribution Matching",
+      "url": "https://huggingface.co/papers/2610.39633",
+      "platform_url": "https://huggingface.co/papers/2610.39633",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39633.png",
+      "publish_time": "2026-10-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A d",
+      "platform": "huggingface",
+      "score": 234,
+      "comments_count": 2,
+      "id": "525b5d5158a1"
     },
     {
-      "title": "Gemini 4 Carbon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "platform_url": "https://news.ycombinator.com/item?id=50276792",
-      "discussion_url": "https://news.ycombinator.com/item?id=50276792",
-      "score": 1006,
-      "comments_count": 797,
-      "publish_time": "2026-10-28T17:01:23+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 943.3,
-      "id": "125f22a10cb0"
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "url": "https://huggingface.co/papers/2610.40614",
+      "platform_url": "https://huggingface.co/papers/2610.40614",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40614.png",
+      "publish_time": "2026-10-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introd",
+      "platform": "huggingface",
+      "score": 34,
+      "comments_count": 2,
+      "id": "b81b251886f6"
+    },
+    {
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "platform_url": "https://huggingface.co/papers/2610.39301",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39301.png",
+      "publish_time": "2026-10-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordin",
+      "platform": "huggingface",
+      "score": 28,
+      "comments_count": 1,
+      "id": "cad821aba0a6"
+    },
+    {
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "https://huggingface.co/papers/2610.40647",
+      "platform_url": "https://huggingface.co/papers/2610.40647",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40647.png",
+      "publish_time": "2026-10-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
+      "platform": "huggingface",
+      "score": 22,
+      "comments_count": 4,
+      "id": "b937bf1e71dc"
     },
     {
       "title": "Anthropic收入暴涨400倍，Gartner却称仅3%企业靠AI降本增效 · 1029-777期",
@@ -1647,18 +1731,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "579da35c11ad"
-    },
-    {
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "platform_url": "https://news.ycombinator.com/item?id=50275626",
-      "discussion_url": "https://news.ycombinator.com/item?id=50275626",
-      "score": 254,
-      "comments_count": 173,
-      "publish_time": "2026-10-28T15:46:30+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 229.7,
-      "id": "5f87860f377f"
     },
     {
       "title": "芯片短缺推高电脑价格，Anthropic混用四类芯片挑战英伟达 · 1028-776期",
@@ -1693,31 +1765,9 @@
       ],
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: t",
       "platform": "huggingface",
-      "score": 32,
-      "comments_count": 1,
+      "score": 153,
+      "comments_count": 3,
       "id": "528498dda06c"
-    },
-    {
-      "title": "微软MAI图像模型双榜升至第二，Meta前AI负责人离职创业对标Office · 1028-774期",
-      "url": "https://radarai.top/updates/brief-20261028-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261028-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-27T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "ca3f906fe177"
-    },
-    {
-      "title": "OpenAI骨折价推GPT-6.1 Terra，Agent成本骤降还通关数学难题 · 1027-773期",
-      "url": "https://radarai.top/updates/brief-20261027-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261027-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-27T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d5016f2a0205"
     },
     {
       "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
@@ -1850,8 +1900,8 @@
       ],
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi",
       "platform": "huggingface",
-      "score": 18,
-      "comments_count": 1,
+      "score": 30,
+      "comments_count": 3,
       "id": "113af81bda3b"
     },
     {
@@ -1880,8 +1930,8 @@
       ],
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare",
       "platform": "huggingface",
-      "score": 17,
-      "comments_count": 1,
+      "score": 89,
+      "comments_count": 2,
       "id": "52c7cb56bad2"
     },
     {
@@ -1943,73 +1993,13 @@
       "score": 384,
       "comments_count": 3,
       "id": "de27f9815941"
-    },
-    {
-      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
-      "url": "https://huggingface.co/papers/2610.35013",
-      "platform_url": "https://huggingface.co/papers/2610.35013",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35013.png",
-      "publish_time": "2026-10-25T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale. Extensive experiments ac",
-      "platform": "huggingface",
-      "score": 381,
-      "comments_count": 4,
-      "id": "72f7291eddb9"
-    },
-    {
-      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.35201",
-      "platform_url": "https://huggingface.co/papers/2610.35201",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35201.png",
-      "publish_time": "2026-10-25T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Ass",
-      "platform": "huggingface",
-      "score": 254,
-      "comments_count": 3,
-      "id": "dd559436e770"
-    },
-    {
-      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
-      "url": "https://huggingface.co/papers/2610.35684",
-      "platform_url": "https://huggingface.co/papers/2610.35684",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35684.png",
-      "publish_time": "2026-10-25T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do n",
-      "platform": "huggingface",
-      "score": 49,
-      "comments_count": 2,
-      "id": "cc5c6a65d4fa"
-    },
-    {
-      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
-      "url": "https://huggingface.co/papers/2610.33966",
-      "platform_url": "https://huggingface.co/papers/2610.33966",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.33966.png",
-      "publish_time": "2026-10-24T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a ke",
-      "platform": "huggingface",
-      "score": 109,
-      "comments_count": 1,
-      "id": "d88ba6d03268"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.9,
+      "avg_response_time": 8.6,
       "cover_success_rate": 42.9
     },
     "platforms": [
@@ -2018,73 +2008,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-30T06:33:19.868927+00:00"
+        "last_crawl": "2026-10-30T17:52:49.038982+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-30T06:33:49.132107+00:00"
+        "last_crawl": "2026-10-30T17:53:10.799049+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-10-30T06:33:50.597893+00:00"
+        "last_crawl": "2026-10-30T17:53:11.994716+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-10-30T06:33:59.090694+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-10-30T17:53:17.250261+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-10-30T06:33:59.218909+00:00"
+        "last_crawl": "2026-10-30T17:53:17.437235+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-10-30T06:33:19.868934+00:00",
+        "timestamp": "2026-10-30T17:52:49.038987+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.080957
+        "latency": 14.463462
       },
       {
-        "timestamp": "2026-10-30T06:33:49.132113+00:00",
+        "timestamp": "2026-10-30T17:53:10.799053+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 29.263171
+        "latency": 21.760059
       },
       {
-        "timestamp": "2026-10-30T06:33:50.597898+00:00",
+        "timestamp": "2026-10-30T17:53:11.994719+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.465779
+        "latency": 1.195661
       },
       {
-        "timestamp": "2026-10-30T06:33:59.090706+00:00",
+        "timestamp": "2026-10-30T17:53:17.250271+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.492802
+        "items_collected": 0,
+        "latency": 5.255547
       },
       {
-        "timestamp": "2026-10-30T06:33:59.218918+00:00",
+        "timestamp": "2026-10-30T17:53:17.437245+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.128175
+        "latency": 0.186968
       }
     ]
   }
