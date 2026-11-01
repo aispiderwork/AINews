@@ -1,18 +1,30 @@
 {
-  "update_time": "2026-11-01T06:56:25.815702+00:00",
+  "update_time": "2026-11-01T17:48:00.032252+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+        "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+        "platform_url": "https://news.ycombinator.com/item?id=50322173",
+        "discussion_url": "https://news.ycombinator.com/item?id=50322173",
+        "score": 254,
+        "comments_count": 135,
+        "publish_time": "2026-11-01T02:19:53+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 218.29999999999998,
+        "id": "2877b1e8855b"
+      },
       {
         "title": "Anthropic blocks users for anything touching training larger models",
         "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
         "platform_url": "https://news.ycombinator.com/item?id=50319358",
         "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-        "score": 303,
-        "comments_count": 174,
+        "score": 430,
+        "comments_count": 239,
         "publish_time": "2026-10-31T19:39:19+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 264.3,
+        "hn_hot_score": 372.7,
         "id": "e9bc504bbdfc"
       },
       {
@@ -20,11 +32,11 @@
         "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
         "platform_url": "https://news.ycombinator.com/item?id=50316531",
         "discussion_url": "https://news.ycombinator.com/item?id=50316531",
-        "score": 243,
-        "comments_count": 131,
+        "score": 252,
+        "comments_count": 133,
         "publish_time": "2026-10-31T14:29:03+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 209.39999999999998,
+        "hn_hot_score": 216.29999999999998,
         "id": "19f6e3e3ffa6"
       },
       {
@@ -32,11 +44,11 @@
         "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
         "platform_url": "https://news.ycombinator.com/item?id=50314699",
         "discussion_url": "https://news.ycombinator.com/item?id=50314699",
-        "score": 319,
-        "comments_count": 157,
+        "score": 357,
+        "comments_count": 174,
         "publish_time": "2026-10-31T10:30:11+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 270.4,
+        "hn_hot_score": 302.09999999999997,
         "id": "9463bc3fc282"
       },
       {
@@ -44,11 +56,11 @@
         "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
         "platform_url": "https://news.ycombinator.com/item?id=50314654",
         "discussion_url": "https://news.ycombinator.com/item?id=50314654",
-        "score": 850,
-        "comments_count": 480,
+        "score": 882,
+        "comments_count": 491,
         "publish_time": "2026-10-31T10:21:30+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 739.0,
+        "hn_hot_score": 764.6999999999999,
         "id": "ab1a3f5f6f2d"
       },
       {
@@ -110,18 +122,6 @@
         "platform": "hackernews",
         "hn_hot_score": 520.1999999999999,
         "id": "b07862926f37"
-      },
-      {
-        "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-        "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-        "platform_url": "https://news.ycombinator.com/item?id=50300683",
-        "discussion_url": "https://news.ycombinator.com/item?id=50300683",
-        "score": 973,
-        "comments_count": 547,
-        "publish_time": "2026-10-30T07:09:12+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 845.1999999999999,
-        "id": "efa34a7ef430"
       }
     ],
     "bestblogs": [
@@ -468,6 +468,55 @@
     ],
     "qbitai": [
       {
+        "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+        "url": "https://www.qbitai.com/2026/11/507076.html",
+        "platform_url": "https://www.qbitai.com/2026/11/507076.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/WX20261101-212750@2x.png",
+        "publish_time": "2026-11-01T13:28:10+00:00",
+        "tags": [
+          "世界模型"
+        ],
+        "platform": "qbitai",
+        "id": "b70438799b2b"
+      },
+      {
+        "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+        "url": "https://www.qbitai.com/2026/11/507038.html",
+        "platform_url": "https://www.qbitai.com/2026/11/507038.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/123b45bfbfd4396348456d031a78ae2c.webp",
+        "publish_time": "2026-11-01T13:09:55+00:00",
+        "tags": [
+          "Anthropic",
+          "Claude Code"
+        ],
+        "platform": "qbitai",
+        "id": "129bda5b31c0"
+      },
+      {
+        "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+        "url": "https://www.qbitai.com/2026/11/507031.html",
+        "platform_url": "https://www.qbitai.com/2026/11/507031.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-11.png",
+        "publish_time": "2026-11-01T08:02:37+00:00",
+        "tags": [
+          "世界模型"
+        ],
+        "platform": "qbitai",
+        "id": "3ed5c422e432"
+      },
+      {
+        "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+        "url": "https://www.qbitai.com/2026/11/506990.html",
+        "platform_url": "https://www.qbitai.com/2026/11/506990.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-8.png",
+        "publish_time": "2026-11-01T07:50:57+00:00",
+        "tags": [
+          "机器人"
+        ],
+        "platform": "qbitai",
+        "id": "96625dfa2fb1"
+      },
+      {
         "title": "Jev新成果，再次引爆开源",
         "url": "https://www.qbitai.com/2026/11/506922.html",
         "platform_url": "https://www.qbitai.com/2026/11/506922.html",
@@ -538,52 +587,6 @@
         ],
         "platform": "qbitai",
         "id": "8f5bba805c5e"
-      },
-      {
-        "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
-        "url": "https://www.qbitai.com/2026/10/506771.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506771.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图片1-2.png",
-        "publish_time": "2026-10-30T08:50:44+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "fefc49119425"
-      },
-      {
-        "title": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
-        "url": "https://www.qbitai.com/2026/10/506747.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506747.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
-        "publish_time": "2026-10-30T08:12:11+00:00",
-        "tags": [
-          "Utopai Studios"
-        ],
-        "platform": "qbitai",
-        "id": "c9d362188716"
-      },
-      {
-        "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
-        "url": "https://www.qbitai.com/2026/10/506743.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506743.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/17240ae25c2799cc42c3d952b16abae3.jpeg",
-        "publish_time": "2026-10-30T07:31:11+00:00",
-        "tags": [
-          "MiniMax"
-        ],
-        "platform": "qbitai",
-        "id": "7e7bd46d4e8d"
-      },
-      {
-        "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
-        "url": "https://www.qbitai.com/2026/10/506686.html",
-        "platform_url": "https://www.qbitai.com/2026/10/506686.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/23164dd82636b622080b1103898c1f5c.jpeg",
-        "publish_time": "2026-10-30T05:52:47+00:00",
-        "tags": [
-          "OCR"
-        ],
-        "platform": "qbitai",
-        "id": "b9786c1f1fe2"
       }
     ],
     "huggingface": [
@@ -613,7 +616,7 @@
         ],
         "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introd",
         "platform": "huggingface",
-        "score": 38,
+        "score": 39,
         "comments_count": 5,
         "id": "b81b251886f6"
       },
@@ -643,7 +646,7 @@
         ],
         "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
         "platform": "huggingface",
-        "score": 36,
+        "score": 24,
         "comments_count": 6,
         "id": "b937bf1e71dc"
       },
@@ -658,9 +661,41 @@
         ],
         "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation wh",
         "platform": "huggingface",
-        "score": 58,
+        "score": 62,
         "comments_count": 4,
         "id": "63ae468079bc"
+      },
+      {
+        "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+        "url": "https://huggingface.co/papers/2610.40599",
+        "platform_url": "https://huggingface.co/papers/2610.40599",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40599.png",
+        "publish_time": "2026-10-28T20:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: ",
+        "platform": "huggingface",
+        "score": 23,
+        "comments_count": 2,
+        "id": "8353fdd47a1f"
+      },
+      {
+        "title": "[模型] AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+        "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+        "platform_url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+        "cover_url": null,
+        "publish_time": "2026-10-28T04:48:45.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 125 · 下载 17,384",
+        "platform": "huggingface",
+        "score": 129,
+        "trending_score": 125,
+        "downloads": 17384,
+        "id": "40238dcc26b8"
       },
       {
         "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
@@ -687,11 +722,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 152 · 下载 38,382",
+        "summary": "TrendingScore 163 · 下载 46,155",
         "platform": "huggingface",
-        "score": 160,
-        "trending_score": 152,
-        "downloads": 38382,
+        "score": 173,
+        "trending_score": 163,
+        "downloads": 46155,
         "id": "ddf5b6c3a8bf"
       },
       {
@@ -825,8 +860,8 @@
         ],
         "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi",
         "platform": "huggingface",
-        "score": 36,
-        "comments_count": 5,
+        "score": 37,
+        "comments_count": 6,
         "id": "113af81bda3b"
       },
       {
@@ -855,42 +890,34 @@
         ],
         "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare",
         "platform": "huggingface",
-        "score": 100,
+        "score": 101,
         "comments_count": 3,
         "id": "52c7cb56bad2"
-      },
-      {
-        "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
-        "url": "https://huggingface.co/papers/2610.34662",
-        "platform_url": "https://huggingface.co/papers/2610.34662",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34662.png",
-        "publish_time": "2026-10-25T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce Stream",
-        "platform": "huggingface",
-        "score": 234,
-        "comments_count": 1,
-        "id": "c4214ce9e886"
-      },
-      {
-        "title": "Work Agents: Systems, Capabilities, and Optimization",
-        "url": "https://huggingface.co/papers/2610.35845",
-        "platform_url": "https://huggingface.co/papers/2610.35845",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35845.png",
-        "publish_time": "2026-10-25T20:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver ",
-        "platform": "huggingface",
-        "score": 96,
-        "comments_count": 1,
-        "id": "27353bb3ef2a"
       }
     ],
     "radarai": [
+      {
+        "title": "AI Coding最佳实践与Android端侧Agent工具成开发者新焦点 · 1102-789期",
+        "url": "https://radarai.top/updates/brief-20261102-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261102-0000",
+        "cover_url": null,
+        "publish_time": "2026-11-01T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "e8e921bfcc4a"
+      },
+      {
+        "title": "谷歌云订单强劲难掩科技股焦虑：AI 投入何时回本成财报焦点 · 1101-788期",
+        "url": "https://radarai.top/updates/brief-20261101-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261101-1600",
+        "cover_url": null,
+        "publish_time": "2026-11-01T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "8eb81f089651"
+      },
       {
         "title": "白宫顾问称Anthropic或成资本主义史上最伟大企业 · 1101-787期",
         "url": "https://radarai.top/updates/brief-20261101-0800",
@@ -978,32 +1005,81 @@
         "summary": "",
         "platform": "radarai",
         "id": "0629c826c5ed"
-      },
-      {
-        "title": "Mistral开源1.05T参数模型 · 1030-780期",
-        "url": "https://radarai.top/updates/brief-20261030-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261030-0000",
-        "cover_url": null,
-        "publish_time": "2026-10-29T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "ec7a1bf1a591"
-      },
-      {
-        "title": "Gemini 4 Carbon 以59分登顶AI指数 · 1029-779期",
-        "url": "https://radarai.top/updates/brief-20261029-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261029-1600",
-        "cover_url": null,
-        "publish_time": "2026-10-29T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "86c2d1c60e35"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "AI Coding最佳实践与Android端侧Agent工具成开发者新焦点 · 1102-789期",
+      "url": "https://radarai.top/updates/brief-20261102-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261102-0000",
+      "cover_url": null,
+      "publish_time": "2026-11-01T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "e8e921bfcc4a"
+    },
+    {
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "platform_url": "https://www.qbitai.com/2026/11/507076.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/WX20261101-212750@2x.png",
+      "publish_time": "2026-11-01T13:28:10+00:00",
+      "tags": [
+        "世界模型"
+      ],
+      "platform": "qbitai",
+      "id": "b70438799b2b"
+    },
+    {
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "platform_url": "https://www.qbitai.com/2026/11/507038.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/123b45bfbfd4396348456d031a78ae2c.webp",
+      "publish_time": "2026-11-01T13:09:55+00:00",
+      "tags": [
+        "Anthropic",
+        "Claude Code"
+      ],
+      "platform": "qbitai",
+      "id": "129bda5b31c0"
+    },
+    {
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "platform_url": "https://www.qbitai.com/2026/11/507031.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-11.png",
+      "publish_time": "2026-11-01T08:02:37+00:00",
+      "tags": [
+        "世界模型"
+      ],
+      "platform": "qbitai",
+      "id": "3ed5c422e432"
+    },
+    {
+      "title": "谷歌云订单强劲难掩科技股焦虑：AI 投入何时回本成财报焦点 · 1101-788期",
+      "url": "https://radarai.top/updates/brief-20261101-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261101-1600",
+      "cover_url": null,
+      "publish_time": "2026-11-01T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "8eb81f089651"
+    },
+    {
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "platform_url": "https://www.qbitai.com/2026/11/506990.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-8.png",
+      "publish_time": "2026-11-01T07:50:57+00:00",
+      "tags": [
+        "机器人"
+      ],
+      "platform": "qbitai",
+      "id": "96625dfa2fb1"
+    },
     {
       "title": "模型都一样，智能体靠什么拉开差距：Oracle 的 Richmond Alake 谈记忆与智能平面",
       "url": "https://www.bestblogs.dev/article/RAW_993850193",
@@ -1357,6 +1433,18 @@
       "id": "8196a20aa860"
     },
     {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "platform_url": "https://news.ycombinator.com/item?id=50322173",
+      "discussion_url": "https://news.ycombinator.com/item?id=50322173",
+      "score": 254,
+      "comments_count": 135,
+      "publish_time": "2026-11-01T02:19:53+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 218.29999999999998,
+      "id": "2877b1e8855b"
+    },
+    {
       "title": "白宫顾问称Anthropic或成资本主义史上最伟大企业 · 1101-787期",
       "url": "https://radarai.top/updates/brief-20261101-0800",
       "platform_url": "https://radarai.top/updates/brief-20261101-0800",
@@ -1372,11 +1460,11 @@
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "platform_url": "https://news.ycombinator.com/item?id=50319358",
       "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-      "score": 303,
-      "comments_count": 174,
+      "score": 430,
+      "comments_count": 239,
       "publish_time": "2026-10-31T19:39:19+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 264.3,
+      "hn_hot_score": 372.7,
       "id": "e9bc504bbdfc"
     },
     {
@@ -1395,11 +1483,11 @@
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
       "platform_url": "https://news.ycombinator.com/item?id=50316531",
       "discussion_url": "https://news.ycombinator.com/item?id=50316531",
-      "score": 243,
-      "comments_count": 131,
+      "score": 252,
+      "comments_count": 133,
       "publish_time": "2026-10-31T14:29:03+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 209.39999999999998,
+      "hn_hot_score": 216.29999999999998,
       "id": "19f6e3e3ffa6"
     },
     {
@@ -1419,11 +1507,11 @@
       "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
       "platform_url": "https://news.ycombinator.com/item?id=50314699",
       "discussion_url": "https://news.ycombinator.com/item?id=50314699",
-      "score": 319,
-      "comments_count": 157,
+      "score": 357,
+      "comments_count": 174,
       "publish_time": "2026-10-31T10:30:11+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 270.4,
+      "hn_hot_score": 302.09999999999997,
       "id": "9463bc3fc282"
     },
     {
@@ -1431,11 +1519,11 @@
       "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
       "platform_url": "https://news.ycombinator.com/item?id=50314654",
       "discussion_url": "https://news.ycombinator.com/item?id=50314654",
-      "score": 850,
-      "comments_count": 480,
+      "score": 882,
+      "comments_count": 491,
       "publish_time": "2026-10-31T10:21:30+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 739.0,
+      "hn_hot_score": 764.6999999999999,
       "id": "ab1a3f5f6f2d"
     },
     {
@@ -1580,28 +1668,6 @@
       "id": "8f5bba805c5e"
     },
     {
-      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
-      "url": "https://www.qbitai.com/2026/10/506771.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506771.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/图片1-2.png",
-      "publish_time": "2026-10-30T08:50:44+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "fefc49119425"
-    },
-    {
-      "title": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
-      "url": "https://www.qbitai.com/2026/10/506747.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506747.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
-      "publish_time": "2026-10-30T08:12:11+00:00",
-      "tags": [
-        "Utopai Studios"
-      ],
-      "platform": "qbitai",
-      "id": "c9d362188716"
-    },
-    {
       "title": "OpenAI、Anthropic、DeepMind竞逐AGI · 1030-782期",
       "url": "https://radarai.top/updates/brief-20261030-1600",
       "platform_url": "https://radarai.top/updates/brief-20261030-1600",
@@ -1611,42 +1677,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "19c159254bcf"
-    },
-    {
-      "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
-      "url": "https://www.qbitai.com/2026/10/506743.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506743.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/17240ae25c2799cc42c3d952b16abae3.jpeg",
-      "publish_time": "2026-10-30T07:31:11+00:00",
-      "tags": [
-        "MiniMax"
-      ],
-      "platform": "qbitai",
-      "id": "7e7bd46d4e8d"
-    },
-    {
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "platform_url": "https://news.ycombinator.com/item?id=50300683",
-      "discussion_url": "https://news.ycombinator.com/item?id=50300683",
-      "score": 973,
-      "comments_count": 547,
-      "publish_time": "2026-10-30T07:09:12+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 845.1999999999999,
-      "id": "efa34a7ef430"
-    },
-    {
-      "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
-      "url": "https://www.qbitai.com/2026/10/506686.html",
-      "platform_url": "https://www.qbitai.com/2026/10/506686.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/10/23164dd82636b622080b1103898c1f5c.jpeg",
-      "publish_time": "2026-10-30T05:52:47+00:00",
-      "tags": [
-        "OCR"
-      ],
-      "platform": "qbitai",
-      "id": "b9786c1f1fe2"
     },
     {
       "title": "每周 AI 热点 · 2026-10-30",
@@ -1669,28 +1699,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "0629c826c5ed"
-    },
-    {
-      "title": "Mistral开源1.05T参数模型 · 1030-780期",
-      "url": "https://radarai.top/updates/brief-20261030-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261030-0000",
-      "cover_url": null,
-      "publish_time": "2026-10-29T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "ec7a1bf1a591"
-    },
-    {
-      "title": "Gemini 4 Carbon 以59分登顶AI指数 · 1029-779期",
-      "url": "https://radarai.top/updates/brief-20261029-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261029-1600",
-      "cover_url": null,
-      "publish_time": "2026-10-29T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "86c2d1c60e35"
     },
     {
       "title": "Intrinsic Distribution Matching",
@@ -1718,7 +1726,7 @@
       ],
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introd",
       "platform": "huggingface",
-      "score": 38,
+      "score": 39,
       "comments_count": 5,
       "id": "b81b251886f6"
     },
@@ -1748,7 +1756,7 @@
       ],
       "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
       "platform": "huggingface",
-      "score": 36,
+      "score": 24,
       "comments_count": 6,
       "id": "b937bf1e71dc"
     },
@@ -1763,9 +1771,41 @@
       ],
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation wh",
       "platform": "huggingface",
-      "score": 58,
+      "score": 62,
       "comments_count": 4,
       "id": "63ae468079bc"
+    },
+    {
+      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "url": "https://huggingface.co/papers/2610.40599",
+      "platform_url": "https://huggingface.co/papers/2610.40599",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40599.png",
+      "publish_time": "2026-10-28T20:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: ",
+      "platform": "huggingface",
+      "score": 23,
+      "comments_count": 2,
+      "id": "8353fdd47a1f"
+    },
+    {
+      "title": "[模型] AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "platform_url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "cover_url": null,
+      "publish_time": "2026-10-28T04:48:45.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 125 · 下载 17,384",
+      "platform": "huggingface",
+      "score": 129,
+      "trending_score": 125,
+      "downloads": 17384,
+      "id": "40238dcc26b8"
     },
     {
       "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
@@ -1792,11 +1832,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 152 · 下载 38,382",
+      "summary": "TrendingScore 163 · 下载 46,155",
       "platform": "huggingface",
-      "score": 160,
-      "trending_score": 152,
-      "downloads": 38382,
+      "score": 173,
+      "trending_score": 163,
+      "downloads": 46155,
       "id": "ddf5b6c3a8bf"
     },
     {
@@ -1930,8 +1970,8 @@
       ],
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi",
       "platform": "huggingface",
-      "score": 36,
-      "comments_count": 5,
+      "score": 37,
+      "comments_count": 6,
       "id": "113af81bda3b"
     },
     {
@@ -1960,47 +2000,17 @@
       ],
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare",
       "platform": "huggingface",
-      "score": 100,
+      "score": 101,
       "comments_count": 3,
       "id": "52c7cb56bad2"
-    },
-    {
-      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
-      "url": "https://huggingface.co/papers/2610.34662",
-      "platform_url": "https://huggingface.co/papers/2610.34662",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.34662.png",
-      "publish_time": "2026-10-25T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce Stream",
-      "platform": "huggingface",
-      "score": 234,
-      "comments_count": 1,
-      "id": "c4214ce9e886"
-    },
-    {
-      "title": "Work Agents: Systems, Capabilities, and Optimization",
-      "url": "https://huggingface.co/papers/2610.35845",
-      "platform_url": "https://huggingface.co/papers/2610.35845",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.35845.png",
-      "publish_time": "2026-10-25T20:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver ",
-      "platform": "huggingface",
-      "score": 96,
-      "comments_count": 1,
-      "id": "27353bb3ef2a"
     }
   ],
   "monitor": {
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 10.1,
-      "cover_success_rate": 41.4
+      "avg_response_time": 9.3,
+      "cover_success_rate": 40.0
     },
     "platforms": [
       {
@@ -2008,73 +2018,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-01T06:55:51.286913+00:00"
+        "last_crawl": "2026-11-01T17:47:22.766004+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-01T06:56:16.036909+00:00"
+        "last_crawl": "2026-11-01T17:47:52.927618+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-01T06:56:17.373964+00:00"
+        "last_crawl": "2026-11-01T17:47:54.396568+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-11-01T06:56:25.576456+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-11-01T17:47:59.808611+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-11-01T06:56:25.758925+00:00"
+        "last_crawl": "2026-11-01T17:47:59.976184+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-11-01T06:55:51.286919+00:00",
+        "timestamp": "2026-11-01T17:47:22.766011+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 16.101352
+        "latency": 9.167636
       },
       {
-        "timestamp": "2026-11-01T06:56:16.036917+00:00",
+        "timestamp": "2026-11-01T17:47:52.927623+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 24.749991
+        "latency": 30.161605
       },
       {
-        "timestamp": "2026-11-01T06:56:17.373968+00:00",
+        "timestamp": "2026-11-01T17:47:54.396573+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.337044
+        "latency": 1.468943
       },
       {
-        "timestamp": "2026-11-01T06:56:25.576466+00:00",
+        "timestamp": "2026-11-01T17:47:59.808622+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.202492
+        "items_collected": 0,
+        "latency": 5.412042
       },
       {
-        "timestamp": "2026-11-01T06:56:25.758935+00:00",
+        "timestamp": "2026-11-01T17:47:59.976193+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.182463
+        "latency": 0.167566
       }
     ]
   }
