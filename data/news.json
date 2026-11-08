@@ -1,8 +1,34 @@
 {
-  "update_time": "2026-11-07T17:38:47.555670+00:00",
-  "platform_unavailable": [],
+  "update_time": "2026-11-08T06:46:57.492118+00:00",
+  "platform_unavailable": [
+    "qbitai"
+  ],
   "news": {
     "hackernews": [
+      {
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "platform_url": "https://news.ycombinator.com/item?id=50407882",
+        "discussion_url": "https://news.ycombinator.com/item?id=50407882",
+        "score": 316,
+        "comments_count": 216,
+        "publish_time": "2026-11-07T20:45:32+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 286.0,
+        "id": "3a2e3b0bf7d5"
+      },
+      {
+        "title": "The end of Microsoft Research's AI Frontiers group",
+        "url": "https://hunch.net/?p=13764006",
+        "platform_url": "https://news.ycombinator.com/item?id=50406563",
+        "discussion_url": "https://news.ycombinator.com/item?id=50406563",
+        "score": 438,
+        "comments_count": 260,
+        "publish_time": "2026-11-07T18:02:17+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 384.59999999999997,
+        "id": "9039cb9a41da"
+      },
       {
         "title": "AI is dramatically accelerating AI research",
         "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
@@ -16,15 +42,27 @@
         "id": "91e4ae271f80"
       },
       {
+        "title": "GitHub's new Git storage architecture",
+        "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+        "platform_url": "https://news.ycombinator.com/item?id=50397099",
+        "discussion_url": "https://news.ycombinator.com/item?id=50397099",
+        "score": 224,
+        "comments_count": 63,
+        "publish_time": "2026-11-06T19:24:21+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 175.7,
+        "id": "da2df56873aa"
+      },
+      {
         "title": "Anthropic IPO buyers see valuation as low as $1.1T",
         "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
         "platform_url": "https://news.ycombinator.com/item?id=50394906",
         "discussion_url": "https://news.ycombinator.com/item?id=50394906",
-        "score": 297,
-        "comments_count": 591,
+        "score": 312,
+        "comments_count": 614,
         "publish_time": "2026-11-06T16:54:36+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 385.19999999999993,
+        "hn_hot_score": 402.59999999999997,
         "id": "3b84468a3a69"
       },
       {
@@ -32,11 +70,11 @@
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
         "platform_url": "https://news.ycombinator.com/item?id=50392118",
         "discussion_url": "https://news.ycombinator.com/item?id=50392118",
-        "score": 355,
-        "comments_count": 245,
+        "score": 361,
+        "comments_count": 250,
         "publish_time": "2026-11-06T13:35:27+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 322.0,
+        "hn_hot_score": 327.7,
         "id": "2c1d915486af"
       },
       {
@@ -44,11 +82,11 @@
         "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
         "platform_url": "https://news.ycombinator.com/item?id=50391456",
         "discussion_url": "https://news.ycombinator.com/item?id=50391456",
-        "score": 1112,
-        "comments_count": 1982,
+        "score": 1131,
+        "comments_count": 2045,
         "publish_time": "2026-11-06T12:13:51+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 1373.0,
+        "hn_hot_score": 1405.1999999999998,
         "id": "6be2107d4c25"
       },
       {
@@ -64,279 +102,328 @@
         "id": "fa11d0f06384"
       },
       {
+        "title": "I struggle to believe that AI R&D is ingenious",
+        "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+        "platform_url": "https://news.ycombinator.com/item?id=50388513",
+        "discussion_url": "https://news.ycombinator.com/item?id=50388513",
+        "score": 217,
+        "comments_count": 217,
+        "publish_time": "2026-11-06T05:19:04+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 216.99999999999997,
+        "id": "ead0cc13cb49"
+      },
+      {
         "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
         "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
         "platform_url": "https://news.ycombinator.com/item?id=50388001",
         "discussion_url": "https://news.ycombinator.com/item?id=50388001",
-        "score": 379,
-        "comments_count": 316,
+        "score": 403,
+        "comments_count": 327,
         "publish_time": "2026-11-06T04:00:28+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 360.1,
+        "hn_hot_score": 380.19999999999993,
         "id": "e04f258e0f08"
-      },
-      {
-        "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-        "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-        "platform_url": "https://news.ycombinator.com/item?id=50385870",
-        "discussion_url": "https://news.ycombinator.com/item?id=50385870",
-        "score": 509,
-        "comments_count": 226,
-        "publish_time": "2026-11-05T23:09:57+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 424.09999999999997,
-        "id": "3770e994c97a"
-      },
-      {
-        "title": "Claude Code sends your email address to websites",
-        "url": "https://github.com/anthropics/claude-code/issues/107757",
-        "platform_url": "https://news.ycombinator.com/item?id=50385272",
-        "discussion_url": "https://news.ycombinator.com/item?id=50385272",
-        "score": 1584,
-        "comments_count": 510,
-        "publish_time": "2026-11-05T22:17:15+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 1261.8,
-        "id": "a8a7cc0dd180"
-      },
-      {
-        "title": "MS Paint Remote Code Execution Vulnerability",
-        "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-        "platform_url": "https://news.ycombinator.com/item?id=50384233",
-        "discussion_url": "https://news.ycombinator.com/item?id=50384233",
-        "score": 709,
-        "comments_count": 281,
-        "publish_time": "2026-11-05T20:43:42+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 580.5999999999999,
-        "id": "afaa8dbf922a"
-      },
-      {
-        "title": "MCP Explained",
-        "url": "https://mcp-explained.com/",
-        "platform_url": "https://news.ycombinator.com/item?id=50379249",
-        "discussion_url": "https://news.ycombinator.com/item?id=50379249",
-        "score": 334,
-        "comments_count": 133,
-        "publish_time": "2026-11-05T14:08:35+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 273.7,
-        "id": "3799e6761925"
       }
     ],
     "bestblogs": [
       {
-        "title": "深入了解 GitHub 全新的 Git 存储架构",
-        "url": "https://www.bestblogs.dev/article/RAW_a43b9d868f",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_a43b9d868f",
+        "title": "控制生物学——Fabian Theis，Helmholtz Munich — Latent Space",
+        "url": "https://www.bestblogs.dev/article/RAW_a1afc07385",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_a1afc07385",
         "original_url": "",
-        "resource_id": "RAW_a43b9d868f",
+        "resource_id": "RAW_a1afc07385",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188277+00:00",
+        "publish_time": "2026-11-08T06:46:49.238561+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 92,
-        "source_name": "The GitHub Blog",
-        "id": "5d5ab6e2f6f3"
-      },
-      {
-        "title": "NVIDIA 五种协同设计方式，最大化 AI 工厂中每个字节的价值",
-        "url": "https://www.bestblogs.dev/article/RAW_1abdb8d079",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_1abdb8d079",
-        "original_url": "",
-        "resource_id": "RAW_1abdb8d079",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188273+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 92,
-        "source_name": "NVIDIA Technical Blog",
-        "id": "7199879716e0"
-      },
-      {
-        "title": "上限让人尝鲜，可靠让人常用：千问蒋冠军谈 Personal Agent",
-        "url": "https://www.bestblogs.dev/article/RAW_7a4dc8231a",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_7a4dc8231a",
-        "original_url": "",
-        "resource_id": "RAW_7a4dc8231a",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188268+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "AI炼金术",
-        "id": "b8b0e015622b"
-      },
-      {
-        "title": "掌控生物学——Fabian Theis，Helmholtz Munich — Latent Space",
-        "url": "https://www.bestblogs.dev/article/RAW_1d7800de9f",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_1d7800de9f",
-        "original_url": "",
-        "resource_id": "RAW_1d7800de9f",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188263+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 88,
+        "score": 85,
         "source_name": "Latent.Space",
-        "id": "5e82fbe721dc"
+        "id": "d60fc591d657"
       },
       {
-        "title": "无需更新即可在 OpenClaw 中使用新模型",
-        "url": "https://www.bestblogs.dev/article/RAW_fe2ece0a35",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_fe2ece0a35",
+        "title": "Edera 的对象能力边界授权旨在将凭据与 AI 智能体工作负载隔离",
+        "url": "https://www.bestblogs.dev/article/RAW_11ed38eb59",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_11ed38eb59",
         "original_url": "",
-        "resource_id": "RAW_fe2ece0a35",
+        "resource_id": "RAW_11ed38eb59",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188259+00:00",
+        "publish_time": "2026-11-08T06:46:49.238557+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 88,
-        "source_name": "OpenClaw Blog",
-        "id": "995d5fa77607"
+        "score": 85,
+        "source_name": "InfoQ",
+        "id": "f9dfd802a755"
       },
       {
-        "title": "别批准 AI 模型，要批准整套应用：Langfuse 的银行评估门禁实践",
-        "url": "https://www.bestblogs.dev/article/RAW_5fb4c0783",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_5fb4c0783",
+        "title": "GitLab 19.5 将智能体驱动的开发纳入 DevOps 平台治理",
+        "url": "https://www.bestblogs.dev/article/RAW_a8751cbdcf",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_a8751cbdcf",
         "original_url": "",
-        "resource_id": "RAW_5fb4c0783",
+        "resource_id": "RAW_a8751cbdcf",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188255+00:00",
+        "publish_time": "2026-11-08T06:46:49.238553+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 88,
-        "source_name": "AI Engineer",
-        "id": "0d68ef2684d1"
+        "score": 85,
+        "source_name": "InfoQ",
+        "id": "3a64d67e5b32"
       },
       {
-        "title": "Artificial Analysis 推出端点准确性指数 v1.1：详细揭示各提供商的准确性情况",
-        "url": "https://www.bestblogs.dev/article/RAW_2118534967387185476",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_2118534967387185476",
+        "title": "衡量 AI 智能体处理日常湿实验科学任务的能力",
+        "url": "https://www.bestblogs.dev/article/RAW_3bd1d4c00f",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_3bd1d4c00f",
         "original_url": "",
-        "resource_id": "RAW_2118534967387185476",
+        "resource_id": "RAW_3bd1d4c00f",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188250+00:00",
+        "publish_time": "2026-11-08T06:46:49.238549+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Artificial Analysis(@ArtificialAnlys)",
-        "id": "11ed8ba1734f"
-      },
-      {
-        "title": "Inkling 2 Small：17A-594B 模型在 68 小时内使用 12T tokens 完成训练，击败 Muse Spark — Latent Space",
-        "url": "https://www.bestblogs.dev/article/RAW_829890e34b",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_829890e34b",
-        "original_url": "",
-        "resource_id": "RAW_829890e34b",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188246+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 88,
-        "source_name": "Latent.Space",
-        "id": "9ef0ef00f825"
-      },
-      {
-        "title": "Cult.fit 借助 Codex 锻造运营实力",
-        "url": "https://www.bestblogs.dev/article/RAW_512759dfa0",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_512759dfa0",
-        "original_url": "",
-        "resource_id": "RAW_512759dfa0",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188241+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 88,
+        "score": 85,
         "source_name": "OpenAI News",
-        "id": "08678dea3be6"
+        "id": "301ea10c150a"
       },
       {
-        "title": "把 Agent 的判断与行动变成可恢复的软件事实｜KDC 系列 工程篇",
-        "url": "https://www.bestblogs.dev/article/RAW_3f26f11f5e",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_3f26f11f5e",
+        "title": "智能体如何把一小时的数据核验缩短到五分钟｜Nori Agentic",
+        "url": "https://www.bestblogs.dev/article/RAW_64f434de8",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_64f434de8",
         "original_url": "",
-        "resource_id": "RAW_3f26f11f5e",
+        "resource_id": "RAW_64f434de8",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188237+00:00",
+        "publish_time": "2026-11-08T06:46:49.238546+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 91,
-        "source_name": "vivo互联网技术",
-        "id": "19ad0e6bc585"
+        "score": 88,
+        "source_name": "AI Engineer",
+        "id": "185bd79910d1"
       },
       {
-        "title": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
-        "url": "https://www.bestblogs.dev/article/RAW_07d4f9169a",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_07d4f9169a",
+        "title": "Grab 如何通过安全处理 AI 生成代码变更激增，提升移动应用稳定性",
+        "url": "https://www.bestblogs.dev/article/RAW_e8dfe0cbc2",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_e8dfe0cbc2",
         "original_url": "",
-        "resource_id": "RAW_07d4f9169a",
+        "resource_id": "RAW_e8dfe0cbc2",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188232+00:00",
+        "publish_time": "2026-11-08T06:46:49.238543+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
-        "score": 91,
-        "source_name": "腾讯研究院",
-        "id": "f035ab503290"
+        "score": 88,
+        "source_name": "InfoQ",
+        "id": "d05199883c53"
       },
       {
-        "title": "E257 对话少楠：明明 AI 有问必答，我怎么还总是信息焦虑？",
-        "url": "https://www.bestblogs.dev/article/RAW_0fe941ba8",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_0fe941ba8",
+        "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
+        "url": "https://www.bestblogs.dev/article/RAW_8d3f190452",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_8d3f190452",
         "original_url": "",
-        "resource_id": "RAW_0fe941ba8",
+        "resource_id": "RAW_8d3f190452",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188227+00:00",
+        "publish_time": "2026-11-08T06:46:49.238539+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 88,
+        "source_name": "InfoQ 中文",
+        "id": "138b3a1ad48e"
+      },
+      {
+        "title": "大家都有个小问题",
+        "url": "https://www.bestblogs.dev/article/RAW_6bfbd1c505",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_6bfbd1c505",
+        "original_url": "",
+        "resource_id": "RAW_6bfbd1c505",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238535+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
         "score": 90,
-        "source_name": "知行小酒馆",
-        "id": "520fe15804fe"
+        "source_name": "UX Collective",
+        "id": "07e9e7dc3e46"
       },
       {
-        "title": "别再把 API 密钥直接交给智能体：用令牌交换和持久执行做报销工作流",
-        "url": "https://www.bestblogs.dev/article/RAW_557b956da",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_557b956da",
+        "title": "金融审计智能体如何交代判断依据，Fieldguide 的四项控制",
+        "url": "https://www.bestblogs.dev/article/RAW_8d8ecbd21",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_8d8ecbd21",
         "original_url": "",
-        "resource_id": "RAW_557b956da",
+        "resource_id": "RAW_8d8ecbd21",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188220+00:00",
+        "publish_time": "2026-11-08T06:46:49.238532+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 89,
+        "source_name": "AI Engineer",
+        "id": "a55dc37ce01e"
+      },
+      {
+        "title": "对话千觉马道林：当通用大模型走进物理世界，具身难点在 “触碰之后”",
+        "url": "https://www.bestblogs.dev/article/RAW_17a08df417",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_17a08df417",
+        "original_url": "",
+        "resource_id": "RAW_17a08df417",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238528+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 91,
+        "source_name": "晚点LatePost",
+        "id": "d47e8420a6ad"
+      },
+      {
+        "title": "NeurIPS 2026 | 小红书智创 AIGC 团队提出视觉文本生成新方法 GlyphAnchor",
+        "url": "https://www.bestblogs.dev/article/RAW_5866a33994",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_5866a33994",
+        "original_url": "",
+        "resource_id": "RAW_5866a33994",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238525+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "小红书技术REDtech",
+        "id": "70b9cf540bc2"
+      },
+      {
+        "title": "从 LLM 到 Ontology：本体驱动的 AI 数据研发原理与最佳实践",
+        "url": "https://www.bestblogs.dev/article/RAW_de7d86656b",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_de7d86656b",
+        "original_url": "",
+        "resource_id": "RAW_de7d86656b",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238520+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "阿里云开发者",
+        "id": "b5ad91187ca1"
+      },
+      {
+        "title": "NVIDIA 分享 FLUX 图像生成加速的部署方法与配置",
+        "url": "https://www.bestblogs.dev/article/RAW_2466b755ef",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_2466b755ef",
+        "original_url": "",
+        "resource_id": "RAW_2466b755ef",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238514+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "NVIDIA Technical Blog",
+        "id": "c2542a76f35b"
+      },
+      {
+        "title": "MiniMax 创始人闫俊杰：AI 竞赛的最后 5%最难",
+        "url": "https://www.bestblogs.dev/article/RAW_aaa0397204",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_aaa0397204",
+        "original_url": "",
+        "resource_id": "RAW_aaa0397204",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238506+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 88,
+        "source_name": "腾讯科技",
+        "id": "352a0ab93364"
+      },
+      {
+        "title": "百度开放文心 5.5 Flash Base 基座模型权重",
+        "url": "https://www.bestblogs.dev/article/RAW_fee72c1c14",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_fee72c1c14",
+        "original_url": "",
+        "resource_id": "RAW_fee72c1c14",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238502+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 88,
+        "source_name": "机器之心",
+        "id": "19d49f149999"
+      },
+      {
+        "title": "Robinhood CEO 谈代币化、智能体交易与 Harmonic",
+        "url": "https://www.bestblogs.dev/article/RAW_233326409",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_233326409",
+        "original_url": "",
+        "resource_id": "RAW_233326409",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238498+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 89,
+        "source_name": "No Priors",
+        "id": "726bcd45cec1"
+      },
+      {
+        "title": "Salesforce 在 AI 时代怎么买公司？John Somorjai 拆解并购逻辑",
+        "url": "https://www.bestblogs.dev/article/RAW_b7b3a9587",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_b7b3a9587",
+        "original_url": "",
+        "resource_id": "RAW_b7b3a9587",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238490+00:00",
+        "tags": [
+          "早报"
+        ],
+        "summary": "",
+        "platform": "bestblogs",
+        "score": 90,
+        "source_name": "a16z",
+        "id": "a917df32ce82"
+      },
+      {
+        "title": "别靠 Vibe Coding 搭智能体基础设施｜Modal CTO Akshat Bubna",
+        "url": "https://www.bestblogs.dev/article/RAW_18604969a",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_18604969a",
+        "original_url": "",
+        "resource_id": "RAW_18604969a",
+        "cover_url": null,
+        "publish_time": "2026-11-08T06:46:49.238485+00:00",
         "tags": [
           "早报"
         ],
@@ -344,247 +431,41 @@
         "platform": "bestblogs",
         "score": 90,
         "source_name": "AI Engineer",
-        "id": "67502e43a69d"
+        "id": "2c21a6e15d9b"
       },
       {
-        "title": "借助 OpenClaw 多人协作打破信息孤岛",
-        "url": "https://www.bestblogs.dev/article/RAW_25a3b7b60c",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_25a3b7b60c",
+        "title": "以 1% 的成本实现前沿模型品质：LLM 分类器生产环境基准测试",
+        "url": "https://www.bestblogs.dev/article/RAW_ce5a69fb4e",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_ce5a69fb4e",
         "original_url": "",
-        "resource_id": "RAW_25a3b7b60c",
+        "resource_id": "RAW_ce5a69fb4e",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188210+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "OpenClaw Blog",
-        "id": "24784c1ad6de"
-      },
-      {
-        "title": "多 Agent 协作的下一场竞争，不在模型，而在上下文",
-        "url": "https://www.bestblogs.dev/article/RAW_c9766fc40c",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c9766fc40c",
-        "original_url": "",
-        "resource_id": "RAW_c9766fc40c",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188205+00:00",
+        "publish_time": "2026-11-08T06:46:49.238479+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
         "score": 90,
-        "source_name": "腾讯技术工程",
-        "id": "44e7312d9eed"
+        "source_name": "Airbnb Engineering",
+        "id": "63b6d8bb5818"
       },
       {
-        "title": "Agent 越用越多，企业为何仍不够 AI Native ？",
-        "url": "https://www.bestblogs.dev/article/RAW_6cc233fae1",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_6cc233fae1",
+        "title": "智能体记忆的组成部分",
+        "url": "https://www.bestblogs.dev/article/RAW_28ca813c44",
+        "platform_url": "https://www.bestblogs.dev/article/RAW_28ca813c44",
         "original_url": "",
-        "resource_id": "RAW_6cc233fae1",
+        "resource_id": "RAW_28ca813c44",
         "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188200+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "InfoQ 中文",
-        "id": "d35a7d60b2f8"
-      },
-      {
-        "title": "Salesforce 分享 Claude Code 的规模化应用实践",
-        "url": "https://www.bestblogs.dev/article/RAW_c2b21f760",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_c2b21f760",
-        "original_url": "",
-        "resource_id": "RAW_c2b21f760",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188194+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "Claude",
-        "id": "b5a0e9506336"
-      },
-      {
-        "title": "Claude 推出个人理财功能",
-        "url": "https://www.bestblogs.dev/article/RAW_6d86da630e",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_6d86da630e",
-        "original_url": "",
-        "resource_id": "RAW_6d86da630e",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188188+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 90,
-        "source_name": "Claude Blog",
-        "id": "ad8a564a13b8"
-      },
-      {
-        "title": "Kimi 托管智能体正式发布：将运行框架作为服务",
-        "url": "https://www.bestblogs.dev/article/RAW_cf41343c8c",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_cf41343c8c",
-        "original_url": "",
-        "resource_id": "RAW_cf41343c8c",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188181+00:00",
+        "publish_time": "2026-11-08T06:46:49.238462+00:00",
         "tags": [
           "早报"
         ],
         "summary": "",
         "platform": "bestblogs",
         "score": 88,
-        "source_name": "月之暗面 Kimi",
-        "id": "5aa51bd274e9"
-      },
-      {
-        "title": "淘宝 MNN 团队开源 0.3B 手机模型，iPhone 18 Pro 上离线跑出 350 token/s",
-        "url": "https://www.bestblogs.dev/article/RAW_4fb6604e8e",
-        "platform_url": "https://www.bestblogs.dev/article/RAW_4fb6604e8e",
-        "original_url": "",
-        "resource_id": "RAW_4fb6604e8e",
-        "cover_url": null,
-        "publish_time": "2026-11-07T06:40:53.188163+00:00",
-        "tags": [
-          "早报"
-        ],
-        "summary": "",
-        "platform": "bestblogs",
-        "score": 91,
-        "source_name": "大淘宝技术",
-        "id": "e802162660ce"
-      }
-    ],
-    "qbitai": [
-      {
-        "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-        "url": "https://www.qbitai.com/2026/11/508449.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508449.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-2-4.webp",
-        "publish_time": "2026-11-07T09:38:56+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "6a7573f4ebf7"
-      },
-      {
-        "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-        "url": "https://www.qbitai.com/2026/11/508344.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508344.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/3f63a2db3dbab2968fdfaf57c08a5ddb.jpeg",
-        "publish_time": "2026-11-07T08:11:25+00:00",
-        "tags": [
-          "AI，算力",
-          "ChatGPT",
-          "OpenAI",
-          "融资"
-        ],
-        "platform": "qbitai",
-        "id": "dc0f3445d40f"
-      },
-      {
-        "title": "为了去AI味，人类开始主动写烂文章了……",
-        "url": "https://www.qbitai.com/2026/11/508330.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508330.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a693951187e5a0f7b51fb4e16b4b8c4a.jpeg",
-        "publish_time": "2026-11-07T07:59:28+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "ebd17f621ef9"
-      },
-      {
-        "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
-        "url": "https://www.qbitai.com/2026/11/508264.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508264.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/d9df0fb93f1d07b816a57ff90b0b1382.png",
-        "publish_time": "2026-11-07T05:01:17+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "a2b3455538e4"
-      },
-      {
-        "title": "AGENTS.MD，危险危险危险！！！",
-        "url": "https://www.qbitai.com/2026/11/508244.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508244.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/1e42687f67c2c3c098e0012b6e36872c.webp",
-        "publish_time": "2026-11-07T03:43:55+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "78240bf0d5a9"
-      },
-      {
-        "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
-        "url": "https://www.qbitai.com/2026/11/508236.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508236.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/edb8506c317dd1899692f0bd47417e4c.webp",
-        "publish_time": "2026-11-07T03:31:44+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "abd37a643612"
-      },
-      {
-        "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
-        "url": "https://www.qbitai.com/2026/11/508196.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508196.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/1e04f487bc7342064efa7c38971d7cd7.png",
-        "publish_time": "2026-11-07T03:23:29+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "f1334e12d054"
-      },
-      {
-        "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-        "url": "https://www.qbitai.com/2026/11/508184.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508184.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-8-3.webp",
-        "publish_time": "2026-11-06T15:21:56+00:00",
-        "tags": [
-          "AI"
-        ],
-        "platform": "qbitai",
-        "id": "e646a6faed4c"
-      },
-      {
-        "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-        "url": "https://www.qbitai.com/2026/11/508174.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508174.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/d777df11e6dc6bfed4da0d0ed126f04f.png",
-        "publish_time": "2026-11-06T09:25:59+00:00",
-        "tags": [
-          "派欧云"
-        ],
-        "platform": "qbitai",
-        "id": "7b7e2d5568c4"
-      },
-      {
-        "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-        "url": "https://www.qbitai.com/2026/11/508170.html",
-        "platform_url": "https://www.qbitai.com/2026/11/508170.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/0ebd83f7329cd34880099cef00e73e63.jpeg",
-        "publish_time": "2026-11-06T09:21:51+00:00",
-        "tags": [
-          "阶跃终端"
-        ],
-        "platform": "qbitai",
-        "id": "d911c2d9b74b"
+        "source_name": "Anthropic Research",
+        "id": "3b187304434d"
       }
     ],
     "huggingface": [
@@ -598,10 +479,10 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 167 · 下载 989",
+        "summary": "TrendingScore 228 · 下载 989",
         "platform": "huggingface",
-        "score": 172,
-        "trending_score": 167,
+        "score": 235,
+        "trending_score": 228,
         "downloads": 989,
         "id": "318a11f28a42"
       },
@@ -616,7 +497,7 @@
         ],
         "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st",
         "platform": "huggingface",
-        "score": 98,
+        "score": 100,
         "comments_count": 1,
         "id": "9ac43c967b60"
       },
@@ -631,7 +512,7 @@
         ],
         "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-",
         "platform": "huggingface",
-        "score": 79,
+        "score": 82,
         "comments_count": 3,
         "id": "c6ee36926863"
       },
@@ -646,7 +527,7 @@
         ],
         "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimi",
         "platform": "huggingface",
-        "score": 42,
+        "score": 43,
         "comments_count": 1,
         "id": "0e91bddf2ce0"
       },
@@ -751,7 +632,7 @@
         ],
         "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that i",
         "platform": "huggingface",
-        "score": 39,
+        "score": 40,
         "comments_count": 4,
         "id": "28044ade493f"
       },
@@ -766,7 +647,7 @@
         ],
         "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, atte",
         "platform": "huggingface",
-        "score": 46,
+        "score": 86,
         "comments_count": 2,
         "id": "4d7ceaed9375"
       },
@@ -893,6 +774,17 @@
     ],
     "radarai": [
       {
+        "title": "Anthropic感恩节前冲刺IPO，估值最高1.75万亿美元 · 1108-808期",
+        "url": "https://radarai.top/updates/brief-20261108-0800",
+        "platform_url": "https://radarai.top/updates/brief-20261108-0800",
+        "cover_url": null,
+        "publish_time": "2026-11-08T00:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "55acb5ca81a9"
+      },
+      {
         "title": "Anthropic模型提速翻倍引安全警告 · 1108-807期",
         "url": "https://radarai.top/updates/brief-20261108-0000",
         "platform_url": "https://radarai.top/updates/brief-20261108-0000",
@@ -990,21 +882,385 @@
         "summary": "",
         "platform": "radarai",
         "id": "661b4bbb2be2"
-      },
-      {
-        "title": "OpenAI图像生成提速50%六秒出图，安全管线单次复现1724个漏洞 · 1105-799期",
-        "url": "https://radarai.top/updates/brief-20261105-0800",
-        "platform_url": "https://radarai.top/updates/brief-20261105-0800",
-        "cover_url": null,
-        "publish_time": "2026-11-05T00:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "2a2908f230e7"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "控制生物学——Fabian Theis，Helmholtz Munich — Latent Space",
+      "url": "https://www.bestblogs.dev/article/RAW_a1afc07385",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_a1afc07385",
+      "original_url": "",
+      "resource_id": "RAW_a1afc07385",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238561+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 85,
+      "source_name": "Latent.Space",
+      "id": "d60fc591d657"
+    },
+    {
+      "title": "Edera 的对象能力边界授权旨在将凭据与 AI 智能体工作负载隔离",
+      "url": "https://www.bestblogs.dev/article/RAW_11ed38eb59",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_11ed38eb59",
+      "original_url": "",
+      "resource_id": "RAW_11ed38eb59",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238557+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 85,
+      "source_name": "InfoQ",
+      "id": "f9dfd802a755"
+    },
+    {
+      "title": "GitLab 19.5 将智能体驱动的开发纳入 DevOps 平台治理",
+      "url": "https://www.bestblogs.dev/article/RAW_a8751cbdcf",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_a8751cbdcf",
+      "original_url": "",
+      "resource_id": "RAW_a8751cbdcf",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238553+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 85,
+      "source_name": "InfoQ",
+      "id": "3a64d67e5b32"
+    },
+    {
+      "title": "衡量 AI 智能体处理日常湿实验科学任务的能力",
+      "url": "https://www.bestblogs.dev/article/RAW_3bd1d4c00f",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_3bd1d4c00f",
+      "original_url": "",
+      "resource_id": "RAW_3bd1d4c00f",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238549+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 85,
+      "source_name": "OpenAI News",
+      "id": "301ea10c150a"
+    },
+    {
+      "title": "智能体如何把一小时的数据核验缩短到五分钟｜Nori Agentic",
+      "url": "https://www.bestblogs.dev/article/RAW_64f434de8",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_64f434de8",
+      "original_url": "",
+      "resource_id": "RAW_64f434de8",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238546+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "AI Engineer",
+      "id": "185bd79910d1"
+    },
+    {
+      "title": "Grab 如何通过安全处理 AI 生成代码变更激增，提升移动应用稳定性",
+      "url": "https://www.bestblogs.dev/article/RAW_e8dfe0cbc2",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_e8dfe0cbc2",
+      "original_url": "",
+      "resource_id": "RAW_e8dfe0cbc2",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238543+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "InfoQ",
+      "id": "d05199883c53"
+    },
+    {
+      "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
+      "url": "https://www.bestblogs.dev/article/RAW_8d3f190452",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_8d3f190452",
+      "original_url": "",
+      "resource_id": "RAW_8d3f190452",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238539+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "InfoQ 中文",
+      "id": "138b3a1ad48e"
+    },
+    {
+      "title": "大家都有个小问题",
+      "url": "https://www.bestblogs.dev/article/RAW_6bfbd1c505",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_6bfbd1c505",
+      "original_url": "",
+      "resource_id": "RAW_6bfbd1c505",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238535+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "UX Collective",
+      "id": "07e9e7dc3e46"
+    },
+    {
+      "title": "金融审计智能体如何交代判断依据，Fieldguide 的四项控制",
+      "url": "https://www.bestblogs.dev/article/RAW_8d8ecbd21",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_8d8ecbd21",
+      "original_url": "",
+      "resource_id": "RAW_8d8ecbd21",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238532+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 89,
+      "source_name": "AI Engineer",
+      "id": "a55dc37ce01e"
+    },
+    {
+      "title": "对话千觉马道林：当通用大模型走进物理世界，具身难点在 “触碰之后”",
+      "url": "https://www.bestblogs.dev/article/RAW_17a08df417",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_17a08df417",
+      "original_url": "",
+      "resource_id": "RAW_17a08df417",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238528+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 91,
+      "source_name": "晚点LatePost",
+      "id": "d47e8420a6ad"
+    },
+    {
+      "title": "NeurIPS 2026 | 小红书智创 AIGC 团队提出视觉文本生成新方法 GlyphAnchor",
+      "url": "https://www.bestblogs.dev/article/RAW_5866a33994",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_5866a33994",
+      "original_url": "",
+      "resource_id": "RAW_5866a33994",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238525+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "小红书技术REDtech",
+      "id": "70b9cf540bc2"
+    },
+    {
+      "title": "从 LLM 到 Ontology：本体驱动的 AI 数据研发原理与最佳实践",
+      "url": "https://www.bestblogs.dev/article/RAW_de7d86656b",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_de7d86656b",
+      "original_url": "",
+      "resource_id": "RAW_de7d86656b",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238520+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "阿里云开发者",
+      "id": "b5ad91187ca1"
+    },
+    {
+      "title": "NVIDIA 分享 FLUX 图像生成加速的部署方法与配置",
+      "url": "https://www.bestblogs.dev/article/RAW_2466b755ef",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_2466b755ef",
+      "original_url": "",
+      "resource_id": "RAW_2466b755ef",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238514+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "NVIDIA Technical Blog",
+      "id": "c2542a76f35b"
+    },
+    {
+      "title": "MiniMax 创始人闫俊杰：AI 竞赛的最后 5%最难",
+      "url": "https://www.bestblogs.dev/article/RAW_aaa0397204",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_aaa0397204",
+      "original_url": "",
+      "resource_id": "RAW_aaa0397204",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238506+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "腾讯科技",
+      "id": "352a0ab93364"
+    },
+    {
+      "title": "百度开放文心 5.5 Flash Base 基座模型权重",
+      "url": "https://www.bestblogs.dev/article/RAW_fee72c1c14",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_fee72c1c14",
+      "original_url": "",
+      "resource_id": "RAW_fee72c1c14",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238502+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "机器之心",
+      "id": "19d49f149999"
+    },
+    {
+      "title": "Robinhood CEO 谈代币化、智能体交易与 Harmonic",
+      "url": "https://www.bestblogs.dev/article/RAW_233326409",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_233326409",
+      "original_url": "",
+      "resource_id": "RAW_233326409",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238498+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 89,
+      "source_name": "No Priors",
+      "id": "726bcd45cec1"
+    },
+    {
+      "title": "Salesforce 在 AI 时代怎么买公司？John Somorjai 拆解并购逻辑",
+      "url": "https://www.bestblogs.dev/article/RAW_b7b3a9587",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_b7b3a9587",
+      "original_url": "",
+      "resource_id": "RAW_b7b3a9587",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238490+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "a16z",
+      "id": "a917df32ce82"
+    },
+    {
+      "title": "别靠 Vibe Coding 搭智能体基础设施｜Modal CTO Akshat Bubna",
+      "url": "https://www.bestblogs.dev/article/RAW_18604969a",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_18604969a",
+      "original_url": "",
+      "resource_id": "RAW_18604969a",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238485+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "AI Engineer",
+      "id": "2c21a6e15d9b"
+    },
+    {
+      "title": "以 1% 的成本实现前沿模型品质：LLM 分类器生产环境基准测试",
+      "url": "https://www.bestblogs.dev/article/RAW_ce5a69fb4e",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_ce5a69fb4e",
+      "original_url": "",
+      "resource_id": "RAW_ce5a69fb4e",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238479+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 90,
+      "source_name": "Airbnb Engineering",
+      "id": "63b6d8bb5818"
+    },
+    {
+      "title": "智能体记忆的组成部分",
+      "url": "https://www.bestblogs.dev/article/RAW_28ca813c44",
+      "platform_url": "https://www.bestblogs.dev/article/RAW_28ca813c44",
+      "original_url": "",
+      "resource_id": "RAW_28ca813c44",
+      "cover_url": null,
+      "publish_time": "2026-11-08T06:46:49.238462+00:00",
+      "tags": [
+        "早报"
+      ],
+      "summary": "",
+      "platform": "bestblogs",
+      "score": 88,
+      "source_name": "Anthropic Research",
+      "id": "3b187304434d"
+    },
+    {
+      "title": "Anthropic感恩节前冲刺IPO，估值最高1.75万亿美元 · 1108-808期",
+      "url": "https://radarai.top/updates/brief-20261108-0800",
+      "platform_url": "https://radarai.top/updates/brief-20261108-0800",
+      "cover_url": null,
+      "publish_time": "2026-11-08T00:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "55acb5ca81a9"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "platform_url": "https://news.ycombinator.com/item?id=50407882",
+      "discussion_url": "https://news.ycombinator.com/item?id=50407882",
+      "score": 316,
+      "comments_count": 216,
+      "publish_time": "2026-11-07T20:45:32+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 286.0,
+      "id": "3a2e3b0bf7d5"
+    },
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "platform_url": "https://news.ycombinator.com/item?id=50406563",
+      "discussion_url": "https://news.ycombinator.com/item?id=50406563",
+      "score": 438,
+      "comments_count": 260,
+      "publish_time": "2026-11-07T18:02:17+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 384.59999999999997,
+      "id": "9039cb9a41da"
+    },
     {
       "title": "Anthropic模型提速翻倍引安全警告 · 1108-807期",
       "url": "https://radarai.top/updates/brief-20261108-0000",
@@ -1017,33 +1273,6 @@
       "id": "9f2b7ebe4ebb"
     },
     {
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "url": "https://www.qbitai.com/2026/11/508449.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508449.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-2-4.webp",
-      "publish_time": "2026-11-07T09:38:56+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "6a7573f4ebf7"
-    },
-    {
-      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "url": "https://www.qbitai.com/2026/11/508344.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508344.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/3f63a2db3dbab2968fdfaf57c08a5ddb.jpeg",
-      "publish_time": "2026-11-07T08:11:25+00:00",
-      "tags": [
-        "AI，算力",
-        "ChatGPT",
-        "OpenAI",
-        "融资"
-      ],
-      "platform": "qbitai",
-      "id": "dc0f3445d40f"
-    },
-    {
       "title": "OpenAI冲刺明年IPO，Anthropic却曝出8000亿美元算力采购承诺 · 1107-806期",
       "url": "https://radarai.top/updates/brief-20261107-1600",
       "platform_url": "https://radarai.top/updates/brief-20261107-1600",
@@ -1053,402 +1282,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "3a9a72030e08"
-    },
-    {
-      "title": "为了去AI味，人类开始主动写烂文章了……",
-      "url": "https://www.qbitai.com/2026/11/508330.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508330.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a693951187e5a0f7b51fb4e16b4b8c4a.jpeg",
-      "publish_time": "2026-11-07T07:59:28+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "ebd17f621ef9"
-    },
-    {
-      "title": "深入了解 GitHub 全新的 Git 存储架构",
-      "url": "https://www.bestblogs.dev/article/RAW_a43b9d868f",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_a43b9d868f",
-      "original_url": "",
-      "resource_id": "RAW_a43b9d868f",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188277+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "The GitHub Blog",
-      "id": "5d5ab6e2f6f3"
-    },
-    {
-      "title": "NVIDIA 五种协同设计方式，最大化 AI 工厂中每个字节的价值",
-      "url": "https://www.bestblogs.dev/article/RAW_1abdb8d079",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_1abdb8d079",
-      "original_url": "",
-      "resource_id": "RAW_1abdb8d079",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188273+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 92,
-      "source_name": "NVIDIA Technical Blog",
-      "id": "7199879716e0"
-    },
-    {
-      "title": "上限让人尝鲜，可靠让人常用：千问蒋冠军谈 Personal Agent",
-      "url": "https://www.bestblogs.dev/article/RAW_7a4dc8231a",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_7a4dc8231a",
-      "original_url": "",
-      "resource_id": "RAW_7a4dc8231a",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188268+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "AI炼金术",
-      "id": "b8b0e015622b"
-    },
-    {
-      "title": "掌控生物学——Fabian Theis，Helmholtz Munich — Latent Space",
-      "url": "https://www.bestblogs.dev/article/RAW_1d7800de9f",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_1d7800de9f",
-      "original_url": "",
-      "resource_id": "RAW_1d7800de9f",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188263+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "Latent.Space",
-      "id": "5e82fbe721dc"
-    },
-    {
-      "title": "无需更新即可在 OpenClaw 中使用新模型",
-      "url": "https://www.bestblogs.dev/article/RAW_fe2ece0a35",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_fe2ece0a35",
-      "original_url": "",
-      "resource_id": "RAW_fe2ece0a35",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188259+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "OpenClaw Blog",
-      "id": "995d5fa77607"
-    },
-    {
-      "title": "别批准 AI 模型，要批准整套应用：Langfuse 的银行评估门禁实践",
-      "url": "https://www.bestblogs.dev/article/RAW_5fb4c0783",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_5fb4c0783",
-      "original_url": "",
-      "resource_id": "RAW_5fb4c0783",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188255+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "AI Engineer",
-      "id": "0d68ef2684d1"
-    },
-    {
-      "title": "Artificial Analysis 推出端点准确性指数 v1.1：详细揭示各提供商的准确性情况",
-      "url": "https://www.bestblogs.dev/article/RAW_2118534967387185476",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_2118534967387185476",
-      "original_url": "",
-      "resource_id": "RAW_2118534967387185476",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188250+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Artificial Analysis(@ArtificialAnlys)",
-      "id": "11ed8ba1734f"
-    },
-    {
-      "title": "Inkling 2 Small：17A-594B 模型在 68 小时内使用 12T tokens 完成训练，击败 Muse Spark — Latent Space",
-      "url": "https://www.bestblogs.dev/article/RAW_829890e34b",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_829890e34b",
-      "original_url": "",
-      "resource_id": "RAW_829890e34b",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188246+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "Latent.Space",
-      "id": "9ef0ef00f825"
-    },
-    {
-      "title": "Cult.fit 借助 Codex 锻造运营实力",
-      "url": "https://www.bestblogs.dev/article/RAW_512759dfa0",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_512759dfa0",
-      "original_url": "",
-      "resource_id": "RAW_512759dfa0",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188241+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "OpenAI News",
-      "id": "08678dea3be6"
-    },
-    {
-      "title": "把 Agent 的判断与行动变成可恢复的软件事实｜KDC 系列 工程篇",
-      "url": "https://www.bestblogs.dev/article/RAW_3f26f11f5e",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_3f26f11f5e",
-      "original_url": "",
-      "resource_id": "RAW_3f26f11f5e",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188237+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "vivo互联网技术",
-      "id": "19ad0e6bc585"
-    },
-    {
-      "title": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
-      "url": "https://www.bestblogs.dev/article/RAW_07d4f9169a",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_07d4f9169a",
-      "original_url": "",
-      "resource_id": "RAW_07d4f9169a",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188232+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "腾讯研究院",
-      "id": "f035ab503290"
-    },
-    {
-      "title": "E257 对话少楠：明明 AI 有问必答，我怎么还总是信息焦虑？",
-      "url": "https://www.bestblogs.dev/article/RAW_0fe941ba8",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_0fe941ba8",
-      "original_url": "",
-      "resource_id": "RAW_0fe941ba8",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188227+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "知行小酒馆",
-      "id": "520fe15804fe"
-    },
-    {
-      "title": "别再把 API 密钥直接交给智能体：用令牌交换和持久执行做报销工作流",
-      "url": "https://www.bestblogs.dev/article/RAW_557b956da",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_557b956da",
-      "original_url": "",
-      "resource_id": "RAW_557b956da",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188220+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "AI Engineer",
-      "id": "67502e43a69d"
-    },
-    {
-      "title": "借助 OpenClaw 多人协作打破信息孤岛",
-      "url": "https://www.bestblogs.dev/article/RAW_25a3b7b60c",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_25a3b7b60c",
-      "original_url": "",
-      "resource_id": "RAW_25a3b7b60c",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188210+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "OpenClaw Blog",
-      "id": "24784c1ad6de"
-    },
-    {
-      "title": "多 Agent 协作的下一场竞争，不在模型，而在上下文",
-      "url": "https://www.bestblogs.dev/article/RAW_c9766fc40c",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c9766fc40c",
-      "original_url": "",
-      "resource_id": "RAW_c9766fc40c",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188205+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "腾讯技术工程",
-      "id": "44e7312d9eed"
-    },
-    {
-      "title": "Agent 越用越多，企业为何仍不够 AI Native ？",
-      "url": "https://www.bestblogs.dev/article/RAW_6cc233fae1",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_6cc233fae1",
-      "original_url": "",
-      "resource_id": "RAW_6cc233fae1",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188200+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "InfoQ 中文",
-      "id": "d35a7d60b2f8"
-    },
-    {
-      "title": "Salesforce 分享 Claude Code 的规模化应用实践",
-      "url": "https://www.bestblogs.dev/article/RAW_c2b21f760",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_c2b21f760",
-      "original_url": "",
-      "resource_id": "RAW_c2b21f760",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188194+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "Claude",
-      "id": "b5a0e9506336"
-    },
-    {
-      "title": "Claude 推出个人理财功能",
-      "url": "https://www.bestblogs.dev/article/RAW_6d86da630e",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_6d86da630e",
-      "original_url": "",
-      "resource_id": "RAW_6d86da630e",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188188+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 90,
-      "source_name": "Claude Blog",
-      "id": "ad8a564a13b8"
-    },
-    {
-      "title": "Kimi 托管智能体正式发布：将运行框架作为服务",
-      "url": "https://www.bestblogs.dev/article/RAW_cf41343c8c",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_cf41343c8c",
-      "original_url": "",
-      "resource_id": "RAW_cf41343c8c",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188181+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 88,
-      "source_name": "月之暗面 Kimi",
-      "id": "5aa51bd274e9"
-    },
-    {
-      "title": "淘宝 MNN 团队开源 0.3B 手机模型，iPhone 18 Pro 上离线跑出 350 token/s",
-      "url": "https://www.bestblogs.dev/article/RAW_4fb6604e8e",
-      "platform_url": "https://www.bestblogs.dev/article/RAW_4fb6604e8e",
-      "original_url": "",
-      "resource_id": "RAW_4fb6604e8e",
-      "cover_url": null,
-      "publish_time": "2026-11-07T06:40:53.188163+00:00",
-      "tags": [
-        "早报"
-      ],
-      "summary": "",
-      "platform": "bestblogs",
-      "score": 91,
-      "source_name": "大淘宝技术",
-      "id": "e802162660ce"
-    },
-    {
-      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
-      "url": "https://www.qbitai.com/2026/11/508264.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508264.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/d9df0fb93f1d07b816a57ff90b0b1382.png",
-      "publish_time": "2026-11-07T05:01:17+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "a2b3455538e4"
-    },
-    {
-      "title": "AGENTS.MD，危险危险危险！！！",
-      "url": "https://www.qbitai.com/2026/11/508244.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508244.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/1e42687f67c2c3c098e0012b6e36872c.webp",
-      "publish_time": "2026-11-07T03:43:55+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "78240bf0d5a9"
-    },
-    {
-      "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
-      "url": "https://www.qbitai.com/2026/11/508236.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508236.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/edb8506c317dd1899692f0bd47417e4c.webp",
-      "publish_time": "2026-11-07T03:31:44+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "abd37a643612"
-    },
-    {
-      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
-      "url": "https://www.qbitai.com/2026/11/508196.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508196.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/1e04f487bc7342064efa7c38971d7cd7.png",
-      "publish_time": "2026-11-07T03:23:29+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "f1334e12d054"
     },
     {
       "title": "OpenAI融资110亿美元估值1.25万亿，AI智能体攻破RSA加密弱点 · 1107-805期",
@@ -1483,23 +1316,35 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 167 · 下载 989",
+      "summary": "TrendingScore 228 · 下载 989",
       "platform": "huggingface",
-      "score": 172,
-      "trending_score": 167,
+      "score": 235,
+      "trending_score": 228,
       "downloads": 989,
       "id": "318a11f28a42"
+    },
+    {
+      "title": "GitHub's new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "platform_url": "https://news.ycombinator.com/item?id=50397099",
+      "discussion_url": "https://news.ycombinator.com/item?id=50397099",
+      "score": 224,
+      "comments_count": 63,
+      "publish_time": "2026-11-06T19:24:21+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 175.7,
+      "id": "da2df56873aa"
     },
     {
       "title": "Anthropic IPO buyers see valuation as low as $1.1T",
       "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
       "platform_url": "https://news.ycombinator.com/item?id=50394906",
       "discussion_url": "https://news.ycombinator.com/item?id=50394906",
-      "score": 297,
-      "comments_count": 591,
+      "score": 312,
+      "comments_count": 614,
       "publish_time": "2026-11-06T16:54:36+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 385.19999999999993,
+      "hn_hot_score": 402.59999999999997,
       "id": "3b84468a3a69"
     },
     {
@@ -1514,27 +1359,15 @@
       "id": "87f16ee10bfb"
     },
     {
-      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-      "url": "https://www.qbitai.com/2026/11/508184.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508184.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-8-3.webp",
-      "publish_time": "2026-11-06T15:21:56+00:00",
-      "tags": [
-        "AI"
-      ],
-      "platform": "qbitai",
-      "id": "e646a6faed4c"
-    },
-    {
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "platform_url": "https://news.ycombinator.com/item?id=50392118",
       "discussion_url": "https://news.ycombinator.com/item?id=50392118",
-      "score": 355,
-      "comments_count": 245,
+      "score": 361,
+      "comments_count": 250,
       "publish_time": "2026-11-06T13:35:27+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 322.0,
+      "hn_hot_score": 327.7,
       "id": "2c1d915486af"
     },
     {
@@ -1542,36 +1375,12 @@
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
       "platform_url": "https://news.ycombinator.com/item?id=50391456",
       "discussion_url": "https://news.ycombinator.com/item?id=50391456",
-      "score": 1112,
-      "comments_count": 1982,
+      "score": 1131,
+      "comments_count": 2045,
       "publish_time": "2026-11-06T12:13:51+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 1373.0,
+      "hn_hot_score": 1405.1999999999998,
       "id": "6be2107d4c25"
-    },
-    {
-      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-      "url": "https://www.qbitai.com/2026/11/508174.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508174.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/d777df11e6dc6bfed4da0d0ed126f04f.png",
-      "publish_time": "2026-11-06T09:25:59+00:00",
-      "tags": [
-        "派欧云"
-      ],
-      "platform": "qbitai",
-      "id": "7b7e2d5568c4"
-    },
-    {
-      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-      "url": "https://www.qbitai.com/2026/11/508170.html",
-      "platform_url": "https://www.qbitai.com/2026/11/508170.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/0ebd83f7329cd34880099cef00e73e63.jpeg",
-      "publish_time": "2026-11-06T09:21:51+00:00",
-      "tags": [
-        "阶跃终端"
-      ],
-      "platform": "qbitai",
-      "id": "d911c2d9b74b"
     },
     {
       "title": "Cloudflare预警两年AI漏洞潮，谷歌开源740M端侧模型 · 1106-803期",
@@ -1597,15 +1406,27 @@
       "id": "fa11d0f06384"
     },
     {
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "platform_url": "https://news.ycombinator.com/item?id=50388513",
+      "discussion_url": "https://news.ycombinator.com/item?id=50388513",
+      "score": 217,
+      "comments_count": 217,
+      "publish_time": "2026-11-06T05:19:04+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 216.99999999999997,
+      "id": "ead0cc13cb49"
+    },
+    {
       "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
       "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
       "platform_url": "https://news.ycombinator.com/item?id=50388001",
       "discussion_url": "https://news.ycombinator.com/item?id=50388001",
-      "score": 379,
-      "comments_count": 316,
+      "score": 403,
+      "comments_count": 327,
       "publish_time": "2026-11-06T04:00:28+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 360.1,
+      "hn_hot_score": 380.19999999999993,
       "id": "e04f258e0f08"
     },
     {
@@ -1631,42 +1452,6 @@
       "id": "d73d853be1da"
     },
     {
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "platform_url": "https://news.ycombinator.com/item?id=50385870",
-      "discussion_url": "https://news.ycombinator.com/item?id=50385870",
-      "score": 509,
-      "comments_count": 226,
-      "publish_time": "2026-11-05T23:09:57+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 424.09999999999997,
-      "id": "3770e994c97a"
-    },
-    {
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "platform_url": "https://news.ycombinator.com/item?id=50385272",
-      "discussion_url": "https://news.ycombinator.com/item?id=50385272",
-      "score": 1584,
-      "comments_count": 510,
-      "publish_time": "2026-11-05T22:17:15+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 1261.8,
-      "id": "a8a7cc0dd180"
-    },
-    {
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "platform_url": "https://news.ycombinator.com/item?id=50384233",
-      "discussion_url": "https://news.ycombinator.com/item?id=50384233",
-      "score": 709,
-      "comments_count": 281,
-      "publish_time": "2026-11-05T20:43:42+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 580.5999999999999,
-      "id": "afaa8dbf922a"
-    },
-    {
       "title": "Dropbox 3.5亿美元收购Tigris Data · 1106-801期",
       "url": "https://radarai.top/updates/brief-20261106-0000",
       "platform_url": "https://radarai.top/updates/brief-20261106-0000",
@@ -1676,18 +1461,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "42c0862ba877"
-    },
-    {
-      "title": "MCP Explained",
-      "url": "https://mcp-explained.com/",
-      "platform_url": "https://news.ycombinator.com/item?id=50379249",
-      "discussion_url": "https://news.ycombinator.com/item?id=50379249",
-      "score": 334,
-      "comments_count": 133,
-      "publish_time": "2026-11-05T14:08:35+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 273.7,
-      "id": "3799e6761925"
     },
     {
       "title": "OpenAI收购Pierre补强Codex · 1105-800期",
@@ -1701,17 +1474,6 @@
       "id": "661b4bbb2be2"
     },
     {
-      "title": "OpenAI图像生成提速50%六秒出图，安全管线单次复现1724个漏洞 · 1105-799期",
-      "url": "https://radarai.top/updates/brief-20261105-0800",
-      "platform_url": "https://radarai.top/updates/brief-20261105-0800",
-      "cover_url": null,
-      "publish_time": "2026-11-05T00:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "2a2908f230e7"
-    },
-    {
       "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
       "url": "https://huggingface.co/papers/2611.08449",
       "platform_url": "https://huggingface.co/papers/2611.08449",
@@ -1722,7 +1484,7 @@
       ],
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st",
       "platform": "huggingface",
-      "score": 98,
+      "score": 100,
       "comments_count": 1,
       "id": "9ac43c967b60"
     },
@@ -1737,7 +1499,7 @@
       ],
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-",
       "platform": "huggingface",
-      "score": 79,
+      "score": 82,
       "comments_count": 3,
       "id": "c6ee36926863"
     },
@@ -1752,7 +1514,7 @@
       ],
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimi",
       "platform": "huggingface",
-      "score": 42,
+      "score": 43,
       "comments_count": 1,
       "id": "0e91bddf2ce0"
     },
@@ -1857,7 +1619,7 @@
       ],
       "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that i",
       "platform": "huggingface",
-      "score": 39,
+      "score": 40,
       "comments_count": 4,
       "id": "28044ade493f"
     },
@@ -1872,7 +1634,7 @@
       ],
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, atte",
       "platform": "huggingface",
-      "score": 46,
+      "score": 86,
       "comments_count": 2,
       "id": "4d7ceaed9375"
     },
@@ -1999,10 +1761,10 @@
   ],
   "monitor": {
     "summary": {
-      "total_success_rate": 100.0,
-      "total_fail_rate": 0.0,
-      "avg_response_time": 8.7,
-      "cover_success_rate": 41.4
+      "total_success_rate": 80.0,
+      "total_fail_rate": 20.0,
+      "avg_response_time": 6.7,
+      "cover_success_rate": 31.7
     },
     "platforms": [
       {
@@ -2010,73 +1772,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-07T17:38:16.809492+00:00"
+        "last_crawl": "2026-11-08T06:46:17.079329+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
-        "status": "online",
-        "item_count": 10,
-        "last_crawl": "2026-11-07T17:38:40.662514+00:00"
+        "status": "error",
+        "item_count": 0,
+        "last_crawl": "2026-11-08T06:46:47.762536+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-07T17:38:42.044944+00:00"
+        "last_crawl": "2026-11-08T06:46:49.060127+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 0,
-        "last_crawl": "2026-11-07T17:38:47.371217+00:00"
+        "item_count": 20,
+        "last_crawl": "2026-11-08T06:46:57.283780+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-11-07T17:38:47.525048+00:00"
+        "last_crawl": "2026-11-08T06:46:57.455388+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-11-07T17:38:16.809496+00:00",
+        "timestamp": "2026-11-08T06:46:17.079336+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 12.898936
+        "latency": 17.285685
       },
       {
-        "timestamp": "2026-11-07T17:38:40.662518+00:00",
+        "timestamp": "2026-11-08T06:46:47.762552+00:00",
         "platform": "qbitai",
-        "status": "success",
-        "items_collected": 10,
-        "latency": 23.853014
+        "status": "error",
+        "error_message": "",
+        "latency": 30.683208
       },
       {
-        "timestamp": "2026-11-07T17:38:42.044947+00:00",
+        "timestamp": "2026-11-08T06:46:49.060133+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.382422
+        "latency": 1.296882
       },
       {
-        "timestamp": "2026-11-07T17:38:47.371231+00:00",
+        "timestamp": "2026-11-08T06:46:57.283790+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 0,
-        "latency": 5.326279
+        "items_collected": 20,
+        "latency": 8.22365
       },
       {
-        "timestamp": "2026-11-07T17:38:47.525060+00:00",
+        "timestamp": "2026-11-08T06:46:57.455399+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.153821
+        "latency": 0.1716
       }
     ]
   }
