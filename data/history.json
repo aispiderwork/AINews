@@ -1,40 +1,6 @@
 {
   "executions": [
     {
-      "run_id": "20260921-053428",
-      "timestamp": "2026-09-21T05:34:28.694602+00:00",
-      "trigger": "morning",
-      "total_items": 70,
-      "platforms": {
-        "hackernews": {
-          "status": "online",
-          "items": 10,
-          "latency": 12.778244
-        },
-        "qbitai": {
-          "status": "online",
-          "items": 10,
-          "latency": 23.515955
-        },
-        "radarai": {
-          "status": "online",
-          "items": 10,
-          "latency": 1.411664
-        },
-        "bestblogs": {
-          "status": "online",
-          "items": 20,
-          "latency": 16.539392
-        },
-        "huggingface": {
-          "status": "online",
-          "items": 20,
-          "latency": 0.190507
-        }
-      },
-      "duration_seconds": 54.5
-    },
-    {
       "run_id": "20260921-180401",
       "timestamp": "2026-09-21T18:04:01.131664+00:00",
       "trigger": "evening",
@@ -3399,6 +3365,40 @@
         }
       },
       "duration_seconds": 48.2
+    },
+    {
+      "run_id": "20261110-074915",
+      "timestamp": "2026-11-10T07:49:15.243340+00:00",
+      "trigger": "morning",
+      "total_items": 70,
+      "platforms": {
+        "hackernews": {
+          "status": "online",
+          "items": 10,
+          "latency": 13.390497
+        },
+        "qbitai": {
+          "status": "online",
+          "items": 10,
+          "latency": 28.060006
+        },
+        "radarai": {
+          "status": "online",
+          "items": 10,
+          "latency": 1.415257
+        },
+        "bestblogs": {
+          "status": "online",
+          "items": 20,
+          "latency": 8.407934
+        },
+        "huggingface": {
+          "status": "online",
+          "items": 20,
+          "latency": 0.3886
+        }
+      },
+      "duration_seconds": 51.7
     }
   ]
 }
