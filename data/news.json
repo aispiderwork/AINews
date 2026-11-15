@@ -1,18 +1,42 @@
 {
-  "update_time": "2026-11-15T07:18:10.187981+00:00",
+  "update_time": "2026-11-15T18:40:09.370835+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "All AI-generated code should be Open Source",
+        "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+        "platform_url": "https://news.ycombinator.com/item?id=50507303",
+        "discussion_url": "https://news.ycombinator.com/item?id=50507303",
+        "score": 649,
+        "comments_count": 350,
+        "publish_time": "2026-11-15T14:46:58+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 559.3,
+        "id": "f2667684f9cf"
+      },
+      {
+        "title": "Understanding Positional Embeddings in Modern LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+        "platform_url": "https://news.ycombinator.com/item?id=50506376",
+        "discussion_url": "https://news.ycombinator.com/item?id=50506376",
+        "score": 138,
+        "comments_count": 3,
+        "publish_time": "2026-11-15T12:14:06+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 97.5,
+        "id": "b63ac54051c7"
+      },
       {
         "title": "Lovable apps expose passport details and more than 200K private messages",
         "url": "https://www.crissyfield.de/research/lovable-en/",
         "platform_url": "https://news.ycombinator.com/item?id=50499017",
         "discussion_url": "https://news.ycombinator.com/item?id=50499017",
-        "score": 763,
-        "comments_count": 303,
+        "score": 955,
+        "comments_count": 366,
         "publish_time": "2026-11-14T17:43:10+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 625.0,
+        "hn_hot_score": 778.3,
         "id": "0fd3de640329"
       },
       {
@@ -20,11 +44,11 @@
         "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
         "platform_url": "https://news.ycombinator.com/item?id=50497155",
         "discussion_url": "https://news.ycombinator.com/item?id=50497155",
-        "score": 135,
-        "comments_count": 65,
+        "score": 142,
+        "comments_count": 68,
         "publish_time": "2026-11-14T14:09:25+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 114.0,
+        "hn_hot_score": 119.79999999999998,
         "id": "1a3d0cb59944"
       },
       {
@@ -80,11 +104,11 @@
         "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
         "platform_url": "https://news.ycombinator.com/item?id=50484658",
         "discussion_url": "https://news.ycombinator.com/item?id=50484658",
-        "score": 468,
-        "comments_count": 692,
+        "score": 477,
+        "comments_count": 722,
         "publish_time": "2026-11-13T15:08:44+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 535.1999999999999,
+        "hn_hot_score": 550.5,
         "id": "c2b7055b6cdb"
       },
       {
@@ -98,30 +122,6 @@
         "platform": "hackernews",
         "hn_hot_score": 166.79999999999998,
         "id": "464a0e2cdcab"
-      },
-      {
-        "title": "AI is destroying the trust between writers and readers",
-        "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-        "platform_url": "https://news.ycombinator.com/item?id=50481870",
-        "discussion_url": "https://news.ycombinator.com/item?id=50481870",
-        "score": 358,
-        "comments_count": 226,
-        "publish_time": "2026-11-13T11:13:46+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 318.4,
-        "id": "63e719376fef"
-      },
-      {
-        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-        "url": "https://status.claude.com/incidents/nn11wk485zfn",
-        "platform_url": "https://news.ycombinator.com/item?id=50481187",
-        "discussion_url": "https://news.ycombinator.com/item?id=50481187",
-        "score": 493,
-        "comments_count": 389,
-        "publish_time": "2026-11-13T10:18:13+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 461.79999999999995,
-        "id": "11604197edfb"
       }
     ],
     "bestblogs": [
@@ -494,7 +494,7 @@
         "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well. We compare three decision models and three general LLMs as actors and judges",
         "platform": "huggingface",
         "score": 34,
-        "comments_count": 4,
+        "comments_count": 5,
         "id": "441a7e8965a0"
       },
       {
@@ -508,8 +508,8 @@
         ],
         "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have adv",
         "platform": "huggingface",
-        "score": 26,
-        "comments_count": 2,
+        "score": 30,
+        "comments_count": 4,
         "id": "3704cd8695bb"
       },
       {
@@ -522,11 +522,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 242 · 下载 33,819",
+        "summary": "TrendingScore 251 · 下载 41,606",
         "platform": "huggingface",
-        "score": 270,
-        "trending_score": 242,
-        "downloads": 33819,
+        "score": 279,
+        "trending_score": 251,
+        "downloads": 41606,
         "id": "80668345716d"
       },
       {
@@ -540,8 +540,8 @@
         ],
         "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself. In RWM, we identify two equally fu",
         "platform": "huggingface",
-        "score": 40,
-        "comments_count": 2,
+        "score": 42,
+        "comments_count": 3,
         "id": "4acf303b6c2b"
       },
       {
@@ -555,7 +555,7 @@
         ],
         "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 doma",
         "platform": "huggingface",
-        "score": 136,
+        "score": 137,
         "comments_count": 3,
         "id": "28e94bdd37c7"
       },
@@ -570,7 +570,7 @@
         ],
         "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization",
         "platform": "huggingface",
-        "score": 35,
+        "score": 36,
         "comments_count": 3,
         "id": "ceefb5c0aedf"
       },
@@ -675,8 +675,8 @@
         ],
         "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories a",
         "platform": "huggingface",
-        "score": 50,
-        "comments_count": 2,
+        "score": 51,
+        "comments_count": 3,
         "id": "d854037a4841"
       },
       {
@@ -772,6 +772,28 @@
     ],
     "radarai": [
       {
+        "title": "Claude Fable 5.2用70万笔触画出照片级画作 · 1116-831期",
+        "url": "https://radarai.top/updates/brief-20261116-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261116-0000",
+        "cover_url": null,
+        "publish_time": "2026-11-15T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "e63f95db67d0"
+      },
+      {
+        "title": "马斯克解散Grok Imagine团队 · 1115-830期",
+        "url": "https://radarai.top/updates/brief-20261115-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261115-1600",
+        "cover_url": null,
+        "publish_time": "2026-11-15T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "318528fb4e59"
+      },
+      {
         "title": "MIT与DeepMind发现AI顾问会因汇报关系偏向上级利益 · 1115-829期",
         "url": "https://radarai.top/updates/brief-20261115-0800",
         "platform_url": "https://radarai.top/updates/brief-20261115-0800",
@@ -858,28 +880,6 @@
         "summary": "",
         "platform": "radarai",
         "id": "0a1e86a081a6"
-      },
-      {
-        "title": "黄仁勋辞任英伟达CEO股价跌13%，谷歌395美元Gemini眼镜开放预购 · 1113-822期",
-        "url": "https://radarai.top/updates/brief-20261113-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261113-0000",
-        "cover_url": null,
-        "publish_time": "2026-11-12T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "be4b744bc066"
-      },
-      {
-        "title": "豆包接入Kimi、DeepSeek，百度上线Token · 1112-821期",
-        "url": "https://radarai.top/updates/brief-20261112-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261112-1600",
-        "cover_url": null,
-        "publish_time": "2026-11-12T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "aabc7d774562"
       }
     ],
     "qbitai": [
@@ -1014,6 +1014,52 @@
     ]
   },
   "sorted_all": [
+    {
+      "title": "Claude Fable 5.2用70万笔触画出照片级画作 · 1116-831期",
+      "url": "https://radarai.top/updates/brief-20261116-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261116-0000",
+      "cover_url": null,
+      "publish_time": "2026-11-15T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "e63f95db67d0"
+    },
+    {
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "platform_url": "https://news.ycombinator.com/item?id=50507303",
+      "discussion_url": "https://news.ycombinator.com/item?id=50507303",
+      "score": 649,
+      "comments_count": 350,
+      "publish_time": "2026-11-15T14:46:58+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 559.3,
+      "id": "f2667684f9cf"
+    },
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "platform_url": "https://news.ycombinator.com/item?id=50506376",
+      "discussion_url": "https://news.ycombinator.com/item?id=50506376",
+      "score": 138,
+      "comments_count": 3,
+      "publish_time": "2026-11-15T12:14:06+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 97.5,
+      "id": "b63ac54051c7"
+    },
+    {
+      "title": "马斯克解散Grok Imagine团队 · 1115-830期",
+      "url": "https://radarai.top/updates/brief-20261115-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261115-1600",
+      "cover_url": null,
+      "publish_time": "2026-11-15T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "318528fb4e59"
+    },
     {
       "title": "我们写了 6 条约定，想和即将「进家门」的 AI 聊一聊",
       "url": "https://www.bestblogs.dev/article/RAW_a32238273e",
@@ -1370,11 +1416,11 @@
       "url": "https://www.crissyfield.de/research/lovable-en/",
       "platform_url": "https://news.ycombinator.com/item?id=50499017",
       "discussion_url": "https://news.ycombinator.com/item?id=50499017",
-      "score": 763,
-      "comments_count": 303,
+      "score": 955,
+      "comments_count": 366,
       "publish_time": "2026-11-14T17:43:10+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 625.0,
+      "hn_hot_score": 778.3,
       "id": "0fd3de640329"
     },
     {
@@ -1393,11 +1439,11 @@
       "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
       "platform_url": "https://news.ycombinator.com/item?id=50497155",
       "discussion_url": "https://news.ycombinator.com/item?id=50497155",
-      "score": 135,
-      "comments_count": 65,
+      "score": 142,
+      "comments_count": 68,
       "publish_time": "2026-11-14T14:09:25+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 114.0,
+      "hn_hot_score": 119.79999999999998,
       "id": "1a3d0cb59944"
     },
     {
@@ -1524,11 +1570,11 @@
       "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
       "platform_url": "https://news.ycombinator.com/item?id=50484658",
       "discussion_url": "https://news.ycombinator.com/item?id=50484658",
-      "score": 468,
-      "comments_count": 692,
+      "score": 477,
+      "comments_count": 722,
       "publish_time": "2026-11-13T15:08:44+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 535.1999999999999,
+      "hn_hot_score": 550.5,
       "id": "c2b7055b6cdb"
     },
     {
@@ -1542,30 +1588,6 @@
       "platform": "hackernews",
       "hn_hot_score": 166.79999999999998,
       "id": "464a0e2cdcab"
-    },
-    {
-      "title": "AI is destroying the trust between writers and readers",
-      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-      "platform_url": "https://news.ycombinator.com/item?id=50481870",
-      "discussion_url": "https://news.ycombinator.com/item?id=50481870",
-      "score": 358,
-      "comments_count": 226,
-      "publish_time": "2026-11-13T11:13:46+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 318.4,
-      "id": "63e719376fef"
-    },
-    {
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "platform_url": "https://news.ycombinator.com/item?id=50481187",
-      "discussion_url": "https://news.ycombinator.com/item?id=50481187",
-      "score": 493,
-      "comments_count": 389,
-      "publish_time": "2026-11-13T10:18:13+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 461.79999999999995,
-      "id": "11604197edfb"
     },
     {
       "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
@@ -1691,28 +1713,6 @@
       "id": "0a1e86a081a6"
     },
     {
-      "title": "黄仁勋辞任英伟达CEO股价跌13%，谷歌395美元Gemini眼镜开放预购 · 1113-822期",
-      "url": "https://radarai.top/updates/brief-20261113-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261113-0000",
-      "cover_url": null,
-      "publish_time": "2026-11-12T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "be4b744bc066"
-    },
-    {
-      "title": "豆包接入Kimi、DeepSeek，百度上线Token · 1112-821期",
-      "url": "https://radarai.top/updates/brief-20261112-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261112-1600",
-      "cover_url": null,
-      "publish_time": "2026-11-12T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "aabc7d774562"
-    },
-    {
       "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
       "url": "https://huggingface.co/papers/2611.16748",
       "platform_url": "https://huggingface.co/papers/2611.16748",
@@ -1739,7 +1739,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well. We compare three decision models and three general LLMs as actors and judges",
       "platform": "huggingface",
       "score": 34,
-      "comments_count": 4,
+      "comments_count": 5,
       "id": "441a7e8965a0"
     },
     {
@@ -1753,8 +1753,8 @@
       ],
       "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have adv",
       "platform": "huggingface",
-      "score": 26,
-      "comments_count": 2,
+      "score": 30,
+      "comments_count": 4,
       "id": "3704cd8695bb"
     },
     {
@@ -1767,11 +1767,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 242 · 下载 33,819",
+      "summary": "TrendingScore 251 · 下载 41,606",
       "platform": "huggingface",
-      "score": 270,
-      "trending_score": 242,
-      "downloads": 33819,
+      "score": 279,
+      "trending_score": 251,
+      "downloads": 41606,
       "id": "80668345716d"
     },
     {
@@ -1785,8 +1785,8 @@
       ],
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself. In RWM, we identify two equally fu",
       "platform": "huggingface",
-      "score": 40,
-      "comments_count": 2,
+      "score": 42,
+      "comments_count": 3,
       "id": "4acf303b6c2b"
     },
     {
@@ -1800,7 +1800,7 @@
       ],
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 doma",
       "platform": "huggingface",
-      "score": 136,
+      "score": 137,
       "comments_count": 3,
       "id": "28e94bdd37c7"
     },
@@ -1815,7 +1815,7 @@
       ],
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization",
       "platform": "huggingface",
-      "score": 35,
+      "score": 36,
       "comments_count": 3,
       "id": "ceefb5c0aedf"
     },
@@ -1920,8 +1920,8 @@
       ],
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories a",
       "platform": "huggingface",
-      "score": 50,
-      "comments_count": 2,
+      "score": 51,
+      "comments_count": 3,
       "id": "d854037a4841"
     },
     {
@@ -2028,73 +2028,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-15T07:17:35.337312+00:00"
+        "last_crawl": "2026-11-15T18:39:38.470999+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-15T07:18:00.310163+00:00"
+        "last_crawl": "2026-11-15T18:40:02.454087+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-15T07:18:01.665451+00:00"
+        "last_crawl": "2026-11-15T18:40:03.837463+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-11-15T07:18:09.975034+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-11-15T18:40:09.170481+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-11-15T07:18:10.155640+00:00"
+        "last_crawl": "2026-11-15T18:40:09.338735+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-11-15T07:17:35.337316+00:00",
+        "timestamp": "2026-11-15T18:39:38.471002+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 10.000439
+        "latency": 14.321561
       },
       {
-        "timestamp": "2026-11-15T07:18:00.310166+00:00",
+        "timestamp": "2026-11-15T18:40:02.454090+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 24.972844
+        "latency": 23.983083
       },
       {
-        "timestamp": "2026-11-15T07:18:01.665453+00:00",
+        "timestamp": "2026-11-15T18:40:03.837465+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.355281
+        "latency": 1.383369
       },
       {
-        "timestamp": "2026-11-15T07:18:09.975046+00:00",
+        "timestamp": "2026-11-15T18:40:09.170492+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.309586
+        "items_collected": 0,
+        "latency": 5.333022
       },
       {
-        "timestamp": "2026-11-15T07:18:10.155657+00:00",
+        "timestamp": "2026-11-15T18:40:09.338748+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.180605
+        "latency": 0.168249
       }
     ]
   }
