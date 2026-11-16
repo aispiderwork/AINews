@@ -1,18 +1,54 @@
 {
-  "update_time": "2026-11-16T07:23:36.697029+00:00",
+  "update_time": "2026-11-16T21:49:46.216665+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+        "url": "https://openai.com/index/strengthening-online-child-safety/",
+        "platform_url": "https://news.ycombinator.com/item?id=50520804",
+        "discussion_url": "https://news.ycombinator.com/item?id=50520804",
+        "score": 70,
+        "comments_count": 126,
+        "publish_time": "2026-11-16T18:12:48+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 86.8,
+        "id": "6c71a7907ed2"
+      },
+      {
+        "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+        "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+        "platform_url": "https://news.ycombinator.com/item?id=50517321",
+        "discussion_url": "https://news.ycombinator.com/item?id=50517321",
+        "score": 128,
+        "comments_count": 79,
+        "publish_time": "2026-11-16T13:18:22+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 113.3,
+        "id": "9b77ae1845bd"
+      },
+      {
+        "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
+        "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+        "platform_url": "https://news.ycombinator.com/item?id=50515058",
+        "discussion_url": "https://news.ycombinator.com/item?id=50515058",
+        "score": 277,
+        "comments_count": 124,
+        "publish_time": "2026-11-16T07:38:19+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 231.09999999999997,
+        "id": "c8bbb7a36224"
+      },
       {
         "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
         "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
         "platform_url": "https://news.ycombinator.com/item?id=50512441",
         "discussion_url": "https://news.ycombinator.com/item?id=50512441",
-        "score": 120,
-        "comments_count": 29,
+        "score": 238,
+        "comments_count": 64,
         "publish_time": "2026-11-16T00:21:54+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 92.7,
+        "hn_hot_score": 185.79999999999998,
         "id": "b5d875dadab4"
       },
       {
@@ -32,11 +68,11 @@
         "url": "https://baron.by.dai.studio/",
         "platform_url": "https://news.ycombinator.com/item?id=50510296",
         "discussion_url": "https://news.ycombinator.com/item?id=50510296",
-        "score": 125,
-        "comments_count": 23,
+        "score": 225,
+        "comments_count": 59,
         "publish_time": "2026-11-15T20:20:05+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 94.4,
+        "hn_hot_score": 175.2,
         "id": "534c2bef4e55"
       },
       {
@@ -44,11 +80,11 @@
         "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
         "platform_url": "https://news.ycombinator.com/item?id=50509308",
         "discussion_url": "https://news.ycombinator.com/item?id=50509308",
-        "score": 218,
-        "comments_count": 94,
+        "score": 296,
+        "comments_count": 182,
         "publish_time": "2026-11-15T18:23:21+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 180.79999999999998,
+        "hn_hot_score": 261.8,
         "id": "3636f76cb6c0"
       },
       {
@@ -56,11 +92,11 @@
         "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
         "platform_url": "https://news.ycombinator.com/item?id=50507303",
         "discussion_url": "https://news.ycombinator.com/item?id=50507303",
-        "score": 1138,
-        "comments_count": 611,
+        "score": 1241,
+        "comments_count": 650,
         "publish_time": "2026-11-15T14:46:58+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 979.8999999999999,
+        "hn_hot_score": 1063.6999999999998,
         "id": "f2667684f9cf"
       },
       {
@@ -80,48 +116,12 @@
         "url": "https://www.crissyfield.de/research/lovable-en/",
         "platform_url": "https://news.ycombinator.com/item?id=50499017",
         "discussion_url": "https://news.ycombinator.com/item?id=50499017",
-        "score": 981,
-        "comments_count": 372,
+        "score": 999,
+        "comments_count": 374,
         "publish_time": "2026-11-14T17:43:10+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 798.3,
+        "hn_hot_score": 811.5,
         "id": "0fd3de640329"
-      },
-      {
-        "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-        "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-        "platform_url": "https://news.ycombinator.com/item?id=50497155",
-        "discussion_url": "https://news.ycombinator.com/item?id=50497155",
-        "score": 142,
-        "comments_count": 68,
-        "publish_time": "2026-11-14T14:09:25+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 119.79999999999998,
-        "id": "1a3d0cb59944"
-      },
-      {
-        "title": "Tech companies are trying to shift the concept of privacy again",
-        "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-        "platform_url": "https://news.ycombinator.com/item?id=50496602",
-        "discussion_url": "https://news.ycombinator.com/item?id=50496602",
-        "score": 530,
-        "comments_count": 182,
-        "publish_time": "2026-11-14T12:45:45+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 425.6,
-        "id": "0cc815a9b05b"
-      },
-      {
-        "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-        "platform_url": "https://news.ycombinator.com/item?id=50493251",
-        "discussion_url": "https://news.ycombinator.com/item?id=50493251",
-        "score": 1064,
-        "comments_count": 631,
-        "publish_time": "2026-11-14T02:52:59+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 934.0999999999999,
-        "id": "24f31355204b"
       }
     ],
     "bestblogs": [
@@ -478,8 +478,8 @@
         ],
         "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajec",
         "platform": "huggingface",
-        "score": 48,
-        "comments_count": 2,
+        "score": 87,
+        "comments_count": 3,
         "id": "c8bf62599e8a"
       },
       {
@@ -493,9 +493,54 @@
         ],
         "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and to",
         "platform": "huggingface",
-        "score": 45,
-        "comments_count": 2,
+        "score": 107,
+        "comments_count": 4,
         "id": "e4655885b93f"
+      },
+      {
+        "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+        "url": "https://huggingface.co/papers/2611.18482",
+        "platform_url": "https://huggingface.co/papers/2611.18482",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18482.png",
+        "publish_time": "2026-11-12T19:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that accep",
+        "platform": "huggingface",
+        "score": 35,
+        "comments_count": 2,
+        "id": "5dca97f56e54"
+      },
+      {
+        "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+        "url": "https://huggingface.co/papers/2611.17831",
+        "platform_url": "https://huggingface.co/papers/2611.17831",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17831.png",
+        "publish_time": "2026-11-12T19:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% whi",
+        "platform": "huggingface",
+        "score": 21,
+        "comments_count": 1,
+        "id": "feffae9346e1"
+      },
+      {
+        "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+        "url": "https://huggingface.co/papers/2611.17878",
+        "platform_url": "https://huggingface.co/papers/2611.17878",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17878.png",
+        "publish_time": "2026-11-12T19:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than generative for future cities; fine-grained, aligned monthly dynamic energy data are scarce; and existing",
+        "platform": "huggingface",
+        "score": 20,
+        "comments_count": 2,
+        "id": "0bf9f88c040f"
       },
       {
         "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
@@ -543,6 +588,38 @@
         "id": "3704cd8695bb"
       },
       {
+        "title": "Unbundling Multimodal Vision Encoding",
+        "url": "https://huggingface.co/papers/2611.17334",
+        "platform_url": "https://huggingface.co/papers/2611.17334",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17334.png",
+        "publish_time": "2026-11-11T19:00:00.000Z",
+        "tags": [
+          "论文"
+        ],
+        "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and c",
+        "platform": "huggingface",
+        "score": 19,
+        "comments_count": 5,
+        "id": "b39518032ea6"
+      },
+      {
+        "title": "[模型] Edge0/Edge0-145B-q3k",
+        "url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+        "platform_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+        "cover_url": null,
+        "publish_time": "2026-11-11T05:23:10.000Z",
+        "tags": [
+          "模型",
+          "text-generation"
+        ],
+        "summary": "TrendingScore 92 · 下载 92,228",
+        "platform": "huggingface",
+        "score": 123,
+        "trending_score": 92,
+        "downloads": 92228,
+        "id": "2889b155a586"
+      },
+      {
         "title": "[模型] Edge0/Edge0-145B-NVFP4",
         "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
         "platform_url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
@@ -552,11 +629,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 267 · 下载 41,606",
+        "summary": "TrendingScore 146 · 下载 55,335",
         "platform": "huggingface",
-        "score": 312,
-        "trending_score": 267,
-        "downloads": 41606,
+        "score": 414,
+        "trending_score": 146,
+        "downloads": 55335,
         "id": "80668345716d"
       },
       {
@@ -600,114 +677,41 @@
         ],
         "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization",
         "platform": "huggingface",
-        "score": 37,
+        "score": 38,
         "comments_count": 3,
         "id": "ceefb5c0aedf"
       },
       {
-        "title": "MMDM: Measuring Massive Multitask Decision Making",
-        "url": "https://huggingface.co/papers/2611.14309",
-        "platform_url": "https://huggingface.co/papers/2611.14309",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14309.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
+        "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+        "url": "https://huggingface.co/papers/2611.15789",
+        "platform_url": "https://huggingface.co/papers/2611.15789",
+        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15789.png",
+        "publish_time": "2026-11-10T19:00:00.000Z",
         "tags": [
           "论文"
         ],
-        "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges",
-        "platform": "huggingface",
-        "score": 27,
-        "comments_count": 3,
-        "id": "65d086a5c9ca"
-      },
-      {
-        "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
-        "url": "https://huggingface.co/papers/2611.11166",
-        "platform_url": "https://huggingface.co/papers/2611.11166",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11166.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinemati",
-        "platform": "huggingface",
-        "score": 25,
-        "comments_count": 2,
-        "id": "511bfb7b3636"
-      },
-      {
-        "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-        "url": "https://huggingface.co/papers/2611.14210",
-        "platform_url": "https://huggingface.co/papers/2611.14210",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14210.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop directio",
-        "platform": "huggingface",
-        "score": 62,
-        "comments_count": 2,
-        "id": "81c2b21ba4a6"
-      },
-      {
-        "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-        "url": "https://huggingface.co/papers/2611.14320",
-        "platform_url": "https://huggingface.co/papers/2611.14320",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14320.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectori",
-        "platform": "huggingface",
-        "score": 65,
-        "comments_count": 7,
-        "id": "16932a355b8e"
-      },
-      {
-        "title": "Few-Step Streaming Video Generation via Condition Shifting",
-        "url": "https://huggingface.co/papers/2611.14033",
-        "platform_url": "https://huggingface.co/papers/2611.14033",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14033.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation u",
+        "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including sc",
         "platform": "huggingface",
         "score": 83,
         "comments_count": 2,
-        "id": "0733547719d2"
+        "id": "a1cbdaf8c598"
       },
       {
-        "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-        "url": "https://huggingface.co/papers/2611.13410",
-        "platform_url": "https://huggingface.co/papers/2611.13410",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13410.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
+        "title": "[模型] MinimaLabs/KLM-1.6",
+        "url": "https://huggingface.co/MinimaLabs/KLM-1.6",
+        "platform_url": "https://huggingface.co/MinimaLabs/KLM-1.6",
+        "cover_url": null,
+        "publish_time": "2026-11-09T10:00:48.000Z",
         "tags": [
-          "论文"
+          "模型",
+          "text-generation"
         ],
-        "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce ",
+        "summary": "TrendingScore 98 · 下载 1,948",
         "platform": "huggingface",
-        "score": 37,
-        "comments_count": 3,
-        "id": "7c7e68ce3911"
-      },
-      {
-        "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
-        "url": "https://huggingface.co/papers/2611.14815",
-        "platform_url": "https://huggingface.co/papers/2611.14815",
-        "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-        "publish_time": "2026-11-09T19:00:00.000Z",
-        "tags": [
-          "论文"
-        ],
-        "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories a",
-        "platform": "huggingface",
-        "score": 54,
-        "comments_count": 3,
-        "id": "d854037a4841"
+        "score": 130,
+        "trending_score": 98,
+        "downloads": 1948,
+        "id": "cfd58b1ef04a"
       },
       {
         "title": "[模型] tencent/Qwen3.8-27B-DSpine-b16",
@@ -736,11 +740,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 266 · 下载 7,497",
+        "summary": "TrendingScore 271 · 下载 9,187",
         "platform": "huggingface",
-        "score": 617,
-        "trending_score": 266,
-        "downloads": 7497,
+        "score": 647,
+        "trending_score": 271,
+        "downloads": 9187,
         "id": "318a11f28a42"
       },
       {
@@ -770,15 +774,37 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 4101 · 下载 27,037",
+        "summary": "TrendingScore 3003 · 下载 29,567",
         "platform": "huggingface",
-        "score": 7594,
-        "trending_score": 4101,
-        "downloads": 27037,
+        "score": 8447,
+        "trending_score": 3003,
+        "downloads": 29567,
         "id": "26e2dd62cbc0"
       }
     ],
     "radarai": [
+      {
+        "title": "国产模型周用量119万亿连续29周压美国 · 1117-834期",
+        "url": "https://radarai.top/updates/brief-20261117-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261117-0000",
+        "cover_url": null,
+        "publish_time": "2026-11-16T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "b46dec44d665"
+      },
+      {
+        "title": "腾讯混元Hy4 flash以12B激活实现1M上下文，成本降18倍 · 1116-833期",
+        "url": "https://radarai.top/updates/brief-20261116-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261116-1600",
+        "cover_url": null,
+        "publish_time": "2026-11-16T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "982753906f55"
+      },
       {
         "title": "OpenAI解散机器人团队转攻GPT-6，美团开源1.6T模型押注昇腾 · 1116-832期",
         "url": "https://radarai.top/updates/brief-20261116-0800",
@@ -866,31 +892,70 @@
         "summary": "",
         "platform": "radarai",
         "id": "e9d12dd9a691"
-      },
-      {
-        "title": "谷歌Gemini 4 Hydrogen人人可用，腾讯混元Hy4网络安全评测登顶 · 1113-824期",
-        "url": "https://radarai.top/updates/brief-20261113-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261113-1600",
-        "cover_url": null,
-        "publish_time": "2026-11-13T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "2d18423fd7c6"
-      },
-      {
-        "title": "每周 AI 热点 · 2026-11-13",
-        "url": "https://radarai.top/updates/weekly-2026-11-13",
-        "platform_url": "https://radarai.top/updates/weekly-2026-11-13",
-        "cover_url": null,
-        "publish_time": "2026-11-13T01:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "9fb52345a323"
       }
     ],
     "qbitai": [
+      {
+        "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+        "url": "https://www.qbitai.com/2026/11/510542.html",
+        "platform_url": "https://www.qbitai.com/2026/11/510542.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/bfeda079c42d5b96f6d5d87f6845afb7.jpeg",
+        "publish_time": "2026-11-16T10:57:31+00:00",
+        "tags": [
+          "具身智能",
+          "睿尔曼智能"
+        ],
+        "platform": "qbitai",
+        "id": "b5570c86e403"
+      },
+      {
+        "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
+        "url": "https://www.qbitai.com/2026/11/510526.html",
+        "platform_url": "https://www.qbitai.com/2026/11/510526.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/69ade98054b952917bcb42fc6e1a9971.jpeg",
+        "publish_time": "2026-11-16T08:45:17+00:00",
+        "tags": [
+          "甲子光年"
+        ],
+        "platform": "qbitai",
+        "id": "89945c514191"
+      },
+      {
+        "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
+        "url": "https://www.qbitai.com/2026/11/510493.html",
+        "platform_url": "https://www.qbitai.com/2026/11/510493.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/图虫创意-2492231000593137705-e1794815923486.jpeg",
+        "publish_time": "2026-11-16T07:58:57+00:00",
+        "tags": [
+          "投资界"
+        ],
+        "platform": "qbitai",
+        "id": "76fe6cb3666a"
+      },
+      {
+        "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+        "url": "https://www.qbitai.com/2026/11/510486.html",
+        "platform_url": "https://www.qbitai.com/2026/11/510486.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a1c609ed60a229a5b5d8208396680798.jpeg",
+        "publish_time": "2026-11-16T07:51:57+00:00",
+        "tags": [
+          "阿里巴巴"
+        ],
+        "platform": "qbitai",
+        "id": "2d0567e32fb1"
+      },
+      {
+        "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+        "url": "https://www.qbitai.com/2026/11/510436.html",
+        "platform_url": "https://www.qbitai.com/2026/11/510436.html",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/eb12658dc847c1c07fe71962c1379c4f.png",
+        "publish_time": "2026-11-16T07:26:33+00:00",
+        "tags": [
+          "鸿蒙智行"
+        ],
+        "platform": "qbitai",
+        "id": "93380124d0f7"
+      },
       {
         "title": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融数亿元",
         "url": "https://www.qbitai.com/2026/11/510416.html",
@@ -956,70 +1021,129 @@
         ],
         "platform": "qbitai",
         "id": "cf2b76c1e6b7"
-      },
-      {
-        "title": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB200五成",
-        "url": "https://www.qbitai.com/2026/11/510349.html",
-        "platform_url": "https://www.qbitai.com/2026/11/510349.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-16.png",
-        "publish_time": "2026-11-16T00:00:31+00:00",
-        "tags": [
-          "谷歌"
-        ],
-        "platform": "qbitai",
-        "id": "ba7835b077bd"
-      },
-      {
-        "title": "全球AI音乐榜第一易主！中国黑马首次上榜就干翻Suno",
-        "url": "https://www.qbitai.com/2026/11/510333.html",
-        "platform_url": "https://www.qbitai.com/2026/11/510333.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-6.jpg",
-        "publish_time": "2026-11-15T23:56:24+00:00",
-        "tags": [],
-        "platform": "qbitai",
-        "id": "07fe6c166c74"
-      },
-      {
-        "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-        "url": "https://www.qbitai.com/2026/11/510297.html",
-        "platform_url": "https://www.qbitai.com/2026/11/510297.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/HXCJ5tJaQAAZmki-e1794650979697.jpeg",
-        "publish_time": "2026-11-14T10:08:08+00:00",
-        "tags": [
-          "英伟达",
-          "马斯克",
-          "黄仁勋"
-        ],
-        "platform": "qbitai",
-        "id": "4fac5a6e2f34"
-      },
-      {
-        "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
-        "url": "https://www.qbitai.com/2026/11/510150.html",
-        "platform_url": "https://www.qbitai.com/2026/11/510150.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/859baee6b9e1dbb352c8682af5b299ba-e1794649515349.png",
-        "publish_time": "2026-11-14T09:48:34+00:00",
-        "tags": [
-          "纸飞机"
-        ],
-        "platform": "qbitai",
-        "id": "11495d93b515"
-      },
-      {
-        "title": "突发！DeepSeek开放全家桶API",
-        "url": "https://www.qbitai.com/2026/11/510003.html",
-        "platform_url": "https://www.qbitai.com/2026/11/510003.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/屏幕截图-2026-11-13-233726-e1794623978497.png",
-        "publish_time": "2026-11-14T02:39:56+00:00",
-        "tags": [
-          "Deepseek"
-        ],
-        "platform": "qbitai",
-        "id": "3429955fffbe"
       }
     ]
   },
   "sorted_all": [
+    {
+      "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+      "url": "https://openai.com/index/strengthening-online-child-safety/",
+      "platform_url": "https://news.ycombinator.com/item?id=50520804",
+      "discussion_url": "https://news.ycombinator.com/item?id=50520804",
+      "score": 70,
+      "comments_count": 126,
+      "publish_time": "2026-11-16T18:12:48+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 86.8,
+      "id": "6c71a7907ed2"
+    },
+    {
+      "title": "国产模型周用量119万亿连续29周压美国 · 1117-834期",
+      "url": "https://radarai.top/updates/brief-20261117-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261117-0000",
+      "cover_url": null,
+      "publish_time": "2026-11-16T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "b46dec44d665"
+    },
+    {
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "platform_url": "https://news.ycombinator.com/item?id=50517321",
+      "discussion_url": "https://news.ycombinator.com/item?id=50517321",
+      "score": 128,
+      "comments_count": 79,
+      "publish_time": "2026-11-16T13:18:22+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 113.3,
+      "id": "9b77ae1845bd"
+    },
+    {
+      "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+      "url": "https://www.qbitai.com/2026/11/510542.html",
+      "platform_url": "https://www.qbitai.com/2026/11/510542.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/bfeda079c42d5b96f6d5d87f6845afb7.jpeg",
+      "publish_time": "2026-11-16T10:57:31+00:00",
+      "tags": [
+        "具身智能",
+        "睿尔曼智能"
+      ],
+      "platform": "qbitai",
+      "id": "b5570c86e403"
+    },
+    {
+      "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
+      "url": "https://www.qbitai.com/2026/11/510526.html",
+      "platform_url": "https://www.qbitai.com/2026/11/510526.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/69ade98054b952917bcb42fc6e1a9971.jpeg",
+      "publish_time": "2026-11-16T08:45:17+00:00",
+      "tags": [
+        "甲子光年"
+      ],
+      "platform": "qbitai",
+      "id": "89945c514191"
+    },
+    {
+      "title": "腾讯混元Hy4 flash以12B激活实现1M上下文，成本降18倍 · 1116-833期",
+      "url": "https://radarai.top/updates/brief-20261116-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261116-1600",
+      "cover_url": null,
+      "publish_time": "2026-11-16T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "982753906f55"
+    },
+    {
+      "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
+      "url": "https://www.qbitai.com/2026/11/510493.html",
+      "platform_url": "https://www.qbitai.com/2026/11/510493.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/图虫创意-2492231000593137705-e1794815923486.jpeg",
+      "publish_time": "2026-11-16T07:58:57+00:00",
+      "tags": [
+        "投资界"
+      ],
+      "platform": "qbitai",
+      "id": "76fe6cb3666a"
+    },
+    {
+      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+      "url": "https://www.qbitai.com/2026/11/510486.html",
+      "platform_url": "https://www.qbitai.com/2026/11/510486.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/a1c609ed60a229a5b5d8208396680798.jpeg",
+      "publish_time": "2026-11-16T07:51:57+00:00",
+      "tags": [
+        "阿里巴巴"
+      ],
+      "platform": "qbitai",
+      "id": "2d0567e32fb1"
+    },
+    {
+      "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
+      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+      "platform_url": "https://news.ycombinator.com/item?id=50515058",
+      "discussion_url": "https://news.ycombinator.com/item?id=50515058",
+      "score": 277,
+      "comments_count": 124,
+      "publish_time": "2026-11-16T07:38:19+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 231.09999999999997,
+      "id": "c8bbb7a36224"
+    },
+    {
+      "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
+      "url": "https://www.qbitai.com/2026/11/510436.html",
+      "platform_url": "https://www.qbitai.com/2026/11/510436.html",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/eb12658dc847c1c07fe71962c1379c4f.png",
+      "publish_time": "2026-11-16T07:26:33+00:00",
+      "tags": [
+        "鸿蒙智行"
+      ],
+      "platform": "qbitai",
+      "id": "93380124d0f7"
+    },
     {
       "title": "Perplexity 发布 Decider v1.3 与 Decider Flash v1.3，在 AA Decision Index v2.1 上分别斩获 70 和 64 分",
       "url": "https://www.bestblogs.dev/article/RAW_2121595922090230033",
@@ -1419,11 +1543,11 @@
       "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
       "platform_url": "https://news.ycombinator.com/item?id=50512441",
       "discussion_url": "https://news.ycombinator.com/item?id=50512441",
-      "score": 120,
-      "comments_count": 29,
+      "score": 238,
+      "comments_count": 64,
       "publish_time": "2026-11-16T00:21:54+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 92.7,
+      "hn_hot_score": 185.79999999999998,
       "id": "b5d875dadab4"
     },
     {
@@ -1439,18 +1563,6 @@
       "id": "cf2b76c1e6b7"
     },
     {
-      "title": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB200五成",
-      "url": "https://www.qbitai.com/2026/11/510349.html",
-      "platform_url": "https://www.qbitai.com/2026/11/510349.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-16.png",
-      "publish_time": "2026-11-16T00:00:31+00:00",
-      "tags": [
-        "谷歌"
-      ],
-      "platform": "qbitai",
-      "id": "ba7835b077bd"
-    },
-    {
       "title": "OpenAI解散机器人团队转攻GPT-6，美团开源1.6T模型押注昇腾 · 1116-832期",
       "url": "https://radarai.top/updates/brief-20261116-0800",
       "platform_url": "https://radarai.top/updates/brief-20261116-0800",
@@ -1460,16 +1572,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "b4fd632c6e28"
-    },
-    {
-      "title": "全球AI音乐榜第一易主！中国黑马首次上榜就干翻Suno",
-      "url": "https://www.qbitai.com/2026/11/510333.html",
-      "platform_url": "https://www.qbitai.com/2026/11/510333.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-6.jpg",
-      "publish_time": "2026-11-15T23:56:24+00:00",
-      "tags": [],
-      "platform": "qbitai",
-      "id": "07fe6c166c74"
     },
     {
       "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
@@ -1488,11 +1590,11 @@
       "url": "https://baron.by.dai.studio/",
       "platform_url": "https://news.ycombinator.com/item?id=50510296",
       "discussion_url": "https://news.ycombinator.com/item?id=50510296",
-      "score": 125,
-      "comments_count": 23,
+      "score": 225,
+      "comments_count": 59,
       "publish_time": "2026-11-15T20:20:05+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 94.4,
+      "hn_hot_score": 175.2,
       "id": "534c2bef4e55"
     },
     {
@@ -1500,11 +1602,11 @@
       "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
       "platform_url": "https://news.ycombinator.com/item?id=50509308",
       "discussion_url": "https://news.ycombinator.com/item?id=50509308",
-      "score": 218,
-      "comments_count": 94,
+      "score": 296,
+      "comments_count": 182,
       "publish_time": "2026-11-15T18:23:21+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 180.79999999999998,
+      "hn_hot_score": 261.8,
       "id": "3636f76cb6c0"
     },
     {
@@ -1523,11 +1625,11 @@
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "platform_url": "https://news.ycombinator.com/item?id=50507303",
       "discussion_url": "https://news.ycombinator.com/item?id=50507303",
-      "score": 1138,
-      "comments_count": 611,
+      "score": 1241,
+      "comments_count": 650,
       "publish_time": "2026-11-15T14:46:58+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 979.8999999999999,
+      "hn_hot_score": 1063.6999999999998,
       "id": "f2667684f9cf"
     },
     {
@@ -1569,11 +1671,11 @@
       "url": "https://www.crissyfield.de/research/lovable-en/",
       "platform_url": "https://news.ycombinator.com/item?id=50499017",
       "discussion_url": "https://news.ycombinator.com/item?id=50499017",
-      "score": 981,
-      "comments_count": 372,
+      "score": 999,
+      "comments_count": 374,
       "publish_time": "2026-11-14T17:43:10+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 798.3,
+      "hn_hot_score": 811.5,
       "id": "0fd3de640329"
     },
     {
@@ -1588,56 +1690,6 @@
       "id": "a1bbec809849"
     },
     {
-      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-      "platform_url": "https://news.ycombinator.com/item?id=50497155",
-      "discussion_url": "https://news.ycombinator.com/item?id=50497155",
-      "score": 142,
-      "comments_count": 68,
-      "publish_time": "2026-11-14T14:09:25+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 119.79999999999998,
-      "id": "1a3d0cb59944"
-    },
-    {
-      "title": "Tech companies are trying to shift the concept of privacy again",
-      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-      "platform_url": "https://news.ycombinator.com/item?id=50496602",
-      "discussion_url": "https://news.ycombinator.com/item?id=50496602",
-      "score": 530,
-      "comments_count": 182,
-      "publish_time": "2026-11-14T12:45:45+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 425.6,
-      "id": "0cc815a9b05b"
-    },
-    {
-      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "url": "https://www.qbitai.com/2026/11/510297.html",
-      "platform_url": "https://www.qbitai.com/2026/11/510297.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/HXCJ5tJaQAAZmki-e1794650979697.jpeg",
-      "publish_time": "2026-11-14T10:08:08+00:00",
-      "tags": [
-        "英伟达",
-        "马斯克",
-        "黄仁勋"
-      ],
-      "platform": "qbitai",
-      "id": "4fac5a6e2f34"
-    },
-    {
-      "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
-      "url": "https://www.qbitai.com/2026/11/510150.html",
-      "platform_url": "https://www.qbitai.com/2026/11/510150.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/859baee6b9e1dbb352c8682af5b299ba-e1794649515349.png",
-      "publish_time": "2026-11-14T09:48:34+00:00",
-      "tags": [
-        "纸飞机"
-      ],
-      "platform": "qbitai",
-      "id": "11495d93b515"
-    },
-    {
       "title": "谷歌Gemini多智能体攻克韦伊猜想 · 1114-827期",
       "url": "https://radarai.top/updates/brief-20261114-1600",
       "platform_url": "https://radarai.top/updates/brief-20261114-1600",
@@ -1647,30 +1699,6 @@
       "summary": "",
       "platform": "radarai",
       "id": "54d88fb0635f"
-    },
-    {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "platform_url": "https://news.ycombinator.com/item?id=50493251",
-      "discussion_url": "https://news.ycombinator.com/item?id=50493251",
-      "score": 1064,
-      "comments_count": 631,
-      "publish_time": "2026-11-14T02:52:59+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 934.0999999999999,
-      "id": "24f31355204b"
-    },
-    {
-      "title": "突发！DeepSeek开放全家桶API",
-      "url": "https://www.qbitai.com/2026/11/510003.html",
-      "platform_url": "https://www.qbitai.com/2026/11/510003.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/屏幕截图-2026-11-13-233726-e1794623978497.png",
-      "publish_time": "2026-11-14T02:39:56+00:00",
-      "tags": [
-        "Deepseek"
-      ],
-      "platform": "qbitai",
-      "id": "3429955fffbe"
     },
     {
       "title": "Anthropic路演放话9000亿美元买算力 · 1114-826期",
@@ -1695,28 +1723,6 @@
       "id": "e9d12dd9a691"
     },
     {
-      "title": "谷歌Gemini 4 Hydrogen人人可用，腾讯混元Hy4网络安全评测登顶 · 1113-824期",
-      "url": "https://radarai.top/updates/brief-20261113-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261113-1600",
-      "cover_url": null,
-      "publish_time": "2026-11-13T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "2d18423fd7c6"
-    },
-    {
-      "title": "每周 AI 热点 · 2026-11-13",
-      "url": "https://radarai.top/updates/weekly-2026-11-13",
-      "platform_url": "https://radarai.top/updates/weekly-2026-11-13",
-      "cover_url": null,
-      "publish_time": "2026-11-13T01:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "9fb52345a323"
-    },
-    {
       "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
       "url": "https://huggingface.co/papers/2611.18397",
       "platform_url": "https://huggingface.co/papers/2611.18397",
@@ -1727,8 +1733,8 @@
       ],
       "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajec",
       "platform": "huggingface",
-      "score": 48,
-      "comments_count": 2,
+      "score": 87,
+      "comments_count": 3,
       "id": "c8bf62599e8a"
     },
     {
@@ -1742,9 +1748,54 @@
       ],
       "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and to",
       "platform": "huggingface",
-      "score": 45,
-      "comments_count": 2,
+      "score": 107,
+      "comments_count": 4,
       "id": "e4655885b93f"
+    },
+    {
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.18482",
+      "platform_url": "https://huggingface.co/papers/2611.18482",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18482.png",
+      "publish_time": "2026-11-12T19:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that accep",
+      "platform": "huggingface",
+      "score": 35,
+      "comments_count": 2,
+      "id": "5dca97f56e54"
+    },
+    {
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "url": "https://huggingface.co/papers/2611.17831",
+      "platform_url": "https://huggingface.co/papers/2611.17831",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17831.png",
+      "publish_time": "2026-11-12T19:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% whi",
+      "platform": "huggingface",
+      "score": 21,
+      "comments_count": 1,
+      "id": "feffae9346e1"
+    },
+    {
+      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+      "url": "https://huggingface.co/papers/2611.17878",
+      "platform_url": "https://huggingface.co/papers/2611.17878",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17878.png",
+      "publish_time": "2026-11-12T19:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than generative for future cities; fine-grained, aligned monthly dynamic energy data are scarce; and existing",
+      "platform": "huggingface",
+      "score": 20,
+      "comments_count": 2,
+      "id": "0bf9f88c040f"
     },
     {
       "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
@@ -1792,6 +1843,38 @@
       "id": "3704cd8695bb"
     },
     {
+      "title": "Unbundling Multimodal Vision Encoding",
+      "url": "https://huggingface.co/papers/2611.17334",
+      "platform_url": "https://huggingface.co/papers/2611.17334",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17334.png",
+      "publish_time": "2026-11-11T19:00:00.000Z",
+      "tags": [
+        "论文"
+      ],
+      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and c",
+      "platform": "huggingface",
+      "score": 19,
+      "comments_count": 5,
+      "id": "b39518032ea6"
+    },
+    {
+      "title": "[模型] Edge0/Edge0-145B-q3k",
+      "url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "platform_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "cover_url": null,
+      "publish_time": "2026-11-11T05:23:10.000Z",
+      "tags": [
+        "模型",
+        "text-generation"
+      ],
+      "summary": "TrendingScore 92 · 下载 92,228",
+      "platform": "huggingface",
+      "score": 123,
+      "trending_score": 92,
+      "downloads": 92228,
+      "id": "2889b155a586"
+    },
+    {
       "title": "[模型] Edge0/Edge0-145B-NVFP4",
       "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
       "platform_url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
@@ -1801,11 +1884,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 267 · 下载 41,606",
+      "summary": "TrendingScore 146 · 下载 55,335",
       "platform": "huggingface",
-      "score": 312,
-      "trending_score": 267,
-      "downloads": 41606,
+      "score": 414,
+      "trending_score": 146,
+      "downloads": 55335,
       "id": "80668345716d"
     },
     {
@@ -1849,114 +1932,41 @@
       ],
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization",
       "platform": "huggingface",
-      "score": 37,
+      "score": 38,
       "comments_count": 3,
       "id": "ceefb5c0aedf"
     },
     {
-      "title": "MMDM: Measuring Massive Multitask Decision Making",
-      "url": "https://huggingface.co/papers/2611.14309",
-      "platform_url": "https://huggingface.co/papers/2611.14309",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14309.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "url": "https://huggingface.co/papers/2611.15789",
+      "platform_url": "https://huggingface.co/papers/2611.15789",
+      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15789.png",
+      "publish_time": "2026-11-10T19:00:00.000Z",
       "tags": [
         "论文"
       ],
-      "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges",
-      "platform": "huggingface",
-      "score": 27,
-      "comments_count": 3,
-      "id": "65d086a5c9ca"
-    },
-    {
-      "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
-      "url": "https://huggingface.co/papers/2611.11166",
-      "platform_url": "https://huggingface.co/papers/2611.11166",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11166.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinemati",
-      "platform": "huggingface",
-      "score": 25,
-      "comments_count": 2,
-      "id": "511bfb7b3636"
-    },
-    {
-      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-      "url": "https://huggingface.co/papers/2611.14210",
-      "platform_url": "https://huggingface.co/papers/2611.14210",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14210.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop directio",
-      "platform": "huggingface",
-      "score": 62,
-      "comments_count": 2,
-      "id": "81c2b21ba4a6"
-    },
-    {
-      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-      "url": "https://huggingface.co/papers/2611.14320",
-      "platform_url": "https://huggingface.co/papers/2611.14320",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14320.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectori",
-      "platform": "huggingface",
-      "score": 65,
-      "comments_count": 7,
-      "id": "16932a355b8e"
-    },
-    {
-      "title": "Few-Step Streaming Video Generation via Condition Shifting",
-      "url": "https://huggingface.co/papers/2611.14033",
-      "platform_url": "https://huggingface.co/papers/2611.14033",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14033.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation u",
+      "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including sc",
       "platform": "huggingface",
       "score": 83,
       "comments_count": 2,
-      "id": "0733547719d2"
+      "id": "a1cbdaf8c598"
     },
     {
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "url": "https://huggingface.co/papers/2611.13410",
-      "platform_url": "https://huggingface.co/papers/2611.13410",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13410.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
+      "title": "[模型] MinimaLabs/KLM-1.6",
+      "url": "https://huggingface.co/MinimaLabs/KLM-1.6",
+      "platform_url": "https://huggingface.co/MinimaLabs/KLM-1.6",
+      "cover_url": null,
+      "publish_time": "2026-11-09T10:00:48.000Z",
       "tags": [
-        "论文"
+        "模型",
+        "text-generation"
       ],
-      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce ",
+      "summary": "TrendingScore 98 · 下载 1,948",
       "platform": "huggingface",
-      "score": 37,
-      "comments_count": 3,
-      "id": "7c7e68ce3911"
-    },
-    {
-      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
-      "url": "https://huggingface.co/papers/2611.14815",
-      "platform_url": "https://huggingface.co/papers/2611.14815",
-      "cover_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-      "publish_time": "2026-11-09T19:00:00.000Z",
-      "tags": [
-        "论文"
-      ],
-      "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories a",
-      "platform": "huggingface",
-      "score": 54,
-      "comments_count": 3,
-      "id": "d854037a4841"
+      "score": 130,
+      "trending_score": 98,
+      "downloads": 1948,
+      "id": "cfd58b1ef04a"
     },
     {
       "title": "[模型] tencent/Qwen3.8-27B-DSpine-b16",
@@ -1985,11 +1995,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 266 · 下载 7,497",
+      "summary": "TrendingScore 271 · 下载 9,187",
       "platform": "huggingface",
-      "score": 617,
-      "trending_score": 266,
-      "downloads": 7497,
+      "score": 647,
+      "trending_score": 271,
+      "downloads": 9187,
       "id": "318a11f28a42"
     },
     {
@@ -2019,11 +2029,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 4101 · 下载 27,037",
+      "summary": "TrendingScore 3003 · 下载 29,567",
       "platform": "huggingface",
-      "score": 7594,
-      "trending_score": 4101,
-      "downloads": 27037,
+      "score": 8447,
+      "trending_score": 3003,
+      "downloads": 29567,
       "id": "26e2dd62cbc0"
     }
   ],
@@ -2031,8 +2041,8 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.9,
-      "cover_success_rate": 35.7
+      "avg_response_time": 8.3,
+      "cover_success_rate": 32.9
     },
     "platforms": [
       {
@@ -2040,73 +2050,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-16T07:23:01.313340+00:00"
+        "last_crawl": "2026-11-16T21:49:14.487622+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-16T07:23:26.739410+00:00"
+        "last_crawl": "2026-11-16T21:49:39.176904+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-16T07:23:28.116067+00:00"
+        "last_crawl": "2026-11-16T21:49:40.708932+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-11-16T07:23:36.476990+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-11-16T21:49:46.091537+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-11-16T07:23:36.664296+00:00"
+        "last_crawl": "2026-11-16T21:49:46.177173+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-11-16T07:23:01.313343+00:00",
+        "timestamp": "2026-11-16T21:49:14.487626+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 14.097804
+        "latency": 9.564964
       },
       {
-        "timestamp": "2026-11-16T07:23:26.739412+00:00",
+        "timestamp": "2026-11-16T21:49:39.176909+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 25.426061
+        "latency": 24.689275
       },
       {
-        "timestamp": "2026-11-16T07:23:28.116070+00:00",
+        "timestamp": "2026-11-16T21:49:40.708934+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.376652
+        "latency": 1.53202
       },
       {
-        "timestamp": "2026-11-16T07:23:36.477003+00:00",
+        "timestamp": "2026-11-16T21:49:46.091551+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.360927
+        "items_collected": 0,
+        "latency": 5.382611
       },
       {
-        "timestamp": "2026-11-16T07:23:36.664310+00:00",
+        "timestamp": "2026-11-16T21:49:46.177185+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.187302
+        "latency": 0.085627
       }
     ]
   }
