@@ -1,18 +1,30 @@
 {
-  "update_time": "2026-11-22T07:34:04.895743+00:00",
+  "update_time": "2026-11-22T19:16:11.276672+00:00",
   "platform_unavailable": [],
   "news": {
     "hackernews": [
+      {
+        "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+        "platform_url": "https://news.ycombinator.com/item?id=50597612",
+        "discussion_url": "https://news.ycombinator.com/item?id=50597612",
+        "score": 619,
+        "comments_count": 698,
+        "publish_time": "2026-11-22T08:57:34+00:00",
+        "platform": "hackernews",
+        "hn_hot_score": 642.6999999999999,
+        "id": "f080cf5c21bb"
+      },
       {
         "title": "NINLIVE: The Nine Inch Nails live archive",
         "url": "https://ninlive.com/",
         "platform_url": "https://news.ycombinator.com/item?id=50583274",
         "discussion_url": "https://news.ycombinator.com/item?id=50583274",
-        "score": 370,
-        "comments_count": 106,
+        "score": 378,
+        "comments_count": 110,
         "publish_time": "2026-11-20T22:30:47+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 290.8,
+        "hn_hot_score": 297.59999999999997,
         "id": "50771dc66331"
       },
       {
@@ -20,11 +32,11 @@
         "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
         "platform_url": "https://news.ycombinator.com/item?id=50582069",
         "discussion_url": "https://news.ycombinator.com/item?id=50582069",
-        "score": 893,
-        "comments_count": 204,
+        "score": 1285,
+        "comments_count": 274,
         "publish_time": "2026-11-20T21:03:12+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 686.3,
+        "hn_hot_score": 981.6999999999999,
         "id": "9088c54799f1"
       },
       {
@@ -68,11 +80,11 @@
         "url": "https://alpo.ge/remark.pdf",
         "platform_url": "https://news.ycombinator.com/item?id=50574968",
         "discussion_url": "https://news.ycombinator.com/item?id=50574968",
-        "score": 2868,
-        "comments_count": 2049,
+        "score": 2896,
+        "comments_count": 2078,
         "publish_time": "2026-11-20T14:16:21+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 2622.2999999999997,
+        "hn_hot_score": 2650.6,
         "id": "2411c7a8dcc5"
       },
       {
@@ -80,11 +92,11 @@
         "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
         "platform_url": "https://news.ycombinator.com/item?id=50574383",
         "discussion_url": "https://news.ycombinator.com/item?id=50574383",
-        "score": 509,
-        "comments_count": 891,
+        "score": 525,
+        "comments_count": 918,
         "publish_time": "2026-11-20T13:29:59+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 623.5999999999999,
+        "hn_hot_score": 642.9,
         "id": "11b46f778432"
       },
       {
@@ -92,11 +104,11 @@
         "url": "https://architectlabs.com/blog/frostbite",
         "platform_url": "https://news.ycombinator.com/item?id=50572503",
         "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-        "score": 670,
-        "comments_count": 359,
+        "score": 675,
+        "comments_count": 362,
         "publish_time": "2026-11-20T10:01:41+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 576.6999999999999,
+        "hn_hot_score": 581.0999999999999,
         "id": "a7bc42788731"
       },
       {
@@ -104,24 +116,12 @@
         "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
         "platform_url": "https://news.ycombinator.com/item?id=50572355",
         "discussion_url": "https://news.ycombinator.com/item?id=50572355",
-        "score": 706,
-        "comments_count": 323,
+        "score": 713,
+        "comments_count": 332,
         "publish_time": "2026-11-20T09:43:19+00:00",
         "platform": "hackernews",
-        "hn_hot_score": 591.1,
+        "hn_hot_score": 598.6999999999999,
         "id": "b0d545b49f3c"
-      },
-      {
-        "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-        "url": "https://signal.org/blog/protecting-your-privacy/",
-        "platform_url": "https://news.ycombinator.com/item?id=50572348",
-        "discussion_url": "https://news.ycombinator.com/item?id=50572348",
-        "score": 574,
-        "comments_count": 339,
-        "publish_time": "2026-11-20T09:42:16+00:00",
-        "platform": "hackernews",
-        "hn_hot_score": 503.49999999999994,
-        "id": "522fc59110b3"
       }
     ],
     "bestblogs": [
@@ -478,7 +478,7 @@
         ],
         "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fai",
         "platform": "huggingface",
-        "score": 51,
+        "score": 53,
         "comments_count": 4,
         "id": "87ee1509bd9c"
       },
@@ -523,7 +523,7 @@
         ],
         "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map i",
         "platform": "huggingface",
-        "score": 42,
+        "score": 43,
         "comments_count": 2,
         "id": "78c57e025914"
       },
@@ -538,7 +538,7 @@
         ],
         "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium",
         "platform": "huggingface",
-        "score": 35,
+        "score": 39,
         "comments_count": 4,
         "id": "286826af6029"
       },
@@ -553,7 +553,7 @@
         ],
         "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distributio",
         "platform": "huggingface",
-        "score": 37,
+        "score": 39,
         "comments_count": 4,
         "id": "567d261c9a4e"
       },
@@ -568,7 +568,7 @@
         ],
         "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces dept",
         "platform": "huggingface",
-        "score": 31,
+        "score": 33,
         "comments_count": 3,
         "id": "f6e25c5e72d7"
       },
@@ -612,11 +612,11 @@
           "模型",
           "text-generation"
         ],
-        "summary": "TrendingScore 50.5 · 下载 3,099",
+        "summary": "TrendingScore 51.5 · 下载 3,836",
         "platform": "huggingface",
-        "score": 192,
-        "trending_score": 50.5,
-        "downloads": 3099,
+        "score": 240,
+        "trending_score": 51.5,
+        "downloads": 3836,
         "id": "33659caba7d2"
       },
       {
@@ -772,6 +772,28 @@
     ],
     "radarai": [
       {
+        "title": "多Coding Agent协作工具涌现，Google AI黑五优惠同步上线 · 1123-852期",
+        "url": "https://radarai.top/updates/brief-20261123-0000",
+        "platform_url": "https://radarai.top/updates/brief-20261123-0000",
+        "cover_url": null,
+        "publish_time": "2026-11-22T16:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "292ee21244ba"
+      },
+      {
+        "title": "Claude参与黎曼猜想形式化证明获Lean认证，AI首度跻身前沿数学研究 · 1122-851期",
+        "url": "https://radarai.top/updates/brief-20261122-1600",
+        "platform_url": "https://radarai.top/updates/brief-20261122-1600",
+        "cover_url": null,
+        "publish_time": "2026-11-22T08:00:00+00:00",
+        "tags": [],
+        "summary": "",
+        "platform": "radarai",
+        "id": "f62fe0dc7b20"
+      },
+      {
         "title": "Claude攻破黎曼猜想难题，AI泡沫担忧却飙至62% · 1122-850期",
         "url": "https://radarai.top/updates/brief-20261122-0800",
         "platform_url": "https://radarai.top/updates/brief-20261122-0800",
@@ -858,28 +880,6 @@
         "summary": "",
         "platform": "radarai",
         "id": "62b716e519c5"
-      },
-      {
-        "title": "Anthropic以83美元发行价启动最大IPO，递归自我改进叙事遭研究者声讨 · 1120-843期",
-        "url": "https://radarai.top/updates/brief-20261120-0000",
-        "platform_url": "https://radarai.top/updates/brief-20261120-0000",
-        "cover_url": null,
-        "publish_time": "2026-11-19T16:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "d690c0fee914"
-      },
-      {
-        "title": "谷歌七周连发四款Gemini 4，豆包与WorkBuddy日活双双破千万 · 1119-842期",
-        "url": "https://radarai.top/updates/brief-20261119-1600",
-        "platform_url": "https://radarai.top/updates/brief-20261119-1600",
-        "cover_url": null,
-        "publish_time": "2026-11-19T08:00:00+00:00",
-        "tags": [],
-        "summary": "",
-        "platform": "radarai",
-        "id": "a4b2d340b852"
       }
     ],
     "qbitai": [
@@ -923,7 +923,7 @@
         "title": "中国计算，走出新的登峰之路",
         "url": "https://www.qbitai.com/2026/11/511849.html",
         "platform_url": "https://www.qbitai.com/2026/11/511849.html",
-        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/093f36bee9af6ce303702e863d6f1ee0.jpeg",
+        "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/b0b109d081fa9a8baa15deb024ed7241.jpeg",
         "publish_time": "2026-11-21T14:09:59+00:00",
         "tags": [],
         "platform": "qbitai",
@@ -1024,6 +1024,40 @@
           "platform_url": "https://www.qbitai.com/2026/11/511570.html"
         }
       ]
+    },
+    {
+      "title": "多Coding Agent协作工具涌现，Google AI黑五优惠同步上线 · 1123-852期",
+      "url": "https://radarai.top/updates/brief-20261123-0000",
+      "platform_url": "https://radarai.top/updates/brief-20261123-0000",
+      "cover_url": null,
+      "publish_time": "2026-11-22T16:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "292ee21244ba"
+    },
+    {
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "platform_url": "https://news.ycombinator.com/item?id=50597612",
+      "discussion_url": "https://news.ycombinator.com/item?id=50597612",
+      "score": 619,
+      "comments_count": 698,
+      "publish_time": "2026-11-22T08:57:34+00:00",
+      "platform": "hackernews",
+      "hn_hot_score": 642.6999999999999,
+      "id": "f080cf5c21bb"
+    },
+    {
+      "title": "Claude参与黎曼猜想形式化证明获Lean认证，AI首度跻身前沿数学研究 · 1122-851期",
+      "url": "https://radarai.top/updates/brief-20261122-1600",
+      "platform_url": "https://radarai.top/updates/brief-20261122-1600",
+      "cover_url": null,
+      "publish_time": "2026-11-22T08:00:00+00:00",
+      "tags": [],
+      "summary": "",
+      "platform": "radarai",
+      "id": "f62fe0dc7b20"
     },
     {
       "title": "无服务器 GPU 的最佳 Beam Cloud 替代方案有哪些？",
@@ -1410,7 +1444,7 @@
       "title": "中国计算，走出新的登峰之路",
       "url": "https://www.qbitai.com/2026/11/511849.html",
       "platform_url": "https://www.qbitai.com/2026/11/511849.html",
-      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/093f36bee9af6ce303702e863d6f1ee0.jpeg",
+      "cover_url": "https://i.qbitai.com/wp-content/uploads/2026/11/b0b109d081fa9a8baa15deb024ed7241.jpeg",
       "publish_time": "2026-11-21T14:09:59+00:00",
       "tags": [],
       "platform": "qbitai",
@@ -1473,11 +1507,11 @@
       "url": "https://ninlive.com/",
       "platform_url": "https://news.ycombinator.com/item?id=50583274",
       "discussion_url": "https://news.ycombinator.com/item?id=50583274",
-      "score": 370,
-      "comments_count": 106,
+      "score": 378,
+      "comments_count": 110,
       "publish_time": "2026-11-20T22:30:47+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 290.8,
+      "hn_hot_score": 297.59999999999997,
       "id": "50771dc66331"
     },
     {
@@ -1485,11 +1519,11 @@
       "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
       "platform_url": "https://news.ycombinator.com/item?id=50582069",
       "discussion_url": "https://news.ycombinator.com/item?id=50582069",
-      "score": 893,
-      "comments_count": 204,
+      "score": 1285,
+      "comments_count": 274,
       "publish_time": "2026-11-20T21:03:12+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 686.3,
+      "hn_hot_score": 981.6999999999999,
       "id": "9088c54799f1"
     },
     {
@@ -1557,11 +1591,11 @@
       "url": "https://alpo.ge/remark.pdf",
       "platform_url": "https://news.ycombinator.com/item?id=50574968",
       "discussion_url": "https://news.ycombinator.com/item?id=50574968",
-      "score": 2868,
-      "comments_count": 2049,
+      "score": 2896,
+      "comments_count": 2078,
       "publish_time": "2026-11-20T14:16:21+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 2622.2999999999997,
+      "hn_hot_score": 2650.6,
       "id": "2411c7a8dcc5"
     },
     {
@@ -1569,11 +1603,11 @@
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "platform_url": "https://news.ycombinator.com/item?id=50574383",
       "discussion_url": "https://news.ycombinator.com/item?id=50574383",
-      "score": 509,
-      "comments_count": 891,
+      "score": 525,
+      "comments_count": 918,
       "publish_time": "2026-11-20T13:29:59+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 623.5999999999999,
+      "hn_hot_score": 642.9,
       "id": "11b46f778432"
     },
     {
@@ -1593,11 +1627,11 @@
       "url": "https://architectlabs.com/blog/frostbite",
       "platform_url": "https://news.ycombinator.com/item?id=50572503",
       "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-      "score": 670,
-      "comments_count": 359,
+      "score": 675,
+      "comments_count": 362,
       "publish_time": "2026-11-20T10:01:41+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 576.6999999999999,
+      "hn_hot_score": 581.0999999999999,
       "id": "a7bc42788731"
     },
     {
@@ -1605,24 +1639,12 @@
       "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
       "platform_url": "https://news.ycombinator.com/item?id=50572355",
       "discussion_url": "https://news.ycombinator.com/item?id=50572355",
-      "score": 706,
-      "comments_count": 323,
+      "score": 713,
+      "comments_count": 332,
       "publish_time": "2026-11-20T09:43:19+00:00",
       "platform": "hackernews",
-      "hn_hot_score": 591.1,
+      "hn_hot_score": 598.6999999999999,
       "id": "b0d545b49f3c"
-    },
-    {
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
-      "platform_url": "https://news.ycombinator.com/item?id=50572348",
-      "discussion_url": "https://news.ycombinator.com/item?id=50572348",
-      "score": 574,
-      "comments_count": 339,
-      "publish_time": "2026-11-20T09:42:16+00:00",
-      "platform": "hackernews",
-      "hn_hot_score": 503.49999999999994,
-      "id": "522fc59110b3"
     },
     {
       "title": "苹果追赶智能体、Anthropic打通四大芯片，英伟达5亿收购Inception · 1120-845期",
@@ -1658,28 +1680,6 @@
       "id": "62b716e519c5"
     },
     {
-      "title": "Anthropic以83美元发行价启动最大IPO，递归自我改进叙事遭研究者声讨 · 1120-843期",
-      "url": "https://radarai.top/updates/brief-20261120-0000",
-      "platform_url": "https://radarai.top/updates/brief-20261120-0000",
-      "cover_url": null,
-      "publish_time": "2026-11-19T16:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "d690c0fee914"
-    },
-    {
-      "title": "谷歌七周连发四款Gemini 4，豆包与WorkBuddy日活双双破千万 · 1119-842期",
-      "url": "https://radarai.top/updates/brief-20261119-1600",
-      "platform_url": "https://radarai.top/updates/brief-20261119-1600",
-      "cover_url": null,
-      "publish_time": "2026-11-19T08:00:00+00:00",
-      "tags": [],
-      "summary": "",
-      "platform": "radarai",
-      "id": "a4b2d340b852"
-    },
-    {
       "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
       "url": "https://huggingface.co/papers/2611.26444",
       "platform_url": "https://huggingface.co/papers/2611.26444",
@@ -1690,7 +1690,7 @@
       ],
       "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fai",
       "platform": "huggingface",
-      "score": 51,
+      "score": 53,
       "comments_count": 4,
       "id": "87ee1509bd9c"
     },
@@ -1735,7 +1735,7 @@
       ],
       "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map i",
       "platform": "huggingface",
-      "score": 42,
+      "score": 43,
       "comments_count": 2,
       "id": "78c57e025914"
     },
@@ -1750,7 +1750,7 @@
       ],
       "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium",
       "platform": "huggingface",
-      "score": 35,
+      "score": 39,
       "comments_count": 4,
       "id": "286826af6029"
     },
@@ -1765,7 +1765,7 @@
       ],
       "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distributio",
       "platform": "huggingface",
-      "score": 37,
+      "score": 39,
       "comments_count": 4,
       "id": "567d261c9a4e"
     },
@@ -1780,7 +1780,7 @@
       ],
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces dept",
       "platform": "huggingface",
-      "score": 31,
+      "score": 33,
       "comments_count": 3,
       "id": "f6e25c5e72d7"
     },
@@ -1824,11 +1824,11 @@
         "模型",
         "text-generation"
       ],
-      "summary": "TrendingScore 50.5 · 下载 3,099",
+      "summary": "TrendingScore 51.5 · 下载 3,836",
       "platform": "huggingface",
-      "score": 192,
-      "trending_score": 50.5,
-      "downloads": 3099,
+      "score": 240,
+      "trending_score": 51.5,
+      "downloads": 3836,
       "id": "33659caba7d2"
     },
     {
@@ -1986,7 +1986,7 @@
     "summary": {
       "total_success_rate": 100.0,
       "total_fail_rate": 0.0,
-      "avg_response_time": 9.8,
+      "avg_response_time": 7.8,
       "cover_success_rate": 41.4
     },
     "platforms": [
@@ -1995,73 +1995,73 @@
         "name": "Hacker News",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-22T07:33:29.811613+00:00"
+        "last_crawl": "2026-11-22T19:15:40.455807+00:00"
       },
       {
         "platform": "qbitai",
         "name": "量子位",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-22T07:33:54.807383+00:00"
+        "last_crawl": "2026-11-22T19:16:04.300044+00:00"
       },
       {
         "platform": "radarai",
         "name": "RadarAI",
         "status": "online",
         "item_count": 10,
-        "last_crawl": "2026-11-22T07:33:56.361152+00:00"
+        "last_crawl": "2026-11-22T19:16:05.799637+00:00"
       },
       {
         "platform": "bestblogs",
         "name": "BestBlogs",
         "status": "online",
-        "item_count": 20,
-        "last_crawl": "2026-11-22T07:34:04.693358+00:00"
+        "item_count": 0,
+        "last_crawl": "2026-11-22T19:16:11.172494+00:00"
       },
       {
         "platform": "huggingface",
         "name": "HuggingFace",
         "status": "online",
         "item_count": 20,
-        "last_crawl": "2026-11-22T07:34:04.857081+00:00"
+        "last_crawl": "2026-11-22T19:16:11.237562+00:00"
       }
     ],
     "failure_reasons": {},
     "recent_executions": [
       {
-        "timestamp": "2026-11-22T07:33:29.811619+00:00",
+        "timestamp": "2026-11-22T19:15:40.455811+00:00",
         "platform": "hackernews",
         "status": "success",
         "items_collected": 10,
-        "latency": 13.948777
+        "latency": 8.181842
       },
       {
-        "timestamp": "2026-11-22T07:33:54.807387+00:00",
+        "timestamp": "2026-11-22T19:16:04.300049+00:00",
         "platform": "qbitai",
         "status": "success",
         "items_collected": 10,
-        "latency": 24.995761
+        "latency": 23.844232
       },
       {
-        "timestamp": "2026-11-22T07:33:56.361155+00:00",
+        "timestamp": "2026-11-22T19:16:05.799641+00:00",
         "platform": "radarai",
         "status": "success",
         "items_collected": 10,
-        "latency": 1.553761
+        "latency": 1.499583
       },
       {
-        "timestamp": "2026-11-22T07:34:04.693376+00:00",
+        "timestamp": "2026-11-22T19:16:11.172508+00:00",
         "platform": "bestblogs",
         "status": "success",
-        "items_collected": 20,
-        "latency": 8.332215
+        "items_collected": 0,
+        "latency": 5.372862
       },
       {
-        "timestamp": "2026-11-22T07:34:04.857091+00:00",
+        "timestamp": "2026-11-22T19:16:11.237576+00:00",
         "platform": "huggingface",
         "status": "success",
         "items_collected": 20,
-        "latency": 0.163707
+        "latency": 0.06506
       }
     ]
   }
